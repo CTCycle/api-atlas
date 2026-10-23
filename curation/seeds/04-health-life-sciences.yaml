@@ -1,0 +1,203 @@
+version: 1
+source: curated
+entries:
+- name: NCBI
+  kind: api
+  category: health-medical
+  description: National Center for Biotechnology Information APIs and databases.
+  type: rest
+  provider: ncbi.nlm.nih.gov
+  website: https://www.ncbi.nlm.nih.gov/
+  documentation: https://www.ncbi.nlm.nih.gov/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  license: NLM terms, generally free reuse of US Government produced content
+  license_url: https://www.nlm.nih.gov/web_policies.html
+  commercial_use: restricted
+  attribution_required: true
+  license_basis: provider_policy
+  geographic: Global
+  update_frequency: periodic
+  tags: [biomedical, literature]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: PubMed
+  kind: api
+  category: health-medical
+  description: PubMed biomedical literature search and retrieval.
+  type: rest
+  provider: pubmed.ncbi.nlm.nih.gov
+  website: https://pubmed.ncbi.nlm.nih.gov/
+  documentation: https://pubmed.ncbi.nlm.nih.gov/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  license: NLM terms, generally free reuse of US Government produced content
+  license_url: https://www.nlm.nih.gov/web_policies.html
+  commercial_use: restricted
+  attribution_required: true
+  license_basis: provider_policy
+  geographic: Global
+  update_frequency: daily
+  tags: [literature, biomedical]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: ClinicalTrials.gov
+  kind: api
+  category: health-medical
+  description: US clinical trials registry and results database.
+  type: rest
+  provider: clinicaltrials.gov
+  website: https://clinicaltrials.gov/
+  documentation: https://clinicaltrials.gov/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: daily
+  tags: [clinical-trials, registry]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: openFDA
+  kind: api
+  category: health-medical
+  description: FDA public data APIs for drugs, devices and food.
+  type: rest
+  provider: open.fda.gov
+  website: https://open.fda.gov/
+  documentation: https://open.fda.gov/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  geographic: United States
+  update_frequency: daily
+  tags: [drugs, regulation]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: WHO Data
+  kind: dataset
+  category: health-medical
+  description: World Health Organization health data and statistics.
+  type: portal
+  provider: who.int
+  website: https://www.who.int/
+  documentation: https://www.who.int/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  license: CC BY-NC-SA 3.0 IGO
+  license_spdx: CC-BY-NC-SA-3.0-IGO
+  license_url: https://www.who.int/about/policies/publishing/copyright
+  commercial_use: restricted
+  attribution_required: true
+  license_basis: provider_policy
+  geographic: Global
+  update_frequency: periodic
+  tags: [health, statistics]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: CDC
+  kind: dataset
+  category: health-medical
+  description: US Centers for Disease Control and Prevention data and statistics.
+  type: portal
+  provider: cdc.gov
+  website: https://www.cdc.gov/
+  documentation: https://www.cdc.gov/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  license: US Government work, public domain
+  license_spdx: PD-USGov
+  license_url: https://www.cdc.gov/other/agencymaterials.html
+  commercial_use: allowed
+  attribution_required: false
+  license_basis: provider_policy
+  geographic: United States
+  update_frequency: periodic
+  tags: [public-health, statistics]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: EBI
+  kind: api
+  category: life-sciences
+  description: European Bioinformatics Institute molecular and genomic data services.
+  type: rest
+  provider: ebi.ac.uk
+  website: https://www.ebi.ac.uk/
+  documentation: https://www.ebi.ac.uk/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: periodic
+  tags: [bioinformatics, genomics]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: UniProt
+  kind: api
+  category: life-sciences
+  description: Universal Protein Resource protein sequence and annotation database.
+  type: rest
+  provider: uniprot.org
+  website: https://www.uniprot.org/
+  documentation: https://www.uniprot.org/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  geographic: Global
+  formats: [json, xml, fasta]
+  update_frequency: periodic
+  tags: [proteins, genomics]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: Ensembl
+  kind: api
+  category: life-sciences
+  description: Ensembl genome browser and genomic data APIs.
+  type: rest
+  provider: ensembl.org
+  website: https://www.ensembl.org/
+  documentation: https://www.ensembl.org/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: periodic
+  tags: [genomics, genomes]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: ChEMBL
+  kind: dataset
+  category: life-sciences
+  description: ChEMBL database of bioactive drug-like small molecules.
+  type: portal
+  provider: ebi.ac.uk
+  website: https://www.ebi.ac.uk/chembl/
+  documentation: https://www.ebi.ac.uk/chembl/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  geographic: Global
+  formats: [json, csv]
+  update_frequency: periodic
+  tags: [cheminformatics, drugs]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: Human Cell Atlas
+  kind: dataset
+  category: life-sciences
+  description: Human Cell Atlas single-cell reference datasets.
+  type: portal
+  provider: humancellatlas.org
+  website: https://www.humancellatlas.org/
+  documentation: https://www.humancellatlas.org/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: periodic
+  tags: [single-cell, genomics]
+  confidence: verified
+  verified_on: '2026-10-23'

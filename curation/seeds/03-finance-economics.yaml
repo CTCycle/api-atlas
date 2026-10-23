@@ -1,0 +1,189 @@
+version: 1
+source: curated
+entries:
+- name: Alpha Vantage
+  kind: api
+  category: finance
+  description: Stock, forex and cryptocurrency data API with technical indicators.
+  type: rest
+  provider: alphavantage.co
+  website: https://www.alphavantage.co/
+  documentation: https://www.alphavantage.co/documentation/
+  access: api_key
+  pricing: freemium
+  pricing_basis: official_docs
+  geographic: Global
+  formats: [json, csv]
+  update_frequency: realtime
+  tags: [stocks, forex, crypto]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: Polygon.io
+  kind: api
+  category: finance
+  description: Market data API for stocks, options, forex and crypto.
+  type: rest
+  provider: polygon.io
+  website: https://polygon.io/
+  documentation: https://polygon.io/docs
+  access: api_key
+  pricing: freemium
+  free_tier_limits: Free tier allows 5 API calls/min.
+  pricing_basis: official_docs
+  geographic: US and global markets
+  formats: [json]
+  update_frequency: realtime
+  tags: [stocks, market-data]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: Finnhub
+  kind: api
+  category: finance
+  description: Real-time market data, fundamentals and news API.
+  type: rest
+  provider: finnhub.io
+  website: https://finnhub.io/
+  documentation: https://finnhub.io/docs/api
+  access: api_key
+  pricing: freemium
+  free_tier_limits: Free tier allows 60 API calls/min.
+  pricing_basis: official_docs
+  geographic: Global
+  formats: [json]
+  update_frequency: realtime
+  tags: [stocks, fundamentals]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: Nasdaq Data Link
+  kind: dataset
+  category: finance
+  description: Nasdaq Data Link (formerly Quandl) financial and economic datasets.
+  type: portal
+  provider: data.nasdaq.com
+  website: https://data.nasdaq.com/
+  documentation: https://data.nasdaq.com/
+  access: api_key
+  pricing: freemium
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: daily
+  tags: [financial-data, datasets]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: FRED
+  kind: api
+  category: economics
+  description: Federal Reserve Economic Data API for US macroeconomic series.
+  type: rest
+  provider: fred.stlouisfed.org
+  website: https://fred.stlouisfed.org/
+  documentation: https://fred.stlouisfed.org/docs/api/fred/
+  access: api_key
+  pricing: free
+  pricing_basis: official_docs
+  geographic: United States
+  formats: [json, xml]
+  update_frequency: daily
+  tags: [macroeconomics, time-series]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: World Bank Open Data
+  kind: api
+  category: economics
+  description: World Bank development indicators and open data API.
+  type: rest
+  provider: data.worldbank.org
+  website: https://data.worldbank.org/
+  documentation: https://data.worldbank.org/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  license: Creative Commons Attribution 4.0
+  license_spdx: CC-BY-4.0
+  license_url: https://datacatalog.worldbank.org/public-licenses
+  commercial_use: allowed
+  attribution_required: true
+  license_basis: provider_policy
+  geographic: Global
+  update_frequency: monthly
+  tags: [development, indicators]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: IMF Data
+  kind: dataset
+  category: economics
+  description: International Monetary Fund statistical data portal.
+  type: portal
+  provider: imf.org
+  website: https://www.imf.org/en/Data
+  documentation: https://www.imf.org/en/Data
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: monthly
+  tags: [macroeconomics, statistics]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: OECD Statistics
+  kind: dataset
+  category: economics
+  description: OECD statistical portal for economic and social data.
+  type: portal
+  provider: oecd.org
+  website: https://stats.oecd.org/
+  documentation: https://stats.oecd.org/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  geographic: OECD countries
+  update_frequency: monthly
+  tags: [statistics, economics]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: European Central Bank
+  kind: api
+  category: economics
+  description: ECB data portal for euro area statistics and exchange rates.
+  type: rest
+  provider: ecb.europa.eu
+  website: https://www.ecb.europa.eu/home/html/index.en.html
+  documentation: https://www.ecb.europa.eu/home/html/index.en.html
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  geographic: Euro area
+  update_frequency: daily
+  tags: [exchange-rates, statistics]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: Refinitiv
+  kind: api
+  category: finance
+  description: Refinitiv market data and analytics platform.
+  type: rest
+  provider: refinitiv.com
+  website: https://www.refinitiv.com/
+  documentation: https://www.refinitiv.com/
+  access: restricted
+  pricing: paid
+  pricing_basis: manual
+  geographic: Global
+  update_frequency: realtime
+  tags: [market-data, analytics]
+  confidence: partial
+- name: FactSet
+  kind: api
+  category: finance
+  description: FactSet financial data and analytics platform.
+  type: rest
+  provider: factset.com
+  website: https://www.factset.com/
+  documentation: https://www.factset.com/
+  access: restricted
+  pricing: paid
+  pricing_basis: manual
+  geographic: Global
+  update_frequency: realtime
+  tags: [financial-data, analytics]
+  confidence: partial

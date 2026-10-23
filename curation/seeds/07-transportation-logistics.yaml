@@ -1,0 +1,67 @@
+version: 1
+source: curated
+entries:
+- name: ADS-B Exchange
+  kind: api
+  category: logistics-transportation
+  description: ADS-B aircraft tracking data and API.
+  type: rest
+  provider: adsbexchange.com
+  website: https://www.adsbexchange.com/
+  documentation: https://www.adsbexchange.com/
+  access: api_key
+  pricing: freemium
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: realtime
+  tags: [aviation, tracking]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: FlightAware
+  kind: api
+  category: logistics-transportation
+  description: FlightAware aviation data and flight tracking API.
+  type: rest
+  provider: flightaware.com
+  website: https://www.flightaware.com/
+  documentation: https://www.flightaware.com/commercial/
+  access: restricted
+  pricing: paid
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: realtime
+  tags: [aviation, tracking]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: Amadeus
+  kind: api
+  category: logistics-transportation
+  description: Amadeus travel APIs for flights, hotels and itineraries.
+  type: rest
+  provider: amadeus.com
+  website: https://developers.amadeus.com/
+  documentation: https://developers.amadeus.com/
+  access: restricted
+  pricing: paid
+  pricing_basis: manual
+  geographic: Global
+  update_frequency: realtime
+  tags: [travel, booking]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: MarineTraffic
+  kind: api
+  category: logistics-transportation
+  description: MarineTraffic AIS vessel tracking and maritime data API.
+  type: rest
+  provider: marinetraffic.com
+  website: https://www.marinetraffic.com/en/ais-api-services
+  documentation: https://www.marinetraffic.com/en/ais-api-services
+  access: restricted
+  pricing: paid
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: realtime
+  tags: [maritime, tracking]
+  confidence: verified
+  verified_on: '2026-10-23'

@@ -1,0 +1,315 @@
+# Taxonomy of the registry.
+#
+# `categories` is the closed set of primary categories (single value per entry).
+# `tags` carry secondary domains. Every category must appear in categories.
+# The *_map blocks translate upstream catalog categories into our taxonomy.
+# Upstream values that are absent from a map fall back to `unknown`.
+version: 1
+
+categories:
+  agriculture:
+    label: Agriculture
+    description: Crops, livestock, farmland, food production and agronomy data.
+  ai-ml:
+    label: AI and Machine Learning
+    description: Model APIs, inference services, benchmark corpora and ML datasets.
+  animals:
+    label: Animals
+    description: Species, breeds, wildlife, pets and veterinary resources.
+  art-design:
+    label: Art and Design
+    description: Images, museums, architecture, stock media and design assets.
+  blockchain-crypto:
+    label: Blockchain and Crypto
+    description: Ledgers, tokens, wallets, on-chain analytics and smart contracts.
+  business-commerce:
+    label: Business and Commerce
+    description: Company data, CRM, ecommerce, invoicing and marketplace services.
+  climate-environment:
+    label: Climate and Environment
+    description: Emissions, air quality, biodiversity, hydrology and climate projections.
+  cloud-infrastructure:
+    label: Cloud and Infrastructure
+    description: Compute, storage, hosting, containers and platform services.
+  communication:
+    label: Communication
+    description: Email, SMS, chat, voice and notification services.
+  data-analytics:
+    label: Data and Analytics
+    description: General analytics, statistical series, time series and BI sources.
+  developer-tools:
+    label: Developer Tools
+    description: APIs and datasets for building, testing and shipping software.
+  documents-productivity:
+    label: Documents and Productivity
+    description: Files, calendars, notes, office formats and workflow tools.
+  earth-sciences:
+    label: Earth Sciences
+    description: Geology, geophysics, soil, oceans and planetary surface data.
+  economics:
+    label: Economics
+    description: Macro and micro indicators, trade, labour and price statistics.
+  education:
+    label: Education
+    description: Schools, universities, learning content and assessment data.
+  energy:
+    label: Energy
+    description: Electricity, fuels, renewables, grid and consumption data.
+  entertainment-media:
+    label: Entertainment and Media
+    description: Film, music, books, comics, games metadata and streaming catalogues.
+  finance:
+    label: Finance
+    description: Markets, exchanges, forex, fundamentals, filings and banking data.
+  food-nutrition:
+    label: Food and Nutrition
+    description: Recipes, ingredients, nutrition facts and food composition tables.
+  games:
+    label: Games
+    description: Game metadata, stats, assets and player telemetry.
+  geospatial:
+    label: Geospatial
+    description: Maps, boundaries, addresses, imagery, elevation and routing.
+  government:
+    label: Government
+    description: Public sector services, legislation, registries and civic data.
+  health-medical:
+    label: Health and Medical
+    description: Clinical, epidemiological, pharmaceutical and biomedical resources.
+  identity-security:
+    label: Identity and Security
+    description: Authentication, threat intelligence, malware, fraud and vulnerability data.
+  interdisciplinary:
+    label: Interdisciplinary
+    description: Cross-domain collections that do not fit one primary category.
+  iot:
+    label: IoT and Devices
+    description: Sensors, home automation, device telemetry and embedded platforms.
+  jobs-hr:
+    label: Jobs and HR
+    description: Job boards, labour market, recruiting and workforce data.
+  legal:
+    label: Legal
+    description: Case law, statutes, contracts and regulatory material.
+  life-sciences:
+    label: Life Sciences
+    description: Genomics, proteomics, microbiology and model organism data.
+  logistics-transportation:
+    label: Logistics and Transportation
+    description: Flights, transit, shipping, vehicle and mobility data.
+  manufacturing-industry:
+    label: Manufacturing and Industry
+    description: Production, materials, supply chains and industrial telemetry.
+  marketing-social:
+    label: Marketing and Social
+    description: Social platforms, audience, advertising and brand monitoring.
+  mathematics:
+    label: Mathematics
+    description: Constants, sequences, theorem libraries and formal proofs.
+  neuroscience:
+    label: Neuroscience
+    description: Brain imaging, electrophysiology, connectomics and cognition data.
+  news-journalism:
+    label: News and Journalism
+    description: Articles, feeds, archives, fact checking and media monitoring.
+  open-data:
+    label: Open Data Portals
+    description: Multi-domain government and institutional open data catalogues.
+  patent-ip:
+    label: Patents and IP
+    description: Patent offices, trademarks, prior art and citation data.
+  payments:
+    label: Payments
+    description: Payment processing, billing, payouts and financial infrastructure.
+  physical-sciences:
+    label: Physical Sciences
+    description: Physics, chemistry, materials and astronomy research data.
+  science-research:
+    label: Science and Research
+    description: General scholarly, preprint, citation and research infrastructure.
+  search:
+    label: Search
+    description: Web, document and semantic search services.
+  social-sciences:
+    label: Social Sciences
+    description: Demographics, surveys, psychology, sociology and political data.
+  space:
+    label: Space
+    description: Satellites, orbital data, astronomy imagery and space weather.
+  sports-fitness:
+    label: Sports and Fitness
+    description: Fixtures, results, performance, health tracking and esports.
+  telecommunications:
+    label: Telecommunications
+    description: Networks, phone numbers, carriers, messaging infrastructure and connectivity.
+  test-data:
+    label: Test Data
+    description: Fake, sample and synthetic data for development and QA.
+  travel:
+    label: Travel
+    description: Places, lodging, flights, points of interest and trip planning.
+  unknown:
+    label: Uncategorised
+    description: Not yet classified. Triage queue for curation.
+  weather-climate:
+    label: Weather and Climate
+    description: Forecasts, observations, radar, climate reanalysis and warnings.
+
+# public-apis/public-apis (MIT) section headings
+public_apis:
+  Animals: animals
+  Anime: entertainment-media
+  Anti-Malware: identity-security
+  Art & Design: art-design
+  Authentication & Authorization: identity-security
+  Blockchain: blockchain-crypto
+  Books: entertainment-media
+  Business: business-commerce
+  Calendar: documents-productivity
+  Cloud Storage & File Sharing: cloud-infrastructure
+  Continuous Integration: developer-tools
+  Cryptocurrency: blockchain-crypto
+  Currency Exchange: finance
+  Data Validation: developer-tools
+  Development: developer-tools
+  Dictionaries: documents-productivity
+  Documents & Productivity: documents-productivity
+  Email: communication
+  Entertainment: entertainment-media
+  Environment: climate-environment
+  Events: entertainment-media
+  Finance: finance
+  Food & Drink: food-nutrition
+  Games & Comics: games
+  Geocoding: geospatial
+  Government: government
+  Health: health-medical
+  Jobs: jobs-hr
+  Machine Learning: ai-ml
+  Music: entertainment-media
+  News: news-journalism
+  Open Data: open-data
+  Open Source Projects: developer-tools
+  Patent: patent-ip
+  Personality: entertainment-media
+  Phone: telecommunications
+  Photography: art-design
+  Programming: developer-tools
+  Science & Math: science-research
+  Security: identity-security
+  Shopping: business-commerce
+  Social: marketing-social
+  Sports & Fitness: sports-fitness
+  Test Data: test-data
+  Text Analysis: ai-ml
+  Tracking: logistics-transportation
+  Transportation: logistics-transportation
+  URL Shorteners: developer-tools
+  Vehicle: logistics-transportation
+  Video: entertainment-media
+  Weather: weather-climate
+
+# APIs.guru openapi-directory (CC0) x-apisguru-categories
+apis_guru:
+  analytics: data-analytics
+  backend: cloud-infrastructure
+  cloud: cloud-infrastructure
+  collaboration: documents-productivity
+  customer_relation: business-commerce
+  developer_tools: developer-tools
+  ecommerce: business-commerce
+  education: education
+  email: communication
+  enterprise: business-commerce
+  entertainment: entertainment-media
+  financial: finance
+  forms: business-commerce
+  gis: geospatial
+  hosting: cloud-infrastructure
+  iot: iot
+  location: geospatial
+  machine_learning: ai-ml
+  marketing: marketing-social
+  media: entertainment-media
+  messaging: communication
+  monitoring: developer-tools
+  open_data: open-data
+  payment: payments
+  project_management: documents-productivity
+  search: search
+  security: identity-security
+  social: marketing-social
+  storage: cloud-infrastructure
+  support: business-commerce
+  telecom: telecommunications
+  text: ai-ml
+  time_management: documents-productivity
+  tools: developer-tools
+  transport: logistics-transportation
+
+# awesomedata/awesome-public-datasets (MIT) sections
+awesome_datasets:
+  Agriculture: agriculture
+  Architecture: art-design
+  Biology: life-sciences
+  Chemistry: physical-sciences
+  Climate+Weather: weather-climate
+  ComplexNetworks: data-analytics
+  ComputerNetworks: telecommunications
+  CyberSecurity: identity-security
+  DataChallenges: data-analytics
+  EarthScience: earth-sciences
+  Economics: economics
+  Education: education
+  Energy: energy
+  Entertainment: entertainment-media
+  Finance: finance
+  Government: government
+  Healthcare: health-medical
+  ImageProcessing: ai-ml
+  InterDisciplinary: interdisciplinary
+  MachineLearning: ai-ml
+  Museums: art-design
+  NaturalLanguage: ai-ml
+  Neuroscience: neuroscience
+  Physics: physical-sciences
+  ProstateCancer: health-medical
+  Psychology+Cognition: social-sciences
+  PublicDomains: open-data
+  SearchEngines: search
+  SocialNetworks: marketing-social
+  SocialSciences: social-sciences
+  Software: developer-tools
+  Sports: sports-fitness
+  TimeSeries: data-analytics
+  Transportation: logistics-transportation
+  eSports: games
+  Complementary Collections: open-data
+
+# Provider level classification, used only when the upstream catalog supplies no
+# category. Every rule below describes what the provider unambiguously sells.
+provider_categories:
+  vtex.local: business-commerce
+  amadeus.com: logistics-transportation
+  nexmo.com: communication
+  vonage.com: communication
+  mastercard.com: payments
+  hubapi.com: marketing-social
+  clickup.com: documents-productivity
+  bigoven.com: food-nutrition
+  bridgedb.org: life-sciences
+  aws.amazon.com: cloud-infrastructure
+  back4app.com: cloud-infrastructure
+  cambridgegis.github.io: geospatial
+  census.gov: government
+  citrixonline.com: communication
+  hetras-certification.net: travel
+  getgo.com: travel
+  opentable.com: food-nutrition
+  npr.org: news-journalism
+  guardianapis.com: news-journalism
+  nytimes.com: news-journalism
+  weather.gov: weather-climate
+  metoffice.gov.uk: weather-climate
+  openstreetmap.org: geospatial
+  nominatim.org: geospatial

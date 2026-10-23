@@ -1,0 +1,148 @@
+version: 1
+source: curated
+entries:
+- name: EIA
+  kind: api
+  category: energy
+  description: US Energy Information Administration data API.
+  type: rest
+  provider: eia.gov
+  website: https://www.eia.gov/
+  documentation: https://www.eia.gov/
+  access: api_key
+  pricing: free
+  pricing_basis: official_docs
+  geographic: United States
+  update_frequency: periodic
+  tags: [energy, statistics]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: Ember
+  kind: dataset
+  category: energy
+  description: Ember global electricity data and climate insights.
+  type: portal
+  provider: ember-climate.org
+  website: https://ember-climate.org/
+  documentation: https://ember-climate.org/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: monthly
+  tags: [electricity, climate]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: Open Power System Data
+  kind: dataset
+  category: energy
+  description: Open Power System Data for European electricity systems.
+  type: portal
+  provider: open-power-system-data.org
+  website: https://open-power-system-data.org/
+  documentation: https://open-power-system-data.org/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  geographic: Europe
+  update_frequency: periodic
+  tags: [power-systems, electricity]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: ENTSO-E
+  kind: api
+  category: energy
+  description: ENTSO-E transparency platform for European electricity data.
+  type: rest
+  provider: entsoe.eu
+  website: https://transparency.entsoe.eu/
+  documentation: https://transparency.entsoe.eu/
+  access: registration
+  pricing: free
+  pricing_basis: official_docs
+  geographic: Europe
+  update_frequency: realtime
+  tags: [electricity, grid]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: WattTime
+  kind: api
+  category: energy
+  description: WattTime marginal emissions and grid carbon intensity API.
+  type: rest
+  provider: watttime.org
+  website: https://www.watttime.org/
+  documentation: https://www.watttime.org/
+  access: api_key
+  pricing: freemium
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: realtime
+  tags: [emissions, carbon]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: Electricity Maps
+  kind: api
+  category: energy
+  description: Electricity Maps carbon intensity and electricity mix API.
+  type: rest
+  provider: electricitymaps.com
+  website: https://www.electricitymaps.com/
+  documentation: https://www.electricitymaps.com/
+  access: api_key
+  pricing: freemium
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: realtime
+  tags: [carbon, electricity]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: UK Carbon Intensity
+  kind: api
+  category: energy
+  description: UK national grid carbon intensity API.
+  type: rest
+  provider: carbonintensity.org.uk
+  website: https://carbonintensity.org.uk/
+  documentation: https://carbonintensity.org.uk/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  geographic: United Kingdom
+  update_frequency: hourly
+  tags: [carbon, grid]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: OpenAQ
+  kind: api
+  category: climate-environment
+  description: OpenAQ global air quality data API.
+  type: rest
+  provider: openaq.org
+  website: https://openaq.org/
+  documentation: https://openaq.org/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  geographic: Global
+  formats: [json, csv]
+  update_frequency: hourly
+  tags: [air-quality, environment]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: IRENA
+  kind: dataset
+  category: energy
+  description: IRENA renewable energy statistics portal.
+  type: portal
+  provider: irena.org
+  website: https://pxweb.irena.org/
+  documentation: https://pxweb.irena.org/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: periodic
+  tags: [renewables, statistics]
+  confidence: verified
+  verified_on: '2026-10-23'

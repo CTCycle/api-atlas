@@ -1,0 +1,143 @@
+version: 1
+source: curated
+entries:
+- name: Crossref
+  kind: api
+  category: science-research
+  description: Crossref metadata API for scholarly works and citations.
+  type: rest
+  provider: crossref.org
+  website: https://www.crossref.org/
+  documentation: https://api.crossref.org/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  license: Crossref metadata, CC0 1.0
+  license_spdx: CC0-1.0
+  license_url: https://www.crossref.org/documentation/retrieve-metadata/rest-api/rest-api-metadata-license-information/
+  commercial_use: allowed
+  attribution_required: false
+  license_basis: provider_policy
+  geographic: Global
+  update_frequency: periodic
+  tags: [citations, metadata]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: OpenAlex
+  kind: api
+  category: science-research
+  description: OpenAlex scholarly graph API for works, authors and institutions.
+  type: rest
+  provider: openalex.org
+  website: https://docs.openalex.org/
+  documentation: https://api.openalex.org/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  license: OpenAlex data, CC0 1.0
+  license_spdx: CC0-1.0
+  license_url: https://docs.openalex.org/how-to-use-the-api/rate-limits-and-authentication
+  commercial_use: allowed
+  attribution_required: false
+  license_basis: provider_policy
+  geographic: Global
+  update_frequency: periodic
+  tags: [scholarship, metadata]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: arXiv
+  kind: api
+  category: science-research
+  description: arXiv preprint repository API for physics, math and computer science.
+  type: rest
+  provider: arxiv.org
+  website: https://arxiv.org/
+  documentation: https://arxiv.org/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: daily
+  tags: [preprints, physics]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: Semantic Scholar
+  kind: api
+  category: science-research
+  description: Semantic Scholar academic search and citation graph API.
+  type: rest
+  provider: semanticscholar.org
+  website: https://www.semanticscholar.org/
+  documentation: https://api.semanticscholar.org/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: periodic
+  tags: [citations, literature]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: ORCID
+  kind: api
+  category: science-research
+  description: ORCID researcher identifier registry and API.
+  type: rest
+  provider: orcid.org
+  website: https://orcid.org/
+  documentation: https://orcid.org/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: periodic
+  tags: [researchers, identifiers]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: Zenodo
+  kind: dataset
+  category: science-research
+  description: Zenodo open research repository for datasets and publications.
+  type: portal
+  provider: zenodo.org
+  website: https://zenodo.org/
+  documentation: https://zenodo.org/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: periodic
+  tags: [repositories, open-data]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: Figshare
+  kind: dataset
+  category: science-research
+  description: Figshare repository for research data and figures.
+  type: portal
+  provider: figshare.com
+  website: https://figshare.com/
+  documentation: https://figshare.com/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: periodic
+  tags: [repositories, data]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: DataCite
+  kind: api
+  category: science-research
+  description: DataCite DOI registration and metadata API.
+  type: rest
+  provider: datacite.org
+  website: https://datacite.org/
+  documentation: https://datacite.org/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: periodic
+  tags: [doi, metadata]
+  confidence: verified
+  verified_on: '2026-10-23'

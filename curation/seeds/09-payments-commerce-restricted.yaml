@@ -1,0 +1,147 @@
+version: 1
+source: curated
+entries:
+- name: Stripe
+  kind: api
+  category: payments
+  description: Stripe payments and financial infrastructure API.
+  type: rest
+  provider: stripe.com
+  website: https://stripe.com/
+  documentation: https://stripe.com/pricing
+  access: api_key
+  pricing: paid
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: realtime
+  tags: [payments, billing]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: PayPal
+  kind: api
+  category: payments
+  description: PayPal developer API for payments and payouts.
+  type: rest
+  provider: paypal.com
+  website: https://developer.paypal.com/
+  documentation: https://developer.paypal.com/
+  access: oauth
+  pricing: paid
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: realtime
+  tags: [payments, payouts]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: Adyen
+  kind: api
+  category: payments
+  description: Adyen payments platform API for online and in-store payments.
+  type: rest
+  provider: adyen.com
+  website: https://www.adyen.com/
+  documentation: https://www.adyen.com/pricing
+  access: restricted
+  pricing: paid
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: realtime
+  tags: [payments, commerce]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: Square
+  kind: api
+  category: payments
+  description: Square API for payments, orders and inventory.
+  type: rest
+  provider: squareup.com
+  website: https://developer.squareup.com/
+  documentation: https://developer.squareup.com/
+  access: oauth
+  pricing: freemium
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: realtime
+  tags: [payments, pos]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: Braintree
+  kind: api
+  category: payments
+  description: Braintree payments gateway API.
+  type: rest
+  provider: braintreepayments.com
+  website: https://www.braintreepayments.com/
+  documentation: https://www.braintreepayments.com/
+  access: api_key
+  pricing: paid
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: realtime
+  tags: [payments, gateway]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: Plaid
+  kind: api
+  category: payments
+  description: Plaid API for bank account and transaction data.
+  type: rest
+  provider: plaid.com
+  website: https://plaid.com/
+  documentation: https://plaid.com/
+  access: restricted
+  pricing: paid
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: realtime
+  tags: [banking, finance]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: Shopify
+  kind: api
+  category: business-commerce
+  description: Shopify commerce platform API for stores and products.
+  type: rest
+  provider: shopify.com
+  website: https://www.shopify.com/
+  documentation: https://www.shopify.com/
+  access: oauth
+  pricing: paid
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: realtime
+  tags: [ecommerce, commerce]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: eBay
+  kind: api
+  category: business-commerce
+  description: eBay developer API for listings, orders and inventory.
+  type: rest
+  provider: ebay.com
+  website: https://developer.ebay.com/devzone/xml/docs/reference/ebay/index.html
+  documentation: https://developer.ebay.com/devzone/xml/docs/reference/ebay/index.html
+  access: restricted
+  pricing: freemium
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: realtime
+  tags: [marketplace, commerce]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: Etsy
+  kind: api
+  category: business-commerce
+  description: Etsy developer API for shops, listings and orders.
+  type: rest
+  provider: etsy.com
+  website: https://developers.etsy.com/
+  documentation: https://developers.etsy.com/
+  access: registration
+  pricing: freemium
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: realtime
+  tags: [marketplace, commerce]
+  confidence: verified
+  verified_on: '2026-10-23'

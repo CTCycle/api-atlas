@@ -1,0 +1,207 @@
+version: 1
+source: curated
+entries:
+- name: OpenStreetMap
+  kind: dataset
+  category: geospatial
+  description: Global collaborative map database of roads, places and geographic features.
+  type: portal
+  provider: openstreetmap.org
+  website: https://www.openstreetmap.org/
+  documentation: https://www.openstreetmap.org/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  license: Open Data Commons Open Database License 1.0
+  license_spdx: ODbL-1.0
+  license_url: https://www.openstreetmap.org/copyright
+  commercial_use: allowed
+  attribution_required: true
+  license_basis: provider_policy
+  geographic: Global
+  formats: [osm, pbf]
+  update_frequency: periodic
+  tags: [maps, boundaries]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: Nominatim
+  kind: api
+  category: geospatial
+  description: OpenStreetMap geocoding and reverse geocoding API.
+  type: rest
+  provider: nominatim.openstreetmap.org
+  website: https://nominatim.openstreetmap.org/
+  documentation: https://nominatim.openstreetmap.org/
+  access: public
+  pricing: free
+  pricing_basis: official_docs
+  license: Open Data Commons Open Database License 1.0
+  license_spdx: ODbL-1.0
+  license_url: https://www.openstreetmap.org/copyright
+  commercial_use: allowed
+  attribution_required: true
+  license_basis: provider_policy
+  geographic: Global
+  formats: [json]
+  update_frequency: periodic
+  tags: [geocoding]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: Mapbox
+  kind: api
+  category: geospatial
+  description: Maps, geocoding, routing and location services platform.
+  type: rest
+  provider: mapbox.com
+  website: https://www.mapbox.com/
+  documentation: https://docs.mapbox.com/
+  access: api_key
+  pricing: freemium
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: realtime
+  tags: [maps, routing]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: Google Maps Platform
+  kind: api
+  category: geospatial
+  description: Google Maps Platform for maps, routes, places and geocoding.
+  type: rest
+  provider: mapsplatform.google.com
+  website: https://mapsplatform.google.com/
+  documentation: https://developers.google.com/maps
+  access: api_key
+  pricing: freemium
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: realtime
+  tags: [maps, routing, places]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: HERE
+  kind: api
+  category: geospatial
+  description: HERE location platform for maps, routing and geocoding.
+  type: rest
+  provider: here.com
+  website: https://www.here.com/
+  documentation: https://developer.here.com/
+  access: api_key
+  pricing: freemium
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: realtime
+  tags: [maps, routing]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: TomTom
+  kind: api
+  category: geospatial
+  description: TomTom maps, routing, traffic and geocoding APIs.
+  type: rest
+  provider: tomtom.com
+  website: https://developer.tomtom.com/
+  documentation: https://developer.tomtom.com/
+  access: api_key
+  pricing: freemium
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: realtime
+  tags: [maps, traffic]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: Esri ArcGIS
+  kind: api
+  category: geospatial
+  description: ArcGIS platform for maps, spatial analysis and location services.
+  type: rest
+  provider: arcgis.com
+  website: https://developers.arcgis.com/
+  documentation: https://developers.arcgis.com/
+  access: registration
+  pricing: freemium
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: realtime
+  tags: [gis, maps]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: USGS EarthExplorer
+  kind: dataset
+  category: geospatial
+  description: USGS EarthExplorer for satellite imagery and geospatial datasets.
+  type: portal
+  provider: usgs.gov
+  website: https://earthexplorer.usgs.gov/
+  documentation: https://earthexplorer.usgs.gov/
+  access: registration
+  pricing: free
+  pricing_basis: official_docs
+  license: US Government work, public domain
+  license_spdx: PD-USGov
+  license_url: https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits
+  commercial_use: allowed
+  attribution_required: false
+  license_basis: provider_policy
+  geographic: Global
+  formats: [geotiff, hdf5]
+  update_frequency: periodic
+  tags: [imagery, satellite]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: Sentinel Hub
+  kind: api
+  category: geospatial
+  description: Sentinel Hub API for satellite imagery processing and access.
+  type: rest
+  provider: sentinel-hub.com
+  website: https://www.sentinel-hub.com/
+  documentation: https://www.sentinel-hub.com/
+  access: registration
+  pricing: freemium
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: periodic
+  tags: [satellite, imagery]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: Planet
+  kind: api
+  category: geospatial
+  description: Planet satellite imagery and geospatial data platform.
+  type: rest
+  provider: planet.com
+  website: https://www.planet.com/
+  documentation: https://www.planet.com/
+  access: restricted
+  pricing: paid
+  pricing_basis: official_docs
+  geographic: Global
+  update_frequency: daily
+  tags: [satellite, imagery]
+  confidence: verified
+  verified_on: '2026-10-23'
+- name: NASA Earthdata
+  kind: dataset
+  category: geospatial
+  description: NASA Earthdata for Earth science datasets and satellite products.
+  type: portal
+  provider: nasa.gov
+  website: https://earthdata.nasa.gov/
+  documentation: https://earthdata.nasa.gov/
+  access: registration
+  pricing: free
+  pricing_basis: official_docs
+  license: US Government work, public domain unless stated otherwise
+  license_spdx: PD-USGov
+  license_url: https://www.nasa.gov/nasa-brand-center/images-and-media/
+  commercial_use: allowed
+  attribution_required: false
+  license_basis: provider_policy
+  geographic: Global
+  formats: [hdf5, netcdf]
+  update_frequency: periodic
+  tags: [earth-science, satellite]
+  confidence: verified
+  verified_on: '2026-10-23'
