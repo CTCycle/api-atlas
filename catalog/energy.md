@@ -9,8 +9,9 @@ Electricity grids, fuel prices, renewables and emissions data.
 | [DBFC](https://github.com/ECSIM/dbfc-dataset) | Dataset | Direct Borohydride Fuel Cell (DBFC) Dataset | - | - | - | - | awesome-datasets | - |
 | [DEL](https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/DELS) | Dataset | Domestic Electrical Load study datsets for South Africa (1994 - 2014) | - | - | - | - | awesome-datasets | - |
 | [EIA](https://www.eia.gov) | API | US energy statistics: electricity, petroleum, gas | Free | API key | - | - | editorial | 2026-10-24 |
+| [EIA API](https://www.eia.gov/opendata/) | Portal | US energy statistics and prices API available for public use | Free | API key | Public Domain | [docs](https://www.eia.gov/opendata/) | editorial | 2026-10-24 |
 | [Electricity Maps](https://www.electricitymaps.com) | API | Electricity Maps carbon intensity and electricity mix API | Freemium | API key | - | - | editorial | 2026-10-24 |
-| [Ember](https://ember-energy.org/) | Portal | Ember global electricity data and climate insights | Free | None | - | - | editorial | 2026-10-24 |
+| [Ember](https://ember-climate.org/) | Portal | Global electricity and emissions data available for public use | Free | None | CC BY 4.0 | [docs](https://ember-climate.org/) | editorial | 2026-10-24 |
 | [ENTSO-E](https://transparency.entsoe.eu) | API | ENTSO-E transparency platform for European electricity data | Free | Registration | - | - | editorial | 2026-10-24 |
 | [HES](https://randd.defra.gov.uk/ProjectDetails?ProjectID=17359&FromSearch=Y&Publisher=1&SearchText=EV0702&SortString=ProjectCode&SortOrder=Asc&Paging=10) | Dataset | Household Electricity Study, UK | - | - | - | - | awesome-datasets | - |
 | [IRENA](https://pxweb.irena.org/pxweb/en/) | Portal | IRENA renewable energy statistics portal | Free | None | - | - | editorial | 2026-10-24 |

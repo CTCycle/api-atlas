@@ -12,13 +12,19 @@ Forecasts, observations, reanalysis and climate projections.
 | [AviationWeather](https://aviationweather.gov/dataserver/) | API | NOAA aviation weather forecasts and observations | Free tier | None | - | - | public-apis | - |
 | [BreezoMeter Pollen](https://docs.breezometer.com/api-documentation/pollen-api/v2) | API | Daily Forecast pollen conditions data for a specific location | Free tier | API key | - | - | public-apis | - |
 | [Carbon Interface](https://docs.carboninterface.com) | API | API to calculate carbon (C02) emissions estimates for common C02 emitting activities | Free tier | API key | - | - | public-apis | - |
+| [Climate TRACE](https://climatetrace.org/) | Portal | Greenhouse gas emissions inventory data available for public use | Free | None | Unknown | [docs](https://climatetrace.org/) | editorial | 2026-10-24 |
 | [Climatiq](https://www.climatiq.io/docs) | API | Calculate the environmental footprint created by a broad range of emission-generating activities | Free tier | API key | - | - | public-apis | - |
 | [CO2 Offset](https://co2offset.io/api.html) | API | API calculates and validates the carbon footprint | Free tier | None | - | - | public-apis | - |
-| [Copernicus Climate Data Store](https://cds.climate.copernicus.eu) | Portal | Copernicus Climate Data Store for climate reanalysis, observations and projections | Free | Registration | Copernicus data policy ... | - | editorial | 2026-10-24 |
+| [Copernicus CAMS](https://atmosphere.copernicus.eu/) | Portal | Copernicus atmosphere monitoring data available for public use | Free | Registration | Copernicus License | [docs](https://atmosphere.copernicus.eu/) | editorial | 2026-10-24 |
+| [Copernicus CDS](https://cds.climate.copernicus.eu/) | Portal | Copernicus climate data store available for public use | Free | Registration | Copernicus License | [docs](https://cds.climate.copernicus.eu/) | editorial | 2026-10-24 |
 | [DWD Open Data](https://www.dwd.de/DE/Home/home_node.html) | Portal | German Weather Service open data for forecasts, observations and climate | Free | None | - | - | editorial | 2026-10-24 |
 | [ECMWF](https://www.ecmwf.int) | Portal | European Centre for Medium-Range Weather Forecasts data and forecast products | - | Registration | - | - | editorial | 2026-10-24 |
+| [EEA data portal](https://www.eea.europa.eu/data-and-maps) | Portal | European environment data and indicators available for public use | Free | None | CC BY 4.0 | [docs](https://www.eea.europa.eu/data-and-maps) | editorial | 2026-10-24 |
+| [EPA Envirofacts](https://www.epa.gov/) | Portal | US environmental facility and release data available for public use | Free | None | Public Domain | - | editorial | 2026-10-24 |
 | [Euskalmet](https://opendata.euskadi.eus/api-euskalmet/-/api-de-euskalmet) | API | Meteorological data of the Basque Country | Free tier | API key | - | - | public-apis | - |
 | [FMI Open Data](https://en.ilmatieteenlaitos.fi/open-data) | API | Finnish weather, sea, climate and radar observations via open WFS | Free tier | None | - | - | public-apis | - |
+| [GBIF](https://www.gbif.org/) | Portal | Global biodiversity occurrence data available for public use | Free | None | Unknown | [docs](https://www.gbif.org/) | editorial | 2026-10-24 |
+| [Global Forest Watch](https://www.globalforestwatch.org/) | Portal | Forest monitoring and land use data available for public use | Free | API key | Unknown | [docs](https://www.globalforestwatch.org/) | editorial | 2026-10-24 |
 | [GridHub](https://grid-hub.app/developers) | API | Live wholesale electricity prices and demand across 25 grid zones | Free tier | API key | - | - | public-apis | - |
 | [GridVigil](https://gridvigil.com/developers) | API | Pressure scores, demand, generation mix and alerts for the 10 major U.S. power grids | Free tier | None | - | - | public-apis | - |
 | [GrünstromIndex](https://gruenstromindex.de) | API | Green Power Index for Germany (Grünstromindex/GSI) | Free tier | None | - | - | public-apis | - |
@@ -36,7 +42,8 @@ Forecasts, observations, reanalysis and climate projections.
 | [Météo-France](https://portail-api.meteofrance.fr/web/) | API | French weather forecasts and alerts | Free tier | API key | - | - | public-apis | - |
 | [NASA POWER](https://power.larc.nasa.gov/docs) | API | Global solar and weather data for energy and agriculture | Free tier | None | PD-USGov | - | public-apis | - |
 | [NOAA CO-OPS](https://api.tidesandcurrents.noaa.gov/api/prod) | API | US coastal tides, water levels, currents and meteorological observations | Free tier | None | PD-USGov | - | public-apis | - |
-| [NOAA NCEI](https://www.ncei.noaa.gov) | Portal | US National Centers for Environmental Information climate, weather and ocean datasets | Free | None | PD-USGov | - | editorial | 2026-10-24 |
+| [NOAA NCEI](https://www.ncei.noaa.gov/) | Portal | NOAA climate and environmental data archive available for public use | Free | None | Public Domain | [docs](https://www.ncei.noaa.gov/) | editorial | 2026-10-24 |
+| [OBIS](https://obis.org/) | Portal | Ocean biodiversity occurrence data available for public use | Free | None | Unknown | [docs](https://obis.org/) | editorial | 2026-10-24 |
 | [Oikolab](https://docs.oikolab.com) | API | 70+ years of global, hourly historical and forecast weather data from NOAA and ECMWF | Free tier | API key | - | - | public-apis | - |
 | [Open-Meteo](https://open-meteo.com) | API | Open-Source Weather API - Open-source weather API with free access for non- | Freemium | None | CC-BY-4.0 | [docs](https://open-meteo.com/en/docs) | editorial | 2026-10-24 |
 | [Open-Meteo Ensemble](https://open-meteo.com/en/docs/ensemble-api) | API | Weather ensemble forecasts from multiple models | Free tier | None | - | - | public-apis | - |
@@ -44,6 +51,7 @@ Forecasts, observations, reanalysis and climate projections.
 | [OpenWeatherMap](https://openweathermap.org) | API | Global weather data API with current conditions, forecasts and historical endpoints | Freemium | API key | ODbL-1.0 | [docs](https://openweathermap.org/api) | editorial | 2026-10-24 |
 | [Pirate Weather](https://pirateweather.readthedocs.io/en/latest) | API | Free weather API with forecast data similar to Dark Sky | Free tier | None | - | - | public-apis | - |
 | [PM2.5 Open Data Portal](https://pm25.lass-net.org) | API | Open low-cost PM2.5 sensor data | Free tier | None | - | - | public-apis | - |
+| [Protected Planet](https://www.protectedplanet.net/) | Portal | World protected areas database available for public use | Free | None | Unknown | [docs](https://www.protectedplanet.net/) | editorial | 2026-10-24 |
 | [PVGIS](https://joint-research-centre.ec.europa.eu/photovoltaic-geographical-information-system-pvgis/using-pvgis-5/api-non-interactive-service_en) | API | EU solar radiation and photovoltaic performance estimates | Free tier | None | CC-BY-4.0 | - | public-apis | - |
 | [Rainbow Weather](https://developer.rainbow.ai) | API | Global real-time nowcasting API powered by radar + satellite fusion | Free tier | API key | - | - | public-apis | - |
 | [RainViewer](https://www.rainviewer.com/api.html) | API | Radar data collected from different websites across the Internet | Free tier | None | - | - | public-apis | - |
@@ -56,6 +64,7 @@ Forecasts, observations, reanalysis and climate projections.
 | [Tomorrow](https://docs.tomorrow.io/reference/welcome) | API | Weather API Powered by Proprietary Technology | Free tier | API key | - | - | public-apis | - |
 | [Tomorrow.io](https://www.tomorrow.io) | API | Weather intelligence API with forecast, nowcast and historical data | Freemium | API key | - | [docs](https://docs.tomorrow.io/reference/welcome) | editorial | 2026-10-24 |
 | [UK Carbon Intensity](https://carbon-intensity.github.io/api-definitions) | API | The Official Carbon Intensity API for Great Britain developed by National Grid | Free tier | None | - | - | public-apis | - |
+| [UNEP data](https://data.unep.org/) | Portal | UN environment data and indicators available for public use | Free | None | Unknown | [docs](https://data.unep.org/) | editorial | 2026-10-24 |
 | [Veabird](https://veabird.com/api/v1) | API | Beach (sargassum, waves, hurricanes) and ski snow forecasts for 1,900+ resorts, no key | Free tier | None | - | - | public-apis | - |
 | [Visual Crossing](https://www.visualcrossing.com) | API | Weather API for historical data, current conditions and forecasts | Freemium | API key | Visual Crossing Weather API | [docs](https://www.visualcrossing.com/weather-api) | editorial | 2026-10-24 |
 | [WattFigure](https://api.wattfigure.com) | API | US electricity rates by state, with appliance and EV charging running costs | Free tier | None | - | - | public-apis | - |

@@ -11,6 +11,7 @@ Food composition, recipes, restaurants and product nutrition data.
 | [Daily Food Recalls](https://dailyfoodrecalls.com/api) | API | U.S. FDA and USDA food recalls, merged and normalized, updated daily | Free tier | None | - | - | public-apis | - |
 | [DoughMatrix](https://www.doughmatrix.com/) | API | Sourdough and pizza dough formula calculators: true hydration, DDT, fermentation windows | Free tier | None | - | - | public-apis | - |
 | [ExactCup](https://exactcup.github.io/api) | API | Cooking ingredient densities: grams per US cup, tablespoon, teaspoon and mL | Free tier | None | - | - | public-apis | - |
+| [FAOSTAT](https://www.fao.org/faostat/) | Portal | Food and agriculture statistics from the UN FAO available for public use | Free | None | CC BY-NC-SA 3.0 IGO | [docs](https://www.fao.org/faostat/en/#data) | editorial | 2026-10-24 |
 | [FiberUp Fiber Database](https://fiberup.app/data) | API | Dietary fiber per serving and per 100 g, split into soluble and insoluble, for ~200 common foods | Free tier | None | - | - | public-apis | - |
 | [Food Info](https://food-info.org/developer) | API | Nutrition data for millions of foods from six national food composition datasets | Free tier | API key | - | - | public-apis | - |
 | [Foodish](https://github.com/surhud004/Foodish) | API | Random pictures of food dishes | Free tier | None | - | - | public-apis | - |
@@ -22,5 +23,6 @@ Food composition, recipes, restaurants and product nutrition data.
 | [TacoFancy](https://github.com/evz/tacofancy-api) | API | Community-driven taco database | Free tier | None | - | - | public-apis | - |
 | [Tasty](https://rapidapi.com/apidojo/api/tasty) | API | API to query data about recipe, plan, ingredients | Free tier | API key | - | - | public-apis | - |
 | [Tiny Plates](https://www.tinyplates.dev/docs) | API | Structured recipes, semantic search, serving adjustments and shopping lists | Free tier | API key | - | - | public-apis | - |
+| [USDA NASS](https://www.nass.usda.gov/) | Portal | US agricultural statistics available for public use | Free | None | Public Domain | [docs](https://www.nass.usda.gov/) | editorial | 2026-10-24 |
 | [What's on the menu?](http://nypl.github.io/menus-api) | API | NYPL human-transcribed historical menu collection | Free tier | API key | - | - | public-apis | - |
 | [WhiskyHunter](https://whiskyhunter.net/api) | API | Past online whisky auctions statistical data | Free tier | None | - | - | public-apis | - |

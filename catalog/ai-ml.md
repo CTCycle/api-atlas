@@ -8,12 +8,15 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [Anthropic](https://www.anthropic.com) | API | Anthropic Claude API for language model inference | Paid | API key | - | [docs](https://claude.com/pricing) | editorial | 2026-10-24 |
 | [apilayer languagelayer](https://languagelayer.com) | API | Language Detection JSON API supporting 173 languages | Free tier | OAuth | - | - | public-apis | - |
 | [Audexum](https://audexum.com/docs) | API | Speech-to-text in 25 languages and text-to-speech with 43 voices in 32 languages | Free tier | API key | - | - | public-apis | - |
+| [BigQuery public datasets](https://cloud.google.com/bigquery/public-data) | Portal | Public datasets queryable in Google BigQuery available for public use | Freemium | Registration | Unknown | [docs](https://cloud.google.com/bigquery/public-data) | editorial | 2026-10-24 |
 | [BRAINIALL](https://github.com/fasuizu-br/brainiall-transcription-skill) | API | PT-BR and Spanish audio transcription with diarization and SRT/VTT | Free tier | API key | - | - | public-apis | - |
 | [Chars74K dataset](https://info-ee.surrey.ac.uk/CVSSP/demos/chars74k) | Dataset | Character Recognition in Natural Images (both English and Kannada are available) | - | - | - | - | awesome-datasets | - |
 | [Cloudmersive](https://www.cloudmersive.com/image-recognition-and-processing-api) | API | Image captioning, face recognition, NSFW classification | Free tier | API key | - | - | public-apis | - |
 | [Cloudmersive Natural Language Processing](https://www.cloudmersive.com/nlp-api) | API | Natural language processing and text analysis | Free tier | API key | - | - | public-apis | - |
+| [COCO](https://cocodataset.org/) | Dataset | Common Objects in Context image dataset available for public use | Free | None | CC BY 4.0 | [docs](https://cocodataset.org/) | editorial | 2026-10-24 |
 | [Code Detection](https://codedetectionapi.runtime.dev) | API | Detect, label, format and enrich the code in your app or in your data pipeline | Free tier | OAuth | - | - | public-apis | - |
 | [Cohere](https://cohere.com) | API | NLP API for text generation, embeddings, classification and summarization with a free trial tier | Freemium | API key | - | - | editorial | 2026-10-24 |
+| [Common Crawl](https://commoncrawl.org/) | Dataset | Petabyte-scale web crawl corpus available for public use | Free | None | Unknown | [docs](https://commoncrawl.org/) | editorial | 2026-10-24 |
 | [DBpedia](https://databus.dbpedia.org/dbpedia/collections/latest-core) | Dataset | Structured data from Wikipedia | - | - | - | - | awesome-datasets | - |
 | [DeepAI](https://deepai.org) | API | Provides AI-powered APIs for text generation, image processing, and more | Free tier | API key | - | - | public-apis | - |
 | [DreamThreads](https://mydreamthreads.xyz/dream-interpretation-api) | API | Parse dreams into structured entities, emotions, agency, threat, and outcomes | Free tier | None | - | - | public-apis | - |
@@ -31,12 +34,16 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [Hirak OCR](https://ocr.hirak.site) | API | Image to text -text recognition- from image more than 100 language, accurate, unlimited requests | Free tier | API key | - | - | public-apis | - |
 | [Hirak Translation](https://translate.hirak.site) | API | Translate between 21 of most used languages, accurate, unlimited requests | Free tier | API key | - | - | public-apis | - |
 | [Hugging Face](https://huggingface.co) | API | AI model hub with inference API for NLP, computer vision, and audio | Freemium | API key | Per dataset | - | editorial | 2026-10-24 |
+| [Hugging Face Datasets](https://huggingface.co/datasets) | Portal | Machine learning datasets hub and library available for public use | Free | None | Unknown | [docs](https://huggingface.co/docs/datasets/) | editorial | 2026-10-24 |
+| [ImageNet](https://www.image-net.org/) | Dataset | Large-scale image classification dataset available for public use | Restricted | Registration | Custom (research use) | [docs](https://www.image-net.org/) | editorial | 2026-10-24 |
 | [Imagga](https://imagga.com) | API | Image Recognition Solutions like Tagging, Visual Search, NSFW moderation | Free tier | API key | - | - | public-apis | - |
 | [Inferdo](https://rapidapi.com/user/inferdo) | API | Computer Vision services like Facial detection, Image labeling, NSFW classification | Free tier | API key | - | - | public-apis | - |
 | [Iranis](https://alitourani.github.io/Iranis-dataset) | Dataset | A Large-scale Dataset of Farsi/Arabic License Plate Characters | - | - | - | - | awesome-datasets | - |
 | [Irisnet](https://api.irisnet.de/swagger-ui/index.html) | API | Realtime content moderation API that blocks or blurs unwanted images in real-time | Free tier | API key | - | - | public-apis | - |
 | [Jina AI](https://jina.ai) | API | Free AI API for embeddings, reranking, and text processing | Free tier | API key | - | - | public-apis | - |
+| [Kaggle Datasets](https://www.kaggle.com/datasets) | Portal | Community datasets and competitions platform available for public use | Freemium | Registration | Unknown | [docs](https://www.kaggle.com/docs/datasets) | editorial | 2026-10-24 |
 | [Lacuna](https://lacuna.mergeinc.workers.dev/agents.md) | API | Public board where AI agents post problems as seeks and agents who solved them offer help | Free tier | None | - | - | public-apis | - |
+| [LAION-5B](https://laion.ai/blog/laion-5b/) | Dataset | Large-scale image-text dataset for training available for public use | Restricted | Registration | Unknown | [docs](https://laion.ai/blog/laion-5b/) | editorial | 2026-10-24 |
 | [Langbly](https://langbly.com/docs) | API | Context-aware text translation and language detection for 100+ languages | Free tier | API key | - | - | public-apis | - |
 | [Laya Decision Gateway](https://laya.harshad.eu.org) | API | Sub-35ms AI gateway for prompt injection defense, support ticket triage & content moderation | Free tier | API key | - | - | public-apis | - |
 | [Lecto Translation](https://rapidapi.com/lecto-lecto-default/api/lecto-translation) | API | Translation API with free tier and reasonable prices | Free tier | API key | - | - | public-apis | - |
@@ -56,9 +63,11 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [ocrapi](https://cloudmersive.com) | API | The powerful Optical Character Recognition (OCR) APIs let you convert scanned images of pages into recognized text | - | - | - | [docs](https://api.cloudmersive.com/ocr/docs/v1/swagger) | APIs.guru | - |
 | [onomeo](https://onomeo.com/integrations#docs) | API | OpenAI-compatible, about 30 free LLMs, 30 calls per 5 hours, optional pay-as-you-go, public beta | Free tier | API key | - | - | public-apis | - |
 | [OpenAI](https://developers.openai.com/api/docs) | API | APIs for sampling from and fine-tuning language models | Paid | API key | - | [docs](https://developers.openai.com/api/docs/pricing) | editorial | 2026-10-24 |
+| [OpenML](https://www.openml.org/) | Portal | Open machine learning datasets and experiments available for public use | Free | API key | Unknown | [docs](https://www.openml.org/) | editorial | 2026-10-24 |
 | [OpenRouter](https://openrouter.ai/docs/quickstart) | API | Unified API for 300+ LLMs from OpenAI, Anthropic, Meta, Mistral and more, with a free tier | Free tier | API key | - | - | public-apis | - |
 | [OpenVisionAPI](https://openvisionapi.com) | API | Open source computer vision API based on open source models | Free tier | None | - | - | public-apis | - |
 | [Pandorabots AIaaS](https://pandorabots.com) | API | AIaaS provides API access to our bot hosting platform and SDKs, allowing developers to easily integrate conversational interfaces into applications | - | - | - | [docs](https://api.apis.guru/v2/specs/pandorabots.com/1.0.0/swagger.json) | APIs.guru | - |
+| [Papers with Code](https://paperswithcode.com/) | Portal | Machine learning papers with datasets and code available for public use | Free | None | Unknown | [docs](https://paperswithcode.com/) | editorial | 2026-10-24 |
 | [PDF Blocks API](https://www.pdfblocks.com/support) | API | PDF Blocks is a secure, reliable, and fast API to work with PDF documents | - | - | - | [docs](https://api.apis.guru/v2/specs/pdfblocks.com/1.5.0/openapi.json) | APIs.guru | - |
 | [PdfBroker.io API](https://www.pdfbroker.io/docs) | API | PdfBroker.io is an api for creating pdf files from Xsl-Fo or Html and other useful pdf utilities | - | - | - | [docs](https://api.apis.guru/v2/specs/pdfbroker.io/v1/openapi.json) | APIs.guru | - |
 | [Perspective](https://perspectiveapi.com) | API | NLP API to return probability that if text is toxic, obscene, insulting or threatening | Free tier | API key | - | - | public-apis | - |
@@ -77,10 +86,12 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [TAGGUN Receipt OCR Scanning API](https://www.taggun.io/) | API | Expects only running software, real reactions, and beautifully crafted APIs to serve your every desire to transcribe a piece of paper to digital form | - | - | - | [docs](https://api.apis.guru/v2/specs/taggun.io/1.10.9/swagger.json) | APIs.guru | - |
 | [Tanvo](https://tanvo.ai/developers/api) | API | Image, video and song generation on 30 AI models (Nano Banana, Kling, Veo, Suno), with a free tier | Free tier | API key | - | - | public-apis | - |
 | [TensorFeed](https://tensorfeed.ai/developers) | API | Real-time AI news, model pricing, service status, and agent activity feeds | Free tier | None | - | - | public-apis | - |
+| [TensorFlow Datasets](https://www.tensorflow.org/datasets) | Portal | Ready-to-use datasets for machine learning available for public use | Free | None | Unknown | [docs](https://www.tensorflow.org/datasets) | editorial | 2026-10-24 |
 | [Tisane](https://tisane.ai) | API | Text Analytics with focus on detection of abusive content and law enforcement applications | Free tier | OAuth | - | - | public-apis | - |
 | [Together AI](https://www.together.ai/) | API | Fast inference API for open-source LLMs including Llama, Qwen, DeepSeek with a free tier | Paid | API key | - | - | editorial | 2026-10-24 |
 | [ToHuman](https://tohuman.io/ai-humanizer-api) | API | Rewrite AI-assisted drafts into natural, human-sounding text that reads like you wrote it | Free tier | API key | - | - | public-apis | - |
 | [TokenRoute](https://tokenroute.app/docs/quickstart) | API | One OpenAI-compatible endpoint for hundreds of LLMs, with a free tier and per-token pricing | Free tier | API key | - | - | public-apis | - |
+| [UCI ML Repository](https://archive.ics.uci.edu/) | Portal | Classic machine learning datasets repository available for public use | Free | None | Unknown | [docs](https://archive.ics.uci.edu/) | editorial | 2026-10-24 |
 | [Unplugg](https://unplu.gg/test_api.html) | API | Forecasting API for timeseries data | Free tier | API key | - | - | public-apis | - |
 | [Violent-Flows](https://www.openu.ac.il/home/hassner/data/violentflows) | Dataset | Crowd Violence / Non-violence Database and benchmark | - | - | - | - | awesome-datasets | - |
 | [Visual genome (archived at Wayback)](https://web.archive.org/web/20151219035355/http://visualgenome.org/api/v0/api_home.html) | Dataset | Data still available for download from Wayback | - | - | - | - | awesome-datasets | - |

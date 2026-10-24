@@ -4,7 +4,7 @@ Transit, shipping, flights, routing and vehicle data.
 
 | Name | Type | Description | Access | Auth | License | Docs | Source | Checked |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [ADS-B Exchange](https://www.adsbexchange.com) | API | Access real-time and historical data of any and all airborne aircraft | Freemium | API key | - | - | editorial | 2026-10-24 |
+| [ADS-B Exchange](https://www.adsbexchange.com/) | Portal | ADS-B flight tracking data available for public use | Paid | API key | Unknown | [docs](https://www.adsbexchange.com/) | editorial | 2026-10-24 |
 | [Aether-X Port Congestion](https://aether-x-oracle-production.up.railway.app/docs) | API | Real-time port congestion risk scores, ETA delays and waiting vessels for 15 global ports | Free tier | API key | - | - | public-apis | - |
 | [Aether-X Port Congestion Oracle](https://rapidapi.com/belegante/api/aether-x-port-congestion-oracle) | API | Predictive port congestion, ETA delay and freight volatility signals for 16 global ports | Free tier | API key | - | - | public-apis | - |
 | [Aftership](https://www.aftership.com/docs/tracking/quickstart/api-quick-start) | API | API to update, manage and track shipment efficiently | Free tier | API key | - | - | public-apis | - |
@@ -40,17 +40,19 @@ Transit, shipping, flights, routing and vehicle data.
 | [Kelley Blue Book](https://developer.kbb.com/) | API | Vehicle info, pricing, configuration, plus much more | Free tier | API key | - | - | public-apis | - |
 | [Land Transport Authority DataMall, Singapore](https://datamall.lta.gov.sg/content/dam/datamall/datasets/LTA_DataMall_API_User_Guide.pdf) | API | Singapore transport information | Free tier | API key | - | - | public-apis | - |
 | [LiveTrafficCam](https://bzsasson.github.io/traffic-camera-sources/api.html) | API | Live US state DOT traffic cameras with verified live status and measured uptime | Free tier | None | - | - | public-apis | - |
-| [MarineTraffic](https://www.kpler.com/product/maritime/data-services) | API | MarineTraffic AIS vessel tracking and maritime data API | Paid | Account | - | - | editorial | 2026-10-24 |
+| [MarineTraffic](https://www.marinetraffic.com/) | Portal | Ship tracking and maritime data available for public use | Paid | API key | Unknown | [docs](https://www.marinetraffic.com/) | editorial | 2026-10-24 |
 | [Mercedes-Benz](https://developer.mercedes-benz.com/products) | API | Telematics data, remotely access vehicle functions, car configurator, locate service dealers | Free tier | API key | - | - | public-apis | - |
+| [MobilityData GTFS](https://database.mobilitydata.org/) | Portal | Global GTFS and GTFS-Realtime feed catalog available for public use | Free | None | Unknown | [docs](https://database.mobilitydata.org/) | editorial | 2026-10-24 |
 | [Navitia](https://doc.navitia.io) | API | The open API for building cool stuff with transport data | Free tier | API key | - | - | public-apis | - |
 | [NHTSA](https://vpic.nhtsa.dot.gov/api) | API | NHTSA Product Information Catalog and Vehicle Listing | Free tier | None | - | - | public-apis | - |
 | [NHTSA Vehicle Recalls](https://rapidapi.com/crisp-point-studio-crisp-point-studio-default/api/live-nhtsa-vehicle-recalls) | API | NHTSA safety recalls by model year, make and model with component, consequence and remedy | Free tier | API key | - | - | public-apis | - |
 | [On va où ?](https://onvaou.app/developers/routing-api.html) | API | Bike, scooter, motorcycle, wheelchair and walking routes across Europe, with safety indicators | Free tier | API key | - | - | public-apis | - |
 | [Open Charge Map](https://openchargemap.org/loginprovider/beginlogin) | API | Global public registry of electric vehicle charging locations | Free tier | API key | - | - | public-apis | - |
-| [OpenFlights](https://openflights.org/data.php) | Dataset | airport, airline and route data | - | - | - | - | awesome-datasets | - |
-| [OpenSky Network](https://openskynetwork.github.io/opensky-api) | API | Free real-time ADS-B aviation data | Free tier | None | - | - | public-apis | - |
+| [OpenFlights](https://openflights.org/) | Dataset | Airport and airline route database available for public use | Free | None | Unknown | [docs](https://openflights.org/) | editorial | 2026-10-24 |
+| [OpenSky Network](https://opensky-network.org/) | Portal | Open air traffic surveillance data available for public use | Free | Registration | Unknown | [docs](https://opensky-network.org/) | editorial | 2026-10-24 |
 | [OpenVan](https://openvan.camp/docs) | API | Fuel prices for 121 countries, food cost index & vanlife weather scores for RV travel | Free tier | None | - | - | public-apis | - |
 | [Orizn Visa](https://visa.orizn.app) | API | Visa requirements for 199 countries, 39K+ passport-destination pairs in 15 languages | Free tier | API key | - | - | public-apis | - |
+| [OurAirports](https://ourairports.com/) | Dataset | Global airport directory available for public use for developers | Free | None | Public Domain | [docs](https://ourairports.com/) | editorial | 2026-10-24 |
 | [Pixela](https://pixe.la) | API | API for recording and tracking habits or effort, routines | Free tier | API key | - | - | public-apis | - |
 | [PostalPinCode](http://www.postalpincode.in/Api-Details) | API | API for getting Pincode details in India | Free tier | None | - | - | public-apis | - |
 | [Postmon](https://postmon.com.br/) | API | An API to query Brazilian ZIP codes and orders easily, quickly and free | Free tier | None | - | - | public-apis | - |
@@ -67,6 +69,7 @@ Transit, shipping, flights, routing and vehicle data.
 | [Stadiq](https://stadiq.app/developers) | API | Road works, transit disruptions and air quality for Antwerp and Flanders | Free tier | API key | - | - | public-apis | - |
 | [Strait of Hormuz Ship Monitor](https://hormuz.data-tracking.net/llms.txt) | API | Live AIS vessel traffic, crossings and oil flow through the Strait of Hormuz | Free tier | None | - | - | public-apis | - |
 | [Tankerkoenig](https://creativecommons.tankerkoenig.de/swagger) | API | German realtime gas/diesel prices | Free tier | API key | - | - | public-apis | - |
+| [TfL Unified API](https://api.tfl.gov.uk/) | Portal | Transport for London data API available for public use | Free | API key | Unknown | [docs](https://api.tfl.gov.uk/) | editorial | 2026-10-24 |
 | [TransCAPI](https://www.transcapi.com/docs) | API | Live bus and rail departures, vehicles, disruptions and journey planning for Great Britain | Free tier | API key | - | - | public-apis | - |
 | [TransparentCars](https://transparent.pt/en/api) | API | Fair-price valuation and yearly road tax (IUC) for used cars in Portugal | Free tier | None | - | - | public-apis | - |
 | [Transport for Belgium](https://docs.irail.be) | API | The iRail API is a third-party API for Belgian public transport by train | Free tier | None | - | - | public-apis | - |
@@ -85,6 +88,7 @@ Transit, shipping, flights, routing and vehicle data.
 | [Travel Risk Aviation](https://api.travelriskapi.com/ext/reference) | API | Flight status, airports, airlines, airline safety and in-flight Wi-Fi data | Free tier | API key | - | - | public-apis | - |
 | [Tripadvisor](https://developer-tripadvisor.com/home) | API | Rating content for a hotel, restaurant, attraction or destination | Free tier | API key | - | - | public-apis | - |
 | [UPS](https://www.ups.com/upsdeveloperkit) | API | Shipment and Address information | Free tier | API key | - | - | public-apis | - |
+| [US BTS](https://data.bts.gov/) | Portal | US transportation statistics data available for public use | Free | None | Public Domain | - | editorial | 2026-10-24 |
 | [Vessel Class Finder](https://vesselclassfinder.com/blog/vessel-classification-api.html) | API | IACS class society, class status and survey dates for ships by IMO number | Free tier | API key | - | - | public-apis | - |
 | [WeCanTrack](https://docs.wecantrack.com) | API | Automatically place subids in affiliate links to attribute affiliate conversions to click data | Free tier | API key | - | - | public-apis | - |
 | [WhatPulse](https://whatpulse.org/help/api/intro) | API | Small application that measures your keyboard/mouse usage | Free tier | None | - | - | public-apis | - |
