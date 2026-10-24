@@ -3,43 +3,44 @@ name: Validate catalog
 on:
   push:
   pull_request:
-  schedule:
-    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
-      - name: Install dependencies
-        run: python -m pip install pyyaml jsonschema
-      - name: Validate catalog
-        run: python -m regipy.cli validate
-      - name: Run unit tests
-        run: python -m unittest discover -s tests -v
+          python-version: "3.12"
+      - name: Validate tables, values, ordering and navigation
+        run: python scripts/catalog.py validate
+      - name: Check the machine-readable copy is current
+        run: |
+          python scripts/catalog.py export --format jsonl --out /tmp/catalog.jsonl
+          if ! diff -q /tmp/catalog.jsonl data/catalog.jsonl >/dev/null; then
+            echo "data/catalog.jsonl is stale. Run: python scripts/catalog.py export --format jsonl"
+            diff /tmp/catalog.jsonl data/catalog.jsonl | head -40
+            exit 1
+          fi
 
   linkcheck:
-    if: github.event_name == 'schedule'
+    # Manual only. Nothing is written back to the catalog; the report is an artifact.
+    if: github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
-    continue-on-error: false
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
-      - name: Install dependencies
-        run: python -m pip install pyyaml jsonschema
-      - name: Link check bounded sample
-        run: python -m regipy.cli linkcheck --limit 300 --max-age-days 7
-      - name: Upload reports
-        uses: actions/upload-artifact@v4
+          python-version: "3.12"
+      - name: Link check sample
+        run: python scripts/catalog.py linkcheck --limit 400 --workers 6
+      - name: Build maintenance report
+        run: python scripts/catalog.py report
+      - uses: actions/upload-artifact@v4
         with:
-          name: linkcheck-report
+          name: maintenance-report
           path: reports/

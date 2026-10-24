@@ -1,93 +1,68 @@
 # Contributing
 
-## Adding a single entry
+Thanks for helping. This catalog is small on purpose: a row is added when someone
+has checked that the resource exists, is documented and is not already listed.
 
-Via the command line:
+## The fast path
+
+Every category page has an **Edit** link in the GitHub file view. Add one row in
+alphabetical position and open a pull request. That is the whole workflow.
+
+```markdown
+| [Open-Meteo](https://open-meteo.com/) | API | Weather forecasts, historical reanalysis and climate projections for any coordinate | Freemium | None | [CC BY 4.0](https://open-meteo.com/en/license) | [docs](https://open-meteo.com/en/docs) | editorial | 2026-10-24 |
+```
+
+Column meanings, allowed values and the exact row format are in
+[docs/format.md](docs/format.md).
+
+## Before you open the pull request
 
 ```bash
-python -m regipy.cli import curated
+python scripts/catalog.py validate
+python scripts/catalog.py export --format jsonl
 ```
 
-Or edit the relevant shard directly. Add one JSON object per line to `catalog/apis/<category>.jsonl` or `catalog/datasets/<category>.jsonl`. Keep keys sorted and use deterministic serialisation. Run `python -m regipy.cli validate` before submitting.
+No dependencies are needed beyond Python 3.10. `validate` checks the table shape,
+the allowed values, alphabetical order and the README navigation. `export`
+refreshes `data/catalog.jsonl`; CI fails if it is out of date.
 
-## Curated seed entries
+## What gets merged
 
-Editorial knowledge lives in `curation/seeds/*.yaml`. Files are merged into the shards by `python -m regipy.cli import curated`, and curated values always win over imported ones. Add to an existing themed file rather than creating a new one.
+- A working canonical link, plus a documentation link when one exists.
+- A description that says what the resource contains, in one sentence.
+- Honest values. `-` is a valid answer for anything you could not confirm.
+- `Checked` set to the date you actually read the provider's documentation. Do not
+  set it because a script returned HTTP 200.
 
-```yaml
-version: 1
-source: curated
-entries:
-  - name: Open-Meteo
-    kind: api
-    category: weather-climate
-    description: Weather forecasts and historical reanalysis for any coordinate.
-    type: rest
-    provider: open-meteo.com
-    website: https://open-meteo.com/
-    documentation: https://open-meteo.com/en/docs
-    access: public
-    pricing: freemium
-    free_tier_limits: Non-commercial use is free, commercial plans are paid.
-    pricing_basis: official_docs
-    license: CC BY 4.0
-    license_spdx: CC-BY-4.0
-    license_url: https://open-meteo.com/en/license
-    commercial_use: restricted
-    attribution_required: true
-    license_basis: official_docs
-    geographic: Global
-    temporal: 1940 to present
-    formats: [json]
-    update_frequency: hourly
-    tags: [forecast, historical]
-    confidence: verified
-    verified_on: "2026-10-23"
-```
+## What gets rejected
 
-`confidence: verified` requires `verified_on`, which must be the date the cited pages were actually read. Use `confidence: partial` and omit `verified_on` when you filled fields from documentation but did not confirm the whole record. Omitted fields stay unknown.
+- Marketing copy, superlatives, keyword stuffing.
+- Affiliate, referral or tracking links.
+- A second row for an endpoint, region or plan of a resource that is already listed.
+- Individual services of a large cloud platform. One row for the platform is enough.
+- Dead resources and projects that have not shipped anything in two years.
+- Rows with invented pricing, licence or auth values.
 
-## Field by field rules
+The full policy is in [docs/inclusion-criteria.md](docs/inclusion-criteria.md).
 
-- Never invent values. If a value is not known, use `null` or `unknown`.
-- Cite official documentation in `license.basis`, `pricing.basis` and `verification.notes` where possible.
-- Set `verification.confidence` honestly: `imported` when unchecked, `partial` when HTTP checked or supported by editorial metadata, `verified` only when key metadata is confirmed against official documentation.
-- Do not claim `license.commercial_use` as `allowed`, `restricted` or `prohibited` without a `license.name` as evidence. The validator rejects such claims.
-- Use categories from `schema/taxonomy.yaml`. Unknown categories become `unknown`.
-- Use allowed enum values for `kind`, `type`, `access.model`, `pricing.model`, `license.commercial_use`, `update_frequency` and `status`.
-- Keep descriptions concise and factual.
+## Removing or correcting a row
 
-## Running the checks
+Open an issue with the row name and the evidence: the URL you tried, the status
+code, the provider notice, or the page that contradicts the row. Corrections from
+providers take priority.
 
-```bash
-python -m regipy.cli import all
-python -m regipy.cli build
-python -m regipy.cli validate
-python -m regipy.cli linkcheck --limit 300 --max-age-days 7
-```
+If you are the operator of a listed resource and want it changed or removed, say so
+in the issue and it will be handled without argument.
 
-## Pull request checklist
+## Suggesting without a pull request
 
-- [ ] Records validate with `python -m regipy.cli validate`.
-- [ ] Unit tests pass with `python -m unittest discover -s tests -v`.
-- [ ] No invented values; unknowns are `null` or `unknown`.
-- [ ] Provenance is present for every record.
-- [ ] `license.commercial_use` claims include a licence name.
-- [ ] Shard files remain one JSON object per line with sorted keys.
-- [ ] Documentation updated if behaviour changed.
+Use the [add a resource](../../issues/new?template=add-resource.yml) issue form. A
+maintainer will do the row formatting. Suggestions are not applied automatically.
 
-## Flagging outdated records
+## Style
 
-Use the `flag` subcommand to mark a record for review:
-
-```bash
-python -m regipy.cli flag <entry-id>
-```
-
-Review open flags with:
-
-```bash
-python -m regipy.cli flags
-```
-
-A flag records the date and reason. Maintainers triage flags during the scheduled deduplication and re-import reviews.
+- British spelling in prose, but keep the provider's own spelling for names.
+- No em dashes.
+- One sentence per description, no trailing period.
+- Categories are listed in `scripts/catalog.py` and mirrored in the README. Adding
+  a category needs both, plus a `catalog/<slug>.md` file.

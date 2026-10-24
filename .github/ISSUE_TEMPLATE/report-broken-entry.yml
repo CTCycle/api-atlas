@@ -1,0 +1,38 @@
+name: Report a broken or outdated entry
+description: Tell us about a dead link, a changed price or a wrong category.
+title: "Fix: "
+labels: ["correction"]
+body:
+  - type: input
+    id: row
+    attributes:
+      label: Row name and category
+      placeholder: Open-Meteo, weather-climate
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL you tried
+      placeholder: https://open-meteo.com/en/docs
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What is wrong
+      options:
+        - Link is dead or redirected
+        - Documentation moved
+        - Pricing or access model changed
+        - Licence or terms changed
+        - Wrong category or duplicate
+        - Resource has shut down
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Status code, screenshot, provider notice or the page that contradicts the row.
+    validations:
+      required: true

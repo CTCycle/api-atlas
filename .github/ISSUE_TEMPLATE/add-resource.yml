@@ -1,0 +1,85 @@
+name: Add a resource
+description: Suggest an API, dataset, portal or MCP server for the catalog.
+title: "Add: "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks. One resource per issue. Read the inclusion criteria first:
+        https://github.com/CTCycle/api-atlas/blob/main/docs/inclusion-criteria.md
+
+        Do not paste marketing copy. A maintainer will check the links and write the row.
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+      placeholder: Open-Meteo
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Official website
+      description: The canonical page, not a mirror or an affiliate link.
+      placeholder: https://open-meteo.com/
+    validations:
+      required: true
+  - type: input
+    id: docs
+    attributes:
+      label: Documentation URL
+      placeholder: https://open-meteo.com/en/docs
+  - type: textarea
+    id: description
+    attributes:
+      label: What does it provide
+      description: One factual sentence, no marketing language.
+      placeholder: Weather forecasts, historical reanalysis and climate projections for any coordinate.
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options: [API, Dataset, Portal, MCP]
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Suggested category
+      description: One of the categories listed in the README.
+      placeholder: weather-climate
+    validations:
+      required: true
+  - type: dropdown
+    id: access
+    attributes:
+      label: Access
+      options: [Free, Free tier, Freemium, Paid, Restricted, Not sure]
+    validations:
+      required: true
+  - type: dropdown
+    id: auth
+    attributes:
+      label: Authentication
+      options: [None, API key, OAuth, Registration, Account, Not sure]
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: Licence or terms
+      description: Only if the provider states it. Leave empty if unknown.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I opened both links today and they work.
+          required: true
+        - label: The resource is not already in the catalog.
+          required: true
+        - label: I am not affiliated with this resource, or I have said so above.
+          required: true

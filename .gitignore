@@ -5,10 +5,7 @@ __pycache__/
 venv/
 build/
 dist/
-.upstream/
-.pytest_cache/
-data/*.sqlite
-data/*.sqlite-wal
-data/*.sqlite-shm
-reports/linkcheck-*.json
-reports/dedupe-*.txt
+
+# generated locally, never committed
+reports/
+_work/
