@@ -19,9 +19,9 @@ Legislation, procurement, civic records and public sector APIs.
 | [Colorado Information Marketplace](https://data.colorado.gov) | API | Colorado State Government Open Data | Free tier | None | - | - | public-apis | - |
 | [ContaCLT](https://contaclt.com/dados/api) | API | Brazilian payroll and labor calculations: net salary, INSS, IRRF, unemployment insurance | Free tier | None | - | - | public-apis | - |
 | [Conversor IAE CNAE](https://www.conversoriaecnae.es/api/v1/docs) | API | Spanish IAE/CNAE tax activity codes, 2009→2025 crosswalk and AEAT obligations | Free tier | API key | - | - | public-apis | - |
-| [CPFHub](https://cpfhub.io) | API | Brazilian CPF lookup - returns full name, birth date, and gender for any CPF | Free tier | API key | - | - | public-apis | - |
+| [CPFHub](https://www.cpfhub.io/) | API | Brazilian CPF lookup - returns full name, birth date, and gender for any CPF | Free tier | API key | - | - | public-apis | - |
 | [Data.parliament.uk](https://explore.data.parliament.uk?learnmore=Members) | API | Contains live datasets including information about petitions, bills, MP votes, attendance and more | Free tier | None | - | - | public-apis | - |
-| [DataBC](https://www.data.gov.bc.ca) | Dataset | data from the Province of British Columbia | - | - | - | - | awesome-datasets | - |
+| [DataBC](https://catalogue.data.gov.bc.ca/) | Dataset | data from the Province of British Columbia | - | - | - | - | awesome-datasets | - |
 | [Deutscher Bundestag DIP](https://dip.bundestag.de/documents/informationsblatt_zur_dip_api_v01.pdf) | API | This API provides read access to DIP entities (e.g. activities, persons, printed material) | Free tier | API key | - | - | public-apis | - |
 | [Disclosed Capitol](https://www.disclosedcapitol.com/data-files/api) | API | US congressional & executive-branch stock trade disclosures (STOCK Act + OGE) | Free tier | API key | - | - | public-apis | - |
 | [DistrictAPI](https://districtapi.dev/docs) | API | US school districts and schools by address, with enrollment and boundaries | Free tier | API key | - | - | public-apis | - |
@@ -29,14 +29,13 @@ Legislation, procurement, civic records and public sector APIs.
 | [Edgrapi](https://edgrapi.com/docs) | API | US government data as JSON: SAM.gov contract opportunities, USAspending awards, Grants.gov grants | Free tier | API key | - | - | public-apis | - |
 | [EditalMD](https://editalmd.com/api) | API | Brazilian public procurement (PNCP) notices as Markdown with deadlines and requirements | Free tier | None | - | - | public-apis | - |
 | [Election](https://election.org/data/api) | API | Source-linked U.S. election and civic records with coverage limits | Free tier | None | - | - | public-apis | - |
-| [EPA](https://www.epa.gov/developers/data-data-products) | API | Web services and data sets from the US Environmental Protection Agency | Free tier | None | - | - | public-apis | - |
+| [EPA](https://www.epa.gov/developers/widgets) | API | Web services and data sets from the US Environmental Protection Agency | Free tier | None | - | - | public-apis | - |
 | [EU VAT Rates by Commodity Code](https://github.com/humora2504/eu-vat-by-commodity-code) | API | EU VAT rates mapped to CN and CPA commodity codes, all 27 member states | Free tier | None | - | - | public-apis, awesome-datasets | - |
 | [Eurostat](https://ec.europa.eu/eurostat) | Portal | Eurostat European statistical data portal | Free | None | CC-BY-4.0 | - | editorial | 2026-10-24 |
-| [EveryPolitician](http://everypolitician.org) | Dataset | Ongoing project collating and sharing data on every politician | - | - | - | - | awesome-datasets | - |
+| [EveryPolitician](https://everypolitician.org:443/) | Dataset | Ongoing project collating and sharing data on every politician | - | - | - | - | awesome-datasets | - |
 | [FastDOL](https://www.fastdol.com/docs) | API | Federal enforcement records for US employers: OSHA, WHD, MSHA, EPA, NLRB, and more | Free tier | API key | - | - | public-apis | - |
 | [FBI Wanted](https://www.fbi.gov/wanted/api) | API | Access information on the FBI Wanted program | Free tier | None | - | - | public-apis | - |
 | [FDA Import Alert Screening](https://aerviklabs.com/apis/fda-import-alerts) | API | Screen firm names against FDA Import Alert Red, Yellow and Green Lists | Free tier | API key | - | - | public-apis | - |
-| [FEC](https://api.open.fec.gov/developers) | API | Information on campaign donations in federal elections | Free tier | API key | - | - | public-apis | - |
 | [Federal Register](https://www.federalregister.gov/reader-aids/developer-resources/rest-api) | API | The Daily Journal of the United States Government | Free tier | None | - | - | public-apis | - |
 | [gankdat](https://gankdat.com/docs) | API | UK & EU tenders, UK planning, UK sanctions, US exclusions, UK insolvency and incorporations as JSON | Free tier | API key | - | - | public-apis | - |
 | [Gdansk Open Data](https://www.gdansk.pl/otwarte-dane-w-gdansku) | Dataset | Official open data portal of the City of Gdańsk (Poland) | - | - | - | - | awesome-datasets | - |
@@ -52,7 +51,7 @@ Legislation, procurement, civic records and public sector APIs.
 | [LocalGov.jp](https://localgov.jp) | API | Japan grants and subsidies (central J-Grants + 1,916 municipalities) | Free tier | None | - | - | public-apis | - |
 | [Luxembourg](https://data.public.lu/en) | Dataset | Luxembourgish Open Data Portal | - | - | - | - | awesome-datasets | - |
 | [MORVS](https://morvs.ai/api) | API | Source-linked US regulatory and public records: SEC filings, enforcement actions, recalls | Free tier | None | - | - | public-apis | - |
-| [National Park Service, US](https://www.nps.gov/subjects/developer) | API | Data from the US National Park Service | Free tier | API key | - | - | public-apis | - |
+| [National Park Service, US](https://www.nps.gov/subjects/developer/index.htm) | API | Data from the US National Park Service | Free tier | API key | - | - | public-apis | - |
 | [Neotimo DGFiP Mirror](https://neotimo.com/annuaire-dgfip) | API | French DGFiP registry of certified e-invoicing platforms (Plateformes Agréées), searchable by SIRET | Free tier | None | - | - | public-apis | - |
 | [Open Government, ACT](https://www.data.act.gov.au) | API | Australian Capital Territory Open Data | Free tier | None | - | - | public-apis | - |
 | [Open Government, Argentina](https://datos.gob.ar) | API | Argentina Government Open Data | Free tier | None | - | - | public-apis | - |
@@ -60,22 +59,22 @@ Legislation, procurement, civic records and public sector APIs.
 | [Open Government, Czech Republic](https://data.gov.cz/english) | API | Czech Republic Government Open Data | Free tier | None | - | - | public-apis | - |
 | [Open Government, Indonesia](https://data.go.id) | API | Indonesian Government Open Data | Free tier | None | - | - | public-apis | - |
 | [Open Government, Lithuania](https://data.gov.lt/public/api/1) | API | Lithuania Government Open Data | Free tier | None | - | - | public-apis | - |
-| [Open Government, Luxembourg](https://data.public.lu) | API | Luxembourgish Government Open Data | Free tier | API key | - | - | public-apis | - |
+| [Open Government, Luxembourg](https://data.public.lu/fr/) | API | Luxembourgish Government Open Data | Free tier | API key | - | - | public-apis | - |
 | [Open Government, Mexico](https://www.inegi.org.mx/datos) | API | Mexican Statistical Government Open Data | Free tier | None | - | - | public-apis | - |
 | [Open Government, Netherlands](https://data.overheid.nl/en/ondersteuning/data-publiceren/api) | API | Netherlands Government Open Data | Free tier | None | - | - | public-apis | - |
 | [Open Government, New South Wales](https://api.nsw.gov.au) | API | New South Wales Government Open Data | Free tier | API key | - | - | public-apis | - |
 | [Open Government, New Zealand](https://www.data.govt.nz) | API | New Zealand Government Open Data | Free tier | None | - | - | public-apis | - |
-| [Open Government, Norway](https://data.norge.no/dataservices) | API | Norwegian Government Open Data | Free tier | None | - | - | public-apis | - |
+| [Open Government, Norway](https://data.norge.no:443/data-services) | API | Norwegian Government Open Data | Free tier | None | - | - | public-apis | - |
 | [Open Government, Queensland Government](https://www.data.qld.gov.au) | API | Queensland Government Open Data | Free tier | None | - | - | public-apis | - |
 | [Open Government, Saudi Arabia](https://data.gov.sa) | API | Saudi Arabia Government Open Data | Free tier | None | - | - | public-apis | - |
 | [Open Government, Singapore](https://data.gov.sg) | API | Singapore Government Open Data | Free tier | None | - | - | public-apis | - |
 | [Open Government, South Australian Government](https://data.sa.gov.au) | API | South Australian Government Open Data | Free tier | None | - | - | public-apis | - |
 | [Open Government, Switzerland](https://handbook.opendata.swiss/de/content/nutzen/api-nutzen.html) | API | Switzerland Government Open Data | Free tier | None | - | - | public-apis | - |
-| [Open Government, USA](https://www.data.gov) | API | United States Government Open Data | Free tier | None | PD-USGov | - | public-apis | - |
+| [Open Government, USA](https://data.gov/) | API | United States Government Open Data | Free tier | None | PD-USGov | - | public-apis | - |
 | [Open Government, Victoria State Government](https://www.data.vic.gov.au) | API | Victoria State Government Open Data | Free tier | None | - | - | public-apis | - |
 | [OpenMercantil](https://openmercantil.es/api/documentacion) | API | Spanish company public data and BORME event timelines | Free tier | None | - | - | public-apis | - |
 | [OpenRegistry](https://openregistry.sophymarine.com) | API | Real-time queries to 80+ national company registries (UK, FR, DE, IT, ES, KR and more) | Free tier | OAuth | - | - | public-apis | - |
-| [OpenStates](https://openstates.org/api) | API | US state legislature bills and lawmakers | Free tier | API key | - | - | public-apis | - |
+| [OpenStates](https://docs.openstates.org/api-v3/) | API | US state legislature bills and lawmakers | Free tier | API key | - | - | public-apis | - |
 | [Radar CNPJ](https://radar-cnpj.com/api) | API | Brazilian companies (CNPJ) lookup and search, with a market check by area and monitoring | Free tier | None | - | - | public-apis | - |
 | [Regulations.gov](https://open.gsa.gov/api/regulationsgov) | API | US federal rulemaking comments and dockets | Free tier | API key | - | - | public-apis | - |
 | [Represent by Open North](https://represent.opennorth.ca) | API | Find Canadian Government Representatives | Free tier | None | - | - | public-apis | - |
@@ -89,7 +88,7 @@ Legislation, procurement, civic records and public sector APIs.
 | [UK ONS](https://www.ons.gov.uk) | Portal | UK Office for National Statistics data portal | Free | None | OGL-UK-3.0 | - | editorial | 2026-10-24 |
 | [UK Public Tenders by Trade](https://tools.gptshopltd.com/api/uk-tenders) | API | Live open UK public sector tenders by trade from Find a Tender and Contracts Finder (OGL v3.0) | Free tier | None | - | - | public-apis | - |
 | [UN Data](https://data.un.org) | Portal | United Nations statistical data portal | Free | None | UN data terms, generally ... | - | editorial | 2026-10-24 |
-| [US Census](https://www.census.gov) | API | US Census Bureau data API for population and economic statistics | Free | API key | PD-USGov | [docs](https://api.census.gov) | editorial | 2026-10-24 |
+| [US Census](https://www.census.gov) | API | US Census Bureau data API for population and economic statistics | Free | API key | PD-USGov | [docs](https://www.census.gov/data/developers.html) | editorial | 2026-10-24 |
 | [Veridion](https://www.veridionmarkets.com/data-api/docs) | API | US congressional stock-trade disclosures and the President's OGE reports, linked to each filing | Free tier | None | - | - | public-apis | - |
 | [Vett](https://wimberly.solutions/api/free-sanctions-check) | API | Screen names & companies against OFAC, PEP, watchlists & recalls | Free tier | None | - | - | public-apis | - |
 | [VotePredictor](https://votepredictor.com/developers) | API | US election forecasts, congressional voting records and forecaster accuracy ratings | Free tier | None | - | - | public-apis | - |

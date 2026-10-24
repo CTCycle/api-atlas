@@ -17,12 +17,12 @@ Museums, image collections, design assets, colour and typography data.
 | [Europeana](https://pro.europeana.eu/resources/apis/search) | API | European Museum and Galleries content | Free tier | API key | - | - | public-apis | - |
 | [Face Shape Guide Lookup](https://myfaceshapechart.com/openapi.json) | API | Read-only lookup for published face-shape guide records | Free tier | None | - | - | public-apis | - |
 | [Favicondl](https://favicondl.com/documentation.html) | API | Get any website's favicon by URL (SVG/PNG/ICO), with JSON metadata and fallbacks | Free tier | None | - | - | public-apis | - |
-| [Getty Images](http://developers.gettyimages.com/en) | API | Build applications using the world's most powerful imagery | Free tier | OAuth | - | [docs](https://api.apis.guru/v2/specs/gettyimages.com/3/openapi.json) | public-apis, APIs.guru | - |
+| [Getty Images](https://developer.gettyimages.com/en/) | API | Build applications using the world's most powerful imagery | Free tier | OAuth | - | [docs](https://api.apis.guru/v2/specs/gettyimages.com/3/openapi.json) | public-apis, APIs.guru | - |
 | [Google Photos](https://developers.google.com/photos) | API | Integrate Google Photos with your apps or devices | Free tier | OAuth | - | - | public-apis | - |
 | [Icon Horse](https://icon.horse) | API | Favicons for any website, with fallbacks | Free tier | None | - | - | public-apis | - |
 | [Iconify](https://iconify.design/docs/api) | API | Search and fetch SVG icons from 200+ open source icon sets | Free tier | None | - | - | public-apis | - |
 | [Icons8](https://img.icons8.com) | API | Icons (find "search icon" hyperlink in page) | Free tier | None | - | - | public-apis | - |
-| [Kavel](https://kavel.readthedocs.io) | API | Generate and edit images with AI, no key or account required | Free tier | None | - | - | public-apis | - |
+| [Kavel](https://kavel.readthedocs.io/en/latest/) | API | Generate and edit images with AI, no key or account required | Free tier | None | - | - | public-apis | - |
 | [Lightdrift](https://docs.lightdrift.ai) | API | Search 1.85M openly licensed images by text or image, with license and attribution per result | Free tier | API key | - | - | public-apis | - |
 | [localscreenshot](https://localscreenshot.com) | API | Screenshot or PDF rendering of any public page, from 227 countries | Free tier | API key | - | - | public-apis | - |
 | [NexWall](https://nexwall.kodnextech.com/wallpaper-api/docs) | API | Curated 4K portrait phone wallpapers across 50+ categories | Free tier | API key | - | - | public-apis | - |

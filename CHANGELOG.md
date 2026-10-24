@@ -11,8 +11,10 @@ the SQLite index, the importers and the scheduled refresh workflows were removed
 - Catalog source of truth is now one Markdown table per category in `catalog/`,
   edited by hand. No build step is needed to contribute.
 - Row format: Name, Type, Description, Access, Auth, License, Docs, Source, Checked.
-- 42 categories, including new `legal`, `mathematics`, `space`, `manufacturing` and
-  a separate `mcp-servers` page for Model Context Protocol servers.
+- 1,829 rows across 42 categories, including new `legal`, `mathematics`, `space`,
+  `manufacturing` pages and a separate `mcp-servers` page (57 servers).
+- 229 URLs updated to their canonical targets after a full link check of 1,969 URLs;
+  69 cross-domain redirects are queued for manual review.
 - `scripts/catalog.py` (stdlib only) replaces the `regipy` package. It validates,
   exports JSONL and CSV, checks links and writes maintenance reports. It never
   edits the catalog.

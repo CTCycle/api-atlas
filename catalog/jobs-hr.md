@@ -25,6 +25,6 @@ Job boards, salary data, recruiting and workforce datasets.
 | [Techmap](https://api.techmap.io/jobs-api) | API | Job postings from 185 sources in 250 countries and territories, with an archive since 2020 | Free tier | API key | - | - | public-apis | - |
 | [TechRole Index](https://techrole.ru/open-data-daily) | API | Russian IT profession, vacancy publication and salary aggregates | Free tier | None | - | - | public-apis | - |
 | [The Muse](https://www.themuse.com/developers/api/v2) | API | Job board and company profiles | Free tier | API key | - | - | public-apis | - |
-| [Upwork](https://developers.upwork.com) | API | Freelance job board and management system | Free tier | OAuth | - | - | public-apis | - |
+| [Upwork](https://www.upwork.com/developer/documentation/graphql/api/docs/index.html) | API | Freelance job board and management system | Free tier | OAuth | - | - | public-apis | - |
 | [Vibeworker](https://tryvibeworker.com/docs) | API | Upwork job listings with client data and AI fit scores, plus webhooks and RSS | Free tier | API key | - | - | public-apis | - |
 | [Worklittle](https://docs.worklittle.com) | API | Job search, over 4 million jobs | Free tier | API key | - | - | public-apis | - |

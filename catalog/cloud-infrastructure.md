@@ -8,4 +8,4 @@ Hosting, storage, container and deployment platforms.
 | [Filestack](https://www.filestack.com) | API | Filestack File Uploader & File Upload API | Free tier | API key | - | - | public-apis | - |
 | [FileUp](https://github.com/RealSinaSnp/FileUp) | API | Temporary file hosting with upload API, expiration times, and view limits | Free tier | None | - | - | public-apis | - |
 | [Revdoku](https://revdoku.com/api.md) | API | Cloud file storage, version history, sharing and incoming email attachments | Free tier | API key | - | - | public-apis | - |
-| [Vercel API](https://vercel.com/support) | API | Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work | - | - | - | [docs](https://openapi.vercel.sh) | APIs.guru | - |
+| [Vercel API](https://vercel.com/help) | API | Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work | - | - | - | [docs](https://openapi.vercel.sh) | APIs.guru | - |

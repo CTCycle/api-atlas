@@ -326,7 +326,7 @@ def cmd_export(args: argparse.Namespace) -> int:
     else:
         out = Path(args.out) if args.out else DATA_DIR / "catalog.csv"
         with out.open("w", encoding="utf-8", newline="") as fh:
-            w = csv.writer(fh)
+            w = csv.writer(fh, lineterminator="\n")
             w.writerow(["id", "name", "type", "category", "description", "website",
                         "docs", "access", "auth", "license", "source", "checked"])
             for e in entries:
@@ -349,7 +349,32 @@ def cmd_duplicates(args: argparse.Namespace) -> int:
 
     groups = [g for g in exact.values() if len(g) > 1]
     groups += [g for g in domain_name.values() if len(g) > 1 and g not in groups]
-    print(f"{len(groups)} possible duplicate group(s)\n")
+
+    # near-duplicate names inside one category (token overlap, not exact)
+    stop = {"api", "the", "and", "for", "data", "server", "mcp", "service", "services", "public"}
+
+    def tokens(name: str) -> set[str]:
+        return {t for t in re.split(r"[^a-z0-9]+", name.casefold())
+                if t and t not in stop and len(t) > 2}
+
+    by_cat: dict[str, list[Entry]] = defaultdict(list)
+    for e in entries:
+        by_cat[e.category].append(e)
+    fuzzy = []
+    for cat, items in by_cat.items():
+        for i, a in enumerate(items):
+            for b in items[i + 1:]:
+                ta, tb = tokens(a.name), tokens(b.name)
+                if not ta or not tb:
+                    continue
+                overlap = len(ta & tb) / len(ta | tb)
+                if overlap >= 0.8:
+                    fuzzy.append((cat, a, b, overlap))
+
+    print(f"{len(groups)} same-URL or same-name group(s), "
+          f"{len(fuzzy)} near-duplicate name pair(s)\n")
+    for cat, a, b, score in fuzzy[:40]:
+        print(f"  [{cat}] {a.name}  ~  {b.name}  ({score:.2f})")
     for g in groups:
         print(f"  {g[0].name}  [same url/name across: {', '.join(sorted({x.category for x in g}))}]")
         for e in g:
@@ -484,7 +509,7 @@ def cmd_linkcheck(args: argparse.Namespace) -> int:
     results.sort(key=lambda r: (r["category"], r["name"].casefold()))
     REPORT_DIR.mkdir(exist_ok=True)
     stamp = dt.date.today().isoformat()
-    out = Path(args.out) if args.out else REPORT_DIR / f"linkcheck-{stamp}.json"
+    out = Path(args.out).resolve() if args.out else REPORT_DIR / f"linkcheck-{stamp}.json"
     out.write_text(json.dumps({
         "generated": dt.datetime.now().isoformat(timespec="seconds"),
         "user_agent": USER_AGENT,
@@ -496,7 +521,10 @@ def cmd_linkcheck(args: argparse.Namespace) -> int:
 
     summary = Counter(r["kind"] for r in results)
     print("\n" + "  ".join(f"{k}={v}" for k, v in sorted(summary.items())))
-    print(f"wrote {out.relative_to(ROOT)}")
+    try:
+        print(f"wrote {out.relative_to(ROOT)}")
+    except ValueError:
+        print(f"wrote {out}")
     return 0
 
 

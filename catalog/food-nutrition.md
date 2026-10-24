@@ -9,7 +9,7 @@ Food composition, recipes, restaurants and product nutrition data.
 | [Chomp](https://chompthis.com/api) | API | Data about various grocery products and foods | Free tier | API key | - | - | public-apis | - |
 | [CookbookSocial Nutrition](https://cookbooksocial.app/api) | API | Nutrition data for 4,631 ingredients with food names in 19 languages | Free tier | API key | - | - | public-apis | - |
 | [Daily Food Recalls](https://dailyfoodrecalls.com/api) | API | U.S. FDA and USDA food recalls, merged and normalized, updated daily | Free tier | None | - | - | public-apis | - |
-| [DoughMatrix](https://doughmatrix.com) | API | Sourdough and pizza dough formula calculators: true hydration, DDT, fermentation windows | Free tier | None | - | - | public-apis | - |
+| [DoughMatrix](https://www.doughmatrix.com/) | API | Sourdough and pizza dough formula calculators: true hydration, DDT, fermentation windows | Free tier | None | - | - | public-apis | - |
 | [ExactCup](https://exactcup.github.io/api) | API | Cooking ingredient densities: grams per US cup, tablespoon, teaspoon and mL | Free tier | None | - | - | public-apis | - |
 | [FiberUp Fiber Database](https://fiberup.app/data) | API | Dietary fiber per serving and per 100 g, split into soluble and insoluble, for ~200 common foods | Free tier | None | - | - | public-apis | - |
 | [Food Info](https://food-info.org/developer) | API | Nutrition data for millions of foods from six national food composition datasets | Free tier | API key | - | - | public-apis | - |

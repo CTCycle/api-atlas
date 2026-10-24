@@ -4,7 +4,7 @@ Web, academic and specialist search engines.
 
 | Name | Type | Description | Access | Auth | License | Docs | Source | Checked |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [api.clarify.io](https://clarify.io) | API | The API to Search and Understand Audio & Video Data | - | - | - | [docs](https://api.clarify.io/api-docs) | APIs.guru | - |
+| [api.clarify.io](https://www.clarify.io/) | API | The API to Search and Understand Audio & Video Data | - | - | - | [docs](https://api.clarify.io/api-docs) | APIs.guru | - |
 | [Base dos Dados](https://basedosdados.org/en) | Dataset | Data Basis: Open Data Repository for Brazil | - | - | - | - | awesome-datasets | - |
 | [Domains Project](https://github.com/tb0hdan/domains) | Dataset | Sorted list of Internet domains | - | - | - | - | awesome-datasets | - |
 | [OpenDataNetwork](http://www.opendatanetwork.com) | Dataset | A search engine of all Socrata powered data portals | - | - | - | - | awesome-datasets | - |

@@ -6,7 +6,7 @@ Fake users, addresses, images and generators for testing.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [AddressMock](https://addressmock.com/api) | API | Random US, Hong Kong and Cape Verde addresses with matched city, state and ZIP | Free tier | None | - | - | public-apis | - |
 | [Bacon Ipsum](https://baconipsum.com/json-api) | API | A Meatier Lorem Ipsum Generator | Free tier | None | - | - | public-apis | - |
-| [Dicebear Avatars](https://avatars.dicebear.com) | API | Generate random pixel-art avatars | Free tier | None | - | - | public-apis | - |
+| [Dicebear Avatars](https://www.dicebear.com/) | API | Generate random pixel-art avatars | Free tier | None | - | - | public-apis | - |
 | [DummyJSON](https://dummyjson.com) | API | Fake REST API with products, users, posts, comments, todos and more | Free tier | None | - | - | public-apis | - |
 | [English Random Words](https://random-words-api.vercel.app/word) | API | Generate English Random Words with Pronunciation | Free tier | None | - | - | public-apis | - |
 | [FakeJSON](https://fakejson.com) | API | Service to generate test and fake data | Free tier | API key | - | - | public-apis | - |
@@ -25,6 +25,6 @@ Fake users, addresses, images and generators for testing.
 | [Supercrontab Mock Endpoints](https://supercrontab.com/mock) | API | Mock endpoints in 8 formats, each returning any of 14 HTTP status codes | Free tier | None | - | - | public-apis | - |
 | [TestingAPIs](https://testingapis.com/docs) | API | Free fake REST API with products, posts, todos, any HTTP status code and request echo | Free tier | None | - | - | public-apis | - |
 | [This Person Does not Exist](https://thispersondoesnotexist.com) | API | Generates real-life faces of people who do not exist | Free tier | None | - | - | public-apis | - |
-| [TotalShiftLeft Sandbox](https://demo.totalshiftleft.ai) | API | Free multi-protocol sandbox: REST, GraphQL & SOAP with OAuth2/JWT auth and OpenAPI 3.0 spec | Free tier | None | - | - | public-apis | - |
+| [TotalShiftLeft Sandbox](https://demo.totalshiftleft.ai/ui) | API | Free multi-protocol sandbox: REST, GraphQL & SOAP with OAuth2/JWT auth and OpenAPI 3.0 spec | Free tier | None | - | - | public-apis | - |
 | [Waldrand Avatar](https://avatar.waldrand.dev) | API | Deterministic SVG/PNG/WebP avatars from any string, four styles | Free tier | None | - | - | public-apis | - |
-| [What The Commit](http://whatthecommit.com/index.txt) | API | Random commit message generator | Free tier | None | - | - | public-apis | - |
+| [What The Commit](https://whatthecommit.com/index.txt) | API | Random commit message generator | Free tier | None | - | - | public-apis | - |

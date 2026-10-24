@@ -5,14 +5,14 @@ Document conversion, file storage, notes, tasks and office automation.
 | Name | Type | Description | Access | Auth | License | Docs | Source | Checked |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Africa Compliance Data](https://africacompliancedata.com/docs) | API | Public holidays and business days for all 54 African countries, from official sources | Free tier | API key | - | - | public-apis | - |
-| [Asana](https://developers.asana.com/docs) | API | This is the interface for interacting with the Asana Platform. Our API reference is generated from our [OpenAPI spec] ... | Free tier | API key | Apache 2.0 | [docs](https://api.apis.guru/v2/specs/asana.com/1.0/openapi.json) | public-apis, APIs.guru | - |
+| [Asana](https://developers.asana.com/docs/overview) | API | This is the interface for interacting with the Asana Platform. Our API reference is generated from our | Free tier | API key | Apache 2.0 | [docs](https://api.apis.guru/v2/specs/asana.com/1.0/openapi.json) | public-apis, APIs.guru | - |
 | [caldays](https://caldays.com/api) | API | Public holidays for 195+ countries | Free tier | None | - | - | public-apis | - |
-| [Checkiday - National Holiday](https://apilayer.com/marketplace/checkiday-api) | API | Industry-leading holiday data with over 5,000 holidays and thousands of descriptions | Free tier | API key | - | - | public-apis | - |
+| [Checkiday - National Holiday](https://marketplace.apilayer.com/checkiday-api) | API | Industry-leading holiday data with over 5,000 holidays and thousands of descriptions | Free tier | API key | - | - | public-apis | - |
 | [Chinese Character Web](http://ccdb.hemiola.com) | API | Chinese character definitions and pronunciations | Free tier | None | - | - | public-apis | - |
 | [Chinese Text Project](https://ctext.org/tools/api) | API | Online open-access digital library for pre-modern Chinese texts | Free tier | None | - | - | public-apis | - |
-| [ClickUp](https://clickup.com/api) | API | ClickUp is a robust, cloud-based project management tool for boosting productivity | Free tier | OAuth | - | - | public-apis | - |
+| [ClickUp](https://developer.clickup.com/) | API | ClickUp is a robust, cloud-based project management tool for boosting productivity | Free tier | OAuth | - | - | public-apis | - |
 | [clickup20](https://clickup.com) | API | Polls is a simple API allowing consumers to view polls and vote in them | - | - | - | [docs](https://jsapi.apiary.io/apis/clickup20.source) | APIs.guru | - |
-| [CloudConvert](https://cloudconvert.com/api/v2) | API | Online file converter for audio, video, document, ebook, archive, image, spreadsheet, presentation | Free tier | API key | - | - | public-apis | - |
+| [CloudConvert](https://cloudconvert.com/docs/getting-started/introduction) | API | Online file converter for audio, video, document, ebook, archive, image, spreadsheet, presentation | Free tier | API key | - | - | public-apis | - |
 | [Cloudmersive Document and Data Conversion](https://cloudmersive.com/convert-api) | API | HTML/URL to PDF/PNG, Office documents to PDF, image conversion | Free tier | API key | - | - | public-apis | - |
 | [Code::Stats](https://codestats.net/api-docs) | API | Automatic time tracking for programmers | Free tier | API key | - | - | public-apis | - |
 | [Collins](https://api.collinsdictionary.com/api/v1/documentation/html) | API | Bilingual Dictionary and Thesaurus Data | Free tier | API key | - | - | public-apis | - |
@@ -21,22 +21,22 @@ Document conversion, file storage, notes, tasks and office automation.
 | [CraftMyPDF](https://craftmypdf.com) | API | Generate PDF documents from templates with a drop-and-drop editor and a simple API | Free tier | API key | - | - | public-apis | - |
 | [Czech Namedays Calendar](https://svatky.adresa.info) | API | Lookup for a name and returns nameday date | Free tier | None | - | - | public-apis | - |
 | [DocCheap](https://doc.cheap/docs) | API | Read passports, ID cards and driver's licences into JSON, $0.01 per recognised document | Free tier | API key | - | - | public-apis | - |
-| [Emboss](https://getemboss.ai/docs) | API | Make PDF forms fillable, fill them from JSON or documents, and read filled forms back | Free tier | API key | - | - | public-apis | - |
+| [Emboss](https://getemboss.ai/docs/quickstart) | API | Make PDF forms fillable, fill them from JSON or documents, and read filled forms back | Free tier | API key | - | - | public-apis | - |
 | [FaturaPDF](https://rapidapi.com/leosanchees2014/api/brazilian-invoice-receipt-pdf-api-cpf-cnpj) | API | Generate Brazilian invoice/receipt PDFs with checksum-validated CPF/CNPJ and PIX QR | Free tier | API key | - | - | public-apis | - |
 | [flatmark](https://flatmark.dev/docs) | API | Convert PDF, Word, PowerPoint, Excel and HTML documents to Markdown for RAG and agents | Free tier | API key | - | - | public-apis | - |
 | [Formfeed](https://docs.formfeed.dev/api/overview) | API | Render PDFs and images from HTML (Jinja2, Liquid, Handlebars) or Word templates, with a free tier | Free tier | API key | - | - | public-apis | - |
 | [Free Dictionary](https://dictionaryapi.dev) | API | Definitions, phonetics, pronunciations, parts of speech, examples, synonyms | Free tier | None | - | - | public-apis | - |
-| [Google Calendar](https://developers.google.com/google-apps/calendar) | API | Display, create and modify Google calendar events | Free tier | OAuth | - | - | public-apis | - |
+| [Google Calendar](https://developers.google.com/workspace/calendar) | API | Display, create and modify Google calendar events | Free tier | OAuth | - | - | public-apis | - |
 | [Greenwire Public API](http://www.greenpeace.org/international/en/about/contactus) | API | Greenpeace Greenwire allows you connect with other volunteers, activists and groups working on environmental campaigns all across the world! | - | - | MIT | [docs](https://api.apis.guru/v2/specs/greenpeace.org/1.0.0/swagger.json) | APIs.guru | - |
 | [Hebrew Calendar](https://www.hebcal.com/home/developer-apis) | API | Convert between Gregorian and Hebrew, fetch Shabbat and Holiday times, etc | Free tier | None | - | - | public-apis | - |
 | [Holidays](https://holidayapi.com) | API | Historical data regarding holidays | Free tier | API key | - | - | public-apis | - |
-| [iLovePDF](https://developer.ilovepdf.com) | API | Convert, merge, split, extract text and add page numbers for PDFs. Free for 250 documents/month | Free tier | API key | - | - | public-apis | - |
+| [iLovePDF](https://www.iloveapi.com/) | API | Convert, merge, split, extract text and add page numbers for PDFs. Free for 250 documents/month | Free tier | API key | - | - | public-apis | - |
 | [India Public Holidays](https://calendar-api-web.vercel.app/docs) | API | Official Indian public holidays for the Central government and 36 states/UTs | Free tier | None | - | - | public-apis | - |
 | [Intellibook](https://www.intellibookai.com/docs) | API | Appointment booking and availability API for salons and clinics | Free tier | None | - | - | public-apis | - |
-| [JIRA](https://developer.atlassian.com/server/jira/platform/rest-apis) | API | JIRA is a proprietary issue tracking product that allows bug tracking and agile project management | Free tier | OAuth | - | - | public-apis | - |
+| [JIRA](https://developer.atlassian.com/server/jira/platform/rest/v11002/) | API | JIRA is a proprietary issue tracking product that allows bug tracking and agile project management | Free tier | OAuth | - | - | public-apis | - |
 | [LectServe](http://www.lectserve.com) | API | Protestant liturgical calendar | Free tier | None | - | - | public-apis | - |
-| [Mattermost](https://api.mattermost.com) | API | An open source platform for developer collaboration | Free tier | OAuth | - | - | public-apis | - |
-| [Nager.Date](https://date.nager.at) | API | Public holidays for more than 90 countries | Free tier | None | - | - | public-apis | - |
+| [Mattermost](https://docs.mattermost.com/api) | API | An open source platform for developer collaboration | Free tier | OAuth | - | - | public-apis | - |
+| [Nager.Date](https://nagerholidays.com/) | API | Public holidays for more than 90 countries | Free tier | None | - | - | public-apis | - |
 | [Namedays Calendar](https://nameday.abalin.net) | API | Provides namedays for multiple countries | Free tier | None | - | - | public-apis | - |
 | [Non-Working Days](https://github.com/gadael/icsdb) | API | Database of ICS files for non working days | Free tier | None | - | - | public-apis | - |
 | [OCR.Space](https://ocr.space/ocrapi) | API | OCR text extraction from images and PDFs with a free tier | Free tier | API key | - | - | public-apis | - |
@@ -46,7 +46,7 @@ Document conversion, file storage, notes, tasks and office automation.
 | [PolyDoc](https://polydoc.tech) | API | HTML/URL to PDF and screenshots, plus Factur-X/ZUGFeRD e-invoices; free tier | Free tier | API key | - | - | public-apis | - |
 | [PrexView](https://prexview.com) | API | Data from XML or JSON to PDF, HTML or Image | Free tier | API key | - | - | public-apis | - |
 | [PrintSocket](https://www.printsocket.com/docs) | API | Send PDFs, ZPL labels and ESC/POS receipts to your own printers from any language; free tier | Free tier | API key | - | - | public-apis | - |
-| [Public Holidays](https://www.abstractapi.com/holidays-api) | API | Data on national, regional, and religious holidays via API | Free tier | API key | - | - | public-apis | - |
+| [Public Holidays](https://www.abstractapi.com/api/holidays-api) | API | Data on national, regional, and religious holidays via API | Free tier | API key | - | - | public-apis | - |
 | [Random Lexicon](https://randomlexicon.com/api-reference) | API | Random words and definitions using optional filters | Free tier | None | - | - | public-apis | - |
 | [Renderly](https://renderlyapi.com) | API | HTML to PDF conversion API built on Chromium | Free tier | API key | - | - | public-apis | - |
 | [Rendex](https://rendex.dev) | API | Render HTML, Markdown, or URLs to PNG/JPEG/WebP/PDF, with extraction and templating | Free tier | API key | - | - | public-apis | - |
@@ -55,8 +55,8 @@ Document conversion, file storage, notes, tasks and office automation.
 | [Russian Calendar](https://github.com/egno/work-calendar) | API | Check if a date is a Russian holiday or not | Free tier | None | - | - | public-apis | - |
 | [Sahifa](https://sahifa.dev/en/docs) | API | HTML/URL to PDF and screenshots with Arabic and right-to-left support; free tier | Free tier | API key | - | - | public-apis | - |
 | [SayItVid](https://sayitvid.com) | API | English video pronunciation search with timestamps, IPA phonetics and subtitle context | Free tier | API key | - | - | public-apis | - |
-| [Shortcut](https://developer.shortcut.com) | API | Manage stories, epics, iterations and objectives in a Shortcut workspace | Free tier | API key | - | - | public-apis | - |
-| [Smart Image Enhancement](https://apilayer.com/marketplace/image_enhancement-api) | API | Performs image upscaling by adding detail to images through multiple super-resolution algorithms | Free tier | API key | - | - | public-apis | - |
+| [Shortcut](https://developer.shortcut.com/api/rest/v3) | API | Manage stories, epics, iterations and objectives in a Shortcut workspace | Free tier | API key | - | - | public-apis | - |
+| [Smart Image Enhancement](https://marketplace.apilayer.com/) | API | Performs image upscaling by adding detail to images through multiple super-resolution algorithms | Free tier | API key | - | - | public-apis | - |
 | [staffSign](https://staffsign.de/docs) | API | Digital employment contract API with QES/eIDAS support for HR and staffing | Free tier | API key | - | - | public-apis | - |
 | [Synonyms](https://www.synonyms.com/synonyms_api.php) | API | Synonyms, thesaurus and antonyms information for any given word | Free tier | API key | - | - | public-apis | - |
 | [TeamSort](https://teamsort.world/developers) | API | Create a ranked-choice poll from a text prompt and get a shareable link | Free tier | None | - | - | public-apis | - |

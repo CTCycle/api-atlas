@@ -9,7 +9,7 @@ National and international open data catalogs and CKAN portals.
 | [AcreLens](https://www.acrelens.com) | API | Land suitability scoring API for any US property: off-grid, rural, recreational, investment | Free tier | API key | - | - | public-apis | - |
 | [API Setu](https://www.apisetu.gov.in) | API | An Indian Government platform that provides a lot of APIS for KYC, business, education & employment | Free tier | None | - | - | public-apis | - |
 | [APIllow](https://apillow.co/docs.html) | API | Zillow property data: 50+ fields per listing by address, URL, ZPID or ZIP, with sold data and comps | Free tier | API key | - | - | public-apis | - |
-| [Authorized Partner API Specification](https://digitallocker.gov.in) | API | To access files in user's DigiLocker account from your application, you must first obtain user's authorization | - | - | - | [docs](https://api.apis.guru/v2/specs/digitallocker.gov.in/authpartner/1.0.0/openapi.json) | APIs.guru | - |
+| [Authorized Partner API Specification](https://www.digilocker.gov.in:443/) | API | To access files in user's DigiLocker account from your application, you must first obtain user's authorization | - | - | - | [docs](https://api.apis.guru/v2/specs/digitallocker.gov.in/authpartner/1.0.0/openapi.json) | APIs.guru | - |
 | [Band Atlas](https://www.aiotrf.com/en/ai/band-atlas/developers) | API | Cellular IoT bands, 2G/3G sunsets and device compatibility for 46 countries | Free tier | None | - | - | public-apis | - |
 | [Big Data Explained](https://bigdataexplained.com/data) | API | Cloud data warehouse list prices, read daily from AWS and Azure pricing APIs, with price history | Free tier | None | - | - | public-apis | - |
 | [Black History Facts](https://www.blackhistoryapi.io/docs) | API | Contribute or search one of the largest black history fact databases on the web | Free tier | API key | - | - | public-apis | - |
@@ -24,18 +24,17 @@ National and international open data catalogs and CKAN portals.
 | [CityAlert](https://cityalert.live/developers) | API | Live public-safety incidents: crime, fire, disaster, weather and news from 650+ official feeds | Free tier | None | - | - | public-apis | - |
 | [Co-WIN Certificate API](https://www.cowin.gov.in) | API | API to get Co-WIN vaccination certificate | - | - | - | [docs](https://api.apis.guru/v2/specs/cowin.gov.cin/cowincert/1.0.0/openapi.json) | APIs.guru | - |
 | [CollegeCalcAI](https://collegecalcai.com/developers) | API | US college admission chance estimates and admissions data for 1,100+ colleges | Free tier | None | - | - | public-apis | - |
-| [CollegeScoreCard.ed.gov](https://collegescorecard.ed.gov/data) | API | Data on higher education institutions in the United States | Free tier | None | - | - | public-apis | - |
 | [CoworkingView](https://coworkingview.com/en/api) | API | Coworking spaces and offices in 63 European and Gulf cities with operator-published prices | Free tier | None | - | - | public-apis | - |
 | [CuttingToolsAI](https://cuttingtoolsai.eu/api) | API | Cross-brand carbide insert grade equivalents by ISO application class | Free tier | None | - | - | public-apis | - |
 | [data.europa.eu](https://data.europa.eu) | Portal | European Union open data portal | Free | None | CC-BY-4.0 | - | editorial | 2026-10-24 |
 | [data.gov.uk](https://www.data.gov.uk) | Portal | United Kingdom government open data portal | Free | None | OGL-UK-3.0 | - | editorial | 2026-10-24 |
 | [DevLifeCheck](https://devlifecheck.com/developers) | API | Security-update end dates, recalls and evidence for 1,300+ phones, tablets, Chromebooks and routers | Free tier | None | - | - | public-apis | - |
 | [Edgepedia](https://www.edgechat.ai/developers) | API | Search and read Edgepedia, a free and growing encyclopedia with citations | Free tier | None | - | - | public-apis | - |
-| [Enigma Public](https://developers.enigma.com/docs) | API | Broadest collection of public data | Free tier | API key | - | - | public-apis | - |
+| [Enigma Public](https://documentation.enigma.com/v1) | API | Broadest collection of public data | Free tier | API key | - | - | public-apis | - |
 | [EOSL](https://eosl.ai/api) | API | Hardware end-of-sale and end-of-service-life dates by part number, source-linked | Free tier | None | - | - | public-apis | - |
 | [French Address Search](https://geo.api.gouv.fr/adresse) | API | Address search via the French Government | Free tier | None | - | - | public-apis | - |
 | [GENESIS](https://www.destatis.de/EN/Service/OpenData/api-webservice.html) | API | Federal Statistical Office Germany | Free tier | OAuth | - | - | public-apis | - |
-| [Groundwater Wells, Aquifers and Registry API](https://gov.bc.ca) | API | The groundwater wells, aquifers and registry API contains information related to groundwater wells and aquifers as well as a register of qualified well drillers and well pump installers registered to ... | - | - | Open Government License - ... | [docs](https://api.apis.guru/v2/specs/gov.bc.ca/gwells/v1/openapi.json) | APIs.guru | - |
+| [Groundwater Wells, Aquifers and Registry API](https://www2.gov.bc.ca/gov/content/home) | API | The groundwater wells, aquifers and registry API contains information related to groundwater wells and aquifers as well as a register of qualified well drillers and well pump installers registered to ... | - | - | Open Government License - ... | [docs](https://api.apis.guru/v2/specs/gov.bc.ca/gwells/v1/openapi.json) | APIs.guru | - |
 | [HousingFeed](https://housingfeed.com/docs) | API | US rental listings from property managers' own websites, verified weekly | Free tier | None | - | - | public-apis | - |
 | [i6eal Open AI Data](https://i6eal.de/en/tools/data) | API | Open datasets on AI policy, regulation and public-sector adoption in Germany and the EU | Free tier | None | - | - | public-apis | - |
 | [InfraNode](https://infranode.dev) | API | Unified German city open data: weather, air quality, EV chargers, transit, demographics | Free tier | API key | - | - | public-apis | - |
@@ -43,7 +42,7 @@ National and international open data catalogs and CKAN portals.
 | [Kvartiry-Phuket](https://kvartiry-phuket.com/otkrytye-dannye) | API | Russian-language Phuket real estate guides, asking prices, condo assessment rates, weather, beaches | Free tier | None | - | - | public-apis | - |
 | [LinkPreview](https://www.linkpreview.net) | API | Get JSON formatted summary with title, description and preview image for any requested URL | Free tier | API key | - | - | public-apis | - |
 | [LottoLens PH](https://remo65588-boop.github.io/lottolens-ph-public-data/api) | API | Fixed Philippine PCSO historical results and normal draw schedules | Free tier | None | - | - | public-apis | - |
-| [Lowy Asia Power Index](https://github.com/0x0is1/lowy-index-api-docs) | API | Get measure resources and influence to rank the relative power of states in Asia | Free tier | None | - | - | public-apis | - |
+| [Lowy Asia Power Index](https://github.com/algocry/lowy-index-api-docs) | API | Get measure resources and influence to rank the relative power of states in Asia | Free tier | None | - | - | public-apis | - |
 | [Medcorder Nearby Doctor API](https://medcorder.com) | API | Returns doctors near a client given a lat/lon and autocomplete text | - | - | - | [docs](https://api.apis.guru/v2/specs/medcorder.com/1.0.0/swagger.json) | APIs.guru | - |
 | [Microburbs](https://www.microburbs.com.au/developers/api-docs) | API | Australian property and suburb data: valuations, sales, rents, schools, demographics, risk, zoning | Free tier | API key | - | - | public-apis | - |
 | [Microlink.io](https://microlink.io) | API | Extract structured data from any website | Free tier | None | - | - | public-apis | - |
@@ -65,7 +64,7 @@ National and international open data catalogs and CKAN portals.
 | [PublicDataHub](https://publicdatahub.org/api) | API | US public schools, hospitals and federal agency budgets as JSON/CSV, with provenance | Free tier | None | - | - | public-apis | - |
 | [Recreation Information Database](https://ridb.recreation.gov) | API | Recreational areas, federal lands, historic sites, museums, and other attractions/resources(US) | Free tier | API key | - | - | public-apis | - |
 | [Registrum](https://api.registrum.co.uk/docs) | API | UK company data: profiles, directors, PSC, iXBRL-parsed financials, ECCTA status | Free tier | API key | - | - | public-apis | - |
-| [SchoolDigger API V1](https://schooldigger.com) | API | Get detailed data on over 120,000 schools and 18,500 districts in the U.S | - | - | - | [docs](https://api.schooldigger.com/swagger/docs/v1) | APIs.guru | - |
+| [SchoolDigger API V1](https://www.schooldigger.com/) | API | Get detailed data on over 120,000 schools and 18,500 districts in the U.S | - | - | - | [docs](https://api.schooldigger.com/swagger/docs/v1) | APIs.guru | - |
 | [SlashYear](https://slashyear.com/api) | API | Dated historical events as JSON, each quoted from a cited Wikipedia revision | Free tier | None | - | - | public-apis | - |
 | [Socrata](https://dev.socrata.com) | API | Access to Open Data from Governments, Non-profits and NGOs around the world | Free tier | OAuth | - | - | public-apis | - |
 | [StackRates](https://stackrates.ai/ask) | API | VPS and cloud server prices from 46 providers, read daily from their own pricing pages and APIs | Free tier | None | - | - | public-apis | - |
@@ -76,8 +75,7 @@ National and international open data catalogs and CKAN portals.
 | [Tickerz](https://tickerz.com/docs) | API | Daily indexes of real-world activity from public data, each reading timestamped in Bitcoin | Free tier | None | - | - | public-apis | - |
 | [Tilth](https://www.tilth.uk/data) | API | Free daily UK fertiliser price index across nine grades, CC BY 4.0 licensed | Free tier | None | - | - | public-apis | - |
 | [UK Parliament Search Service](https://www.parliament.uk) | API | Performs search on parliament.uk domain. Implements OpenSearch specification. Throttled at 10 requests per second per IP address | - | - | Open Parliament | [docs](https://api.apis.guru/v2/specs/parliament.uk/search/Live/openapi.json) | APIs.guru | - |
-| [Umeå Open Data](https://opendata.umea.se/api) | API | Open data of the city Umeå in northen Sweden | Free tier | None | - | - | public-apis | - |
-| [Universities List](https://github.com/Hipo/university-domains-list) | API | University names, countries and domains | Free tier | None | - | - | public-apis | - |
+| [Umeå Open Data](https://opendata.umea.se/api-console/explore/v2.1/) | API | Open data of the city Umeå in northen Sweden | Free tier | None | - | - | public-apis | - |
 | [University of Oslo](https://data.uio.no) | API | Courses, lecture videos, detailed information for courses etc. for the University of Oslo (Norway) | Free tier | None | - | - | public-apis | - |
 | [UPC database](https://upcdatabase.org/api) | API | More than 1.5 million barcode numbers from all around the world | Free tier | API key | - | - | public-apis | - |
 | [Urban Observatory](https://urbanobservatory.ac.uk) | API | The largest set of publicly available real time urban data in the UK | Free tier | None | - | - | public-apis | - |

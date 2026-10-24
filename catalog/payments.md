@@ -10,5 +10,5 @@ Payment processing, banking rails, tax and billing services.
 | [PayPal](https://developer.paypal.com) | API | PayPal developer API for payments and payouts | Paid | OAuth | - | - | editorial | 2026-10-24 |
 | [Personalized Offers](https://mastercard.com) | API | This API provides content for financial instutions participating in Mastercard Personalized Offers to use in online and mobile banking applications for cardholders | - | - | - | [docs](https://developer.mastercard.com/devzone/api/portal/swagger/personalized-offers) | APIs.guru | - |
 | [Plaid](https://plaid.com) | API | Connect with user's bank accounts and access transaction data | Paid | Account | - | - | editorial | 2026-10-24 |
-| [Square](https://developer.squareup.com) | API | Easy way to take payments, manage refunds, and help customers checkout online | Freemium | OAuth | - | - | editorial | 2026-10-24 |
-| [Stripe](https://stripe.com) | API | The Stripe REST API. Please see https://stripe.com/docs/api for more details | Paid | API key | - | [docs](https://stripe.com/pricing) | editorial | 2026-10-24 |
+| [Square](https://developer.squareup.com/us/en) | API | Easy way to take payments, manage refunds, and help customers checkout online | Freemium | OAuth | - | - | editorial | 2026-10-24 |
+| [Stripe](https://stripe.com/it) | API | The Stripe REST API. Please see https://stripe.com/docs/api for more details | Paid | API key | - | [docs](https://stripe.com/it/pricing) | editorial | 2026-10-24 |

@@ -17,7 +17,7 @@ Scores, statistics, fitness tracking and sports data.
 | [CollegeFootballData.com](https://collegefootballdata.com) | API | Unofficial detailed American college football statistics, records, and results API | Free tier | API key | - | - | public-apis | - |
 | [DiscGolf](https://discgolfapi.com/docs) | API | Structured disc golf course data | Free tier | None | - | - | public-apis | - |
 | [DunkAPI](https://dunkapi.com/docs) | API | NBA, WNBA and college basketball: play-by-play, shot locations, box scores and sportsbook odds | Free tier | API key | - | - | public-apis | - |
-| [Ergast F1](http://ergast.com/mrd) | API | F1 data from the beginning of the world championships in 1950 | Free tier | None | - | - | public-apis | - |
+| [Ergast F1](https://ergast.com/) | API | F1 data from the beginning of the world championships in 1950 | Free tier | None | - | - | public-apis | - |
 | [FanLine Wire](https://fanlinewire.com/docs) | API | Real-time FanDuel Sportsbook odds - live & in-play and pre-match, with a keyless public snapshot | Free tier | None | - | - | public-apis | - |
 | [FastballAPI](https://fastballapi.com/docs) | API | MLB since 2015 plus college baseball: pitches, plate appearances, box scores and sportsbook odds | Free tier | API key | - | - | public-apis | - |
 | [Football](https://rapidapi.com/GiulianoCrescimbeni/api/football98) | API | A simple Open Source Football API to get squads' stats, best scorers and more | Free tier | API key | - | - | public-apis | - |
@@ -37,7 +37,7 @@ Scores, statistics, fitness tracking and sports data.
 | [NoPunt](https://www.nopunt.com/api/picks.json) | API | Weekly NFL game picks with model win probability, confidence tier and spread | Free tier | None | - | - | public-apis | - |
 | [Odds-API](https://docs.odds-api.io) | API | Real-time sports betting odds from 365+ bookmakers across 34 sports via REST and WebSocket | Free tier | API key | - | - | public-apis | - |
 | [OddsBench](https://oddsbench.xyz/api) | API | Independent monthly latency benchmark of sports odds APIs, with free JSON and CSV data | Free tier | None | - | - | public-apis | - |
-| [Oddsmagnet](https://data.oddsmagnet.com) | API | Odds history from multiple UK bookmakers | Free tier | None | - | - | public-apis | - |
+| [Oddsmagnet](https://oddsmagnet.com/oddsdata) | API | Odds history from multiple UK bookmakers | Free tier | None | - | - | public-apis | - |
 | [OddsRadarWire](https://oddsradarwire.com/docs.html) | API | Live and prematch Betradar odds with raw no-vig probabilities, REST and SSE | Free tier | API key | - | - | public-apis | - |
 | [OpenF1](https://openf1.org) | API | Real-time and historical Formula 1 data including laps, car telemetry and positions | Free tier | None | - | - | public-apis | - |
 | [OpenFoot API](https://openfootapi.com/docs) | API | Football fixtures, results, standings, lineups, live events and shot-level xG across 75 competitions | Free tier | API key | - | - | public-apis | - |
@@ -50,8 +50,8 @@ Scores, statistics, fitness tracking and sports data.
 | [PropLine](https://prop-line.com) | API | Real-time player-props betting odds with graded prop resolution across 13 books | Free tier | API key | - | - | public-apis | - |
 | [RacingHub](https://racinghub.net/api/v1/docs) | API | Formula 1 historical data and statistics | Free tier | None | - | - | public-apis | - |
 | [Realtime Sports](https://www.realtimesportsapi.com/docs) | API | Live scores, play-by-play, schedules and odds for NFL, NBA, MLB, NHL, NCAA and soccer | Free tier | API key | - | - | public-apis | - |
-| [Sportmonks Cricket](https://docs.sportmonks.com/cricket) | API | Live cricket score, player statistics and fantasy API | Free tier | API key | - | - | public-apis | - |
-| [Sportmonks Football](https://docs.sportmonks.com/football) | API | Football score/schedule, news api, tv channels, stats, history, display standing e.g. epl, la liga | Free tier | API key | - | - | public-apis | - |
+| [Sportmonks Cricket](https://docs.sportmonks.com/v2/cricket-api) | API | Live cricket score, player statistics and fantasy API | Free tier | API key | - | - | public-apis | - |
+| [Sportmonks Football](https://docs.sportmonks.com/v3) | API | Football score/schedule, news api, tv channels, stats, history, display standing e.g. epl, la liga | Free tier | API key | - | - | public-apis | - |
 | [SportScore](https://sportscore.com/developers) | API | Live scores, fixtures, standings and stats for football, basketball, cricket and tennis | Free tier | None | - | - | public-apis | - |
 | [Squiggle](https://api.squiggle.com.au) | API | Fixtures, results and predictions for Australian Football League matches | Free tier | None | - | - | public-apis | - |
 | [Strava](https://strava.github.io/api) | API | Connect with athletes, activities and more | Free tier | OAuth | - | - | public-apis | - |

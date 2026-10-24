@@ -15,7 +15,7 @@ Authentication, breach data, vulnerability feeds and threat intelligence.
 | [Censys](https://search.censys.io/api) | API | Search engine for Internet connected host and devices | Free tier | API key | - | - | public-apis | - |
 | [CISA Known Exploited Vulnerabilities](https://rapidapi.com/crisp-point-studio-crisp-point-studio-default/api/live-cisa-cybersecurity-vulnerabilities-kev) | API | CISA KEV catalog of actively exploited CVEs as JSON, filterable by vendor, with CWE and due dates | Free tier | API key | - | - | public-apis | - |
 | [Complete Criminal Checks](https://completecriminalchecks.com/Developers) | API | Provides data of offenders from all U.S. States and Pureto Rico | Free tier | API key | - | - | public-apis | - |
-| [CompliAPI](https://docs.compliapi.com) | API | Screen crypto addresses, emails, websites, IDs and countries against OFAC, EU, UK sanctions lists | Free tier | API key | - | - | public-apis | - |
+| [CompliAPI](https://docs.compliapi.com/introduction) | API | Screen crypto addresses, emails, websites, IDs and countries against OFAC, EU, UK sanctions lists | Free tier | API key | - | - | public-apis | - |
 | [CSR.plus](https://csr.plus/docs/api) | API | Generate certificate signing requests and private keys without OpenSSL | Free tier | None | - | - | public-apis | - |
 | [CyCAT.org API](https://cycat.org) | API | CyCAT - The Cybersecurity Resource Catalogue public API services | - | - | CC-BY | [docs](https://api.apis.guru/v2/specs/cycat.org/0.9/swagger.json) | APIs.guru | - |
 | [dead-drop](https://api.dead-drop.xyz/api/v1/docs) | API | Ephemeral zero-knowledge encrypted data sharing | Free tier | None | - | - | public-apis | - |
@@ -23,7 +23,7 @@ Authentication, breach data, vulnerability feeds and threat intelligence.
 | [EmailRep](https://docs.emailrep.io) | API | Email address threat and risk prediction | Free tier | None | - | - | public-apis | - |
 | [Escape](https://github.com/polarspetroll/EscapeAPI) | API | An API for escaping different kind of queries | Free tier | None | - | - | public-apis | - |
 | [FilterLists](https://filterlists.com) | API | Lists of filters for adblockers and firewalls | Free tier | None | - | - | public-apis | - |
-| [FingerprintJS Pro](https://dev.fingerprintjs.com/docs) | API | Fraud detection API offering highly accurate browser fingerprinting | Free tier | API key | - | - | public-apis | - |
+| [FingerprintJS Pro](https://docs.fingerprint.com/docs/quick-start-guide) | API | Fraud detection API offering highly accurate browser fingerprinting | Free tier | API key | - | - | public-apis | - |
 | [FOFA](https://en.fofa.info/api) | API | Search engine for Internet connected assets and devices | Free tier | API key | - | - | public-apis | - |
 | [FraudLabs Pro](https://www.fraudlabspro.com/developer/api/screen-order) | API | Screen order information using AI to detect frauds | Free tier | API key | - | - | public-apis | - |
 | [FullHunt](https://api-docs.fullhunt.io) | API | Searchable attack surface database of the entire internet | Free tier | API key | - | - | public-apis | - |
@@ -31,7 +31,7 @@ Authentication, breach data, vulnerability feeds and threat intelligence.
 | [HackerOne](https://api.hackerone.com) | API | The industry's first hacker API that helps increase productivity towards creative bug bounty hunting | Free tier | API key | - | - | public-apis | - |
 | [Hashable](https://hashable.space/pages/api) | API | A REST API to access high level cryptographic functions and methods | Free tier | None | - | - | public-apis | - |
 | [HaveIBeenPwned](https://haveibeenpwned.com/API/v3) | API | Passwords which have previously been exposed in data breaches | Free tier | API key | - | - | public-apis | - |
-| [Hybrid Analysis](https://www.hybrid-analysis.com/docs/api/v2) | API | File and URL malware analysis powered by Falcon Sandbox | Free tier | API key | - | - | public-apis | - |
+| [Hybrid Analysis](https://hybrid-analysis.com/docs/api/v2) | API | File and URL malware analysis powered by Falcon Sandbox | Free tier | API key | - | - | public-apis | - |
 | [Intelligence X](https://github.com/IntelligenceX/SDK/blob/master/Intelligence%20X%20API.pdf) | API | Perform OSINT via Intelligence X | Free tier | API key | - | - | public-apis | - |
 | [IPGuardian](https://ipguardian.net/docs) | API | Check IP addresses against 140+ public threat intelligence blocklists | Free tier | None | - | - | public-apis | - |
 | [IPLogs](https://iplogs.com/docs) | API | Free VPN, proxy, Tor and datacenter IP detection. 13 sources, active probing | Free tier | None | - | - | public-apis | - |
@@ -48,14 +48,14 @@ Authentication, breach data, vulnerability feeds and threat intelligence.
 | [MojoAuth](https://mojoauth.com) | API | Secure and modern passwordless authentication platform | Free tier | API key | - | - | public-apis | - |
 | [Mozilla http scanner](https://github.com/mozilla/http-observatory/blob/master/httpobs/docs/api.md) | API | Mozilla observatory http scanner | Free tier | None | - | - | public-apis | - |
 | [Mozilla tls scanner](https://github.com/mozilla/tls-observatory) | API | Mozilla observatory tls scanner | Free tier | None | - | - | public-apis | - |
-| [National Vulnerability Database](https://nvd.nist.gov/vuln/Data-Feeds/JSON-feed-changelog) | API | U.S. National Vulnerability Database | Free tier | None | - | - | public-apis | - |
+| [National Vulnerability Database](https://nvd.nist.gov/vuln/data-feeds/json-feed-changelog) | API | U.S. National Vulnerability Database | Free tier | None | - | - | public-apis | - |
 | [Neetix Liveliness](https://liveliness.neetix.in/api-reference) | API | Face liveness, presentation-attack detection and 1:1 face match for identity verification | Free tier | API key | - | - | public-apis | - |
 | [NoPhishy](https://rapidapi.com/Amiichu/api/exerra-phishing-check) | API | Check links to see if they're known phishing attempts | Free tier | API key | - | - | public-apis | - |
 | [OSV](https://google.github.io/osv.dev/api) | API | Open source vulnerability database and distributed triage infrastructure | Free tier | None | - | - | public-apis | - |
 | [Passwordinator](https://github.com/fawazsullia/password-generator) | API | Generate random passwords of varying complexities | Free tier | None | - | - | public-apis | - |
 | [Presend](https://presend.pages.dev/api) | API | Security and developer utility API -- malware, vulnerability, and domain checks, no signup | Free tier | None | - | - | public-apis | - |
-| [Privacy.com](https://privacy.com/developer/docs) | API | Generate merchant-specific and one-time use credit card numbers that link back to your bank | Free tier | API key | - | - | public-apis | - |
-| [Pulsedive](https://pulsedive.com/api) | API | Scan, search and collect threat intelligence data in real-time | Free tier | API key | - | - | public-apis | - |
+| [Privacy.com](https://developers.privacy.com/docs/getting-started) | API | Generate merchant-specific and one-time use credit card numbers that link back to your bank | Free tier | API key | - | - | public-apis | - |
+| [Pulsedive](https://docs.pulsedive.com/) | API | Scan, search and collect threat intelligence data in real-time | Free tier | API key | - | - | public-apis | - |
 | [Scanii](https://docs.scanii.com) | API | Simple REST API that can scan submitted documents/files for the presence of threats | Free tier | API key | - | - | public-apis | - |
 | [ScanMalware](https://scanmalware.com) | API | Scan URLs in a sandboxed browser and search past scans by domain, IP, ASN, JARM or favicon hash | Free tier | None | - | - | public-apis | - |
 | [Sealed Rose](https://sealedrose.com/verify-video) | API | AI media forensics and synthetic content verification for video, audio, image, and text | Free tier | API key | - | - | public-apis | - |
