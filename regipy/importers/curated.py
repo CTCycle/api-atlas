@@ -18,7 +18,7 @@ from .. import models, schema
 from ..models import new_record
 
 SOURCE = "curated"
-SOURCE_URL = "https://github.com/CTCycle/api-dataset-registry"
+SOURCE_URL = "https://github.com/CTCycle/api-atlas"
 SOURCE_LICENSE = "CC-BY-4.0"
 
 

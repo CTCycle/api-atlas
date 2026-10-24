@@ -24,7 +24,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Any, Callable
 from urllib.parse import urlsplit
 
-USER_AGENT = "api-dataset-registry-linkcheck/0.1 (+https://github.com/CTCycle/api-dataset-registry)"
+USER_AGENT = "api-atlas-linkcheck/1.0 (+https://github.com/CTCycle/api-atlas)"
 
 RETRY_STATUSES = {403, 405, 406, 501}
 GATED_STATUSES = {401, 403, 429, 451}

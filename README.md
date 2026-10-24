@@ -1,4 +1,4 @@
-# API and Dataset Registry
+# API Atlas
 
 A curated, machine readable registry of APIs, public databases and downloadable datasets. Each entry is a single JSON object with normalised fields for access, pricing, licensing, coverage and verification status. The catalog is stored as JSONL shards and can be queried through a small command line interface.
 
@@ -28,7 +28,7 @@ python -m regipy.cli search "weather" --limit 10
 ## Repository layout
 
 ```text
-api-dataset-registry/
+api-atlas/
   catalog/          JSONL shards, source of truth
     apis/
     datasets/

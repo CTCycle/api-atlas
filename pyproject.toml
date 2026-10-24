@@ -3,9 +3,9 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "regipy-registry"
+name = "api-atlas"
 version = "1.0.0"
-description = "Registry of APIs, public databases and downloadable datasets"
+description = "Atlas of APIs, public databases and downloadable datasets"
 requires-python = ">=3.10"
 dependencies = [
     "PyYAML>=6.0",
@@ -17,6 +17,7 @@ dev = ["pytest>=8.0"]
 
 [project.scripts]
 regipy = "regipy.cli:main"
+atlas = "regipy.cli:main"
 
 [tool.setuptools]
 packages = [

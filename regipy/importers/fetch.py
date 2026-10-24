@@ -9,7 +9,7 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
-USER_AGENT = "api-dataset-registry-importer/0.1 (+https://github.com/CTCycle/api-dataset-registry)"
+USER_AGENT = "api-atlas-importer/1.0 (+https://github.com/CTCycle/api-atlas)"
 
 SOURCES: dict[str, dict[str, Any]] = {
     "public-apis": {

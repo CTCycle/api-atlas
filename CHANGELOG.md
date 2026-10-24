@@ -2,7 +2,7 @@
 
 ## 1.0.0 (2026-10-24)
 
-First stable release of the API and Dataset Registry.
+First stable release of API Atlas.
 
 ### Catalog
 
