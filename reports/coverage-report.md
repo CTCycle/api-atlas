@@ -27,10 +27,10 @@ A record can appear under several sources, so these numbers sum to more than the
 | Tier | Records | Share |
 |---|---:|---:|
 | verified | 88 | 1.7% |
-| partial | 3829 | 73.3% |
-| imported | 1310 | 25.1% |
+| partial | 4241 | 81.1% |
+| imported | 898 | 17.2% |
 
-Status: active 3917, unverified 1198, unavailable 112
+Status: active 4327, unverified 550, unavailable 350
 
 ## Access and pricing
 
