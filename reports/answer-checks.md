@@ -1,6 +1,6 @@
 # Reference question checks
 
-Generated 2026-10-23 by `python scripts/answer_checks.py`.
+Generated 2026-10-24 by `python scripts/answer_checks.py`.
 
 Each block is the literal output of the command shown above it.
 
@@ -32,14 +32,15 @@ python -m regipy.cli search --category geospatial --commercial allowed --limit 8
 ```
 
 ```text
-ID                                     NAME                CATEGORY    PRICING  ACCESS        VERIFIED  STATUS
--------------------------------------  ------------------  ----------  -------  ------------  --------  ------
-nasa.gov/nasa-earthdata                NASA Earthdata      geospatial  free     registration  verified  active
-nominatim.openstreetmap.org/nominatim  Nominatim           geospatial  free     public        verified  active
-openstreetmap.org/openstreetmap        OpenStreetMap       geospatial  free     public        verified  active
-usgs.gov/usgs-earthexplorer            USGS EarthExplorer  geospatial  free     registration  verified  active
+ID                                     NAME                 CATEGORY    PRICING  ACCESS        VERIFIED  STATUS
+-------------------------------------  -------------------  ----------  -------  ------------  --------  ------
+nasa.gov/nasa-earthdata                NASA Earthdata       geospatial  free     registration  verified  active
+nominatim.openstreetmap.org/nominatim  Nominatim            geospatial  free     public        verified  active
+openstreetmap.org/openstreetmap        OpenStreetMap        geospatial  free     public        verified  active
+openstreetmap.org/openstreetmap-osm    OpenStreetMap (OSM)  geospatial  unknown  unknown       partial   active
+usgs.gov/usgs-earthexplorer            USGS EarthExplorer   geospatial  free     registration  verified  active
 
-4 result(s)
+5 result(s)
 ```
 
 ## Medical datasets downloadable without authentication

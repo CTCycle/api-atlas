@@ -2,10 +2,13 @@
 
 ## Scheduled jobs
 
-- Weekly: link check a bounded sample of records.
+The refresh cycle is automated in `.github/workflows/refresh.yml` (monthly, first day of the month, plus `workflow_dispatch`). The weekly link check is in `.github/workflows/validate.yml`.
+
+- Weekly: link check a bounded sample of records (GitHub Actions, Mondays 06:00 UTC).
 - Monthly: full link check sweep across the catalog.
 - Monthly: deduplication review of merged and flagged records.
-- Quarterly or on upstream release: re-import upstream catalogs.
+- Monthly: re-import of all three upstream catalogs.
+- Quarterly or on upstream release: manual review of the refresh diff before merging.
 
 Example commands:
 
@@ -16,6 +19,8 @@ python -m regipy.cli import all
 python -m regipy.cli build
 python -m regipy.cli validate
 ```
+
+Last manual full refresh: 2026-10-24 (v1.0.0), 5227 records, 0 validation errors, 42 tests passing.
 
 ## What each check can prove
 

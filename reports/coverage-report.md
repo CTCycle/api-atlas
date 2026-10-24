@@ -1,11 +1,11 @@
 # Catalog coverage report
 
-Generated 2026-10-23 by `python scripts/report.py` from the JSONL shards.
+Generated 2026-10-24 by `python scripts/report.py` from the JSONL shards.
 
 ## Size
 
-- Records: 5223
-- APIs: 4114, datasets: 1109
+- Records: 5227
+- APIs: 4117, datasets: 1110
 - Distinct provider identities: 3013
 - Records merged from more than one source: 172
 - Curated records (manual review): 90
@@ -15,9 +15,9 @@ Generated 2026-10-23 by `python scripts/report.py` from the JSONL shards.
 
 | Source | Records |
 |---|---:|
-| apis-guru | 2529 |
-| public-apis | 2057 |
-| awesome-public-datasets | 1097 |
+| apis-guru | 2530 |
+| public-apis | 2059 |
+| awesome-public-datasets | 1098 |
 | curated | 90 |
 
 A record can appear under several sources, so these numbers sum to more than the total.
@@ -27,37 +27,37 @@ A record can appear under several sources, so these numbers sum to more than the
 | Tier | Records | Share |
 |---|---:|---:|
 | verified | 88 | 1.7% |
-| partial | 3825 | 73.2% |
+| partial | 3829 | 73.3% |
 | imported | 1310 | 25.1% |
 
-Status: active 3913, unverified 1198, unavailable 112
+Status: active 3917, unverified 1198, unavailable 112
 
 ## Access and pricing
 
 | Field | Value | Records | Share |
 |---|---|---:|---:|
-| access.model | unknown | 3106 | 59.5% |
-| access.model | public | 1045 | 20.0% |
-| access.model | api_key | 916 | 17.5% |
+| access.model | unknown | 3108 | 59.5% |
+| access.model | public | 1046 | 20.0% |
+| access.model | api_key | 917 | 17.5% |
 | access.model | oauth | 139 | 2.7% |
 | access.model | restricted | 9 | 0.2% |
 | access.model | registration | 8 | 0.2% |
-| pricing.model | unknown | 5134 | 98.3% |
+| pricing.model | unknown | 5138 | 98.3% |
 | pricing.model | free | 47 | 0.9% |
 | pricing.model | freemium | 26 | 0.5% |
 | pricing.model | paid | 16 | 0.3% |
-| license.commercial_use | unknown | 5154 | 98.7% |
-| license.commercial_use | allowed | 56 | 1.1% |
+| license.commercial_use | unknown | 5156 | 98.6% |
+| license.commercial_use | allowed | 58 | 1.1% |
 | license.commercial_use | restricted | 13 | 0.2% |
 
-Records with a named licence: 986 (18.9%). Records with a known pricing model: 89 (1.7%).
+Records with a named licence: 989 (18.9%). Records with a known pricing model: 89 (1.7%).
 
 ## Category coverage
 
 | Category | Records | APIs | Datasets | Named licence | Verified |
 |---|---:|---:|---:|---:|---:|
 | agriculture | 18 | 0 | 18 | 3 | 0 |
-| ai-ml | 247 | 131 | 116 | 17 | 9 |
+| ai-ml | 248 | 132 | 116 | 17 | 9 |
 | animals | 24 | 24 | 0 | 0 | 0 |
 | art-design | 78 | 68 | 10 | 1 | 0 |
 | blockchain-crypto | 113 | 113 | 0 | 0 | 0 |
@@ -76,8 +76,8 @@ Records with a named licence: 986 (18.9%). Records with a known pricing model: 8
 | finance | 174 | 123 | 51 | 24 | 4 |
 | food-nutrition | 36 | 36 | 0 | 3 | 0 |
 | games | 114 | 111 | 3 | 2 | 0 |
-| geospatial | 160 | 156 | 4 | 13 | 11 |
-| government | 326 | 125 | 201 | 17 | 4 |
+| geospatial | 162 | 157 | 5 | 15 | 11 |
+| government | 327 | 126 | 201 | 18 | 4 |
 | health-medical | 111 | 50 | 61 | 13 | 6 |
 | identity-security | 114 | 103 | 11 | 9 | 0 |
 | interdisciplinary | 3 | 0 | 3 | 0 | 0 |
@@ -106,9 +106,9 @@ Empty categories: legal, manufacturing-industry, mathematics, space.
 
 ## Gaps
 
-- Records without a description: 663 (12.7%).
-- Records with unknown pricing: 5134 (98.3%).
-- Records with unknown commercial use: 5154 (98.7%).
+- Records without a description: 664 (12.7%).
+- Records with unknown pricing: 5138 (98.3%).
+- Records with unknown commercial use: 5156 (98.6%).
 - Records flagged for review: 0.
 
 Pricing and licensing are the least complete fields because two of the three upstream

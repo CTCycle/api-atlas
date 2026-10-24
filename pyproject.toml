@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "regipy-registry"
-version = "0.1.0"
+version = "1.0.0"
 description = "Registry of APIs, public databases and downloadable datasets"
 requires-python = ">=3.10"
 dependencies = [
