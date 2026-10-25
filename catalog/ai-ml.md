@@ -17,7 +17,7 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [Code Detection](https://codedetectionapi.runtime.dev) | API | Detect, label, format and enrich the code in your app or in your data pipeline | Free tier | OAuth | - | - | public-apis | - |
 | [Cohere](https://cohere.com) | API | NLP API for text generation, embeddings, classification and summarization with a free trial tier | Freemium | API key | - | - | editorial | 2026-10-24 |
 | [Common Crawl](https://commoncrawl.org/) | Dataset | Petabyte-scale web crawl corpus available for public use | Free | None | Unknown | [docs](https://commoncrawl.org/) | editorial | 2026-10-24 |
-| [DBpedia](https://databus.dbpedia.org/dbpedia/collections/latest-core) | Dataset | Structured data from Wikipedia | - | - | - | - | awesome-datasets | - |
+| [DBpedia](https://databus.dbpedia.org/dbpedia/collections/latest-core) | Dataset | Latest core DBpedia dataset of factual triples extracted from English Wikipedia infoboxes and articles | - | - | - | - | awesome-datasets | - |
 | [DeepAI](https://deepai.org) | API | Provides AI-powered APIs for text generation, image processing, and more | Free tier | API key | - | - | public-apis | - |
 | [DreamThreads](https://mydreamthreads.xyz/dream-interpretation-api) | API | Parse dreams into structured entities, emotions, agency, threat, and outcomes | Free tier | None | - | - | public-apis | - |
 | [eidosSpeech](https://eidosspeech.xyz) | API | Free text-to-speech API with 1,200+ neural voices in 75+ languages | Free tier | API key | - | - | public-apis | - |
@@ -49,11 +49,11 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [Lecto Translation](https://rapidapi.com/lecto-lecto-default/api/lecto-translation) | API | Translation API with free tier and reasonable prices | Free tier | API key | - | - | public-apis | - |
 | [LibreTranslate](https://libretranslate.com/docs) | API | Translation tool with 17 available languages | Free tier | None | - | - | public-apis | - |
 | [Machinetutors](https://machinetutors.com/api) | API | AI Solutions: Video/Image Classification & Tagging, NSFW, Icon/Image/Audio Search, NLP | Free tier | API key | - | - | public-apis | - |
-| [Making Sense of Microposts 2013](https://web.archive.org/web/20170325004450/https://oak.dcs.shef.ac.uk/msm2013/challenge.html) | Dataset | Concept Extraction (from Archive.org) | - | - | - | - | awesome-datasets | - |
-| [Making Sense of Microposts 2016](http://microposts2016.seas.upenn.edu/challenge.html) | Dataset | Named Entity rEcognition and Linking | - | - | - | - | awesome-datasets | - |
+| [Making Sense of Microposts 2013](https://web.archive.org/web/20170325004450/https://oak.dcs.shef.ac.uk/msm2013/challenge.html) | Dataset | 4,341 manually annotated microposts for concept extraction of persons, locations, organizations, and misc | - | - | - | - | awesome-datasets | - |
+| [Making Sense of Microposts 2016](http://microposts2016.seas.upenn.edu/challenge.html) | Dataset | Tweet dataset for named entity recognition and linking to DBpedia 2014 resources with NIL identifiers | - | - | - | - | awesome-datasets | - |
 | [MediaCraft AI](https://mediacraft-x402-api.onrender.com) | API | Chinese content compliance review (17 platforms), EN↔CN translation, and SEO optimization. Pay-per-call via x402 (Solana USDC) | Free tier | API key | - | - | public-apis | - |
 | [MessengerX.io](https://messengerx.readthedocs.io/en/latest/) | API | A FREE API for developers to build and monetize personalized ML based chat apps | Free tier | API key | - | - | public-apis | - |
-| [Mistral](https://mistral.ai) | API | Mistral AI API for language models | Freemium | API key | - | - | editorial | 2026-10-24 |
+| [Mistral](https://mistral.ai) | API | Mistral AI API for frontier and specialist language models, embeddings, and code generation | Freemium | API key | - | - | editorial | 2026-10-24 |
 | [Mistral AI](https://docs.mistral.ai/api) | API | High-performance LLM API by Mistral AI including Mistral and Mixtral models, with a free tier | Free tier | API key | - | - | public-apis | - |
 | [Modelfax](https://bytebrujo.github.io/modelfax) | API | LLM pricing, context windows and deprecation dates, schema-validated and updated daily | Free tier | None | - | - | public-apis | - |
 | [MotaWord API](https://www.motaword.com:443/) | API | Use MotaWord API to post and track your translation projects | - | - | - | [docs](https://api.motaword.com/swagger) | APIs.guru | - |
@@ -73,10 +73,10 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [Perspective](https://perspectiveapi.com) | API | NLP API to return probability that if text is toxic, obscene, insulting or threatening | Free tier | API key | - | - | public-apis | - |
 | [QuelLLM](https://quelllm.fr/api) | API | Open-weight language model catalogue with memory requirements and installation metadata | Free tier | None | - | - | public-apis | - |
 | [Random Lovecraft](https://randomlovecraft.com) | API | Random sentences from the complete works of H.P. Lovecraft. CORS-enabled | - | - | - | [docs](https://api.apis.guru/v2/specs/randomlovecraft.com/1.0/openapi.json) | APIs.guru | - |
-| [RDataMining](https://www.rdatamining.com/datasets) | Dataset | "R and Data Mining" ebook data | - | - | - | - | awesome-datasets | - |
+| [RDataMining](https://www.rdatamining.com/datasets) | Dataset | R and data mining example datasets including Twitter tweets, graphs, and text mining matrices | - | - | - | - | awesome-datasets | - |
 | [Replicate](https://replicate.com) | API | Run open-source AI models in the cloud including image generation, LLMs and audio models | Paid | API key | - | - | editorial | 2026-10-24 |
 | [Requesty](https://docs.requesty.ai/quickstart) | API | OpenAI compatible LLM router for 600+ models, with a free tier for free models | Free tier | API key | - | - | public-apis | - |
-| [Roboflow Universe](https://universe.roboflow.com) | API | Pre-trained computer vision models | Free tier | API key | - | - | public-apis | - |
+| [Roboflow Universe](https://universe.roboflow.com) | API | Searchable library of open-source computer vision datasets and pretrained models with hosted inference | Free tier | API key | - | - | public-apis | - |
 | [SafeReel](https://safereel.ai/docs) | API | NSFW detection for images and full-length videos by URL, free tier | Free tier | API key | - | - | public-apis | - |
 | [SelectPdf HTML To PDF API](https://selectpdf.com/html-to-pdf-api) | API | SelectPdf HTML To PDF Online REST API is a professional solution that lets you create PDF from web pages and raw HTML code in your applications | - | - | - | [docs](https://api.apis.guru/v2/specs/selectpdf.com/1.0.0/swagger.json) | APIs.guru | - |
 | [Semantria](https://semantria-docs.lexalytics.com/docs/obtain-your-creds) | API | Text Analytics with sentiment analysis, categorization & named entity extraction | Free tier | OAuth | - | - | public-apis | - |
@@ -92,9 +92,9 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [ToHuman](https://tohuman.io/ai-humanizer-api) | API | Rewrite AI-assisted drafts into natural, human-sounding text that reads like you wrote it | Free tier | API key | - | - | public-apis | - |
 | [TokenRoute](https://tokenroute.app/docs/quickstart) | API | One OpenAI-compatible endpoint for hundreds of LLMs, with a free tier and per-token pricing | Free tier | API key | - | - | public-apis | - |
 | [UCI ML Repository](https://archive.ics.uci.edu/) | Portal | Classic machine learning datasets repository available for public use | Free | None | Unknown | [docs](https://archive.ics.uci.edu/) | editorial | 2026-10-24 |
-| [Unplugg](https://unplu.gg/test_api.html) | API | Forecasting API for timeseries data | Free tier | API key | - | - | public-apis | - |
+| [Unplugg](https://unplu.gg/test_api.html) | API | Forecasting API for seasonal timeseries data such as energy, temperature, and traffic via webhook callback | Free tier | API key | - | - | public-apis | - |
 | [Violent-Flows](https://www.openu.ac.il/home/hassner/data/violentflows) | Dataset | Crowd Violence / Non-violence Database and benchmark | - | - | - | - | awesome-datasets | - |
 | [Visual genome (archived at Wayback)](https://web.archive.org/web/20151219035355/http://visualgenome.org/api/v0/api_home.html) | Dataset | Data still available for download from Wayback | - | - | - | - | awesome-datasets | - |
 | [Voxell Forge](https://voxell.ai/docs) | API | OpenAI-compatible text embeddings API, free-forever model with no credit card required | Free tier | API key | - | - | public-apis | - |
-| [Webhose](https://webz.io/knowledge/product-articles/datasets-for-machine-learning-or-nlp/) | Dataset | News/Blogs in multiple languages | - | - | - | - | awesome-datasets | - |
-| [Wikipedia Links data](https://code.google.com/archive/p/wiki-links/downloads) | Dataset | 40 Million Entities in Context | - | - | - | - | awesome-datasets | - |
+| [Webhose](https://webz.io/knowledge/product-articles/datasets-for-machine-learning-or-nlp/) | Dataset | Historical web datasets of news, blogs, and forums in multiple languages for NLP and ML training | - | - | - | - | awesome-datasets | - |
+| [Wikipedia Links data](https://code.google.com/archive/p/wiki-links/downloads) | Dataset | Wikipedia Links dataset of 40 million entities in context for entity linking and disambiguation research | - | - | - | - | awesome-datasets | - |

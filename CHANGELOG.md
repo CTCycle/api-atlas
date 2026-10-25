@@ -40,3 +40,11 @@ the SQLite index, the importers and the scheduled refresh workflows were removed
 
 - First release: 5,227 records across 45 categories, SQLite index, CLI, link check
   and refresh workflows.
+
+### Stage 2 (in progress)
+
+- Cross-domain redirect triage: 8 dead rows removed; 61 redirects applied; 14 broken/DNS rows fixed.
+- 8 of 10 partial dataset portals verified in-browser with docs URLs and Checked dates.
+- All 300 thinnest inherited descriptions rewritten with researched, factual text.
+- Full link check (2,125 URLs): 1,762 ok, 241 redirect, 47 gated, 25 TLS, 27 timeout, 14 error, 7 unreachable, 2 broken (fixed).
+- Repository description and 10 topics set.

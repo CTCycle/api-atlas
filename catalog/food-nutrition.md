@@ -4,7 +4,7 @@ Food composition, recipes, restaurants and product nutrition data.
 
 | Name | Type | Description | Access | Auth | License | Docs | Source | Checked |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [BaconMockup](https://baconmockup.com) | API | Resizable bacon placeholder images | Free tier | None | - | - | public-apis | - |
+| [BaconMockup](https://baconmockup.com) | API | Simple placeholder image service returning bacon photos at any requested width and height, inspired by placekitten | Free tier | None | - | - | public-apis | - |
 | [CalorieNinjas](https://calorieninjas.com/api) | API | Natural language nutrition API to extract nutrition data from any text | Free tier | API key | Apache 2.0 | [docs](https://api.apis.guru/v2/specs/calorieninjas.com/1.0.0/openapi.json) | public-apis, APIs.guru | - |
 | [Chomp](https://chompthis.com/api) | API | Data about various grocery products and foods | Free tier | API key | - | - | public-apis | - |
 | [CookbookSocial Nutrition](https://cookbooksocial.app/api) | API | Nutrition data for 4,631 ingredients with food names in 19 languages | Free tier | API key | - | - | public-apis | - |
@@ -14,13 +14,13 @@ Food composition, recipes, restaurants and product nutrition data.
 | [FAOSTAT](https://www.fao.org/faostat/) | Portal | Food and agriculture statistics from the UN FAO available for public use | Free | None | CC BY-NC-SA 3.0 IGO | [docs](https://www.fao.org/faostat/en/#data) | editorial | 2026-10-24 |
 | [FiberUp Fiber Database](https://fiberup.app/data) | API | Dietary fiber per serving and per 100 g, split into soluble and insoluble, for ~200 common foods | Free tier | None | - | - | public-apis | - |
 | [Food Info](https://food-info.org/developer) | API | Nutrition data for millions of foods from six national food composition datasets | Free tier | API key | - | - | public-apis | - |
-| [Foodish](https://github.com/surhud004/Foodish) | API | Random pictures of food dishes | Free tier | None | - | - | public-apis | - |
+| [Foodish](https://github.com/surhud004/Foodish) | API | Node.js REST API returning random pictures of food dishes, optionally filtered by category, for placeholder use | Free tier | None | - | - | public-apis | - |
 | [Noms](https://noms.sh/docs) | API | Nutrition data for 3.7M foods and 298K brands across 230 countries, with barcodes and images | Free tier | API key | - | - | public-apis | - |
 | [Open Brewery DB](https://www.openbrewerydb.org) | API | Breweries, Cideries and Craft Beer Bottle Shops | Free tier | None | - | - | public-apis | - |
 | [Open Food Facts](https://world.openfoodfacts.org/data) | API | Crowdsourced food composition database covering 2.5M+ products from 170+ | Free tier | None | ODbL-1.0 | - | public-apis, awesome-datasets | - |
 | [Racion](https://racion.app/developers) | API | Weekly meal plans with grocery prices and shopping lists, 22 countries | Free tier | None | - | - | public-apis | - |
 | [RecipeAPI](https://recipeapi.io) | API | Recipes, ingredients, nutrition data and cooking instructions | Free tier | API key | - | - | public-apis | - |
-| [TacoFancy](https://github.com/evz/tacofancy-api) | API | Community-driven taco database | Free tier | None | - | - | public-apis | - |
+| [TacoFancy](https://github.com/evz/tacofancy-api) | API | API serving random taco recipes assembled from community-contributed base layers, mixins, condiments, seasonings, and shells | Free tier | None | - | - | public-apis | - |
 | [Tasty](https://rapidapi.com/apidojo/api/tasty) | API | API to query data about recipe, plan, ingredients | Free tier | API key | - | - | public-apis | - |
 | [Tiny Plates](https://www.tinyplates.dev/docs) | API | Structured recipes, semantic search, serving adjustments and shopping lists | Free tier | API key | - | - | public-apis | - |
 | [USDA NASS](https://www.nass.usda.gov/) | Portal | US agricultural statistics available for public use | Free | None | Public Domain | [docs](https://www.nass.usda.gov/) | editorial | 2026-10-24 |

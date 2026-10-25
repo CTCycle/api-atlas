@@ -10,10 +10,10 @@ News archives, headlines, fact checking and media monitoring.
 | [daily.dev](https://docs.daily.dev/public-api) | API | Developer news feeds, posts, bookmarks, tags and search from daily.dev | Free tier | API key | - | - | public-apis | - |
 | [DataCube AI](https://www.datacubeai.space/en/tools/ai-news-api) | API | Daily curated AI industry news, funding rounds and trends in 8 languages | Free tier | None | - | - | public-apis | - |
 | [Florida Man](https://github.com/juliayxhuang/florida-man-api) | API | Static JSON dataset of 10,000+ Florida Man headlines by date | Free tier | None | - | - | public-apis | - |
-| [GNews](https://gnews.io) | API | Search for news from various sources | Free tier | API key | - | - | public-apis | - |
+| [GNews](https://gnews.io) | API | GNews REST API for searching real-time and historical news articles from 80,000+ sources in 41 languages | Free tier | API key | - | - | public-apis | - |
 | [MarketAux](https://www.marketaux.com) | API | Live stock market news with tagged tickers + sentiment and stats JSON API | Free tier | API key | - | - | public-apis | - |
 | [Mediastack](https://mediastack.com) | API | Free, Simple REST API for Live News & Blog Articles | Free tier | API key | - | - | public-apis | - |
-| [New York Times](https://developer.nytimes.com) | API | The New York Times Developer Network | Free tier | API key | - | - | public-apis | - |
+| [New York Times](https://developer.nytimes.com) | API | NYT APIs for article search, top stories, most popular, books, movie reviews, archive, and tags | Free tier | API key | - | - | public-apis | - |
 | [News](https://newsapi.org) | API | Headlines currently published on a range of news sources and blogs | Free tier | API key | - | - | public-apis | - |
 | [NewsData](https://newsdata.io/documentation) | API | News data API for live-breaking news and headlines from reputed news sources | Free tier | API key | - | - | public-apis | - |
 | [Newsflash](https://newsflash.sh/docs) | API | Deduplicated news events from 260+ sources with corroboration/confidence scores for AI agents | Free tier | API key | - | - | public-apis | - |

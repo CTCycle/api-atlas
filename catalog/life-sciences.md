@@ -14,11 +14,11 @@ Genomics, proteins, chemistry, pharmacology and biomedical datasets.
 | [GTEx](https://gtexportal.org/) | Portal | Genotype-tissue expression atlas and summaries available for public use | Free | None | Unknown | [docs](https://gtexportal.org/) | editorial | 2026-10-24 |
 | [Human Cell Atlas](https://www.humancellatlas.org) | Portal | Human Cell Atlas single-cell reference datasets | Free | None | - | - | editorial | 2026-10-24 |
 | [Human Protein Atlas](https://www.proteinatlas.org/) | Portal | Human protein expression and localization atlas available for public use | Free | None | CC BY-SA 4.0 | [docs](https://www.proteinatlas.org/) | editorial | 2026-10-24 |
-| [Journal of Cell Biology DataViewer](https://www.ebi.ac.uk/biostudies/JCB/studies) | Dataset | All JCB data was moved to Biostudies | - | - | - | - | awesome-datasets | - |
+| [Journal of Cell Biology DataViewer](https://www.ebi.ac.uk/biostudies/JCB/studies) | Dataset | Dataset of supplementary files and study metadata from Journal of Cell Biology articles, hosted on BioStudies | - | - | - | - | awesome-datasets | - |
 | [NCBI GEO](https://www.ncbi.nlm.nih.gov/geo/) | Portal | Gene Expression Omnibus for functional genomics data | Free | None | Unknown | [docs](https://www.ncbi.nlm.nih.gov/geo/) | editorial | 2026-10-24 |
 | [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra/) | Portal | Sequence Read Archive for raw sequencing data available for public use | Free | None | Unknown | [docs](https://www.ncbi.nlm.nih.gov/sra/) | editorial | 2026-10-24 |
 | [Open Targets](https://www.opentargets.org/) | Portal | Target-disease evidence for drug discovery available for public use | Free | None | Unknown | [docs](https://www.opentargets.org/) | editorial | 2026-10-24 |
-| [Pathguide](https://pathguide.org) | Dataset | Protein-Protein Interactions Catalog | - | - | - | - | awesome-datasets | - |
+| [Pathguide](https://pathguide.org) | Dataset | Catalog of 702+ biological pathway and molecular interaction resources, with availability and standards | - | - | - | - | awesome-datasets | - |
 | [PubChem](https://pubchem.ncbi.nlm.nih.gov/) | Portal | Chemical information and bioassay database available for public use | Free | None | Unknown | [docs](https://pubchem.ncbi.nlm.nih.gov/) | editorial | 2026-10-24 |
 | [RCSB PDB](https://www.rcsb.org/) | Portal | Protein Data Bank of 3D macromolecular structures available for public use | Free | None | Unknown | [docs](https://www.rcsb.org/) | editorial | 2026-10-24 |
 | [TCGA GDC](https://portal.gdc.cancer.gov/) | Portal | Genomic Data Commons for cancer datasets available for public use | Freemium | Registration | Unknown | [docs](https://portal.gdc.cancer.gov/) | editorial | 2026-10-24 |

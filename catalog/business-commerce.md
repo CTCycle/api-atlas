@@ -19,13 +19,13 @@ Company data, CRMs, invoicing, product catalogs and marketplaces.
 | [Digi-Key](https://www.digikey.com/en/resources/api-solutions) | API | Retrieve price and inventory of electronic components as well as place orders | Free tier | OAuth | - | - | public-apis | - |
 | [Discovery API](https://developer.ticketmaster.com/support/contact-us/) | API | The Ticketmaster Discovery API allows you to search for events, attractions, or venues | - | - | - | [docs](https://api.apis.guru/v2/specs/ticketmaster.com/discovery/v2/openapi.json) | APIs.guru | - |
 | [DocuSign REST API](https://developers.docusign.com) | API | The DocuSign REST API provides you with a powerful, convenient, and simple Web services API for interacting with DocuSign | - | - | - | [docs](https://api.apis.guru/v2/specs/docusign.net/v2.1/openapi.json) | APIs.guru | - |
-| [Domainsdb.info](https://domainsdb.info) | API | Registered Domain Names Search | Free tier | None | - | - | public-apis | - |
+| [Domainsdb.info](https://domainsdb.info) | API | REST API to search registered domain names and retrieve basic metadata like dates and status | Free tier | None | - | - | public-apis | - |
 | [DropX](https://dropx.io) | API | dropX.io API provides programmatic access to the e-commerce intelligence data | - | - | - | [docs](https://api.apis.guru/v2/specs/dropx.io/1.0.0/swagger.json) | APIs.guru | - |
 | [eBay](https://developer.ebay.com/devzone/xml/docs/reference/ebay/index.html) | API | eBay developer API for listings, orders and inventory | Freemium | Account | - | - | editorial | 2026-10-24 |
-| [Etsy](https://developers.etsy.com) | API | Manage shop and interact with listings | Freemium | Registration | - | - | editorial | 2026-10-24 |
+| [Etsy](https://developers.etsy.com) | API | Etsy Open API v3 for managing shops, listings, inventory, images, and shop sections | Freemium | Registration | - | - | editorial | 2026-10-24 |
 | [EuroValidate](https://eurovalidate.com) | API | EU VAT (VIES), IBAN and EORI validation with company name & address lookup | Free tier | API key | - | - | public-apis | - |
 | [Flipkart Marketplace](https://seller.flipkart.com/api-docs/FMSAPI.html) | API | Product listing management, Order Fulfilment in the Flipkart Marketplace | Free tier | OAuth | - | - | public-apis | - |
-| [Freelancer](https://developers.freelancer.com) | API | Hire freelancers to get work done | Free tier | OAuth | - | - | public-apis | - |
+| [Freelancer](https://developers.freelancer.com) | API | Freelancer.com API to post projects, receive bids, manage contracts, and access a global workforce | Free tier | OAuth | - | - | public-apis | - |
 | [Fulfillment API](https://ebay.com) | API | Use the Fulfillment API to complete the process of packaging, addressing, handling, and shipping each order on behalf of the seller, in accordance with the payment method and timing specified at ... | - | - | eBay API License Agreement | [docs](https://api.apis.guru/v2/specs/ebay.com/sell-fulfillment/v1.19.19/openapi.json) | APIs.guru | - |
 | [Funding Signals](https://fundingsignals.net/docs) | API | Companies that just raised funding, scored as sales leads, from public SEC filings | Free tier | API key | - | - | public-apis | - |
 | [GlobalEntity](https://www.globalentityapi.com/docs) | API | Official company data from 56 European business registers as normalized JSON | Free tier | API key | - | - | public-apis | - |
@@ -50,7 +50,7 @@ Company data, CRMs, invoicing, product catalogs and marketplaces.
 | [Octopart](https://octopart.com/api/v4/reference) | API | Electronic part data for manufacturing, design, and sourcing | Free tier | API key | - | - | public-apis | - |
 | [OLX Poland](https://developer.olx.pl/api/doc) | API | Integrate with local sites by posting, managing adverts and communicating with OLX users | Free tier | API key | - | - | public-apis | - |
 | [OneFindMe](https://onefindme.com/mcp) | API | Search AliExpress in any language: price, rating and orders for the delivery country | Free tier | None | - | - | public-apis | - |
-| [OpenTiendas](https://opentiendas.dev/redocusaurus/plugin-redoc-0.yaml) | API | Official e-commerce API and webhooks | Free tier | API key | - | - | public-apis | - |
+| [OpenTiendas](https://opentiendas.dev/redocusaurus/plugin-redoc-0.yaml) | API | E-commerce REST API and signed webhooks for managing products, orders, customers, and inventory | Free tier | API key | - | - | public-apis | - |
 | [Pangolinfo Amazon Data](https://docs.pangolinfo.com/cn-index) | API | Amazon product, review, search and Best Sellers data across 20+ marketplaces | Free tier | API key | - | - | public-apis | - |
 | [PeopleSearch](https://peoplesearch.im/developers) | API | People and company search in plain English, with verified work emails and email verification | Free tier | API key | - | - | public-apis | - |
 | [Pick an Agency](https://www.pickanagency.com/developers) | API | Search 47,000+ marketing agencies by service, location and rating | Free tier | None | - | - | public-apis | - |
@@ -58,7 +58,7 @@ Company data, CRMs, invoicing, product catalogs and marketplaces.
 | [Profitvana](https://www.profitvana.com/developers) | API | Seller fees for 31 marketplaces and payment processors, verified monthly | Free tier | None | - | - | public-apis | - |
 | [Qualpay Payment Gateway API](https://www.qualpay.com/) | API | This document describes the Qualpay Payment Gateway API | - | - | Apache 2.0 | - | APIs.guru | - |
 | [RankFabrik Places](https://rankfabrik.com/produits/etablissements) | API | Search businesses and points of interest by city, deduplicated with a coverage report | Free tier | API key | - | - | public-apis | - |
-| [Rappi](https://dev-portal.rappi.com) | API | Manage orders from Rappi's app | Free tier | OAuth | - | - | public-apis | - |
+| [Rappi](https://dev-portal.rappi.com) | API | Rappi API for managing store orders, menus, item availability, and order status workflows | Free tier | OAuth | - | - | public-apis | - |
 | [Redash](https://redash.io/help/user-guide/integrations-and-api/api) | API | Access your queries and dashboards on Redash | Free tier | API key | - | - | public-apis | - |
 | [RegisterWire](https://www.registerwire.uk/docs/index.html) | API | Real-time alerts on UK company register changes | Free tier | API key | - | - | public-apis | - |
 | [shipstation](https://www.shipstation.com/) | API | Polls is a simple API allowing consumers to view polls and vote in them | - | - | - | [docs](https://shipstation.docs.apiary.io/api-description-document) | APIs.guru | - |

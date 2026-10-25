@@ -15,14 +15,14 @@ National and international open data catalogs and CKAN portals.
 | [Black History Facts](https://www.blackhistoryapi.io/docs) | API | Contribute or search one of the largest black history fact databases on the web | Free tier | API key | - | - | public-apis | - |
 | [BotsArchive](https://botsarchive.com/docs.html) | API | JSON formatted details about Telegram Bots available in database | Free tier | None | - | - | public-apis | - |
 | [BTU Graph](https://btugraph.com/data) | API | Source-reviewed energy company knowledge graph and directory exports | Free tier | None | - | - | public-apis | - |
-| [Callook.info](https://callook.info) | API | United States ham radio callsigns | Free tier | None | - | - | public-apis | - |
+| [Callook.info](https://callook.info) | API | Free lookup API for US amateur radio callsigns with license class, trustee, address, and grid square data | Free tier | None | - | - | public-apis | - |
 | [Canada Holidays API](https://canada-holidays.ca/api) | API | This API lists all 31 public holidays for all 13 provinces and territories in Canada, including federal holidays | - | - | MIT | [docs](https://api.swaggerhub.com/apis/pcraig3/canada-holidays/1.8.0) | APIs.guru | - |
 | [CarbonDoomsDay](https://carbondoomsday.com) | API | A real-time RESTish web API for worldwide carbon dioxide levels | - | - | - | - | APIs.guru | - |
-| [CARTO](https://carto.com) | API | Location Information Prediction | Free tier | API key | - | - | public-apis | - |
+| [CARTO](https://carto.com) | API | CARTO developer APIs for maps, SQL queries, location data services (geocoding, routing, isolines), and spatial analysis | Free tier | API key | - | - | public-apis | - |
 | [City Context](https://citycontext.com) | API | City Context provides a straightforward API to access UK Open Data: crime statistics, schools, demographics and more | - | - | - | [docs](https://api.apis.guru/v2/specs/citycontext.com/1.0.0/swagger.json) | APIs.guru | - |
 | [City of Surrey Open511 API](https://opendata-surrey.hub.arcgis.com/) | API | This API provides real time traffic obstruction events occuring within the City of Surrey | - | - | Open Government Licence - ... | [docs](https://api.apis.guru/v2/specs/surrey.ca/open511/0.1/swagger.json) | APIs.guru | - |
 | [CityAlert](https://cityalert.live/developers) | API | Live public-safety incidents: crime, fire, disaster, weather and news from 650+ official feeds | Free tier | None | - | - | public-apis | - |
-| [Co-WIN Certificate API](https://www.cowin.gov.in) | API | API to get Co-WIN vaccination certificate | - | - | - | [docs](https://api.apis.guru/v2/specs/cowin.gov.cin/cowincert/1.0.0/openapi.json) | APIs.guru | - |
+| [Co-WIN Certificate API](https://www.cowin.gov.in) | API | REST API to download Co-WIN COVID-19 vaccination certificates as PDF by beneficiary ID and mobile number | - | - | - | [docs](https://api.apis.guru/v2/specs/cowin.gov.cin/cowincert/1.0.0/openapi.json) | APIs.guru | - |
 | [CollegeCalcAI](https://collegecalcai.com/developers) | API | US college admission chance estimates and admissions data for 1,100+ colleges | Free tier | None | - | - | public-apis | - |
 | [CoworkingView](https://coworkingview.com/en/api) | API | Coworking spaces and offices in 63 European and Gulf cities with operator-published prices | Free tier | None | - | - | public-apis | - |
 | [CuttingToolsAI](https://cuttingtoolsai.eu/api) | API | Cross-brand carbide insert grade equivalents by ISO application class | Free tier | None | - | - | public-apis | - |
@@ -41,10 +41,10 @@ National and international open data catalogs and CKAN portals.
 | [DevLifeCheck](https://devlifecheck.com/developers) | API | Security-update end dates, recalls and evidence for 1,300+ phones, tablets, Chromebooks and routers | Free tier | None | - | - | public-apis | - |
 | [e-Stat Japan](https://www.e-stat.go.jp/) | Portal | Japanese government statistics portal and API available for public use | Free | Registration | Unknown | [docs](https://www.e-stat.go.jp/api/) | editorial | 2026-10-24 |
 | [Edgepedia](https://www.edgechat.ai/developers) | API | Search and read Edgepedia, a free and growing encyclopedia with citations | Free tier | None | - | - | public-apis | - |
-| [Enigma Public](https://documentation.enigma.com/v1) | API | Broadest collection of public data | Free tier | API key | - | - | public-apis | - |
+| [Enigma Public](https://documentation.enigma.com/v1) | API | Business data API for entity resolution, firmographics, KYB verification, and US card transaction signals | Free tier | API key | - | - | public-apis | - |
 | [EOSL](https://eosl.ai/api) | API | Hardware end-of-sale and end-of-service-life dates by part number, source-linked | Free tier | None | - | - | public-apis | - |
-| [French Address Search](https://geo.api.gouv.fr/adresse) | API | Address search via the French Government | Free tier | None | - | - | public-apis | - |
-| [GENESIS](https://www.destatis.de/EN/Service/OpenData/api-webservice.html) | API | Federal Statistical Office Germany | Free tier | OAuth | - | - | public-apis | - |
+| [French Address Search](https://geo.api.gouv.fr/adresse) | API | French government geocoding API for forward and reverse address search with autocomplete and batch CSV | Free tier | None | - | - | public-apis | - |
+| [GENESIS](https://www.destatis.de/EN/Service/OpenData/api-webservice.html) | API | REST/JSON API to the GENESIS-Online database of the German Federal Statistical Office (Destatis) | Free tier | OAuth | - | - | public-apis | - |
 | [Groundwater Wells, Aquifers and Registry API](https://www2.gov.bc.ca/gov/content/home) | API | The groundwater wells, aquifers and registry API contains information related to groundwater wells and aquifers as well as a register of qualified well drillers and well pump installers registered to ... | - | - | Open Government License - ... | [docs](https://api.apis.guru/v2/specs/gov.bc.ca/gwells/v1/openapi.json) | APIs.guru | - |
 | [HousingFeed](https://housingfeed.com/docs) | API | US rental listings from property managers' own websites, verified weekly | Free tier | None | - | - | public-apis | - |
 | [Humanitarian Data Exchange](https://data.humdata.org/) | Portal | Humanitarian datasets and crisis indicators available for public use | Free | None | Unknown | [docs](https://data.humdata.org/) | editorial | 2026-10-24 |
@@ -57,11 +57,11 @@ National and international open data catalogs and CKAN portals.
 | [Lowy Asia Power Index](https://github.com/algocry/lowy-index-api-docs) | API | Get measure resources and influence to rank the relative power of states in Asia | Free tier | None | - | - | public-apis | - |
 | [Medcorder Nearby Doctor API](https://medcorder.com) | API | Returns doctors near a client given a lat/lon and autocomplete text | - | - | - | [docs](https://api.apis.guru/v2/specs/medcorder.com/1.0.0/swagger.json) | APIs.guru | - |
 | [Microburbs](https://www.microburbs.com.au/developers/api-docs) | API | Australian property and suburb data: valuations, sales, rents, schools, demographics, risk, zoning | Free tier | API key | - | - | public-apis | - |
-| [Microlink.io](https://microlink.io) | API | Extract structured data from any website | Free tier | None | - | - | public-apis | - |
+| [Microlink.io](https://microlink.io) | API | Universal web data API that turns any URL into screenshots, PDFs, markdown, metadata, or structured content | Free tier | None | - | - | public-apis | - |
 | [ModelPartFinder Error Codes](https://modelpartfinder.com/docs/api) | API | Lookup appliance and equipment error codes by brand and code, with recommended replacement parts | Free tier | None | - | - | public-apis | - |
 | [Monitly](https://monit.ly/api-docs) | API | Official statistics from Eurostat, World Bank, OECD, IMF and WHO for 150+ countries | Free tier | API key | - | - | public-apis | - |
 | [MostExpensiveWatches](https://mostexpensivewatches.net/api) | API | Documented luxury watch auction records, live listings, valuations and price indices | Free tier | None | - | - | public-apis | - |
-| [Nobel Prize](https://www.nobelprize.org/about/developer-zone-2) | API | Open data about nobel prizes and events | Free tier | None | - | - | public-apis | - |
+| [Nobel Prize](https://www.nobelprize.org/about/developer-zone-2) | API | REST API returning Nobel Prizes and Laureates as JSON or CSV, searchable by year and category, no key | Free tier | None | - | - | public-apis | - |
 | [NSIDC Web Service Documentation Index](https://nsidc.org) | API | This API allows programmers to build National Snow and Ice Data Center data and metadata services into their applications | - | - | - | - | APIs.guru | - |
 | [Onyx Bazaar](https://onyx-actions.onrender.com/bazaar) | API | Free public leaderboard of x402 paid HTTP services indexed from Coinbase CDP discovery API | Free tier | None | - | - | public-apis | - |
 | [Open Data Minneapolis](https://opendata.minneapolismn.gov) | API | Spatial (GIS) and non-spatial city data for Minneapolis | Free tier | None | - | - | public-apis | - |
@@ -73,7 +73,7 @@ National and international open data catalogs and CKAN portals.
 | [OpenSanctions](https://www.opensanctions.org/docs/api) | API | Data on international sanctions, crime and politically exposed persons | Free tier | None | - | - | public-apis, awesome-datasets | - |
 | [Pan Africa Data](https://panafricadata.com) | API | Macroeconomic and subnational income distribution data for all 54 African countries | Free tier | API key | - | - | public-apis | - |
 | [PayCrunch](https://paycrunch.co/api.html) | API | US wages for 1,008 occupations and by state, from BLS OEWS May 2025, static JSON, CC BY 4.0 | Free tier | None | - | - | public-apis | - |
-| [PeakMetrics](https://rapidapi.com/peakmetrics-peakmetrics-default/api/peakmetrics-news) | API | News articles and public datasets | Free tier | API key | - | - | public-apis | - |
+| [PeakMetrics](https://rapidapi.com/peakmetrics-peakmetrics-default/api/peakmetrics-news) | API | News API exposing millions of articles for integration into apps and websites via RapidAPI | Free tier | API key | - | - | public-apis | - |
 | [ProductGuru](https://myproduct.guru/lookup) | API | Consumer product-safety recall notices from 11 government registers, looked up by barcode (EAN/GTIN) | Free tier | None | - | - | public-apis | - |
 | [PublicDataHub](https://publicdatahub.org/api) | API | US public schools, hospitals and federal agency budgets as JSON/CSV, with provenance | Free tier | None | - | - | public-apis | - |
 | [Recreation Information Database](https://ridb.recreation.gov) | API | Recreational areas, federal lands, historic sites, museums, and other attractions/resources(US) | Free tier | API key | - | - | public-apis | - |

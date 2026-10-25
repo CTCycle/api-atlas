@@ -8,7 +8,7 @@ Banking, markets, payments data, forex and financial statements.
 | [Alpha Vantage](https://www.alphavantage.co/) | Portal | Stock and forex data API available for public use for developers | Freemium | API key | Unknown | [docs](https://www.alphavantage.co/documentation/) | editorial | 2026-10-24 |
 | [Amdoren](https://www.amdoren.com/currency-api) | API | Free currency API with over 150 currencies | Free tier | API key | - | - | public-apis | - |
 | [Arkleon](https://arkleon.com) | API | Point-in-time SEC EDGAR fundamentals over /v1 | Free tier | API key | - | - | public-apis | - |
-| [Bank of Russia](https://www.cbr.ru/development/SXML) | API | Exchange rates and currency conversion | Free tier | None | - | - | public-apis | - |
+| [Bank of Russia](https://www.cbr.ru/development/SXML) | API | Central Bank of Russia XML service for daily exchange rates and currency history | Free tier | None | - | - | public-apis | - |
 | [Banking Access Index](https://www.globalsolo.global/data/banking-access-index) | API | Which US business banking providers accept founders by country of residence, with sources | Free tier | None | - | - | public-apis | - |
 | [Binance public data](https://data.binance.vision/) | Dataset | Binance historical market data available for public use | Free | None | Unknown | [docs](https://data.binance.vision/) | editorial | 2026-10-24 |
 | [BIS Statistics](https://stats.bis.org/) | Portal | Bank for International Settlements statistical data | Free | None | Unknown | [docs](https://stats.bis.org/) | editorial | 2026-10-24 |
@@ -18,9 +18,9 @@ Banking, markets, payments data, forex and financial statements.
 | [Currency-api](https://github.com/fawazahmed0/currency-api) | API | Free Currency Exchange Rates API with 150+ Currencies & No Rate Limits | Free tier | None | - | - | public-apis | - |
 | [CurrencyBeacon](https://currencybeacon.com) | API | Real-time and historical currency exchange rates with free tier | Free tier | API key | - | - | public-apis | - |
 | [CurrencyFreaks](https://currencyfreaks.com) | API | Provides current and historical currency exchange rates with free plan 1K requests/month | Free tier | API key | - | - | public-apis | - |
-| [Currencylayer](https://currencylayer.com) | API | Exchange rates and currency conversion | Free tier | API key | - | - | public-apis | - |
+| [Currencylayer](https://currencylayer.com) | API | Real-time JSON exchange rates for 168 currencies with conversion and historical data (API key) | Free tier | API key | - | - | public-apis | - |
 | [CurrencyScoop](https://currencybeacon.com/api-documentation) | API | Real-time and historical currency rates JSON API | Free tier | API key | - | - | public-apis | - |
-| [Czech National Bank](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml) | API | A collection of exchange rates | Free tier | None | - | - | public-apis | - |
+| [Czech National Bank](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml) | API | Czech National Bank daily foreign exchange rates published as a public XML feed | Free tier | None | - | - | public-apis | - |
 | [Daleelak](https://getdaleelak.com/en/api) | API | Egyptian bank and dealer exchange rates, gold and silver prices | Free tier | None | - | - | public-apis | - |
 | [Degenscan Intel Macro](https://intel.degenscan.io/docs) | API | U.S. Treasury auctions, stablecoin supply, Brazil crypto-dollar premium vs BCB PTAX; free trial key | Free tier | API key | - | - | public-apis | - |
 | [Drillr](https://drillr.ai/docs/api) | API | Fundamentals, filings, earnings, ownership and events for US, China and Japan equities | Free tier | API key | - | - | public-apis | - |
@@ -32,12 +32,12 @@ Banking, markets, payments data, forex and financial statements.
 | [ExchangeRate-API](https://www.exchangerate-api.com) | API | Fetch the latest currency exchange rates via API. ExchangeRate-API is free and unlimited | Free tier | API key | - | [docs](https://api.apis.guru/v2/specs/exchangerate-api.com/4/openapi.json) | public-apis, APIs.guru | - |
 | [Exchangerate.dev](https://exchangerate.dev/docs) | API | Live & historical FX, 168 pairs back to 1999, Frankfurter-compatible, free 10k/mo | Free tier | None | - | - | public-apis | - |
 | [Exchangerate.host](https://exchangerate.host) | API | Foreign exchange & crypto rates API (keyless access ended 2023) | Free tier | API key | - | - | public-apis | - |
-| [Exchangeratesapi.io](https://exchangeratesapi.io) | API | Exchange rates with currency conversion | Free tier | API key | - | - | public-apis | - |
+| [Exchangeratesapi.io](https://exchangeratesapi.io) | API | Free REST API for real-time and historical currency exchange rates across 200+ currencies, with conversion endpoints | Free tier | API key | - | - | public-apis | - |
 | [FactSet](https://www.factset.com) | API | FactSet financial data and analytics platform | Paid | Account | - | - | editorial | - |
 | [Filingrail](https://rapidapi.com/hudson-enterprises-llc-hudson-enterprises-llc-default/api/filingrail) | API | SEC EDGAR filings, XBRL financials, Form 4 insider trades, 8-K events and 13F holdings | Free tier | API key | - | - | public-apis | - |
 | [Finance Clearly Tax Rates](https://financeclearly.com/tax-rates-api) | API | Current UK and US tax rates, allowances and thresholds | Free tier | None | - | - | public-apis | - |
 | [Finnhub](https://finnhub.io) | API | Real-time market data, fundamentals and news API | Freemium | API key | - | [docs](https://finnhub.io/docs/api) | editorial | 2026-10-24 |
-| [Fixer](https://fixer.io) | API | Exchange rates and currency conversion | Free tier | API key | - | - | public-apis | - |
+| [Fixer](https://fixer.io) | API | Lightweight JSON API for current and historical foreign exchange rates across 170 currencies, with conversion and time-series | Free tier | API key | - | - | public-apis | - |
 | [FloorGuard](https://floorguard-kappa.vercel.app/api) | API | Sourced prop firm daily-loss and max-drawdown rules, plus a drawdown-room check | Free tier | None | - | - | public-apis | - |
 | [Frankfurter](https://frankfurter.dev/) | API | Exchange rates, currency conversion and time series | Free tier | None | - | - | public-apis | - |
 | [FreeForexAPI](https://freeforexapi.com/Home/Api) | API | Real-time foreign exchange rates for major currency pairs | Free tier | None | - | - | public-apis | - |
@@ -46,7 +46,7 @@ Banking, markets, payments data, forex and financial statements.
 | [GLEIF LEI](https://www.gleif.org/) | Portal | Legal Entity Identifier reference data available for public use | Free | None | CC0 1.0 | [docs](https://www.gleif.org/) | editorial | 2026-10-24 |
 | [IBANforge](https://api.ibanforge.com) | API | IBAN validation and BIC/SWIFT lookup for 89 countries with 121k+ BIC entries | Free tier | API key | - | - | public-apis | - |
 | [India GST HSN & SAC](https://gst-hsn-sac-api.vercel.app/docs) | API | Indian GST HSN and SAC classification code lookup and search | Free tier | None | - | - | public-apis | - |
-| [Klarna](https://docs.klarna.com/acquirer/klarna/) | API | Klarna payment and shopping service | Free tier | API key | - | - | public-apis | - |
+| [Klarna](https://docs.klarna.com/acquirer/klarna/) | API | Klarna payments API for merchants to create payment sessions, orders, captures, refunds, and settlements | Free tier | API key | - | - | public-apis | - |
 | [KmalServico Gold Price Dataset](https://www.kmalservico.com/data) | API | Current gold price per gram at 6 purities for 188 countries, JSON, no auth | Free tier | None | - | - | public-apis | - |
 | [LiquiLens](https://liquilens.in/developers) | API | Public-record bank and lender failure-risk evidence | Free tier | None | - | - | public-apis | - |
 | [Live SEC Form 4 Insider Trades](https://rapidapi.com/crisp-point-studio-crisp-point-studio-default/api/live-sec-form-4-insider-trades) | API | Latest SEC Form 4 insider trading filings from EDGAR, by ticker or market-wide | Free tier | API key | - | - | public-apis | - |

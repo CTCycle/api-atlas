@@ -4,9 +4,9 @@ Forecasts, observations, reanalysis and climate projections.
 
 | Name | Type | Description | Access | Auth | License | Docs | Source | Checked |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [7Timer!](http://www.7timer.info/doc.php?lang=en) | API | Weather, especially for Astroweather | Free tier | None | - | - | public-apis | - |
-| [Aemet](https://opendata.aemet.es/centrodedescargas/inicio) | API | Weather and forecast data from Spain | Free tier | API key | - | - | public-apis | - |
-| [AirNow](https://docs.airnowapi.org) | API | US EPA air quality data and forecasts | Free tier | API key | - | - | public-apis | - |
+| [7Timer!](http://www.7timer.info/doc.php?lang=en) | API | GFS-based global weather forecast API (XML/JSON) with civil, astro, meteo products and 8-day to 2-week forecasts | Free tier | None | - | - | public-apis | - |
+| [Aemet](https://opendata.aemet.es/centrodedescargas/inicio) | API | AEMET OpenData: Spanish meteorological agency's API for weather forecasts, observations, and climate data | Free tier | API key | - | - | public-apis | - |
+| [AirNow](https://docs.airnowapi.org) | API | US EPA AirNow API for real-time and forecast air quality (AQI) data across the US, Canada, and Mexico | Free tier | API key | - | - | public-apis | - |
 | [AQICN](https://aqicn.org/api) | API | Air Quality Index Data for over 1000 cities | Free tier | API key | - | - | public-apis | - |
 | [Australian Weather](https://reg.bom.gov.au/climate/data-services) | Dataset | Updated webpage for Australian Weather data | - | - | - | - | awesome-datasets | - |
 | [AviationWeather](https://aviationweather.gov/dataserver/) | API | NOAA aviation weather forecasts and observations | Free tier | None | - | - | public-apis | - |
@@ -21,7 +21,7 @@ Forecasts, observations, reanalysis and climate projections.
 | [ECMWF](https://www.ecmwf.int) | Portal | European Centre for Medium-Range Weather Forecasts data and forecast products | - | Registration | - | - | editorial | 2026-10-24 |
 | [EEA data portal](https://www.eea.europa.eu/data-and-maps) | Portal | European environment data and indicators available for public use | Free | None | CC BY 4.0 | [docs](https://www.eea.europa.eu/data-and-maps) | editorial | 2026-10-24 |
 | [EPA Envirofacts](https://www.epa.gov/) | Portal | US environmental facility and release data available for public use | Free | None | Public Domain | - | editorial | 2026-10-24 |
-| [Euskalmet](https://opendata.euskadi.eus/api-euskalmet/-/api-de-euskalmet) | API | Meteorological data of the Basque Country | Free tier | API key | - | - | public-apis | - |
+| [Euskalmet](https://opendata.euskadi.eus/api-euskalmet/-/api-de-euskalmet) | API | Basque Meteorological Agency API providing meteorological data and datasets for the Basque Country | Free tier | API key | - | - | public-apis | - |
 | [FMI Open Data](https://en.ilmatieteenlaitos.fi/open-data) | API | Finnish weather, sea, climate and radar observations via open WFS | Free tier | None | - | - | public-apis | - |
 | [GBIF](https://www.gbif.org/) | Portal | Global biodiversity occurrence data available for public use | Free | None | Unknown | [docs](https://www.gbif.org/) | editorial | 2026-10-24 |
 | [Global Forest Watch](https://www.globalforestwatch.org/) | Portal | Forest monitoring and land use data available for public use | Free | API key | Unknown | [docs](https://www.globalforestwatch.org/) | editorial | 2026-10-24 |
@@ -31,15 +31,15 @@ Forecasts, observations, reanalysis and climate projections.
 | [Hail History](https://whathitmyhouse.com/api-docs.html) | API | Radar-detected hail history for any US address from NOAA NEXRAD Level-III hail detections, by year | Free tier | None | - | - | public-apis | - |
 | [HG Weather](https://hgbrasil.com/weather/) | API | Provides weather forecast data for cities in Brazil | Free tier | API key | - | - | public-apis | - |
 | [Hong Kong Obervatory](https://www.hko.gov.hk/en/abouthko/opendata_intro.htm) | API | Provide weather information, earthquake information, and climate data | Free tier | None | - | - | public-apis | - |
-| [IPMA](http://api.ipma.pt/open-data/) | API | Portuguese weather and climate data | Free tier | None | - | - | public-apis | - |
+| [IPMA](http://api.ipma.pt/open-data/) | API | IPMA open data API providing weather forecasts, observations, and seismic data for Portugal | Free tier | None | - | - | public-apis | - |
 | [kanari](https://kanari.io/en/api) | API | Real-time worldwide wildfire detections, water bomber tracking and open fire archive | Free tier | None | - | - | public-apis, awesome-datasets | - |
-| [KNMI](https://developer.dataplatform.knmi.nl) | API | Dutch weather, radar and climate data | Free tier | API key | - | - | public-apis | - |
+| [KNMI](https://developer.dataplatform.knmi.nl) | API | KNMI Data Platform APIs for Dutch weather and climate datasets, including open data, EDR, WMS, and notifications | Free tier | API key | - | - | public-apis | - |
 | [Luchtmeetnet](https://api-docs.luchtmeetnet.nl) | API | Predicted and actual air quality components for The Netherlands (RIVM) | Free tier | None | - | - | public-apis | - |
 | [Meltema](https://meltema.com/docs) | API | Multi-model weather: GFS, ECMWF AIFS/IFS and a 31-member GEFS ensemble, keyless point forecasts | Free tier | None | - | - | public-apis | - |
 | [MET Norway](https://api.met.no) | API | Norwegian Meteorological Institute weather forecast API | Free | None | - | - | editorial | 2026-10-24 |
-| [Met Office DataHub](https://datahub.metoffice.gov.uk/docs/getting-started) | API | UK weather forecasts and climate data | Free tier | API key | - | - | public-apis | - |
+| [Met Office DataHub](https://datahub.metoffice.gov.uk/docs/getting-started) | API | Met Office Weather DataHub APIs for atmospheric models, site-specific forecasts, and map images with free and paid plans | Free tier | API key | - | - | public-apis | - |
 | [Mycelium](https://api.mycelium.global/docs/v1) | API | Corporate carbon emissions disclosures (scope 1, 2 and 3), company-reported and estimated | Free tier | API key | - | - | public-apis | - |
-| [Météo-France](https://portail-api.meteofrance.fr/web/) | API | French weather forecasts and alerts | Free tier | API key | - | - | public-apis | - |
+| [Météo-France](https://portail-api.meteofrance.fr/web/) | API | Météo-France API portal offering weather data and services for building innovative applications | Free tier | API key | - | - | public-apis | - |
 | [NASA POWER](https://power.larc.nasa.gov/docs) | API | Global solar and weather data for energy and agriculture | Free tier | None | PD-USGov | - | public-apis | - |
 | [NOAA CO-OPS](https://api.tidesandcurrents.noaa.gov/api/prod) | API | US coastal tides, water levels, currents and meteorological observations | Free tier | None | PD-USGov | - | public-apis | - |
 | [NOAA NCEI](https://www.ncei.noaa.gov/) | Portal | NOAA climate and environmental data archive available for public use | Free | None | Public Domain | [docs](https://www.ncei.noaa.gov/) | editorial | 2026-10-24 |
@@ -50,7 +50,7 @@ Forecasts, observations, reanalysis and climate projections.
 | [openSenseMap](https://api.opensensemap.org) | API | Data from Personal Weather Stations called senseBoxes | Free tier | None | - | - | public-apis | - |
 | [OpenWeatherMap](https://openweathermap.org) | API | Global weather data API with current conditions, forecasts and historical endpoints | Freemium | API key | ODbL-1.0 | [docs](https://openweathermap.org/api) | editorial | 2026-10-24 |
 | [Pirate Weather](http://docs.pirateweather.net/en/latest/) | API | Free weather API with forecast data similar to Dark Sky | Free tier | None | - | - | public-apis | - |
-| [PM2.5 Open Data Portal](https://pm25.lass-net.org) | API | Open low-cost PM2.5 sensor data | Free tier | None | - | - | public-apis | - |
+| [PM2.5 Open Data Portal](https://pm25.lass-net.org) | API | Taiwan PM2.5 open data portal with real-time sensor readings, visualizations, and JSON API for all sensors | Free tier | None | - | - | public-apis | - |
 | [Protected Planet](https://www.protectedplanet.net/) | Portal | World protected areas database available for public use | Free | None | Unknown | [docs](https://www.protectedplanet.net/) | editorial | 2026-10-24 |
 | [PVGIS](https://joint-research-centre.ec.europa.eu/photovoltaic-geographical-information-system-pvgis/using-pvgis-5/api-non-interactive-service_en) | API | EU solar radiation and photovoltaic performance estimates | Free tier | None | CC-BY-4.0 | - | public-apis | - |
 | [Rainbow Weather](https://developer.rainbow.ai) | API | Global real-time nowcasting API powered by radar + satellite fusion | Free tier | API key | - | - | public-apis | - |

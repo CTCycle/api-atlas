@@ -16,8 +16,8 @@ Email, SMS, voice, chat and notification services.
 | [EmailJS](https://www.emailjs.com/docs) | API | Send emails directly from client-side JavaScript without a backend server | Free tier | API key | - | - | public-apis | - |
 | [Extension API](https://businesssupport.vonage.com/contactus) | API | The Vonage Business Cloud Extension API enables you to retrieve information about extensions. Your application must subscribe to the Provisioning API suite to use this API | - | - | - | [docs](https://api.apis.guru/v2/specs/vonage.com/extension/1.11.8/openapi.json) | APIs.guru | - |
 | [External Accounts API](https://developer.vonage.com/en/home) | API | The External Accounts API is used to manage accounts for Viber Business Messages, Facebook Messenger and Whatsapp for use in the Messages and Dispatch APIs | - | - | - | [docs](https://api.apis.guru/v2/specs/nexmo.com/external-accounts/0.1.5/openapi.json) | APIs.guru | - |
-| [Guerrilla Mail](https://www.guerrillamail.com/GuerrillaMailAPI.html) | API | Disposable temporary Email addresses | Free tier | None | - | - | public-apis | - |
-| [ImprovMX](https://improvmx.com/api) | API | API for free email forwarding service | Free tier | API key | - | - | public-apis | - |
+| [Guerrilla Mail](https://www.guerrillamail.com/GuerrillaMailAPI.html) | API | JSON API for disposable temporary email inboxes: create addresses and read or send mail | Free tier | None | - | - | public-apis | - |
+| [ImprovMX](https://improvmx.com/api) | API | HTTP REST API to programmatically manage domains and email-forwarding aliases | Free tier | API key | - | - | public-apis | - |
 | [inboxsink](https://inboxsink.com/docs) | API | Disposable inboxes for end-to-end tests that wait for the email and extract OTP codes | Free tier | API key | - | - | public-apis | - |
 | [Kiprio Email Validate](https://kiprio.com/v1/email-validate) | API | Free email validation: MX check, disposable detection, syntax | Free tier | API key | - | - | public-apis | - |
 | [MailboxValidator](https://www.mailboxvalidator.com/api-email-free) | API | Validate email address to improve deliverability | Free tier | API key | - | - | public-apis | - |
