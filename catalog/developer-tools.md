@@ -36,7 +36,6 @@ Version control, CI, code quality, package registries and build tooling.
 | [BrewPage](https://brewpage.app) | API | Free hosting for HTML, JSON, key-value, files, multi-file sites with short URLs and TTL retention | Free tier | None | - | - | public-apis | - |
 | [Browshot](https://browshot.com/api/documentation) | API | Easily make screenshots of web pages in any screen size, as any device | Free tier | API key | - | [docs](https://api.apis.guru/v2/specs/browshot.com/1.17.0/swagger.json) | public-apis, APIs.guru | - |
 | [Buddy](https://buddy.works/docs/api/getting-started/overview) | API | The fastest continuous integration and continuous delivery platform | Free tier | OAuth | - | - | public-apis | - |
-| [Changelogs.md](https://changelogs.md) | API | Structured changelog metadata from open source projects | Free tier | None | - | - | public-apis | - |
 | [ChartBytes](https://chartbytes.meridian-digital.pro) | API | Chart image API: turn a URL into a PNG or SVG chart (bar, line, area, scatter, pie, donut, stacked) | Free tier | None | - | - | public-apis | - |
 | [Ciprand](https://github.com/polarspetroll/ciprand) | API | Secure random string generator | Free tier | None | - | - | public-apis | - |
 | [CircleCI](https://circleci.com/docs/guides/toolkit/api-intro/) | API | Automate the software development process using continuous integration and continuous delivery | Free tier | API key | - | - | public-apis | - |
@@ -52,7 +51,7 @@ Version control, CI, code quality, package registries and build tooling.
 | [Contentful Images](https://www.contentful.com/developers/docs/references/images-api) | API | Used to retrieve and apply transformations to images | Free tier | API key | - | - | public-apis | - |
 | [CORS Proxy](https://github.com/burhanuday/cors-proxy) | API | Get around the dreaded CORS error by using this proxy as a middle man | Free tier | None | - | - | public-apis | - |
 | [Crawl Readiness](https://www.crawlreadiness.com/) | API | Check if AI crawlers (ChatGPT, Claude, Perplexity, 30+ others) can access any website | Free tier | API key | - | - | public-apis | - |
-| [Creative Commons Catalog](https://api.creativecommons.engineering) | API | Search among openly licensed and public domain works | Free tier | OAuth | - | - | public-apis | - |
+| [Creative Commons Catalog](https://api.openverse.org/v1/) | API | Search among openly licensed and public domain works | Free tier | OAuth | - | - | public-apis | - |
 | [CurlShot](https://curlshot.com/docs) | API | Screenshots, PDFs and scrolling videos of any URL, HTML or Markdown; free tier | Free tier | API key | - | - | public-apis | - |
 | [Custom Image Search Client](https://www.microsoft.com/) | API | The Bing Custom Image Search API lets you send an image search query to Bing and get back image search results customized to meet your custom search definition | - | - | - | [docs](https://api.apis.guru/v2/specs/microsoft.com/cognitiveservices-CustomImageSearch/1.0/swagger.json) | APIs.guru | - |
 | [Databricks](https://docs.databricks.com/aws/en/reference/api) | API | Service to manage your databricks account,clusters, notebooks, jobs and workspaces | Free tier | API key | - | - | public-apis | - |
@@ -96,7 +95,7 @@ Version control, CI, code quality, package registries and build tooling.
 | [Hex](https://github.com/hexpm/specifications) | API | Elixir and Erlang package versions and docs | Free tier | None | - | - | public-apis | - |
 | [Hipsum](https://hipsum.co) | API | Hipster-themed lorem ipsum generator for placeholder text | Free tier | None | - | - | public-apis | - |
 | [Homebrew Formulae](https://formulae.brew.sh/api) | API | Package and cask data for the Homebrew package manager | Free tier | None | - | - | public-apis | - |
-| [host-t.com](https://host-t.com) | API | Basic DNS query via HTTP GET request | Free tier | None | - | - | public-apis | - |
+| [host-t.com](https://dnsviahttp.com/) | API | Basic DNS query via HTTP GET request | Free tier | None | - | - | public-apis | - |
 | [Host.io](https://host.io) | API | Domains Data API for Developers | Free tier | API key | - | - | public-apis | - |
 | [Httpbin](https://httpbin.org) | API | A Simple HTTP Request & Response Service | Free tier | None | - | - | public-apis | - |
 | [Hunter](https://hunter.io/api) | API | API for domain search, professional email finder, author finder and email verifier | Free tier | API key | - | - | public-apis | - |
@@ -138,9 +137,8 @@ Version control, CI, code quality, package registries and build tooling.
 | [npm Registry](https://github.com/npm/registry/blob/main/docs/REGISTRY-API.md) | API | Query information about your favorite Node.js libraries programatically | Free tier | None | - | - | public-apis | - |
 | [NuGet](https://learn.microsoft.com/en-us/nuget/api/overview) | API | .NET package versions, metadata and search | Free tier | None | - | - | public-apis | - |
 | [OneSignal](https://dashboard.onesignal.com/) | API | Self-serve customer engagement solution for Push Notifications, Email, SMS & In-App | Free tier | API key | - | - | public-apis | - |
-| [Open Page Rank](https://www.domcop.com/openpagerank) | API | API for calculating and comparing metrics of different websites using Page Rank algorithm | Free tier | API key | - | - | public-apis | - |
+| [Open Page Rank](https://keywordseverywhere.com/openpagerank) | API | API for calculating and comparing metrics of different websites using Page Rank algorithm | Free tier | API key | - | - | public-apis | - |
 | [Open VSX](https://open-vsx.org) | API | Search and access VS Code extensions from the Open VSX registry | Free tier | None | - | - | public-apis | - |
-| [OpenGraphr](https://opengraphr.com/docs/1.0/overview) | API | Really simple API to retrieve Open Graph data from an URL | Free tier | API key | - | - | public-apis | - |
 | [OpenQR](https://openqr.uk/api) | API | Generate QR codes and manage dynamic (editable) QR codes with scan analytics | Free tier | API key | - | - | public-apis | - |
 | [Orca Scan](https://orcascan.com/guides/free-barcode-image-api-0e4a4fa6) | API | Generate barcode images (QR, Code 128, EAN, Data Matrix and more) in SVG, PNG, JPG or PDF | Free tier | None | - | - | public-apis | - |
 | [OutageDeck](https://outagedeck.com/developers/api) | API | Live status and incidents for 170+ cloud and SaaS providers from official feeds | Free tier | None | - | - | public-apis | - |
@@ -181,7 +179,7 @@ Version control, CI, code quality, package registries and build tooling.
 | [Serialif Color](https://color.serialif.com) | API | Color conversion, complementary, grayscale and contrasted text | Free tier | None | - | - | public-apis | - |
 | [Serply](https://serply.io/docs) | API | Google, Bing, News, Scholar and Maps search results and page scraping as JSON | Free tier | API key | - | - | public-apis | - |
 | [serpstack](https://serpstack.com) | API | Real-Time & Accurate Google Search Results API | Free tier | API key | - | - | public-apis | - |
-| [Sheetsu](https://sheetsu.com) | API | Easy google sheets integration | Free tier | API key | - | - | public-apis | - |
+| [Sheetsu](https://sheetdb.io/) | API | Easy google sheets integration | Free tier | API key | - | - | public-apis | - |
 | [Shields](https://shields.io) | API | Concise, consistent, and legible badges in SVG and raster format | Free tier | None | - | - | public-apis | - |
 | [Shotanvil](https://shotanvil.com) | API | Screenshot, PDF and HTML rendering API with a free tier, API key or x402 auth | Free tier | API key | - | - | public-apis | - |
 | [Shrtcode](https://shrtco.de/docs) | API | URl Shortener with multiple Domains | Free tier | None | - | - | public-apis | - |

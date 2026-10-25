@@ -8,7 +8,7 @@ Social platforms, advertising, audience and influencer data.
 | [API Direct](https://apidirect.io/docs/introduction) | API | Real-time social media data from X, LinkedIn, Reddit, YouTube, Instagram, TikTok, Facebook and news | Free tier | API key | - | - | public-apis | - |
 | [Ayrshare](https://www.ayrshare.com) | API | Social media APIs to post, get analytics, and manage multiple users social media accounts | Free tier | API key | - | - | public-apis | - |
 | [Blogger](https://developers.google.com/blogger) | API | The Blogger APIs allows client applications to view and update Blogger content | Free tier | OAuth | - | - | public-apis | - |
-| [Bluesky](https://docs.bsky.app) | API | Decentralized social networking via the AT protocol | Free tier | None | - | - | public-apis | - |
+| [Bluesky](https://bsky.network/) | API | Decentralized social networking via the AT protocol | Free tier | None | - | - | public-apis | - |
 | [Facebook](https://developers.facebook.com) | API | Facebook Login, Share on FB, Social Plugins, Analytics and more | Free tier | OAuth | - | - | public-apis | - |
 | [FastSocial Instagram Data](https://fastsocial.co/instagram-api/docs) | API | Public Instagram data: profiles, posts, reels, stories, comments and a daily top-accounts ranking | Free tier | API key | - | - | public-apis | - |
 | [Foursquare](https://foursquare.com/developer/) | API | Interact with Foursquare users and places (geolocation-based checkins, photos, tips, events, etc) | Free tier | OAuth | - | - | public-apis | - |
@@ -41,6 +41,6 @@ Social platforms, advertising, audience and influencer data.
 | [TweetAPI](https://tweetapi.com/docs/getting-started/overview) | API | Public Twitter data for posts, profiles, followers, search, lists and communities | Free tier | API key | - | - | public-apis | - |
 | [TwitterAPIs](https://www.twitterapis.com) | API | Twitter / X data API: search, profiles, timelines, followers, DMs, write actions | Free tier | API key | - | - | public-apis | - |
 | [TwittrAPI](https://www.twittrapi.com/docs) | API | Public Twitter/X data: profiles, tweets, replies, search, followers, lists, communities, trends | Free tier | API key | - | - | public-apis | - |
-| [Visitor Identification](https://hubapi.com) | API | The Visitor Identification API allows you to pass identification information to the HubSpot chat widget for otherwise unknown visitors that were verified by your own authentication system | - | - | - | [docs](https://api.hubspot.com/api-catalog-public/v1/apis/conversations/v3/visitor-identification) | APIs.guru | - |
+| [Visitor Identification](https://hubapi.com) | API | The Visitor Identification API allows you to pass identification information to the HubSpot chat widget for otherwise unknown visitors that were verified by your own authentication system | - | - | - | - | APIs.guru | - |
 | [xfetch](https://xfetch.io) | API | Read API for X/Twitter search, profiles, tweets, and social graph | Free tier | API key | - | - | public-apis | - |
 | [XFlux](https://www.xfluxapi.com/docs/api) | API | Read X/Twitter profiles, search, timelines; account monitors with signed webhooks | Free tier | API key | - | - | public-apis | - |

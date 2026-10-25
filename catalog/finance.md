@@ -53,20 +53,20 @@ Banking, markets, payments data, forex and financial statements.
 | [matchwire.win](https://matchwire.win/docs) | API | Matched prediction-market games across Kalshi, Polymarket US/Intl and Predict.fun | Free tier | API key | - | - | public-apis | - |
 | [Nasdaq Data Link](https://data.nasdaq.com/) | Portal | Financial and economic datasets platform available for public use | Freemium | API key | Unknown | [docs](https://data.nasdaq.com/) | editorial | 2026-10-24 |
 | [National Bank of Poland](http://api.nbp.pl/en.html) | API | A collection of currency exchange rates (data in XML and JSON) | Free tier | None | - | - | public-apis | - |
-| [NaviPlan API](https://online.naviplancentral.com/) | API | An API for accessing NaviPlan plan data for a client | - | - | - | [docs](https://demo.uat.naviplancentral.com/plan/swagger/docs/v1) | APIs.guru | - |
+| [NaviPlan API](https://online.naviplancentral.com/) | API | An API for accessing NaviPlan plan data for a client | - | - | - | - | APIs.guru | - |
 | [Nerkhsanj](https://nerkh.jahankhahan.shop/developers/en) | API | Iran free-market USD, EUR, CNY, gold and coin rates in toman, live and daily archive since 2010 | Free tier | None | - | - | public-apis | - |
 | [Nigeria PAYE](https://www.orionsoftlimited.com/developers) | API | Nigerian income tax (PAYE) and take-home pay under the Nigeria Tax Act 2025 | Free tier | None | - | - | public-apis | - |
 | [NORTH7 Agent](https://north7.ai/v1/docs) | API | Trading signals, market analysis and geopolitical intelligence | Free tier | API key | - | - | public-apis | - |
 | [paralelo.bo](https://paralelo.bo/api) | API | Bolivia parallel-market USD/BOB exchange rate, aggregated from P2P sources every 60s | Free tier | None | - | - | public-apis | - |
-| [Polygon.io](https://polygon.io) | API | Market data API for stocks, options, forex and crypto | Freemium | API key | - | [docs](https://polygon.io/docs) | editorial | 2026-10-24 |
-| [PolyKal Fees](https://polymarket-kalshi.com/fee-schedule) | API | Kalshi & Polymarket trading fee rates and formulas as verified JSON | Free tier | None | - | - | public-apis | - |
+| [Polygon.io](https://massive.com/) | API | Market data API for stocks, options, forex and crypto | Freemium | API key | - | [docs](https://massive.com/docs) | editorial | 2026-10-24 |
+| [PolyKal Fees](https://polykal.net/fee-schedule/) | API | Kalshi & Polymarket trading fee rates and formulas as verified JSON | Free tier | None | - | - | public-apis | - |
 | [Rate-API](https://rate-api.com/docs/api) | API | Hourly exchange rates for 160+ currencies in JSON, XML or CSV with free plan 2,500 requests/month | Free tier | API key | - | - | public-apis | - |
 | [Refinitiv](https://www.lseg.com/en/data-analytics) | API | Refinitiv market data and analytics platform | Paid | Account | - | - | editorial | - |
-| [SEC EDGAR](https://www.sec.gov/edgar) | Portal | SEC corporate filings and financial data available for public use | Free | None | Public Domain | - | editorial | - |
+| [SEC EDGAR](https://www.sec.gov/edgar) | Portal | SEC corporate filings and financial data available for public use | Free | None | Public Domain | [docs](https://www.sec.gov/search-filings/edgar-application-programming-interfaces) | editorial | 2026-10-25 |
 | [Seiche](https://seiche.info/developers) | API | Free public funding, FX and capital-market evidence with source clocks | Free tier | None | - | - | public-apis | - |
 | [TaxID](https://www.taxid.dev/docs) | API | EU VAT number validation with company name and address lookup across all 27 member states | Free tier | API key | - | - | public-apis | - |
 | [The Consumer Financial Protection Bureau](https://consumerfinance.gov) | API | Learn more about home mortgage data, download the data yourself, or build new tools using our API | - | - | - | [docs](https://api.consumerfinance.gov/api-docs) | APIs.guru | - |
-| [Tradeworks](https://magick.nu) | API | Authentication is required to access all methods of the API. Enter username and password. Credentials are automatically set as you type | - | - | - | [docs](http://devui.magick.nu/api/api-docs) | APIs.guru | - |
+| [Tradeworks](https://magick.nu) | API | Authentication is required to access all methods of the API. Enter username and password. Credentials are automatically set as you type | - | - | - | - | APIs.guru | - |
 | [Undertow](https://liquilens-undertow.com/developers) | API | Public market-depth and sized exit estimates, not executable quotes | Free tier | None | - | - | public-apis | - |
 | [Xero Assets API](https://developer.xero.com) | API | The Assets API exposes fixed asset related functions of the Xero Accounting application and can be used for a variety of purposes such as creating assets, retrieving asset valuations etc | - | - | MIT | [docs](https://api.apis.guru/v2/specs/xero.com/xero_assets/2.9.4/openapi.json) | APIs.guru | - |
 | [Yahoo Finance](https://finance.yahoo.com/) | Portal | Market quotes and financial data portal available for public use | Free | None | Unknown | [docs](https://finance.yahoo.com/) | editorial | 2026-10-24 |

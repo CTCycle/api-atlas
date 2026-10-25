@@ -54,9 +54,9 @@ Company data, CRMs, invoicing, product catalogs and marketplaces.
 | [Pangolinfo Amazon Data](https://docs.pangolinfo.com/cn-index) | API | Amazon product, review, search and Best Sellers data across 20+ marketplaces | Free tier | API key | - | - | public-apis | - |
 | [PeopleSearch](https://peoplesearch.im/developers) | API | People and company search in plain English, with verified work emails and email verification | Free tier | API key | - | - | public-apis | - |
 | [Pick an Agency](https://www.pickanagency.com/developers) | API | Search 47,000+ marketing agencies by service, location and rating | Free tier | None | - | - | public-apis | - |
-| [Product Library API](https://izettle.com) | API | The Product Library API is used for managing merchant's product information and product images | - | - | - | [docs](https://api.apis.guru/v2/specs/izettle.com/products/1.0.0/openapi.json) | APIs.guru | - |
+| [Product Library API](https://www.zettle.com/it) | API | The Product Library API is used for managing merchant's product information and product images | - | - | - | [docs](https://api.apis.guru/v2/specs/izettle.com/products/1.0.0/openapi.json) | APIs.guru | - |
 | [Profitvana](https://www.profitvana.com/developers) | API | Seller fees for 31 marketplaces and payment processors, verified monthly | Free tier | None | - | - | public-apis | - |
-| [Qualpay Payment Gateway API](https://www.qualpay.com/) | API | This document describes the Qualpay Payment Gateway API | - | - | Apache 2.0 | [docs](https://api-test.qualpay.com/pg/doc) | APIs.guru | - |
+| [Qualpay Payment Gateway API](https://www.qualpay.com/) | API | This document describes the Qualpay Payment Gateway API | - | - | Apache 2.0 | - | APIs.guru | - |
 | [RankFabrik Places](https://rankfabrik.com/produits/etablissements) | API | Search businesses and points of interest by city, deduplicated with a coverage report | Free tier | API key | - | - | public-apis | - |
 | [Rappi](https://dev-portal.rappi.com) | API | Manage orders from Rappi's app | Free tier | OAuth | - | - | public-apis | - |
 | [Redash](https://redash.io/help/user-guide/integrations-and-api/api) | API | Access your queries and dashboards on Redash | Free tier | API key | - | - | public-apis | - |
@@ -66,17 +66,17 @@ Company data, CRMs, invoicing, product catalogs and marketplaces.
 | [Shopee](https://open.shopee.com/documents?version=1) | API | Shopee's official API for integration of various services from Shopee | Free tier | API key | - | - | public-apis | - |
 | [Shopify](https://www.shopify.com) | API | Shopify commerce platform API for stores and products | Paid | OAuth | - | - | editorial | 2026-10-24 |
 | [Smartsheet](https://smartsheet.redoc.ly) | API | Allows you to programmatically access and Smartsheet data and account information | Free tier | OAuth | - | - | public-apis | - |
-| [SoldStack](https://soldstack.fly.dev/docs) | API | Sold resale listings from Poshmark with median price, days to sell and net payout after fees | Free tier | API key | - | - | public-apis | - |
+| [SoldStack](https://soldstack.dev/docs) | API | Sold resale listings from Poshmark with median price, days to sell and net payout after fees | Free tier | API key | - | - | public-apis | - |
 | [Sparepilot](https://sparepilot.com/developers) | API | Spare parts catalog, OEM cross-references & price comparison for garden power equipment | Free tier | API key | - | - | public-apis | - |
-| [SpectroCoin Merchant](https://spectrocoin.com) | API | This is an API designed for merchants who are using SpectroCoin services and wishes to integrate them locally | - | - | - | [docs](https://spectrocoin.com/api-docs/merchant/1) | APIs.guru | - |
+| [SpectroCoin Merchant](https://spectrocoin.com) | API | This is an API designed for merchants who are using SpectroCoin services and wishes to integrate them locally | - | - | - | - | APIs.guru | - |
 | [Swanum Comps](https://swanum.com/comps/docs) | API | Sold resale prices from Vinted (7 European countries) and eBay US, with median and price range | Free tier | API key | - | - | public-apis | - |
-| [SwiftKanban](https://www.digite.com/knowledge-base/swiftkanban/article/api-for-swift-kanban-web-services) | API | Kanban software, Visualize Work, Increase Organizations Lead Time, Throughput & Productivity | Free tier | API key | - | - | public-apis | - |
+| [SwiftKanban](https://www.nimblework.com/knowledge-base/swiftkanban/) | API | Kanban software, Visualize Work, Increase Organizations Lead Time, Throughput & Productivity | Free tier | API key | - | - | public-apis | - |
 | [Tenders in Hungary](https://tenders.guru/hu/api) | API | Get data for procurements in Hungary in JSON format | Free tier | None | - | - | public-apis | - |
 | [Tenders in Poland](https://tenders.guru/pl/api) | API | Get data for procurements in Poland in JSON format | Free tier | None | - | - | public-apis | - |
 | [Tenders in Romania](https://tenders.guru/ro/api) | API | Get data for procurements in Romania in JSON format | Free tier | None | - | - | public-apis | - |
 | [Tenders in Spain](https://tenders.guru/es/api) | API | Get data for procurements in Spain in JSON format | Free tier | None | - | - | public-apis | - |
 | [Tenders in Ukraine](https://tenders.guru/ua/api) | API | Get data for procurements in Ukraine in JSON format | Free tier | None | - | - | public-apis | - |
-| [Tokopedia](https://developer.tokopedia.com/openapi/guide) | API | Tokopedia's Official API for integration of various services from Tokopedia | Free tier | OAuth | - | - | public-apis | - |
+| [Tokopedia](https://partner.tiktokshop.com/docv2/page/overview) | API | Tokopedia's Official API for integration of various services from Tokopedia | Free tier | OAuth | - | - | public-apis | - |
 | [Tomba email finder](https://tomba.io/api) | API | Email Finder for B2B sales and email marketing and email verifier | Free tier | API key | - | - | public-apis | - |
 | [TradeDataHub](https://www.tradedatahub.net) | API | U.S. contractor datasets with a free discovery API for coverage, pricing and masked previews | Free tier | None | - | - | public-apis | - |
 | [UGC VZ](https://ugc-vz.de/developers) | API | Directory of DACH user-generated-content creators with topics, cities, rates and contact requests | Free tier | None | - | - | public-apis | - |

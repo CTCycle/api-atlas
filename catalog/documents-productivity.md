@@ -27,7 +27,6 @@ Document conversion, file storage, notes, tasks and office automation.
 | [Formfeed](https://docs.formfeed.dev/api/overview) | API | Render PDFs and images from HTML (Jinja2, Liquid, Handlebars) or Word templates, with a free tier | Free tier | API key | - | - | public-apis | - |
 | [Free Dictionary](https://dictionaryapi.dev) | API | Definitions, phonetics, pronunciations, parts of speech, examples, synonyms | Free tier | None | - | - | public-apis | - |
 | [Google Calendar](https://developers.google.com/workspace/calendar) | API | Display, create and modify Google calendar events | Free tier | OAuth | - | - | public-apis | - |
-| [Greenwire Public API](http://www.greenpeace.org/international/en/about/contactus) | API | Greenpeace Greenwire allows you connect with other volunteers, activists and groups working on environmental campaigns all across the world! | - | - | MIT | [docs](https://api.apis.guru/v2/specs/greenpeace.org/1.0.0/swagger.json) | APIs.guru | - |
 | [Hebrew Calendar](https://www.hebcal.com/home/developer-apis) | API | Convert between Gregorian and Hebrew, fetch Shabbat and Holiday times, etc | Free tier | None | - | - | public-apis | - |
 | [Holidays](https://holidayapi.com) | API | Historical data regarding holidays | Free tier | API key | - | - | public-apis | - |
 | [iLovePDF](https://www.iloveapi.com/) | API | Convert, merge, split, extract text and add page numbers for PDFs. Free for 250 documents/month | Free tier | API key | - | - | public-apis | - |

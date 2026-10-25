@@ -4,7 +4,7 @@ Maps, geocoding, satellite imagery, elevation and boundary data.
 
 | Name | Type | Description | Access | Auth | License | Docs | Source | Checked |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Actinia Grass GIS](https://actinia.mundialis.de/api_docs) | API | Actinia is an open source REST API for geographical data that uses GRASS GIS | Free tier | API key | - | - | public-apis | - |
+| [Actinia Grass GIS](https://redocly.github.io/redoc/?url=https://actinia.mundialis.de/api/v3/swagger.json) | API | Actinia is an open source REST API for geographical data that uses GRASS GIS | Free tier | API key | - | - | public-apis | - |
 | [administrative-divisons-db](https://github.com/kamikazechaser/administrative-divisions-db) | API | Get all administrative divisions of a country | Free tier | None | - | - | public-apis | - |
 | [adresse.data.gouv.fr](https://adresse.data.gouv.fr) | API | Address database of France, geocoding and reverse | Free tier | None | - | - | public-apis | - |
 | [Airtel IP](https://sys.airtel.lv/ip2country/1.1.1.1?full=true) | API | IP Geolocation API. Collecting data from multiple sources | Free tier | None | - | - | public-apis | - |
@@ -78,7 +78,7 @@ Maps, geocoding, satellite imagery, elevation and boundary data.
 | [Network Data Labs](https://www.networkdatalabs.com/docs) | API | IP geolocation with accuracy radius, ASN, and flags for Tor exits, known VPN networks and hosting | Free tier | API key | - | - | public-apis | - |
 | [Nominatim](https://nominatim.openstreetmap.org/ui/search.html) | API | OpenStreetMap geocoding and reverse geocoding API | Free | None | ODbL-1.0 | - | editorial | 2026-10-24 |
 | [One Map, Singapore](https://www.onemap.gov.sg/apidocs/) | API | Singapore Land Authority REST API services for Singapore addresses | Free tier | API key | - | - | public-apis | - |
-| [OnWater](https://onwater.io) | API | Determine if a lat/lon is on water or land | Free tier | None | - | - | public-apis | - |
+| [OnWater](https://isitwater.com/) | API | Determine if a lat/lon is on water or land | Free tier | None | - | - | public-apis | - |
 | [Open Topo Data](https://www.opentopodata.org) | API | Elevation and ocean depth for a latitude and longitude | Free tier | None | - | - | public-apis | - |
 | [OpenAddresses](https://openaddresses.io/) | Dataset | Global address collection database available for public use | Free | None | Unknown | [docs](https://openaddresses.io/) | editorial | 2026-10-24 |
 | [OpenCage](https://opencagedata.com) | API | Forward and reverse geocoding using open data | Free tier | API key | - | - | public-apis | - |
@@ -107,7 +107,6 @@ Maps, geocoding, satellite imagery, elevation and boundary data.
 | [Storm Glass Marine Weather](https://stormglass.io) | API | Global marine weather data from multiple sources in one single API with hourly resolution. Get your API key by visiting the Storm Glass web site | - | - | - | [docs](https://api.apis.guru/v2/specs/stormglass.io/1.0.1/swagger.json) | APIs.guru | - |
 | [Telize](https://rapidapi.com/fcambus/api/telize) | API | Telize offers location information from any IP address | Free tier | API key | - | - | public-apis | - |
 | [TomTom](https://docs.tomtom.com/) | API | Maps, Directions, Places and Traffic APIs | Freemium | API key | - | - | editorial | 2026-10-24 |
-| [TrapStreet API](https://trapstreet.com) | API | The TrapStreet API finds trap streets in Google Maps, Bing Maps and OpenStreetMap data | - | - | - | [docs](https://api.apis.guru/v2/specs/trapstreet.com/1.0.0/openapi.json) | APIs.guru | - |
 | [TrustyData](https://trustydata.fr/docs) | API | French address checks, INSEE company search and routing on official open data | Free tier | API key | - | - | public-apis | - |
 | [Uebermaps](https://uebermaps.com/api/v2) | API | Discover and share maps with friends | Free tier | API key | - | - | public-apis | - |
 | [Unblock Master IP](https://www.unblockmaster.com/free-ip-api) | API | IP geolocation plus datacenter and VPN detection for any IPv4 or IPv6 address | Free tier | None | - | - | public-apis | - |

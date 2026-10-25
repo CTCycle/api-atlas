@@ -52,7 +52,7 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [Making Sense of Microposts 2013](https://web.archive.org/web/20170325004450/https://oak.dcs.shef.ac.uk/msm2013/challenge.html) | Dataset | Concept Extraction (from Archive.org) | - | - | - | - | awesome-datasets | - |
 | [Making Sense of Microposts 2016](http://microposts2016.seas.upenn.edu/challenge.html) | Dataset | Named Entity rEcognition and Linking | - | - | - | - | awesome-datasets | - |
 | [MediaCraft AI](https://mediacraft-x402-api.onrender.com) | API | Chinese content compliance review (17 platforms), EN↔CN translation, and SEO optimization. Pay-per-call via x402 (Solana USDC) | Free tier | API key | - | - | public-apis | - |
-| [MessengerX.io](https://messengerx.rtfd.io) | API | A FREE API for developers to build and monetize personalized ML based chat apps | Free tier | API key | - | - | public-apis | - |
+| [MessengerX.io](https://messengerx.readthedocs.io/en/latest/) | API | A FREE API for developers to build and monetize personalized ML based chat apps | Free tier | API key | - | - | public-apis | - |
 | [Mistral](https://mistral.ai) | API | Mistral AI API for language models | Freemium | API key | - | - | editorial | 2026-10-24 |
 | [Mistral AI](https://docs.mistral.ai/api) | API | High-performance LLM API by Mistral AI including Mistral and Mixtral models, with a free tier | Free tier | API key | - | - | public-apis | - |
 | [Modelfax](https://bytebrujo.github.io/modelfax) | API | LLM pricing, context windows and deprecation dates, schema-validated and updated daily | Free tier | None | - | - | public-apis | - |
@@ -79,8 +79,8 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [Roboflow Universe](https://universe.roboflow.com) | API | Pre-trained computer vision models | Free tier | API key | - | - | public-apis | - |
 | [SafeReel](https://safereel.ai/docs) | API | NSFW detection for images and full-length videos by URL, free tier | Free tier | API key | - | - | public-apis | - |
 | [SelectPdf HTML To PDF API](https://selectpdf.com/html-to-pdf-api) | API | SelectPdf HTML To PDF Online REST API is a professional solution that lets you create PDF from web pages and raw HTML code in your applications | - | - | - | [docs](https://api.apis.guru/v2/specs/selectpdf.com/1.0.0/swagger.json) | APIs.guru | - |
-| [Semantria](https://semantria.readme.io/docs) | API | Text Analytics with sentiment analysis, categorization & named entity extraction | Free tier | OAuth | - | - | public-apis | - |
-| [SkyBiometry](https://skybiometry.com/documentation) | API | Face Detection, Face Recognition and Face Grouping | Free tier | API key | - | - | public-apis | - |
+| [Semantria](https://semantria-docs.lexalytics.com/docs/obtain-your-creds) | API | Text Analytics with sentiment analysis, categorization & named entity extraction | Free tier | OAuth | - | - | public-apis | - |
+| [SkyBiometry](https://neurotechnologycloud.com/) | API | Face Detection, Face Recognition and Face Grouping | Free tier | API key | - | - | public-apis | - |
 | [Speak AI](https://docs.speakai.co) | API | Transcribe and analyze audio and video in 100+ languages | Free tier | API key | - | - | public-apis | - |
 | [Statlyte](https://statlyte.com/api) | API | Live pricing, context windows and model ids for major LLM APIs | Free tier | None | - | - | public-apis | - |
 | [TAGGUN Receipt OCR Scanning API](https://www.taggun.io/) | API | Expects only running software, real reactions, and beautifully crafted APIs to serve your every desire to transcribe a piece of paper to digital form | - | - | - | [docs](https://api.apis.guru/v2/specs/taggun.io/1.10.9/swagger.json) | APIs.guru | - |
@@ -96,5 +96,5 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [Violent-Flows](https://www.openu.ac.il/home/hassner/data/violentflows) | Dataset | Crowd Violence / Non-violence Database and benchmark | - | - | - | - | awesome-datasets | - |
 | [Visual genome (archived at Wayback)](https://web.archive.org/web/20151219035355/http://visualgenome.org/api/v0/api_home.html) | Dataset | Data still available for download from Wayback | - | - | - | - | awesome-datasets | - |
 | [Voxell Forge](https://voxell.ai/docs) | API | OpenAI-compatible text embeddings API, free-forever model with no credit card required | Free tier | API key | - | - | public-apis | - |
-| [Webhose](https://webhose.io/datasets) | Dataset | News/Blogs in multiple languages | - | - | - | - | awesome-datasets | - |
+| [Webhose](https://webz.io/knowledge/product-articles/datasets-for-machine-learning-or-nlp/) | Dataset | News/Blogs in multiple languages | - | - | - | - | awesome-datasets | - |
 | [Wikipedia Links data](https://code.google.com/archive/p/wiki-links/downloads) | Dataset | 40 Million Entities in Context | - | - | - | - | awesome-datasets | - |

@@ -11,7 +11,7 @@ the SQLite index, the importers and the scheduled refresh workflows were removed
 - Catalog source of truth is now one Markdown table per category in `catalog/`,
   edited by hand. No build step is needed to contribute.
 - Row format: Name, Type, Description, Access, Auth, License, Docs, Source, Checked.
-- 1,829 rows across 42 categories, including new `legal`, `mathematics`, `space`,
+- 1,921 rows across 42 categories, including new `legal`, `mathematics`, `space`,
   `manufacturing` pages and a separate `mcp-servers` page (57 servers).
 - 229 URLs updated to their canonical targets after a full link check of 1,969 URLs;
   69 cross-domain redirects are queued for manual review.

@@ -11,7 +11,7 @@ Job boards, salary data, recruiting and workforce datasets.
 | [Artificial Intelligence Jobs](https://artificialintelligencejobs.co/developers) | API | Live AI/ML job listings from 260+ companies' own career pages, with salary, location, remote and seniority filters | Free tier | None | - | - | public-apis | - |
 | [CuratorSearch](https://curatorsearch.com/developers) | API | Museum and gallery jobs from 400+ institutions' own careers pages, with advertised salaries | Free tier | None | - | - | public-apis | - |
 | [Dabloons](https://dabloons.net/llms.txt) | API | Bounty board where AI agents post and work tasks like PR reviews, bug repros and install checks | Free tier | API key | - | - | public-apis | - |
-| [freehire](https://freehire.dev/docs/api) | API | Open-source search engine aggregating tech jobs from company ATS boards | Free tier | None | - | - | public-apis | - |
+| [freehire](https://freehire.me/docs/api) | API | Open-source search engine aggregating tech jobs from company ATS boards | Free tier | None | - | - | public-apis | - |
 | [HeroHunt People Search](https://www.herohunt.ai/people-search-api) | API | Search 1 billion people profiles across LinkedIn and GitHub for talent sourcing | Free tier | API key | - | - | public-apis | - |
 | [HireLayer](https://hirelayer.co/api-docs) | API | Parse resumes and job descriptions, normalize skills, match and rank candidates | Free tier | API key | - | - | public-apis | - |
 | [JobDataLake](https://www.jobdatalake.com/docs) | API | 1M+ enriched job listings from 20,000+ companies with salary, skills, seniority | Free tier | API key | - | - | public-apis | - |

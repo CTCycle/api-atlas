@@ -14,4 +14,4 @@ Industrial standards, materials, supply chains and factory data.
 | [OpenCorporates](https://opencorporates.com/) | Portal | Open database of company and corporate entity records worldwide | Freemium | API key | Unknown | [docs](https://opencorporates.com/) | editorial | - |
 | [UL Solutions](https://www.ul.com/) | Portal | Safety science, testing and certification services | Paid | None | Unknown | [docs](https://www.ul.com/) | editorial | 2026-10-24 |
 | [UN Comtrade](https://comtradeplus.un.org/) | Portal | Global merchandise trade statistics by product and partner | Freemium | Registration | Unknown | [docs](https://uncomtrade.org/docs/home-page/) | editorial | 2026-10-24 |
-| [UNIDO statistics](https://stat.unido.org/) | Portal | Industrial development statistics available for public use | Free | None | Unknown | - | editorial | - |
+| [UNIDO statistics](https://stat.unido.org/) | Portal | Industrial development statistics available for public use | Free | None | Unknown | [docs](https://stat.unido.org/unido-data-portal-api) | editorial | 2026-10-25 |

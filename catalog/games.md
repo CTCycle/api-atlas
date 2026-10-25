@@ -9,7 +9,7 @@ Game databases, player stats, assets and community APIs.
 | [Barter.VG](https://github.com/bartervg/barter.vg/wiki) | API | Provides information about Game, DLC, Bundles, Giveaways, Trading | Free tier | None | - | - | public-apis | - |
 | [Battle.net](https://community.developer.battle.net/documentation/guides/getting-started) | API | Diablo III, Hearthstone, StarCraft II and World of Warcraft game data APIs | Free tier | OAuth | - | - | public-apis | - |
 | [Board Game Geek](https://boardgamegeek.com/wiki/page/BGG_XML_API2) | API | Board games, RPG and videogames | Free tier | None | - | - | public-apis | - |
-| [Call of Duty Mobile](https://callofdutymobile.vercel.app) | API | Unofficial API for CODM player data and daily cache claiming | Free tier | None | - | - | public-apis | - |
+| [Call of Duty Mobile](https://github.com/Harry260/codm-api) | API | Unofficial API for CODM player data and daily cache claiming | Free tier | None | - | - | public-apis | - |
 | [CheapShark](https://apidocs.cheapshark.com/) | API | Steam/PC Game Prices and Deals | Free tier | None | - | - | public-apis | - |
 | [Clash of Clans](https://developer.clashofclans.com) | API | Clash of Clans Game Information | Free tier | API key | - | - | public-apis | - |
 | [Crafatar](https://crafatar.com) | API | API for Minecraft skins and faces | Free tier | None | - | - | public-apis | - |
@@ -27,7 +27,7 @@ Game databases, player stats, assets and community APIs.
 | [Geek-Jokes](https://github.com/sameerkumar18/geek-joke-api) | API | Fetch a random geeky/programming related joke for use in all sorts of applications | Free tier | None | - | - | public-apis | - |
 | [GraphQL Pokemon](https://github.com/favware/graphql-pokemon) | API | GraphQL powered Pokemon API. Supports generations 1 through 8 | Free tier | None | - | - | public-apis | - |
 | [GW2Spidy](https://github.com/rubensayshi/gw2spidy/wiki) | API | GW2Spidy API, Items data on the Guild Wars 2 Trade Market | Free tier | None | - | - | public-apis | - |
-| [GZW Data](https://gzw-data.vercel.app/docs) | API | Gray Zone Warfare weapons, missions, loot, armor and game data | Free tier | None | - | - | public-apis | - |
+| [GZW Data](https://gzw-data.dev/docs/) | API | Gray Zone Warfare weapons, missions, loot, armor and game data | Free tier | None | - | - | public-apis | - |
 | [Halo](https://developer.haloapi.com) | API | Halo 5 and Halo Wars 2 Information | Free tier | API key | - | - | public-apis | - |
 | [Humble Bundle](https://rapidapi.com/Ziggoto/api/humble-bundle) | API | Humble Bundle's current bundles | Free tier | API key | - | - | public-apis | - |
 | [Hyrule Compendium](https://github.com/gadhagod/Hyrule-Compendium-API) | API | Data on all interactive items from The Legend of Zelda: BOTW | Free tier | None | - | - | public-apis | - |
@@ -54,7 +54,7 @@ Game databases, player stats, assets and community APIs.
 | [Riot Games](https://developer.riotgames.com) | API | League of Legends Game Information | Free tier | API key | - | - | public-apis | - |
 | [RuneScape](https://runescape.wiki/w/Application_programming_interface) | API | RuneScape and OSRS RPGs information | Free tier | None | - | - | public-apis | - |
 | [Sakura CardCaptor](https://github.com/JessVel/sakura-card-captor-api) | API | Sakura CardCaptor Cards Information | Free tier | None | - | - | public-apis | - |
-| [SeedFinder](https://mineseedfinder.vercel.app/seedfinder) | API | Minecraft Bedrock structures prediction | Free tier | None | - | - | public-apis | - |
+| [SeedFinder](https://www.mineseedfinder.com/seedfinder) | API | Minecraft Bedrock structures prediction | Free tier | None | - | - | public-apis | - |
 | [Social Casino Index](https://socialcasinoindex.com/data) | API | Daily-checked US social casino toplist: signup bonuses, payout times, minimums, sources | Free tier | None | - | - | public-apis | - |
 | [SpaceTradersAPI](https://spacetraders.io?rel=pub-apis) | API | A playable inter-galactic space trading MMOAPI | Free tier | OAuth | - | - | public-apis | - |
 | [Steam](https://github.com/Revadike/InternalSteamWebAPI/wiki) | API | Internal Steam Web API documentation | Free tier | None | - | - | public-apis | - |

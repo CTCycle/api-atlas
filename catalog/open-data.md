@@ -17,10 +17,10 @@ National and international open data catalogs and CKAN portals.
 | [BTU Graph](https://btugraph.com/data) | API | Source-reviewed energy company knowledge graph and directory exports | Free tier | None | - | - | public-apis | - |
 | [Callook.info](https://callook.info) | API | United States ham radio callsigns | Free tier | None | - | - | public-apis | - |
 | [Canada Holidays API](https://canada-holidays.ca/api) | API | This API lists all 31 public holidays for all 13 provinces and territories in Canada, including federal holidays | - | - | MIT | [docs](https://api.swaggerhub.com/apis/pcraig3/canada-holidays/1.8.0) | APIs.guru | - |
-| [CarbonDoomsDay](https://carbondoomsday.com) | API | A real-time RESTish web API for worldwide carbon dioxide levels | - | - | - | [docs](https://api.carbondoomsday.com?format=openapi) | APIs.guru | - |
+| [CarbonDoomsDay](https://carbondoomsday.com) | API | A real-time RESTish web API for worldwide carbon dioxide levels | - | - | - | - | APIs.guru | - |
 | [CARTO](https://carto.com) | API | Location Information Prediction | Free tier | API key | - | - | public-apis | - |
 | [City Context](https://citycontext.com) | API | City Context provides a straightforward API to access UK Open Data: crime statistics, schools, demographics and more | - | - | - | [docs](https://api.apis.guru/v2/specs/citycontext.com/1.0.0/swagger.json) | APIs.guru | - |
-| [City of Surrey Open511 API](http://data.surrey.ca) | API | This API provides real time traffic obstruction events occuring within the City of Surrey | - | - | Open Government Licence - ... | [docs](https://api.apis.guru/v2/specs/surrey.ca/open511/0.1/swagger.json) | APIs.guru | - |
+| [City of Surrey Open511 API](https://opendata-surrey.hub.arcgis.com/) | API | This API provides real time traffic obstruction events occuring within the City of Surrey | - | - | Open Government Licence - ... | [docs](https://api.apis.guru/v2/specs/surrey.ca/open511/0.1/swagger.json) | APIs.guru | - |
 | [CityAlert](https://cityalert.live/developers) | API | Live public-safety incidents: crime, fire, disaster, weather and news from 650+ official feeds | Free tier | None | - | - | public-apis | - |
 | [Co-WIN Certificate API](https://www.cowin.gov.in) | API | API to get Co-WIN vaccination certificate | - | - | - | [docs](https://api.apis.guru/v2/specs/cowin.gov.cin/cowincert/1.0.0/openapi.json) | APIs.guru | - |
 | [CollegeCalcAI](https://collegecalcai.com/developers) | API | US college admission chance estimates and admissions data for 1,100+ colleges | Free tier | None | - | - | public-apis | - |
@@ -62,7 +62,7 @@ National and international open data catalogs and CKAN portals.
 | [Monitly](https://monit.ly/api-docs) | API | Official statistics from Eurostat, World Bank, OECD, IMF and WHO for 150+ countries | Free tier | API key | - | - | public-apis | - |
 | [MostExpensiveWatches](https://mostexpensivewatches.net/api) | API | Documented luxury watch auction records, live listings, valuations and price indices | Free tier | None | - | - | public-apis | - |
 | [Nobel Prize](https://www.nobelprize.org/about/developer-zone-2) | API | Open data about nobel prizes and events | Free tier | None | - | - | public-apis | - |
-| [NSIDC Web Service Documentation Index](https://nsidc.org) | API | This API allows programmers to build National Snow and Ice Data Center data and metadata services into their applications | - | - | - | [docs](http://documentation-index-vm.apps.nsidc.org/api-docs) | APIs.guru | - |
+| [NSIDC Web Service Documentation Index](https://nsidc.org) | API | This API allows programmers to build National Snow and Ice Data Center data and metadata services into their applications | - | - | - | - | APIs.guru | - |
 | [Onyx Bazaar](https://onyx-actions.onrender.com/bazaar) | API | Free public leaderboard of x402 paid HTTP services indexed from Coinbase CDP discovery API | Free tier | None | - | - | public-apis | - |
 | [Open Data Minneapolis](https://opendata.minneapolismn.gov) | API | Spatial (GIS) and non-spatial city data for Minneapolis | Free tier | None | - | - | public-apis | - |
 | [Open Scholarships](https://scholarships.grudged.io) | API | Free, openly-licensed directory of US scholarships and student aid from official sources | Free tier | None | - | - | public-apis | - |

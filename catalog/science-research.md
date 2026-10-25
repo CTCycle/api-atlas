@@ -14,7 +14,7 @@ Publications, citations, physics, chemistry and earth observation.
 | [CORE](https://core.ac.uk/services) | API | Access the world's Open Access research papers | Free tier | API key | - | - | public-apis | - |
 | [Crossref](https://www.crossref.org/) | Portal | Scholarly metadata and DOI registration agency available for public use | Free | None | CC0 1.0 | [docs](https://www.crossref.org/documentation/) | editorial | 2026-10-24 |
 | [CycleCalcs](https://www.cyclecalcs.com/api.html) | API | Interpreted astronomy: sun and moon times, moon phases, planets, eclipses, seasons | Free tier | None | - | - | public-apis | - |
-| [DataCite](https://datacite.org/) | Portal | Persistent identifiers and metadata for research data | Free | None | Unknown | - | editorial | - |
+| [DataCite](https://datacite.org/) | Portal | Persistent identifiers and metadata for research data | Free | None | Unknown | [docs](https://support.datacite.org/docs/api) | editorial | 2026-10-25 |
 | [Dryad](https://datadryad.org/) | Portal | Curated research data repository with CC0 datasets | Free | None | CC0 1.0 | [docs](https://datadryad.org/) | editorial | 2026-10-24 |
 | [ENA](https://www.ebi.ac.uk/ena/browser/api/swagger-ui/index.html) | API | Nucleotide sequences, genomes and raw reads archive | Free tier | None | - | - | public-apis | - |
 | [EOSDIS](https://www.earthdata.nasa.gov/about/esdis/eosdis) | Dataset | NASA's Earth Observation System Data and Information System | - | - | PD-USGov | - | awesome-datasets | - |
@@ -41,7 +41,7 @@ Publications, citations, physics, chemistry and earth observation.
 | [Open Ephemeris](https://openephemeris.com/docs) | API | Sub-arcsecond planetary positions, natal charts, transits, and Human Design from NASA JPL DE440 | Free tier | API key | - | - | public-apis | - |
 | [Open Notify](http://open-notify.org/Open-Notify-API) | API | ISS astronauts, current location, etc | Free tier | None | - | - | public-apis | - |
 | [Open Science Framework](https://developer.osf.io) | API | Repository and archive for study designs, research materials, data, manuscripts, etc | Free tier | None | Per record | - | public-apis | - |
-| [OpenAIRE](https://www.openaire.eu/) | Portal | European open science graph and research outputs available for public use | Free | None | Unknown | - | editorial | - |
+| [OpenAIRE](https://www.openaire.eu/) | Portal | European open science graph and research outputs available for public use | Free | None | Unknown | - | editorial | 2026-10-25 |
 | [OpenAlex](https://openalex.org/) | Portal | Open catalog of scholarly works and entities available for public use | Free | None | CC0 1.0 | [docs](https://docs.openalex.org/) | editorial | 2026-10-24 |
 | [OrbitalWiki](https://www.orbitalwiki.com/developers) | API | Catalog of 16,000+ satellites merging CelesTrak, GCAT, Wikidata; free tier included | Free tier | API key | - | - | public-apis | - |
 | [ORCID](https://orcid.org) | API | ORCID researcher identifier registry and API | Free | None | - | - | editorial | 2026-10-24 |

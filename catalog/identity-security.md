@@ -59,7 +59,7 @@ Authentication, breach data, vulnerability feeds and threat intelligence.
 | [Scanii](https://docs.scanii.com) | API | Simple REST API that can scan submitted documents/files for the presence of threats | Free tier | API key | - | - | public-apis | - |
 | [ScanMalware](https://scanmalware.com) | API | Scan URLs in a sandboxed browser and search past scans by domain, IP, ASN, JARM or favicon hash | Free tier | None | - | - | public-apis | - |
 | [Sealed Rose](https://sealedrose.com/verify-video) | API | AI media forensics and synthetic content verification for video, audio, image, and text | Free tier | API key | - | - | public-apis | - |
-| [SecurityTrails](https://securitytrails.com/corp/apidocs) | API | Domain and IP related information such as current and historical WHOIS and DNS records | Free tier | API key | - | - | public-apis | - |
+| [SecurityTrails](https://securitytrails.com/) | API | Domain and IP related information such as current and historical WHOIS and DNS records | Free tier | API key | - | - | public-apis | - |
 | [Shodan](https://developer.shodan.io) | API | Search engine for Internet connected devices | Free tier | API key | - | - | public-apis | - |
 | [Spyse](https://spyse-dev.readme.io/reference/quick-start) | API | Access data on all Internet assets and build powerful attack surface management applications | Free tier | API key | - | - | public-apis | - |
 | [SSL Domain Health Check](https://rapidapi.com/goktugbk/api/ssl-domain-health-check) | API | SSL certificate validity, domain WHOIS status, and DNS record checks for any domain | Free tier | API key | - | - | public-apis | - |

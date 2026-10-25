@@ -40,7 +40,7 @@ Transit, shipping, flights, routing and vehicle data.
 | [Kelley Blue Book](https://developer.kbb.com/) | API | Vehicle info, pricing, configuration, plus much more | Free tier | API key | - | - | public-apis | - |
 | [Land Transport Authority DataMall, Singapore](https://datamall.lta.gov.sg/content/dam/datamall/datasets/LTA_DataMall_API_User_Guide.pdf) | API | Singapore transport information | Free tier | API key | - | - | public-apis | - |
 | [LiveTrafficCam](https://bzsasson.github.io/traffic-camera-sources/api.html) | API | Live US state DOT traffic cameras with verified live status and measured uptime | Free tier | None | - | - | public-apis | - |
-| [MarineTraffic](https://www.marinetraffic.com/) | Portal | Ship tracking and maritime data available for public use | Paid | API key | Unknown | [docs](https://www.marinetraffic.com/) | editorial | 2026-10-24 |
+| [MarineTraffic](https://www.kpler.com/product/maritime/data-services) | Portal | Ship tracking and maritime data available for public use | Paid | API key | Unknown | [docs](https://www.marinetraffic.com/) | editorial | 2026-10-24 |
 | [Mercedes-Benz](https://developer.mercedes-benz.com/products) | API | Telematics data, remotely access vehicle functions, car configurator, locate service dealers | Free tier | API key | - | - | public-apis | - |
 | [MobilityData GTFS](https://database.mobilitydata.org/) | Portal | Global GTFS and GTFS-Realtime feed catalog available for public use | Free | None | Unknown | [docs](https://database.mobilitydata.org/) | editorial | 2026-10-24 |
 | [Navitia](https://doc.navitia.io) | API | The open API for building cool stuff with transport data | Free tier | API key | - | - | public-apis | - |
@@ -59,7 +59,7 @@ Transit, shipping, flights, routing and vehicle data.
 | [PostNord](https://developer.postnord.com/api) | API | Provides information about parcels in transport for Sweden and Denmark | Free tier | API key | - | - | public-apis | - |
 | [ProblemsByVin](https://problemsbyvin.com/data) | API | Owner complaints, recalls and failure-mileage statistics by vehicle make, model and year | Free tier | None | - | - | public-apis | - |
 | [Pumperly](https://geiserx.github.io/Pumperly/reference/api) | API | Fuel prices and EV chargers near a point, in a map area or along a route, as GeoJSON | Free tier | None | - | - | public-apis | - |
-| [Rail Station Information](https://www.wmata.com/) | API | Rail line and station information, including locations, fares, times, and parking | - | - | - | [docs](https://developer.wmata.com/docs/services/5476364f031f590f38092507/export?DocumentFormat=Swagger) | APIs.guru | - |
+| [Rail Station Information](https://www.wmata.com/) | API | Rail line and station information, including locations, fares, times, and parking | - | - | - | - | APIs.guru | - |
 | [Railworks](https://railworks.paddez.com/docs) | API | Irish Rail planned engineering works: affected stations, DART closures, change log and ICS feeds | Free tier | None | - | - | public-apis | - |
 | [REFUGE Restrooms](https://www.refugerestrooms.org/api/docs) | API | REFUGE is a web application that seeks to provide safe restroom access for transgender, intersex, and gender nonconforming individuals | Free tier | None | - | [docs](https://api.apis.guru/v2/specs/refugerestrooms.org/0.0.1/swagger.json) | public-apis, APIs.guru | - |
 | [RevCarData](https://revcardata.com) | API | 86,000+ global vehicle specifications and EV metrics | Free tier | API key | - | - | public-apis | - |
@@ -92,7 +92,7 @@ Transit, shipping, flights, routing and vehicle data.
 | [Vessel Class Finder](https://vesselclassfinder.com/blog/vessel-classification-api.html) | API | IACS class society, class status and survey dates for ships by IMO number | Free tier | API key | - | - | public-apis | - |
 | [WeCanTrack](https://docs.wecantrack.com) | API | Automatically place subids in affiliate links to attribute affiliate conversions to click data | Free tier | API key | - | - | public-apis | - |
 | [WhatPulse](https://whatpulse.org/help/api/intro) | API | Small application that measures your keyboard/mouse usage | Free tier | None | - | - | public-apis | - |
-| [Wheelwise](https://cars.limoja.ai/api/search?q=BMW&limit=1) | API | UK used-car listings with fair-price grade, 36-month resale forecast and monthly cost per advert | Free tier | None | - | - | public-apis | - |
+| [Wheelwise](https://trothstone.com/api/search?q=BMW&limit=1) | API | UK used-car listings with fair-price grade, 36-month resale forecast and monthly cost per advert | Free tier | None | - | - | public-apis | - |
 | [Where to Credit API](https://wheretocredit.com/de) | API | The Where to Credit API provides mileage earning calculations for frequent flyer programs around the world | - | - | - | [docs](https://api.apis.guru/v2/specs/wheretocredit.com/1.0/openapi.json) | APIs.guru | - |
 | [WhereParcel](https://whereparcel.com/docs) | API | Unified parcel tracking API across 60+ carriers worldwide (USPS, FedEx, UPS, DHL, etc.) | Free tier | API key | - | - | public-apis | - |
 | [WhichTrim](https://whichtrim.com/developers) | API | US vehicle recalls, complaints, fuel economy, crash ratings, service bulletins and VIN decoding | Free tier | API key | - | - | public-apis | - |

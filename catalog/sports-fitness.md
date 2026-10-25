@@ -32,13 +32,12 @@ Scores, statistics, fitness tracking and sports data.
 | [MLB Records and Stats](https://appac.github.io/mlb-data-api-docs) | API | Current and historical MLB statistics | Free tier | None | - | - | public-apis | - |
 | [MoviOdds](https://moviodds.com/doc) | API | Real-time bet365 soccer odds, every market, pre-match and in-play, over REST and WebSocket | Free tier | None | - | - | public-apis | - |
 | [NBA Data](https://rapidapi.com/api-sports/api/api-nba) | API | All NBA Stats DATA, Games, Livescore, Standings, Statistics | Free tier | API key | - | - | public-apis | - |
-| [NBA Stats](https://any-api.com/nba_com/nba_com/docs/API_Description) | API | Current and historical NBA Statistics | Free tier | None | - | - | public-apis | - |
 | [NHL Records and Stats](https://gitlab.com/dword4/nhlapi) | API | NHL historical data and statistics | Free tier | None | - | - | public-apis | - |
 | [NoPunt](https://www.nopunt.com/api/picks.json) | API | Weekly NFL game picks with model win probability, confidence tier and spread | Free tier | None | - | - | public-apis | - |
 | [Odds-API](https://docs.odds-api.io) | API | Real-time sports betting odds from 365+ bookmakers across 34 sports via REST and WebSocket | Free tier | API key | - | - | public-apis | - |
 | [OddsBench](https://oddsbench.xyz/api) | API | Independent monthly latency benchmark of sports odds APIs, with free JSON and CSV data | Free tier | None | - | - | public-apis | - |
 | [Oddsmagnet](https://oddsmagnet.com/oddsdata) | API | Odds history from multiple UK bookmakers | Free tier | None | - | - | public-apis | - |
-| [OddsRadarWire](https://oddsradarwire.com/docs.html) | API | Live and prematch Betradar odds with raw no-vig probabilities, REST and SSE | Free tier | API key | - | - | public-apis | - |
+| [OddsRadarWire](https://pinnwire.com/) | API | Live and prematch Betradar odds with raw no-vig probabilities, REST and SSE | Free tier | API key | - | - | public-apis | - |
 | [OpenF1](https://openf1.org) | API | Real-time and historical Formula 1 data including laps, car telemetry and positions | Free tier | None | - | - | public-apis | - |
 | [OpenFoot API](https://openfootapi.com/docs) | API | Football fixtures, results, standings, lineups, live events and shot-level xG across 75 competitions | Free tier | API key | - | - | public-apis | - |
 | [OpenLigaDB](https://www.openligadb.de) | API | Crowd sourced sports league results | Free tier | None | - | - | public-apis | - |

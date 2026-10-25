@@ -8,13 +8,13 @@ Film, television, music, books, podcasts and media metadata.
 | [Amanah Sunnah](https://sunnah.amanahagent.cloud/developers) | API | Semantic search across Quran, Hadith, Tafsir & 18K+ Rijal narrators | Free tier | API key | - | - | public-apis | - |
 | [AniAPI](https://aniapi.com/docs) | API | Anime discovery, streaming & syncing with trackers | Free tier | OAuth | - | - | public-apis | - |
 | [Anycrap](https://anycrap.shop/developers) | API | 35,000+ absurdist AI-generated product concepts with names, descriptions, and images | Free tier | API key | - | - | public-apis | - |
-| [api.video](https://api.video) | API | api.video is an API that encodes on the go to facilitate immediate playback, enhancing viewer streaming experiences across multiple devices and platforms | - | - | - | [docs](https://docs.api.video/openapi/5f0d4679158b8d006ea6f068) | APIs.guru | - |
+| [api.video](https://api.video) | API | api.video is an API that encodes on the go to facilitate immediate playback, enhancing viewer streaming experiences across multiple devices and platforms | - | - | - | - | APIs.guru | - |
 | [Archive API](https://nytimes.com) | API | The Archive API provides lists of NYT articles by month going back to 1851. You can use it to build your own local database of NYT article metadata | - | - | - | [docs](https://api.apis.guru/v2/specs/nytimes.com/archive/1.0.0/openapi.json) | APIs.guru | - |
 | [Arcmira](https://arcmira.com/docs) | API | Search indexed YouTube transcripts for timestamped passages and mentions | Free tier | API key | - | - | public-apis | - |
 | [Astro Agents](https://astro-agent.dev/llms.txt) | API | Deterministic Western and Vedic astrology: natal charts, transits, kundli, dashas, panchang | Free tier | None | - | - | public-apis | - |
 | [AstroWay](https://api.astroway.info/docs) | API | Astrology, natal charts, Human Design, Vedic and horoscopes on the Swiss Ephemeris | Free tier | API key | - | - | public-apis | - |
 | [Audiomack](https://audiomack.com/data-api/docs) | API | Api of the streaming music hub Audiomack | Free tier | OAuth | - | - | public-apis | - |
-| [BBC Nitro API](http://developer.bbc.co.uk) | API | BBC Nitro is the BBC's application programming interface (API) for BBC Programmes Metadata | - | - | Nitro Public | [docs](http://programmes.api.bbc.com/nitro/api) | APIs.guru | - |
+| [BBC Nitro API](https://developer.bbc.com/login-required) | API | BBC Nitro is the BBC's application programming interface (API) for BBC Programmes Metadata | - | - | Nitro Public | [docs](http://programmes.api.bbc.com/nitro/api) | APIs.guru | - |
 | [Bhagavad Gita](https://docs.bhagavadgitaapi.in) | API | Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi | Free tier | API key | - | - | public-apis | - |
 | [Bhagavad Gita telugu](https://gita-api.vercel.app) | API | Bhagavad Gita API in telugu and odia languages | Free tier | None | - | - | public-apis | - |
 | [Bible-api](https://bible-api.com) | API | Free Bible API with multiple languages | Free tier | None | - | - | public-apis | - |
@@ -91,7 +91,7 @@ Film, television, music, books, podcasts and media metadata.
 | [SeatGeek](https://developer.seatgeek.com/) | API | Search events, venues and performers | Free tier | API key | - | - | public-apis | - |
 | [Shikimori](https://shikimori.one/api/doc) | API | Anime discovery, tracking, forum, rates | Free tier | OAuth | - | - | public-apis | - |
 | [Shutterstock API Explorer](https://shutterstock.com) | API | The Shutterstock API provides access to Shutterstock's library of media, as well as information about customers' accounts and the contributors that provide the media | - | - | - | [docs](https://api.apis.guru/v2/specs/shutterstock.com/1.1.32/openapi.json) | APIs.guru | - |
-| [Songlink / Odesli](https://www.notion.so/API-d0ebe08a5e304a55928405eb682f6741) | API | Get all the services on which a song is available | Free tier | API key | - | - | public-apis | - |
+| [Songlink / Odesli](https://app.notion.com/p/API-d0ebe08a5e304a55928405eb682f6741?__dm_a=1) | API | Get all the services on which a song is available | Free tier | API key | - | - | public-apis | - |
 | [Songsterr](https://www.songsterr.com) | API | Provides guitar, bass and drums tabs and chords | Free tier | None | - | - | public-apis | - |
 | [SoundCloud](https://developers.soundcloud.com/docs/api/guide) | API | With SoundCloud API you can build applications that will give more power to control your content | Free tier | OAuth | - | - | public-apis | - |
 | [Spotify](https://developer.spotify.com/documentation/web-api) | API | View Spotify music catalog, manage users' libraries, get recommendations and more | Free tier | OAuth | - | - | public-apis | - |
@@ -121,7 +121,6 @@ Film, television, music, books, podcasts and media metadata.
 | [Video to Markdown](https://video-to-markdown.com/api) | API | Turn a YouTube URL into a markdown thumbnail image link | Free tier | None | - | - | public-apis | - |
 | [VidWords](https://vidwords.com/api-docs) | API | YouTube transcripts and subtitles as TXT, SRT, VTT or DOCX, plus AI video analysis | Free tier | API key | - | - | public-apis | - |
 | [Waifu.im](https://waifu.im/docs) | API | Get waifu pictures from an archive of over 4000 images and multiple tags | Free tier | None | - | - | public-apis | - |
-| [Waifu.pics](https://waifu.pics/docs) | API | Image sharing platform for anime images | Free tier | None | - | - | public-apis | - |
 | [Watchmode](https://api.watchmode.com) | API | API for finding out the streaming availability of movies & shows | Free tier | API key | - | - | public-apis | - |
 | [Web Series Quotes Generator](https://github.com/yogeshwaran01/web-series-quotes) | API | API generates various Web Series Quote Images | Free tier | None | - | - | public-apis | - |
 | [Wolne Lektury](https://wolnelektury.pl/api) | API | API for obtaining information about e-books available on the WolneLektury.pl website | Free tier | None | - | - | public-apis | - |

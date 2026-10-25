@@ -11,7 +11,6 @@ Clinical trials, medical literature, health statistics and terminology.
 | [Coronavirus](https://pipedream.com/@pravin/http-api-for-latest-wuhan-coronavirus-data-2019-ncov-p_G6CLVM/readme) | API | HTTP API for Latest Covid-19 Data | Free tier | None | - | - | public-apis | - |
 | [Coronavirus in the UK](https://ukhsa-dashboard.data.gov.uk/) | API | UK Government coronavirus data, including deaths and cases by region | Free tier | None | OGL-UK-3.0 | - | public-apis | - |
 | [Covid Tracking Project](https://covidtracking.com/data/api/version-2) | API | The COVID Tracking Project collects and publishes the most | Free tier | None | - | - | public-apis, awesome-datasets | - |
-| [Covid-19](https://covid19api.com) | API | Covid 19 spread, infection and recovery | Free tier | None | - | - | public-apis | - |
 | [Covid-19 Government Response](https://www.bsg.ox.ac.uk/research/covid-19-government-response-tracker) | API | Government measures tracker to fight against the Covid-19 pandemic | Free tier | None | - | - | public-apis | - |
 | [Covid-19 India](https://data.covid19india.org) | API | Covid 19 statistics state and district wise about cases, vaccinations, recovery within India | Free tier | None | - | - | public-apis | - |
 | [Covid-19 JHU CSSE](https://nuttaphat.com/covid19-api) | API | Open-source API for exploring Covid19 cases based on JHU CSSE | Free tier | None | - | - | public-apis | - |
@@ -57,7 +56,7 @@ Clinical trials, medical literature, health statistics and terminology.
 | [RxNorm](https://lhncbc.nlm.nih.gov/RxNav/APIs/RxNormAPIs.html) | API | Normalized drug names, RxCUIs and NDC codes | Free tier | None | NLM terms, generally free ... | - | public-apis | - |
 | [Stanza DSCSA Verifier](https://stanzaapi.com/tools/pharma-dscsa) | API | Verify FDA DSCSA and EU FMD pharmaceutical serialization barcodes | Free tier | API key | - | - | public-apis | - |
 | [Stanza UDI Decoder](https://stanzaapi.com/tools/udi-decoder) | API | Decode and validate FDA GUDID and EU MDR medical device UDI barcodes | Free tier | API key | - | - | public-apis | - |
-| [UK Biobank](https://www.ukbiobank.ac.uk/) | Portal | Large-scale biomedical database and biobank available for public use | Restricted | Registration | Custom (application ... | - | editorial | - |
+| [UK Biobank](https://www.ukbiobank.ac.uk/) | Portal | Large-scale biomedical database and biobank available for public use | Restricted | Registration | Custom (application ... | - | editorial | 2026-10-25 |
 | [Urgences Québec](https://sante.handled.tools/api) | API | Hourly emergency room occupancy, stretcher counts and wait times for every hospital in Quebec, Canada | Free tier | None | - | - | public-apis | - |
 | [WHO Data](https://www.who.int) | Portal | World Health Organization health data and statistics | Free | None | CC-BY-NC-SA-3.0-IGO | - | editorial | 2026-10-24 |
 | [WHO Global Health Observatory](https://www.who.int/data/gho) | Portal | WHO global health indicators and estimates available for public use | Free | None | CC BY-NC-SA 3.0 IGO | [docs](https://www.who.int/data/gho) | editorial | 2026-10-24 |
