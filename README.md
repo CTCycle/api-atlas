@@ -1,7 +1,15 @@
 # API Atlas
 
+[![Validate catalog](https://github.com/CTCycle/api-atlas/actions/workflows/validate.yml/badge.svg)](https://github.com/CTCycle/api-atlas/actions/workflows/validate.yml)
+[![License: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
+[![Catalog: CC BY 4.0](https://img.shields.io/badge/catalog-CC%20BY%204.0-lightgrey.svg)](ATTRIBUTION.md)
+
 A curated directory of APIs, public databases, open-data portals and MCP servers
 for developers, researchers and AI agents.
+
+**1,922 resources across 42 categories** (1,651 APIs, 154 portals, 60 datasets,
+57 MCP servers). 283 rows verified by a maintainer; the rest are pointers with
+working links.
 
 The catalog is Markdown. Every resource is one row in one category file. Browse it
 on GitHub, search it with the repository search box, or fetch the machine-readable
@@ -83,6 +91,13 @@ Each line is one resource: `id`, `name`, `type`, `category`, `description`,
 `website`, `docs`, `access`, `auth`, `license`, `source`, `checked`. A CSV copy is at
 `data/catalog.csv`. Both are generated from the Markdown; if they disagree, the
 Markdown is correct.
+
+```python
+import json
+rows = [json.loads(l) for l in open("data/catalog.jsonl", encoding="utf-8")]
+free = [r for r in rows if r["access"] == "Free" and r["auth"] == "None"]
+print(len(free), "free, keyless APIs")
+```
 
 ## Scope
 

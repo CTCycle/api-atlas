@@ -6,6 +6,20 @@ The registry became a catalog. The machine-readable registry of 5,227 records wa
 replaced by a curated Markdown directory, and the Python package, the JSON Schema,
 the SQLite index, the importers and the scheduled refresh workflows were removed.
 
+### Polish pass (2026-10-26)
+
+- Added `tests/test_catalog.py` (8 tests) covering parsing, allowed values,
+  ordering and duplicate detection.
+- Added `.github/workflows/linkcheck.yml` for a monthly scheduled full link check.
+- Added `docs/comparison.md` comparing API Atlas with public-apis, brandonhimpfen/awesome-apis
+  and Kikobeats/awesome-api.
+- Added `.github/ISSUE_TEMPLATE/config.yml` to disable blank issues.
+- Removed obsolete v1 reports (`answer-checks.md`, `coverage-report.md`,
+  `dedupe-review.md`).
+- Trimmed three truncated descriptions; added one verified row (Random User Generator).
+- README badges, quick stats and a JSONL usage example.
+- Disabled GitHub Projects; kept Issues enabled.
+
 ### Changed
 
 - Catalog source of truth is now one Markdown table per category in `catalog/`,
