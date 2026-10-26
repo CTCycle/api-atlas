@@ -42,7 +42,7 @@ Transit, shipping, flights, routing and vehicle data.
 | [LiveTrafficCam](https://bzsasson.github.io/traffic-camera-sources/api.html) | API | Live US state DOT traffic cameras with verified live status and measured uptime | Free tier | None | - | - | public-apis | - |
 | [MarineTraffic](https://www.kpler.com/product/maritime/data-services) | Portal | Ship tracking and maritime data available for public use | Paid | API key | Unknown | [docs](https://www.marinetraffic.com/) | editorial | 2026-10-24 |
 | [Mercedes-Benz](https://developer.mercedes-benz.com/products) | API | Telematics data, remotely access vehicle functions, car configurator, locate service dealers | Free tier | API key | - | - | public-apis | - |
-| [MobilityData GTFS](https://database.mobilitydata.org/) | Portal | Global GTFS and GTFS-Realtime feed catalog available for public use | Free | None | Unknown | [docs](https://database.mobilitydata.org/) | editorial | 2026-10-24 |
+| [MobilityData GTFS](https://mobilitydatabase.org/) | Portal | Global GTFS and GTFS-Realtime feed catalog available for public use | Free | None | Unknown | [docs](https://mobilitydatabase.org/) | editorial | 2026-10-24 |
 | [Navitia](https://doc.navitia.io) | API | The open API for building cool stuff with transport data | Free tier | API key | - | - | public-apis | - |
 | [NHTSA](https://vpic.nhtsa.dot.gov/api) | API | NHTSA Product Information Catalog and Vehicle Listing | Free tier | None | - | - | public-apis | - |
 | [NHTSA Vehicle Recalls](https://rapidapi.com/crisp-point-studio-crisp-point-studio-default/api/live-nhtsa-vehicle-recalls) | API | NHTSA safety recalls by model year, make and model with component, consequence and remedy | Free tier | API key | - | - | public-apis | - |
@@ -69,7 +69,7 @@ Transit, shipping, flights, routing and vehicle data.
 | [Stadiq](https://stadiq.app/developers) | API | Road works, transit disruptions and air quality for Antwerp and Flanders | Free tier | API key | - | - | public-apis | - |
 | [Strait of Hormuz Ship Monitor](https://hormuz.data-tracking.net/llms.txt) | API | Live AIS vessel traffic, crossings and oil flow through the Strait of Hormuz | Free tier | None | - | - | public-apis | - |
 | [Tankerkoenig](https://creativecommons.tankerkoenig.de/swagger) | API | German real-time fuel price API for gas stations: nearby station search, price lookups, station details, and historical price data | Free tier | API key | - | - | public-apis | - |
-| [TfL Unified API](https://api.tfl.gov.uk/) | Portal | Transport for London data API available for public use | Free | API key | Unknown | [docs](https://api.tfl.gov.uk/) | editorial | 2026-10-24 |
+| [TfL Unified API](https://api-portal.tfl.gov.uk/) | Portal | Transport for London data API available for public use | Free | API key | Unknown | [docs](https://api-portal.tfl.gov.uk/) | editorial | 2026-10-24 |
 | [TransCAPI](https://www.transcapi.com/docs) | API | Live bus and rail departures, vehicles, disruptions and journey planning for Great Britain | Free tier | API key | - | - | public-apis | - |
 | [TransparentCars](https://transparent.pt/en/api) | API | Fair-price valuation and yearly road tax (IUC) for used cars in Portugal | Free tier | None | - | - | public-apis | - |
 | [Transport for Belgium](https://docs.irail.be) | API | The iRail API is a third-party API for Belgian public transport by train | Free tier | None | - | - | public-apis | - |

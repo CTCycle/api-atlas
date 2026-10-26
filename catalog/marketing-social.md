@@ -41,6 +41,5 @@ Social platforms, advertising, audience and influencer data.
 | [TweetAPI](https://tweetapi.com/docs/getting-started/overview) | API | Public Twitter data for posts, profiles, followers, search, lists and communities | Free tier | API key | - | - | public-apis | - |
 | [TwitterAPIs](https://www.twitterapis.com) | API | Twitter / X data API: search, profiles, timelines, followers, DMs, write actions | Free tier | API key | - | - | public-apis | - |
 | [TwittrAPI](https://www.twittrapi.com/docs) | API | Public Twitter/X data: profiles, tweets, replies, search, followers, lists, communities, trends | Free tier | API key | - | - | public-apis | - |
-| [Visitor Identification](https://hubapi.com) | API | The Visitor Identification API allows you to pass identification information to the HubSpot chat widget for otherwise unknown visitors that were verified by your own authentication system | - | - | - | - | APIs.guru | - |
 | [xfetch](https://xfetch.io) | API | Read API for X/Twitter search, profiles, tweets, and social graph | Free tier | API key | - | - | public-apis | - |
 | [XFlux](https://www.xfluxapi.com/docs/api) | API | Read X/Twitter profiles, search, timelines; account monitors with signed webhooks | Free tier | API key | - | - | public-apis | - |

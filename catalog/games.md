@@ -4,7 +4,6 @@ Game databases, player stats, assets and community APIs.
 
 | Name | Type | Description | Access | Auth | License | Docs | Source | Checked |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Animal Crossing: New Horizons](http://acnhapi.com) | API | API for critters, fossils, art, music, furniture and villagers | Free tier | None | - | - | public-apis | - |
 | [Astroworld](https://api.astroworldmc.com) | API | Free Minecraft data: mobs, biomes, items, enchantments, structures, commands, versions, achievements, trades | Free tier | None | - | - | public-apis | - |
 | [Barter.VG](https://github.com/bartervg/barter.vg/wiki) | API | Provides information about Game, DLC, Bundles, Giveaways, Trading | Free tier | None | - | - | public-apis | - |
 | [Battle.net](https://community.developer.battle.net/documentation/guides/getting-started) | API | Diablo III, Hearthstone, StarCraft II and World of Warcraft game data APIs | Free tier | OAuth | - | - | public-apis | - |

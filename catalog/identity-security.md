@@ -20,7 +20,7 @@ Authentication, breach data, vulnerability feeds and threat intelligence.
 | [CyCAT.org API](https://cycat.org) | API | CyCAT - The Cybersecurity Resource Catalogue public API services | - | - | CC-BY | [docs](https://api.apis.guru/v2/specs/cycat.org/0.9/swagger.json) | APIs.guru | - |
 | [dead-drop](https://api.dead-drop.xyz/api/v1/docs) | API | Ephemeral zero-knowledge encrypted data sharing | Free tier | None | - | - | public-apis | - |
 | [Domain Intelligence](https://oti-labs.com/domain-intelligence-api) | API | DNS, WHOIS/RDAP, SSL, subdomain enumeration, and email security in one parallel call | Free tier | API key | - | - | public-apis | - |
-| [EmailRep](https://docs.emailrep.io) | API | Email reputation API predicting risk of an email address using social profiles, breaches, spam lists, and domain data | Free tier | None | - | - | public-apis | - |
+| [EmailRep](https://emailrep.io/) | API | Email reputation API predicting risk of an email address using social profiles, breaches, spam lists, and domain data | Free tier | None | - | [docs](https://docs.sublime.security/reference/emailrep-introduction) | public-apis | - |
 | [Escape](https://github.com/polarspetroll/EscapeAPI) | API | An API for escaping different kind of queries | Free tier | None | - | - | public-apis | - |
 | [FilterLists](https://filterlists.com) | API | Lists of filters for adblockers and firewalls | Free tier | None | - | - | public-apis | - |
 | [FingerprintJS Pro](https://docs.fingerprint.com/docs/quick-start-guide) | API | Fraud detection API offering highly accurate browser fingerprinting | Free tier | API key | - | - | public-apis | - |

@@ -22,7 +22,14 @@ Legislation, procurement, civic records and public sector APIs.
 | [ContaCLT](https://contaclt.com/dados/api) | API | Brazilian payroll and labor calculations: net salary, INSS, IRRF, unemployment insurance | Free tier | None | - | - | public-apis | - |
 | [Conversor IAE CNAE](https://www.conversoriaecnae.es/api/v1/docs) | API | Spanish IAE/CNAE tax activity codes, 2009→2025 crosswalk and AEAT obligations | Free tier | API key | - | - | public-apis | - |
 | [CPFHub](https://www.cpfhub.io/) | API | Brazilian CPF lookup - returns full name, birth date, and gender for any CPF | Free tier | API key | - | - | public-apis | - |
+| [data.austintexas.gov](https://data.austintexas.gov/) | Portal | Austin city open data portal available for public use | Free | None | Unknown | [docs](https://data.austintexas.gov/) | editorial | 2026-10-26 |
+| [data.boston.gov](https://data.boston.gov/) | Portal | Boston city open data portal available for public use | Free | None | Unknown | [docs](https://data.boston.gov/) | editorial | 2026-10-26 |
+| [data.cityofchicago.org](https://data.cityofchicago.org/) | Portal | Chicago city open data portal available for public use | Free | None | Unknown | [docs](https://data.cityofchicago.org/) | editorial | 2026-10-26 |
+| [data.lacity.org](https://data.lacity.org/) | Portal | Los Angeles city open data portal available for public use | Free | None | Unknown | [docs](https://data.lacity.org/) | editorial | 2026-10-26 |
+| [data.london.gov.uk](https://data.london.gov.uk/) | Portal | London government open data portal available for public use | Free | None | Unknown | [docs](https://data.london.gov.uk/) | editorial | 2026-10-26 |
 | [Data.parliament.uk](https://explore.data.parliament.uk?learnmore=Members) | API | Contains live datasets including information about petitions, bills, MP votes, attendance and more | Free tier | None | - | - | public-apis | - |
+| [data.seattle.gov](https://data.seattle.gov/) | Portal | Seattle city open data portal available for public use | Free | None | Unknown | [docs](https://data.seattle.gov/) | editorial | 2026-10-26 |
+| [data.sf.gov](https://data.sf.gov/) | Portal | San Francisco city open data portal available for public use | Free | None | Unknown | [docs](https://data.sf.gov/) | editorial | 2026-10-26 |
 | [DataBC](https://catalogue.data.gov.bc.ca/) | Dataset | data from the Province of British Columbia | - | - | - | - | awesome-datasets | - |
 | [Deutscher Bundestag DIP](https://dip.bundestag.de/documents/informationsblatt_zur_dip_api_v01.pdf) | API | This API provides read access to DIP entities (e.g. activities, persons, printed material) | Free tier | API key | - | - | public-apis | - |
 | [Disclosed Capitol](https://www.disclosedcapitol.com/data-files/api) | API | US congressional & executive-branch stock trade disclosures (STOCK Act + OGE) | Free tier | API key | - | - | public-apis | - |
@@ -38,7 +45,7 @@ Legislation, procurement, civic records and public sector APIs.
 | [FastDOL](https://www.fastdol.com/docs) | API | Federal enforcement records for US employers: OSHA, WHD, MSHA, EPA, NLRB, and more | Free tier | API key | - | - | public-apis | - |
 | [FBI Wanted](https://www.fbi.gov/wanted/api) | API | Access information on the FBI Wanted program | Free tier | None | - | - | public-apis | - |
 | [FDA Import Alert Screening](https://aerviklabs.com/apis/fda-import-alerts) | API | Screen firm names against FDA Import Alert Red, Yellow and Green Lists | Free tier | API key | - | - | public-apis | - |
-| [FEC OpenFEC](https://www.fec.gov/data/) | Portal | US campaign finance filings API available for public use | Free | API key | Unknown | [docs](https://api.open.fec.gov/) | editorial | 2026-10-24 |
+| [FEC OpenFEC](https://www.fec.gov/data/) | Portal | US campaign finance filings API available for public use | Free | API key | Unknown | [docs](https://api.open.fec.gov/developers/) | editorial | 2026-10-24 |
 | [Federal Register](https://www.federalregister.gov/reader-aids/developer-resources/rest-api) | API | The Daily Journal of the United States Government | Free tier | None | - | - | public-apis | - |
 | [Federal Register API](https://www.federalregister.gov/) | Portal | US federal regulations and notices API available for public use | Free | None | Public Domain | [docs](https://www.federalregister.gov/developers/documentation/api/v1) | editorial | 2026-10-24 |
 | [gankdat](https://gankdat.com/docs) | API | UK & EU tenders, UK planning, UK sanctions, US exclusions, UK insolvency and incorporations as JSON | Free tier | API key | - | - | public-apis | - |
@@ -74,6 +81,7 @@ Legislation, procurement, civic records and public sector APIs.
 | [Open Government, South Australian Government](https://data.sa.gov.au) | API | South Australian Government open data portal (data.sa.gov.au) with datasets and APIs | Free tier | None | - | - | public-apis | - |
 | [Open Government, Switzerland](https://handbook.opendata.swiss/de/content/nutzen/api-nutzen.html) | API | Swiss open data portal (opendata.swiss) with government datasets and a REST API | Free tier | None | - | - | public-apis | - |
 | [Open Government, Victoria State Government](https://www.data.vic.gov.au) | API | Victoria State Government open data portal (data.vic.gov.au) with datasets and APIs | Free tier | None | - | - | public-apis | - |
+| [opendata.dc.gov](https://opendata.dc.gov/) | Portal | Washington DC open data portal available for public use | Free | None | Unknown | [docs](https://opendata.dc.gov/) | editorial | 2026-10-26 |
 | [OpenMercantil](https://openmercantil.es/api/documentacion) | API | Spanish company public data and BORME event timelines | Free tier | None | - | - | public-apis | - |
 | [OpenRegistry](https://openregistry.sophymarine.com) | API | Real-time queries to 80+ national company registries (UK, FR, DE, IT, ES, KR and more) | Free tier | OAuth | - | - | public-apis | - |
 | [OpenSecrets](https://www.opensecrets.org/) | Portal | US campaign finance and lobbying data available for public use | Free | API key | Unknown | [docs](https://www.opensecrets.org/api/) | editorial | 2026-10-24 |

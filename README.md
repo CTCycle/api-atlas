@@ -7,8 +7,8 @@
 A curated directory of APIs, public databases, open-data portals and MCP servers
 for developers, researchers and AI agents.
 
-**1,922 resources across 42 categories** (1,651 APIs, 154 portals, 60 datasets,
-57 MCP servers). 283 rows verified by a maintainer; the rest are pointers with
+**2,161 resources across 45 categories** (1,765 APIs, 262 portals, 77 datasets,
+57 MCP servers). 527 rows verified by a maintainer; the rest are pointers with
 working links.
 
 The catalog is Markdown. Every resource is one row in one category file. Browse it
@@ -22,6 +22,7 @@ Rows are added and corrected by people, and every row says where it came from.
 
 | Category | What is inside |
 | --- | --- |
+| [Agriculture](catalog/agriculture.md) | Crops, soils, farm economics, yields and agri-food statistics |
 | [AI & Machine Learning](catalog/ai-ml.md) | Model inference, embeddings, speech, vision, training data and ML platforms |
 | [Animals](catalog/animals.md) | Species data, pet and wildlife records, animal images and shelters |
 | [Art & Design](catalog/art-design.md) | Museums, image collections, design assets, colour and typography data |
@@ -42,6 +43,8 @@ Rows are added and corrected by people, and every row says where it came from.
 | [Geospatial](catalog/geospatial.md) | Maps, geocoding, satellite imagery, elevation and boundary data |
 | [Government & Public Sector](catalog/government.md) | Legislation, procurement, civic records and public sector APIs |
 | [Health & Medical](catalog/health-medical.md) | Clinical trials, medical literature, health statistics and terminology |
+| [Housing & Real Estate](catalog/housing-real-estate.md) | Property listings, prices, rents, permits and housing statistics |
+| [Humanitarian & Development](catalog/humanitarian-development.md) | Aid flows, displacement, conflict events and development indicators |
 | [Identity & Security](catalog/identity-security.md) | Authentication, breach data, vulnerability feeds and threat intelligence |
 | [IoT & Devices](catalog/iot.md) | Device clouds, sensor networks and hardware telemetry |
 | [Jobs & HR](catalog/jobs-hr.md) | Job boards, salary data, recruiting and workforce datasets |

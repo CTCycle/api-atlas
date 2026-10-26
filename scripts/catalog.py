@@ -51,6 +51,7 @@ USER_AGENT = (
 
 # (slug, title, blurb) in README order
 CATEGORIES = [
+    ("agriculture", "Agriculture", "Crops, soils, farm economics, yields and agri-food statistics."),
     ("ai-ml", "AI & Machine Learning", "Model inference, embeddings, speech, vision, training data and ML platforms."),
     ("animals", "Animals", "Species data, pet and wildlife records, animal images and shelters."),
     ("art-design", "Art & Design", "Museums, image collections, design assets, colour and typography data."),
@@ -71,6 +72,8 @@ CATEGORIES = [
     ("geospatial", "Geospatial", "Maps, geocoding, satellite imagery, elevation and boundary data."),
     ("government", "Government & Public Sector", "Legislation, procurement, civic records and public sector APIs."),
     ("health-medical", "Health & Medical", "Clinical trials, medical literature, health statistics and terminology."),
+    ("housing-real-estate", "Housing & Real Estate", "Property listings, prices, rents, permits and housing statistics."),
+    ("humanitarian-development", "Humanitarian & Development", "Aid flows, displacement, conflict events and development indicators."),
     ("identity-security", "Identity & Security", "Authentication, breach data, vulnerability feeds and threat intelligence."),
     ("iot", "IoT & Devices", "Device clouds, sensor networks and hardware telemetry."),
     ("jobs-hr", "Jobs & HR", "Job boards, salary data, recruiting and workforce datasets."),
@@ -434,12 +437,13 @@ def check_url(url: str, timeout: float = 15.0) -> dict:
     def fetch(method: str) -> tuple[int | None, str | None, str | None]:
         headers = {"User-Agent": USER_AGENT, "Accept": "*/*",
                    "Accept-Language": "en-US,en;q=0.8"}
-        if method == "GET":
-            headers["Range"] = "bytes=0-2048"
         req = urllib.request.Request(url, method=method, headers=headers)
         _throttle(host)
         try:
             with _OPENER.open(req, timeout=timeout) as resp:
+                # read a bounded prefix so a large page cannot stall the sweep,
+                # without sending a Range header that some servers answer with 400/404
+                resp.read(4096)
                 return int(resp.getcode()), None, None
         except urllib.error.HTTPError as exc:
             return int(exc.code), exc.headers.get("Location"), None

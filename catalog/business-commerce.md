@@ -35,7 +35,6 @@ Company data, CRMs, invoicing, product catalogs and marketplaces.
 | [Instatus](https://instatus.com/help/api) | API | Post to and update maintenance and incidents on your status page through an HTTP REST API | Free tier | API key | - | - | public-apis | - |
 | [InvoiceIn](https://invoicein.peculiar.systems) | API | Parse and validate received e-invoices: XRechnung, ZUGFeRD, Peppol, FatturaPA, KSeF | Free tier | API key | - | - | public-apis | - |
 | [Invovate](https://invovate.com/api) | API | Generate PDF, JSON & UBL invoices in 11 languages from one JSON POST | Free tier | API key | - | - | public-apis | - |
-| [Item API](https://walmart.com) | API | Please make sure you use the correct version of the APIs for your use case. To find out the appropriate version, go to the API Docs drop down on the menu | - | - | - | [docs](https://developer.walmart.com/) | APIs.guru | - |
 | [Katalis](https://meetkatalis.com/apis) | API | UK company checks: payment practices, contracts won, registers, filed accounts, change feed | Free tier | API key | - | - | public-apis | - |
 | [KontragentPro](https://kontragentpro.ru/api/v2/docs) | API | Russian company data from state registers by INN or OGRN: profile, finances, timeline | Free tier | None | - | - | public-apis | - |
 | [Lazada](https://open.lazada.com/doc/doc.htm) | API | Retrieve product ratings and seller performance metrics | Free tier | API key | - | - | public-apis | - |
