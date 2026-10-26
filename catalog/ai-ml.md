@@ -8,7 +8,7 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [Anthropic](https://www.anthropic.com) | API | Anthropic Claude API for language model inference | Paid | API key | - | [docs](https://claude.com/pricing) | editorial | 2026-10-24 |
 | [apilayer languagelayer](https://languagelayer.com) | API | Language Detection JSON API supporting 173 languages | Free tier | OAuth | - | - | public-apis | - |
 | [Audexum](https://audexum.com/docs) | API | Speech-to-text in 25 languages and text-to-speech with 43 voices in 32 languages | Free tier | API key | - | - | public-apis | - |
-| [BigQuery public datasets](https://cloud.google.com/bigquery/public-data) | Portal | Public datasets queryable in Google BigQuery available for public use | Freemium | Registration | Unknown | [docs](https://cloud.google.com/bigquery/public-data) | editorial | 2026-10-24 |
+| [BigQuery public datasets](https://docs.cloud.google.com/bigquery/public-data) | Portal | Public datasets queryable in Google BigQuery available for public use | Freemium | Registration | Unknown | [docs](https://docs.cloud.google.com/bigquery/public-data) | editorial | 2026-10-24 |
 | [BRAINIALL](https://github.com/fasuizu-br/brainiall-transcription-skill) | API | PT-BR and Spanish audio transcription with diarization and SRT/VTT | Free tier | API key | - | - | public-apis | - |
 | [Chars74K dataset](https://info-ee.surrey.ac.uk/CVSSP/demos/chars74k) | Dataset | Character Recognition in Natural Images (both English and Kannada are available) | - | - | - | - | awesome-datasets | - |
 | [Cloudmersive](https://www.cloudmersive.com/image-recognition-and-processing-api) | API | Image captioning, face recognition, NSFW classification | Free tier | API key | - | - | public-apis | - |
@@ -34,7 +34,7 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [Hirak OCR](https://ocr.hirak.site) | API | Image to text -text recognition- from image more than 100 language, accurate, unlimited requests | Free tier | API key | - | - | public-apis | - |
 | [Hirak Translation](https://translate.hirak.site) | API | Translate between 21 of most used languages, accurate, unlimited requests | Free tier | API key | - | - | public-apis | - |
 | [Hugging Face](https://huggingface.co) | API | AI model hub with inference API for NLP, computer vision, and audio | Freemium | API key | Per dataset | - | editorial | 2026-10-24 |
-| [Hugging Face Datasets](https://huggingface.co/datasets) | Portal | Machine learning datasets hub and library available for public use | Free | None | Unknown | [docs](https://huggingface.co/docs/datasets/) | editorial | 2026-10-24 |
+| [Hugging Face Datasets](https://huggingface.co/datasets) | Portal | Machine learning datasets hub and library available for public use | Free | None | Unknown | [docs](https://huggingface.co/docs/datasets/index) | editorial | 2026-10-24 |
 | [ImageNet](https://www.image-net.org/) | Dataset | Large-scale image classification dataset available for public use | Restricted | Registration | Custom (research use) | [docs](https://www.image-net.org/) | editorial | 2026-10-24 |
 | [Imagga](https://imagga.com) | API | Image Recognition Solutions like Tagging, Visual Search, NSFW moderation | Free tier | API key | - | - | public-apis | - |
 | [Inferdo](https://rapidapi.com/user/inferdo) | API | Computer Vision services like Facial detection, Image labeling, NSFW classification | Free tier | API key | - | - | public-apis | - |
@@ -50,13 +50,13 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [LibreTranslate](https://libretranslate.com/docs) | API | Translation tool with 17 available languages | Free tier | None | - | - | public-apis | - |
 | [Machinetutors](https://machinetutors.com/api) | API | AI Solutions: Video/Image Classification & Tagging, NSFW, Icon/Image/Audio Search, NLP | Free tier | API key | - | - | public-apis | - |
 | [Making Sense of Microposts 2013](https://web.archive.org/web/20170325004450/https://oak.dcs.shef.ac.uk/msm2013/challenge.html) | Dataset | 4,341 manually annotated microposts for concept extraction of persons, locations, organizations, and misc | - | - | - | - | awesome-datasets | - |
-| [Making Sense of Microposts 2016](http://microposts2016.seas.upenn.edu/challenge.html) | Dataset | Tweet dataset for named entity recognition and linking to DBpedia 2014 resources with NIL identifiers | - | - | - | - | awesome-datasets | - |
+| [Making Sense of Microposts 2016](https://microposts2016.engineering.upenn.edu/challenge.html) | Dataset | Tweet dataset for named entity recognition and linking to DBpedia 2014 resources with NIL identifiers | - | - | - | - | awesome-datasets | - |
 | [MediaCraft AI](https://mediacraft-x402-api.onrender.com) | API | Chinese content compliance review (17 platforms), EN↔CN translation, and SEO optimization. Pay-per-call via x402 (Solana USDC) | Free tier | API key | - | - | public-apis | - |
 | [MessengerX.io](https://messengerx.readthedocs.io/en/latest/) | API | A FREE API for developers to build and monetize personalized ML based chat apps | Free tier | API key | - | - | public-apis | - |
 | [Mistral](https://mistral.ai) | API | Mistral AI API for frontier and specialist language models, embeddings, and code generation | Freemium | API key | - | - | editorial | 2026-10-24 |
 | [Mistral AI](https://docs.mistral.ai/api) | API | High-performance LLM API by Mistral AI including Mistral and Mixtral models, with a free tier | Free tier | API key | - | - | public-apis | - |
 | [Modelfax](https://bytebrujo.github.io/modelfax) | API | LLM pricing, context windows and deprecation dates, schema-validated and updated daily | Free tier | None | - | - | public-apis | - |
-| [MotaWord API](https://www.motaword.com:443/) | API | Use MotaWord API to post and track your translation projects | - | - | - | [docs](https://api.motaword.com/swagger) | APIs.guru | - |
+| [MotaWord API](https://www.motaword.com/) | API | Use MotaWord API to post and track your translation projects | - | - | - | [docs](https://api.motaword.com/) | APIs.guru | - |
 | [NLP Cloud](https://nlpcloud.com/) | API | NLP API using spaCy and transformers for NER, sentiments, classification, summarization, and more | Free tier | API key | - | - | public-apis | - |
 | [Nonobench](https://www.nonobench.com/how-it-works) | API | Open-source benchmark of how well LLMs solve nonogram puzzles | Free tier | None | - | - | public-apis | - |
 | [Not Human Search](https://nothumansearch.ai/openapi.yaml) | API | AI tool discovery with agentic scoring for 8,600+ tools and MCP servers | Free tier | None | - | - | public-apis | - |
@@ -67,7 +67,6 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [OpenRouter](https://openrouter.ai/docs/quickstart) | API | Unified API for 300+ LLMs from OpenAI, Anthropic, Meta, Mistral and more, with a free tier | Free tier | API key | - | - | public-apis | - |
 | [OpenVisionAPI](https://openvisionapi.com) | API | Open source computer vision API based on open source models | Free tier | None | - | - | public-apis | - |
 | [Pandorabots AIaaS](https://pandorabots.com) | API | AIaaS provides API access to our bot hosting platform and SDKs, allowing developers to easily integrate conversational interfaces into applications | - | - | - | [docs](https://api.apis.guru/v2/specs/pandorabots.com/1.0.0/swagger.json) | APIs.guru | - |
-| [Papers with Code](https://paperswithcode.com/) | Portal | Machine learning papers with datasets and code available for public use | Free | None | Unknown | [docs](https://paperswithcode.com/) | editorial | 2026-10-24 |
 | [PDF Blocks API](https://www.pdfblocks.com/support) | API | PDF Blocks is a secure, reliable, and fast API to work with PDF documents | - | - | - | [docs](https://api.apis.guru/v2/specs/pdfblocks.com/1.5.0/openapi.json) | APIs.guru | - |
 | [PdfBroker.io API](https://www.pdfbroker.io/docs) | API | PdfBroker.io is an api for creating pdf files from Xsl-Fo or Html and other useful pdf utilities | - | - | - | [docs](https://api.apis.guru/v2/specs/pdfbroker.io/v1/openapi.json) | APIs.guru | - |
 | [Perspective](https://perspectiveapi.com) | API | NLP API to return probability that if text is toxic, obscene, insulting or threatening | Free tier | API key | - | - | public-apis | - |

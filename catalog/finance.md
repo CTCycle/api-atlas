@@ -11,7 +11,7 @@ Banking, markets, payments data, forex and financial statements.
 | [Bank of Russia](https://www.cbr.ru/development/SXML) | API | Central Bank of Russia XML service for daily exchange rates and currency history | Free tier | None | - | - | public-apis | - |
 | [Banking Access Index](https://www.globalsolo.global/data/banking-access-index) | API | Which US business banking providers accept founders by country of residence, with sources | Free tier | None | - | - | public-apis | - |
 | [Binance public data](https://data.binance.vision/) | Dataset | Binance historical market data available for public use | Free | None | Unknown | [docs](https://data.binance.vision/) | editorial | 2026-10-24 |
-| [BIS Statistics](https://stats.bis.org/) | Portal | Bank for International Settlements statistical data | Free | None | Unknown | [docs](https://stats.bis.org/) | editorial | 2026-10-24 |
+| [BIS Statistics](https://data.bis.org/) | Portal | Bank for International Settlements statistical data | Free | None | Unknown | [docs](https://data.bis.org/) | editorial | 2026-10-24 |
 | [BriefTape](https://brieftape.com) | API | Real-time AI-summarized SEC filings, Fed, FDA and BLS data, ticker-tagged | Free tier | API key | - | - | public-apis | - |
 | [CoinGecko](https://www.coingecko.com/) | Portal | Cryptocurrency market data API available for public use | Freemium | API key | Unknown | [docs](https://www.coingecko.com/en/api) | editorial | 2026-10-24 |
 | [contix](https://contix.es/api) | API | Spain: IBAN validation with bank and BIC, EU VAT number check (VIES), Modelo 303 VAT sums | Free tier | None | - | - | public-apis | - |
@@ -24,7 +24,7 @@ Banking, markets, payments data, forex and financial statements.
 | [Daleelak](https://getdaleelak.com/en/api) | API | Egyptian bank and dealer exchange rates, gold and silver prices | Free tier | None | - | - | public-apis | - |
 | [Degenscan Intel Macro](https://intel.degenscan.io/docs) | API | U.S. Treasury auctions, stablecoin supply, Brazil crypto-dollar premium vs BCB PTAX; free trial key | Free tier | API key | - | - | public-apis | - |
 | [Drillr](https://drillr.ai/docs/api) | API | Fundamentals, filings, earnings, ownership and events for US, China and Japan equities | Free tier | API key | - | - | public-apis | - |
-| [EBA data](https://www.eba.europa.eu/) | Portal | European Banking Authority risk and data available for public use | Free | None | Unknown | - | editorial | 2026-10-24 |
+| [EBA data](https://www.eba.europa.eu/homepage) | Portal | European Banking Authority risk and data available for public use | Free | None | Unknown | - | editorial | 2026-10-24 |
 | [Economia.Awesome](https://docs.awesomeapi.com.br/api-de-moedas) | API | Portuguese free currency prices and conversion with no rate limits | Free tier | None | - | - | public-apis | - |
 | [EconPulse](https://econpulse.io) | API | Live economic data - CPI, PPI, energy, treasury rates, BTC premium | Free tier | API key | - | - | public-apis | - |
 | [EOD Historical Data](https://eodhd.com) | API | Real-time and historical stock market data with 150+ exchanges | Free tier | API key | - | - | public-apis | - |

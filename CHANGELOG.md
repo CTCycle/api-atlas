@@ -6,6 +6,34 @@ The registry became a catalog. The machine-readable registry of 5,227 records wa
 replaced by a curated Markdown directory, and the Python package, the JSON Schema,
 the SQLite index, the importers and the scheduled refresh workflows were removed.
 
+### Expansion pass (2026-10-26)
+
+- Added 246 verified rows across 22 categories: 18 in `data-analytics`; 14 each in
+  `agriculture`, `cloud-infrastructure`, `humanitarian-development` and
+  `life-sciences`; 12 each in `education`, `housing-real-estate`, `iot`,
+  `patent-ip` and `travel`; 11 in `health-medical`; 10 each in `animals`,
+  `energy`, `open-data`, `space` and `telecommunications`; 9 each in `legal`,
+  `manufacturing` and `mathematics`; 8 each in `economics`, `government` and
+  `search`.
+- Three new categories: `agriculture`, `housing-real-estate`,
+  `humanitarian-development`. 45 categories in total.
+- Every new URL was checked with a GET request before merging; 17 researched
+  rows were dropped as duplicates of existing entries.
+- Full link sweep of 2,497 URLs after the merge: 2,144 answered 200, 220
+  redirected, 58 gated, 75 failed (30 timeouts, 23 TLS handshake errors, 16 5xx,
+  4 connection resets, 2 404). The two 404s are a server that rejects the
+  checker's user agent (`dnsviahttp.com`, 200 in a browser) and a duplicate
+  `OpenFEC` row that is now merged into `FEC OpenFEC`.
+- 19 stale canonical links updated, 5 rebrand moves applied, 7 dead or duplicate
+  rows removed (`Papers with Code` and `HubSpot Visitor Identification` had
+  collapsed into other products, `Shibe.Online` and the ACNH API are parked
+  domains, `Item API` and `BatchService` were marketplace leftovers, `OpenFEC`
+  duplicated `FEC OpenFEC`), and `host-t.com` renamed to `DNS via HTTP`.
+- `linkcheck` no longer sends a `Range` header: some servers answer it with 400 or
+  404, which produced false failures on live sites.
+- Remaining failures are gated, bot-blocked or temporarily down and are listed in
+  `reports/maintenance-<date>.md`, not removed.
+
 ### Polish pass (2026-10-26)
 
 - Added `tests/test_catalog.py` (8 tests) covering parsing, allowed values,

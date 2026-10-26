@@ -5,6 +5,7 @@ Clinical trials, medical literature, health statistics and terminology.
 | Name | Type | Description | Access | Auth | License | Docs | Source | Checked |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [CDC](https://www.cdc.gov) | Portal | US Centers for Disease Control and Prevention data and statistics | Free | None | PD-USGov | - | editorial | 2026-10-24 |
+| [ClinGen](https://clinicalgenome.org/) | Portal | Clinical relevance of genes and variants with curation activities and expert panels | Free | None | - | [docs](https://clinicalgenome.org/tools/) | editorial | 2026-10-26 |
 | [ClinicalTrials.gov](https://clinicaltrials.gov/) | Portal | Clinical study registry and results available for public use | Free | None | Public Domain | [docs](https://clinicaltrials.gov/) | editorial | 2026-10-24 |
 | [CMS data](https://data.cms.gov/) | Portal | US Medicare and Medicaid data available for public use | Free | None | Public Domain | [docs](https://data.cms.gov/) | editorial | 2026-10-24 |
 | [CMS.gov](https://data.cms.gov/provider-data) | API | Access to the data from the CMS - medicare.gov | Free tier | API key | - | - | public-apis | - |
@@ -26,29 +27,38 @@ Clinical trials, medical literature, health statistics and terminology.
 | [Edamam](https://developer.edamam.com) | API | Food and nutrition data API with recipe search | Free tier | API key | - | - | public-apis | - |
 | [EHDP Large Health Data Sets (Archived)](https://web.archive.org/web/20221208104145/https://www.ehdp.com/links/datasets.htm) | Dataset | Just links - can't vouch for how many are still valid | - | - | - | - | awesome-datasets | - |
 | [ERstat](https://erstat.ca/developers) | API | Live Canadian emergency room closures and service disruptions, by province | Free tier | API key | - | - | public-apis | - |
+| [EU Clinical Trials Register](https://www.clinicaltrialsregister.eu/) | Portal | European Union Clinical Trials Register with study protocols and results | Free | None | - | - | editorial | 2026-10-26 |
 | [European Health Information Gateway](https://gateway.euro.who.int/en/) | Portal | European health indicators and data available for public use | Free | None | Unknown | - | editorial | 2026-10-24 |
 | [FDA Recalls](https://rapidapi.com/crisp-point-studio-crisp-point-studio-default/api/live-fda-product-food-recalls) | API | Latest FDA food, drug and product recall notices as JSON with keyword search | Free tier | API key | - | - | public-apis | - |
 | [FindSaunaPlunge](https://findsaunaplunge.com/api) | API | US cold plunge and sauna venues with dated, source-quoted temperatures and prices | Free tier | None | - | - | public-apis | - |
 | [FoodData Central](https://fdc.nal.usda.gov) | API | National Nutrient Database for Standard Reference | Free tier | API key | - | - | public-apis | - |
-| [GBD/IHME](https://www.healthdata.org/gbd) | Portal | Global burden of disease estimates available for public use | Free | None | CC BY-NC 4.0 | [docs](https://www.healthdata.org/gbd) | editorial | 2026-10-24 |
+| [GARD](https://rarediseases.info.nih.gov/) | Portal | Information center for thousands of rare and genetic diseases | Free | None | - | [docs](https://rarediseases.info.nih.gov/about) | editorial | 2026-10-26 |
+| [GBD/IHME](https://www.healthdata.org/research-analysis/gbd) | Portal | Global burden of disease estimates available for public use | Free | None | CC BY-NC 4.0 | [docs](https://www.healthdata.org/research-analysis/gbd) | editorial | 2026-10-24 |
 | [GDC](https://gdc.cancer.gov) | Dataset | GDC supports several cancer genome programs for CCG, TCGA, TARGET etc | - | - | - | - | awesome-datasets | - |
+| [HCUP](https://hcup-us.ahrq.gov/) | Portal | Largest collection of longitudinal US hospital care data with online query tools | Restricted | Registration | - | [docs](https://hcup-us.ahrq.gov/overview.jsp) | editorial | 2026-10-26 |
 | [Healthcare.gov](https://www.healthcare.gov/developers) | API | Educational content about the US Health Insurance Marketplace | Free tier | None | - | - | public-apis | - |
 | [HealthData.gov](https://healthdata.gov/) | Portal | US health and medical datasets available for public use | Free | None | Public Domain | [docs](https://healthdata.gov/) | editorial | 2026-10-24 |
+| [Human Phenotype Ontology](https://hpo.jax.org/) | Portal | Standardized vocabulary of phenotypic abnormalities in human disease | Free | None | - | - | editorial | 2026-10-26 |
+| [ICD API](https://icd.who.int/icdapi) | API | REST API for ICD-11 classification versions, coding tools and diagnostic health information | Free | OAuth | [ICD-11 license](https://icd.who.int/en/docs/ICD11-license.pdf) | [docs](https://icd.who.int/icdapi) | editorial | 2026-10-26 |
 | [Infermedica](https://developer.infermedica.com/documentation/overview/) | API | NLP based symptom checker and patient triage API for health diagnosis from text | Free tier | API key | - | [docs](https://api.apis.guru/v2/specs/infermedica.com/v2/swagger.json) | public-apis, APIs.guru | - |
 | [LAPIS](https://cov-spectrum.ethz.ch/public) | API | SARS-CoV-2 genomic sequences from public sources | Free tier | None | - | - | public-apis | - |
 | [Lexigram](https://docs.lexigram.io) | API | NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology | Free tier | API key | - | - | public-apis | - |
+| [LOINC](https://loinc.org/) | Portal | Standard codes for laboratory and clinical observations with search and download APIs | Free | Registration | - | [docs](https://loinc.org/kb/api/search-api) | editorial | 2026-10-26 |
 | [Longevity World Cup](https://longevityworldcup.com/api/data/athletes) | API | Public biological age competition data with biomarkers and rankings | Free tier | None | - | - | public-apis | - |
 | [MedlinePlus Genetics](https://medlineplus.gov/about/developers/geneticsdatafilesapi) | API | Genetic conditions, genes, chromosomes and mtDNA data | Free tier | None | - | - | public-apis | - |
-| [MIMIC-IV](https://physionet.org/content/mimiciv/) | Dataset | Critical care database for ICU patients available for public use | Restricted | Registration | PhysioNet Credentialed ... | [docs](https://physionet.org/content/mimiciv/) | editorial | 2026-10-24 |
+| [MIMIC-IV](https://physionet.org/content/mimiciv/3.1/) | Dataset | Critical care database for ICU patients available for public use | Restricted | Registration | PhysioNet Credentialed ... | [docs](https://physionet.org/content/mimiciv/3.1/) | editorial | 2026-10-24 |
+| [Monarch Initiative](https://monarchinitiative.org/) | Portal | Integrated phenotype and genotype data across species for disease research | Free | None | - | [docs](https://api.monarchinitiative.org/v3/docs) | editorial | 2026-10-26 |
 | [NCBI](https://www.ncbi.nlm.nih.gov) | API | National Center for Biotechnology Information APIs and databases | Free | None | NLM terms, generally free ... | - | editorial | 2026-10-24 |
 | [NHS Health A-Z](https://digital.nhs.uk/developer/api-catalogue/health-a-to-z) | API | Syndicated NHS website content API for conditions, symptoms, treatments, tests, and medicines from the Health A-Z and Medicines A-Z | Free tier | API key | - | - | public-apis | - |
 | [NPPES](https://npiregistry.cms.hhs.gov/registry/help-api) | API | National Plan & Provider Enumeration System, info on healthcare providers registered in US | Free tier | None | - | - | public-apis | - |
 | [Nutritionix](https://developer.nutritionix.com) | API | Worlds largest verified nutrition database | Free tier | API key | - | - | public-apis | - |
 | [Open Data NHS Scotland](https://www.opendata.nhs.scot) | API | Medical reference data and statistics by Public Health Scotland | Free tier | None | - | - | public-apis | - |
 | [Open Disease](https://disease.sh) | API | API for Current cases and more stuff about COVID-19 and Influenza | Free tier | None | - | - | public-apis | - |
+| [Open Humans](https://www.openhumans.org/) | Portal | Platform for sharing, exploring and donating personal health and research data | Free | Registration | - | - | editorial | 2026-10-26 |
 | [Open Targets](https://platform-docs.opentargets.org) | API | Comprehensive API for therapeutic drug-target identification, with scored target-disease associations and annotations | Free tier | None | - | - | public-apis | - |
 | [openFDA](https://open.fda.gov/) | Portal | FDA drug, device, and food data API available for public use | Free | API key | Public Domain | [docs](https://open.fda.gov/) | editorial | 2026-10-24 |
 | [Orion Health](https://developer.orionhealth.io) | API | Medical platform which allows the development of applications for different healthcare scenarios | Free tier | OAuth | - | - | public-apis | - |
+| [Orphanet](https://www.orpha.net/) | Portal | Rare disease knowledge base with ORPHA codes, genes and expert centers | Free | None | - | [docs](https://www.orphadata.com/) | editorial | 2026-10-26 |
 | [PhysioBank Databases](https://www.physionet.org/data/) | Dataset | A large and growing archive of physiological data | - | - | - | - | awesome-datasets | - |
 | [PhysioNet](https://physionet.org/) | Portal | Physiological signal databases and research tools available for public use | Free | Registration | Unknown | [docs](https://physionet.org/) | editorial | 2026-10-24 |
 | [PubMed](https://pubmed.ncbi.nlm.nih.gov) | API | PubMed biomedical literature search and retrieval | Free | None | NLM terms, generally free ... | - | editorial | 2026-10-24 |
@@ -57,6 +67,7 @@ Clinical trials, medical literature, health statistics and terminology.
 | [Stanza DSCSA Verifier](https://stanzaapi.com/tools/pharma-dscsa) | API | Verify FDA DSCSA and EU FMD pharmaceutical serialization barcodes | Free tier | API key | - | - | public-apis | - |
 | [Stanza UDI Decoder](https://stanzaapi.com/tools/udi-decoder) | API | Decode and validate FDA GUDID and EU MDR medical device UDI barcodes | Free tier | API key | - | - | public-apis | - |
 | [UK Biobank](https://www.ukbiobank.ac.uk/) | Portal | Large-scale biomedical database and biobank available for public use | Restricted | Registration | Custom (application ... | - | editorial | 2026-10-25 |
+| [UMLS](https://www.nlm.nih.gov/research/umls/index.html) | Portal | Integrated health and biomedical vocabularies, coding standards and terminology services | Restricted | Account | - | [docs](https://documentation.uts.nlm.nih.gov/) | editorial | 2026-10-26 |
 | [Urgences Québec](https://sante.handled.tools/api) | API | Hourly emergency room occupancy, stretcher counts and wait times for every hospital in Quebec, Canada | Free tier | None | - | - | public-apis | - |
 | [WHO Data](https://www.who.int) | Portal | World Health Organization health data and statistics | Free | None | CC-BY-NC-SA-3.0-IGO | - | editorial | 2026-10-24 |
 | [WHO Global Health Observatory](https://www.who.int/data/gho) | Portal | WHO global health indicators and estimates available for public use | Free | None | CC BY-NC-SA 3.0 IGO | [docs](https://www.who.int/data/gho) | editorial | 2026-10-24 |

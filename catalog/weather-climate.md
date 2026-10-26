@@ -19,12 +19,12 @@ Forecasts, observations, reanalysis and climate projections.
 | [Copernicus CDS](https://cds.climate.copernicus.eu/) | Portal | Copernicus climate data store available for public use | Free | Registration | Copernicus License | [docs](https://cds.climate.copernicus.eu/) | editorial | 2026-10-24 |
 | [DWD Open Data](https://www.dwd.de/DE/Home/home_node.html) | Portal | German Weather Service open data for forecasts, observations and climate | Free | None | - | - | editorial | 2026-10-24 |
 | [ECMWF](https://www.ecmwf.int) | Portal | European Centre for Medium-Range Weather Forecasts data and forecast products | - | Registration | - | - | editorial | 2026-10-24 |
-| [EEA data portal](https://www.eea.europa.eu/data-and-maps) | Portal | European environment data and indicators available for public use | Free | None | CC BY 4.0 | [docs](https://www.eea.europa.eu/data-and-maps) | editorial | 2026-10-24 |
+| [EEA data portal](https://www.eea.europa.eu/en/analysis) | Portal | European environment data and indicators available for public use | Free | None | CC BY 4.0 | [docs](https://www.eea.europa.eu/en/analysis) | editorial | 2026-10-24 |
 | [EPA Envirofacts](https://www.epa.gov/) | Portal | US environmental facility and release data available for public use | Free | None | Public Domain | - | editorial | 2026-10-24 |
 | [Euskalmet](https://opendata.euskadi.eus/api-euskalmet/-/api-de-euskalmet) | API | Basque Meteorological Agency API providing meteorological data and datasets for the Basque Country | Free tier | API key | - | - | public-apis | - |
 | [FMI Open Data](https://en.ilmatieteenlaitos.fi/open-data) | API | Finnish weather, sea, climate and radar observations via open WFS | Free tier | None | - | - | public-apis | - |
 | [GBIF](https://www.gbif.org/) | Portal | Global biodiversity occurrence data available for public use | Free | None | Unknown | [docs](https://www.gbif.org/) | editorial | 2026-10-24 |
-| [Global Forest Watch](https://www.globalforestwatch.org/) | Portal | Forest monitoring and land use data available for public use | Free | API key | Unknown | [docs](https://www.globalforestwatch.org/) | editorial | 2026-10-24 |
+| [Global Forest Watch](https://globalnaturewatch.org/) | Portal | Forest monitoring and land use data available for public use | Free | API key | Unknown | [docs](https://globalnaturewatch.org/) | editorial | 2026-10-24 |
 | [GridHub](https://grid-hub.app/developers) | API | Live wholesale electricity prices and demand across 25 grid zones | Free tier | API key | - | - | public-apis | - |
 | [GridVigil](https://gridvigil.com/developers) | API | Pressure scores, demand, generation mix and alerts for the 10 major U.S. power grids | Free tier | None | - | - | public-apis | - |
 | [GrünstromIndex](https://gruenstromindex.de) | API | Green Power Index for Germany (Grünstromindex/GSI) | Free tier | None | - | - | public-apis | - |

@@ -16,13 +16,13 @@ Publications, citations, physics, chemistry and earth observation.
 | [CycleCalcs](https://www.cyclecalcs.com/api.html) | API | Interpreted astronomy: sun and moon times, moon phases, planets, eclipses, seasons | Free tier | None | - | - | public-apis | - |
 | [DataCite](https://datacite.org/) | Portal | Persistent identifiers and metadata for research data | Free | None | Unknown | [docs](https://support.datacite.org/docs/api) | editorial | 2026-10-25 |
 | [Dryad](https://datadryad.org/) | Portal | Curated research data repository with CC0 datasets | Free | None | CC0 1.0 | [docs](https://datadryad.org/) | editorial | 2026-10-24 |
-| [ENA](https://www.ebi.ac.uk/ena/browser/api/swagger-ui/index.html) | API | Nucleotide sequences, genomes and raw reads archive | Free tier | None | - | - | public-apis | - |
+| [ENA](https://www.ebi.ac.uk/ena/browser/browser/api/swagger-ui/index.html) | API | Nucleotide sequences, genomes and raw reads archive | Free tier | None | - | - | public-apis | - |
 | [EOSDIS](https://www.earthdata.nasa.gov/about/esdis/eosdis) | Dataset | NASA's Earth Observation System Data and Information System | - | - | PD-USGov | - | awesome-datasets | - |
 | [Europe PMC](https://europepmc.org/RestfulWebService) | API | Life-science literature search with abstracts, citations and full-text links | Free tier | None | Per record licence, often ... | - | public-apis | - |
-| [Figshare](https://figshare.com/) | Portal | Research data repository for files and figures available for public use | Free | None | Unknown | [docs](https://docs.figshare.com/) | editorial | 2026-10-24 |
-| [GBIF](https://www.gbif.org/developer/summary) | API | REST API for querying global biodiversity occurrence, species, and dataset records published via GBIF | Free tier | None | - | - | public-apis | - |
+| [Figshare](https://figshare.com/) | Portal | Research data repository for files and figures available for public use | Free | None | Unknown | [docs](https://docs.figshare.com/v2/) | editorial | 2026-10-24 |
+| [GBIF](https://techdocs.gbif.org/en/openapi/) | API | REST API for querying global biodiversity occurrence, species, and dataset records published via GBIF | Free tier | None | - | - | public-apis | - |
 | [GDELT](https://www.gdeltproject.org/) | Dataset | Global event, location, and tone database from news media | Free | None | Unknown | [docs](https://www.gdeltproject.org/) | editorial | 2026-10-24 |
-| [ICPSR](https://www.icpsr.umich.edu/) | Portal | Social science research data archive available for public use | Restricted | Registration | Unknown | [docs](https://www.icpsr.umich.edu/) | editorial | 2026-10-24 |
+| [ICPSR](https://www.icpsr.umich.edu/sites/icpsr/home) | Portal | Social science research data archive available for public use | Restricted | Registration | Unknown | [docs](https://www.icpsr.umich.edu/sites/icpsr/home) | editorial | 2026-10-24 |
 | [iDigBio](https://github.com/idigbio/idigbio-search-api/wiki) | API | Access millions of museum specimens from organizations around the world | Free tier | None | - | - | public-apis | - |
 | [iNaturalist](https://api.inaturalist.org/v1/docs) | API | Citizen-science wildlife observations with species identification and mapping | Free tier | None | - | - | public-apis, awesome-datasets | - |
 | [inspirehep.net](https://github.com/inspirehep/rest-api-doc) | API | REST API for INSPIRE high-energy physics literature, authors, institutions, conferences, and experiments | Free tier | None | - | - | public-apis | - |
@@ -42,7 +42,7 @@ Publications, citations, physics, chemistry and earth observation.
 | [Open Notify](http://open-notify.org/Open-Notify-API) | API | JSON API for the current ISS location and the number of people currently in space | Free tier | None | - | - | public-apis | - |
 | [Open Science Framework](https://developer.osf.io) | API | Repository and archive for study designs, research materials, data, manuscripts, etc | Free tier | None | Per record | - | public-apis | - |
 | [OpenAIRE](https://www.openaire.eu/) | Portal | European open science graph and research outputs available for public use | Free | None | Unknown | - | editorial | 2026-10-25 |
-| [OpenAlex](https://openalex.org/) | Portal | Open catalog of scholarly works and entities available for public use | Free | None | CC0 1.0 | [docs](https://docs.openalex.org/) | editorial | 2026-10-24 |
+| [OpenAlex](https://openalex.org/) | Portal | Open catalog of scholarly works and entities available for public use | Free | None | CC0 1.0 | [docs](https://help.openalex.org/) | editorial | 2026-10-24 |
 | [OrbitalWiki](https://www.orbitalwiki.com/developers) | API | Catalog of 16,000+ satellites merging CelesTrak, GCAT, Wikidata; free tier included | Free tier | API key | - | - | public-apis | - |
 | [ORCID](https://orcid.org) | API | ORCID researcher identifier registry and API | Free | None | - | - | editorial | 2026-10-24 |
 | [OSF](https://osf.io/) | Portal | Open Science Framework project and data repository | Free | None | Unknown | [docs](https://developer.osf.io/) | editorial | 2026-10-24 |

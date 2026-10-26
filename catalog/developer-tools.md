@@ -58,6 +58,7 @@ Version control, CI, code quality, package registries and build tooling.
 | [Diagrams.so](https://diagrams.so/developers) | API | Generate editable draw.io architecture diagrams from text or infrastructure code | Free tier | API key | - | - | public-apis | - |
 | [DigitalOcean Status](https://status.digitalocean.com/api) | API | Reports current and historical status of all DigitalOcean cloud services and regions | Free tier | None | - | - | public-apis | - |
 | [DigMyName](https://digmyname.com/api) | API | Domain availability and registrar pricing across 52 TLDs | Free tier | None | - | - | public-apis | - |
+| [DNS via HTTP](https://dnsviahttp.com/) | API | Performs basic DNS lookups and returns records over simple HTTP GET requests | Free tier | None | - | - | public-apis | - |
 | [Domain Info by LifeStep](https://dns.lifestep.io) | API | DNS records, SPF/DMARC detection and TLS certificate expiry | Free tier | None | - | - | public-apis | - |
 | [DomainDb Info](https://api.domainsdb.info) | API | Domain name search to find all domains containing particular words/phrases/etc | Free tier | None | - | - | public-apis | - |
 | [dotsweep](https://dotsweep.com/docs) | API | Domain availability across 1200+ TLDs with registration and renewal prices | Free tier | None | - | - | public-apis | - |
@@ -95,7 +96,6 @@ Version control, CI, code quality, package registries and build tooling.
 | [Hex](https://github.com/hexpm/specifications) | API | Elixir and Erlang package versions and docs | Free tier | None | - | - | public-apis | - |
 | [Hipsum](https://hipsum.co) | API | Hipster-themed lorem ipsum generator for placeholder text | Free tier | None | - | - | public-apis | - |
 | [Homebrew Formulae](https://formulae.brew.sh/api) | API | Package and cask data for the Homebrew package manager | Free tier | None | - | - | public-apis | - |
-| [host-t.com](https://dnsviahttp.com/) | API | Performs basic DNS lookups and returns records over simple HTTP GET requests | Free tier | None | - | - | public-apis | - |
 | [Host.io](https://host.io) | API | Returns DNS, website content, backlinks, and hosting details for any domain | Free tier | API key | - | - | public-apis | - |
 | [Httpbin](https://httpbin.org) | API | Echoes HTTP requests to help test clients, headers, authentication, and status codes | Free tier | None | - | - | public-apis | - |
 | [Hunter](https://hunter.io/api) | API | API for domain search, professional email finder, author finder and email verifier | Free tier | API key | - | - | public-apis | - |

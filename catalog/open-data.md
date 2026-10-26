@@ -10,6 +10,7 @@ National and international open data catalogs and CKAN portals.
 | [API Setu](https://www.apisetu.gov.in) | API | An Indian Government platform that provides a lot of APIS for KYC, business, education & employment | Free tier | None | - | - | public-apis | - |
 | [APIllow](https://apillow.co/docs.html) | API | Zillow property data: 50+ fields per listing by address, URL, ZPID or ZIP, with sold data and comps | Free tier | API key | - | - | public-apis | - |
 | [Authorized Partner API Specification](https://www.digilocker.gov.in:443/) | API | To access files in user's DigiLocker account from your application, you must first obtain user's authorization | - | - | - | [docs](https://api.apis.guru/v2/specs/digitallocker.gov.in/authpartner/1.0.0/openapi.json) | APIs.guru | - |
+| [avoindata.fi](https://avoindata.suomi.fi/en) | Portal | Finnish open data service available for public use | Free | None | Unknown | [docs](https://avoindata.suomi.fi/en) | editorial | 2026-10-26 |
 | [Band Atlas](https://www.aiotrf.com/en/ai/band-atlas/developers) | API | Cellular IoT bands, 2G/3G sunsets and device compatibility for 46 countries | Free tier | None | - | - | public-apis | - |
 | [Big Data Explained](https://bigdataexplained.com/data) | API | Cloud data warehouse list prices, read daily from AWS and Azure pricing APIs, with price history | Free tier | None | - | - | public-apis | - |
 | [Black History Facts](https://www.blackhistoryapi.io/docs) | API | Contribute or search one of the largest black history fact databases on the web | Free tier | API key | - | - | public-apis | - |
@@ -29,15 +30,22 @@ National and international open data catalogs and CKAN portals.
 | [dados.gov.br](https://dados.gov.br/) | Portal | Brazilian federal open data portal available for public use | Free | None | Unknown | [docs](https://dados.gov.br/) | editorial | 2026-10-24 |
 | [data.europa.eu](https://data.europa.eu/) | Portal | European Union open data portal aggregating member state catalogs | Free | None | CC BY 4.0 | - | editorial | 2026-10-24 |
 | [data.go.kr](https://www.data.go.kr/) | Portal | South Korean public data portal with APIs available for public use | Free | Registration | Unknown | [docs](https://www.data.go.kr/) | editorial | 2026-10-24 |
-| [data.gouv.fr](https://www.data.gouv.fr/) | Portal | French national open data platform for public datasets | Free | None | Licence Ouverte v2.0 | [docs](https://doc.data.gouv.fr/) | editorial | 2026-10-24 |
+| [data.gouv.fr](https://www.data.gouv.fr/) | Portal | French national open data platform for public datasets | Free | None | Licence Ouverte v2.0 | [docs](https://guides.data.gouv.fr/) | editorial | 2026-10-24 |
 | [data.gov (US)](https://data.gov/) | Portal | US federal open data catalog spanning agencies, formats, and topics | Free | API key | Unknown | [docs](https://api.data.gov/) | editorial | 2026-10-24 |
 | [data.gov.au](https://data.gov.au/) | Portal | Australian government open data catalog and APIs available for public use | Free | None | CC BY 4.0 | [docs](https://data.gov.au/) | editorial | 2026-10-24 |
+| [data.gov.be](https://data.gov.be/) | Portal | Belgian government open data portal available for public use | Free | None | Unknown | [docs](https://data.gov.be/) | editorial | 2026-10-26 |
+| [data.gov.gr](https://data.gov.gr/) | Portal | Greek government open data portal available for public use | Free | None | Unknown | [docs](https://data.gov.gr/) | editorial | 2026-10-26 |
+| [data.gov.hk](https://data.gov.hk/en/) | Portal | Hong Kong government open data portal available for public use | Free | None | Unknown | [docs](https://data.gov.hk/en/) | editorial | 2026-10-26 |
+| [data.gov.ie](https://data.gov.ie/) | Portal | Irish government open data catalog and APIs available for public use | Free | None | Unknown | [docs](https://data.gov.ie/) | editorial | 2026-10-26 |
 | [data.gov.in](https://data.gov.in/) | Portal | Indian government open data platform for public datasets | Free | None | Government Open Data ... | - | editorial | - |
+| [data.gov.ro](https://data.gov.ro/) | Portal | Romanian government open data portal available for public use | Free | None | Unknown | [docs](https://data.gov.ro/) | editorial | 2026-10-26 |
 | [data.gov.sg](https://data.gov.sg/) | Portal | Singapore government open data platform available for public use | Free | API key | Unknown | [docs](https://data.gov.sg/) | editorial | 2026-10-24 |
 | [data.gov.uk](https://data.gov.uk/) | Portal | UK government open data catalog and API platform available for public use | Free | None | Open Government Licence v3.0 | [docs](https://docs.publishing.service.gov.uk/) | editorial | 2026-10-24 |
 | [dati.gov.it](https://dati.gov.it/) | Portal | Italian national open data portal for public administration datasets | Free | None | Unknown | [docs](https://dati.gov.it/) | editorial | 2026-10-24 |
 | [datos.gob.ar](https://datos.gob.ar/) | Portal | Argentine national open data portal available for public use | Free | None | Unknown | [docs](https://datos.gob.ar/) | editorial | 2026-10-24 |
+| [datos.gob.cl](https://datos.gob.cl/) | Portal | Chilean government open data portal available for public use | Free | None | Unknown | [docs](https://datos.gob.cl/) | editorial | 2026-10-26 |
 | [datos.gob.es](https://datos.gob.es/) | Portal | Spanish government open data catalog available for public use | Free | None | Unknown | [docs](https://datos.gob.es/) | editorial | 2026-10-24 |
+| [datos.gov.co](https://datos.gov.co/) | Portal | Colombian government open data portal available for public use | Free | None | Unknown | [docs](https://datos.gov.co/) | editorial | 2026-10-26 |
 | [DevLifeCheck](https://devlifecheck.com/developers) | API | Security-update end dates, recalls and evidence for 1,300+ phones, tablets, Chromebooks and routers | Free tier | None | - | - | public-apis | - |
 | [e-Stat Japan](https://www.e-stat.go.jp/) | Portal | Japanese government statistics portal and API available for public use | Free | Registration | Unknown | [docs](https://www.e-stat.go.jp/api/) | editorial | 2026-10-24 |
 | [Edgepedia](https://www.edgechat.ai/developers) | API | Search and read Edgepedia, a free and growing encyclopedia with citations | Free tier | None | - | - | public-apis | - |
@@ -45,6 +53,7 @@ National and international open data catalogs and CKAN portals.
 | [EOSL](https://eosl.ai/api) | API | Hardware end-of-sale and end-of-service-life dates by part number, source-linked | Free tier | None | - | - | public-apis | - |
 | [French Address Search](https://geo.api.gouv.fr/adresse) | API | French government geocoding API for forward and reverse address search with autocomplete and batch CSV | Free tier | None | - | - | public-apis | - |
 | [GENESIS](https://www.destatis.de/EN/Service/OpenData/api-webservice.html) | API | REST/JSON API to the GENESIS-Online database of the German Federal Statistical Office (Destatis) | Free tier | OAuth | - | - | public-apis | - |
+| [govdata.de](https://www.govdata.de/) | Portal | German federal open data portal available for public use | Free | None | Unknown | [docs](https://www.govdata.de/) | editorial | 2026-10-26 |
 | [Groundwater Wells, Aquifers and Registry API](https://www2.gov.bc.ca/gov/content/home) | API | Groundwater wells, aquifers and registry data for British Columbia, including qualified well drillers and pump installers | - | - | Open Government License - ... | [docs](https://api.apis.guru/v2/specs/gov.bc.ca/gwells/v1/openapi.json) | APIs.guru | - |
 | [HousingFeed](https://housingfeed.com/docs) | API | US rental listings from property managers' own websites, verified weekly | Free tier | None | - | - | public-apis | - |
 | [Humanitarian Data Exchange](https://data.humdata.org/) | Portal | Humanitarian datasets and crisis indicators available for public use | Free | None | Unknown | [docs](https://data.humdata.org/) | editorial | 2026-10-24 |
@@ -67,8 +76,9 @@ National and international open data catalogs and CKAN portals.
 | [Open Data Minneapolis](https://opendata.minneapolismn.gov) | API | Spatial (GIS) and non-spatial city data for Minneapolis | Free tier | None | - | - | public-apis | - |
 | [Open Scholarships](https://scholarships.grudged.io) | API | Free, openly-licensed directory of US scholarships and student aid from official sources | Free tier | None | - | - | public-apis | - |
 | [open.canada.ca](https://open.canada.ca/) | Portal | Canadian federal open government data portal available for public use | Free | None | Open Government Licence - ... | - | editorial | 2026-10-24 |
-| [openAFRICA](https://africaopendata.org) | API | Large datasets repository of African open data | Free tier | None | - | - | public-apis | - |
+| [openAFRICA](https://open.africa/) | API | Large datasets repository of African open data | Free tier | None | - | - | public-apis | - |
 | [OpenCorporates](http://api.opencorporates.com/documentation/API-Reference) | API | Data on corporate entities and directors in many countries | Free tier | API key | - | - | public-apis | - |
+| [opendata.dk](https://www.opendata.dk/) | Portal | Danish open data portal available for public use | Free | None | Unknown | [docs](https://www.opendata.dk/) | editorial | 2026-10-26 |
 | [opendata.swiss](https://opendata.swiss/) | Portal | Swiss federal and cantonal open data portal available for public use | Free | None | Unknown | [docs](https://opendata.swiss/) | editorial | 2026-10-24 |
 | [OpenSanctions](https://www.opensanctions.org/docs/api) | API | Data on international sanctions, crime and politically exposed persons | Free tier | None | - | - | public-apis, awesome-datasets | - |
 | [Pan Africa Data](https://panafricadata.com) | API | Macroeconomic and subnational income distribution data for all 54 African countries | Free tier | API key | - | - | public-apis | - |

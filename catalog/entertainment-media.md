@@ -14,7 +14,7 @@ Film, television, music, books, podcasts and media metadata.
 | [Astro Agents](https://astro-agent.dev/llms.txt) | API | Deterministic Western and Vedic astrology: natal charts, transits, kundli, dashas, panchang | Free tier | None | - | - | public-apis | - |
 | [AstroWay](https://api.astroway.info/docs) | API | Astrology, natal charts, Human Design, Vedic and horoscopes on the Swiss Ephemeris | Free tier | API key | - | - | public-apis | - |
 | [Audiomack](https://audiomack.com/data-api/docs) | API | Audiomack music API for songs, artists, playlists, charts, and user data via OAuth 1.0a | Free tier | OAuth | - | - | public-apis | - |
-| [BBC Nitro API](https://developer.bbc.com/login-required) | API | BBC Nitro is the BBC's application programming interface (API) for BBC Programmes Metadata | - | - | Nitro Public | [docs](http://programmes.api.bbc.com/nitro/api) | APIs.guru | - |
+| [BBC Nitro API](https://developer.bbc.com/login-required) | API | BBC Nitro is the BBC's application programming interface (API) for BBC Programmes Metadata | - | - | Nitro Public | - | APIs.guru | - |
 | [Bhagavad Gita](https://docs.bhagavadgitaapi.in) | API | Open Source Shrimad Bhagavad Gita API including 21+ authors translation in Sanskrit/English/Hindi | Free tier | API key | - | - | public-apis | - |
 | [Bhagavad Gita telugu](https://gita-api.vercel.app) | API | Bhagavad Gita API in telugu and odia languages | Free tier | None | - | - | public-apis | - |
 | [Bible-api](https://bible-api.com) | API | Free JSON API for Bible verses and passages across multiple translations and languages | Free tier | None | - | - | public-apis | - |
