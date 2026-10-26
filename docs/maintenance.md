@@ -1,57 +1,117 @@
 # Maintenance
 
-## Scheduled jobs
-
-The refresh cycle is automated in `.github/workflows/refresh.yml` (monthly, first day of the month, plus `workflow_dispatch`). The weekly link check is in `.github/workflows/validate.yml`.
-
-- Weekly: link check a bounded sample of records (GitHub Actions, Mondays 06:00 UTC).
-- Monthly: full link check sweep across the catalog.
-- Monthly: deduplication review of merged and flagged records.
-- Monthly: re-import of all three upstream catalogs.
-- Quarterly or on upstream release: manual review of the refresh diff before merging.
-
-Example commands:
+The catalog is maintained by hand with one optional helper script. There is no
+crawler, no scheduler requirement and no database. Everything below works with a
+plain clone and Python 3.10 or newer, with no third-party packages.
 
 ```bash
-python -m regipy.cli linkcheck --limit 300 --max-age-days 7
-python -m regipy.cli dedupe
-python -m regipy.cli import all
-python -m regipy.cli build
-python -m regipy.cli validate
+python scripts/catalog.py validate      # structure, values, order, navigation
+python scripts/catalog.py stats         # counts by category, type, access, source
+python scripts/catalog.py linkcheck     # HTTP check every website and docs URL
+python scripts/catalog.py report        # build reports/maintenance-YYYY-MM-DD.md
+python scripts/catalog.py duplicates    # shared URLs, same name on one domain
+python scripts/catalog.py stale         # entries with old or missing Checked dates
+python scripts/catalog.py export        # data/catalog.jsonl and data/catalog.csv
 ```
 
-Last manual full refresh: 2026-10-24 (v1.0.0), 5227 records, 0 validation errors, 42 tests passing.
+The script never edits `catalog/`. It writes JSON and Markdown under `reports/`.
+Applying a proposed change is a human decision, made with a normal commit.
 
-## What each check can prove
+## Routine
 
-- `validate`: structural correctness against the JSON Schema and semantic rules. It proves field types, enums, category membership and licence evidence. It cannot prove that a URL resolves or that a licence statement is true.
-- `linkcheck`: that a URL responds and with which status code. It records the result in verification fields. It cannot prove that content matches the description or that access still works after authentication.
-- `dedupe`: that records share a provider and name key. It cannot prove that two records describe the same real world service.
-- `import`: that upstream entries were transformed into the schema. It cannot verify upstream accuracy.
+**Every pull request**
 
-## What each check cannot prove
+```bash
+python scripts/catalog.py validate
+python scripts/catalog.py export --format jsonl
+```
 
-- No automated check confirms pricing, rate limits or licence terms against the provider website.
-- No check confirms that a dataset still matches its described coverage or format.
-- Link checks cannot bypass authentication or bot protection.
+CI runs the same validation and fails when `data/catalog.jsonl` is stale.
 
-## Interpreting a broken link
+**Monthly, 20 to 30 minutes**
 
-A non 2xx or 3xx response is recorded as a broken link. Before marking a record unavailable:
+```bash
+python scripts/catalog.py linkcheck --limit 300     # rotating sample
+python scripts/catalog.py report
+python scripts/catalog.py stale --days 365
+```
 
-1. Retry manually, because transient failures and rate limits are common.
-2. Check whether the provider moved the page.
-3. If the endpoint is permanently gone, set `status` to `unavailable` and add a flag.
-4. If only the documentation moved, update `urls.documentation` and keep `status` as `active`.
+Read `reports/maintenance-<date>.md` and act on the categories below.
 
-## Interpreting a gated endpoint
+**Quarterly, one to two hours**
 
-A gated endpoint may return 401, 403 or 429. This is not necessarily a broken link:
+```bash
+python scripts/catalog.py linkcheck                 # full sweep
+python scripts/catalog.py report
+python scripts/catalog.py duplicates
+```
 
-- 401 or 403 often means an API key or login is required. Check `access.model` and `urls.signup`.
-- 429 means rate limiting. Retry later or reduce request volume.
-- Some providers block automated requests entirely. Record `http_status` and note the gating in `verification.notes` rather than marking the record unavailable.
+A full sweep is roughly 3,500 requests at 8 workers with a one request per second
+per host limit. Expect 15 to 30 minutes.
 
-## Re-importing upstream catalogs
+## Triage rules
 
-Re-import with `python -m regipy.cli import all`. Merging keeps curated values and records conflicts. After re-import, run `build`, `validate` and review `dedupe` output. Check the diff of changed shards before committing.
+| Result | Meaning | Action |
+| --- | --- | --- |
+| 200 to 299 | Reachable | Nothing |
+| 301 to 308 | Moved | Update the link to the new location, then re-check |
+| 401, 402, 403, 429, 451 | Gated or rate limited | Keep the row. Record the auth requirement if it changed |
+| 404, 410 | Gone | Confirm in a browser, then fix the link or remove the row |
+| DNS failure | Domain retired | Confirm, then remove |
+| TLS error | Often bot protection | Re-check in a browser before acting |
+| Timeout, 5xx, transport error | Usually transient | Re-run the check. Remove only after a second failure on a different day |
+| Redirect to a parked domain | Dead | Remove |
+
+Two rules override everything else:
+
+1. Never remove a row because of a single automated failure.
+2. Never overwrite a verified description, licence or access value from a link
+   check. A link check can only prove that a URL answered.
+
+## What each check can and cannot prove
+
+- `validate` proves the table shape, the allowed values, alphabetical order,
+  category coverage and README navigation. It proves nothing about truth.
+- `linkcheck` proves that a URL answered with a status code. It does not prove the
+  page still describes the same service, that pricing is unchanged, or that access
+  works behind a login.
+- `duplicates` proves that two rows share a URL or a name on a domain. It does not
+  prove they describe the same real service.
+- `stale` proves that nobody has confirmed a row recently. It does not prove the
+  row is wrong.
+
+Pricing, rate limits and licence terms are only ever confirmed by reading the
+provider's page. That is why the Checked column exists and why it is set by a
+person, not by the script.
+
+## Optional scheduling with Hermes
+
+Hermes can run the same commands on a schedule and deliver the report. Nothing is
+merged or deleted automatically. The proposal below is not active; enable it only
+after reviewing the commands and the destination.
+
+```text
+name:     api-atlas monthly link check
+schedule: 1st of the month, 06:00 local
+command:  cd <repo> && python scripts/catalog.py linkcheck && python scripts/catalog.py report
+output:   reports/maintenance-<date>.md delivered as a message summary
+review:   open the report, apply the diff blocks by hand
+```
+
+A weekly bounded sample (`linkcheck --limit 150`) is enough between full sweeps if
+the catalog grows past roughly 5,000 rows.
+
+## Adding a resource
+
+1. Find the canonical page and the documentation page.
+2. Confirm what the resource is, who runs it, what it costs and what its terms say.
+3. Add one row in the right category, in alphabetical position.
+4. Set `Checked` to today only if you actually read the documentation.
+5. Run `validate` and `export`, then open a pull request.
+
+## Repository settings that matter
+
+- Keep the default branch protected and require the validate workflow.
+- Keep `data/catalog.jsonl` committed so agents and scripts can fetch one file.
+- Do not add a hosted service, a database or a web frontend. GitHub renders the
+  catalog and search works through the repository search box.

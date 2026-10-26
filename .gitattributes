@@ -5,6 +5,4 @@
 *.yml text eol=lf
 *.md text eol=lf
 *.py text eol=lf
-*.sqlite binary
-*.sqlite-wal binary
-*.sqlite-shm binary
+*.csv text eol=lf
