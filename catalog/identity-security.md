@@ -5,7 +5,9 @@ Authentication, breach data, vulnerability feeds and threat intelligence.
 | Name | Type | Description | Access | Auth | License | Docs | Source | Checked |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [1Password Connect](https://support.1password.com) | API | Self-hosted REST API for apps and cloud infrastructure to read and manage 1Password vault items and secrets | - | - | - | [docs](https://api.apis.guru/v2/specs/1password.local/connect/1.5.7/openapi.json) | APIs.guru | - |
+| [AbuseIPDB](https://docs.abuseipdb.com/) | API | IP abuse database and reporting API with reputation scores | Free tier | API key | - | - | public-apis | - |
 | [Agent Verifier](https://packet.guru/agents/reference) | API | Self-check for AI agents: verifies Web Bot Auth signatures and shows how a request looks | Free tier | None | - | - | public-apis | - |
+| [AlienVault Open Threat Exchange (OTX)](https://otx.alienvault.com/api) | API | Open Threat Exchange platform for sharing threat intelligence | Free tier | API key | - | - | public-apis | - |
 | [Application Environment Verification](https://github.com/fingerprintjs/aev) | API | Android library and API to verify the safety of user devices, detect rooted devices and other risks | Free tier | API key | - | - | public-apis | - |
 | [Auth0](https://auth0.com) | API | Easy to implement, adaptable authentication and authorization platform | Free tier | API key | - | - | public-apis | - |
 | [BitWarden](https://bitwarden.com/help/api) | API | Organization administration API for Bitwarden: manage members, collections, groups, policies, and event logs | Free tier | OAuth | - | - | public-apis | - |
@@ -27,6 +29,7 @@ Authentication, breach data, vulnerability feeds and threat intelligence.
 | [FOFA](https://en.fofa.info/api) | API | Search engine for Internet connected assets and devices | Free tier | API key | - | - | public-apis | - |
 | [FraudLabs Pro](https://www.fraudlabspro.com/developer/api/screen-order) | API | Screen order information using AI to detect frauds | Free tier | API key | - | - | public-apis | - |
 | [FullHunt](https://api-docs.fullhunt.io) | API | Searchable attack surface database of the entire internet | Free tier | API key | - | - | public-apis | - |
+| [GetOTP](https://otp.dev/en/docs/) | API | OTP verification API with SMS, voice, Viber and Telegram | Free tier | API key | - | - | public-apis | - |
 | [GreyNoise](https://docs.greynoise.io/reference/getcommunityip) | API | Query IPs in the GreyNoise dataset and retrieve a subset of the full IP context data | Free tier | API key | - | - | public-apis | - |
 | [HackerOne](https://api.hackerone.com) | API | The industry's first hacker API that helps increase productivity towards creative bug bounty hunting | Free tier | API key | - | - | public-apis | - |
 | [Hashable](https://hashable.space/pages/api) | API | A REST API to access high level cryptographic functions and methods | Free tier | None | - | - | public-apis | - |
@@ -53,9 +56,11 @@ Authentication, breach data, vulnerability feeds and threat intelligence.
 | [NoPhishy](https://rapidapi.com/Amiichu/api/exerra-phishing-check) | API | Check links to see if they're known phishing attempts | Free tier | API key | - | - | public-apis | - |
 | [OSV](https://google.github.io/osv.dev/api) | API | Open source vulnerability database and distributed triage infrastructure | Free tier | None | - | - | public-apis | - |
 | [Passwordinator](https://github.com/fawazsullia/password-generator) | API | Generate random passwords of varying complexities | Free tier | None | - | - | public-apis | - |
+| [PhishStats](https://phishstats.info/) | API | Phishing URL, IP and domain database with real-time threat feed | Free tier | None | - | - | public-apis | - |
 | [Presend](https://presend.pages.dev/api) | API | Security and developer utility API -- malware, vulnerability, and domain checks, no signup | Free tier | None | - | - | public-apis | - |
 | [Privacy.com](https://developers.privacy.com/docs/getting-started) | API | Generate merchant-specific and one-time use credit card numbers that link back to your bank | Free tier | API key | - | - | public-apis | - |
 | [Pulsedive](https://docs.pulsedive.com/) | API | Scan, search and collect threat intelligence data in real-time | Free tier | API key | - | - | public-apis | - |
+| [RealBots](https://aibots.kaderagha.com/api-docs) | API | Verify whether requests claiming to be GPTBot, ClaudeBot & other AI crawlers are real | Free tier | API key | - | - | public-apis | - |
 | [Scanii](https://docs.scanii.com) | API | Simple REST API that can scan submitted documents/files for the presence of threats | Free tier | API key | - | - | public-apis | - |
 | [ScanMalware](https://scanmalware.com) | API | Scan URLs in a sandboxed browser and search past scans by domain, IP, ASN, JARM or favicon hash | Free tier | None | - | - | public-apis | - |
 | [Sealed Rose](https://sealedrose.com/verify-video) | API | AI media forensics and synthetic content verification for video, audio, image, and text | Free tier | API key | - | - | public-apis | - |
@@ -67,7 +72,11 @@ Authentication, breach data, vulnerability feeds and threat intelligence.
 | [Stytch](https://stytch.com) | API | User infrastructure for modern applications | Free tier | API key | - | - | public-apis | - |
 | [Tanod](https://tanod.dev) | API | Pay-per-call scans of smart contracts, addresses and MCP/skill packages; small free daily tier | Free tier | None | - | - | public-apis | - |
 | [ThreatCluster](https://threatcluster.io/api/public/v1/docs) | API | Threat intelligence: incident clusters, validated IOCs, CVEs, ransomware leak-site victims | Free tier | API key | - | - | public-apis | - |
+| [UK Police](https://data.police.uk/docs/) | API | UK police data API with crime statistics and incidents | Free tier | None | - | - | public-apis | - |
 | [URLhaus](https://urlhaus-api.abuse.ch) | API | abuse.ch URLhaus API for querying malware URLs, payloads, hosts, tags, and recent additions | Free tier | None | - | - | public-apis | - |
+| [URLScan.io](https://urlscan.io/about-api/) | API | Scan and analyse URLs for malicious content and phishing | Free tier | API key | - | - | public-apis | - |
+| [VirusTotal](https://docs.virustotal.com/reference/overview) | API | File and URL analysis for malware and threats | Free tier | API key | - | - | public-apis | - |
 | [VPNDetection](https://docs.vpndetection.io/api) | API | Check whether an IPv4 or IPv6 address belongs to VPN infrastructure, no key needed | Free tier | None | - | - | public-apis | - |
 | [VulDB](https://vuldb.com) | API | VulDB API allows to initiate queries for one or more items along with transactional bots | Free tier | API key | - | - | public-apis | - |
 | [Warrant](https://warrant.dev) | API | Fine-grained authorization API for users, roles, and permissions; Warrant is now WorkOS FGA | Free tier | API key | - | - | public-apis | - |
+| [Web of Trust](https://support.mywot.com/hc/en-us/sections/360004477734-API-) | API | WOT API for IP, domain and URL reputation data | Free tier | API key | - | - | public-apis | - |

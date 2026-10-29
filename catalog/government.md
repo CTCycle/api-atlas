@@ -12,16 +12,27 @@ Legislation, procurement, civic records and public sector APIs.
 | [Bidledger](https://jaydemks.github.io/bidledger/api.html) | API | Every open public tender in the European Union, rebuilt daily from the official TED data | Free tier | None | - | - | public-apis | - |
 | [Boletín Oficial del Estado (BOE)](https://www.boe.es/datosabiertos) | API | Official Spanish State Gazette open data: laws, summaries and XML/JSON APIs | Free tier | None | - | - | public-apis | - |
 | [Brazil](https://brasilapi.com.br) | API | Community driven API for Brazil Public Data | Free tier | None | - | - | public-apis | - |
+| [Brazil Central Bank Open Data](https://dadosabertos.bcb.gov.br/) | API | Portal of open data from the Central Bank of Brazil | Free tier | None | - | - | public-apis | - |
 | [Brazil Receita WS](https://www.receitaws.com.br) | API | Consult companies by CNPJ for Brazilian companies | Free tier | None | - | - | public-apis | - |
 | [Brazilian Chamber of Deputies Open Data](https://dadosabertos.camara.leg.br/swagger/api.html) | API | Provides legislative information in Apis XML and JSON, as well as files in various formats | Free tier | None | - | - | public-apis | - |
 | [Bureau of Labor Statistics](https://www.bls.gov/developers) | API | US labor statistics: inflation, unemployment, wages and productivity | Free tier | None | - | - | public-apis | - |
 | [Census.gov](https://www.census.gov/data/developers/data-sets.html) | API | The US Census Bureau provides various APIs and data sets on demographics and businesses | Free tier | None | PD-USGov | - | public-apis | - |
+| [City, Berlin](https://daten.berlin.de/) | Portal | Berlin open data portal with city datasets and APIs | Free tier | None | - | - | public-apis | - |
+| [City, Gdańsk](https://ckan.multimediagdansk.pl/en) | Portal | Gdansk open data portal publishing city datasets | Free tier | None | - | - | public-apis | - |
+| [City, Gdynia](https://otwartedane.gdynia.pl/en/api_doc.html) | Portal | Gdynia open data portal with CSV and JSON datasets and API | Free tier | None | - | - | public-apis | - |
+| [City, Helsinki](https://hri.fi/en_gb/) | Portal | Helsinki Region Infoshare open data service and API | Free tier | None | - | - | public-apis | - |
+| [City, Lviv](https://opendata.city-adm.lviv.ua/) | Portal | Lviv city open data portal with datasets and API access | Free tier | None | - | - | public-apis | - |
+| [City, Nantes Open Data](https://data.nantesmetropole.fr/pages/home/) | Portal | Nantes and Nantes Metropole open data portal | Free tier | API key | - | - | public-apis | - |
+| [City, New York Open Data](https://www.nyc.gov/opendata) | Portal | NYC open data portal with city agency datasets | Free tier | None | - | - | public-apis | - |
+| [City, Prague Open Data](https://lkod.cz/catalog/praha) | Portal | Prague open data catalog with DCAT-AP-CZ datasets | Free tier | None | - | - | public-apis | - |
+| [City, Toronto Open Data](https://open.toronto.ca/) | Portal | City of Toronto open data portal with catalog and gallery | Free tier | None | - | - | public-apis | - |
 | [Colorado Information Marketplace](https://data.colorado.gov) | API | Colorado state open data portal offering datasets, visualizations, and APIs for state and local government data | Free tier | None | - | - | public-apis | - |
 | [Companies House](https://www.gov.uk/government/organisations/companies-house) | Portal | UK company registration data available for public use | Free | API key | Open Government Licence v3.0 | [docs](https://developer.company-information.service.gov.uk/) | editorial | 2026-10-24 |
 | [Congress.gov API](https://api.congress.gov/) | Portal | US congressional bills and legislation API available for public use | Free | API key | Unknown | [docs](https://api.congress.gov/) | editorial | 2026-10-24 |
 | [ContaCLT](https://contaclt.com/dados/api) | API | Brazilian payroll and labor calculations: net salary, INSS, IRRF, unemployment insurance | Free tier | None | - | - | public-apis | - |
 | [Conversor IAE CNAE](https://www.conversoriaecnae.es/api/v1/docs) | API | Spanish IAE/CNAE tax activity codes, 2009→2025 crosswalk and AEAT obligations | Free tier | API key | - | - | public-apis | - |
 | [CPFHub](https://www.cpfhub.io/) | API | Brazilian CPF lookup - returns full name, birth date, and gender for any CPF | Free tier | API key | - | - | public-apis | - |
+| [Data USA](https://datausa.io/about/api/) | API | Visualization platform for US public data with query API | Free tier | None | - | - | public-apis | - |
 | [data.austintexas.gov](https://data.austintexas.gov/) | Portal | Austin city open data portal available for public use | Free | None | Unknown | [docs](https://data.austintexas.gov/) | editorial | 2026-10-26 |
 | [data.boston.gov](https://data.boston.gov/) | Portal | Boston city open data portal available for public use | Free | None | Unknown | [docs](https://data.boston.gov/) | editorial | 2026-10-26 |
 | [data.cityofchicago.org](https://data.cityofchicago.org/) | Portal | Chicago city open data portal available for public use | Free | None | Unknown | [docs](https://data.cityofchicago.org/) | editorial | 2026-10-26 |
@@ -49,6 +60,7 @@ Legislation, procurement, civic records and public sector APIs.
 | [Federal Register](https://www.federalregister.gov/reader-aids/developer-resources/rest-api) | API | The Daily Journal of the United States Government | Free tier | None | - | - | public-apis | - |
 | [Federal Register API](https://www.federalregister.gov/) | Portal | US federal regulations and notices API available for public use | Free | None | Public Domain | [docs](https://www.federalregister.gov/developers/documentation/api/v1) | editorial | 2026-10-24 |
 | [gankdat](https://gankdat.com/docs) | API | UK & EU tenders, UK planning, UK sanctions, US exclusions, UK insolvency and incorporations as JSON | Free tier | API key | - | - | public-apis | - |
+| [Gazette Data, UK](https://www.thegazette.co.uk/data) | API | UK official public record open data API from The Gazette | Free tier | OAuth | - | - | public-apis | - |
 | [Gdansk Open Data](https://www.gdansk.pl/otwarte-dane-w-gdansku) | Dataset | Official open data portal of the City of Gdańsk (Poland) | - | - | - | - | awesome-datasets | - |
 | [GovContractScout](https://scout.govbidportals.com) | API | US state & local government contracts: search, details, NAICS lookup and AI match scoring | Free tier | API key | - | - | public-apis | - |
 | [Gun Policy](https://www.gunpolicy.org/api) | API | International firearm injury prevention and policy | Free tier | API key | - | - | public-apis | - |
@@ -60,13 +72,19 @@ Legislation, procurement, civic records and public sector APIs.
 | [Interpol Red Notices](https://interpol.api.bund.dev) | API | Interpol Notices API for searching Red, Yellow, and UN notices plus notice details and images | Free tier | None | - | - | public-apis | - |
 | [Istanbul (İBB) Open Data](https://data.ibb.gov.tr) | API | Data sets from the İstanbul Metropolitan Municipality (İBB) | Free tier | None | - | - | public-apis | - |
 | [ITU DataHub](https://datahub.itu.int/) | Portal | ICT and telecommunications statistics from the ITU | Free | None | Unknown | [docs](https://datahub.itu.int/) | editorial | 2026-10-24 |
+| [Kurtaxe](https://keyset.cloud/kurtaxe/api/) | API | German tourist tax (Kurtaxe) rates by municipality, each quoted from the municipal statute | Free tier | None | - | - | public-apis | - |
 | [LocalGov.jp](https://localgov.jp) | API | Japan grants and subsidies (central J-Grants + 1,916 municipalities) | Free tier | None | - | - | public-apis | - |
 | [Luxembourg](https://data.public.lu/en) | Dataset | Official Luxembourg open data portal (data.public.lu) with datasets, reuses, and APIs for government data | - | - | - | - | awesome-datasets | - |
 | [MORVS](https://morvs.ai/api) | API | Source-linked US regulatory and public records: SEC filings, enforcement actions, recalls | Free tier | None | - | - | public-apis | - |
 | [National Park Service, US](https://www.nps.gov/subjects/developer/index.htm) | API | NPS API providing authoritative data on US national parks, visitor centers, campgrounds, events, and alerts | Free tier | API key | - | - | public-apis | - |
 | [Open Government, ACT](https://www.data.act.gov.au) | API | Australian Capital Territory open data portal with datasets and APIs for ACT government information | Free tier | None | - | - | public-apis | - |
 | [Open Government, Australia](https://www.data.gov.au) | API | Australian Government open data portal (data.gov.au) with datasets and APIs across federal agencies | Free tier | None | - | - | public-apis | - |
+| [Open Government, Austria](https://www.data.gv.at/) | Portal | Austria government open data portal with datasets | Free tier | None | - | - | public-apis | - |
+| [Open Government, Colombia](https://www.dane.gov.co/) | Portal | Colombia national statistics (DANE) open data portal | Free tier | None | - | - | public-apis | - |
+| [Open Government, Cyprus](https://data.gov.cy/?language=en) | Portal | Cyprus national open data portal for public sector data | Free tier | None | - | - | public-apis | - |
 | [Open Government, Czech Republic](https://data.gov.cz/english) | API | Czech Republic open data portal (data.gov.cz) providing government datasets and SPARQL/REST APIs | Free tier | None | - | - | public-apis | - |
+| [Open Government, Estonia](https://andmed.eesti.ee/instructions/opendata-dataset-api) | Portal | Estonia government open data portal with datasets | Free tier | API key | - | - | public-apis | - |
+| [Open Government, Finland](https://www.avoindata.fi/en) | Portal | Finland government open data portal with datasets | Free tier | None | - | - | public-apis | - |
 | [Open Government, Indonesia](https://data.go.id) | API | Indonesian government open data portal (data.go.id) with public datasets across ministries | Free tier | None | - | - | public-apis | - |
 | [Open Government, Lithuania](https://data.gov.lt/public/api/1) | API | Lithuania open data portal (data.gov.lt) providing government datasets and a public REST API | Free tier | None | - | - | public-apis | - |
 | [Open Government, Luxembourg](https://data.public.lu/fr/) | API | Luxembourg open data portal (data.public.lu) with datasets, APIs, and reuses of government data | Free tier | API key | - | - | public-apis | - |
@@ -75,11 +93,20 @@ Legislation, procurement, civic records and public sector APIs.
 | [Open Government, New South Wales](https://api.nsw.gov.au) | API | NSW Government API portal (api.nsw.gov.au) for accessing state open data and services | Free tier | API key | - | - | public-apis | - |
 | [Open Government, New Zealand](https://www.data.govt.nz) | API | New Zealand government open data portal (data.govt.nz) with datasets across agencies | Free tier | None | - | - | public-apis | - |
 | [Open Government, Norway](https://data.norge.no:443/data-services) | API | Norwegian open data portal (data.norge.no) listing datasets and APIs from public sector | Free tier | None | - | - | public-apis | - |
+| [Open Government, Peru](https://www.datosabiertos.gob.pe/) | Portal | Peru national open data platform for government datasets | Free tier | None | - | - | public-apis | - |
+| [Open Government, Poland](https://dane.gov.pl/en) | Portal | Poland government open data portal with datasets | Free tier | None | - | - | public-apis | - |
+| [Open Government, Portugal](https://dados.gov.pt/en/recursos/desenvolvimento/referencia-api) | Portal | Portuguese government open data REST API (dados.gov.pt) | Free tier | None | - | - | public-apis | - |
 | [Open Government, Queensland Government](https://www.data.qld.gov.au) | API | Queensland Government open data portal (data.qld.gov.au) with datasets and resources | Free tier | None | - | - | public-apis | - |
 | [Open Government, Saudi Arabia](https://data.gov.sa) | API | Saudi Arabia open data portal (data.gov.sa) providing government datasets and APIs | Free tier | None | - | - | public-apis | - |
+| [Open Government, Slovakia](https://data.slovensko.sk/) | Portal | Slovakia national open data catalog of public datasets | Free tier | None | - | - | public-apis | - |
+| [Open Government, Slovenia](https://podatki.gov.si/) | Portal | Slovenia open data portal with datasets, tools and APIs | Free tier | None | - | - | public-apis | - |
 | [Open Government, South Australian Government](https://data.sa.gov.au) | API | South Australian Government open data portal (data.sa.gov.au) with datasets and APIs | Free tier | None | - | - | public-apis | - |
+| [Open Government, Sweden](https://www.dataportal.se/dataservice/91_29789) | Portal | Sweden government open data portal with datasets | Free tier | None | - | - | public-apis | - |
 | [Open Government, Switzerland](https://handbook.opendata.swiss/de/content/nutzen/api-nutzen.html) | API | Swiss open data portal (opendata.swiss) with government datasets and a REST API | Free tier | None | - | - | public-apis | - |
+| [Open Government, Taiwan](https://data.gov.tw/) | Portal | Taiwan government open data platform with datasets | Free tier | None | - | - | public-apis | - |
+| [Open Government, Thailand](https://data.go.th/) | Portal | Thailand government open data portal with datasets | Free tier | API key | - | - | public-apis | - |
 | [Open Government, Victoria State Government](https://www.data.vic.gov.au) | API | Victoria State Government open data portal (data.vic.gov.au) with datasets and APIs | Free tier | None | - | - | public-apis | - |
+| [Open Government, West Australia](https://data.wa.gov.au/) | Portal | Western Australia public sector data catalog (Data WA) | Free tier | None | - | - | public-apis | - |
 | [opendata.dc.gov](https://opendata.dc.gov/) | Portal | Washington DC open data portal available for public use | Free | None | Unknown | [docs](https://opendata.dc.gov/) | editorial | 2026-10-26 |
 | [OpenMercantil](https://openmercantil.es/api/documentacion) | API | Spanish company public data and BORME event timelines | Free tier | None | - | - | public-apis | - |
 | [OpenRegistry](https://openregistry.sophymarine.com) | API | Real-time queries to 80+ national company registries (UK, FR, DE, IT, ES, KR and more) | Free tier | OAuth | - | - | public-apis | - |
@@ -104,3 +131,4 @@ Legislation, procurement, civic records and public sector APIs.
 | [Veridion](https://www.veridionmarkets.com/data-api/docs) | API | US congressional stock-trade disclosures and the President's OGE reports, linked to each filing | Free tier | None | - | - | public-apis | - |
 | [Vett](https://wimberly.solutions/api/free-sanctions-check) | API | Screen names & companies against OFAC, PEP, watchlists & recalls | Free tier | None | - | - | public-apis | - |
 | [VotePredictor](https://votepredictor.com/developers) | API | US election forecasts, congressional voting records and forecaster accuracy ratings | Free tier | None | - | - | public-apis | - |
+| [YiminShuju Visa Bulletin](https://yiminshuju.com/cite/) | API | US Department of State Visa Bulletin cutoff dates (EB/F charts) as open JSON (/paiqi.json) | Free tier | None | - | - | public-apis | - |

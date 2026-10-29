@@ -4,14 +4,24 @@ Game databases, player stats, assets and community APIs.
 
 | Name | Type | Description | Access | Auth | License | Docs | Source | Checked |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [AmiiboAPI](https://amiiboapi.com/) | API | RESTful API serving Nintendo Amiibo figure data including series and characters | Free tier | None | - | - | public-apis | - |
+| [Animal Crossing: New Horizons](http://acnhapi.com/) | API | API for critters, fossils, art, music, furniture and villagers | Free tier | None | - | - | public-apis | - |
 | [Astroworld](https://api.astroworldmc.com) | API | Free Minecraft data: mobs, biomes, items, enchantments, structures, commands, versions, achievements, trades | Free tier | None | - | - | public-apis | - |
 | [Barter.VG](https://github.com/bartervg/barter.vg/wiki) | API | Provides information about Game, DLC, Bundles, Giveaways, Trading | Free tier | None | - | - | public-apis | - |
 | [Battle.net](https://community.developer.battle.net/documentation/guides/getting-started) | API | Diablo III, Hearthstone, StarCraft II and World of Warcraft game data APIs | Free tier | OAuth | - | - | public-apis | - |
 | [Board Game Geek](https://boardgamegeek.com/wiki/page/BGG_XML_API2) | API | XML API for the BoardGameGeek database: game details, collections, plays, forums, users, hot lists, and search | Free tier | API key | - | - | public-apis | - |
+| [Brawl Stars](https://developer.brawlstars.com) | API | Brawl Stars game data API for players, clubs and battles | Free tier | API key | - | - | public-apis | - |
 | [Call of Duty Mobile](https://github.com/Harry260/codm-api) | API | Unofficial API for CODM player data and daily cache claiming | Free tier | None | - | - | public-apis | - |
+| [CardZ Marketcap](https://cardzmarketcap.com/data?currency=CHF) | API | Daily PSA 10 market cap, prices and population for Pokémon and One Piece cards | Free tier | None | - | - | public-apis | - |
 | [CheapShark](https://apidocs.cheapshark.com/) | API | Free public API for PC game price comparison and deals across Steam, GreenManGaming, Fanatical, and other stores | Free tier | None | - | - | public-apis | - |
+| [Chess.com](https://www.chess.com/news/view/published-data-api) | API | Read-only REST API exposing Chess.com public data as JSON-LD | Free tier | None | - | - | public-apis | - |
 | [Clash of Clans](https://developer.clashofclans.com) | API | Supercell API for Clash of Clans clan search, player and clan profiles, leaderboards, and leagues (API key) | Free tier | API key | - | - | public-apis | - |
+| [Clash Royale](https://developer.clashroyale.com) | API | Clash Royale game data API for players, clans and battles | Free tier | API key | - | - | public-apis | - |
+| [Comic Vine](https://comicvine.gamespot.com/api/documentation) | API | Largest online comic database with API for issues, volumes and characters | Free tier | None | - | - | public-apis | - |
 | [Crafatar](https://crafatar.com) | API | Blazing-fast API serving Minecraft player avatars, body renders, skins, and capes by UUID with size and overlay options | Free tier | None | - | - | public-apis | - |
+| [Cross Universe](https://crossuniverse.net/apiDocs/) | API | API for accessing images and data for all English and Japanese Cross Universe cards | Free tier | None | - | - | public-apis | - |
+| [Deck of Cards](https://deckofcardsapi.com/) | API | Playing card deck API for shuffling, drawing and managing cards | Free tier | None | - | - | public-apis | - |
+| [Destiny The Game](https://bungie-net.github.io/multi/index.html) | API | Bungie platform API for Destiny 2 player and game data | Free tier | API key | - | - | public-apis | - |
 | [Digimon Information](https://digimon-api.vercel.app) | API | Provides information about digimon creatures | Free tier | None | - | - | public-apis | - |
 | [Digimon TCG](https://documenter.getpostman.com/view/14059948/TzecB4fH) | API | Search for Digimon cards in digimoncard.io | Free tier | None | - | - | public-apis | - |
 | [Disney](https://disneyapi.dev) | API | Free REST and GraphQL API exposing Disney character data, searchable and filterable by films and TV shows | Free tier | None | - | - | public-apis | - |
@@ -22,28 +32,47 @@ Game databases, player stats, assets and community APIs.
 | [Eve Online](https://developers.eveonline.com/api-explorer) | API | EVE Online ESI API for universe, market, character, corporation, and alliance data with OAuth2 authorization | Free tier | OAuth | - | - | public-apis | - |
 | [FFXIV Collect](https://ffxivcollect.com) | API | Public RESTful JSON API for Final Fantasy XIV collectables including mounts, minions, emotes, and facewear with sources | Free tier | None | - | - | public-apis | - |
 | [Final Fantasy XIV](https://v2.xivapi.com/) | API | XIVAPI v2: fast, versioned REST API exposing comprehensive Final Fantasy XIV game data with full-text search | Free tier | None | - | - | public-apis | - |
+| [Fortnite](https://fortnitetracker.com/site-api) | API | Fortnite player stats, matches and game data API | Free tier | API key | - | - | public-apis | - |
+| [FreeToGame](https://www.freetogame.com/api-doc) | API | Free-to-play games database API with no key required | Free tier | None | - | - | public-apis | - |
+| [FunTranslations](https://api.funtranslations.com/) | API | Text translation API converting input into funny and fictional languages | Free tier | None | - | - | public-apis | - |
+| [GamerPower](https://www.gamerpower.com/api-read) | API | Free games, keys and giveaways tracker API for gaming promotions | Free tier | None | - | - | public-apis | - |
 | [GDBrowser](https://gdbrowser.com/api) | API | Unofficial Geometry Dash server browser API for levels and user data; maintainer warns it is slow and unreliable | Free tier | None | - | - | public-apis | - |
 | [Geek-Jokes](https://github.com/sameerkumar18/geek-joke-api) | API | Fetch a random geeky/programming related joke for use in all sorts of applications | Free tier | None | - | - | public-apis | - |
+| [Genshin Impact](https://genshin.dev) | API | Fan-made Genshin Impact API for game data access | Free tier | None | - | - | public-apis | - |
+| [Giant Bomb](https://giantbomb.com/api/documentation) | API | Video game database and wiki API with game metadata | Free tier | API key | - | - | public-apis | - |
 | [GraphQL Pokemon](https://github.com/favware/graphql-pokemon) | API | GraphQL powered Pokemon API. Supports generations 1 through 8 | Free tier | None | - | - | public-apis | - |
+| [Guild Wars 2](https://wiki.guildwars2.com/wiki/API:Main) | API | Guild Wars 2 game information and wiki API | Free tier | API key | - | - | public-apis | - |
 | [GW2Spidy](https://github.com/rubensayshi/gw2spidy/wiki) | API | GW2Spidy API, Items data on the Guild Wars 2 Trade Market | Free tier | None | - | - | public-apis | - |
 | [GZW Data](https://gzw-data.dev/docs/) | API | Gray Zone Warfare weapons, missions, loot, armor and game data | Free tier | None | - | - | public-apis | - |
 | [Halo](https://developer.haloapi.com) | API | Halo Public API (beta) for Halo 5 and Halo Wars 2 stats, matches, players, and metadata (API key) | Free tier | API key | - | - | public-apis | - |
 | [Humble Bundle](https://rapidapi.com/Ziggoto/api/humble-bundle) | API | Third-party RapidAPI wrapper exposing current Humble Bundle bundles via a single GET /get-bundles endpoint | Free tier | API key | - | - | public-apis | - |
+| [Humor](https://humorapi.com) | API | Jokes, puns, gifs and memes API with over 50000 jokes | Free tier | API key | - | - | public-apis | - |
+| [Hypixel](https://api.hypixel.net/) | API | Hypixel public API for player stats and game data | Free tier | API key | - | - | public-apis | - |
 | [Hyrule Compendium](https://github.com/gadhagod/Hyrule-Compendium-API) | API | Data on all interactive items from The Legend of Zelda: BOTW | Free tier | None | - | - | public-apis | - |
+| [IGDB.com](https://api-docs.igdb.com) | API | Video game database API with game metadata and cover art | Free tier | API key | - | - | public-apis | - |
 | [JokeAPI](https://sv443.net/jokeapi/v2) | API | Free REST API serving 1300+ jokes in multiple languages with category, language, and flag filters (120 req/min) | Free tier | None | - | - | public-apis | - |
+| [Jokes One](https://jokes.one/api/joke/) | API | Joke of the day and large category of jokes accessible via REST API | Free tier | API key | - | - | public-apis | - |
 | [KrakenKeys](https://krakenkeys.com/api-docs) | API | Steam game key price comparison across 20+ stores, deals, and price history | Free tier | API key | - | - | public-apis | - |
 | [L2 Calendar](https://l2calendar.com/api/servers) | API | Lineage 2 private servers list with names, websites, chronicles, rates and opening dates | Free tier | None | - | - | public-apis | - |
 | [Lichess](https://lichess.org/api) | API | Access to all data of users, games, puzzles and etc on Lichess | Free tier | OAuth | - | - | public-apis | - |
 | [Magic The Gathering](https://magicthegathering.io/) | API | Magic: The Gathering card data API, now consolidated into Scrydex; legacy endpoints for cards, sets, and types | Free tier | None | - | - | public-apis | - |
+| [Marvel](https://www.marvel.com/) | API | Official Marvel Entertainment site for movies, characters, comics and TV | Free tier | API key | - | - | public-apis | - |
 | [Master Setter](https://api.master-setter.com) | API | Pokémon TCG cards and sets in 14 languages, with every printing and variant | Free tier | API key | - | - | public-apis | - |
 | [Minecraft Server Status](https://api.mcsrvstat.us) | API | API to get Information about a Minecraft Server | Free tier | None | - | - | public-apis | - |
 | [MMO Games](https://www.mmobomb.com/api) | API | Free MMOBomb API for MMO games, news, and giveaways with filtering by platform, category, tag, and sort | Free tier | None | - | - | public-apis | - |
+| [mod.io](https://docs.mod.io) | API | Cross-platform mod and user-generated content API for games | Free tier | API key | - | - | public-apis | - |
+| [Monster Hunter World](https://docs.mhw-db.com/) | API | Monster Hunter World data API with weapons, monsters and quests | Free tier | None | - | - | public-apis | - |
 | [Online Sudoku - Sudokumax](https://sudokumax.com/developers) | API | Free Sudoku puzzles, printable Sudoku worksheets and online play: https://sudokumax.com | Free tier | API key | - | - | public-apis | - |
+| [Open Trivia](https://opentdb.com/api_config.php) | API | Free trivia question database with JSON API, no key required | Free tier | None | - | - | public-apis | - |
+| [PandaScore](https://developers.pandascore.co/docs/introduction) | API | Esports statistics API with real-time data and match results | Free tier | API key | - | - | public-apis | - |
 | [Path of Exile](https://www.pathofexile.com/developer/docs) | API | Path of Exile developer API for ladders, leagues, characters, items, and stash tabs using OAuth 2.1 (read-only) | Free tier | OAuth | - | - | public-apis | - |
 | [PlayerDB](https://playerdb.co) | API | JSON player lookup and caching API for Minecraft, Steam, Xbox, and Hytale accounts by username or ID | Free tier | None | - | - | public-apis | - |
+| [Pokéapi](https://pokeapi.co) | API | Open RESTful API for Pokemon data including species and abilities | Free tier | None | - | - | public-apis | - |
 | [PokéAPI (GraphQL)](https://github.com/mazipan/graphql-pokeapi) | API | Unofficial GraphQL wrapper around PokeAPI exposing Pokemon, moves, abilities, types, and more via one endpoint | Free tier | None | - | - | public-apis | - |
+| [Pokémon TCG](https://pokemontcg.io) | API | Pokemon Trading Card Game developer API now part of Scrydex | Free tier | None | - | - | public-apis | - |
 | [PokéSprite](https://msikma.github.io/pokesprite) | API | Database of Pokemon box and inventory sprites from the core series games, served as PNG images via GitHub Pages | Free tier | None | - | - | public-apis | - |
 | [Psychonauts](https://psychonauts-api.vercel.app) | API | Psychonauts World Characters Information and PSI Powers | Free tier | None | - | - | public-apis | - |
+| [PUBG](https://developer.pubg.com/) | API | Official PUBG data API for players and match statistics | Free tier | API key | - | - | public-apis | - |
 | [Puyo Nexus](https://github.com/deltadex7/puyodb-api-deno) | API | Puyo Puyo information from Puyo Nexus Wiki | Free tier | None | - | - | public-apis | - |
 | [quizapi.io](https://quizapi.io) | API | Developer-first quiz platform REST API for quizzes, questions, categories, AI generation, leaderboards, and analytics | Free tier | API key | - | - | public-apis | - |
 | [Raider](https://raider.io/api) | API | Provides detailed character and guild rankings for Raiding and Mythic+ content in World of Warcraft | Free tier | None | - | - | public-apis | - |
@@ -53,6 +82,7 @@ Game databases, player stats, assets and community APIs.
 | [Riot Games](https://developer.riotgames.com) | API | REST APIs for League of Legends, Teamfight Tactics, Valorant, and Legends of Runeterra match, ranked, and player data | Free tier | API key | - | - | public-apis | - |
 | [RuneScape](https://runescape.wiki/w/Application_programming_interface) | API | Official RuneScape APIs for Grand Exchange item prices, player stats, quests, and OSRS market data | Free tier | None | - | - | public-apis | - |
 | [Sakura CardCaptor](https://github.com/JessVel/sakura-card-captor-api) | API | REST API returning Clow and Sakura card metadata and images from Sakura Card Captors, with pagination | Free tier | None | - | - | public-apis | - |
+| [Scryfall](https://scryfall.com/docs/api) | API | Magic: The Gathering card data API with search and set info | Free tier | None | - | - | public-apis | - |
 | [SeedFinder](https://www.mineseedfinder.com/seedfinder) | API | REST API for scanning Minecraft Bedrock world seeds to find nearby structures and their coordinates | Free tier | None | - | - | public-apis | - |
 | [Social Casino Index](https://socialcasinoindex.com/data) | API | Daily-checked US social casino toplist: signup bonuses, payout times, minimums, sources | Free tier | None | - | - | public-apis | - |
 | [SpaceTradersAPI](https://spacetraders.io?rel=pub-apis) | API | A playable inter-galactic space trading MMOAPI | Free tier | OAuth | - | - | public-apis | - |
@@ -62,10 +92,13 @@ Game databases, player stats, assets and community APIs.
 | [SuperHeroes](https://superheroapi.com) | API | All SuperHeroes and Villains data from all universes under a single API | Free tier | API key | - | - | public-apis | - |
 | [TCGdex](https://tcgdex.dev) | API | Multilingual Pokemon TCG REST and GraphQL API for cards, sets, series, and images across 10+ languages | Free tier | None | - | - | public-apis | - |
 | [Tebex](https://docs.tebex.io/plugin) | API | Tebex API for information about game purchases | Free tier | API key | - | - | public-apis | - |
+| [TETR.IO](https://tetr.io/about/api/) | API | TETR.IO API endpoints for user activity and game data | Free tier | None | - | - | public-apis | - |
 | [TickerMint](https://tickermint.cards/developers) | API | Daily market prices and price history for Pokémon, One Piece, Lorcana and Yu-Gi-Oh cards | Free tier | None | - | - | public-apis | - |
 | [Tronald Dump](https://www.tronalddump.io) | API | The dumbest things Donald Trump has ever said | Free tier | None | - | - | public-apis | - |
 | [Universalis](https://docs.universalis.app/) | API | REST API for Final Fantasy XIV market board listings, sale history, aggregated prices, and upload stats | Free tier | None | - | - | public-apis | - |
 | [Valorant (non-official)](https://valorant-api.com) | API | An extensive API containing data of most Valorant in-game items, assets and more | Free tier | None | - | - | public-apis | - |
+| [Wargaming.net](https://developers.wargaming.net/) | API | Wargaming developer API for game stats and clan data | Free tier | API key | - | - | public-apis | - |
 | [weBump](https://developer.webump.app) | API | Connect games to nearby players' profiles, small saves and recent visitors with consent | Free tier | OAuth | - | - | public-apis | - |
 | [Worth the Rip](https://worththerip.com/api) | API | Sealed trading-card product prices and expected value across 10 TCGs, refreshed every 2 hours | Free tier | None | - | - | public-apis | - |
 | [xkcd](https://xkcd.com/json.html) | API | Webcomic of romance, sarcasm, math, and language | Free tier | None | - | [docs](https://api.apis.guru/v2/specs/xkcd.com/1.0.0/openapi.json) | public-apis, APIs.guru | - |
+| [Yu-Gi-Oh!](https://ygoprodeck.com/api-guide/) | API | Yu-Gi-Oh card database API with card images and data | Free tier | None | - | - | public-apis | - |

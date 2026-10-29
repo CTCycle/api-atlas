@@ -12,6 +12,7 @@ Clinical trials, medical literature, health statistics and terminology.
 | [Coronavirus](https://pipedream.com/@pravin/http-api-for-latest-wuhan-coronavirus-data-2019-ncov-p_G6CLVM/readme) | API | HTTP API returning latest COVID-19 case, recovery, and death counts globally and by region from JHU CSSE data | Free tier | None | - | - | public-apis | - |
 | [Coronavirus in the UK](https://ukhsa-dashboard.data.gov.uk/) | API | UK Government coronavirus data, including deaths and cases by region | Free tier | None | OGL-UK-3.0 | - | public-apis | - |
 | [Covid Tracking Project](https://covidtracking.com/data/api/version-2) | API | The COVID Tracking Project collects and publishes the most | Free tier | None | - | - | public-apis, awesome-datasets | - |
+| [Covid-19 Datenhub](https://npgeo-corona-npgeo-de.hub.arcgis.com) | API | Maps, datasets, applications and more in the context of COVID-19 | Free tier | None | - | - | public-apis | - |
 | [Covid-19 Government Response](https://www.bsg.ox.ac.uk/research/covid-19-government-response-tracker) | API | Government measures tracker to fight against the Covid-19 pandemic | Free tier | None | - | - | public-apis | - |
 | [Covid-19 India](https://data.covid19india.org) | API | Covid 19 statistics state and district wise about cases, vaccinations, recovery within India | Free tier | None | - | - | public-apis | - |
 | [Covid-19 JHU CSSE](https://nuttaphat.com/covid19-api) | API | Open-source API for exploring Covid19 cases based on JHU CSSE | Free tier | None | - | - | public-apis | - |
@@ -45,6 +46,7 @@ Clinical trials, medical literature, health statistics and terminology.
 | [Lexigram](https://docs.lexigram.io) | API | NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology | Free tier | API key | - | - | public-apis | - |
 | [LOINC](https://loinc.org/) | Portal | Standard codes for laboratory and clinical observations with search and download APIs | Free | Registration | - | [docs](https://loinc.org/kb/api/search-api) | editorial | 2026-10-26 |
 | [Longevity World Cup](https://longevityworldcup.com/api/data/athletes) | API | Public biological age competition data with biomarkers and rankings | Free tier | None | - | - | public-apis | - |
+| [Makeup](http://makeup-api.herokuapp.com/) | API | Makeup product information API with brand and price data | Free tier | None | - | - | public-apis | - |
 | [MedlinePlus Genetics](https://medlineplus.gov/about/developers/geneticsdatafilesapi) | API | Genetic conditions, genes, chromosomes and mtDNA data | Free tier | None | - | - | public-apis | - |
 | [MIMIC-IV](https://physionet.org/content/mimiciv/3.1/) | Dataset | Critical care database for ICU patients available for public use | Restricted | Registration | PhysioNet Credentialed ... | [docs](https://physionet.org/content/mimiciv/3.1/) | editorial | 2026-10-24 |
 | [Monarch Initiative](https://monarchinitiative.org/) | Portal | Integrated phenotype and genotype data across species for disease research | Free | None | - | [docs](https://api.monarchinitiative.org/v3/docs) | editorial | 2026-10-26 |
@@ -59,6 +61,7 @@ Clinical trials, medical literature, health statistics and terminology.
 | [openFDA](https://open.fda.gov/) | Portal | FDA drug, device, and food data API available for public use | Free | API key | Public Domain | [docs](https://open.fda.gov/) | editorial | 2026-10-24 |
 | [Orion Health](https://developer.orionhealth.io) | API | Medical platform which allows the development of applications for different healthcare scenarios | Free tier | OAuth | - | - | public-apis | - |
 | [Orphanet](https://www.orpha.net/) | Portal | Rare disease knowledge base with ORPHA codes, genes and expert centers | Free | None | - | [docs](https://www.orphadata.com/) | editorial | 2026-10-26 |
+| [Peptide Library](https://peptidelibrary.app/developers/docs) | API | Peptide research profiles, cited studies and regulatory status; vendor prices with a free key | Free tier | None | - | - | public-apis | - |
 | [PhysioBank Databases](https://www.physionet.org/data/) | Dataset | A large and growing archive of physiological data | - | - | - | - | awesome-datasets | - |
 | [PhysioNet](https://physionet.org/) | Portal | Physiological signal databases and research tools available for public use | Free | Registration | Unknown | [docs](https://physionet.org/) | editorial | 2026-10-24 |
 | [PubMed](https://pubmed.ncbi.nlm.nih.gov) | API | PubMed biomedical literature search and retrieval | Free | None | NLM terms, generally free ... | - | editorial | 2026-10-24 |
@@ -66,6 +69,7 @@ Clinical trials, medical literature, health statistics and terminology.
 | [RxNorm](https://lhncbc.nlm.nih.gov/RxNav/APIs/RxNormAPIs.html) | API | Normalized drug names, RxCUIs and NDC codes | Free tier | None | NLM terms, generally free ... | - | public-apis | - |
 | [Stanza DSCSA Verifier](https://stanzaapi.com/tools/pharma-dscsa) | API | Verify FDA DSCSA and EU FMD pharmaceutical serialization barcodes | Free tier | API key | - | - | public-apis | - |
 | [Stanza UDI Decoder](https://stanzaapi.com/tools/udi-decoder) | API | Decode and validate FDA GUDID and EU MDR medical device UDI barcodes | Free tier | API key | - | - | public-apis | - |
+| [THC Open Mindfulness Resources](https://api.theholisticcare.com/docs) | API | Free mindfulness resources and research metadata | Free tier | None | - | - | public-apis | - |
 | [UK Biobank](https://www.ukbiobank.ac.uk/) | Portal | Large-scale biomedical database and biobank available for public use | Restricted | Registration | Custom (application ... | - | editorial | 2026-10-25 |
 | [UMLS](https://www.nlm.nih.gov/research/umls/index.html) | Portal | Integrated health and biomedical vocabularies, coding standards and terminology services | Restricted | Account | - | [docs](https://documentation.uts.nlm.nih.gov/) | editorial | 2026-10-26 |
 | [Urgences Québec](https://sante.handled.tools/api) | API | Hourly emergency room occupancy, stretcher counts and wait times for every hospital in Quebec, Canada | Free tier | None | - | - | public-apis | - |

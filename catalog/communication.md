@@ -8,6 +8,7 @@ Email, SMS, voice, chat and notification services.
 | [Best Temp Mail](https://best-tempmail.com/api) | API | Disposable inboxes for automated email testing, with OTP extraction | Free tier | None | - | - | public-apis | - |
 | [Brevo](https://developers.brevo.com/docs/getting-started) | API | A service that provides solutions relating to marketing and/or transactional email and/or SMS | Free tier | API key | - | - | public-apis | - |
 | [Cloudmersive Validate](https://cloudmersive.com/validate-api) | API | Validate email addresses, phone numbers, VAT numbers and domain names | Free tier | API key | - | - | public-apis | - |
+| [ContactLint](https://contactlint.com/) | API | Validate email syntax, MX, disposable and role addresses with typo suggestions, plus phone numbers | Free tier | API key | - | - | public-apis | - |
 | [Disban](https://disban.io/docs) | API | Classify email domains as disposable, free, alias, testing or parked to block fake signups | Free tier | API key | - | - | public-apis | - |
 | [Disify](https://disify.com/) | API | Validate and detect disposable and temporary email addresses | Free tier | None | - | - | public-apis | - |
 | [DropMail](https://dropmail.me/api) | API | GraphQL API for creating and managing ephemeral e-mail inboxes | Free tier | None | - | - | public-apis | - |
@@ -20,8 +21,13 @@ Email, SMS, voice, chat and notification services.
 | [Guerrilla Mail](https://www.guerrillamail.com/GuerrillaMailAPI.html) | API | JSON API for disposable temporary email inboxes: create addresses and read or send mail | Free tier | None | - | - | public-apis | - |
 | [ImprovMX](https://improvmx.com/api) | API | HTTP REST API to programmatically manage domains and email-forwarding aliases | Free tier | API key | - | - | public-apis | - |
 | [inboxsink](https://inboxsink.com/docs) | API | Disposable inboxes for end-to-end tests that wait for the email and extract OTP codes | Free tier | API key | - | - | public-apis | - |
+| [Kickbox](https://open.kickbox.com/) | API | Disposable email address detection API for verification | Free tier | None | - | - | public-apis | - |
+| [mail.gw](https://docs.mail.gw) | API | 10 Minute Mail API - Mail.gw API Documentation | Free tier | None | - | - | public-apis | - |
+| [mail.tm](https://docs.mail.tm) | API | Temporary disposable email inboxes via API | Free tier | None | - | - | public-apis | - |
+| [Mailboxlayer](https://mailboxlayer.com) | API | Email verification API with SMTP and typo checks | Free tier | API key | - | - | public-apis | - |
 | [MailboxValidator](https://www.mailboxvalidator.com/api-email-free) | API | Validate email address to improve deliverability | Free tier | API key | - | - | public-apis | - |
 | [MailCheck.ai](https://www.usercheck.com/?ref=mailcheck) | API | Prevent users to sign up with temporary email addresses | Free tier | None | - | - | public-apis | - |
+| [mailfloss](https://developers.mailfloss.com) | API | Stop spam signups: block disposable and invalid emails and suggest typo fixes. 500 free a month | Free tier | API key | - | - | public-apis | - |
 | [Mailfornet](https://mailfornet.com/api) | API | Disposable inboxes for end-to-end signup tests, with long-polling and HMAC-signed webhooks | Free tier | API key | - | - | public-apis | - |
 | [MailRambo](https://www.mailrambo.com/developers) | API | Verify email deliverability with a strict yes/no, disposable and catch-all detection | Free tier | API key | - | - | public-apis | - |
 | [MailSenpai DNS Check](https://en.mailsenpai.com/dns-check-api) | API | Check a domain's SPF, DKIM, DMARC and MX records and get what to fix, with the values to publish | Free tier | None | - | - | public-apis | - |

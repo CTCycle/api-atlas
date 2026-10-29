@@ -18,4 +18,5 @@ Patent offices, trademarks and intellectual property records.
 | [OpenFDA Orange Book](https://open.fda.gov/apis/drug/orangebook/) | API | openFDA Orange Book API for drug product, patent and exclusivity data | Free | None | - | - | editorial | 2026-10-26 |
 | [PatentsView](https://data.uspto.gov/support/transition-guide/patentsview) | API | API is intended to explore and visualize trends/patterns across the US innovation landscape | Free tier | None | - | - | public-apis | - |
 | [TIPO](https://cloud.tipo.gov.tw/S220/opdata?QryDS=API00) | API | Taiwan IP Office portal for downloading patent and trademark open data and applying for API access | Free tier | API key | - | - | public-apis | - |
+| [USPTO](https://www.uspto.gov/learning-and-resources/open-data-and-mobility) | Portal | US patent and trademark open data services | Free tier | None | - | - | public-apis | - |
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | Portal | WIPO PATENTSCOPE search for published PCT international patent applications and national collections | Free | None | - | - | editorial | 2026-10-26 |

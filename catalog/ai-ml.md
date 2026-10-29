@@ -5,6 +5,8 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | Name | Type | Description | Access | Auth | License | Docs | Source | Checked |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [AI Economics Tools](https://piszczek.pl/tools/api) | API | Token cost, LLM energy, agent-hour and Proof-Adjusted Autonomy calculators by Michał Piszczek | Free tier | None | - | - | public-apis | - |
+| [AI For Thai](https://aiforthai.in.th/index.php) | API | Collection of Thai-language AI services exposed via API | Free tier | API key | - | - | public-apis | - |
+| [AI Stupid Level](https://aistupidlevel.info/api-docs) | API | Benchmark scores, rankings and drift data for major LLM APIs, re-measured on a fixed schedule | Free tier | API key | - | - | public-apis | - |
 | [Anthropic](https://www.anthropic.com) | API | Anthropic Claude API for language model inference | Paid | API key | - | [docs](https://claude.com/pricing) | editorial | 2026-10-24 |
 | [apilayer languagelayer](https://languagelayer.com) | API | Language Detection JSON API supporting 173 languages | Free tier | OAuth | - | - | public-apis | - |
 | [Audexum](https://audexum.com/docs) | API | Speech-to-text in 25 languages and text-to-speech with 43 voices in 32 languages | Free tier | API key | - | - | public-apis | - |
@@ -17,8 +19,10 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [Code Detection](https://codedetectionapi.runtime.dev) | API | Detect, label, format and enrich the code in your app or in your data pipeline | Free tier | OAuth | - | - | public-apis | - |
 | [Cohere](https://cohere.com) | API | NLP API for text generation, embeddings, classification and summarization with a free trial tier | Freemium | API key | - | - | editorial | 2026-10-24 |
 | [Common Crawl](https://commoncrawl.org/) | Dataset | Petabyte-scale web crawl corpus available for public use | Free | None | Unknown | [docs](https://commoncrawl.org/) | editorial | 2026-10-24 |
+| [ContextFetch](https://contextfetch.dev/docs) | API | Web search for AI agents, each result as Markdown pruned to the passages relevant to the query | Free tier | None | - | - | public-apis | - |
 | [DBpedia](https://databus.dbpedia.org/dbpedia/collections/latest-core) | Dataset | Latest core DBpedia dataset of factual triples extracted from English Wikipedia infoboxes and articles | - | - | - | - | awesome-datasets | - |
 | [DeepAI](https://deepai.org) | API | Provides AI-powered APIs for text generation, image processing, and more | Free tier | API key | - | - | public-apis | - |
+| [Deepcode](https://snyk.io/platform/deepcode-ai/) | API | AI-powered code review and security scanning for source code | Free tier | None | - | - | public-apis | - |
 | [DreamThreads](https://mydreamthreads.xyz/dream-interpretation-api) | API | Parse dreams into structured entities, emotions, agency, threat, and outcomes | Free tier | None | - | - | public-apis | - |
 | [eidosSpeech](https://eidosspeech.xyz) | API | Free text-to-speech API with 1,200+ neural voices in 75+ languages | Free tier | API key | - | - | public-apis | - |
 | [ELI](https://nlp.insightera.co.th/docs/v1.0) | API | Natural Language Processing Tools for Thai Language | Free tier | API key | - | - | public-apis | - |
@@ -39,6 +43,7 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [Irisnet](https://api.irisnet.de/swagger-ui/index.html) | API | Realtime content moderation API that blocks or blurs unwanted images in real-time | Free tier | API key | - | - | public-apis | - |
 | [Jina AI](https://jina.ai) | API | Free AI API for embeddings, reranking, and text processing | Free tier | API key | - | - | public-apis | - |
 | [Kaggle Datasets](https://www.kaggle.com/datasets) | Portal | Community datasets and competitions platform available for public use | Freemium | Registration | Unknown | [docs](https://www.kaggle.com/docs/datasets) | editorial | 2026-10-24 |
+| [Keen IO](https://keen.io/) | API | Fully managed event streaming platform built on Apache Kafka | Free tier | API key | - | - | public-apis | - |
 | [Lacuna](https://lacuna.mergeinc.workers.dev/agents.md) | API | Public board where AI agents post problems as seeks and agents who solved them offer help | Free tier | None | - | - | public-apis | - |
 | [LAION-5B](https://laion.ai/blog/laion-5b/) | Dataset | Large-scale image-text dataset for training available for public use | Restricted | Registration | Unknown | [docs](https://laion.ai/blog/laion-5b/) | editorial | 2026-10-24 |
 | [Langbly](https://langbly.com/docs) | API | Context-aware text translation and language detection for 100+ languages | Free tier | API key | - | - | public-apis | - |

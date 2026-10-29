@@ -7,8 +7,8 @@
 A curated directory of APIs, public databases, open-data portals and MCP servers
 for developers, researchers and AI agents.
 
-**2,161 resources across 45 categories** (1,765 APIs, 262 portals, 77 datasets,
-57 MCP servers). 527 rows verified by a maintainer; the rest are pointers with
+**2,553 resources across 45 categories** (2,122 APIs, 287 portals, 77 datasets,
+67 MCP servers). 527 rows verified by a maintainer; the rest are pointers with
 working links.
 
 The catalog is Markdown. Every resource is one row in one category file. Browse it

@@ -14,6 +14,8 @@ Model Context Protocol servers that expose tools and data to AI agents.
 | [Chroma MCP Server](https://github.com/chroma-core/chroma-mcp) | MCP | MCP server for Chroma vector database collections and search | Free | API key | Apache-2.0 | - | editorial | 2026-10-24 |
 | [Cloudflare MCP Server](https://github.com/cloudflare/mcp-server-cloudflare) | MCP | Cloudflare's MCP servers for DNS, Workers, R2, and other services | Free | OAuth | Apache-2.0 | [docs](https://developers.cloudflare.com/agents/model-context-protocol/cloudflare/servers-for-cloudflare/) | editorial | 2026-10-24 |
 | [Context7 MCP Server](https://github.com/upstash/context7) | MCP | Up-to-date library documentation and code examples for coding agents | Free | API key | MIT | [docs](https://context7.com) | editorial | 2026-10-24 |
+| [corpusAI Cloud Pricing](https://cloud.trycorpus.ai/docs#quick-start-for-agents) | MCP | Cloud, GPU and LLM token price data for agents | Free tier | None | - | - | public-apis | - |
+| [Council of AI](https://councilof.ai/connect/claude/) | MCP | Signed AI measurement board records and Merkle proofs | Free tier | None | - | - | public-apis | - |
 | [DbHub MCP Server](https://github.com/bytebase/dbhub) | MCP | Minimal multi-database MCP server for Postgres, MySQL, and SQLite | Free | API key | MIT | [docs](https://dbhub.ai) | editorial | 2026-10-24 |
 | [Discord MCP Server](https://github.com/SaseQ/discord-mcp) | MCP | Community MCP server for Discord channels, messages, and roles | Free | API key | MIT | - | editorial | 2026-10-24 |
 | [Docker Hub MCP Server](https://github.com/docker/hub-mcp) | MCP | MCP server for Docker Hub image and repository discovery | Free | API key | Apache-2.0 | - | editorial | 2026-10-24 |
@@ -31,8 +33,10 @@ Model Context Protocol servers that expose tools and data to AI agents.
 | [Google Maps MCP Server](https://github.com/cablate/mcp-google-map) | MCP | Google Maps tools for place search, routes, and travel planning | Freemium | API key | MIT | - | editorial | 2026-10-24 |
 | [Grafana MCP Server](https://github.com/grafana/mcp-grafana) | MCP | MCP server for querying Grafana dashboards, metrics, and logs | Free | API key | Apache-2.0 | [docs](https://grafana.com/docs/grafana/latest/ai-tools/mcp/) | editorial | 2026-10-24 |
 | [HubSpot MCP Server](https://github.com/hubspot/mcp-server) | MCP | HubSpot's MCP server for CRM contacts, deals, and engagements | Freemium | OAuth | Unknown | [docs](https://developers.hubspot.com/ai-tools/mcp) | editorial | 2026-10-24 |
+| [IndiaInsurances](https://indiainsurances.com/for-agents) | MCP | Indian insurance policy wordings clause by clause | Free tier | None | - | - | public-apis | - |
 | [Intercom MCP Server](https://developers.intercom.com/docs/guides/mcp) | MCP | Intercom's hosted MCP server for conversations and contacts | Freemium | OAuth | Unknown | - | editorial | 2026-10-24 |
 | [Kubernetes MCP Server](https://github.com/containers/kubernetes-mcp-server) | MCP | MCP server for Kubernetes and OpenShift resource management | Free | None | Apache-2.0 | - | editorial | 2026-10-24 |
+| [Kuro](https://meetkuro.com/agents/) | MCP | AI image, video, voice and music generation API | Free tier | OAuth | - | - | public-apis | - |
 | [Linear MCP Server](https://linear.app) | MCP | Linear's hosted MCP server for issues, projects, and comments | Freemium | OAuth | Unknown | [docs](https://linear.app/docs/mcp) | editorial | - |
 | [Memory MCP Server](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) | MCP | Knowledge graph-based persistent memory system for agents | Free | None | Apache-2.0 | - | editorial | 2026-10-24 |
 | [MongoDB MCP Server](https://github.com/mongodb-js/mongodb-mcp-server) | MCP | MCP server for MongoDB databases and Atlas clusters | Freemium | OAuth | Apache-2.0 | [docs](https://www.mongodb.com/products/tools/mcp-server) | editorial | 2026-10-24 |
@@ -45,9 +49,13 @@ Model Context Protocol servers that expose tools and data to AI agents.
 | [Postgres MCP Pro](https://github.com/crystaldba/postgres-mcp) | MCP | Postgres MCP server with read write access, health checks, and tuning | Free | API key | MIT | - | editorial | 2026-10-24 |
 | [Qdrant MCP Server](https://github.com/qdrant/mcp-server-qdrant) | MCP | MCP server for storing and retrieving memories in Qdrant | Freemium | API key | Apache-2.0 | - | editorial | 2026-10-24 |
 | [Redis MCP Server](https://github.com/redis/mcp-redis) | MCP | MCP server for managing and searching data in Redis | Free | API key | MIT | [docs](https://redis.io/docs/latest/integrate/redis-mcp/) | editorial | 2026-10-24 |
+| [Refnusa](https://refnusa.dev/) | MCP | Indonesian reference data: holidays, wages, regions, tax | Free tier | None | - | - | public-apis | - |
+| [RegSentry](https://regsentry.com/mcp-guide) | MCP | Inspect site tracking signals and consent evidence | Free tier | None | - | - | public-apis | - |
 | [Salesforce MCP Server](https://github.com/salesforcecli/mcp) | MCP | Salesforce DX MCP server for orgs, metadata, and data | Freemium | OAuth | Apache-2.0 | - | editorial | 2026-10-24 |
 | [Sentry MCP Server](https://github.com/getsentry/toolkit) | MCP | Sentry's remote MCP server for errors, issues, and performance data | Freemium | OAuth | FSL-1.1-Apache-2.0 | [docs](https://mcp.sentry.dev) | editorial | 2026-10-24 |
 | [Sequential Thinking MCP Server](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) | MCP | Dynamic and reflective problem-solving through thought sequences | Free | None | Apache-2.0 | - | editorial | 2026-10-24 |
+| [ShapelessAI](https://shapelessai.com/docs/mcp) | MCP | Social media post scheduling and publishing API | Free tier | OAuth | - | - | public-apis | - |
+| [Silicon Floor](https://siliconfloor.com/docs/mcp) | MCP | AI and chip stock ownership and insider data from SEC filings | Free tier | None | - | - | public-apis | - |
 | [Slack MCP Server](https://github.com/korotovsky/slack-mcp-server) | MCP | Community MCP server for Slack workspaces, channels, and messages | Free | API key | MIT | - | editorial | 2026-10-24 |
 | [Snowflake MCP Server](https://www.snowflake.com/) | MCP | Snowflake's managed MCP server for Cortex and SQL access | Paid | OAuth | Unknown | [docs](https://www.snowflake.com/en/developers/guides/getting-started-with-snowflake-mcp-server/) | editorial | - |
 | [SQLite MCP Server](https://github.com/jparkerweb/mcp-sqlite) | MCP | Community MCP server for SQLite database interaction and CRUD | Free | None | MIT | - | editorial | 2026-10-24 |
@@ -57,6 +65,8 @@ Model Context Protocol servers that expose tools and data to AI agents.
 | [Time MCP Server](https://github.com/modelcontextprotocol/servers/tree/main/src/time) | MCP | MCP server providing current time and timezone conversion tools using IANA timezone names | Free | None | Apache-2.0 | - | editorial | 2026-10-24 |
 | [Todoist MCP Server](https://github.com/Doist/todoist-mcp) | MCP | Official Todoist MCP server for tasks, projects, and comments | Freemium | OAuth | MIT | - | editorial | 2026-10-24 |
 | [Trello MCP Server](https://github.com/atlassian/trello-mcp-server) | MCP | Official Trello MCP server for boards, lists, and cards | Freemium | OAuth | Apache-2.0 | - | editorial | 2026-10-24 |
+| [Twinbay](https://docs.twinbay.ai/mcp-server) | MCP | Stateful API twins and agent run grading | Free tier | OAuth | - | - | public-apis | - |
+| [US Recalls](https://recallsapi.com/docs/mcp) | MCP | MCP server for US product recalls from 9 agencies | Free tier | API key | - | - | public-apis | - |
 | [Weather MCP Server](https://github.com/weather-mcp/weather-mcp) | MCP | MCP server providing weather forecasts and air quality data | Free | None | MIT | - | editorial | 2026-10-24 |
 | [Wikipedia MCP Server](https://github.com/Rudra-ravi/wikipedia-mcp) | MCP | MCP server retrieving Wikipedia articles and summaries | Free | None | MIT | - | editorial | 2026-10-24 |
 | [YouTube MCP Server](https://github.com/anaisbetts/mcp-youtube) | MCP | MCP server for YouTube video transcripts and metadata | Free | API key | MIT | - | editorial | 2026-10-24 |

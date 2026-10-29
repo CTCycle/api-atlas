@@ -13,6 +13,7 @@ Scores, statistics, fitness tracking and sports data.
 | [Bet Better](https://betbetter.world/api) | API | Sports model win probabilities and fair odds across 13 leagues | Free tier | None | - | - | public-apis | - |
 | [BirdieAPI](https://birdieapi.com/docs) | API | PGA Tour golf since 2001: leaderboards, hole-by-hole scores, courses, ratings and major winner odds | Free tier | API key | - | - | public-apis | - |
 | [Cito UFC API](https://citoapi.com/ufc-api) | API | UFC and MMA fight data: fighters, cards, round stats, rankings and live state | Free tier | API key | - | - | public-apis | - |
+| [City Bikes](https://api.citybik.es/v2/) | API | CityBikes API for bike share station data worldwide | Free tier | None | - | - | public-apis | - |
 | [Cloudbet](https://www.cloudbet.com/api) | API | Official Cloudbet API provides real-time sports odds and betting API to place bets programmatically | Free tier | API key | - | - | public-apis | - |
 | [CollegeFootballData.com](https://collegefootballdata.com) | API | Unofficial detailed American college football statistics, records, and results API | Free tier | API key | - | - | public-apis | - |
 | [DiscGolf](https://discgolfapi.com/docs) | API | REST API for structured disc golf course data with filtering, pagination, and confidence scores | Free tier | None | - | - | public-apis | - |
@@ -20,6 +21,7 @@ Scores, statistics, fitness tracking and sports data.
 | [Ergast F1](https://ergast.com/) | API | F1 data from the beginning of the world championships in 1950 | Free tier | None | - | - | public-apis | - |
 | [FanLine Wire](https://fanlinewire.com/docs) | API | Real-time FanDuel Sportsbook odds - live & in-play and pre-match, with a keyless public snapshot | Free tier | None | - | - | public-apis | - |
 | [FastballAPI](https://fastballapi.com/docs) | API | MLB since 2015 plus college baseball: pitches, plate appearances, box scores and sportsbook odds | Free tier | API key | - | - | public-apis | - |
+| [Fitbit](https://dev.fitbit.com/) | API | Fitbit SDK for building apps and clock faces with device data | Free tier | OAuth | - | - | public-apis | - |
 | [Football](https://rapidapi.com/GiulianoCrescimbeni/api/football98) | API | A simple Open Source Football API to get squads' stats, best scorers and more | Free tier | API key | - | - | public-apis | - |
 | [Football (Soccer) Videos](https://www.scorebat.com/video-api) | API | Embed codes for goals and highlights from Premier League, Bundesliga, Serie A and many more | Free tier | None | - | - | public-apis | - |
 | [Football Charts](https://www.football-charts.com/developers) | API | Tables, results, model probabilities and Monte Carlo season projections for 93 leagues | Free tier | API key | - | - | public-apis | - |
@@ -46,6 +48,7 @@ Scores, statistics, fitness tracking and sports data.
 | [PlayerElo](https://playerelo.football/api-access) | API | Player-level Elo ratings, predictions and history for 176 football leagues | Free tier | API key | - | - | public-apis | - |
 | [Premier League Standings](https://rapidapi.com/heisenbug/api/premier-league-live-scores) | API | All Current Premier League Standings and Statistics | Free tier | API key | - | - | public-apis | - |
 | [PropLine](https://prop-line.com) | API | Real-time player-props betting odds with graded prop resolution across 13 books | Free tier | API key | - | - | public-apis | - |
+| [QiuXiaoCe Football](https://www.qiuxiaoce.com/data-docs/) | API | Football teams, leagues, standings and match data | Free tier | None | - | - | public-apis | - |
 | [RacingHub](https://racinghub.net/api/v1/docs) | API | Open-source REST API for Formula 1 historical data: drivers, constructors, race results, standings, and season calendars since 1950 | Free tier | None | - | - | public-apis | - |
 | [Realtime Sports](https://www.realtimesportsapi.com/docs) | API | Live scores, play-by-play, schedules and odds for NFL, NBA, MLB, NHL, NCAA and soccer | Free tier | API key | - | - | public-apis | - |
 | [Sportmonks Cricket](https://docs.sportmonks.com/v2/cricket-api) | API | Live cricket score, player statistics and fantasy API | Free tier | API key | - | - | public-apis | - |
@@ -57,6 +60,7 @@ Scores, statistics, fitness tracking and sports data.
 | [SuredBits](https://suredbits.com/api) | API | Query sports data, including teams, players, games, scores and statistics | Free tier | None | - | - | public-apis | - |
 | [TheRundown](https://therundown.io) | API | Real-time sports data: odds, scores, stats & prediction markets, 30+ leagues, 18+ sportsbooks | Free tier | API key | - | - | public-apis | - |
 | [TheSportsDB](https://www.thesportsdb.com/api.php) | API | Free JSON sports API with crowd-sourced data and artwork for leagues, teams, players, events, and venues worldwide | Free tier | API key | - | - | public-apis | - |
+| [Touchline Wire](https://touchlinewire.com/docs) | API | Premier League lineups, injuries and standings | Free tier | None | - | - | public-apis | - |
 | [TourneyRadar](https://tourneyradar-api.vercel.app) | API | Upcoming chess tournaments from 140+ national federations worldwide | Free tier | None | - | - | public-apis | - |
 | [Tredict](https://www.tredict.com/blog/oauth_docs) | API | Get and set activities, health data and more | Free tier | OAuth | - | - | public-apis | - |
 | [Wger](https://wger.de/en/software/api) | API | Workout manager data as exercises, muscles or equipment | Free tier | API key | - | - | public-apis | - |

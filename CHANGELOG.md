@@ -56,6 +56,27 @@ loop. Four pages carried retirement wording.
 - CI validates all generated artifacts and the monthly job now runs
   `verify` + `triage` + `probe` instead of a bare link check.
 
+### Expansion pass (2026-10-29)
+
+- 416 rows added from public-apis, the resources that list has and this catalog did
+  not: 56 in `finance`, 43 in `entertainment-media`, 35 in `developer-tools`, 33 in
+  `games`, 28 in `government`, 26 in `art-design`, 26 in
+  `logistics-transportation`, 14 each in `cloud-infrastructure`,
+  `documents-productivity`, `marketing-social`, 13 in `science-research`, 12 each in
+  `animals`, `blockchain-crypto` and `jobs-hr`, 10 in `mcp-servers`, and the rest
+  spread over 12 categories.
+- Every candidate URL was fetched before merging. 5 of the returned rows were then
+  dropped as dead, parked or duplicate, on top of 294 of the 715 upstream candidates
+  rejected earlier for DNS failure, 404/410, parked domains, aggregator roots,
+  cloud-service pages or duplication against the existing catalog.
+- The 280 rows whose upstream blurb was shorter than 40 characters were rewritten
+  against the live page before merging, so the catalog still has no description
+  under 40 characters. Four same-name collisions (`Cat Facts`, `Dog Facts`) were
+  disambiguated by provider.
+- Carried rows keep `Source: public-apis` and `Checked: -`: they were link-checked
+  and described from the live page, not read by a person.
+- Catalog: 2,553 rows (2,122 APIs, 287 portals, 77 datasets, 67 MCP servers).
+
 ### Expansion pass (2026-10-26)
 
 - Added 246 verified rows across 22 categories: 18 in `data-analytics`; 14 each in

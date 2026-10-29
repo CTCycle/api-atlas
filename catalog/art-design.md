@@ -6,9 +6,13 @@ Museums, image collections, design assets, colour and typography data.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [3DTexel](https://3dtexel.com/developers) | API | Search free CC0 PBR materials, HDRIs, decals and 3D models for games | Free tier | None | - | - | public-apis | - |
 | [APITemplate.io](https://apitemplate.io) | API | Dynamically generate images and PDFs from templates with a simple API | Free tier | API key | - | - | public-apis | - |
+| [Art Institute of Chicago](https://api.artic.edu/docs/) | API | Documentation / Art Institute of Chicago API | Free tier | None | - | - | public-apis | - |
+| [CheetahO](https://cheetaho.com/docs/getting-started/) | API | Image optimization and resizing API for web assets | Free tier | API key | - | - | public-apis | - |
+| [Colormind](http://colormind.io/api-access/) | API | Color palette generator API with a REST interface | Free tier | None | - | - | public-apis | - |
 | [ColourLovers](http://www.colourlovers.com/api) | API | COLOURlovers API for colors, palettes, patterns, and creators with search and filtering | Free tier | None | - | - | public-apis | - |
 | [CompressGIF](https://compressgif.net/docs) | API | Compress GIF files or HTTPS URLs with asynchronous jobs and target-size controls | Free tier | API key | - | - | public-apis | - |
 | [Compresso](https://compresso.space/developers) | API | Visually lossless image compression for PNG, JPEG and WebP | Free tier | API key | - | - | public-apis | - |
+| [Cooper Hewitt](https://www.si.edu/collections/cooper-hewitt) | API | Smithsonian Design Museum collection data API | Free tier | API key | - | - | public-apis | - |
 | [Dagpi](https://dagpi.xyz) | API | Dagpi API for image manipulation, data collections, roasts, jokes, and game data | Free tier | API key | - | - | public-apis | - |
 | [Dribbble](https://developer.dribbble.com) | API | Discover the world's top designers & creatives | Free tier | OAuth | - | - | public-apis | - |
 | [DummyImage](https://dummyimage.com) | API | Generate placeholder images with custom size, colors and text | Free tier | None | - | - | public-apis | - |
@@ -17,26 +21,48 @@ Museums, image collections, design assets, colour and typography data.
 | [Europeana](https://pro.europeana.eu/resources/apis/search) | API | Europeana API for searching millions of digitized artworks, newspapers, and photos from European institutions | Free tier | API key | - | - | public-apis | - |
 | [Face Shape Guide Lookup](https://myfaceshapechart.com/openapi.json) | API | Read-only lookup for published face-shape guide records | Free tier | None | - | - | public-apis | - |
 | [Favicondl](https://favicondl.com/documentation.html) | API | Get any website's favicon by URL (SVG/PNG/ICO), with JSON metadata and fallbacks | Free tier | None | - | - | public-apis | - |
+| [Flickr](https://www.flickr.com/services/api/) | API | Photo hosting and sharing API for images and metadata | Free tier | OAuth | - | - | public-apis | - |
 | [Getty Images](https://developer.gettyimages.com/en/) | API | Build applications using the world's most powerful imagery | Free tier | OAuth | - | [docs](https://api.apis.guru/v2/specs/gettyimages.com/3/openapi.json) | public-apis, APIs.guru | - |
+| [Giphy](https://developers.giphy.com/docs/) | API | GIF search and delivery API for apps and projects | Free tier | API key | - | - | public-apis | - |
 | [Google Photos](https://developers.google.com/photos) | API | Integrate Google Photos with your apps or devices | Free tier | OAuth | - | - | public-apis | - |
 | [Icon Horse](https://icon.horse) | API | Favicon service returning the best available icon for any domain with sensible fallbacks | Free tier | None | - | - | public-apis | - |
+| [Iconfinder](https://docs.magnific.com/api-reference/icons/icons-api) | API | Icons API by Magnific (formerly Iconfinder) | Free tier | API key | - | - | public-apis | - |
 | [Iconify](https://iconify.design/docs/api) | API | Search and fetch SVG icons from 200+ open source icon sets | Free tier | None | - | - | public-apis | - |
 | [Icons8](https://img.icons8.com) | API | Icons (find "search icon" hyperlink in page) | Free tier | None | - | - | public-apis | - |
+| [Imgur](https://apidocs.imgur.com/) | API | Image hosting and sharing API exposing Imgur infrastructure | Free tier | OAuth | - | - | public-apis | - |
 | [Kavel](https://kavel.readthedocs.io/en/latest/) | API | Generate and edit images with AI, no key or account required | Free tier | None | - | - | public-apis | - |
 | [Lightdrift](https://docs.lightdrift.ai) | API | Search 1.85M openly licensed images by text or image, with license and attribution per result | Free tier | API key | - | - | public-apis | - |
 | [localscreenshot](https://localscreenshot.com) | API | Screenshot or PDF rendering of any public page, from 227 countries | Free tier | API key | - | - | public-apis | - |
+| [Lordicon](https://lordicon.com/) | API | Library of animated icons for web and mobile design | Free tier | None | - | - | public-apis | - |
+| [Lorem Picsum](https://picsum.photos/) | API | Placeholder photos from Unsplash served by size | Free tier | None | - | - | public-apis | - |
+| [Metropolitan Museum of Art](https://metmuseum.github.io/) | API | Metropolitan Museum of Art collection API with search | Free tier | None | - | - | public-apis | - |
 | [NexWall](https://nexwall.kodnextech.com/wallpaper-api/docs) | API | Curated 4K portrait phone wallpapers across 50+ categories | Free tier | API key | - | - | public-apis | - |
+| [Noun Project](http://api.thenounproject.com/index.html) | API | Icon and photo API for designers and developers | Free tier | OAuth | - | - | public-apis | - |
+| [ObjectCut](https://objectcut.com/) | API | AI-powered automatic background and foreground removal | Free tier | API key | - | - | public-apis | - |
 | [Pexafy](https://docs.pexafy.com) | API | Semantic image search across 9+ free stock photo sources with a unified JSON schema | Free tier | API key | - | - | public-apis | - |
+| [Pexels](https://www.pexels.com/api/) | API | Free stock photos and videos API for developers | Free tier | API key | - | - | public-apis | - |
+| [PhotoRoom](https://www.photoroom.com/api) | API | Photo editing API for product images at scale | Free tier | API key | - | - | public-apis | - |
 | [PHP-Noise](https://php-noise.com) | API | Generate customizable noise background images via query parameters with JSON output support | Free tier | None | - | - | public-apis | - |
 | [PickShade](https://pickshade.com/api) | API | Convert colors, check WCAG and APCA contrast, build palettes, gradients and tokens | Free tier | None | - | - | public-apis | - |
+| [Pixabay](https://pixabay.com/sk/service/about/api/) | API | Free stock photos, videos and music API access | Free tier | API key | - | - | public-apis | - |
 | [PlaceKeanu](https://placekeanu.com) | API | Resizable Keanu Reeves placeholder images with grayscale and young Keanu options | Free tier | None | - | - | public-apis | - |
 | [raFont](https://rafont.com/api-docs) | API | 1,500+ free downloadable fonts with categories, tags and preview images | Free tier | None | - | - | public-apis | - |
 | [Readme typing SVG](https://github.com/DenverCoder1/readme-typing-svg) | API | Generate animated typing-and-deleting text SVGs for GitHub profiles and README pages | Free tier | None | - | - | public-apis | - |
+| [Remove.bg](https://www.remove.bg/api) | API | Programmatic image background removal API | Free tier | API key | - | - | public-apis | - |
+| [ReSmush.it](https://resmush.it/api/) | API | Free image compression API with no usage limits | Free tier | None | - | - | public-apis | - |
+| [Rijksmuseum](https://data.rijksmuseum.nl/) | API | Rijksmuseum collection data services and APIs | Free tier | API key | - | - | public-apis | - |
 | [Screenshot Studio](https://www.screenshot-studio.com/docs) | API | Capture web pages as images through a public HTTP API | Free tier | None | - | - | public-apis | - |
+| [Screenshotlayer](https://screenshotlayer.com) | API | URL to screenshot API capturing website snapshots | Free tier | None | - | - | public-apis | - |
+| [Shutterstock](https://api-reference.shutterstock.com/) | API | Stock photos, videos, and editorial media API | Free tier | OAuth | - | - | public-apis | - |
 | [Sirv](https://apidocs.sirv.com) | API | Image management solutions like optimization, manipulation, hosting | Free tier | API key | - | - | public-apis | - |
 | [Smithsonian Open Access](https://github.com/Smithsonian/smithsonian-openaccess) | API | Smithsonian collection metadata and open-access digital media | Free tier | API key | - | - | public-apis | - |
+| [snapWONDERS](https://snapwonders.com/developers) | API | Photo and video forensic analysis, steganography and media format conversion | Free tier | API key | - | - | public-apis | - |
 | [Text-till-Kladdesign](https://text-till-klad-design.gracestack.se/api/v1/openapi.json) | API | AI fashion design generator - transform Swedish text into clothing concepts | Free tier | API key | - | - | public-apis | - |
 | [The Color API](https://www.thecolorapi.com) | API | Convert colors between formats, name colors, and generate color schemes from any input color | Free tier | None | - | - | public-apis | - |
 | [Thisispaper](https://www.thisispaper.com/intelligence/api-docs) | API | Curated architecture, design, photography and art projects with visual-similarity and taste metadata | Free tier | API key | - | - | public-apis | - |
 | [Tinify.dev](https://tinify.dev/developers) | API | Image compression, resize and crop API with usage metadata | Free tier | API key | - | - | public-apis | - |
+| [Unsplash](https://unsplash.com/developers) | API | Unsplash Image API / Free Photos & Illustrations API | Free tier | OAuth | - | - | public-apis | - |
 | [UpRes](https://upres.ai/docs/api) | API | AI image upscaling to 8K with 18 models (Real-ESRGAN, SeedVR2, AuraSR) | Free tier | API key | - | - | public-apis | - |
+| [Wallhaven](https://wallhaven.cc/help/api) | API | Wallpaper image API with search and filtering | Free tier | API key | - | - | public-apis | - |
+| [Webdam](https://www.damsuccess.com/hc/en-us/articles/202134055-REST-API) | API | Digital asset management REST API for Webdam | Free tier | OAuth | - | - | public-apis | - |
+| [Word Cloud](https://wordcloudapi.com/) | API | Word cloud generation API from text input | Free tier | API key | - | - | public-apis | - |
