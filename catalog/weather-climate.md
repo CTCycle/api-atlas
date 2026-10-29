@@ -10,7 +10,6 @@ Forecasts, observations, reanalysis and climate projections.
 | [AQICN](https://aqicn.org/api) | API | Air Quality Index Data for over 1000 cities | Free tier | API key | - | - | public-apis | - |
 | [Australian Weather](https://reg.bom.gov.au/climate/data-services) | Dataset | Updated webpage for Australian Weather data | - | - | - | - | awesome-datasets | - |
 | [AviationWeather](https://aviationweather.gov/dataserver/) | API | NOAA aviation weather forecasts and observations | Free tier | None | - | - | public-apis | - |
-| [BreezoMeter Pollen](https://mapsplatform.google.com:443/maps-products/#environment-section) | API | Daily Forecast pollen conditions data for a specific location | Free tier | API key | - | - | public-apis | - |
 | [Carbon Interface](https://docs.carboninterface.com) | API | API to calculate carbon (C02) emissions estimates for common C02 emitting activities | Free tier | API key | - | - | public-apis | - |
 | [Climate TRACE](https://climatetrace.org/) | Portal | Greenhouse gas emissions inventory data available for public use | Free | None | Unknown | [docs](https://climatetrace.org/) | editorial | 2026-10-24 |
 | [Climatiq](https://www.climatiq.io/docs) | API | Calculate the environmental footprint created by a broad range of emission-generating activities | Free tier | API key | - | - | public-apis | - |
@@ -25,6 +24,7 @@ Forecasts, observations, reanalysis and climate projections.
 | [FMI Open Data](https://en.ilmatieteenlaitos.fi/open-data) | API | Finnish weather, sea, climate and radar observations via open WFS | Free tier | None | - | - | public-apis | - |
 | [GBIF](https://www.gbif.org/) | Portal | Global biodiversity occurrence data available for public use | Free | None | Unknown | [docs](https://www.gbif.org/) | editorial | 2026-10-24 |
 | [Global Forest Watch](https://globalnaturewatch.org/) | Portal | Forest monitoring and land use data available for public use | Free | API key | Unknown | [docs](https://globalnaturewatch.org/) | editorial | 2026-10-24 |
+| [Google Maps Platform Pollen API](https://mapsplatform.google.com:443/maps-products/#environment-section) | API | Daily Forecast pollen conditions data for a specific location | Free tier | API key | - | - | public-apis | - |
 | [GridHub](https://grid-hub.app/developers) | API | Live wholesale electricity prices and demand across 25 grid zones | Free tier | API key | - | - | public-apis | - |
 | [GridVigil](https://gridvigil.com/developers) | API | Pressure scores, demand, generation mix and alerts for the 10 major U.S. power grids | Free tier | None | - | - | public-apis | - |
 | [GrünstromIndex](https://gruenstromindex.de) | API | Green Power Index for Germany (Grünstromindex/GSI) | Free tier | None | - | - | public-apis | - |

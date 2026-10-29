@@ -6,6 +6,7 @@ Email, SMS, voice, chat and notification services.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [Atomic Mail](http://docs.atomicmail.ai/) | API | Email for AI agents: programmatic inbox creation and send/receive over JMAP | Free tier | API key | - | - | public-apis | - |
 | [Best Temp Mail](https://best-tempmail.com/api) | API | Disposable inboxes for automated email testing, with OTP extraction | Free tier | None | - | - | public-apis | - |
+| [Brevo](https://developers.brevo.com/docs/getting-started) | API | A service that provides solutions relating to marketing and/or transactional email and/or SMS | Free tier | API key | - | - | public-apis | - |
 | [Cloudmersive Validate](https://cloudmersive.com/validate-api) | API | Validate email addresses, phone numbers, VAT numbers and domain names | Free tier | API key | - | - | public-apis | - |
 | [Disban](https://disban.io/docs) | API | Classify email domains as disposable, free, alias, testing or parked to block fake signups | Free tier | API key | - | - | public-apis | - |
 | [Disify](https://disify.com/) | API | Validate and detect disposable and temporary email addresses | Free tier | None | - | - | public-apis | - |
@@ -19,7 +20,6 @@ Email, SMS, voice, chat and notification services.
 | [Guerrilla Mail](https://www.guerrillamail.com/GuerrillaMailAPI.html) | API | JSON API for disposable temporary email inboxes: create addresses and read or send mail | Free tier | None | - | - | public-apis | - |
 | [ImprovMX](https://improvmx.com/api) | API | HTTP REST API to programmatically manage domains and email-forwarding aliases | Free tier | API key | - | - | public-apis | - |
 | [inboxsink](https://inboxsink.com/docs) | API | Disposable inboxes for end-to-end tests that wait for the email and extract OTP codes | Free tier | API key | - | - | public-apis | - |
-| [Kiprio Email Validate](https://kiprio.com/v1/email-validate) | API | Free email validation: MX check, disposable detection, syntax | Free tier | API key | - | - | public-apis | - |
 | [MailboxValidator](https://www.mailboxvalidator.com/api-email-free) | API | Validate email address to improve deliverability | Free tier | API key | - | - | public-apis | - |
 | [MailCheck.ai](https://www.usercheck.com/?ref=mailcheck) | API | Prevent users to sign up with temporary email addresses | Free tier | None | - | - | public-apis | - |
 | [Mailfornet](https://mailfornet.com/api) | API | Disposable inboxes for end-to-end signup tests, with long-polling and HMAC-signed webhooks | Free tier | API key | - | - | public-apis | - |
@@ -32,7 +32,6 @@ Email, SMS, voice, chat and notification services.
 | [PostStack](https://poststack.dev/docs) | API | EU-hosted email API for transactional and marketing email, with contacts, broadcasts, and analytics | Free tier | API key | - | - | public-apis | - |
 | [RankFabrik Verify](https://rankfabrik.com/produits/verification) | API | Validate email addresses for deliverability, syntax and disposable detection | Free tier | API key | - | - | public-apis | - |
 | [Sendgrid](https://www.twilio.com:443/docs/sendgrid/api-reference) | API | A cloud-based SMTP provider that allows you to send emails without having to maintain email servers | Free tier | API key | - | - | public-apis | - |
-| [Sendinblue](https://developers.brevo.com/docs/getting-started) | API | A service that provides solutions relating to marketing and/or transactional email and/or SMS | Free tier | API key | - | - | public-apis | - |
 | [SendRaven](https://sendraven.ai/docs/api) | API | Email for AI agents: send email, receive replies as threads, with per-key send limits and approvals | Free tier | API key | - | - | public-apis | - |
 | [SMTPfast](https://smtpfa.st/docs) | API | Send transactional email, manage contacts and broadcasts, free 3,000 emails/month | Free tier | API key | - | - | public-apis | - |
 | [TempMailGrab](https://tempmailgrab.com/api-docs) | API | Disposable inboxes for email testing with OTP extraction and webhooks | Free tier | API key | - | - | public-apis | - |

@@ -11,7 +11,7 @@ Hosting, storage, container and deployment platforms.
 | [Fly.io](https://fly.io/) | API | Application delivery network with an API and CLI for deploying containerized apps globally | Free tier | API key | - | [docs](https://docs.fly.io/) | editorial | 2026-10-26 |
 | [Hetzner Cloud](https://www.hetzner.com/cloud/) | API | Cloud server platform with a REST API for servers, networks and volumes | Paid | API key | - | [docs](https://docs.hetzner.cloud/) | editorial | 2026-10-26 |
 | [Koyeb](https://www.koyeb.com/) | API | Serverless platform for deploying containers and APIs globally | Free tier | API key | - | [docs](https://www.koyeb.com/docs) | editorial | 2026-10-26 |
-| [Neon](https://neon.com/) | API | Serverless Postgres platform with a REST API for projects and branches | Free tier | API key | - | [docs](https://neon.com/docs/introduction) | editorial | 2026-10-26 |
+| [Neon](https://neon.com/) | API | Serverless Postgres platform with a REST API for projects and branches | Free tier | API key | - | [docs](https://neon.com/docs) | editorial | 2026-10-26 |
 | [Railway](https://railway.com/) | API | Application deployment platform with an API for projects, services and environments | Paid | API key | - | [docs](https://docs.railway.com/) | editorial | 2026-10-26 |
 | [Render](https://render.com/) | API | Managed cloud platform with an API for services, databases and static sites | Free tier | API key | - | [docs](https://render.com/docs) | editorial | 2026-10-26 |
 | [Revdoku](https://revdoku.com/api.md) | API | Cloud file storage, version history, sharing and incoming email attachments | Free tier | API key | - | - | public-apis | - |

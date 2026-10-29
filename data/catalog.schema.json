@@ -1,0 +1,99 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/CTCycle/api-atlas/data/catalog.schema.json",
+  "title": "API Atlas catalog row",
+  "description": "One resource in the API Atlas catalog. Mirrors data/catalog.jsonl (one object per line), data/catalog.json (array) and the Markdown tables under catalog/. The Markdown is the source of truth; these fields are generated from it.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "name",
+    "type",
+    "category",
+    "description",
+    "website",
+    "access",
+    "auth",
+    "license",
+    "source",
+    "checked",
+    "verified",
+    "docs_present",
+    "license_known"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable identifier: the resource host without www plus the slugified name, e.g. open-meteo.com/open-meteo.",
+      "minLength": 3
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Display name, as written in the Markdown name cell."
+    },
+    "type": {
+      "type": "string",
+      "enum": ["API", "Dataset", "Portal", "MCP"],
+      "description": "API: a callable service. Dataset: a downloadable or queryable data collection. Portal: a catalog of datasets. MCP: a Model Context Protocol server."
+    },
+    "category": {
+      "type": "string",
+      "description": "Category slug, matching one file under catalog/."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 240,
+      "description": "One factual sentence. No marketing language, no trailing period."
+    },
+    "website": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https?://",
+      "description": "Canonical page for the resource."
+    },
+    "docs": {
+      "type": ["string", "null"],
+      "format": "uri",
+      "pattern": "^https?://",
+      "description": "Official documentation page, or null when none is recorded."
+    },
+    "access": {
+      "type": "string",
+      "enum": ["Free", "Free tier", "Freemium", "Paid", "Restricted", "-"],
+      "description": "Cheapest usable tier as stated by the provider. '-' means not established, never 'probably free'."
+    },
+    "auth": {
+      "type": "string",
+      "enum": ["None", "API key", "OAuth", "Registration", "Account", "-"],
+      "description": "What is needed before the first request."
+    },
+    "license": {
+      "type": "string",
+      "description": "Licence or terms the provider states, as text or a Markdown link. '-' when none is established."
+    },
+    "source": {
+      "type": "string",
+      "description": "Where the row came from: editorial, public-apis, APIs.guru, awesome-datasets, or a comma separated combination.",
+      "pattern": "^(editorial|public-apis|APIs\\.guru|awesome-datasets)(,\\s*(editorial|public-apis|APIs\\.guru|awesome-datasets))*$"
+    },
+    "checked": {
+      "type": ["string", "null"],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+      "description": "Date a person last read the official documentation and confirmed the row, or null when nobody has."
+    },
+    "verified": {
+      "type": "boolean",
+      "description": "Derived: true when checked is not null. Says a human confirmed the row at least once, not that it is current."
+    },
+    "docs_present": {
+      "type": "boolean",
+      "description": "Derived: true when a documentation URL is recorded."
+    },
+    "license_known": {
+      "type": "boolean",
+      "description": "Derived: true when a licence or terms value is recorded."
+    }
+  }
+}

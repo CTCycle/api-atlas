@@ -5,7 +5,6 @@ Version control, CI, code quality, package registries and build tooling.
 | Name | Type | Description | Access | Auth | License | Docs | Source | Checked |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [24 Pull Requests](https://24pullrequests.com/api) | API | Project to promote open source collaboration during December | Free tier | None | - | - | public-apis | - |
-| [Aether Bridge](https://a-to-mind.com) | API | Autonomous agent team management and API workflow orchestration | Free tier | API key | - | - | public-apis | - |
 | [Agent Nexus](https://agentnexus.app/llms.txt) | API | Continuously probed registry of APIs, MCP servers and CLIs callable by agents | Free tier | None | - | - | public-apis | - |
 | [Agify.io](https://agify.io) | API | Predicts the likely age of a person from a first name, with optional country scoping | Free tier | None | - | - | public-apis | - |
 | [Allscreenshots](https://allscreenshots.com) | API | Website screenshots and PDFs with full-page capture, dark mode and ad blocking | Free tier | API key | - | - | public-apis | - |
@@ -14,7 +13,7 @@ Version control, CI, code quality, package registries and build tooling.
 | [Anchore Engine API Server](https://anchore.com/) | API | This is the Anchore Engine API. Provides the primary external API for users of the service | - | - | Apache 2.0 | [docs](https://api.apis.guru/v2/specs/anchore.io/0.1.20/openapi.json) | APIs.guru | - |
 | [AnswerLine](https://answerline.dev) | API | Answers, citations and sources from AI assistants and Google surfaces through one API | Free tier | API key | - | - | public-apis | - |
 | [API Endpoints](https://readme.com/) | API | Create beautiful product and API documentation with our developer friendly platform | - | - | - | [docs](https://api.apis.guru/v2/specs/readme.io/2.0.0/openapi.json) | APIs.guru | - |
-| [API Grátis](https://apigratis.com.br) | API | Brazilian gateway offering 170+ REST APIs for CPF, CNPJ, vehicles, WhatsApp, SMS, CEP, and more | Free tier | None | - | - | public-apis | - |
+| [API Grátis](https://apigratis.com.br) | API | Brazilian gateway offering 170+ REST APIs for CPF, CNPJ, vehicles, WhatsApp, SMS, CEP, and more | Free tier | API key | - | - | public-apis | - |
 | [API Tool Calls](https://apitoolcalls.com/api) | API | API Tool Calls: Home cost planners, page to Markdown, SEO checks and recalls | Free tier | None | - | - | public-apis | - |
 | [ApicAgent](https://www.apicagent.com) | API | Extract device details from user-agent string | Free tier | None | - | - | public-apis | - |
 | [ApiFlash](https://apiflash.com) | API | Chrome based screenshot API for developers | Free tier | API key | - | - | public-apis | - |
@@ -28,7 +27,6 @@ Version control, CI, code quality, package registries and build tooling.
 | [Bitbucket API](https://support.atlassian.com/bitbucket-cloud) | API | Code against the Bitbucket API to automate tasks, embed Bitbucket data, build mobile or desktop apps, and add custom UI add-ons via Connect | - | - | - | [docs](https://api.apis.guru/v2/specs/bitbucket.org/2.0/openapi.json) | APIs.guru | - |
 | [Bitly](https://dev.bitly.com/) | API | Create, customize, and track short links plus QR codes and click analytics via REST API | Free tier | OAuth | - | - | public-apis | - |
 | [Bitrise](https://api-docs.bitrise.io) | API | Build tool and processes integrations to create efficient development pipelines | Free tier | API key | - | - | public-apis | - |
-| [Blague.xyz](https://blague.xyz) | API | La plus grande API de Blagues FR/The biggest FR jokes API | Free tier | API key | - | - | public-apis | - |
 | [Blitapp](https://blitapp.com/api) | API | Schedule screenshots of web pages and sync them to your cloud | Free tier | API key | - | - | public-apis | - |
 | [Blynk-Cloud](https://blynkapi.docs.apiary.io) | API | Read and write device data and control IoT projects hosted on the Blynk Cloud via REST | Free tier | API key | - | - | public-apis | - |
 | [Bored](https://bored-api.appbrewery.com) | API | Returns random activity suggestions filterable by type and number of participants | Free tier | None | - | - | public-apis | - |
@@ -51,9 +49,7 @@ Version control, CI, code quality, package registries and build tooling.
 | [Contentful Images](https://www.contentful.com/developers/docs/references/images-api) | API | Used to retrieve and apply transformations to images | Free tier | API key | - | - | public-apis | - |
 | [CORS Proxy](https://github.com/burhanuday/cors-proxy) | API | Get around the dreaded CORS error by using this proxy as a middle man | Free tier | None | - | - | public-apis | - |
 | [Crawl Readiness](https://www.crawlreadiness.com/) | API | Check if AI crawlers (ChatGPT, Claude, Perplexity, 30+ others) can access any website | Free tier | API key | - | - | public-apis | - |
-| [Creative Commons Catalog](https://api.openverse.org/v1/) | API | Search among openly licensed and public domain works | Free tier | OAuth | - | - | public-apis | - |
 | [CurlShot](https://curlshot.com/docs) | API | Screenshots, PDFs and scrolling videos of any URL, HTML or Markdown; free tier | Free tier | API key | - | - | public-apis | - |
-| [Custom Image Search Client](https://www.microsoft.com/) | API | The Bing Custom Image Search API lets you send an image search query to Bing and get back image search results customized to meet your custom search definition | - | - | - | [docs](https://api.apis.guru/v2/specs/microsoft.com/cognitiveservices-CustomImageSearch/1.0/swagger.json) | APIs.guru | - |
 | [Databricks](https://docs.databricks.com/aws/en/reference/api) | API | Service to manage your databricks account,clusters, notebooks, jobs and workspaces | Free tier | API key | - | - | public-apis | - |
 | [Diagrams.so](https://diagrams.so/developers) | API | Generate editable draw.io architecture diagrams from text or infrastructure code | Free tier | API key | - | - | public-apis | - |
 | [DigitalOcean Status](https://status.digitalocean.com/api) | API | Reports current and historical status of all DigitalOcean cloud services and regions | Free tier | None | - | - | public-apis | - |
@@ -63,7 +59,6 @@ Version control, CI, code quality, package registries and build tooling.
 | [DomainDb Info](https://api.domainsdb.info) | API | Domain name search to find all domains containing particular words/phrases/etc | Free tier | None | - | - | public-apis | - |
 | [dotsweep](https://dotsweep.com/docs) | API | Domain availability across 1200+ TLDs with registration and renewal prices | Free tier | None | - | - | public-apis | - |
 | [DownStatus](https://isitdownstatus.com) | API | Real-time status for GitHub, AWS, Discord and 90+ services | Free tier | None | - | - | public-apis | - |
-| [Drivet URL Shortener](https://wiki.drivet.xyz/en/url-shortener/add-links) | API | Shorten long URLs into shareable links with no authentication required | Free tier | None | - | - | public-apis | - |
 | [EndOfLife.date](https://endoflife.date/docs/api) | API | Software end-of-life dates and support lifecycles | Free tier | None | - | - | public-apis | - |
 | [Etherpad API](https://etherpad.org) | API | Etherpad is a real-time collaborative editor scalable to thousands of simultaneous real time users. It provides full data export capabilities, and runs on your server, under your control | - | - | Apache 2.0 | [docs](https://api.apis.guru/v2/specs/etherpad.local/1.2.15/openapi.json) | APIs.guru | - |
 | [Fair Draw](https://bettip.co.za/fair-draw/api) | API | Verifiable random draws bound to the drand public randomness beacon | Free tier | None | - | - | public-apis | - |
@@ -140,9 +135,9 @@ Version control, CI, code quality, package registries and build tooling.
 | [Open Page Rank](https://keywordseverywhere.com/openpagerank) | API | API for calculating and comparing metrics of different websites using Page Rank algorithm | Free tier | API key | - | - | public-apis | - |
 | [Open VSX](https://open-vsx.org) | API | Search and access VS Code extensions from the Open VSX registry | Free tier | None | - | - | public-apis | - |
 | [OpenQR](https://openqr.uk/api) | API | Generate QR codes and manage dynamic (editable) QR codes with scan analytics | Free tier | API key | - | - | public-apis | - |
+| [Openverse](https://api.openverse.org/v1/) | API | Search among openly licensed and public domain works | Free tier | OAuth | - | - | public-apis | - |
 | [Orca Scan](https://orcascan.com/guides/free-barcode-image-api-0e4a4fa6) | API | Generate barcode images (QR, Code 128, EAN, Data Matrix and more) in SVG, PNG, JPG or PDF | Free tier | None | - | - | public-apis | - |
 | [OutageDeck](https://outagedeck.com/developers/api) | API | Live status and incidents for 170+ cloud and SaaS providers from official feeds | Free tier | None | - | - | public-apis | - |
-| [owo](https://owo.vc) | API | Obfuscates and shortens links; new shortening ended March 2025, existing links remain | Free tier | None | - | - | public-apis | - |
 | [oyyi](https://oyyi.xyz/docs) | API | API for Fake Data, image/video conversion, optimization, pdf optimization and thumbnail generation | Free tier | None | - | - | public-apis | - |
 | [Packagist](https://packagist.org/apidoc) | API | PHP Composer package versions and dist metadata | Free tier | None | - | - | public-apis | - |
 | [PageCDN](https://pagecdn.com/docs/public-api) | API | Public API for javascript, css and font libraries on PageCDN | Free tier | API key | - | - | public-apis | - |
@@ -162,7 +157,6 @@ Version control, CI, code quality, package registries and build tooling.
 | [Rebrandly](https://developers.rebrandly.com/docs/get-started) | API | Custom URL shortener for sharing branded links | Free tier | API key | - | - | public-apis | - |
 | [RedirHub](https://www.redirhub.com/) | API | URL redirect management with custom domains, HTTPS, analytics, and REST API | Free tier | API key | - | - | public-apis | - |
 | [ReplyNodes](https://replynodes.com/markdown-api) | API | Convert a public web page into clean Markdown | Free tier | None | - | - | public-apis | - |
-| [RSS feed to JSON](https://rss-to-json-serverless-api.vercel.app) | API | Returns RSS feed in JSON format using feed URL | Free tier | None | - | - | public-apis | - |
 | [RubyGems](https://guides.rubygems.org/rubygems-org-api) | API | Ruby gem metadata, versions, dependencies and search | Free tier | None | - | - | public-apis | - |
 | [SavePage.io](https://savepage.io/) | API | A free, RESTful API used to screenshot any desktop, or mobile website | Free tier | API key | - | - | public-apis | - |
 | [ScrapeNinja](https://scrapeninja.net) | API | Scraping API with Chrome fingerprint and residential proxies | Free tier | API key | - | - | public-apis | - |

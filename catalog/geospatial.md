@@ -46,7 +46,6 @@ Maps, geocoding, satellite imagery, elevation and boundary data.
 | [HelloSalut](https://stefanbohacek.com/project/hellosalut-api/) | API | Get hello translation following user language | Free tier | None | - | - | public-apis | - |
 | [HERE](https://www.here.com) | API | HERE location platform for maps, routing and geocoding | Freemium | API key | - | [docs](https://www.here.com/developer) | editorial | 2026-10-24 |
 | [HERE Maps](https://www.here.com/developer) | API | Create/customize digital maps based on HERE Maps data | Free tier | API key | - | - | public-apis | - |
-| [Hirak IP to Country](https://iplocation.hirak.site) | API | Ip to location with country code, currency code & currency name, fast response, unlimited requests | Free tier | API key | - | - | public-apis | - |
 | [HydroATLAS](https://www.hydrosheds.org/hydroatlas) | Dataset | Global hydro-environmental sub-basin attributes available for public use | Free | None | CC BY 4.0 | [docs](https://www.hydrosheds.org/hydroatlas) | editorial | 2026-10-24 |
 | [IBGE](https://servicodados.ibge.gov.br/api/docs) | API | Aggregate services of IBGE (Brazilian Institute of Geography and Statistics) | Free tier | None | - | - | public-apis | - |
 | [IP Address Details](https://ipinfo.io) | API | IPinfo API for IP geolocation, ASN, carrier, and privacy detection data with daily refreshes | Free tier | None | - | - | public-apis | - |
@@ -70,7 +69,7 @@ Maps, geocoding, satellite imagery, elevation and boundary data.
 | [LatLng](https://www.latlng.work/docs) | API | Geocoding, reverse geocoding, places, and static maps | Free tier | None | - | - | public-apis | - |
 | [LocationIQ](https://docs.locationiq.com/docs/introduction) | API | Provides forward/reverse geocoding and batch geocoding | Free tier | API key | - | - | public-apis | - |
 | [Locio](https://locio.com.au/docs) | API | Australian address autocomplete, validation and geocoding from the G-NAF national register | Free tier | API key | - | - | public-apis | - |
-| [Longdo Map](https://map.longdo.com/docs) | API | Interactive map with detailed places and information portal in Thailand | Free tier | API key | - | - | public-apis | - |
+| [Longdo Map](https://map.longdo.com/docs) | API | Interactive map with detailed places and information portal in Thailand | Free tier | API key | - | [docs](https://map.longdo.com/docs/en) | public-apis | - |
 | [Mapbox](https://www.mapbox.com) | API | Location platform APIs and SDKs for maps, navigation, search, geocoding, and custom tilesets | Freemium | API key | - | [docs](https://docs.mapbox.com) | editorial | 2026-10-24 |
 | [Moradas](https://moradas.dev/docs) | API | Portuguese address autocomplete and 7-digit postal codes (CP7) | Free tier | None | - | - | public-apis | - |
 | [NASA Earthdata](https://earthdata.nasa.gov/) | Portal | NASA Earth observation data portal available for public use | Free | Registration | Unknown | [docs](https://earthdata.nasa.gov/) | editorial | 2026-10-24 |

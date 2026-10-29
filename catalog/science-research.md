@@ -35,7 +35,6 @@ Publications, citations, physics, chemistry and earth observation.
 | [MyGene.info](https://docs.mygene.info/en/latest/) | API | Simple REST services to query and retrieve gene annotation data from multiple public gene databases | Free tier | None | - | - | public-apis | - |
 | [NCBI E-utilities](https://www.ncbi.nlm.nih.gov/books/NBK25501) | API | Biomedical literature, sequences and gene databases | Free tier | None | - | - | public-apis | - |
 | [Newton](https://newton.vercel.app) | API | Microservice API for advanced math operations like simplify, factor, derive, integrate, and solve | Free tier | None | - | - | public-apis | - |
-| [Noctua](https://api.noctuasky.com/api/v1/swaggerdoc) | API | REST API used to access NoctuaSky features | Free tier | None | - | - | public-apis | - |
 | [OBIS](https://manual.obis.org/access) | API | Global marine species occurrence and distribution data | Free tier | None | - | - | public-apis | - |
 | [Oliver's mTOR Atlas](https://mtor-atlas.org/api) | API | Curated mTOR research: studies by evidence type, pathway claims, open questions | Free tier | None | - | - | public-apis | - |
 | [Open Ephemeris](https://openephemeris.com/docs) | API | Sub-arcsecond planetary positions, natal charts, transits, and Human Design from NASA JPL DE440 | Free tier | API key | - | - | public-apis | - |
@@ -53,7 +52,7 @@ Publications, citations, physics, chemistry and earth observation.
 | [RCSB PDB](https://data.rcsb.org) | API | 3D structures of proteins and nucleic acids | Free tier | None | - | - | public-apis | - |
 | [Remote Calc](https://github.com/elizabethadegbaju/remotecalc) | API | Decodes base64 encoding and parses it to return a solution to the calculation in JSON | Free tier | None | - | - | public-apis | - |
 | [SatNOGS](https://docs.satnogs.org/projects/satnogs-network/en/stable/api.html) | API | Satellite observations from open ground stations | Free tier | None | - | - | public-apis | - |
-| [Semantic Scholar](https://www.semanticscholar.org/) | Portal | AI-powered research literature search available for public use | Free | API key | Unknown | [docs](https://api.semanticscholar.org/) | editorial | 2026-10-24 |
+| [Semantic Scholar](https://www.semanticscholar.org/) | Portal | AI-powered research literature search available for public use | Free | API key | Unknown | [docs](https://www.semanticscholar.org/product/api) | editorial | 2026-10-24 |
 | [SHARE](https://share.osf.io/api/v2) | API | A free, open, dataset about research and scholarly activities | Free tier | None | Per record | - | public-apis | - |
 | [Solar System OpenData](https://api.le-systeme-solaire.net) | API | Data and facts on solar system bodies and planets | Free tier | None | - | - | public-apis | - |
 | [SpaceX](https://github.com/r-spacex/SpaceX-API) | API | Company, vehicle, launchpad and launch data | Free tier | None | - | - | public-apis | - |

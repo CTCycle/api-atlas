@@ -7,7 +7,7 @@ Game databases, player stats, assets and community APIs.
 | [Astroworld](https://api.astroworldmc.com) | API | Free Minecraft data: mobs, biomes, items, enchantments, structures, commands, versions, achievements, trades | Free tier | None | - | - | public-apis | - |
 | [Barter.VG](https://github.com/bartervg/barter.vg/wiki) | API | Provides information about Game, DLC, Bundles, Giveaways, Trading | Free tier | None | - | - | public-apis | - |
 | [Battle.net](https://community.developer.battle.net/documentation/guides/getting-started) | API | Diablo III, Hearthstone, StarCraft II and World of Warcraft game data APIs | Free tier | OAuth | - | - | public-apis | - |
-| [Board Game Geek](https://boardgamegeek.com/wiki/page/BGG_XML_API2) | API | XML API for the BoardGameGeek database: game details, collections, plays, forums, users, hot lists, and search | Free tier | None | - | - | public-apis | - |
+| [Board Game Geek](https://boardgamegeek.com/wiki/page/BGG_XML_API2) | API | XML API for the BoardGameGeek database: game details, collections, plays, forums, users, hot lists, and search | Free tier | API key | - | - | public-apis | - |
 | [Call of Duty Mobile](https://github.com/Harry260/codm-api) | API | Unofficial API for CODM player data and daily cache claiming | Free tier | None | - | - | public-apis | - |
 | [CheapShark](https://apidocs.cheapshark.com/) | API | Free public API for PC game price comparison and deals across Steam, GreenManGaming, Fanatical, and other stores | Free tier | None | - | - | public-apis | - |
 | [Clash of Clans](https://developer.clashofclans.com) | API | Supercell API for Clash of Clans clan search, player and clan profiles, leaderboards, and leagues (API key) | Free tier | API key | - | - | public-apis | - |
@@ -43,7 +43,7 @@ Game databases, player stats, assets and community APIs.
 | [PlayerDB](https://playerdb.co) | API | JSON player lookup and caching API for Minecraft, Steam, Xbox, and Hytale accounts by username or ID | Free tier | None | - | - | public-apis | - |
 | [PokéAPI (GraphQL)](https://github.com/mazipan/graphql-pokeapi) | API | Unofficial GraphQL wrapper around PokeAPI exposing Pokemon, moves, abilities, types, and more via one endpoint | Free tier | None | - | - | public-apis | - |
 | [PokéSprite](https://msikma.github.io/pokesprite) | API | Database of Pokemon box and inventory sprites from the core series games, served as PNG images via GitHub Pages | Free tier | None | - | - | public-apis | - |
-| [Psychonauts](https://psychonauts-api.netlify.app) | API | Psychonauts World Characters Information and PSI Powers | Free tier | None | - | - | public-apis | - |
+| [Psychonauts](https://psychonauts-api.vercel.app) | API | Psychonauts World Characters Information and PSI Powers | Free tier | None | - | - | public-apis | - |
 | [Puyo Nexus](https://github.com/deltadex7/puyodb-api-deno) | API | Puyo Puyo information from Puyo Nexus Wiki | Free tier | None | - | - | public-apis | - |
 | [quizapi.io](https://quizapi.io) | API | Developer-first quiz platform REST API for quizzes, questions, categories, AI generation, leaderboards, and analytics | Free tier | API key | - | - | public-apis | - |
 | [Raider](https://raider.io/api) | API | Provides detailed character and guild rankings for Raiding and Mythic+ content in World of Warcraft | Free tier | None | - | - | public-apis | - |

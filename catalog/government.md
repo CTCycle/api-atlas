@@ -64,7 +64,6 @@ Legislation, procurement, civic records and public sector APIs.
 | [Luxembourg](https://data.public.lu/en) | Dataset | Official Luxembourg open data portal (data.public.lu) with datasets, reuses, and APIs for government data | - | - | - | - | awesome-datasets | - |
 | [MORVS](https://morvs.ai/api) | API | Source-linked US regulatory and public records: SEC filings, enforcement actions, recalls | Free tier | None | - | - | public-apis | - |
 | [National Park Service, US](https://www.nps.gov/subjects/developer/index.htm) | API | NPS API providing authoritative data on US national parks, visitor centers, campgrounds, events, and alerts | Free tier | API key | - | - | public-apis | - |
-| [Neotimo DGFiP Mirror](https://neotimo.com/annuaire-dgfip) | API | French DGFiP registry of certified e-invoicing platforms (Plateformes Agréées), searchable by SIRET | Free tier | None | - | - | public-apis | - |
 | [Open Government, ACT](https://www.data.act.gov.au) | API | Australian Capital Territory open data portal with datasets and APIs for ACT government information | Free tier | None | - | - | public-apis | - |
 | [Open Government, Australia](https://www.data.gov.au) | API | Australian Government open data portal (data.gov.au) with datasets and APIs across federal agencies | Free tier | None | - | - | public-apis | - |
 | [Open Government, Czech Republic](https://data.gov.cz/english) | API | Czech Republic open data portal (data.gov.cz) providing government datasets and SPARQL/REST APIs | Free tier | None | - | - | public-apis | - |

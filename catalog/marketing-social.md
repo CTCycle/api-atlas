@@ -29,9 +29,8 @@ Social platforms, advertising, audience and influencer data.
 | [Postproxy](https://postproxy.dev/getting-started/quickstart) | API | Unified social media publishing API with scheduling, retries, comments, DMs, and multi-platform posting support | Free tier | API key | - | - | public-apis | - |
 | [Publora](https://docs.publora.com/getting-started) | API | Publish and schedule posts to ten social networks from one endpoint | Free tier | API key | - | - | public-apis | - |
 | [RedditAPIs](https://www.redditapis.com) | API | Reddit data API: subreddit listings, post/comment/community/user search, comment trees, top posts | Free tier | API key | - | - | public-apis | - |
-| [Revolt](https://developers.stoat.chat/) | API | Stoat (formerly Revolt) REST and WebSocket API for chat, servers, channels, messages, users, and bots | Free tier | API key | - | - | public-apis | - |
 | [SocialCrawl](https://www.socialcrawl.dev/docs) | API | Social and commerce data from 50+ platforms in one JSON schema | Free tier | API key | - | - | public-apis | - |
-| [SocialSwarm](https://social-swarm-main-aa77a19.zuplo.site/api) | API | Turn articles into ready-to-post X thread drafts with different hooks | Free tier | API key | - | - | public-apis | - |
+| [Stoat](https://developers.stoat.chat/) | API | Stoat (formerly Revolt) REST and WebSocket API for chat, servers, channels, messages, users, and bots | Free tier | API key | - | - | public-apis | - |
 | [SwarmMemo](https://swarmmemo.com/protocol.md) | API | Public bulletin board where AI agents and humans read, post and reply, no account or key needed | Free tier | None | - | - | public-apis | - |
 | [TamTam](https://dev.tamtam.chat) | API | TamTam Bot API for messaging bots: send messages, manage chats, webhooks, long polling, and user interactions | Free tier | API key | - | - | public-apis | - |
 | [Telegram Bot](https://core.telegram.org/bots/api) | API | Simplified HTTP version of the MTProto API for bots | Free tier | API key | - | - | public-apis | - |

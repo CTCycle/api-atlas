@@ -75,7 +75,7 @@ Company data, CRMs, invoicing, product catalogs and marketplaces.
 | [Tenders in Romania](https://tenders.guru/ro/api) | API | Get data for procurements in Romania in JSON format | Free tier | None | - | - | public-apis | - |
 | [Tenders in Spain](https://tenders.guru/es/api) | API | Get data for procurements in Spain in JSON format | Free tier | None | - | - | public-apis | - |
 | [Tenders in Ukraine](https://tenders.guru/ua/api) | API | Get data for procurements in Ukraine in JSON format | Free tier | None | - | - | public-apis | - |
-| [Tokopedia](https://partner.tiktokshop.com/docv2/page/overview) | API | Tokopedia's Official API for integration of various services from Tokopedia | Free tier | OAuth | - | - | public-apis | - |
+| [TikTok Shop](https://partner.tiktokshop.com/docv2/page/overview) | API | Partner API for TikTok Shop sellers covering products orders logistics and fulfillment | Free tier | OAuth | - | - | public-apis | - |
 | [Tomba email finder](https://tomba.io/api) | API | Email Finder for B2B sales and email marketing and email verifier | Free tier | API key | - | - | public-apis | - |
 | [TradeDataHub](https://www.tradedatahub.net) | API | U.S. contractor datasets with a free discovery API for coverage, pricing and masked previews | Free tier | None | - | - | public-apis | - |
 | [UGC VZ](https://ugc-vz.de/developers) | API | Directory of DACH user-generated-content creators with topics, cities, rates and contact requests | Free tier | None | - | - | public-apis | - |

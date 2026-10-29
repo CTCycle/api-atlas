@@ -6,6 +6,56 @@ The registry became a catalog. The machine-readable registry of 5,227 records wa
 replaced by a curated Markdown directory, and the Python package, the JSON Schema,
 the SQLite index, the importers and the scheduled refresh workflows were removed.
 
+### Verification pass (2026-10-29)
+
+Full re-verification of every row, 2,496 URLs, with redirects followed to the real
+destination: 2,282 reachable, 51 moved, 78 gated, 33 timeouts, 22 TLS errors, 20
+server errors, 3 DNS failures, 3 unreachable, 2 parked domains, 1 broken, 1 redirect
+loop. Four pages carried retirement wording.
+
+- `linkcheck` was replaced in practice by a new `verify` command: it follows the
+  redirect chain, resolves relative `Location` headers (the previous report proposed
+  fragments such as `/Help.aspx#JavaScript` as new URLs), records the final URL and
+  page title, and flags parked or expired domains plus retirement notices.
+- New `triage` command groups the newest verify report by the decision each row
+  needs: remove-or-replace, retired, confirm-new-domain, auth-mismatch,
+  title-mismatch, update-url, recheck. It never edits anything.
+- 17 rows removed with evidence: eight domains that now redirect to an unrelated
+  spam host (`faceapi`, `ocr`, `translate`, `rates`, `iplocation` on `hirak.site`,
+  plus `AniAPI`, `Fun Fact` and `Drivet URL Shortener`), two parked domains
+  (`blague.xyz`, `docs.bhagavadgitaapi.in`), two domains that no longer resolve
+  (`waifu.im`, `api.noctuasky.com`), two closed services (`owo.vc`, `LocalBitcoins`),
+  one API withdrawn by its provider (`Kiprio Email Validate`, HTTP 410), one retired
+  platform (`Custom Image Search Client`: Bing Search APIs were retired 2025-08-11),
+  and one row pointing at the provider's own not-found page (`Neotimo DGFiP Mirror`).
+- 15 rows corrected after a verified move: `gate.io` to `gate.com`,
+  `shikimori.one` to `shikimori.io`, Octopus Energy's developer portal to the Kraken
+  domain, the NYT Archive API (was pointing at the nytimes.com homepage), Mastercard
+  Personalized Offers (was pointing at mastercard.com), the CFPB developer site,
+  NCBI Taxonomy, Coinbase, Neon docs, Longdo docs, the Mozilla HTTP Observatory API
+  path, the Grafana MCP docs, `data.gov.uk`, the French address API docs and the
+  Semantic Scholar API page.
+- Deliberately left alone: gated pages that are bot walls rather than auth
+  requirements (`federalregister.gov`), cosmetic locale or `www` redirects, and any
+  row that failed once (a single automated failure never removes a row).
+- `scripts/probe.py` added: it discovers OpenAPI and Swagger documents on the
+  website, in the docs page and at conventional paths, and only records a hit when
+  the document parses and has a non-empty `paths` object.
+
+### Agent-facing additions (2026-10-29)
+
+- `data/catalog.schema.json`, JSON Schema 2020-12 for the machine-readable rows.
+- `data/catalog.json` (array) alongside the existing JSONL and CSV.
+- Three derived, date-stable fields in every export: `verified`, `docs_present`,
+  `license_known`. They do not change because a day passed, so the CI freshness
+  check keeps its meaning.
+- `validate` now also checks that the committed export matches the tables field for
+  field, instead of relying on a separate CI step.
+- `docs/no-auth.md` is generated from the catalog: every free, keyless resource,
+  grouped by category.
+- CI validates all generated artifacts and the monthly job now runs
+  `verify` + `triage` + `probe` instead of a bare link check.
+
 ### Expansion pass (2026-10-26)
 
 - Added 246 verified rows across 22 categories: 18 in `data-analytics`; 14 each in

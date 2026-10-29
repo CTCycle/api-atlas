@@ -9,7 +9,7 @@ Chain data, market prices, wallets, explorers and smart contract tooling.
 | [Alchemy Ethereum](https://www.alchemy.com/docs) | API | Alchemy node-as-a-service API for reading and writing Ethereum and over 100 other chains | Free tier | API key | - | - | public-apis | - |
 | [Alpha (Mossland)](https://alpha.moss.land/developers) | API | Korean crypto channel stance + RAG Q&A + canonical entity/topic/event store | Free tier | None | - | - | public-apis | - |
 | [Binance](https://github.com/binance/binance-spot-api-docs) | API | Exchange for Trading Cryptocurrencies based in China | Free tier | API key | - | - | public-apis | - |
-| [Bitcambio](https://nova.bitcambio.com.br/api/v3/docs) | API | Get the list of all traded assets in the exchange | Free tier | None | - | - | public-apis | - |
+| [Bitcambio](https://www.bitcambio.com.br) | API | Get the list of all traded assets in the exchange | Free tier | None | - | - | public-apis | - |
 | [Bitcoin Halving](https://why21million.com/halving-api) | API | Halving era, block reward, and schedule arithmetic for any Bitcoin block height | Free tier | None | - | - | public-apis | - |
 | [BitcoinAverage](https://apiv2.bitcoinaverage.com) | API | Digital Asset Price Data for the blockchain industry | Free tier | API key | - | - | public-apis | - |
 | [BitcoinCharts](https://bitcoincharts.com/about/exchanges) | API | Financial and Technical Data related to the Bitcoin Network | Free tier | None | - | - | public-apis | - |
@@ -32,7 +32,7 @@ Chain data, market prices, wallets, explorers and smart contract tooling.
 | [Chainpoint](https://tierion.com/chainpoint) | API | Chainpoint is a global network for anchoring data to the Bitcoin blockchain | Free tier | None | - | - | public-apis | - |
 | [ClearTrace](https://cleartracedata.com/docs) | API | Cross-frontend DEX attribution and execution quality data across Ethereum and L2s | Free tier | None | - | - | public-apis | - |
 | [CoinAPI](https://www.coinapi.io/docs) | API | All Currency Exchanges integrate under a single api | Free tier | API key | - | - | public-apis | - |
-| [Coinbase](https://developers.coinbase.com) | API | Bitcoin, Bitcoin Cash, Litecoin and Ethereum Prices | Free tier | API key | - | - | public-apis | - |
+| [Coinbase](https://www.coinbase.com/developer-platform) | API | Bitcoin, Bitcoin Cash, Litecoin and Ethereum Prices | Free tier | API key | - | - | public-apis | - |
 | [Coinbase Pro](https://docs.cdp.coinbase.com/exchange/introduction/welcome) | API | REST, FIX, and WebSocket APIs for trading and public market data on the Coinbase Exchange | Free tier | API key | - | - | public-apis | - |
 | [CoinCap](https://pro.coincap.io/api-docs) | API | Real time Cryptocurrency prices through a RESTful API | Free tier | None | - | - | public-apis | - |
 | [CoinDCX](https://docs.coindcx.com) | API | Spot and futures trading API for the CoinDCX exchange, with market data, orders, positions, and sockets | Free tier | API key | - | - | public-apis | - |
@@ -57,21 +57,19 @@ Chain data, market prices, wallets, explorers and smart contract tooling.
 | [Ethplorer](https://github.com/EverexIO/Ethplorer/wiki/Ethplorer-API) | API | Ethereum tokens, balances, addresses, history of transactions, contracts, and custom structures | Free tier | API key | - | - | public-apis | - |
 | [EXMO](https://documenter.getpostman.com/view/10287440/SzYXWKPi) | API | Spot crypto exchange API with public market data and authenticated trading, wallets, and order management | Free tier | API key | - | - | public-apis | - |
 | [FraudCoins](https://fraudcoins.com/data) | API | On-chain top-10 holder concentration and contract permissions for crypto tokens | Free tier | None | - | - | public-apis | - |
-| [Gateio](https://www.gate.io/api2) | API | API provides spot, margin and futures trading operations | Free tier | API key | - | - | public-apis | - |
+| [Gateio](https://www.gate.com/api2) | API | API provides spot, margin and futures trading operations | Free tier | API key | - | - | public-apis | - |
 | [Get Started with Web3](https://github.com/beihaili/Get-Started-with-Web3/blob/main/docs/api.md) | API | Bilingual Web3 lessons, glossary search and role-based learning paths | Free tier | None | - | - | public-apis | - |
 | [Helium](https://docs.helium.com/network-data/legacy-blockchain-data/) | API | Helium is a global, distributed network of Hotspots that create public, long-range wireless coverage | Free tier | None | - | - | public-apis | - |
-| [Hirak Exchange Rates](https://rates.hirak.site) | API | Exchange rates between 162 currency & 300 crypto currency update each 5 min, accurate, no limits | Free tier | API key | - | - | public-apis | - |
 | [HostDeFi](https://hostdefi.com/docs/api) | API | Free A+-F token-safety grades across Solana and EVM chains | Free tier | None | - | - | public-apis | - |
 | [Huobi](https://huobiapi.github.io/docs/spot/v1/en) | API | Spot and derivatives exchange API (HTX) for market data, trading, accounts, and WebSocket streams | Free tier | API key | - | - | public-apis | - |
 | [Hyperliquid Market Data](https://rapidapi.com/theliminalguy/api/hyperliquid-market-data-oi-funding-open-interest) | API | Hyperliquid open interest, funding and cross-venue predicted rates per coin | Free tier | API key | - | - | public-apis | - |
 | [Indodax](https://github.com/btcid/indodax-official-api-docs) | API | Trade your Bitcoin and other assets with rupiah | Free tier | API key | - | - | public-apis | - |
 | [INFURA Ethereum](https://www.infura.io/product/ethereum) | API | Interaction with the Ethereum mainnet and several testnets | Free tier | API key | - | - | public-apis | - |
 | [KuCoin](https://www.kucoin.com/docs-new?lang=en_US&) | API | Spot, margin, and futures trading API with market data, orders, and WebSocket push for KuCoin exchange | Free tier | API key | - | - | public-apis | - |
-| [Localbitcoins](https://localbitcoins.com/api-docs) | API | P2P Bitcoin marketplace API for ad listings, market data, contacts, and escrow trade management | Free tier | None | - | - | public-apis | - |
 | [MadeOnSol](https://madeonsol.com/developer) | API | Real-time Solana & Robinhood Chain KOL trades, deployer reputation, and DEX activity | Free tier | API key | - | - | public-apis | - |
 | [MarginPad](https://marginpad.io/free-crypto-api) | API | Crypto futures prices, candles, funding, open interest, long/short and liquidations, 9 exchanges | Free tier | None | - | - | public-apis | - |
 | [Mempool](https://mempool.space/docs/api) | API | Bitcoin API Service focusing on the transaction fee | Free tier | None | - | - | public-apis | - |
-| [Messari](https://messari.io/api) | API | Provides API endpoints for thousands of crypto assets | Free tier | None | - | - | public-apis | - |
+| [Messari](https://messari.io/api) | API | Provides API endpoints for thousands of crypto assets | Free tier | API key | - | - | public-apis | - |
 | [Mexc](https://www.mexc.com/api-docs) | API | Spot and futures exchange API for market data, account queries, and signed order placement | Free tier | API key | - | - | public-apis | - |
 | [monerometrics](https://monerometrics.net) | API | Reorg-aware Monero (XMR) network metrics, mining-pool centralization and chain reorganizations | Free tier | None | - | - | public-apis | - |
 | [Nexchange](https://nexchange2.docs.apiary.io) | API | Instant crypto swap API with floating or fixed rates, order tracking, and non-custodial DeFi swaps | Free tier | None | - | - | public-apis | - |

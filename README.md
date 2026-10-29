@@ -90,10 +90,13 @@ Rows are added and corrected by people, and every row says where it came from.
 curl -O https://raw.githubusercontent.com/CTCycle/api-atlas/main/data/catalog.jsonl
 ```
 
-Each line is one resource: `id`, `name`, `type`, `category`, `description`,
-`website`, `docs`, `access`, `auth`, `license`, `source`, `checked`. A CSV copy is at
-`data/catalog.csv`. Both are generated from the Markdown; if they disagree, the
-Markdown is correct.
+Each line is one resource. Fields: `id`, `name`, `type`, `category`, `description`,
+`website`, `docs`, `access`, `auth`, `license`, `source`, `checked`, plus three
+derived booleans (`verified`, `docs_present`, `license_known`) so an agent can filter
+without parsing dates. The same rows are published as `data/catalog.json` (array) and
+`data/catalog.csv`, and the field rules are machine-checkable in
+[`data/catalog.schema.json`](data/catalog.schema.json) (JSON Schema 2020-12). All of
+them are generated from the Markdown; if they disagree, the Markdown is correct.
 
 ```python
 import json
@@ -101,6 +104,10 @@ rows = [json.loads(l) for l in open("data/catalog.jsonl", encoding="utf-8")]
 free = [r for r in rows if r["access"] == "Free" and r["auth"] == "None"]
 print(len(free), "free, keyless APIs")
 ```
+
+Looking for something you can call right now, without an account? The generated
+[no key needed](docs/no-auth.md) shortlist is the same catalog filtered to rows with
+`Auth: None` and a free tier.
 
 ## Scope
 

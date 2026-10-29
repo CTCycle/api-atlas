@@ -19,7 +19,6 @@ Banking, markets, payments data, forex and financial statements.
 | [CurrencyBeacon](https://currencybeacon.com) | API | Real-time and historical currency exchange rates with free tier | Free tier | API key | - | - | public-apis | - |
 | [CurrencyFreaks](https://currencyfreaks.com) | API | Provides current and historical currency exchange rates with free plan 1K requests/month | Free tier | API key | - | - | public-apis | - |
 | [Currencylayer](https://currencylayer.com) | API | Real-time JSON exchange rates for 168 currencies with conversion and historical data (API key) | Free tier | API key | - | - | public-apis | - |
-| [CurrencyScoop](https://currencybeacon.com/api-documentation) | API | Real-time and historical currency rates JSON API | Free tier | API key | - | - | public-apis | - |
 | [Czech National Bank](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml) | API | Czech National Bank daily foreign exchange rates published as a public XML feed | Free tier | None | - | - | public-apis | - |
 | [Daleelak](https://getdaleelak.com/en/api) | API | Egyptian bank and dealer exchange rates, gold and silver prices | Free tier | None | - | - | public-apis | - |
 | [Degenscan Intel Macro](https://intel.degenscan.io/docs) | API | U.S. Treasury auctions, stablecoin supply, Brazil crypto-dollar premium vs BCB PTAX; free trial key | Free tier | API key | - | - | public-apis | - |
@@ -50,6 +49,8 @@ Banking, markets, payments data, forex and financial statements.
 | [KmalServico Gold Price Dataset](https://www.kmalservico.com/data) | API | Current gold price per gram at 6 purities for 188 countries, JSON, no auth | Free tier | None | - | - | public-apis | - |
 | [LiquiLens](https://liquilens.in/developers) | API | Public-record bank and lender failure-risk evidence | Free tier | None | - | - | public-apis | - |
 | [Live SEC Form 4 Insider Trades](https://rapidapi.com/crisp-point-studio-crisp-point-studio-default/api/live-sec-form-4-insider-trades) | API | Latest SEC Form 4 insider trading filings from EDGAR, by ticker or market-wide | Free tier | API key | - | - | public-apis | - |
+| [LSEG Data & Analytics](https://www.lseg.com/en/data-analytics) | API | LSEG market data and analytics platform formerly Refinitiv | Paid | Account | - | - | editorial | - |
+| [Massive](https://massive.com/) | API | Market data API for stocks, options, forex and crypto | Freemium | API key | - | [docs](https://massive.com/docs) | editorial | 2026-10-24 |
 | [matchwire.win](https://matchwire.win/docs) | API | Matched prediction-market games across Kalshi, Polymarket US/Intl and Predict.fun | Free tier | API key | - | - | public-apis | - |
 | [Nasdaq Data Link](https://data.nasdaq.com/) | Portal | Financial and economic datasets platform available for public use | Freemium | API key | Unknown | [docs](https://data.nasdaq.com/) | editorial | 2026-10-24 |
 | [National Bank of Poland](http://api.nbp.pl/en.html) | API | A collection of currency exchange rates (data in XML and JSON) | Free tier | None | - | - | public-apis | - |
@@ -58,14 +59,12 @@ Banking, markets, payments data, forex and financial statements.
 | [Nigeria PAYE](https://www.orionsoftlimited.com/developers) | API | Nigerian income tax (PAYE) and take-home pay under the Nigeria Tax Act 2025 | Free tier | None | - | - | public-apis | - |
 | [NORTH7 Agent](https://north7.ai/v1/docs) | API | Trading signals, market analysis and geopolitical intelligence | Free tier | API key | - | - | public-apis | - |
 | [paralelo.bo](https://paralelo.bo/api) | API | Bolivia parallel-market USD/BOB exchange rate, aggregated from P2P sources every 60s | Free tier | None | - | - | public-apis | - |
-| [Polygon.io](https://massive.com/) | API | Market data API for stocks, options, forex and crypto | Freemium | API key | - | [docs](https://massive.com/docs) | editorial | 2026-10-24 |
 | [PolyKal Fees](https://polykal.net/fee-schedule/) | API | Kalshi & Polymarket trading fee rates and formulas as verified JSON | Free tier | None | - | - | public-apis | - |
 | [Rate-API](https://rate-api.com/docs/api) | API | Hourly exchange rates for 160+ currencies in JSON, XML or CSV with free plan 2,500 requests/month | Free tier | API key | - | - | public-apis | - |
-| [Refinitiv](https://www.lseg.com/en/data-analytics) | API | Refinitiv market data and analytics platform | Paid | Account | - | - | editorial | - |
 | [SEC EDGAR](https://www.sec.gov/edgar) | Portal | SEC corporate filings and financial data available for public use | Free | None | Public Domain | [docs](https://www.sec.gov/search-filings/edgar-application-programming-interfaces) | editorial | 2026-10-25 |
 | [Seiche](https://seiche.info/developers) | API | Free public funding, FX and capital-market evidence with source clocks | Free tier | None | - | - | public-apis | - |
 | [TaxID](https://www.taxid.dev/docs) | API | EU VAT number validation with company name and address lookup across all 27 member states | Free tier | API key | - | - | public-apis | - |
-| [The Consumer Financial Protection Bureau](https://consumerfinance.gov) | API | Learn more about home mortgage data, download the data yourself, or build new tools using our API | - | - | - | [docs](https://api.consumerfinance.gov/api-docs) | APIs.guru | - |
+| [The Consumer Financial Protection Bureau](https://cfpb.github.io/) | API | Learn more about home mortgage data, download the data yourself, or build new tools using our API | - | - | - | - | APIs.guru | - |
 | [Tradeworks](https://magick.nu) | API | Authentication is required to access all methods of the API. Enter username and password. Credentials are automatically set as you type | - | - | - | - | APIs.guru | - |
 | [Undertow](https://liquilens-undertow.com/developers) | API | Public market-depth and sized exit estimates, not executable quotes | Free tier | None | - | - | public-apis | - |
 | [Xero Assets API](https://developer.xero.com) | API | The Assets API exposes fixed asset related functions of the Xero Accounting application and can be used for a variety of purposes such as creating assets, retrieving asset valuations etc | - | - | MIT | [docs](https://api.apis.guru/v2/specs/xero.com/xero_assets/2.9.4/openapi.json) | APIs.guru | - |

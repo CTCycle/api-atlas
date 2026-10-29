@@ -1,0 +1,189 @@
+#!/usr/bin/env python3
+"""Discover live OpenAPI/Swagger specifications for catalogued APIs.
+
+A homepage that answers 200 proves a website exists. It does not prove the API
+works. This script looks for the machine-readable contract instead: it reads the
+website and the docs page, collects candidate specification links (and tries the
+conventional paths), then validates that the response really is an OpenAPI or
+Swagger document with a non-empty `paths` object.
+
+That is the strongest evidence a directory can offer without an API key: the
+provider is publishing a contract that parses.
+
+Usage:
+    python scripts/probe.py                       # every API entry
+    python scripts/probe.py --category finance
+    python scripts/probe.py --limit 50 --workers 8
+    python scripts/probe.py --out reports/probe.json
+
+Output: reports/probe-YYYY-MM-DD.json with one record per entry and a summary.
+Nothing is written to catalog/; a human decides whether to cite a spec.
+"""
+
+from __future__ import annotations
+
+import argparse
+import concurrent.futures as futures
+import datetime as dt
+import json
+import re
+import sys
+from collections import Counter
+from pathlib import Path
+from urllib.parse import urljoin, urlsplit
+
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+import catalog  # noqa: E402  (stdlib-only helper module in this repo)
+
+REPORT_DIR = ROOT / "reports"
+
+SPEC_HREF = re.compile(
+    r"""["'(]([^"'()\s]*(?:openapi|swagger|api-docs|apispec)[^"'()\s]*\.(?:json|yaml|yml))["')]""",
+    re.I,
+)
+CONVENTIONAL = (
+    "/openapi.json", "/swagger.json", "/openapi.yaml", "/swagger/v1/swagger.json",
+    "/v2/api-docs", "/v3/api-docs", "/api-docs", "/api/openapi.json",
+    "/.well-known/openapi.json",
+)
+MAX_SPEC_BYTES = 512 * 1024
+
+
+def candidate_spec_urls(entry) -> list[str]:
+    """Spec links found on the website and docs pages, then conventional paths."""
+    found: list[str] = []
+    for page in (entry.url, entry.docs):
+        if not page:
+            continue
+        status, headers, body, _ = catalog._fetch(page, "GET", 20, read_body=MAX_SPEC_BYTES)
+        if not body:
+            continue
+        text = body.decode("utf-8", "replace")
+        for match in SPEC_HREF.findall(text):
+            found.append(urljoin(page, match))
+    origin = "{0.scheme}://{0.netloc}".format(urlsplit(entry.url))
+    found.extend(origin + path for path in CONVENTIONAL)
+    seen: set[str] = set()
+    unique = []
+    for url in found:
+        key = url.rstrip("/")
+        if key not in seen:
+            seen.add(key)
+            unique.append(url)
+    return unique[:10]
+
+
+def validate_spec(url: str) -> dict | None:
+    """Return spec metadata if the URL serves a parseable OpenAPI/Swagger document."""
+    status, headers, body, error = catalog._fetch(url, "GET", 25, read_body=MAX_SPEC_BYTES)
+    if not body or status is None or not 200 <= status < 300:
+        return None
+    text = body.decode("utf-8", "replace").lstrip()
+    if not text.startswith("{"):
+        return None
+    try:
+        doc = json.loads(text)
+    except ValueError:
+        return None
+    if not isinstance(doc, dict):
+        return None
+    if "openapi" not in doc and "swagger" not in doc:
+        return None
+    paths = doc.get("paths")
+    if not isinstance(paths, dict) or not paths:
+        return None
+    info = doc.get("info") if isinstance(doc.get("info"), dict) else {}
+    return {
+        "spec_url": url,
+        "spec_version": doc.get("openapi") or doc.get("swagger"),
+        "spec_title": (info.get("title") or "")[:120] or None,
+        "path_count": len(paths),
+    }
+
+
+def probe(entry) -> dict:
+    record = {"name": entry.name, "category": entry.category, "type": entry.type,
+              "website": entry.url, "spec": None, "tried": 0, "error": None}
+    try:
+        candidates = candidate_spec_urls(entry)
+        record["tried"] = len(candidates)
+        for url in candidates:
+            spec = validate_spec(url)
+            if spec:
+                record["spec"] = spec
+                break
+    except Exception as exc:  # noqa: BLE001
+        record["error"] = f"{type(exc).__name__}: {exc}"
+    return record
+
+
+def main(argv: list[str] | None = None) -> int:
+    ap = argparse.ArgumentParser(description=__doc__,
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--limit", type=int, default=0, help="random sample size (0 = all)")
+    ap.add_argument("--seed", type=int, default=11)
+    ap.add_argument("--category")
+    ap.add_argument("--type", default="API", choices=sorted(catalog.TYPES),
+                    help="entry type to probe (default API; use '' for all)")
+    ap.add_argument("--workers", type=int, default=8)
+    ap.add_argument("--missing", action="store_true",
+                    help="only probe entries that have no spec in the newest probe report")
+    ap.add_argument("--out")
+    args = ap.parse_args(argv)
+
+    entries = catalog.load(catalog.Problems(), strict=False)
+    if args.type:
+        entries = [e for e in entries if e.type == args.type]
+    if args.category:
+        entries = [e for e in entries if e.category == args.category]
+    if args.missing:
+        known = set()
+        for report in sorted(REPORT_DIR.glob("probe-*.json")):
+            if report.name.startswith("probe-smoke"):
+                continue
+            for record in json.loads(report.read_text(encoding="utf-8"))["records"]:
+                if record.get("spec"):
+                    known.add((record["category"], record["name"]))
+        before = len(entries)
+        entries = [e for e in entries if (e.category, e.name) not in known]
+        print(f"skipping {before - len(entries)} entries that already have a spec")
+    if args.limit:
+        import random
+        random.Random(args.seed).shuffle(entries)
+        entries = entries[: args.limit]
+
+    print(f"probing {len(entries)} entries (workers={args.workers})", flush=True)
+    records: list[dict] = []
+    done = 0
+    with futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
+        for record in pool.map(probe, entries):
+            records.append(record)
+            done += 1
+            if done % 50 == 0:
+                print(f"  {done}/{len(entries)}  specs found: "
+                      f"{sum(1 for r in records if r['spec'])}", flush=True)
+
+    found = [r for r in records if r["spec"]]
+    records.sort(key=lambda r: (r["category"], r["name"].casefold()))
+    out = Path(args.out).resolve() if args.out else \
+        REPORT_DIR / f"probe-{dt.date.today().isoformat()}.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps({
+        "generated": dt.datetime.now().isoformat(timespec="seconds"),
+        "entries_probed": len(records),
+        "specs_found": len(found),
+        "by_category": dict(Counter(r["category"] for r in found).most_common()),
+        "records": records,
+    }, indent=1), encoding="utf-8")
+
+    print(f"\n{len(found)} of {len(records)} entries publish a valid OpenAPI/Swagger document")
+    try:
+        print(f"wrote {out.relative_to(ROOT)}")
+    except ValueError:
+        print(f"wrote {out}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

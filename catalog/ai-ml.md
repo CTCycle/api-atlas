@@ -30,9 +30,6 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [Google Gemini](https://ai.google.dev/gemini-api/docs) | API | Multimodal generative AI for text, vision, and code generation | Free tier | API key | - | - | public-apis | - |
 | [Google MC-AFP](https://github.com/google/mcafp) | Dataset | Generated based on the public available Gigaword dataset using Paragraph Vectors | - | - | - | - | awesome-datasets | - |
 | [Groq](https://groq.com) | API | Fast AI inference API with free tier, supports Llama, Mixtral, Gemma models | Freemium | API key | - | - | editorial | 2026-10-24 |
-| [Hirak FaceAPI](https://faceapi.hirak.site) | API | Face detection, face recognition with age estimation/gender estimation, accurate, no quota limits | Free tier | API key | - | - | public-apis | - |
-| [Hirak OCR](https://ocr.hirak.site) | API | Image to text -text recognition- from image more than 100 language, accurate, unlimited requests | Free tier | API key | - | - | public-apis | - |
-| [Hirak Translation](https://translate.hirak.site) | API | Translate between 21 of most used languages, accurate, unlimited requests | Free tier | API key | - | - | public-apis | - |
 | [Hugging Face](https://huggingface.co) | API | AI model hub with inference API for NLP, computer vision, and audio | Freemium | API key | Per dataset | - | editorial | 2026-10-24 |
 | [Hugging Face Datasets](https://huggingface.co/datasets) | Portal | Machine learning datasets hub and library available for public use | Free | None | Unknown | [docs](https://huggingface.co/docs/datasets/index) | editorial | 2026-10-24 |
 | [ImageNet](https://www.image-net.org/) | Dataset | Large-scale image classification dataset available for public use | Restricted | Registration | Custom (research use) | [docs](https://www.image-net.org/) | editorial | 2026-10-24 |
@@ -57,6 +54,7 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [Mistral AI](https://docs.mistral.ai/api) | API | High-performance LLM API by Mistral AI including Mistral and Mixtral models, with a free tier | Free tier | API key | - | - | public-apis | - |
 | [Modelfax](https://bytebrujo.github.io/modelfax) | API | LLM pricing, context windows and deprecation dates, schema-validated and updated daily | Free tier | None | - | - | public-apis | - |
 | [MotaWord API](https://www.motaword.com/) | API | Use MotaWord API to post and track your translation projects | - | - | - | [docs](https://api.motaword.com/) | APIs.guru | - |
+| [Neurotechnology Cloud](https://neurotechnologycloud.com/) | API | Face Detection, Face Recognition and Face Grouping | Free tier | API key | - | - | public-apis | - |
 | [NLP Cloud](https://nlpcloud.com/) | API | NLP API using spaCy and transformers for NER, sentiments, classification, summarization, and more | Free tier | API key | - | - | public-apis | - |
 | [Nonobench](https://www.nonobench.com/how-it-works) | API | Open-source benchmark of how well LLMs solve nonogram puzzles | Free tier | None | - | - | public-apis | - |
 | [Not Human Search](https://nothumansearch.ai/openapi.yaml) | API | AI tool discovery with agentic scoring for 8,600+ tools and MCP servers | Free tier | None | - | - | public-apis | - |
@@ -79,7 +77,6 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [SafeReel](https://safereel.ai/docs) | API | NSFW detection for images and full-length videos by URL, free tier | Free tier | API key | - | - | public-apis | - |
 | [SelectPdf HTML To PDF API](https://selectpdf.com/html-to-pdf-api) | API | SelectPdf HTML To PDF Online REST API is a professional solution that lets you create PDF from web pages and raw HTML code in your applications | - | - | - | [docs](https://api.apis.guru/v2/specs/selectpdf.com/1.0.0/swagger.json) | APIs.guru | - |
 | [Semantria](https://semantria-docs.lexalytics.com/docs/obtain-your-creds) | API | Text Analytics with sentiment analysis, categorization & named entity extraction | Free tier | OAuth | - | - | public-apis | - |
-| [SkyBiometry](https://neurotechnologycloud.com/) | API | Face Detection, Face Recognition and Face Grouping | Free tier | API key | - | - | public-apis | - |
 | [Speak AI](https://docs.speakai.co) | API | Transcribe and analyze audio and video in 100+ languages | Free tier | API key | - | - | public-apis | - |
 | [Statlyte](https://statlyte.com/api) | API | Live pricing, context windows and model ids for major LLM APIs | Free tier | None | - | - | public-apis | - |
 | [TAGGUN Receipt OCR Scanning API](https://www.taggun.io/) | API | Expects only running software, real reactions, and beautifully crafted APIs to serve your every desire to transcribe a piece of paper to digital form | - | - | - | [docs](https://api.apis.guru/v2/specs/taggun.io/1.10.9/swagger.json) | APIs.guru | - |

@@ -16,7 +16,7 @@ Fake users, addresses, images and generators for testing.
 | [GeneradorDNI](https://api.generadordni.es) | API | Data generator API. Profiles, vehicles, banks and cards, etc | Free tier | API key | - | - | public-apis | - |
 | [JsonFabrica](https://jsonfabrica.com/docs/api-reference) | API | Generate realistic relational synthetic JSON test data from reusable templates | Free tier | API key | - | - | public-apis | - |
 | [loremfile](https://loremfile.dev/docs/manifest) | API | Hotlinkable CC0 sample files in 78 formats, each with a SHA-256 in a JSON manifest | Free tier | None | - | - | public-apis | - |
-| [Metaphorsum](http://metaphorpsum.com) | API | Generate demo paragraphs giving number of words and sentences | Free tier | None | - | - | public-apis | - |
+| [Metaphorpsum](http://metaphorpsum.com) | API | Generate demo paragraphs giving number of words and sentences | Free tier | None | - | - | public-apis | - |
 | [Mockaroo](https://www.mockaroo.com/docs) | API | Generate fake data to JSON, CSV, TXT, SQL and XML | Free tier | API key | - | - | public-apis | - |
 | [NovaFortix Dev](https://public-dev-apis.surge.sh) | API | Zero-auth REST endpoints for mock user profiles, UUIDs and HTTP status codes | Free tier | None | - | - | public-apis | - |
 | [Random User Generator](https://randomuser.me) | API | Generate random user profiles with names, addresses, emails, photos and more in multiple locales and formats | Free | None | - | [docs](https://randomuser.me/documentation) | editorial | - |

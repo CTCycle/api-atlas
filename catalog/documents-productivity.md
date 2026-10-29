@@ -11,7 +11,6 @@ Document conversion, file storage, notes, tasks and office automation.
 | [Chinese Character Web](http://ccdb.hemiola.com) | API | Chinese character definitions and pronunciations | Free tier | None | - | - | public-apis | - |
 | [Chinese Text Project](https://ctext.org/tools/api) | API | Online open-access digital library for pre-modern Chinese texts | Free tier | None | - | - | public-apis | - |
 | [ClickUp](https://developer.clickup.com/) | API | ClickUp is a robust, cloud-based project management tool for boosting productivity | Free tier | OAuth | - | - | public-apis | - |
-| [clickup20](https://clickup.com) | API | Polls is a simple API allowing consumers to view polls and vote in them | - | - | - | [docs](https://jsapi.apiary.io/apis/clickup20.source) | APIs.guru | - |
 | [CloudConvert](https://cloudconvert.com/docs/getting-started/introduction) | API | Online file converter for audio, video, document, ebook, archive, image, spreadsheet, presentation | Free tier | API key | - | - | public-apis | - |
 | [Cloudmersive Document and Data Conversion](https://cloudmersive.com/convert-api) | API | HTML/URL to PDF/PNG, Office documents to PDF, image conversion | Free tier | API key | - | - | public-apis | - |
 | [Code::Stats](https://codestats.net/api-docs) | API | API for tracking programming XP and language usage via periodic pulses, with public user profiles | Free tier | API key | - | - | public-apis | - |
@@ -19,7 +18,6 @@ Document conversion, file storage, notes, tasks and office automation.
 | [Convert Online](https://convert.online/api-docs) | API | Online file converter for image, video, audio, document, ebook, font, archive and CAD formats | Free tier | API key | - | - | public-apis | - |
 | [CountdownsHQ](https://countdownshq.com/developers) | API | Dates and timezone-correct countdowns for 150+ holidays and observances in 18 countries | Free tier | None | - | - | public-apis | - |
 | [CraftMyPDF](https://craftmypdf.com) | API | Generate PDF documents from templates with a drop-and-drop editor and a simple API | Free tier | API key | - | - | public-apis | - |
-| [Czech Namedays Calendar](https://svatky.adresa.info) | API | Lookup for a name and returns nameday date | Free tier | None | - | - | public-apis | - |
 | [DocCheap](https://doc.cheap/docs) | API | Read passports, ID cards and driver's licences into JSON, $0.01 per recognised document | Free tier | API key | - | - | public-apis | - |
 | [Emboss](https://getemboss.ai/docs/quickstart) | API | Make PDF forms fillable, fill them from JSON or documents, and read filled forms back | Free tier | API key | - | - | public-apis | - |
 | [FaturaPDF](https://rapidapi.com/leosanchees2014/api/brazilian-invoice-receipt-pdf-api-cpf-cnpj) | API | Generate Brazilian invoice/receipt PDFs with checksum-validated CPF/CNPJ and PIX QR | Free tier | API key | - | - | public-apis | - |

@@ -17,7 +17,7 @@ Species data, pet and wildlife records, animal images and shelters.
 | [HTTP Dog](https://http.dog) | API | Serve a dog image for any HTTP status code via a simple URL pattern with multiple image formats | Free tier | None | - | - | public-apis | - |
 | [IUCN](https://www.iucnredlist.org/) | API | IUCN Red List API for species conservation status, range, population, and threat data | Free tier | API key | - | - | public-apis | - |
 | [Movebank](https://github.com/movebank/movebank-api-doc) | API | Movebank REST API for animal tracking and on-animal sensor data downloads in CSV or JSON | Free tier | None | - | - | public-apis | - |
-| [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/taxonomy) | Portal | NCBI taxonomy database of scientific names and classification for organisms | Free | None | Public domain (US government) | - | editorial | 2026-10-26 |
+| [NCBI Taxonomy](https://www.ncbi.nlm.nih.gov/datasets/taxonomy/) | Portal | NCBI taxonomy database of scientific names and classification for organisms | Free | None | Public domain (US government) | - | editorial | 2026-10-26 |
 | [RescueGroups](https://rescuegroups.org/) | API | Adoptable pet data API with animal and organization records for shelters | Free | API key | - | [docs](https://rescuegroups.org/services/adoptable-pet-data-api/) | editorial | 2026-10-26 |
 | [The Dog](https://www.thedogapi.com/en) | API | A public service all about Dogs, free to use when making your fancy new App, Website or Service | Free tier | API key | - | - | public-apis | - |
 | [Wildlife Insights](https://www.wildlifeinsights.org/) | Portal | Camera trap image platform for identifying and sharing wildlife observations | Free | None | - | - | editorial | 2026-10-26 |

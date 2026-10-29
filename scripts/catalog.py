@@ -37,7 +37,7 @@ from collections import Counter, defaultdict
 from dataclasses import dataclass, field, asdict
 from pathlib import Path
 from typing import Iterable
-from urllib.parse import urlsplit
+from urllib.parse import urljoin, urlsplit
 
 ROOT = Path(__file__).resolve().parent.parent
 CATALOG_DIR = ROOT / "catalog"
@@ -279,6 +279,31 @@ def cmd_validate(args: argparse.Namespace) -> int:
             names = ", ".join(f"{g.name} ({g.category})" for g in group)
             problems.warn("catalog", f"same URL listed {len(group)} times: {url} -> {names}")
 
+    # the committed export must agree with the tables, field for field
+    export = DATA_DIR / "catalog.jsonl"
+    if export.exists():
+        rows = []
+        for number, line in enumerate(export.read_text(encoding="utf-8").splitlines(), 1):
+            try:
+                rows.append(json.loads(line))
+            except ValueError as exc:
+                problems.error(f"data/catalog.jsonl:{number}", f"not valid JSON: {exc}")
+        expected = {e.slug for e in entries}
+        seen = {r.get("id") for r in rows}
+        for missing in sorted(expected - seen)[:10]:
+            problems.error("data/catalog.jsonl", f"missing row {missing} (run: export --format jsonl)")
+        for extra in sorted(seen - expected)[:10]:
+            problems.error("data/catalog.jsonl", f"row {extra} is not in the tables (stale export)")
+        for r in rows:
+            if r.get("type") not in TYPES:
+                problems.error(f"data/catalog.jsonl {r.get('id')}", f"bad type {r.get('type')!r}")
+            if r.get("access") not in ACCESS:
+                problems.error(f"data/catalog.jsonl {r.get('id')}", f"bad access {r.get('access')!r}")
+            if r.get("auth") not in AUTH:
+                problems.error(f"data/catalog.jsonl {r.get('id')}", f"bad auth {r.get('auth')!r}")
+            if r.get("checked") is not None and not DATE.match(str(r["checked"])):
+                problems.error(f"data/catalog.jsonl {r.get('id')}", "bad checked date")
+
     for line in problems.errors:
         print("ERROR  ", line)
     for line in problems.warnings:
@@ -305,6 +330,34 @@ def cmd_stats(args: argparse.Namespace) -> int:
     return 0
 
 
+def _row(e: Entry) -> dict:
+    """The machine-readable record, including derived fields agents can filter on.
+
+    Derived fields are deliberately date-independent: the committed export must not
+    change just because a day passed, or the CI freshness check would fail on every
+    unrelated pull request.
+    """
+    checked = None if e.checked == "-" else e.checked
+    return {
+        "id": e.slug,
+        "name": e.name,
+        "type": e.type,
+        "category": e.category,
+        "description": e.description,
+        "website": e.url,
+        "docs": e.docs or None,
+        "access": e.access,
+        "auth": e.auth,
+        "license": e.license,
+        "source": e.source,
+        "checked": checked,
+        # derived, never hand-edited
+        "verified": checked is not None,
+        "docs_present": bool(e.docs),
+        "license_known": e.license not in {"-", ""},
+    }
+
+
 def cmd_export(args: argparse.Namespace) -> int:
     entries = load(Problems(), strict=False)
     DATA_DIR.mkdir(exist_ok=True)
@@ -312,31 +365,61 @@ def cmd_export(args: argparse.Namespace) -> int:
         out = Path(args.out) if args.out else DATA_DIR / "catalog.jsonl"
         with out.open("w", encoding="utf-8", newline="\n") as fh:
             for e in entries:
-                fh.write(json.dumps({
-                    "id": e.slug,
-                    "name": e.name,
-                    "type": e.type,
-                    "category": e.category,
-                    "description": e.description,
-                    "website": e.url,
-                    "docs": e.docs or None,
-                    "access": e.access,
-                    "auth": e.auth,
-                    "license": e.license,
-                    "source": e.source,
-                    "checked": None if e.checked == "-" else e.checked,
-                }, sort_keys=True, ensure_ascii=False) + "\n")
+                fh.write(json.dumps(_row(e), sort_keys=True, ensure_ascii=False) + "\n")
+    elif args.format == "json":
+        out = Path(args.out) if args.out else DATA_DIR / "catalog.json"
+        # one object per line: a JSON array that still produces line-sized diffs
+        rows = [json.dumps(_row(e), sort_keys=True, ensure_ascii=False) for e in entries]
+        out.write_text("[\n" + ",\n".join(rows) + "\n]\n", encoding="utf-8")
     else:
         out = Path(args.out) if args.out else DATA_DIR / "catalog.csv"
         with out.open("w", encoding="utf-8", newline="") as fh:
             w = csv.writer(fh, lineterminator="\n")
             w.writerow(["id", "name", "type", "category", "description", "website",
-                        "docs", "access", "auth", "license", "source", "checked"])
+                        "docs", "access", "auth", "license", "source", "checked",
+                        "verified", "docs_present", "license_known"])
             for e in entries:
-                w.writerow([e.slug, e.name, e.type, e.category, e.description, e.url,
-                            e.docs, e.access, e.auth, e.license, e.source,
-                            "" if e.checked == "-" else e.checked])
+                r = _row(e)
+                w.writerow([r["id"], r["name"], r["type"], r["category"], r["description"],
+                            r["website"], r["docs"] or "", r["access"], r["auth"],
+                            r["license"], r["source"], r["checked"] or "",
+                            r["verified"], r["docs_present"], r["license_known"]])
     print(f"wrote {out} ({len(entries)} entries)")
+    return 0
+
+
+def cmd_shortlist(args: argparse.Namespace) -> int:
+    """Generate docs/no-auth.md: the free, keyless subset, grouped by category."""
+    entries = load(Problems(), strict=False)
+    wanted = [e for e in entries
+              if e.auth == "None" and e.access in {"Free", "Free tier"}]
+    by_cat: dict[str, list[Entry]] = defaultdict(list)
+    for e in wanted:
+        by_cat[e.category].append(e)
+
+    lines = [
+        "# No key needed",
+        "",
+        f"{len(wanted)} catalogued resources that need no credentials: `Auth` is `None`",
+        "and the cheapest usable tier is `Free` or `Free tier`. Nothing here requires an",
+        "account, a key or an approval.",
+        "",
+        "Generated from the catalog by `python scripts/catalog.py shortlist`. Edit the",
+        "category tables, not this file.",
+        "",
+    ]
+    for slug, title, _ in CATEGORIES:
+        rows = sorted(by_cat.get(slug, []), key=lambda e: e.name.casefold())
+        if not rows:
+            continue
+        lines += [f"## {title} ({len(rows)})", ""]
+        for e in rows:
+            docs = f" ([docs]({e.docs}))" if e.docs else ""
+            lines.append(f"- [{e.name}]({e.url}){docs} - {e.description}")
+        lines.append("")
+    out = ROOT / "docs" / "no-auth.md"
+    out.write_text("\n".join(lines), encoding="utf-8")
+    print(f"wrote {out.relative_to(ROOT)} ({len(wanted)} entries in {len(by_cat)} categories)")
     return 0
 
 
@@ -414,6 +497,17 @@ class _NoRedirect(urllib.request.HTTPRedirectHandler):
 
 
 _OPENER = urllib.request.build_opener(_NoRedirect)
+
+
+def _insecure_opener():
+    """A second opener that ignores certificate validation.
+
+    Some servers publish an incomplete chain that Windows rejects but a browser
+    completes. A retry here separates 'certificate chain is broken' from 'server
+    refuses the connection', which are very different maintenance actions.
+    """
+    context = ssl._create_unverified_context()  # noqa: S323 - diagnostic only
+    return urllib.request.build_opener(_NoRedirect, urllib.request.HTTPSHandler(context=context))
 _HOST_GATE: dict[str, float] = {}
 _GATE_LOCK = threading.Lock()
 
@@ -427,56 +521,184 @@ def _throttle(host: str, interval: float = 1.0) -> None:
         time.sleep(wait)
 
 
-def check_url(url: str, timeout: float = 15.0) -> dict:
+PARKED_HOSTS = {
+    "sedoparking.com", "parkingcrew.net", "dan.com", "afternic.com",
+    "hugedomains.com", "buydomains.com", "parklogic.com", "above.com",
+    "domainmarket.com", "undeveloped.com", "brandbucket.com", "domainsponsor.com",
+}
+PARKED_HINTS = (
+    "domain is for sale", "buy this domain", "this domain may be for sale",
+    "domain parking", "parked domain", "domain has expired", "this domain has expired",
+)
+DEPRECATED_HINTS = (
+    "no longer available", "has been discontinued", "service has been discontinued",
+    "has shut down", "service is discontinued", "end of life", "sunsetted",
+    "api is deprecated", "this api has been retired",
+)
+
+
+def _classify_error(error: str | None) -> str:
+    low = (error or "").lower()
+    if "ssl" in low or "certificate" in low:
+        return "tls-error"
+    if "timed out" in low or "timeout" in low:
+        return "timeout"
+    if "name or service" in low or "getaddrinfo" in low or "no address" in low:
+        return "dns"
+    return "unreachable"
+
+
+def _lower_headers(headers) -> dict:
+    """HTTP header names are case-insensitive; servers are not consistent."""
+    return {str(k).lower(): v for k, v in (headers or {}).items()}
+
+
+def _fetch(url: str, method: str = "GET", timeout: float = 15.0,
+           read_body: bool = False,
+           insecure: bool = False) -> tuple[int | None, dict, bytes, str | None]:
+    """One request, redirects NOT followed. Returns (status, headers, body, error)."""
     host = urlsplit(url).netloc
-    ctx = ssl.create_default_context()
+    headers = {"User-Agent": USER_AGENT, "Accept": "*/*",
+               "Accept-Language": "en-US,en;q=0.8"}
+    limit = read_body if isinstance(read_body, int) and not isinstance(read_body, bool) else 8192
+    req = urllib.request.Request(url, method=method, headers=headers)
+    opener = _insecure_opener() if insecure else _OPENER
+    _throttle(host)
+    try:
+        with opener.open(req, timeout=timeout) as resp:
+            body = resp.read(limit) if read_body else b""
+            return int(resp.getcode()), _lower_headers(resp.headers), body, None
+    except urllib.error.HTTPError as exc:
+        body = b""
+        if read_body:
+            try:
+                body = exc.read(limit)
+            except Exception:  # noqa: BLE001
+                body = b""
+        return int(exc.code), _lower_headers(exc.headers), body, None
+    except Exception as exc:  # noqa: BLE001
+        return None, {}, b"", f"{type(exc).__name__}: {exc}"
+
+
+def page_signals(body: bytes) -> tuple[str, str | None]:
+    """Return (title, hint) from an HTML prefix. hint is 'parked' or 'deprecated'."""
+    text = body.decode("utf-8", "replace")
+    title = ""
+    m = re.search(r"<title[^>]*>(.*?)</title>", text, re.I | re.S)
+    if m:
+        title = re.sub(r"\s+", " ", m.group(1)).strip()[:200]
+    low = text.casefold()
+    if any(h in low for h in PARKED_HINTS):
+        return title, "parked"
+    if any(h in low for h in DEPRECATED_HINTS):
+        return title, "deprecated"
+    return title, None
+
+
+def _is_parked_host(url: str) -> bool:
+    host = urlsplit(url).netloc.lower().removeprefix("www.")
+    return any(host == h or host.endswith("." + h) for h in PARKED_HOSTS)
+
+
+def _defrag(url: str) -> str:
+    """Drop the fragment: redirect targets are proposed as catalog cells."""
+    parts = urlsplit(url)
+    return parts._replace(fragment="").geturl()
+
+
+SECOND_LEVEL = {"co", "com", "org", "net", "ac", "gov", "edu", "or", "ne", "go"}
+
+
+def _registrable(url: str) -> str:
+    """Approximate the registrable domain: last two labels, three for co.uk style."""
+    host = urlsplit(url).netloc.lower().split(":")[0].removeprefix("www.")
+    labels = host.split(".")
+    if len(labels) >= 3 and labels[-2] in SECOND_LEVEL and len(labels[-1]) == 2:
+        return ".".join(labels[-3:])
+    return ".".join(labels[-2:])
+
+
+def check_url(url: str, timeout: float = 15.0, max_hops: int = 5,
+              deep: bool = False) -> dict:
+    """Check one URL, following redirects so the report sees the real destination.
+
+    deep=True also reads a bounded prefix of the final page to capture the title
+    and to detect parking and retirement notices.
+    """
     result = {"ok": False, "status": None, "kind": "unreachable", "error": None,
-              "location": None, "method": "head", "elapsed_ms": 0}
+              "location": None, "final_url": url, "final_status": None,
+              "title": None, "hint": None, "hops": 0, "method": "head",
+              "moved_offsite": False, "elapsed_ms": 0}
     start = time.monotonic()
+    current = url
 
-    def fetch(method: str) -> tuple[int | None, str | None, str | None]:
-        headers = {"User-Agent": USER_AGENT, "Accept": "*/*",
-                   "Accept-Language": "en-US,en;q=0.8"}
-        req = urllib.request.Request(url, method=method, headers=headers)
-        _throttle(host)
-        try:
-            with _OPENER.open(req, timeout=timeout) as resp:
-                # read a bounded prefix so a large page cannot stall the sweep,
-                # without sending a Range header that some servers answer with 400/404
-                resp.read(4096)
-                return int(resp.getcode()), None, None
-        except urllib.error.HTTPError as exc:
-            return int(exc.code), exc.headers.get("Location"), None
-        except Exception as exc:  # noqa: BLE001
-            return None, None, f"{type(exc).__name__}: {exc}"
-
-    status, location, error = fetch("HEAD")
-    if status is None or status in RETRY_STATUSES or (status or 0) >= 400:
+    status, headers, body, error = _fetch(current, "HEAD", timeout)
+    method = "head"
+    if status is None or status in RETRY_STATUSES or status >= 400:
         time.sleep(0.5)
-        status, location, error = fetch("GET")
-        result["method"] = "get"
+        status, headers, body, error = _fetch(current, "GET", timeout)
+        method = "get"
+
+    hops = 0
+    while status is not None and 300 <= status < 400 and hops < max_hops:
+        location = headers.get("location")
+        if not location:
+            break
+        current = _defrag(urljoin(current, location))
+        hops += 1
+        time.sleep(0.3)
+        status, headers, body, error = _fetch(current, method, timeout)
+        if status is None or status in RETRY_STATUSES or status >= 400:
+            time.sleep(0.4)
+            status, headers, body, error = _fetch(current, "GET", timeout)
+            method = "get"
+
+    result.update(hops=hops, final_url=current, method=method)
+    moved = current.rstrip("/") != url.rstrip("/")
+    result["moved_offsite"] = bool(moved and _registrable(current) != _registrable(url))
 
     if status is None:
         result["error"] = error
-        low = (error or "").lower()
-        if "ssl" in low or "certificate" in low:
-            result["kind"] = "tls-error"
-        elif "timed out" in low or "timeout" in low:
-            result["kind"] = "timeout"
-        elif "name or service" in low or "getaddrinfo" in low:
-            result["kind"] = "dns"
-        else:
-            result["kind"] = "unreachable"
+        result["kind"] = _classify_error(error)
+        if result["kind"] == "tls-error":
+            time.sleep(0.4)
+            status2, headers2, body2, error2 = _fetch(current, "GET", timeout, True, insecure=True)
+            if status2 is not None and 200 <= status2 < 400:
+                result.update(status=status2, final_status=status2, kind="tls-chain", ok=True,
+                              error=f"certificate chain rejected by the client store ({error}); "
+                                    f"page answers {status2} without validation")
+                headers, body, status = headers2, body2, status2
     elif 200 <= status < 300:
-        result.update(ok=True, status=status, kind="ok")
+        result.update(ok=True, status=status, final_status=status,
+                      kind="moved" if moved else "ok",
+                      location=current if moved else None)
     elif 300 <= status < 400:
-        result.update(status=status, kind="redirect", location=location)
+        result.update(status=status, kind="redirect",
+                      location=urljoin(current, headers.get("location") or ""))
     elif status in GATED:
-        result.update(status=status, kind="gated", error=f"HTTP {status}")
+        result.update(status=status, final_status=status, kind="gated",
+                      error=f"HTTP {status}")
     elif status in BROKEN:
-        result.update(status=status, kind="broken", error=f"HTTP {status}")
+        result.update(status=status, final_status=status, kind="broken",
+                      error=f"HTTP {status}")
     else:
-        result.update(status=status, kind="error", error=f"HTTP {status}")
+        result.update(status=status, final_status=status, kind="error",
+                      error=f"HTTP {status}")
+
+    if _is_parked_host(current):
+        result.update(ok=False, kind="dead-parked", error="redirects to a domain parking host")
+
+    if deep and result["kind"] in {"ok", "moved", "gated"}:
+        if not body:
+            time.sleep(0.2)
+            _, _, body, _ = _fetch(current, "GET", timeout, read_body=True)
+        title, hint = page_signals(body)
+        result["title"] = title or None
+        result["hint"] = hint
+        if hint == "parked":
+            result.update(ok=False, kind="dead-parked",
+                          error=f"page reads as a parked domain ({title or 'no title'})")
+
     result["elapsed_ms"] = int((time.monotonic() - start) * 1000)
     return result
 
@@ -535,11 +757,12 @@ def cmd_linkcheck(args: argparse.Namespace) -> int:
 def cmd_report(args: argparse.Namespace) -> int:
     problems = Problems()
     entries = load(problems, strict=True)
-    reports = sorted(REPORT_DIR.glob("linkcheck-*.json"))
+    reports = sorted(REPORT_DIR.glob("linkcheck-*.json")) + sorted(REPORT_DIR.glob("verify-*.json"))
     if not reports:
-        print("no linkcheck report found, run: python scripts/catalog.py linkcheck")
+        print("no link check report found, run: python scripts/catalog.py verify")
         return 2
-    last = json.loads(reports[-1].read_text(encoding="utf-8"))
+    last = max((json.loads(p.read_text(encoding="utf-8")) for p in reports),
+               key=lambda d: d.get("generated", ""))
     age = (dt.date.today() - dt.date.fromisoformat(last["generated"][:10])).days
 
     by_url = {(r["category"], r["name"], r["field"]): r for r in last["results"]}
@@ -547,6 +770,10 @@ def cmd_report(args: argparse.Namespace) -> int:
     for r in last["results"]:
         if r["kind"] != "ok":
             interesting[r["kind"]].append(r)
+    if interesting.get("moved"):
+        offsite = [r for r in interesting["moved"] if r.get("moved_offsite")]
+        interesting["moved-offsite"] = offsite
+        interesting["moved"] = [r for r in interesting["moved"] if not r.get("moved_offsite")]
 
     lines = [
         f"# Maintenance report {dt.date.today().isoformat()}",
@@ -564,16 +791,21 @@ def cmd_report(args: argparse.Namespace) -> int:
 
     titles = {
         "broken": "Broken (404/410): candidate for correction or removal",
-        "redirect": "Redirected: propose updating the URL to the new location",
+        "dead-parked": "Dead: resolves to a parked or expired domain",
+        "moved": "Moved: propose updating the URL to the new location",
+        "moved-offsite": "Moved to a different domain: confirm in a browser before editing",
+        "redirect": "Redirect loop or unresolved redirect",
         "gated": "Gated (401/402/403/429/451): keep, note the access requirement",
         "dns": "DNS failure: domain likely retired, needs a human decision",
         "tls-error": "TLS/certificate error: often bot protection, re-check in a browser",
+        "tls-chain": "Certificate chain incomplete: a browser completes it, no action needed",
         "timeout": "Timeout: re-check before acting",
         "error": "Server error (5xx): transient, re-check before acting",
         "unreachable": "Unreachable transport error: re-check before acting",
     }
     props = []
-    for kind in ["broken", "redirect", "gated", "dns", "tls-error", "timeout", "error", "unreachable"]:
+    for kind in ["broken", "dead-parked", "moved", "moved-offsite", "redirect", "gated", "dns",
+                 "tls-error", "timeout", "error", "unreachable"]:
         rows = interesting.get(kind, [])
         if not rows:
             continue
@@ -582,7 +814,7 @@ def cmd_report(args: argparse.Namespace) -> int:
             detail = r.get("location") or r.get("error") or ""
             lines.append(f"- `{r['category']}` **{r['name']}** {r['field']} <{r['url']}> "
                          f"[{r.get('status') or ''}] {detail}".rstrip())
-            if kind in {"broken", "redirect", "dns"}:
+            if kind in {"broken", "dead-parked", "moved", "dns"}:
                 entry = next((e for e in entries if e.category == r["category"] and e.name == r["name"]), None)
                 if entry:
                     props.append((entry, kind, r))
@@ -615,10 +847,14 @@ def cmd_report(args: argparse.Namespace) -> int:
         for entry, kind, r in props[: args.max_per_section]:
             current = next((ln for ln in (ROOT / "catalog" / f"{entry.category}.md").read_text(encoding="utf-8").splitlines()
                             if f"[{entry.name}](" in ln), "")
-            if kind == "redirect" and r.get("location"):
-                new = current.replace(entry.url, r["location"])
-                lines += [f"`catalog/{entry.category}.md` line {entry.line}: redirect", "```diff",
-                          f"- {current}", f"+ {new}", "```"]
+            target = r.get("final_url") or r.get("location") or ""
+            if kind == "moved" and target.startswith(("http://", "https://")):
+                cell = "website" if r.get("field") == "website" else "docs"
+                anchor = f"[{entry.name}]({entry.url})" if cell == "website" else f"[docs]({entry.docs})"
+                new = current.replace(anchor, anchor.replace(
+                    entry.url if cell == "website" else entry.docs, target))
+                lines += [f"`catalog/{entry.category}.md` line {entry.line}: moved ({cell})",
+                          "```diff", f"- {current}", f"+ {new}", "```"]
             else:
                 lines += [f"`catalog/{entry.category}.md` line {entry.line}: {kind}", "```diff",
                           f"- {current}", "```"]
@@ -629,7 +865,159 @@ def cmd_report(args: argparse.Namespace) -> int:
     out.write_text("\n".join(lines), encoding="utf-8")
     print(f"wrote {out.relative_to(ROOT)}")
     print(f"  {len(problems.errors)} validation errors, {len(interesting.get('broken', []))} broken, "
-          f"{len(interesting.get('redirect', []))} redirected, {len(stale)} stale, {len(dup_groups)} duplicate groups")
+          f"{len(interesting.get('dead-parked', []))} parked, {len(interesting.get('moved', []))} moved, "
+          f"{len(stale)} stale, {len(dup_groups)} duplicate groups")
+    return 0
+
+
+def _name_tokens(name: str) -> list[str]:
+    stop = {"api", "apis", "the", "and", "for", "data", "open", "public", "service",
+            "server", "mcp", "dataset", "portal", "online", "free"}
+    return [t for t in re.split(r"[^a-z0-9]+", name.casefold())
+            if len(t) >= 4 and t not in stop]
+
+
+def _title_matches(name: str, title: str | None, url: str) -> bool | None:
+    """None when there is nothing to compare, else whether the page looks like the row."""
+    tokens = _name_tokens(name)
+    if not title or not tokens:
+        return None
+    haystack = f"{title} {url}".casefold()
+    return any(t in haystack for t in tokens)
+
+
+def cmd_triage(args: argparse.Namespace) -> int:
+    """Turn the newest verify report into a decision queue grouped by action."""
+    reports = sorted(REPORT_DIR.glob("verify-*.json"))
+    if not reports:
+        print("no verify report found, run: python scripts/catalog.py verify")
+        return 2
+    report = json.loads(reports[-1].read_text(encoding="utf-8"))
+    entries = {(e.category, e.name): e for e in load(Problems(), strict=False)}
+
+    buckets: dict[str, list[dict]] = defaultdict(list)
+    for r in report["results"]:
+        entry = entries.get((r["category"], r["name"]))
+        if entry is None:
+            continue
+        kind = r["kind"]
+        action = None
+        if kind == "tls-chain":
+            continue
+        if kind in {"broken", "dead-parked", "dns"}:
+            action = "remove-or-replace"
+        elif kind == "moved" and r.get("moved_offsite"):
+            action = "confirm-new-domain"
+        elif kind == "moved":
+            action = "update-url"
+        elif kind == "gated" and entry.auth == "None":
+            action = "auth-mismatch"
+        elif r.get("hint") == "deprecated":
+            action = "retired"
+        elif kind in {"timeout", "tls-error", "error", "unreachable", "redirect"}:
+            action = "recheck"
+        else:
+            matched = _title_matches(r["name"], r.get("title"), r.get("final_url") or r["url"])
+            if matched is False:
+                action = "title-mismatch"
+        if action:
+            buckets[action].append({
+                "category": r["category"], "name": r["name"], "type": entry.type,
+                "field": r["field"], "url": r["url"], "kind": kind,
+                "status": r.get("status"), "final_url": r.get("final_url"),
+                "title": r.get("title"), "auth": entry.auth, "access": entry.access,
+                "checked": entry.checked, "action": action,
+            })
+
+    order = ["remove-or-replace", "retired", "confirm-new-domain", "auth-mismatch",
+             "title-mismatch", "update-url", "recheck"]
+    stamp = dt.date.today().isoformat()
+    out_json = REPORT_DIR / f"triage-{stamp}.json"
+    out_json.write_text(json.dumps({"generated": report["generated"],
+                                    "counts": {k: len(buckets.get(k, [])) for k in order},
+                                    "buckets": {k: buckets.get(k, []) for k in order}},
+                                   indent=1), encoding="utf-8")
+
+    lines = [f"# Triage {stamp}", "",
+             f"Source: verify report generated {report['generated']}, "
+             f"{report['urls_checked']} URLs checked.", "",
+             "Grouped by the decision the row needs. Nothing here is applied automatically.", ""]
+    for key in order:
+        rows = buckets.get(key, [])
+        if not rows:
+            continue
+        lines += [f"## {key} ({len(rows)})", ""]
+        for r in rows[: args.max_per_section]:
+            detail = r["title"] or r.get("final_url") or ""
+            lines.append(f"- `{r['category']}` **{r['name']}** [{r['field']}] "
+                         f"<{r['url']}> -> {detail}"[:300])
+        if len(rows) > args.max_per_section:
+            lines.append(f"- ... and {len(rows) - args.max_per_section} more (see the JSON)")
+        lines.append("")
+    out_md = REPORT_DIR / f"triage-{stamp}.md"
+    out_md.write_text("\n".join(lines), encoding="utf-8")
+
+    print(f"{report['urls_checked']} URLs from verify report {report['generated'][:10]}")
+    for key in order:
+        print(f"  {key:20s} {len(buckets.get(key, [])):4d}")
+    print(f"\nwrote {out_md.relative_to(ROOT)} and {out_json.relative_to(ROOT)}")
+    return 0
+
+
+def cmd_verify(args: argparse.Namespace) -> int:
+    """Deep verification: status, final URL, page title and retirement signals."""
+    entries = load(Problems(), strict=False)
+    if args.category:
+        entries = [e for e in entries if e.category == args.category]
+    if args.type:
+        entries = [e for e in entries if e.type == args.type]
+    if args.limit:
+        random.Random(args.seed).shuffle(entries)
+        entries = entries[: args.limit]
+
+    jobs = []
+    for e in entries:
+        jobs.append((e, "website", e.url))
+        if e.docs and e.docs.rstrip("/") != e.url.rstrip("/"):
+            jobs.append((e, "docs", e.docs))
+
+    print(f"verifying {len(jobs)} URLs from {len(entries)} entries "
+          f"(workers={args.workers}, timeout={args.timeout}s)", flush=True)
+    results = []
+    done = 0
+    with futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
+        futs = {pool.submit(check_url, url, args.timeout, 5, True): (e, f, url)
+                for e, f, url in jobs}
+        for fut in futures.as_completed(futs):
+            e, kind, url = futs[fut]
+            r = fut.result()
+            done += 1
+            results.append({"name": e.name, "category": e.category, "type": e.type,
+                            "field": kind, "url": url, **r})
+            if done % 100 == 0:
+                print(f"  {done}/{len(jobs)}", flush=True)
+
+    results.sort(key=lambda r: (r["category"], r["name"].casefold()))
+    stamp = dt.date.today().isoformat()
+    out = Path(args.out).resolve() if args.out else REPORT_DIR / f"verify-{stamp}.json"
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps({
+        "generated": dt.datetime.now().isoformat(timespec="seconds"),
+        "user_agent": USER_AGENT,
+        "catalog_entries": len(entries),
+        "urls_checked": len(results),
+        "summary": dict(Counter(r["kind"] for r in results)),
+        "results": results,
+    }, indent=1), encoding="utf-8")
+
+    summary = Counter(r["kind"] for r in results)
+    print("\n" + "  ".join(f"{k}={v}" for k, v in sorted(summary.items())))
+    retired = [r for r in results if r.get("hint") == "deprecated"]
+    print(f"{len(retired)} page(s) carry retirement or deprecation wording")
+    try:
+        print(f"wrote {out.relative_to(ROOT)}")
+    except ValueError:
+        print(f"wrote {out}")
     return 0
 
 
@@ -645,7 +1033,7 @@ def main(argv: Iterable[str] | None = None) -> int:
     p.set_defaults(func=cmd_stats)
 
     p = sub.add_parser("export", help="write a machine-readable copy")
-    p.add_argument("--format", choices=["jsonl", "csv"], default="jsonl")
+    p.add_argument("--format", choices=["jsonl", "json", "csv"], default="jsonl")
     p.add_argument("--out")
     p.set_defaults(func=cmd_export)
 
@@ -662,6 +1050,23 @@ def main(argv: Iterable[str] | None = None) -> int:
     p.add_argument("--max-per-section", type=int, default=40)
     p.add_argument("--stale-days", type=int, default=365)
     p.set_defaults(func=cmd_report)
+
+    p = sub.add_parser("verify", help="deep check: final URL, page title, retirement signals")
+    p.add_argument("--limit", type=int, default=0, help="random sample size (0 = all)")
+    p.add_argument("--seed", type=int, default=7)
+    p.add_argument("--category")
+    p.add_argument("--type", choices=sorted(TYPES))
+    p.add_argument("--workers", type=int, default=8)
+    p.add_argument("--timeout", type=float, default=20.0)
+    p.add_argument("--out")
+    p.set_defaults(func=cmd_verify)
+
+    p = sub.add_parser("shortlist", help="write docs/no-auth.md from the keyless subset")
+    p.set_defaults(func=cmd_shortlist)
+
+    p = sub.add_parser("triage", help="turn the newest verify report into a decision queue")
+    p.add_argument("--max-per-section", type=int, default=60)
+    p.set_defaults(func=cmd_triage)
 
     p = sub.add_parser("duplicates", help="list entries sharing a URL or a name on the same domain")
     p.set_defaults(func=cmd_duplicates)

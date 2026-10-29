@@ -77,12 +77,36 @@ above, followed by the divider row.
 
 ## Machine-readable copy
 
-`data/catalog.jsonl` and `data/catalog.csv` are generated from the Markdown with:
+`data/catalog.jsonl`, `data/catalog.json` and `data/catalog.csv` are generated from
+the Markdown with:
 
 ```bash
-python scripts/catalog.py export --format jsonl
+python scripts/catalog.py export --format jsonl   # one object per line
+python scripts/catalog.py export --format json     # one array
 python scripts/catalog.py export --format csv
 ```
 
-They exist for scripts and agents. If they disagree with the Markdown, the
-Markdown wins. CI checks that the committed copy is current.
+They exist for scripts and agents. If they disagree with the Markdown, the Markdown
+wins. `validate` checks that the committed JSONL still matches the tables field for
+field, and CI runs the same check.
+
+### Fields
+
+The nine table columns become nine fields (`name`, `type`, `category`,
+`description`, `website`, `docs`, `access`, `auth`, `license`, `source`, `checked`,
+where `docs` and `checked` are `null` when the table shows `-`), plus:
+
+| Field | Meaning |
+| --- | --- |
+| `id` | Stable identifier: resource host without `www`, plus the slugified name |
+| `verified` | `true` when `checked` is set: a person confirmed the row at least once |
+| `docs_present` | `true` when a documentation URL is recorded |
+| `license_known` | `true` when a licence or terms value is recorded |
+
+The three derived fields are booleans on purpose. They never change because a day
+passed, so the committed export stays stable between regenerations and the CI
+freshness check keeps meaning something. Whether a row is *current* is a judgement
+for the reader: compare `checked` with today.
+
+`data/catalog.schema.json` describes the same records as JSON Schema 2020-12, with
+the allowed values for `type`, `access`, `auth` and `source`.

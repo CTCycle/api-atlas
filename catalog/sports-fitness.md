@@ -36,14 +36,13 @@ Scores, statistics, fitness tracking and sports data.
 | [NoPunt](https://www.nopunt.com/api/picks.json) | API | Weekly NFL game picks with model win probability, confidence tier and spread | Free tier | None | - | - | public-apis | - |
 | [Odds-API](https://docs.odds-api.io) | API | Real-time sports betting odds from 365+ bookmakers across 34 sports via REST and WebSocket | Free tier | API key | - | - | public-apis | - |
 | [OddsBench](https://oddsbench.xyz/api) | API | Independent monthly latency benchmark of sports odds APIs, with free JSON and CSV data | Free tier | None | - | - | public-apis | - |
-| [Oddsmagnet](https://oddsmagnet.com/oddsdata) | API | Sports betting odds platform offering embedded odds, historical odds data, and a live odds API across multiple bookmakers | Free tier | None | - | - | public-apis | - |
-| [OddsRadarWire](https://pinnwire.com/) | API | Live and prematch Betradar odds with raw no-vig probabilities, REST and SSE | Free tier | API key | - | - | public-apis | - |
+| [Oddsmagnet](https://oddsmagnet.com/oddsdata) | API | Sports betting odds platform offering embedded odds, historical odds data, and a live odds API across multiple bookmakers | Free tier | API key | - | - | public-apis | - |
 | [OpenF1](https://openf1.org) | API | Real-time and historical Formula 1 data including laps, car telemetry and positions | Free tier | None | - | - | public-apis | - |
 | [OpenFoot API](https://openfootapi.com/docs) | API | Football fixtures, results, standings, lineups, live events and shot-level xG across 75 competitions | Free tier | API key | - | - | public-apis | - |
 | [OpenLigaDB](https://www.openligadb.de) | API | Open sports results database providing match schedules, scores, and standings for football and other leagues via API | Free tier | None | - | - | public-apis | - |
 | [Padel Snipe](https://padelsnipe.com/fr/world/api) | API | 4,000+ mapped padel clubs across 9 European countries with GPS and courts | Free tier | None | - | - | public-apis | - |
 | [Parlay](https://parlay-api.com/docs) | API | Real-time sports odds and player props from 45+ sportsbooks and sources across 90+ sports | Free tier | API key | - | - | public-apis | - |
-| [PinnWire](https://pinnwire.com/docs.html) | API | Real-time Pinnacle odds for 13 sports - live and prematch over REST, WebSocket and SSE drop alerts | Free tier | API key | - | - | public-apis | - |
+| [PinnWire](https://pinnwire.com/) | API | Live and prematch Betradar odds with raw no-vig probabilities, REST and SSE | Free tier | API key | - | - | public-apis | - |
 | [PlayerElo](https://playerelo.football/api-access) | API | Player-level Elo ratings, predictions and history for 176 football leagues | Free tier | API key | - | - | public-apis | - |
 | [Premier League Standings](https://rapidapi.com/heisenbug/api/premier-league-live-scores) | API | All Current Premier League Standings and Statistics | Free tier | API key | - | - | public-apis | - |
 | [PropLine](https://prop-line.com) | API | Real-time player-props betting odds with graded prop resolution across 13 books | Free tier | API key | - | - | public-apis | - |
