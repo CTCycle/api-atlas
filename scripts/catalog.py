@@ -414,7 +414,8 @@ def cmd_shortlist(args: argparse.Namespace) -> int:
             continue
         lines += [f"## {title} ({len(rows)})", ""]
         for e in rows:
-            docs = f" ([docs]({e.docs}))" if e.docs else ""
+            same = e.docs and e.docs.rstrip("/") == e.url.rstrip("/")
+            docs = f" ([docs]({e.docs}))" if e.docs and not same else ""
             lines.append(f"- [{e.name}]({e.url}){docs} - {e.description}")
         lines.append("")
     out = ROOT / "docs" / "no-auth.md"

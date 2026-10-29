@@ -128,8 +128,12 @@ def main(argv: list[str] | None = None) -> int:
                     help="entry type to probe (default API; use '' for all)")
     ap.add_argument("--workers", type=int, default=8)
     ap.add_argument("--missing", action="store_true",
-                    help="only probe entries that have no spec in the newest probe report")
+                    help="only probe entries that no earlier probe report has seen, so a "
+                         "second run after a catalog expansion costs minutes, not hours")
     ap.add_argument("--out")
+    ap.add_argument("--index", metavar="PATH",
+                    help="also write an index of every discovered spec, merged from "
+                         "all probe reports (e.g. data/openapi-index.json)")
     args = ap.parse_args(argv)
 
     entries = catalog.load(catalog.Problems(), strict=False)
@@ -143,11 +147,10 @@ def main(argv: list[str] | None = None) -> int:
             if report.name.startswith("probe-smoke"):
                 continue
             for record in json.loads(report.read_text(encoding="utf-8"))["records"]:
-                if record.get("spec"):
-                    known.add((record["category"], record["name"]))
+                known.add((record["category"], record["name"]))
         before = len(entries)
         entries = [e for e in entries if (e.category, e.name) not in known]
-        print(f"skipping {before - len(entries)} entries that already have a spec")
+        print(f"skipping {before - len(entries)} entries that a previous run already probed")
     if args.limit:
         import random
         random.Random(args.seed).shuffle(entries)
@@ -166,8 +169,16 @@ def main(argv: list[str] | None = None) -> int:
 
     found = [r for r in records if r["spec"]]
     records.sort(key=lambda r: (r["category"], r["name"].casefold()))
-    out = Path(args.out).resolve() if args.out else \
-        REPORT_DIR / f"probe-{dt.date.today().isoformat()}.json"
+    if args.out:
+        out = Path(args.out).resolve()
+    else:
+        # never clobber an earlier run: a second sweep on the same day would
+        # otherwise destroy the evidence the first one collected
+        base = REPORT_DIR / f"probe-{dt.date.today().isoformat()}"
+        out, n = base.with_suffix(".json"), 1
+        while out.exists():
+            n += 1
+            out = REPORT_DIR / f"{base.name}-{n}.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps({
         "generated": dt.datetime.now().isoformat(timespec="seconds"),
@@ -176,6 +187,31 @@ def main(argv: list[str] | None = None) -> int:
         "by_category": dict(Counter(r["category"] for r in found).most_common()),
         "records": records,
     }, indent=1), encoding="utf-8")
+
+    if args.index:
+        merged = {}
+        for report in sorted(REPORT_DIR.glob("probe-*.json")):
+            if report.name.startswith("probe-smoke"):
+                continue
+            for record in json.loads(report.read_text(encoding="utf-8"))["records"]:
+                if record.get("spec"):
+                    merged[(record["category"], record["name"])] = {
+                        "name": record["name"],
+                        "category": record["category"],
+                        "type": record["type"],
+                        "website": record["website"],
+                        **record["spec"],
+                    }
+        rows = sorted(merged.values(), key=lambda r: (r["category"], r["name"].casefold()))
+        Path(args.index).write_text(json.dumps({
+            "generated": dt.date.today().isoformat(),
+            "description": "Entries that publish a parseable OpenAPI or Swagger document, "
+                           "discovered by scripts/probe.py. Absence is not proof that an API "
+                           "has no spec: it may sit behind auth or on another host.",
+            "specs": len(rows),
+            "entries": rows,
+        }, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+        print(f"wrote {args.index} ({len(rows)} entries with a spec)")
 
     print(f"\n{len(found)} of {len(records)} entries publish a valid OpenAPI/Swagger document")
     try:

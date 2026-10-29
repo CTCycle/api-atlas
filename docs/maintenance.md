@@ -16,6 +16,8 @@ python scripts/catalog.py stale         # entries with old or missing Checked da
 python scripts/catalog.py shortlist     # regenerate docs/no-auth.md
 python scripts/catalog.py export        # data/catalog.jsonl, data/catalog.json and data/catalog.csv
 python scripts/probe.py                 # discover live OpenAPI/Swagger specs for API rows
+python scripts/probe.py --missing --index data/openapi-index.json
+                                        # probe only rows with no known spec, refresh the index
 ```
 
 The script never edits `catalog/`. It writes JSON and Markdown under `reports/`.

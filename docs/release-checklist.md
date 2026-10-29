@@ -6,12 +6,15 @@ tick items in the pull request description.
 ## Content
 
 - [ ] `python scripts/catalog.py validate` returns 0 errors.
-- [ ] `python scripts/catalog.py export --format jsonl` and `--format csv` are run
-      and committed, and CI's freshness check passes.
-- [ ] Full link check completed within the last 30 days.
-      `python scripts/catalog.py linkcheck` then `python scripts/catalog.py report`.
-- [ ] Broken and redirected rows from the report are either fixed or accepted with
-      a note in the pull request.
+- [ ] `python scripts/catalog.py export --format jsonl`, `--format json` and
+      `--format csv` are run and committed, `shortlist` regenerated, and CI's
+      freshness check passes.
+- [ ] Full verification completed within the last 30 days.
+      `python scripts/catalog.py verify` then `python scripts/catalog.py triage`.
+- [ ] Every row in the `remove-or-replace`, `retired` and `confirm-new-domain`
+      buckets is fixed or accepted with a note in the pull request.
+- [ ] `python scripts/probe.py --missing --index data/openapi-index.json` run, so
+      the published spec index matches the catalog.
 - [ ] No category file is a placeholder. Empty categories either have content or
       do not exist in `CATEGORIES`.
 - [ ] Counts quoted in README and CHANGELOG match `stats` output.

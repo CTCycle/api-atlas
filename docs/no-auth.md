@@ -9,23 +9,23 @@ category tables, not this file.
 
 ## Agriculture (11)
 
-- [Ag Data Commons](https://www.nal.usda.gov/services/agdatacommons) ([docs](https://www.nal.usda.gov/services/agdatacommons)) - USDA National Agricultural Library catalog of agricultural research datasets and publications
+- [Ag Data Commons](https://www.nal.usda.gov/services/agdatacommons) - USDA National Agricultural Library catalog of agricultural research datasets and publications
 - [Cropland Data Layer](https://croplandcros.scinet.usda.gov/) ([docs](https://www.nass.usda.gov/Research_and_Science/Cropland/Viewer/)) - USDA NASS annual cropland data layer mapping crop types across the continental United States
 - [FEWS NET](https://fews.net/) ([docs](https://help.fews.net/fdw/fews-net-api)) - FEWS NET data warehouse API for food security classifications market prices and crop data
-- [GARDIAN](https://gardian.cgiar.org/) ([docs](https://gardian.cgiar.org/)) - CGIAR agricultural research data discovery platform for datasets and publications
-- [GEOGLAM Crop Monitor](https://www.cropmonitor.org/) ([docs](https://www.cropmonitor.org/)) - GEOGLAM global crop condition monitoring reports and earth observation indicators
-- [Global Yield Gap Atlas](https://yieldgap.com/) ([docs](https://yieldgap.com/)) - Global yield potential and yield gap atlas for major crops across 83 countries
-- [IFPRI Dataverse](https://dataverse.harvard.edu/dataverse/IFPRI) ([docs](https://dataverse.harvard.edu/dataverse/IFPRI)) - IFPRI research datasets on food policy agriculture and development available for download
+- [GARDIAN](https://gardian.cgiar.org/) - CGIAR agricultural research data discovery platform for datasets and publications
+- [GEOGLAM Crop Monitor](https://www.cropmonitor.org/) - GEOGLAM global crop condition monitoring reports and earth observation indicators
+- [Global Yield Gap Atlas](https://yieldgap.com/) - Global yield potential and yield gap atlas for major crops across 83 countries
+- [IFPRI Dataverse](https://dataverse.harvard.edu/dataverse/IFPRI) - IFPRI research datasets on food policy agriculture and development available for download
 - [ISRIC SoilGrids](https://soilgrids.org/) ([docs](https://rest.isric.org/soilgrids/v2.0/docs)) - ISRIC global gridded soil property maps and REST API for soil attributes at standard depths
 - [USDA FAS PSD Online](https://apps.fas.usda.gov/psdonline/app/index.html) ([docs](https://apps.fas.usda.gov/opendatawebV2/)) - USDA Foreign Agricultural Service portal for production supply and distribution data on agricultural commodities
 - [USDA Soil Data Access](https://sdmdataaccess.sc.egov.usda.gov/) ([docs](https://sdmdataaccess.sc.egov.usda.gov/WebServiceHelp.aspx)) - USDA NRCS web services for tabular and spatial soil survey data from the Soil Data Mart
-- [WFP VAM](https://dataviz.vam.wfp.org/) ([docs](https://dataviz.vam.wfp.org/)) - World Food Programme vulnerability analysis and mapping food security data portal
+- [WFP VAM](https://dataviz.vam.wfp.org/) - World Food Programme vulnerability analysis and mapping food security data portal
 
 ## AI & Machine Learning (18)
 
 - [AI Economics Tools](https://piszczek.pl/tools/api) - Token cost, LLM energy, agent-hour and Proof-Adjusted Autonomy calculators by Michał Piszczek
-- [COCO](https://cocodataset.org/) ([docs](https://cocodataset.org/)) - Common Objects in Context image dataset available for public use
-- [Common Crawl](https://commoncrawl.org/) ([docs](https://commoncrawl.org/)) - Petabyte-scale web crawl corpus available for public use
+- [COCO](https://cocodataset.org/) - Common Objects in Context image dataset available for public use
+- [Common Crawl](https://commoncrawl.org/) - Petabyte-scale web crawl corpus available for public use
 - [ContextFetch](https://contextfetch.dev/docs) - Web search for AI agents, each result as Markdown pruned to the passages relevant to the query
 - [Deepcode](https://snyk.io/platform/deepcode-ai/) - AI-powered code review and security scanning for source code
 - [DreamThreads](https://mydreamthreads.xyz/dream-interpretation-api) - Parse dreams into structured entities, emotions, agency, threat, and outcomes
@@ -39,8 +39,8 @@ category tables, not this file.
 - [QuelLLM](https://quelllm.fr/api) - Open-weight language model catalogue with memory requirements and installation metadata
 - [Statlyte](https://statlyte.com/api) - Live pricing, context windows and model ids for major LLM APIs
 - [TensorFeed](https://tensorfeed.ai/developers) - Real-time AI news, model pricing, service status, and agent activity feeds
-- [TensorFlow Datasets](https://www.tensorflow.org/datasets) ([docs](https://www.tensorflow.org/datasets)) - Ready-to-use datasets for machine learning available for public use
-- [UCI ML Repository](https://archive.ics.uci.edu/) ([docs](https://archive.ics.uci.edu/)) - Classic machine learning datasets repository available for public use
+- [TensorFlow Datasets](https://www.tensorflow.org/datasets) - Ready-to-use datasets for machine learning available for public use
+- [UCI ML Repository](https://archive.ics.uci.edu/) - Classic machine learning datasets repository available for public use
 
 ## Animals (26)
 
@@ -239,7 +239,7 @@ category tables, not this file.
 - [HostDealRadar](https://hostdealradar.com/ai/) - Source-backed hosting price and provider record lookup
 - [Httpbin](https://httpbin.org) - Echoes HTTP requests to help test clients, headers, authentication, and status codes
 - [Icanhazip](https://major.io/icanhazip-com-faq/) - IP address lookup API returning the caller's public IP
-- [IFTTT](https://ifttt.com/docs/connect_api) ([docs](https://ifttt.com/docs/connect_api)) - Connect API for applets and service integrations
+- [IFTTT](https://ifttt.com/docs/connect_api) - Connect API for applets and service integrations
 - [Image-Charts](https://documentation.image-charts.com) - Generate charts, QR codes and graph images
 - [Index Agentica](https://indexagentica.com/agents) - Agent-first directory of skills, MCP servers, tools, protocols and APIs as JSON, markdown, llms.txt
 - [IPify](https://www.ipify.org/) - Public IP address lookup API service for apps
@@ -254,10 +254,10 @@ category tables, not this file.
 - [LiveOrDown](https://liveordown.com/developers) - Live up/down status of 240+ online services, checked every minute from 3 regions
 - [macadress](https://macadress.com/mac-address-api) - MAC address and OUI vendor lookup synced from IEEE, with randomized-MAC detection
 - [Metabase](https://www.metabase.com) - An open source Business Intelligence server to share data and analytics inside your company
-- [Mgnet](http://mgnet.me/api.html) ([docs](http://mgnet.me/api.html)) - Torrent URL shortening API for magnet links
+- [Mgnet](http://mgnet.me/api.html) - Torrent URL shortening API for magnet links
 - [Mocky](https://designer.mocky.io) - Mock user defined test JSON for REST API endpoints
 - [msgboard](https://msgboard.dev) - Public message board for agent-to-agent messaging, no account or key
-- [MyIP](https://www.myip.com/api-docs/) ([docs](https://www.myip.com/api-docs/)) - IP address and location lookup JSON API service
+- [MyIP](https://www.myip.com/api-docs/) - IP address and location lookup JSON API service
 - [MyIPRightNow](https://myiprightnow.com) - Public IP address with network, location, and connection details
 - [Nationalize.io](https://nationalize.io) - Predicts the likely nationality of a first name with country probability scores
 - [Nerdulator](https://nerdulator.com/api) - Everything derivable from one value: numbers, dates, colours, UUIDs, cron expressions
@@ -270,7 +270,7 @@ category tables, not this file.
 - [OutageDeck](https://outagedeck.com/developers/api) - Live status and incidents for 170+ cloud and SaaS providers from official feeds
 - [oyyi](https://oyyi.xyz/docs) - API for Fake Data, image/video conversion, optimization, pdf optimization and thumbnail generation
 - [Packagist](https://packagist.org/apidoc) - PHP Composer package versions and dist metadata
-- [Postman Echo](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation) ([docs](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation)) - Test api server to receive and return value from HTTP method
+- [Postman Echo](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation) - Test api server to receive and return value from HTTP method
 - [ProxyForge](https://proxyforge.dev) - Free auto-updating list of live-tested proxies (HTTP/HTTPS/SOCKS4/SOCKS5), refreshed every 6 h
 - [PurgoMalum](http://www.purgomalum.com) - Content validator against profanity & obscenity
 - [QR code](https://goqr.me/api/) - Generate and decode / read QR code graphics
@@ -296,13 +296,13 @@ category tables, not this file.
 
 ## Documents & Productivity (23)
 
-- [AgentPay Doc Tools](https://agentpay-tools.agentpay-apis.workers.dev) ([docs](https://agentpay-tools.agentpay-apis.workers.dev)) - PDF to text, RSS/Atom/JSON feeds to JSON and sitemaps to URL lists, paid per call via x402
+- [AgentPay Doc Tools](https://agentpay-tools.agentpay-apis.workers.dev) - PDF to text, RSS/Atom/JSON feeds to JSON and sitemaps to URL lists, paid per call via x402
 - [caldays](https://caldays.com/api) - Free JSON API for public holidays, long-weekend planning, and world clock across 206 countries
 - [Chinese Character Web](http://ccdb.hemiola.com) - Chinese character definitions and pronunciations
 - [Chinese Text Project](https://ctext.org/tools/api) - Online open-access digital library for pre-modern Chinese texts
-- [Church Calendar](http://calapi.inadiutorium.cz/) ([docs](http://calapi.inadiutorium.cz/)) - Catholic liturgical calendar JSON API service
+- [Church Calendar](http://calapi.inadiutorium.cz/) - Catholic liturgical calendar JSON API service
 - [CountdownsHQ](https://countdownshq.com/developers) - Dates and timezone-correct countdowns for 150+ holidays and observances in 18 countries
-- [DocStruct](https://docstruct.pages.dev) ([docs](https://docstruct.pages.dev)) - AI extraction of invoices, receipts, bank statements & contracts into structured JSON/CSV
+- [DocStruct](https://docstruct.pages.dev) - AI extraction of invoices, receipts, bank statements & contracts into structured JSON/CSV
 - [Free Dictionary](https://dictionaryapi.dev) - Definitions, phonetics, pronunciations, parts of speech, examples, synonyms
 - [Hebrew Calendar](https://www.hebcal.com/home/developer-apis) - Convert between Gregorian and Hebrew, fetch Shabbat and Holiday times, etc
 - [India Public Holidays](https://calendar-api-web.vercel.app/docs) - Official Indian public holidays for the Central government and 36 states/UTs
@@ -324,13 +324,13 @@ category tables, not this file.
 
 - [Bank of England](https://www.bankofengland.co.uk/) ([docs](https://www.bankofengland.co.uk/statistics)) - Bank of England statistics portal for UK monetary and financial data
 - [BIS](https://www.bis.org/statistics) ([docs](https://data.bis.org/)) - BIS statistics portal for international banking and financial statistics
-- [DBnomics](https://db.nomics.world/) ([docs](https://db.nomics.world/)) - Aggregated international economic time series available for public use
+- [DBnomics](https://db.nomics.world/) - Aggregated international economic time series available for public use
 - [European Central Bank](https://www.ecb.europa.eu/home/html/index.en.html) - ECB data portal for euro area statistics and exchange rates
 - [Gapminder](https://www.gapminder.org/) ([docs](https://www.gapminder.org/data/)) - Gapminder datasets for global health, income and population trends
 - [ILOSTAT](https://ilostat.ilo.org/) - International labour statistics from the ILO available for public use
 - [IMF Data](https://data.imf.org/) ([docs](https://data.imf.org/en/Resource-Pages/IMF-API)) - Macroeconomic and financial data from the International Monetary Fund
 - [OECD Data](https://data-explorer.oecd.org/) - OECD statistical data explorer and API available for public use
-- [Penn World Table](https://www.rug.nl/ggdc/productivity/pwt/) ([docs](https://www.rug.nl/ggdc/productivity/pwt/)) - Penn World Table dataset for international macroeconomic comparisons
+- [Penn World Table](https://www.rug.nl/ggdc/productivity/pwt/) - Penn World Table dataset for international macroeconomic comparisons
 - [UNCTADstat](https://unctadstat.unctad.org/EN/Index.html) - UNCTADstat portal for trade, investment and development statistics
 - [World Bank Open Data](https://data.worldbank.org/) ([docs](https://datahelpdesk.worldbank.org/)) - Global development indicators and World Bank datasets
 - [WTO](https://stats.wto.org/) - WTO statistics portal for international trade and tariff data
@@ -342,13 +342,13 @@ category tables, not this file.
 - [IPEDS](https://nces.ed.gov/ipeds/) ([docs](https://nces.ed.gov/ipeds/use-the-data)) - Integrated Postsecondary Education Data System, annual surveys of US colleges and universities
 - [MERLOT](https://www.merlot.org/merlot/index.htm) - Curated collection of online learning and teaching materials contributed by educators worldwide
 - [NAEP Data Explorer](https://www.nationsreportcard.gov/ndecore/) - US National Assessment of Educational Progress results and student achievement data
-- [NCES](https://nces.ed.gov/) ([docs](https://nces.ed.gov/)) - US education statistics and surveys available for public use
+- [NCES](https://nces.ed.gov/) - US education statistics and surveys available for public use
 - [OER Commons](https://www.oercommons.org/) - Public digital library of open educational resources for searching and sharing curriculum materials
 - [Ofsted](https://www.gov.uk/government/organisations/ofsted) - UK school and provider inspection reports and education statistics for England
 - [OpenStax](https://openstax.org/) - Free peer-reviewed openly licensed textbooks and course materials for higher education
 - [Research Organization Registry](https://ror.org/) ([docs](https://ror.readme.io/)) - Open registry of persistent identifiers and metadata for research and funding organizations
 - [UNESCO Institute for Statistics](https://uis.unesco.org/) ([docs](https://api.uis.unesco.org/api/public/documentation/)) - Cross-country education, literacy, science and culture indicators
-- [Universities List API](https://github.com/Hipo/university-domains-list) ([docs](https://github.com/Hipo/university-domains-list)) - Names, domains and country codes for universities worldwide
+- [Universities List API](https://github.com/Hipo/university-domains-list) - Names, domains and country codes for universities worldwide
 - [Urban Institute Education Data API](https://educationdata.urban.org/documentation/) ([docs](https://educationdata.urban.org/documentation/schools.html)) - Harmonised US education data from NCES, IPEDS, CRDC and Census school district sources
 - [World Bank EdStats](https://databank.worldbank.org/source/education-statistics) - World Bank education indicators on attainment, spending and outcomes by country
 
@@ -358,7 +358,7 @@ category tables, not this file.
 - [Ember](https://ember-energy.org/) ([docs](https://ember-energy.org/data/)) - Global electricity and emissions data available for public use
 - [Energy-Charts](https://energy-charts.info/) - Interactive European electricity production, price and emissions charts and data
 - [ENTSOG](https://transparency.entsog.eu/) - European gas transmission system operator transparency platform with capacity and flow data
-- [EPA eGRID](https://www.epa.gov/egrid) ([docs](https://www.epa.gov/egrid)) - US power plant emissions and generation data by plant and region
+- [EPA eGRID](https://www.epa.gov/egrid) - US power plant emissions and generation data by plant and region
 - [Global Energy Monitor](https://globalenergymonitor.org/) - Global databases of power plants and fossil fuel infrastructure
 - [Global Solar Atlas](https://globalsolaratlas.info/) ([docs](https://globalsolaratlas.info/support/data-outputs)) - Global solar resource and photovoltaic potential maps and downloads
 - [IRENA](https://pxweb.irena.org/pxweb/en/) - IRENA PxWeb portal providing renewable energy statistics and data by topic and country
@@ -368,10 +368,10 @@ category tables, not this file.
 
 ## Entertainment & Media (83)
 
-- [Advice Slip](https://api.adviceslip.com/) ([docs](https://api.adviceslip.com/)) - Random advice slips JSON API for developers
-- [An API of Ice And Fire](https://anapioficeandfire.com/) ([docs](https://anapioficeandfire.com/)) - Game of Thrones universe data API by Joakim Skoog
-- [AnimeFacts](https://chandan-02.github.io/anime-facts-rest-api/) ([docs](https://chandan-02.github.io/anime-facts-rest-api/)) - Anime facts API returning over 100 random facts
-- [AnimeNewsNetwork](https://www.animenewsnetwork.com/encyclopedia/api.php) ([docs](https://www.animenewsnetwork.com/encyclopedia/api.php)) - Anime industry news and encyclopedia API
+- [Advice Slip](https://api.adviceslip.com/) - Random advice slips JSON API for developers
+- [An API of Ice And Fire](https://anapioficeandfire.com/) - Game of Thrones universe data API by Joakim Skoog
+- [AnimeFacts](https://chandan-02.github.io/anime-facts-rest-api/) - Anime facts API returning over 100 random facts
+- [AnimeNewsNetwork](https://www.animenewsnetwork.com/encyclopedia/api.php) - Anime industry news and encyclopedia API
 - [Astro Agents](https://astro-agent.dev/llms.txt) - Deterministic Western and Vedic astrology: natal charts, transits, kundli, dashas, panchang
 - [Bhagavad Gita telugu](https://gita-api.vercel.app) - Bhagavad Gita API in telugu and odia languages
 - [Bible-api](https://bible-api.com) - Free JSON API for Bible verses and passages across multiple translations and languages
@@ -385,11 +385,11 @@ category tables, not this file.
 - [Czech Television](https://www.ceskatelevize.cz/xml/tv-program/informace/) - Czech TV programme listings XML API service
 - [Dictum](https://github.com/bitcldr/dictum) - API to get access to the collection of the most inspiring expressions of mankind
 - [Dune](https://github.com/ywalia01/dune-api) - A simple API which provides you with book, character, movie and quotes JSON data
-- [Final Space](https://finalspaceapi.com/docs/) ([docs](https://finalspaceapi.com/docs/)) - Final Space TV show data REST API service
+- [Final Space](https://finalspaceapi.com/docs/) - Final Space TV show data REST API service
 - [FOAAS](https://www.foaas.com/) - RESTful insult generation API for developers
 - [Gaana](https://github.com/cyberboysumanjay/GaanaAPI) - API to retrieve song information from Gaana
 - [Game of Thrones Quotes](https://gameofthronesquotes.xyz/) - Game of Thrones quotes retrieval API service
-- [Genrenator](https://binaryjazz.us/genrenator-api/) ([docs](https://binaryjazz.us/genrenator-api/)) - Music genre generator API for developers
+- [Genrenator](https://binaryjazz.us/genrenator-api/) - Music genre generator API for developers
 - [Greenlit Books](https://greenlitbooks.com/developers) - Catalog of practical AI books with search, series, glossary and a claim ledger
 - [Gutendex](https://gutendex.com) - Web-API for fetching data from Project Gutenberg Books Library
 - [icanhazdadjoke](https://icanhazdadjoke.com/api) - The largest selection of dad jokes on the internet
@@ -407,7 +407,7 @@ category tables, not this file.
 - [Meme Maker](https://mememaker.github.io/API) - REST API for browsing paginated memes and submitting new meme templates and captions
 - [Memesio](https://memesio.com/developers/api) - Meme creation API with templates, editable captions and hosted share links
 - [Movie Quote](https://github.com/F4R4N/movie-quote) - Django REST API serving random movie and series quotes, with show filtering and a censored mode
-- [MusicBrainz](https://musicbrainz.org/doc/MusicBrainz_API) ([docs](https://musicbrainz.org/doc/MusicBrainz_API)) - Open music encyclopedia metadata API for developers
+- [MusicBrainz](https://musicbrainz.org/doc/MusicBrainz_API) - Open music encyclopedia metadata API for developers
 - [NekosBest](https://docs.nekos.best) - Free REST API serving 63+ SFW anime images and roleplay GIFs with artist credits and CORS
 - [Open Library](https://openlibrary.org/developers/api) - REST API for searching books, authors, editions, subjects, and covers from Open Library
 - [Openwhyd](https://openwhyd.github.io/openwhyd/API) - Download curated playlists of streaming tracks (YouTube, SoundCloud, etc...)
@@ -419,7 +419,7 @@ category tables, not this file.
 - [Programming Quotes](https://github.com/mudroljub/programming-quotes-api) - Programming Quotes API for open source projects
 - [Quotable Quotes](https://github.com/lukePeavey/quotable) - Quotable is a free, open source quotations API
 - [Quote Garden](https://pprathameshmore.github.io/QuoteGarden) - REST API serving 75,000+ quotes, filterable by author, genre, and text with pagination
-- [Quotes on Design](https://quotesondesign.com/api/) ([docs](https://quotesondesign.com/api/)) - Design quotes retrieval API via WordPress REST
+- [Quotes on Design](https://quotesondesign.com/api/) - Design quotes retrieval API via WordPress REST
 - [Quran](https://api-docs.quran.com/) - RESTful Quran API exposing Quran text and translations in multiple languages
 - [Quran Cloud](https://alquran.cloud/api) - A RESTful Quran API to retrieve an Ayah, Surah, Juz or the entire Holy Quran
 - [Quran-api](https://github.com/fawazahmed0/quran-api) - Free Quran API Service with 90+ different languages and 400+ translations
@@ -433,21 +433,21 @@ category tables, not this file.
 - [Stromberg Quotes](https://stromberg-api.de/) - Free API for quotes, characters, and episodes from the German Stromberg TV series
 - [Studio Ghibli](https://ghibliapi.vercel.app) - REST API cataloging Studio Ghibli films, people, locations, species, and vehicles
 - [SWAPI](https://swapi.dev) - REST API exposing Star Wars planets, starships, vehicles, people, films, and species
-- [SWAPI GraphQL](https://graphql.org/swapi-graphql/) ([docs](https://graphql.org/swapi-graphql/)) - Star Wars data GraphQL API for developers
+- [SWAPI GraphQL](https://graphql.org/swapi-graphql/) - Star Wars data GraphQL API for developers
 - [Techy](https://techy-api.vercel.app) - JSON and Plaintext API for tech-savvy sounding phrases
 - [They Said So Quotes](https://theysaidso.com/api) - Quotes Trusted by many fortune brands around the world
-- [Things To Do](https://thingstodoapi.com/docs/) ([docs](https://thingstodoapi.com/docs/)) - Local events in plain words: concerts, pop-ups, markets, classes, gallery nights
+- [Things To Do](https://thingstodoapi.com/docs/) - Local events in plain words: concerts, pop-ups, markets, classes, gallery nights
 - [Thirukkural](https://api-thirukkural.web.app) - 1330 Thirukkural poems and explanation in Tamil and English
 - [ThronesApi](https://thronesapi.com) - Game Of Thrones Characters Data with imagery
 - [Trace Moe](https://soruly.github.io/trace.moe-api) - A useful tool to get the exact scene of an anime from a screenshot
 - [Traitify](https://app.traitify.com/developer) - Personality assessment API using image-based quizzes to derive traits and personality types
-- [TVMaze](https://www.tvmaze.com/api) ([docs](https://www.tvmaze.com/api)) - TV show and episode data API for developers
+- [TVMaze](https://www.tvmaze.com/api) - TV show and episode data API for developers
 - [UGCdrop](https://ugcdrop.com/api) - Search real UGC video clips (reactions, hooks, b-roll) by emotion, niche, age and setting
 - [Urantia Papers](https://urantia.dev) - Full-text + semantic search across the Urantia Papers, with audio narration, entities, translations
 - [Verome](https://github.com/Kirazul/Verome-API) - Music API for searching, streaming and exploring music data from YouTube Music, YouTube, and Last.fm
 - [Video to Markdown](https://video-to-markdown.com/api) - Turn a YouTube URL into a markdown thumbnail image link
 - [Web Series Quotes Generator](https://github.com/yogeshwaran01/web-series-quotes) - API generates various Web Series Quote Images
-- [Wizard World](https://wizard-world-api.herokuapp.com/swagger/index.html) ([docs](https://wizard-world-api.herokuapp.com/swagger/index.html)) - Get information from the Harry Potter universe
+- [Wizard World](https://wizard-world-api.herokuapp.com/swagger/index.html) - Get information from the Harry Potter universe
 - [Wolne Lektury](https://wolnelektury.pl/api) - API for obtaining information about e-books available on the WolneLektury.pl website
 - [Yes or No Oracle](https://yesnooracle.app/api) - Random yes/no/maybe answers in 7 themed oracle voices (Magic 8 Ball, Tarot, and more)
 - [Zen Quotes](https://zenquotes.io) - Large collection of Zen quotes for inspiration
@@ -456,21 +456,21 @@ category tables, not this file.
 
 - [Bank of Russia](https://www.cbr.ru/development/SXML) - Central Bank of Russia XML service for daily exchange rates and currency history
 - [Banking Access Index](https://www.globalsolo.global/data/banking-access-index) - Which US business banking providers accept founders by country of residence, with sources
-- [Binance public data](https://data.binance.vision/) ([docs](https://data.binance.vision/)) - Binance historical market data available for public use
+- [Binance public data](https://data.binance.vision/) - Binance historical market data available for public use
 - [Binlist](https://binlist.net/) - Public access to a database of IIN/BIN information
-- [BIS Statistics](https://data.bis.org/) ([docs](https://data.bis.org/)) - Bank for International Settlements statistical data
-- [Brainy Prices](https://prices.brainy.ae/developers.html) ([docs](https://prices.brainy.ae/developers.html)) - UAE living costs: KHDA fees, DLD rents, fuel, utilities, telecom and relocation, with dated sources
-- [CardBinCheck](https://cardbincheck.com/bin-lookup-api) ([docs](https://cardbincheck.com/bin-lookup-api)) - Card BIN/IIN lookup: network, issuer, country and card type for the first 6-8 digits
+- [BIS Statistics](https://data.bis.org/) - Bank for International Settlements statistical data
+- [Brainy Prices](https://prices.brainy.ae/developers.html) - UAE living costs: KHDA fees, DLD rents, fuel, utilities, telecom and relocation, with dated sources
+- [CardBinCheck](https://cardbincheck.com/bin-lookup-api) - Card BIN/IIN lookup: network, issuer, country and card type for the first 6-8 digits
 - [contix](https://contix.es/api) - Spain: IBAN validation with bank and BIC, EU VAT number check (VIES), Modelo 303 VAT sums
 - [Currency-api](https://github.com/fawazahmed0/currency-api) - Free Currency Exchange Rates API with 150+ Currencies & No Rate Limits
 - [Czech National Bank](https://www.cnb.cz/cs/financni_trhy/devizovy_trh/kurzy_devizoveho_trhu/denni_kurz.xml) - Czech National Bank daily foreign exchange rates published as a public XML feed
 - [Daleelak](https://getdaleelak.com/en/api) - Egyptian bank and dealer exchange rates, gold and silver prices
 - [EBA data](https://www.eba.europa.eu/homepage) - European Banking Authority risk and data available for public use
-- [Econdb](https://www.econdb.com/api/) ([docs](https://www.econdb.com/api/)) - Global macroeconomic data API for developers
+- [Econdb](https://www.econdb.com/api/) - Global macroeconomic data API for developers
 - [Economia.Awesome](https://docs.awesomeapi.com.br/api-de-moedas) - Portuguese free currency prices and conversion with no rate limits
 - [EstimateTax](https://estimatetax.net/api) - US federal, state and local income tax calculation for 2026, with the source of every figure
 - [Exchangerate.dev](https://exchangerate.dev/docs) - Live & historical FX, 168 pairs back to 1999, Frankfurter-compatible, free 10k/mo
-- [Fed Treasury](https://fiscaldata.treasury.gov/api-documentation/) ([docs](https://fiscaldata.treasury.gov/api-documentation/)) - US Treasury fiscal data API for developers
+- [Fed Treasury](https://fiscaldata.treasury.gov/api-documentation/) - US Treasury fiscal data API for developers
 - [Finance Clearly Tax Rates](https://financeclearly.com/tax-rates-api) - Current UK and US tax rates, allowances and thresholds
 - [FloorGuard](https://floorguard-kappa.vercel.app/api) - Sourced prop firm daily-loss and max-drawdown rules, plus a drawdown-room check
 - [Frankfurter](https://frankfurter.dev/) - Exchange rates, currency conversion and time series
@@ -478,12 +478,12 @@ category tables, not this file.
 - [Fulusly](https://fulusly.soft9.us/developers) - Exchange rates for 144 currencies with daily history back to the 1990s, English and Arabic
 - [Futures Clock](https://futuresclock.com/en/data-methodology/#open-data) - Trading hours and session windows for 65 futures products on 16 global exchanges
 - [FXpeek](https://fxpeek.com/en/api) - Source-linked historical reference exchange rates with CSV, JSON and an MCP server
-- [GLEIF LEI](https://www.gleif.org/) ([docs](https://www.gleif.org/)) - Legal Entity Identifier reference data available for public use
-- [Goldprice.dev](https://goldprice.dev/docs) ([docs](https://goldprice.dev/docs)) - Cross-validated gold, silver & copper spot, futures & 30-year history in 13 currencies
-- [Helious](https://helious.io/developers/) ([docs](https://helious.io/developers/)) - US Treasury auction results with the tail and bidder split, plus scored economic releases
-- [IBAN Analyzer](https://iban-analyzer.com/free-iban-api) ([docs](https://iban-analyzer.com/free-iban-api)) - Resolve an IBAN to its bank name, BIC, city and address for 60+ countries
+- [GLEIF LEI](https://www.gleif.org/) - Legal Entity Identifier reference data available for public use
+- [Goldprice.dev](https://goldprice.dev/docs) - Cross-validated gold, silver & copper spot, futures & 30-year history in 13 currencies
+- [Helious](https://helious.io/developers/) - US Treasury auction results with the tail and bidder split, plus scored economic releases
+- [IBAN Analyzer](https://iban-analyzer.com/free-iban-api) - Resolve an IBAN to its bank name, BIC, city and address for 60+ countries
 - [India GST HSN & SAC](https://gst-hsn-sac-api.vercel.app/docs) - Indian GST HSN and SAC classification code lookup and search
-- [Indian Mutual Fund](https://www.mfapi.in/) ([docs](https://www.mfapi.in/)) - Get complete history of India Mutual Funds Data
+- [Indian Mutual Fund](https://www.mfapi.in/) - Get complete history of India Mutual Funds Data
 - [KmalServico Gold Price Dataset](https://www.kmalservico.com/data) - Current gold price per gram at 6 purities for 188 countries, JSON, no auth
 - [LiquiLens](https://liquilens.in/developers) - Public-record bank and lender failure-risk evidence
 - [National Bank of Poland](http://api.nbp.pl/en.html) - A collection of currency exchange rates (data in XML and JSON)
@@ -503,7 +503,7 @@ category tables, not this file.
 - [VoxOdds](https://voxodds.com/api) - Polymarket and Kalshi odds, all-in executable quotes, EV checks and audited forecast scores
 - [WallstreetBets](https://tradestie.com/apps/reddit/api/) - WallstreetBets Stock Comments Sentiment Analysis
 - [XOOMAR](https://xoomar.com/markets/api) - US market data from SEC, FINRA, CFTC and the Fed: filings, insiders, earnings dates, short interest
-- [Yahoo Finance](https://finance.yahoo.com/) ([docs](https://finance.yahoo.com/)) - Market quotes and financial data portal available for public use
+- [Yahoo Finance](https://finance.yahoo.com/) - Market quotes and financial data portal available for public use
 - [Zelothorn](https://zelothorn.com/developers) - Plain-English explanations of US public companies with SEC filings and earnings data
 
 ## Food & Nutrition (16)
@@ -522,7 +522,7 @@ category tables, not this file.
 - [Open Food Facts](https://world.openfoodfacts.org/data) - Crowdsourced food composition database covering 2.5M+ products from 170+
 - [Racion](https://racion.app/developers) - Weekly meal plans with grocery prices and shopping lists, 22 countries
 - [TacoFancy](https://github.com/evz/tacofancy-api) - API serving random taco recipes assembled from community-contributed base layers, mixins, condiments, seasonings, and shells
-- [USDA NASS](https://www.nass.usda.gov/) ([docs](https://www.nass.usda.gov/)) - US agricultural statistics available for public use
+- [USDA NASS](https://www.nass.usda.gov/) - US agricultural statistics available for public use
 - [WhiskyHunter](https://whiskyhunter.net/api) - Past online whisky auctions statistical data
 
 ## Games (64)
@@ -604,19 +604,19 @@ category tables, not this file.
 - [CitySDK](https://www.citysdk.eu/) - Development kit harmonizing APIs for smart cities and developers
 - [Country](https://country.is/) - Free IP-to-country geolocation API returning country, city, continent, subdivision, postal, and ASN data
 - [Ducks Unlimited](https://gis.ducks.org/datasets/du-university-chapters/api) - API explorer that gives a query URL with a JSON response of locations and cities
-- [EMODnet](https://emodnet.ec.europa.eu/) ([docs](https://emodnet.ec.europa.eu/)) - European marine observation and data network available for public use
+- [EMODnet](https://emodnet.ec.europa.eu/) - European marine observation and data network available for public use
 - [Geocode.xyz](https://geocode.xyz/api) - Provides worldwide forward/reverse geocoding, batch geocoding and geoparsing
 - [Geodata.gov.gr](https://geodata.gov.gr/en) - Open geospatial data and API service for Greece
 - [GeographQL](https://geographql.netlify.app) - GraphQL API for countries, states, and cities with cursor-based pagination and point-based rate limiting
 - [GeoJS](https://www.geojs.io) - Free IP geolocation API for country, city, and ASN data, usable in browsers via JSONP and CORS
 - [Geokeo](https://geokeo.com) - Geokeo geocoding service- with 2500 free api requests daily
-- [GeoNames](https://www.geonames.org/) ([docs](https://www.geonames.org/)) - Geographical names and coordinates database available for public use
-- [GeoPlatform](https://www.geoplatform.gov/) ([docs](https://www.geoplatform.gov/)) - US federal geospatial data platform available for public use
+- [GeoNames](https://www.geonames.org/) - Geographical names and coordinates database available for public use
+- [GeoPlatform](https://www.geoplatform.gov/) - US federal geospatial data platform available for public use
 - [geoPlugin](https://www.geoplugin.com) - IP geolocation web service returning country, region, city, coordinates, currency, and timezone in JSON, XML, CSV, or PHP
 - [Graph Countries](https://github.com/lennertVanSever/graphcountries) - Country-related data like currencies, languages, flags, regions+subregions and bordering countries
 - [HackMyIP](https://hackmyip.com/api) - IP geolocation, ISP and privacy/VPN scoring, email breach checks, DNS and WHOIS lookups
 - [HelloSalut](https://stefanbohacek.com/project/hellosalut-api/) - Get hello translation following user language
-- [HydroATLAS](https://www.hydrosheds.org/hydroatlas) ([docs](https://www.hydrosheds.org/hydroatlas)) - Global hydro-environmental sub-basin attributes available for public use
+- [HydroATLAS](https://www.hydrosheds.org/hydroatlas) - Global hydro-environmental sub-basin attributes available for public use
 - [IBGE](https://servicodados.ibge.gov.br/api/docs) - Aggregate services of IBGE (Brazilian Institute of Geography and Statistics)
 - [IP 2 Country](https://ip2country.info) - IP geolocation API mapping addresses to country codes
 - [IP Address Details](https://ipinfo.io) - IPinfo API for IP geolocation, ASN, carrier, and privacy detection data with daily refreshes
@@ -630,13 +630,13 @@ category tables, not this file.
 - [LatLng](https://www.latlng.work/docs) - Geocoding, reverse geocoding, places, and static maps
 - [Moradas](https://moradas.dev/docs) - Portuguese address autocomplete and 7-digit postal codes (CP7)
 - [MyPincode](https://mypincode.live) - Indian PIN code and postal office lookup
-- [Natural Earth](https://www.naturalearthdata.com/) ([docs](https://www.naturalearthdata.com/)) - Public domain vector and raster map data available for public use
+- [Natural Earth](https://www.naturalearthdata.com/) - Public domain vector and raster map data available for public use
 - [Nominatim](https://nominatim.openstreetmap.org/ui/search.html) - OpenStreetMap geocoding and reverse geocoding API
 - [OnWater](https://isitwater.com/) - Determine if a lat/lon is on water or land
 - [Open Topo Data](https://www.opentopodata.org) - Elevation and ocean depth for a latitude and longitude
-- [OpenAddresses](https://openaddresses.io/) ([docs](https://openaddresses.io/)) - Global address collection database available for public use
+- [OpenAddresses](https://openaddresses.io/) - Global address collection database available for public use
 - [OpenStreetMap](https://www.openstreetmap.org/) ([docs](https://wiki.openstreetmap.org/wiki/API)) - Collaborative global map database available for public use
-- [Overture Maps](https://overturemaps.org/) ([docs](https://overturemaps.org/)) - Open map data for places and buildings available for public use
+- [Overture Maps](https://overturemaps.org/) - Open map data for places and buildings available for public use
 - [Pinball Map](https://pinballmap.com/api/v1/docs) - A crowdsourced map of public pinball machines
 - [PontoFato](https://pontofato.com/api) - Brazilian postal codes (CEP) with IBGE coordinates, addresses and the companies registered there
 - [PostalCodeCheck](https://postalcodecheck.com/postal-code-api) - City, region and coordinates for 887,000+ postal codes across 95 countries
@@ -678,14 +678,14 @@ category tables, not this file.
 - [Colorado Information Marketplace](https://data.colorado.gov) - Colorado state open data portal offering datasets, visualizations, and APIs for state and local government data
 - [ContaCLT](https://contaclt.com/dados/api) - Brazilian payroll and labor calculations: net salary, INSS, IRRF, unemployment insurance
 - [Data USA](https://datausa.io/about/api/) - Visualization platform for US public data with query API
-- [data.austintexas.gov](https://data.austintexas.gov/) ([docs](https://data.austintexas.gov/)) - Austin city open data portal available for public use
-- [data.boston.gov](https://data.boston.gov/) ([docs](https://data.boston.gov/)) - Boston city open data portal available for public use
-- [data.cityofchicago.org](https://data.cityofchicago.org/) ([docs](https://data.cityofchicago.org/)) - Chicago city open data portal available for public use
-- [data.lacity.org](https://data.lacity.org/) ([docs](https://data.lacity.org/)) - Los Angeles city open data portal available for public use
-- [data.london.gov.uk](https://data.london.gov.uk/) ([docs](https://data.london.gov.uk/)) - London government open data portal available for public use
+- [data.austintexas.gov](https://data.austintexas.gov/) - Austin city open data portal available for public use
+- [data.boston.gov](https://data.boston.gov/) - Boston city open data portal available for public use
+- [data.cityofchicago.org](https://data.cityofchicago.org/) - Chicago city open data portal available for public use
+- [data.lacity.org](https://data.lacity.org/) - Los Angeles city open data portal available for public use
+- [data.london.gov.uk](https://data.london.gov.uk/) - London government open data portal available for public use
 - [Data.parliament.uk](https://explore.data.parliament.uk?learnmore=Members) - Contains live datasets including information about petitions, bills, MP votes, attendance and more
-- [data.seattle.gov](https://data.seattle.gov/) ([docs](https://data.seattle.gov/)) - Seattle city open data portal available for public use
-- [data.sf.gov](https://data.sf.gov/) ([docs](https://data.sf.gov/)) - San Francisco city open data portal available for public use
+- [data.seattle.gov](https://data.seattle.gov/) - Seattle city open data portal available for public use
+- [data.sf.gov](https://data.sf.gov/) - San Francisco city open data portal available for public use
 - [EditalMD](https://editalmd.com/api) - Brazilian public procurement (PNCP) notices as Markdown with deadlines and requirements
 - [Election](https://election.org/data/api) - Source-linked U.S. election and civic records with coverage limits
 - [EPA](https://www.epa.gov/developers/widgets) - Web services and data sets from the US Environmental Protection Agency
@@ -701,7 +701,7 @@ category tables, not this file.
 - [INEI](http://iinei.inei.gob.pe/microdatos) - INEI microdata portal providing Peruvian survey datasets and documentation in SPSS, Excel, and PDF formats
 - [Interpol Red Notices](https://interpol.api.bund.dev) - Interpol Notices API for searching Red, Yellow, and UN notices plus notice details and images
 - [Istanbul (İBB) Open Data](https://data.ibb.gov.tr) - Data sets from the İstanbul Metropolitan Municipality (İBB)
-- [ITU DataHub](https://datahub.itu.int/) ([docs](https://datahub.itu.int/)) - ICT and telecommunications statistics from the ITU
+- [ITU DataHub](https://datahub.itu.int/) - ICT and telecommunications statistics from the ITU
 - [Kurtaxe](https://keyset.cloud/kurtaxe/api/) - German tourist tax (Kurtaxe) rates by municipality, each quoted from the municipal statute
 - [LocalGov.jp](https://localgov.jp) - Japan grants and subsidies (central J-Grants + 1,916 municipalities)
 - [MORVS](https://morvs.ai/api) - Source-linked US regulatory and public records: SEC filings, enforcement actions, recalls
@@ -731,7 +731,7 @@ category tables, not this file.
 - [Open Government, Taiwan](https://data.gov.tw/) - Taiwan government open data platform with datasets
 - [Open Government, Victoria State Government](https://www.data.vic.gov.au) - Victoria State Government open data portal (data.vic.gov.au) with datasets and APIs
 - [Open Government, West Australia](https://data.wa.gov.au/) - Western Australia public sector data catalog (Data WA)
-- [opendata.dc.gov](https://opendata.dc.gov/) ([docs](https://opendata.dc.gov/)) - Washington DC open data portal available for public use
+- [opendata.dc.gov](https://opendata.dc.gov/) - Washington DC open data portal available for public use
 - [OpenMercantil](https://openmercantil.es/api/documentacion) - Spanish company public data and BORME event timelines
 - [Radar CNPJ](https://radar-cnpj.com/api) - Brazilian companies (CNPJ) lookup and search, with a market check by area and monitoring
 - [Represent by Open North](https://represent.opennorth.ca) - Represent API matching Canadian addresses to electoral districts and elected officials at all government levels
@@ -740,9 +740,9 @@ category tables, not this file.
 - [Tollmint](https://api.tollmint.com) - Advertising, subscription, AI-disclosure and accessibility rules across the US, EU and UK
 - [UK Legislation Changes](https://uk-legal-changes.pages.dev/docs) - Point-in-time amendment history for UK law
 - [UK ONS](https://www.ons.gov.uk) - UK Office for National Statistics data portal
-- [UK Parliament APIs](https://developer.parliament.uk/) ([docs](https://developer.parliament.uk/)) - UK parliamentary data APIs available for public use
+- [UK Parliament APIs](https://developer.parliament.uk/) - UK parliamentary data APIs available for public use
 - [UK Public Tenders by Trade](https://tools.gptshopltd.com/api/uk-tenders) - Live open UK public sector tenders by trade from Find a Tender and Contracts Finder (OGL v3.0)
-- [UNdata](https://data.un.org/) ([docs](https://data.un.org/)) - United Nations statistical databases and country profiles
+- [UNdata](https://data.un.org/) - United Nations statistical databases and country profiles
 - [USASpending](https://www.usaspending.gov/) ([docs](https://api.usaspending.gov/)) - US federal spending and awards data available for public use
 - [Veridion](https://www.veridionmarkets.com/data-api/docs) - US congressional stock-trade disclosures and the President's OGE reports, linked to each filing
 - [Vett](https://wimberly.solutions/api/free-sanctions-check) - Screen names & companies against OFAC, PEP, watchlists & recalls
@@ -753,8 +753,8 @@ category tables, not this file.
 
 - [CDC](https://www.cdc.gov) - US Centers for Disease Control and Prevention data and statistics
 - [ClinGen](https://clinicalgenome.org/) ([docs](https://clinicalgenome.org/tools/)) - Clinical relevance of genes and variants with curation activities and expert panels
-- [ClinicalTrials.gov](https://clinicaltrials.gov/) ([docs](https://clinicaltrials.gov/)) - Clinical study registry and results available for public use
-- [CMS data](https://data.cms.gov/) ([docs](https://data.cms.gov/)) - US Medicare and Medicaid data available for public use
+- [ClinicalTrials.gov](https://clinicaltrials.gov/) - Clinical study registry and results available for public use
+- [CMS data](https://data.cms.gov/) - US Medicare and Medicaid data available for public use
 - [Coronavirus](https://pipedream.com/@pravin/http-api-for-latest-wuhan-coronavirus-data-2019-ncov-p_G6CLVM/readme) - HTTP API returning latest COVID-19 case, recovery, and death counts globally and by region from JHU CSSE data
 - [Coronavirus in the UK](https://ukhsa-dashboard.data.gov.uk/) - UK Government coronavirus data, including deaths and cases by region
 - [Covid Tracking Project](https://covidtracking.com/data/api/version-2) - The COVID Tracking Project collects and publishes the most
@@ -774,9 +774,9 @@ category tables, not this file.
 - [European Health Information Gateway](https://gateway.euro.who.int/en/) - European health indicators and data available for public use
 - [FindSaunaPlunge](https://findsaunaplunge.com/api) - US cold plunge and sauna venues with dated, source-quoted temperatures and prices
 - [GARD](https://rarediseases.info.nih.gov/) ([docs](https://rarediseases.info.nih.gov/about)) - Information center for thousands of rare and genetic diseases
-- [GBD/IHME](https://www.healthdata.org/research-analysis/gbd) ([docs](https://www.healthdata.org/research-analysis/gbd)) - Global burden of disease estimates available for public use
+- [GBD/IHME](https://www.healthdata.org/research-analysis/gbd) - Global burden of disease estimates available for public use
 - [Healthcare.gov](https://www.healthcare.gov/developers) - Educational content about the US Health Insurance Marketplace
-- [HealthData.gov](https://healthdata.gov/) ([docs](https://healthdata.gov/)) - US health and medical datasets available for public use
+- [HealthData.gov](https://healthdata.gov/) - US health and medical datasets available for public use
 - [Human Phenotype Ontology](https://hpo.jax.org/) - Standardized vocabulary of phenotypic abnormalities in human disease
 - [LAPIS](https://cov-spectrum.ethz.ch/public) - SARS-CoV-2 genomic sequences from public sources
 - [Longevity World Cup](https://longevityworldcup.com/api/data/athletes) - Public biological age competition data with biomarkers and rankings
@@ -791,34 +791,34 @@ category tables, not this file.
 - [Orphanet](https://www.orpha.net/) ([docs](https://www.orphadata.com/)) - Rare disease knowledge base with ORPHA codes, genes and expert centers
 - [Peptide Library](https://peptidelibrary.app/developers/docs) - Peptide research profiles, cited studies and regulatory status; vendor prices with a free key
 - [PubMed](https://pubmed.ncbi.nlm.nih.gov) - PubMed biomedical literature search and retrieval
-- [PubMed baseline](https://www.nlm.nih.gov/databases/download/pubmed_medline.html) ([docs](https://www.nlm.nih.gov/databases/download/pubmed_medline.html)) - PubMed biomedical literature baseline files available for public use
+- [PubMed baseline](https://www.nlm.nih.gov/databases/download/pubmed_medline.html) - PubMed biomedical literature baseline files available for public use
 - [RxNorm](https://lhncbc.nlm.nih.gov/RxNav/APIs/RxNormAPIs.html) - Normalized drug names, RxCUIs and NDC codes
 - [THC Open Mindfulness Resources](https://api.theholisticcare.com/docs) - Free mindfulness resources and research metadata
 - [Urgences Québec](https://sante.handled.tools/api) - Hourly emergency room occupancy, stretcher counts and wait times for every hospital in Quebec, Canada
 - [WHO Data](https://www.who.int) - World Health Organization health data and statistics
-- [WHO Global Health Observatory](https://www.who.int/data/gho) ([docs](https://www.who.int/data/gho)) - WHO global health indicators and estimates available for public use
+- [WHO Global Health Observatory](https://www.who.int/data/gho) - WHO global health indicators and estimates available for public use
 
 ## Housing & Real Estate (5)
 
-- [FHFA House Price Index](https://www.fhfa.gov/data/hpi) ([docs](https://www.fhfa.gov/data/hpi)) - FHFA house price index datasets tracking US single family home values
-- [Freddie Mac PMMS](https://www.freddiemac.com/pmms) ([docs](https://www.freddiemac.com/pmms)) - Freddie Mac primary mortgage market survey weekly US mortgage rate averages
-- [Inside Airbnb](https://insideairbnb.com/) ([docs](https://insideairbnb.com/)) - Inside Airbnb datasets of Airbnb listings and reviews for cities worldwide
+- [FHFA House Price Index](https://www.fhfa.gov/data/hpi) - FHFA house price index datasets tracking US single family home values
+- [Freddie Mac PMMS](https://www.freddiemac.com/pmms) - Freddie Mac primary mortgage market survey weekly US mortgage rate averages
+- [Inside Airbnb](https://insideairbnb.com/) - Inside Airbnb datasets of Airbnb listings and reviews for cities worldwide
 - [Redfin Data Center](https://www.redfin.com/news/data-center/) ([docs](https://www.redfin.com/news/data-center/downloads/)) - Redfin public housing market tracker datasets in compressed TSV format
-- [UK Land Registry Price Paid Data](https://www.gov.uk/government/collections/price-paid-data) ([docs](https://www.gov.uk/government/collections/price-paid-data)) - UK HM Land Registry price paid data for residential property sales
+- [UK Land Registry Price Paid Data](https://www.gov.uk/government/collections/price-paid-data) - UK HM Land Registry price paid data for residential property sales
 
 ## Humanitarian & Development (13)
 
 - [AidData](https://www.aiddata.org/) ([docs](https://www.aiddata.org/datasets)) - Development finance and aid datasets plus geospatial tools for analyzing aid flows
-- [Climate Watch](https://www.climatewatchdata.org/) ([docs](https://www.climatewatchdata.org/)) - Climate data on emissions, NDCs and policies for tracking country climate progress
+- [Climate Watch](https://www.climatewatchdata.org/) - Climate data on emissions, NDCs and policies for tracking country climate progress
 - [EM-DAT](https://www.emdat.be/) ([docs](https://doc.emdat.be/)) - Global database of over 27000 mass disasters with human and economic loss records
-- [Healthsites.io](https://healthsites.io/) ([docs](https://healthsites.io/)) - Open map and API of health facility locations worldwide under an open data license
-- [HOT Export Tool](https://export.hotosm.org/v3/) ([docs](https://export.hotosm.org/v3/)) - Custom extracts of up-to-date OpenStreetMap data in multiple formats for humanitarian mapping
-- [HungerMap LIVE](https://hungermap.wfp.org/) ([docs](https://hungermap.wfp.org/)) - Near real-time global hunger monitoring tracking food insecurity across countries
+- [Healthsites.io](https://healthsites.io/) - Open map and API of health facility locations worldwide under an open data license
+- [HOT Export Tool](https://export.hotosm.org/v3/) - Custom extracts of up-to-date OpenStreetMap data in multiple formats for humanitarian mapping
+- [HungerMap LIVE](https://hungermap.wfp.org/) - Near real-time global hunger monitoring tracking food insecurity across countries
 - [IATI Datastore](https://iatistandard.org/en/) ([docs](https://iatistandard.org/en/iati-tools-and-resources/iati-datastore/)) - Search and export development and humanitarian activity data published to the IATI standard
-- [IDMC](https://www.internal-displacement.org/) ([docs](https://www.internal-displacement.org/)) - Global data on internally displaced people from conflict and disasters
+- [IDMC](https://www.internal-displacement.org/) - Global data on internally displaced people from conflict and disasters
 - [OpenAerialMap](https://openaerialmap.org/) ([docs](https://map.openaerialmap.org/)) - Open collection of aerial imagery for humanitarian and disaster response mapping
-- [ReliefWeb](https://reliefweb.int/) ([docs](https://reliefweb.int/)) - Humanitarian reports and crisis information service aggregating verified updates worldwide
-- [Resource Watch](https://resourcewatch.org/) ([docs](https://resourcewatch.org/)) - Open geospatial data platform for monitoring environmental and social trends
+- [ReliefWeb](https://reliefweb.int/) - Humanitarian reports and crisis information service aggregating verified updates worldwide
+- [Resource Watch](https://resourcewatch.org/) - Open geospatial data platform for monitoring environmental and social trends
 - [UCDP](https://ucdp.uu.se/) ([docs](https://ucdp.uu.se/apidocs/)) - Conflict event and fatality data from the Uppsala Conflict Data Program
 - [V-Dem](https://www.v-dem.net/) ([docs](https://www.v-dem.net/data/)) - Multidimensional democracy indicators and datasets covering countries worldwide
 
@@ -868,12 +868,12 @@ category tables, not this file.
 
 - [AustLII](https://www.austlii.edu.au/) - AustLII free access to Australasian case law, legislation and legal scholarship
 - [Cornell LII](https://www.law.cornell.edu/) - Cornell Legal Information Institute free US statutes, regulations and case law
-- [eCFR](https://www.ecfr.gov/developers/documentation/api/v1) ([docs](https://www.ecfr.gov/developers/documentation/api/v1)) - eCFR API for US Code of Federal Regulations content and structure
+- [eCFR](https://www.ecfr.gov/developers/documentation/api/v1) - eCFR API for US Code of Federal Regulations content and structure
 - [HUDOC](https://hudoc.echr.coe.int/) - HUDOC database of European Court of Human Rights judgments and decisions
 - [India Kanoon](https://indiankanoon.org/) - Indian Kanoon search for Indian case law and statutes
 - [Laws.Africa](https://laws.africa/) ([docs](https://laws.africa/api/)) - Laws.Africa open access to African legislation and legal documents
 - [legislation.gov.uk](https://www.legislation.gov.uk/) ([docs](https://www.legislation.gov.uk/developer)) - UK legislation API with consolidated statutes and instruments
-- [Rechtspraak Open Data](https://www.rechtspraak.nl/uitspraken/open-data) ([docs](https://www.rechtspraak.nl/uitspraken/open-data)) - Dutch court rulings and ECLI metadata web service for case law
+- [Rechtspraak Open Data](https://www.rechtspraak.nl/uitspraken/open-data) - Dutch court rulings and ECLI metadata web service for case law
 - [Refworld](https://www.refworld.org/) - Refworld UNHCR database of legislation, case law and policy on refugees
 
 ## Life Sciences (28)
@@ -881,25 +881,25 @@ category tables, not this file.
 - [Allen Brain Atlas](https://brain-map.org/) - Brain cell type atlases, gene expression maps and 3D imaging data for multiple species
 - [AlphaFold DB](https://alphafold.ebi.ac.uk/) ([docs](https://alphafold.ebi.ac.uk/api-docs)) - Open access to over 260 million AlphaFold protein structure predictions mapped to UniProt
 - [BacDive](https://bacdive.dsmz.de/) ([docs](https://api.bacdive.dsmz.de/)) - Standardized bacterial strain metadata, phenotypes and genome links with a free API
-- [cBioPortal](https://www.cbioportal.org/) ([docs](https://www.cbioportal.org/)) - Cancer genomics portal for tumor studies available for public use
-- [ChEMBL](https://www.ebi.ac.uk/chembl/) ([docs](https://www.ebi.ac.uk/chembl/)) - Bioactivity database for drug-like molecules available for public use
+- [cBioPortal](https://www.cbioportal.org/) - Cancer genomics portal for tumor studies available for public use
+- [ChEMBL](https://www.ebi.ac.uk/chembl/) - Bioactivity database for drug-like molecules available for public use
 - [CZ CELLxGENE Discover](https://cellxgene.cziscience.com/) ([docs](https://cellxgene.cziscience.com/docs/01__CellxGene)) - Single-cell RNA datasets and census for exploring human and mouse tissues
 - [DANDI Archive](https://dandiarchive.org/) ([docs](https://docs.dandiarchive.org/)) - Archive for publishing and sharing neurophysiology data including electrophysiology and imaging
 - [EBI](https://www.ebi.ac.uk) - European Bioinformatics Institute molecular and genomic data services
-- [EBI ENA](https://www.ebi.ac.uk/ena/browser/) ([docs](https://www.ebi.ac.uk/ena/browser/)) - European Nucleotide Archive for sequence data available for public use
+- [EBI ENA](https://www.ebi.ac.uk/ena/browser/) - European Nucleotide Archive for sequence data available for public use
 - [ENCODE](https://www.encodeproject.org/) ([docs](https://www.encodeproject.org/help/rest-api/)) - Functional genomics experiments, assays and metadata for human and mouse
 - [Ensembl](https://www.ensembl.org) - Ensembl genome browser and genomic data APIs
-- [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) ([docs](https://www.ncbi.nlm.nih.gov/genbank/)) - NCBI nucleotide sequence database available for public use
+- [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) - NCBI nucleotide sequence database available for public use
 - [gnomAD](https://gnomad.broadinstitute.org/) ([docs](https://gnomad.broadinstitute.org/policies)) - Population variant frequencies and constraint metrics from aggregated exome and genome sequences
-- [GTEx](https://gtexportal.org/home/index.html) ([docs](https://gtexportal.org/home/index.html)) - Genotype-tissue expression atlas and summaries available for public use
+- [GTEx](https://gtexportal.org/home/index.html) - Genotype-tissue expression atlas and summaries available for public use
 - [Human Cell Atlas](https://www.humancellatlas.org) - Human Cell Atlas single-cell reference datasets
-- [Human Protein Atlas](https://www.proteinatlas.org/) ([docs](https://www.proteinatlas.org/)) - Human protein expression and localization atlas available for public use
-- [NCBI GEO](https://www.ncbi.nlm.nih.gov/geo/) ([docs](https://www.ncbi.nlm.nih.gov/geo/)) - Gene Expression Omnibus for functional genomics data
-- [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra/) ([docs](https://www.ncbi.nlm.nih.gov/sra/)) - Sequence Read Archive for raw sequencing data available for public use
-- [Open Targets](https://www.opentargets.org/) ([docs](https://www.opentargets.org/)) - Target-disease evidence for drug discovery available for public use
+- [Human Protein Atlas](https://www.proteinatlas.org/) - Human protein expression and localization atlas available for public use
+- [NCBI GEO](https://www.ncbi.nlm.nih.gov/geo/) - Gene Expression Omnibus for functional genomics data
+- [NCBI SRA](https://www.ncbi.nlm.nih.gov/sra/) - Sequence Read Archive for raw sequencing data available for public use
+- [Open Targets](https://www.opentargets.org/) - Target-disease evidence for drug discovery available for public use
 - [OpenNeuro](https://openneuro.org/) ([docs](https://docs.openneuro.org/)) - Open platform for sharing and downloading BIDS-compliant neuroimaging datasets
-- [PubChem](https://pubchem.ncbi.nlm.nih.gov/) ([docs](https://pubchem.ncbi.nlm.nih.gov/)) - Chemical information and bioassay database available for public use
-- [RCSB PDB](https://www.rcsb.org/) ([docs](https://www.rcsb.org/)) - Protein Data Bank of 3D macromolecular structures available for public use
+- [PubChem](https://pubchem.ncbi.nlm.nih.gov/) - Chemical information and bioassay database available for public use
+- [RCSB PDB](https://www.rcsb.org/) - Protein Data Bank of 3D macromolecular structures available for public use
 - [Reactome](https://reactome.org/) ([docs](https://reactome.org/dev)) - Curated peer-reviewed biological pathways with analysis and content services
 - [SILVA](https://www.arb-silva.de/) ([docs](https://www.arb-silva.de/documentation)) - Quality-checked aligned ribosomal RNA sequences for bacteria, archaea and eukaryotes
 - [Single Cell Portal](https://singlecell.broadinstitute.org/single_cell) ([docs](https://singlecell.broadinstitute.org/single_cell/api/v1)) - Repository of single-cell studies with search, visualization and bulk download API
@@ -926,11 +926,11 @@ category tables, not this file.
 - [India EV Charging Stations](https://ev-charging-stations-api.vercel.app/docs) - Directory of public EV charging stations across India
 - [LiveTrafficCam](https://bzsasson.github.io/traffic-camera-sources/api.html) - Live US state DOT traffic cameras with verified live status and measured uptime
 - [Metro Lisboa](http://app.metrolisboa.pt/status/getLinhas.php) - Lisbon metro line status API with real-time delay info
-- [MobilityData GTFS](https://mobilitydatabase.org/) ([docs](https://mobilitydatabase.org/)) - Global GTFS and GTFS-Realtime feed catalog available for public use
+- [MobilityData GTFS](https://mobilitydatabase.org/) - Global GTFS and GTFS-Realtime feed catalog available for public use
 - [NHTSA](https://vpic.nhtsa.dot.gov/api) - NHTSA Product Information Catalog and Vehicle Listing
-- [OpenFlights](https://openflights.org/) ([docs](https://openflights.org/)) - Airport and airline route database available for public use
+- [OpenFlights](https://openflights.org/) - Airport and airline route database available for public use
 - [OpenVan](https://openvan.camp/docs) - Fuel prices for 121 countries, food cost index & vanlife weather scores for RV travel
-- [OurAirports](https://ourairports.com/) ([docs](https://ourairports.com/)) - Global airport directory available for public use for developers
+- [OurAirports](https://ourairports.com/) - Global airport directory available for public use for developers
 - [PostalPinCode](http://www.postalpincode.in/Api-Details) - Free API returning Indian post office details by PIN code or branch name, including district, state, circle, and delivery status
 - [Postmon](https://postmon.com.br/) - An API to query Brazilian ZIP codes and orders easily, quickly and free
 - [ProblemsByVin](https://problemsbyvin.com/data) - Owner complaints, recalls and failure-mileage statistics by vehicle make, model and year
@@ -965,12 +965,12 @@ category tables, not this file.
 ## Manufacturing & Industry (10)
 
 - [AFLOW](https://aflowlib.org/) ([docs](https://aflowlib.org/documentation/)) - Computational materials database with REST API for alloys and compounds
-- [Atlas of Economic Complexity](https://atlas.hks.harvard.edu/) ([docs](https://atlas.hks.harvard.edu/)) - Trade data and economic complexity analytics by country
+- [Atlas of Economic Complexity](https://atlas.hks.harvard.edu/) - Trade data and economic complexity analytics by country
 - [ECHA CHEM](https://chem.echa.europa.eu/) - European Chemicals Agency database of registered substances
-- [EPA Toxics Release Inventory](https://www.epa.gov/toxics-release-inventory-tri-program) ([docs](https://www.epa.gov/toxics-release-inventory-tri-program)) - US facility-level toxic chemical release and waste data
+- [EPA Toxics Release Inventory](https://www.epa.gov/toxics-release-inventory-tri-program) - US facility-level toxic chemical release and waste data
 - [Findchips](https://www.findchips.com/) - Electronic part price and inventory search across distributors
-- [GS1](https://www.gs1.org/home) ([docs](https://www.gs1.org/home)) - Global standards for barcodes, product identification and traceability
-- [NIST](https://www.nist.gov/) ([docs](https://www.nist.gov/)) - Standards, materials data and metrology resources from NIST
+- [GS1](https://www.gs1.org/home) - Global standards for barcodes, product identification and traceability
+- [NIST](https://www.nist.gov/) - Standards, materials data and metrology resources from NIST
 - [Open Icecat](https://icecat.biz/) ([docs](https://api.icecat.biz/)) - Open product data sheets and images for e-commerce catalogs
 - [Open Supply Hub](https://opensupplyhub.org/) - Open global supply chain facility map and data
 - [UNIDO statistics](https://stat.unido.org/) ([docs](https://stat.unido.org/unido-statistics-portal-api)) - Industrial development statistics available for public use
@@ -992,11 +992,11 @@ category tables, not this file.
 - [LMFDB](https://www.lmfdb.org/) ([docs](https://www.lmfdb.org/api/)) - L-functions, modular forms, number fields and related objects
 - [MathWorld](https://mathworld.wolfram.com/) - Comprehensive mathematics encyclopedia of formulas, definitions and theorems
 - [Metamath](https://us.metamath.org/) ([docs](https://us.metamath.org/mpegif/mmset.html)) - Formalized mathematics database and proof verification system
-- [NIST Digital Library of Mathematical Functions](https://dlmf.nist.gov/) ([docs](https://dlmf.nist.gov/)) - Reference for special functions with formulas, graphs and tables
+- [NIST Digital Library of Mathematical Functions](https://dlmf.nist.gov/) - Reference for special functions with formulas, graphs and tables
 - [OEIS](https://oeis.org/) ([docs](https://oeis.org/wiki/JSON_Format)) - Integer sequences with formulas, references and programs
 - [PlanetMath](https://planetmath.org/) - Collaborative mathematics encyclopedia with definitions, theorems and proofs
-- [ProofWiki](https://proofwiki.org/wiki/Main_Page) ([docs](https://proofwiki.org/wiki/Main_Page)) - Wiki of mathematical proofs organized by theorem and topic
-- [R datasets](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html) ([docs](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html)) - Built-in datasets shipped with the R standard library
+- [ProofWiki](https://proofwiki.org/wiki/Main_Page) - Wiki of mathematical proofs organized by theorem and topic
+- [R datasets](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html) - Built-in datasets shipped with the R standard library
 - [SageMathCell](https://sagecell.sagemath.org/) - Web service for evaluating SageMath code and embedding computations in pages
 - [Wolfram Functions Site](https://functions.wolfram.com/) - Reference of mathematical functions with formulas, identities and visualizations
 - [zbMATH Open](https://api.zbmath.org/) ([docs](https://api.zbmath.org/v1/openapi.json)) - Mathematics literature search and metadata REST API
@@ -1039,7 +1039,7 @@ category tables, not this file.
 - [API Setu](https://www.apisetu.gov.in) - An Indian Government platform that provides a lot of APIS for KYC, business, education & employment
 - [Archive.org](https://archive.readme.io/docs) - Internet Archive collections and services
 - [Auregistre](https://auregistre.fr/api) - French company history from the official gazette since 2008
-- [avoindata.fi](https://avoindata.suomi.fi/en) ([docs](https://avoindata.suomi.fi/en)) - Finnish open data service available for public use
+- [avoindata.fi](https://avoindata.suomi.fi/en) - Finnish open data service available for public use
 - [Band Atlas](https://www.aiotrf.com/en/ai/band-atlas/developers) - Cellular IoT bands, 2G/3G sunsets and device compatibility for 46 countries
 - [Big Data Explained](https://bigdataexplained.com/data) - Cloud data warehouse list prices, read daily from AWS and Azure pricing APIs, with price history
 - [BotsArchive](https://botsarchive.com/docs.html) - JSON formatted details about Telegram Bots available in database
@@ -1049,29 +1049,29 @@ category tables, not this file.
 - [CollegeCalcAI](https://collegecalcai.com/developers) - US college admission chance estimates and admissions data for 1,100+ colleges
 - [CoworkingView](https://coworkingview.com/en/api) - Coworking spaces and offices in 63 European and Gulf cities with operator-published prices
 - [CuttingToolsAI](https://cuttingtoolsai.eu/api) - Cross-brand carbide insert grade equivalents by ISO application class
-- [dados.gov.br](https://dados.gov.br/) ([docs](https://dados.gov.br/)) - Brazilian federal open data portal available for public use
+- [dados.gov.br](https://dados.gov.br/) - Brazilian federal open data portal available for public use
 - [data.europa.eu](https://data.europa.eu/) - European Union open data portal aggregating member state catalogs
 - [data.gouv.fr](https://www.data.gouv.fr/) ([docs](https://guides.data.gouv.fr/)) - French national open data platform for public datasets
-- [data.gov.au](https://data.gov.au/) ([docs](https://data.gov.au/)) - Australian government open data catalog and APIs available for public use
-- [data.gov.be](https://data.gov.be/) ([docs](https://data.gov.be/)) - Belgian government open data portal available for public use
-- [data.gov.gr](https://data.gov.gr/) ([docs](https://data.gov.gr/)) - Greek government open data portal available for public use
-- [data.gov.hk](https://data.gov.hk/en/) ([docs](https://data.gov.hk/en/)) - Hong Kong government open data portal available for public use
-- [data.gov.ie](https://data.gov.ie/) ([docs](https://data.gov.ie/)) - Irish government open data catalog and APIs available for public use
+- [data.gov.au](https://data.gov.au/) - Australian government open data catalog and APIs available for public use
+- [data.gov.be](https://data.gov.be/) - Belgian government open data portal available for public use
+- [data.gov.gr](https://data.gov.gr/) - Greek government open data portal available for public use
+- [data.gov.hk](https://data.gov.hk/en/) - Hong Kong government open data portal available for public use
+- [data.gov.ie](https://data.gov.ie/) - Irish government open data catalog and APIs available for public use
 - [data.gov.in](https://data.gov.in/) - Indian government open data platform for public datasets
-- [data.gov.ro](https://data.gov.ro/) ([docs](https://data.gov.ro/)) - Romanian government open data portal available for public use
+- [data.gov.ro](https://data.gov.ro/) - Romanian government open data portal available for public use
 - [data.gov.uk](https://www.data.gov.uk/) ([docs](https://docs.publishing.service.gov.uk/)) - UK government open data catalog and API platform available for public use
-- [dati.gov.it](https://dati.gov.it/) ([docs](https://dati.gov.it/)) - Italian national open data portal for public administration datasets
-- [datos.gob.ar](https://datos.gob.ar/) ([docs](https://datos.gob.ar/)) - Argentine national open data portal available for public use
-- [datos.gob.cl](https://datos.gob.cl/) ([docs](https://datos.gob.cl/)) - Chilean government open data portal available for public use
-- [datos.gob.es](https://datos.gob.es/) ([docs](https://datos.gob.es/)) - Spanish government open data catalog available for public use
-- [datos.gov.co](https://datos.gov.co/) ([docs](https://datos.gov.co/)) - Colombian government open data portal available for public use
+- [dati.gov.it](https://dati.gov.it/) - Italian national open data portal for public administration datasets
+- [datos.gob.ar](https://datos.gob.ar/) - Argentine national open data portal available for public use
+- [datos.gob.cl](https://datos.gob.cl/) - Chilean government open data portal available for public use
+- [datos.gob.es](https://datos.gob.es/) - Spanish government open data catalog available for public use
+- [datos.gov.co](https://datos.gov.co/) - Colombian government open data portal available for public use
 - [DevLifeCheck](https://devlifecheck.com/developers) - Security-update end dates, recalls and evidence for 1,300+ phones, tablets, Chromebooks and routers
 - [Edgepedia](https://www.edgechat.ai/developers) - Search and read Edgepedia, a free and growing encyclopedia with citations
 - [EOSL](https://eosl.ai/api) - Hardware end-of-sale and end-of-service-life dates by part number, source-linked
 - [French Address Search](https://adresse.data.gouv.fr/outils/api-doc/adresse) - French government geocoding API for forward and reverse address search with autocomplete and batch CSV
-- [govdata.de](https://www.govdata.de/) ([docs](https://www.govdata.de/)) - German federal open data portal available for public use
+- [govdata.de](https://www.govdata.de/) - German federal open data portal available for public use
 - [HousingFeed](https://housingfeed.com/docs) - US rental listings from property managers' own websites, verified weekly
-- [Humanitarian Data Exchange](https://data.humdata.org/) ([docs](https://data.humdata.org/)) - Humanitarian datasets and crisis indicators available for public use
+- [Humanitarian Data Exchange](https://data.humdata.org/) - Humanitarian datasets and crisis indicators available for public use
 - [i6eal Open AI Data](https://i6eal.de/en/tools/data) - Open datasets on AI policy, regulation and public-sector adoption in Germany and the EU
 - [Kvartiry-Phuket](https://kvartiry-phuket.com/otkrytye-dannye) - Russian-language Phuket real estate guides, asking prices, condo assessment rates, weather, beaches
 - [LottoLens PH](https://remo65588-boop.github.io/lottolens-ph-public-data/api) - Fixed Philippine PCSO historical results and normal draw schedules
@@ -1086,8 +1086,8 @@ category tables, not this file.
 - [Open Scholarships](https://scholarships.grudged.io) - Free, openly-licensed directory of US scholarships and student aid from official sources
 - [open.canada.ca](https://open.canada.ca/) - Canadian federal open government data portal available for public use
 - [openAFRICA](https://open.africa/) - Large datasets repository of African open data
-- [opendata.dk](https://www.opendata.dk/) ([docs](https://www.opendata.dk/)) - Danish open data portal available for public use
-- [opendata.swiss](https://opendata.swiss/) ([docs](https://opendata.swiss/)) - Swiss federal and cantonal open data portal available for public use
+- [opendata.dk](https://www.opendata.dk/) - Danish open data portal available for public use
+- [opendata.swiss](https://opendata.swiss/) - Swiss federal and cantonal open data portal available for public use
 - [OpenSanctions](https://www.opensanctions.org/docs/api) - Data on international sanctions, crime and politically exposed persons
 - [PayCrunch](https://paycrunch.co/api.html) - US wages for 1,008 occupations and by state, from BLS OEWS May 2025, static JSON, CC BY 4.0
 - [ProductGuru](https://myproduct.guru/lookup) - Consumer product-safety recall notices from 11 government registers, looked up by barcode (EAN/GTIN)
@@ -1121,7 +1121,7 @@ category tables, not this file.
 ## Science & Research (59)
 
 - [arcsecond.io](https://api.arcsecond.io) - Unified REST APIs aggregating worldwide astronomy data sources, with OpenAPI schema and a CLI
-- [arXiv bulk](https://info.arxiv.org/help/bulk_data.html) ([docs](https://info.arxiv.org/help/bulk_data.html)) - arXiv preprint metadata and full-text bulk access available for public use
+- [arXiv bulk](https://info.arxiv.org/help/bulk_data.html) - arXiv preprint metadata and full-text bulk access available for public use
 - [Botlero](https://botlero.com/api/robots) - REST API of sourced, quoted specs for 30+ humanoid robots, filterable by manufacturer and stage
 - [Calendrier Tempo](https://www.calendrier-tempo.fr/api-tempo) - French EDF Tempo tariff colours and forecasts
 - [Chempirical](https://chempirical.com/api) - Chemical compounds with physical data, reactions and substructure search
@@ -1130,12 +1130,12 @@ category tables, not this file.
 - [CycleCalcs](https://www.cyclecalcs.com/api.html) - Interpreted astronomy: sun and moon times, moon phases, planets, eclipses, seasons
 - [Danish data service Energi](https://www.energidataservice.dk/) - Open energy data from Energinet with API access
 - [DataCite](https://datacite.org/) ([docs](https://support.datacite.org/docs/api)) - Persistent identifiers and metadata for research data
-- [Dryad](https://datadryad.org/) ([docs](https://datadryad.org/)) - Curated research data repository with CC0 datasets
+- [Dryad](https://datadryad.org/) - Curated research data repository with CC0 datasets
 - [ENA](https://www.ebi.ac.uk/ena/browser/browser/api/swagger-ui/index.html) - Nucleotide sequences, genomes and raw reads archive
 - [Europe PMC](https://europepmc.org/RestfulWebService) - Life-science literature search with abstracts, citations and full-text links
 - [Figshare](https://figshare.com/) ([docs](https://docs.figshare.com/v2/)) - Research data repository for files and figures available for public use
 - [GBIF](https://techdocs.gbif.org/en/openapi/) - REST API for querying global biodiversity occurrence, species, and dataset records published via GBIF
-- [GDELT](https://www.gdeltproject.org/) ([docs](https://www.gdeltproject.org/)) - Global event, location, and tone database from news media
+- [GDELT](https://www.gdeltproject.org/) - Global event, location, and tone database from news media
 - [iDigBio](https://github.com/idigbio/idigbio-search-api/wiki) - Access millions of museum specimens from organizations around the world
 - [iNaturalist](https://api.inaturalist.org/v1/docs) - Citizen-science wildlife observations with species identification and mapping
 - [inspirehep.net](https://github.com/inspirehep/rest-api-doc) - REST API for INSPIRE high-energy physics literature, authors, institutions, conferences, and experiments
@@ -1157,8 +1157,8 @@ category tables, not this file.
 - [ORCID](https://orcid.org) - ORCID researcher identifier registry and API
 - [OSF](https://osf.io/) ([docs](https://developer.osf.io/)) - Open Science Framework project and data repository
 - [Our World in Data](https://ourworldindata.org/) ([docs](https://docs.owid.io/)) - Research and data on global development challenges
-- [PANGAEA](https://www.pangaea.de/) ([docs](https://www.pangaea.de/)) - Earth and environmental science data publisher available for public use
-- [Pew Research](https://www.pewresearch.org/) ([docs](https://www.pewresearch.org/)) - Public opinion and demographic surveys available for public use
+- [PANGAEA](https://www.pangaea.de/) - Earth and environmental science data publisher available for public use
+- [Pew Research](https://www.pewresearch.org/) - Public opinion and demographic surveys available for public use
 - [Purple Air](https://www.purpleair.com/) - Real-time air quality platform with PM2.5 data from 35,000+ sensors across 100+ countries
 - [RCSB PDB](https://data.rcsb.org) - 3D structures of proteins and nucleic acids
 - [Remote Calc](https://github.com/elizabethadegbaju/remotecalc) - Decodes base64 encoding and parses it to return a solution to the calculation in JSON
@@ -1182,25 +1182,25 @@ category tables, not this file.
 
 ## Space & Astronomy (20)
 
-- [ALMA Science Archive](https://almascience.eso.org/) ([docs](https://almascience.eso.org/)) - Atacama Large Millimeter Array astronomical data archive
+- [ALMA Science Archive](https://almascience.eso.org/) - Atacama Large Millimeter Array astronomical data archive
 - [CDS Strasbourg](https://cdsweb.u-strasbg.fr/) - Strasbourg astronomical data center available for public use
-- [CelesTrak](https://celestrak.org/) ([docs](https://celestrak.org/)) - Satellite orbital elements and space situational awareness data
-- [CERN Open Data](https://opendata.cern.ch/) ([docs](https://opendata.cern.ch/)) - Open particle physics datasets from CERN experiments
-- [ESA](https://www.esa.int/) ([docs](https://www.esa.int/)) - European Space Agency data and missions available for public use
-- [ESA Sky](https://sky.esa.int/esasky/) ([docs](https://sky.esa.int/esasky/)) - ESA virtual observatory for browsing astronomical data and images
-- [ESO Science Archive](https://archive.eso.org/cms.html) ([docs](https://archive.eso.org/cms.html)) - European Southern Observatory astronomical data archive
+- [CelesTrak](https://celestrak.org/) - Satellite orbital elements and space situational awareness data
+- [CERN Open Data](https://opendata.cern.ch/) - Open particle physics datasets from CERN experiments
+- [ESA](https://www.esa.int/) - European Space Agency data and missions available for public use
+- [ESA Sky](https://sky.esa.int/esasky/) - ESA virtual observatory for browsing astronomical data and images
+- [ESO Science Archive](https://archive.eso.org/cms.html) - European Southern Observatory astronomical data archive
 - [HEASARC](https://heasarc.gsfc.nasa.gov/) - High Energy Astrophysics Science Archive available for public use
-- [JPL Horizons](https://ssd.jpl.nasa.gov/horizons/) ([docs](https://ssd.jpl.nasa.gov/horizons/)) - Ephemerides and orbital data for solar system objects
-- [JPL Small-Body Database](https://ssd.jpl.nasa.gov/) ([docs](https://ssd.jpl.nasa.gov/)) - Orbital and physical data for asteroids and comets
-- [MAST](https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html) ([docs](https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html)) - Barbara A Mikulski Archive for Space Telescopes data
+- [JPL Horizons](https://ssd.jpl.nasa.gov/horizons/) - Ephemerides and orbital data for solar system objects
+- [JPL Small-Body Database](https://ssd.jpl.nasa.gov/) - Orbital and physical data for asteroids and comets
+- [MAST](https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html) - Barbara A Mikulski Archive for Space Telescopes data
 - [Minor Planet Center](https://minorplanetcenter.net/) ([docs](https://minorplanetcenter.net/iau/MPCORB.html)) - IAU center for minor planet, comet and satellite astrometry and orbits
 - [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/) ([docs](https://exoplanetarchive.ipac.caltech.edu/docs/program_interfaces.html)) - Database of confirmed exoplanets and host star properties
-- [NASA Open Data](https://data.nasa.gov/) ([docs](https://data.nasa.gov/)) - NASA open datasets portal available for public use
-- [Planetary Data System](https://pds.nasa.gov/) ([docs](https://pds.nasa.gov/)) - NASA planetary science archives available for public use
-- [SDSS](https://www.sdss.org/) ([docs](https://www.sdss.org/)) - Sloan Digital Sky Survey astronomical imaging and spectra
-- [SIMBAD](http://simbad.u-strasbg.fr/simbad/) ([docs](http://simbad.u-strasbg.fr/simbad/)) - Astronomical object database and cross-identification service
+- [NASA Open Data](https://data.nasa.gov/) - NASA open datasets portal available for public use
+- [Planetary Data System](https://pds.nasa.gov/) - NASA planetary science archives available for public use
+- [SDSS](https://www.sdss.org/) - Sloan Digital Sky Survey astronomical imaging and spectra
+- [SIMBAD](http://simbad.u-strasbg.fr/simbad/) - Astronomical object database and cross-identification service
 - [Spaceflight News API](https://spaceflightnewsapi.net/) ([docs](https://api.spaceflightnewsapi.net/v4/docs)) - Aggregated spaceflight news, blogs and reports API
-- [VizieR](https://vizier.cds.unistra.fr/) ([docs](https://vizier.cds.unistra.fr/)) - Astronomical catalogs and tables service available for public use
+- [VizieR](https://vizier.cds.unistra.fr/) - Astronomical catalogs and tables service available for public use
 - [Where the ISS at](https://wheretheiss.at/) ([docs](https://wheretheiss.at/w/developer)) - Real-time International Space Station position and TLE API
 
 ## Sports & Fitness (25)
@@ -1266,20 +1266,20 @@ category tables, not this file.
 ## Travel (3)
 
 - [OpenTripPlanner](https://www.opentripplanner.org/) ([docs](https://docs.opentripplanner.org/)) - Open source journey planning server for transit, walking, biking and ride hailing
-- [OurAirports](https://ourairports.com/data/) ([docs](https://ourairports.com/data/)) - Public domain airport, runway, navaid and country data as CSV downloads
+- [OurAirports](https://ourairports.com/data/) - Public domain airport, runway, navaid and country data as CSV downloads
 - [Wikivoyage API](https://www.wikivoyage.org/) ([docs](https://www.mediawiki.org/wiki/API:Main_page)) - Travel guides, destinations and listings from the Wikivoyage MediaWiki
 
 ## Weather & Climate (42)
 
 - [7Timer!](http://www.7timer.info/doc.php?lang=en) - GFS-based global weather forecast API (XML/JSON) with civil, astro, meteo products and 8-day to 2-week forecasts
 - [AviationWeather](https://aviationweather.gov/dataserver/) - NOAA aviation weather forecasts and observations
-- [Climate TRACE](https://climatetrace.org/) ([docs](https://climatetrace.org/)) - Greenhouse gas emissions inventory data available for public use
+- [Climate TRACE](https://climatetrace.org/) - Greenhouse gas emissions inventory data available for public use
 - [CO2 Offset](https://corrently.io/books/susscope2-framework-fur-co2-emissionen-strombezug) - API calculates and validates the carbon footprint
 - [DWD Open Data](https://www.dwd.de/DE/Home/home_node.html) - German Weather Service open data for forecasts, observations and climate
-- [EEA data portal](https://www.eea.europa.eu/en/analysis) ([docs](https://www.eea.europa.eu/en/analysis)) - European environment data and indicators available for public use
+- [EEA data portal](https://www.eea.europa.eu/en/analysis) - European environment data and indicators available for public use
 - [EPA Envirofacts](https://www.epa.gov/) - US environmental facility and release data available for public use
 - [FMI Open Data](https://en.ilmatieteenlaitos.fi/open-data) - Finnish weather, sea, climate and radar observations via open WFS
-- [GBIF](https://www.gbif.org/) ([docs](https://www.gbif.org/)) - Global biodiversity occurrence data available for public use
+- [GBIF](https://www.gbif.org/) - Global biodiversity occurrence data available for public use
 - [GridVigil](https://gridvigil.com/developers) - Pressure scores, demand, generation mix and alerts for the 10 major U.S. power grids
 - [GrünstromIndex](https://gruenstromindex.de) - Green Power Index for Germany (Grünstromindex/GSI)
 - [Hail History](https://whathitmyhouse.com/api-docs.html) - Radar-detected hail history for any US address from NOAA NEXRAD Level-III hail detections, by year
@@ -1291,13 +1291,13 @@ category tables, not this file.
 - [MET Norway](https://api.met.no) - Norwegian Meteorological Institute weather forecast API
 - [NASA POWER](https://power.larc.nasa.gov/docs) - Global solar and weather data for energy and agriculture
 - [NOAA CO-OPS](https://api.tidesandcurrents.noaa.gov/api/prod) - US coastal tides, water levels, currents and meteorological observations
-- [NOAA NCEI](https://www.ncei.noaa.gov/) ([docs](https://www.ncei.noaa.gov/)) - NOAA climate and environmental data archive available for public use
-- [OBIS](https://obis.org/) ([docs](https://obis.org/)) - Ocean biodiversity occurrence data available for public use
+- [NOAA NCEI](https://www.ncei.noaa.gov/) - NOAA climate and environmental data archive available for public use
+- [OBIS](https://obis.org/) - Ocean biodiversity occurrence data available for public use
 - [Open-Meteo Ensemble](https://open-meteo.com/en/docs/ensemble-api) - Weather ensemble forecasts from multiple models
 - [openSenseMap](https://api.opensensemap.org) - Data from Personal Weather Stations called senseBoxes
 - [Pirate Weather](http://docs.pirateweather.net/en/latest/) - Free weather API with forecast data similar to Dark Sky
 - [PM2.5 Open Data Portal](https://pm25.lass-net.org) - Taiwan PM2.5 open data portal with real-time sensor readings, visualizations, and JSON API for all sensors
-- [Protected Planet](https://www.protectedplanet.net/) ([docs](https://www.protectedplanet.net/)) - World protected areas database available for public use
+- [Protected Planet](https://www.protectedplanet.net/) - World protected areas database available for public use
 - [PVGIS](https://joint-research-centre.ec.europa.eu/photovoltaic-geographical-information-system-pvgis/using-pvgis-5/api-non-interactive-service_en) - EU solar radiation and photovoltaic performance estimates
 - [RainViewer](https://www.rainviewer.com/api.html) - Radar data collected from different websites across the Internet
 - [sensor.community](https://github.com/opendata-stuttgart/meta/wiki/EN-APIs) - Community air quality sensor network data worldwide
@@ -1305,7 +1305,7 @@ category tables, not this file.
 - [Sähkön hinta nyt](https://xn--shknhintanyt-gcb8w.org/integraatiot) - Finnish and Nordic day-ahead electricity spot prices (15-minute), cheapest hours
 - [Terrace Weather](https://terrace.javiermateo.dev/swagger-ui/index.html) - Terrace open/closed verdict for restaurants, from the weather forecast
 - [UK Carbon Intensity](https://carbon-intensity.github.io/api-definitions) - The Official Carbon Intensity API for Great Britain developed by National Grid
-- [UNEP data](https://data.unep.org/) ([docs](https://data.unep.org/)) - UN environment data and indicators available for public use
+- [UNEP data](https://data.unep.org/) - UN environment data and indicators available for public use
 - [US Weather](https://www.weather.gov/documentation/services-web-api) - US National Weather Service API with forecasts
 - [Veabird](https://veabird.com/api/v1) - Beach (sargassum, waves, hurricanes) and ski snow forecasts for 1,900+ resorts, no key
 - [WattFigure](https://api.wattfigure.com) - US electricity rates by state, with appliance and EV charging running costs
