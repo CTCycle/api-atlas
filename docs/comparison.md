@@ -5,43 +5,67 @@ This is a feature comparison, not a claim of superiority on every axis.
 
 ## Reference repositories
 
-| Repository | Shape | Entries | Metadata | Tooling | Licence notes |
+Star counts and last push dates were read from the GitHub REST API on 2026-10-29.
+Entry counts for other projects are the projects' own published figures or the
+number of rows their list actually contains, not estimates.
+
+| Repository | Shape | Scale | Metadata per row | Tooling | Licence notes |
 | --- | --- | --- | --- | --- | --- |
-| public-apis/public-apis | Single `README.md`, one table per category | ~1,500 APIs | API, Description, Auth, HTTPS, CORS | format.py, links.py, unittest, 3 workflows | MIT code; sponsored APILayer block |
-| brandonhimpfen/awesome-apis | Single `README.md`, curated links | ~hundreds | Name + one-line blurb | None | Mixed (APIs, SDKs, tools, courses) |
-| Kikobeats/awesome-api | Single `README.md` | ~hundreds | Name + blurb | None | Resources for designing APIs, not a data catalog |
-| github.com/topics/public-api | Topic index | n/a | n/a | GitHub search | Discovery only |
+| public-apis/public-apis | Single `README.md`, one table per category | 2,238 rows parsed from its README | API, Description, Auth, HTTPS, CORS | format.py, links.py, unittest, 3 workflows | MIT code; sponsored APILayer block inside the list |
+| awesomedata/awesome-public-datasets | Topic list in `README.rst` | 1,118 entries parsed | Name, description, link | None | MIT; datasets keep their own licences |
+| ripienaar/free-for-dev | Single `README.md` | hundreds of SaaS entries | Name, free-tier limits in prose | None | No licence column; free-tier claims go stale |
+| APIs-guru/openapi-directory | OpenAPI documents plus a site | 2,529 API descriptions, 108,837 endpoints | Machine-readable specs only | Spec linter, weekly fixes | CC0-1.0; no pricing, no licence, no datasets |
+| punkpeye/awesome-mcp-servers | MCP server list | thousands of servers | Name, description, install | None | MIT; transport and install detail is inconsistent |
+| awesome-selfhosted/awesome-selfhosted | Table per section plus static site | hundreds of services | Licence, language, demo, Docker | CI, static site with search | Strong per-row licence metadata; software only |
+| API Atlas | One Markdown table per category, 45 files | 2,144 rows (APIs, datasets, portals, MCP) | Name, Type, Description, Access, Auth, License, Docs, Source, Checked | stdlib validator, verifier, triage, spec probe, JSON Schema, CI freshness | Code MIT, compilation CC BY 4.0, no sponsored rows |
 
 ## Where API Atlas is different
 
 1. **Richer, honest metadata.** Nine columns: Name, Type, Description, Access,
    Auth, License, Docs, Source, Checked. Pricing and access are recorded as stated
-   by the provider, with `-` for anything unconfirmed. Competitors record auth
-   and HTTPS/CORS only.
-2. **More resource types.** APIs, Datasets, Portals and MCP servers share one
-   schema, so an AI agent or researcher can find data sources, not only REST
-   endpoints.
-3. **Provenance per row.** The Source column records whether a row is `editorial`,
-   `public-apis`, `APIs.guru` or `awesome-datasets`, and Checked records when a
-   person last read the official documentation. Nothing is presented as verified
-   that was not.
-4. **Separated category files.** One file per category, so a pull request touches
-   one small file and reviewers see a small diff. No 2,700-line README.
-5. **No sponsored content.** There are no ad slots, featured placements or
-   affiliate links. Rows are sorted alphabetically and validated in CI.
-6. **Safety-first maintenance.** The script never edits the catalog. Link checks
-   produce a report; removal requires a human decision and evidence. Transient
-   failures never delete a row.
-7. **Stdlib only.** `scripts/catalog.py` uses the Python standard library, so
-   validation runs on a clean machine with Python 3.10+.
-8. **Machine-readable copy kept in sync.** `data/catalog.jsonl` and
-   `data/catalog.csv` are generated and checked in CI for freshness.
-9. **Unit tests.** `tests/test_catalog.py` covers parsing, values, ordering and
-   duplicate detection, matching the public-apis approach.
+   by the provider, with `-` for anything unconfirmed. Competitors record auth and
+   HTTPS/CORS only, or nothing at all.
+2. **More resource types.** APIs, datasets, portals and MCP servers share one
+   schema, so a researcher or an agent can find data sources, not only REST
+   endpoints. public-apis, awesome-public-datasets and the MCP lists each cover one
+   type.
+3. **Provenance per row.** `Source` records whether a row is `editorial`,
+   `public-apis`, `APIs.guru` or `awesome-datasets`; `Checked` records when a person
+   last read the official documentation. Nothing is presented as verified that was
+   not.
+4. **A verification pipeline, not a link check.** `verify` follows redirects to the
+   real destination, records the page title, and detects parked domains, retirement
+   notices and rows whose page no longer matches their name. `triage` turns that
+   into a decision queue, including rows that answer 401/403 while claiming no auth.
+   The 2026-10-29 pass covered all 2,496 URLs and removed or corrected 32 rows.
+5. **Machine-readable contracts, discovered not assumed.** `scripts/probe.py` looks
+   for OpenAPI/Swagger documents on the website, in the docs page and at the
+   conventional paths, and only counts a hit when the document parses and has
+   paths. No other list of this kind tells you which of its entries publish a spec.
+6. **A schema, not just a file.** `data/catalog.jsonl`, `data/catalog.json` and
+   `data/catalog.csv` are generated from the Markdown, described by
+   `data/catalog.schema.json` (JSON Schema 2020-12), and validated for agreement
+   with the tables in CI. Derived booleans (`verified`, `docs_present`,
+   `license_known`) let an agent filter without parsing dates.
+7. **A shortlist for the impatient.** `docs/no-auth.md` is generated from the
+   catalog and lists every free, keyless resource by category.
+8. **Separated category files.** One file per category, so a pull request touches
+   one small file and reviewers see a small diff. No 3,000-line README.
+9. **No sponsored content.** No ad slots, featured placements or affiliate links.
+   Rows are sorted alphabetically and validated in CI.
+10. **Safety-first maintenance.** The tooling never edits the catalog. Link checks
+    produce reports; removal requires a human decision and evidence, and a single
+    automated failure never deletes a row.
+11. **Stdlib only.** Every script runs on a clean machine with Python 3.10+ and no
+    third-party packages.
 
 ## What we deliberately did not adopt
 
 - A single README (rejected: reviewability).
+- Sponsored placements inside the list, as public-apis does (rejected: the catalog
+  is not an ad surface).
 - Minimum entries per category (rejected: invites padding).
 - Automatic rewriting of the catalog by importers (rejected: accuracy).
 - Cloud service enumerations (rejected: noise).
+- Marketplace or aggregator root rows, such as a row that resolves to rapidapi.com
+  (rejected: it does not help the reader).

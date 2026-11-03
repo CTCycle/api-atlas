@@ -5,17 +5,25 @@ crawler, no scheduler requirement and no database. Everything below works with a
 plain clone and Python 3.10 or newer, with no third-party packages.
 
 ```bash
-python scripts/catalog.py validate      # structure, values, order, navigation
-python scripts/catalog.py stats         # counts by category, type, access, source
+python scripts/catalog.py validate      # structure, values, order, navigation, export agreement
+python scripts/catalog.py stats         # counts by category, type, access and source
 python scripts/catalog.py linkcheck     # HTTP check every website and docs URL
+python scripts/catalog.py verify        # linkcheck plus final URL, page title, retirement wording
+python scripts/catalog.py triage        # turn the newest verify report into a decision queue
 python scripts/catalog.py report        # build reports/maintenance-YYYY-MM-DD.md
 python scripts/catalog.py duplicates    # shared URLs, same name on one domain
 python scripts/catalog.py stale         # entries with old or missing Checked dates
-python scripts/catalog.py export        # data/catalog.jsonl and data/catalog.csv
+python scripts/catalog.py shortlist     # regenerate docs/no-auth.md
+python scripts/catalog.py export        # data/catalog.jsonl, data/catalog.json and data/catalog.csv
+python scripts/probe.py                 # discover live OpenAPI/Swagger specs for API rows
+python scripts/probe.py --missing --index data/openapi-index.json
+                                        # probe only rows with no known spec, refresh the index
 ```
 
 The script never edits `catalog/`. It writes JSON and Markdown under `reports/`.
-Applying a proposed change is a human decision, made with a normal commit.
+Applying a proposed change is a human decision, made with a normal commit. The only
+files it rewrites are the derived artifacts (`data/`, `docs/no-auth.md`), and CI
+fails when those are stale.
 
 ## Routine
 
@@ -54,13 +62,17 @@ per host limit. Expect 15 to 30 minutes.
 | Result | Meaning | Action |
 | --- | --- | --- |
 | 200 to 299 | Reachable | Nothing |
-| 301 to 308 | Moved | Update the link to the new location, then re-check |
+| Moved, same domain | New canonical path | Update the link to `final_url`, then re-check |
+| Moved, different domain | Rebrand, acquisition or hijack | Open it in a browser, confirm the service is the same, then update or remove |
+| Parked or expired | Domain for sale or lapsed | Remove |
 | 401, 402, 403, 429, 451 | Gated or rate limited | Keep the row. Record the auth requirement if it changed |
 | 404, 410 | Gone | Confirm in a browser, then fix the link or remove the row |
 | DNS failure | Domain retired | Confirm, then remove |
 | TLS error | Often bot protection | Re-check in a browser before acting |
+| TLS chain incomplete | The server's certificate chain does not validate in this client, a browser completes it | No action; the row is fine |
 | Timeout, 5xx, transport error | Usually transient | Re-run the check. Remove only after a second failure on a different day |
-| Redirect to a parked domain | Dead | Remove |
+| Retirement wording on the page | Provider announced a shutdown | Remove, or mark the successor |
+| Gated but `Auth` says `None` | The row is wrong about access | Read the docs and fix the Auth value |
 
 Two rules override everything else:
 
@@ -71,10 +83,21 @@ Two rules override everything else:
 ## What each check can and cannot prove
 
 - `validate` proves the table shape, the allowed values, alphabetical order,
-  category coverage and README navigation. It proves nothing about truth.
-- `linkcheck` proves that a URL answered with a status code. It does not prove the
-  page still describes the same service, that pricing is unchanged, or that access
-  works behind a login.
+  category coverage, README navigation, and that the committed export matches the
+  tables field for field. It proves nothing about truth.
+- `linkcheck` proves that a URL answered with a status code, following redirects to
+  the real destination. It does not prove the page still describes the same service,
+  that pricing is unchanged, or that access works behind a login.
+- `verify` adds the final URL, the page title and the presence of retirement or
+  parking wording. It still cannot read pricing out of a page that renders with
+  JavaScript.
+- `triage` groups the newest verify report by the decision each row needs. It is a
+  work queue, not a verdict.
+- `probe` proves that a provider publishes an OpenAPI or Swagger document that
+  parses and has paths. That is the strongest evidence available without a key; it
+  does not prove every endpoint responds. It follows redirects to the document's
+  real URL, accepts a docs URL that already points at a specification file, and
+  parses YAML as well as JSON when PyYAML is installed (JSON only otherwise).
 - `duplicates` proves that two rows share a URL or a name on a domain. It does not
   prove they describe the same real service.
 - `stale` proves that nobody has confirmed a row recently. It does not prove the

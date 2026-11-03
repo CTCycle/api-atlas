@@ -109,5 +109,103 @@ class ParseHelpers(unittest.TestCase):
         self.assertTrue(any("duplicate name" in e for e in problems.errors))
 
 
+class LinkCheckSemantics(unittest.TestCase):
+    """The report proposes URL edits from redirect targets, so the checker must
+    resolve relative Location headers and must not call a parked domain 'ok'."""
+
+    def setUp(self):
+        import unittest.mock as mock
+        self.mock = mock
+        self._sleep = mock.patch.object(catalog.time, "sleep", lambda *_: None)
+        self._sleep.start()
+
+    def tearDown(self):
+        self._sleep.stop()
+
+    def _fake(self, script):
+        calls = []
+
+        def fetch(url, method="GET", timeout=15.0, read_body=False):
+            calls.append(url)
+            status, headers, body = script[url]
+            return status, headers, body, None
+        return fetch, calls
+
+    def _run(self, script, url, deep=False):
+        fetch, calls = self._fake(script)
+        with self.mock.patch.object(catalog, "_fetch", fetch):
+            return catalog.check_url(url, deep=deep), calls
+
+    def test_relative_location_is_resolved_to_absolute(self):
+        script = {
+            "https://sdmdataaccess.sc.egov.usda.gov/": (302, {"location": "/Help.aspx#JavaScript"}, b""),
+            "https://sdmdataaccess.sc.egov.usda.gov/Help.aspx": (200, {}, b""),
+        }
+        result, _ = self._run(script, "https://sdmdataaccess.sc.egov.usda.gov/")
+        self.assertEqual(result["kind"], "moved")
+        self.assertTrue(result["ok"])
+        self.assertTrue(result["final_url"].startswith("https://sdmdataaccess.sc.egov.usda.gov/"))
+        self.assertNotIn("...", result["final_url"])
+
+    def test_redirect_to_parking_host_is_dead(self):
+        script = {
+            "https://gone.example/": (301, {"location": "https://www.hugedomains.com/domain_profile.cfm"}, b""),
+            "https://www.hugedomains.com/domain_profile.cfm": (200, {}, b""),
+        }
+        result, _ = self._run(script, "https://gone.example/")
+        self.assertEqual(result["kind"], "dead-parked")
+        self.assertFalse(result["ok"])
+
+    def test_404_after_redirect_is_broken(self):
+        script = {
+            "https://old.example/docs": (301, {"location": "https://new.example/docs"}, b""),
+            "https://new.example/docs": (404, {}, b""),
+        }
+        result, _ = self._run(script, "https://old.example/docs")
+        self.assertEqual(result["kind"], "broken")
+
+    def test_deep_check_detects_parked_page_text(self):
+        body = b"<html><head><title>example.com</title></head><body>This domain is for sale</body></html>"
+        script = {"https://example.com/": (200, {}, body)}
+        result, _ = self._run(script, "https://example.com/", deep=True)
+        self.assertEqual(result["kind"], "dead-parked")
+
+    def test_headers_are_normalised_to_lowercase(self):
+        class Fake:
+            def items(self):
+                return [("Location", "https://x.example/"), ("Content-Type", "text/html")]
+        self.assertEqual(catalog._lower_headers(Fake())["location"], "https://x.example/")
+
+    def test_registrable_domain_flags_offsite_moves(self):
+        self.assertEqual(catalog._registrable("https://docs.example.co.uk/a"), "example.co.uk")
+        self.assertEqual(catalog._registrable("https://api.example.com/x"), "example.com")
+        script = {
+            "https://gone.example/api": (301, {"location": "http://survey-twist.com"}, b""),
+            "http://survey-twist.com": (200, {}, b""),
+        }
+        result, _ = self._run(script, "https://gone.example/api")
+        self.assertTrue(result["moved_offsite"])
+
+    def test_broken_chain_is_distinguished_from_refusal(self):
+        calls = {"n": 0}
+
+        def fetch(url, method="GET", timeout=15.0, read_body=False, insecure=False):
+            calls["n"] += 1
+            if not insecure:
+                return None, {}, b"", "URLError: certificate verify failed"
+            return 200, {}, b"<html><title>Fine</title></html>", None
+
+        with self.mock.patch.object(catalog, "_fetch", fetch):
+            result = catalog.check_url("https://chain.example/", deep=True)
+        self.assertEqual(result["kind"], "tls-chain")
+        self.assertTrue(result["ok"])
+
+    def test_page_signals_extracts_title(self):
+        title, hint = catalog.page_signals(
+            b"<html><head><title>  Open-Meteo  API  </title></head><body>ok</body></html>")
+        self.assertEqual(title, "Open-Meteo API")
+        self.assertIsNone(hint)
+
+
 if __name__ == "__main__":
     unittest.main()

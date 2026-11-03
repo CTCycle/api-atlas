@@ -18,6 +18,7 @@ Maps, geocoding, satellite imagery, elevation and boundary data.
 | [bng2latlong](https://www.getthedata.com/bng2latlong) | API | Convert British OSGB36 easting and northing (British National Grid) to WGS84 latitude and longitude | Free tier | None | - | [docs](https://www.getthedata.com/bng2latlong/openapi) | public-apis, APIs.guru | - |
 | [Cartes.io](https://github.com/M-Media-Group/Cartes.io/wiki/API) | API | REST API to create and manage interactive maps and markers, with GeoJSON support and public map search | Free tier | None | - | - | public-apis | - |
 | [Cep.la](https://cep.la/) | API | Brazil RESTful API to find information about streets, zip codes, neighborhoods, cities and states | Free tier | None | - | - | public-apis | - |
+| [CitySDK](https://www.citysdk.eu/) | API | Development kit harmonizing APIs for smart cities and developers | Free tier | None | - | - | public-apis | - |
 | [Copernicus Data Space](https://dataspace.copernicus.eu/) | Portal | Copernicus Sentinel satellite data access available for public use | Free | Registration | Copernicus License | [docs](https://dataspace.copernicus.eu/) | editorial | 2026-10-24 |
 | [Country](https://country.is/) | API | Free IP-to-country geolocation API returning country, city, continent, subdivision, postal, and ASN data | Free tier | None | - | - | public-apis | - |
 | [CountryStateCity](https://countrystatecity.in) | API | World countries, states, regions, provinces, cities & towns in JSON, SQL, XML, YAML, & CSV format | Free tier | API key | - | - | public-apis | - |
@@ -46,9 +47,9 @@ Maps, geocoding, satellite imagery, elevation and boundary data.
 | [HelloSalut](https://stefanbohacek.com/project/hellosalut-api/) | API | Get hello translation following user language | Free tier | None | - | - | public-apis | - |
 | [HERE](https://www.here.com) | API | HERE location platform for maps, routing and geocoding | Freemium | API key | - | [docs](https://www.here.com/developer) | editorial | 2026-10-24 |
 | [HERE Maps](https://www.here.com/developer) | API | Create/customize digital maps based on HERE Maps data | Free tier | API key | - | - | public-apis | - |
-| [Hirak IP to Country](https://iplocation.hirak.site) | API | Ip to location with country code, currency code & currency name, fast response, unlimited requests | Free tier | API key | - | - | public-apis | - |
 | [HydroATLAS](https://www.hydrosheds.org/hydroatlas) | Dataset | Global hydro-environmental sub-basin attributes available for public use | Free | None | CC BY 4.0 | [docs](https://www.hydrosheds.org/hydroatlas) | editorial | 2026-10-24 |
 | [IBGE](https://servicodados.ibge.gov.br/api/docs) | API | Aggregate services of IBGE (Brazilian Institute of Geography and Statistics) | Free tier | None | - | - | public-apis | - |
+| [IP 2 Country](https://ip2country.info) | API | IP geolocation API mapping addresses to country codes | Free tier | None | - | - | public-apis | - |
 | [IP Address Details](https://ipinfo.io) | API | IPinfo API for IP geolocation, ASN, carrier, and privacy detection data with daily refreshes | Free tier | None | - | - | public-apis | - |
 | [IP Geolocation](https://www.abstractapi.com/api/ip-geolocation-api) | API | Abstract IP geolocation API allows developers to retrieve the region, country and city behind any IP worldwide. The API covers the geolocation of IPv4 and IPv6 addresses in 180+ countries worldwide | Free tier | API key | - | [docs](https://api.apis.guru/v2/specs/abstractapi.com/geolocation/1.0.0/openapi.json) | public-apis, APIs.guru | - |
 | [ip-api](https://ip-api.com/docs) | API | IP geolocation API returning location, ISP, and timezone data in JSON, XML, CSV, and batch formats | Free tier | None | - | - | public-apis | - |
@@ -62,6 +63,7 @@ Maps, geocoding, satellite imagery, elevation and boundary data.
 | [IPGEO](https://api.techniknews.net/ipgeo/81.56.105.148) | API | Unlimited free IP Address API with useful information | Free tier | None | - | - | public-apis | - |
 | [ipgeolocationapi](https://ipgeolocationapi.io/docs) | API | IP geolocation with ASN, timezone, currency and threat data, 5,000 keyless calls a day | Free tier | None | - | - | public-apis | - |
 | [IPInfoDB](https://www.ipinfodb.com/api) | API | Free Geolocation tools and APIs for country, region, city and time zone lookup by IP address | Free tier | API key | - | - | public-apis | - |
+| [IPKit](https://ipkit.dev/docs) | API | IP lookup with location, ASN/ISP and VPN/proxy/Tor signals | Free tier | None | - | - | public-apis | - |
 | [IPstack](https://ipstack.com) | API | Locate and identify website visitors by IP address | Free tier | API key | - | - | public-apis | - |
 | [ipwhois](https://ipwhois.io/documentation) | API | IP geolocation with country, city, coordinates, ISP, timezone and flag data | Free tier | None | - | - | public-apis | - |
 | [Kakao Maps](https://apis.map.kakao.com) | API | Kakao Maps provide multiple APIs for Korean maps | Free tier | API key | - | - | public-apis | - |
@@ -70,9 +72,11 @@ Maps, geocoding, satellite imagery, elevation and boundary data.
 | [LatLng](https://www.latlng.work/docs) | API | Geocoding, reverse geocoding, places, and static maps | Free tier | None | - | - | public-apis | - |
 | [LocationIQ](https://docs.locationiq.com/docs/introduction) | API | Provides forward/reverse geocoding and batch geocoding | Free tier | API key | - | - | public-apis | - |
 | [Locio](https://locio.com.au/docs) | API | Australian address autocomplete, validation and geocoding from the G-NAF national register | Free tier | API key | - | - | public-apis | - |
-| [Longdo Map](https://map.longdo.com/docs) | API | Interactive map with detailed places and information portal in Thailand | Free tier | API key | - | - | public-apis | - |
+| [Longdo Map](https://map.longdo.com/docs) | API | Interactive map with detailed places and information portal in Thailand | Free tier | API key | - | [docs](https://map.longdo.com/docs/en) | public-apis | - |
 | [Mapbox](https://www.mapbox.com) | API | Location platform APIs and SDKs for maps, navigation, search, geocoding, and custom tilesets | Freemium | API key | - | [docs](https://docs.mapbox.com) | editorial | 2026-10-24 |
+| [MapQuest](https://developer.mapquest.com/) | API | To access tools and resources to map the world | Free tier | API key | - | - | public-apis | - |
 | [Moradas](https://moradas.dev/docs) | API | Portuguese address autocomplete and 7-digit postal codes (CP7) | Free tier | None | - | - | public-apis | - |
+| [MyPincode](https://mypincode.live) | API | Indian PIN code and postal office lookup | Free tier | None | - | - | public-apis | - |
 | [NASA Earthdata](https://earthdata.nasa.gov/) | Portal | NASA Earth observation data portal available for public use | Free | Registration | Unknown | [docs](https://earthdata.nasa.gov/) | editorial | 2026-10-24 |
 | [Natural Earth](https://www.naturalearthdata.com/) | Dataset | Public domain vector and raster map data available for public use | Free | None | Public Domain | [docs](https://www.naturalearthdata.com/) | editorial | 2026-10-24 |
 | [Network Data Labs](https://www.networkdatalabs.com/docs) | API | IP geolocation with accuracy radius, ASN, and flags for Tor exits, known VPN networks and hosting | Free tier | API key | - | - | public-apis | - |
@@ -93,6 +97,7 @@ Maps, geocoding, satellite imagery, elevation and boundary data.
 | [positionstack](https://positionstack.com) | API | Forward & Reverse Batch Geocoding REST API | Free tier | API key | - | - | public-apis | - |
 | [PostalCodeCheck](https://postalcodecheck.com/postal-code-api) | API | City, region and coordinates for 887,000+ postal codes across 95 countries | Free tier | None | - | - | public-apis | - |
 | [PostalCodes](https://postalcodes.info/api) | API | Postal code search, country exports, and address validation data | Free tier | None | - | - | public-apis | - |
+| [Postali](https://postali.app/api) | API | Public REST API for postal codes in Mexico, Colombia and Spain | Free tier | None | - | - | public-apis | - |
 | [PostcodeData.nl](http://api.postcodedata.nl/v1/postcode/?postcode=1211EP&streetnumber=60&type=json) | API | Provide geolocation data based on postcode for Dutch addresses | Free tier | None | - | - | public-apis | - |
 | [Postcodes.io](https://postcodes.io) | API | Free UK postcode lookup and geocoding API with validation, autocomplete, and bulk reverse geocoding | Free tier | None | - | - | public-apis | - |
 | [Queimadas INPE](https://terrabrasilis.dpi.inpe.br/queimadas/portal) | API | Access to heat focus data (probable wildfire) | Free tier | None | - | - | public-apis | - |
@@ -113,6 +118,7 @@ Maps, geocoding, satellite imagery, elevation and boundary data.
 | [US ZipCode](https://www.smarty.com/docs/apis/us-zipcode-api/reference) | API | Validate and append data for any US ZipCode | Free tier | API key | - | - | public-apis | - |
 | [USGS EarthExplorer](https://earthexplorer.usgs.gov/) | Portal | USGS satellite and aerial imagery portal available for public use | Free | Registration | Public Domain | [docs](https://earthexplorer.usgs.gov/) | editorial | 2026-10-24 |
 | [Utah AGRC](https://api.mapserv.utah.gov) | API | Utah geocoding and SGID search API for Utah addresses and over 300 geospatial data layers | Free tier | API key | - | - | public-apis | - |
+| [ViaCep](https://viacep.com.br) | API | Free Brazilian postal code (CEP) lookup webservice in JSON or XML | Free tier | None | - | - | public-apis | - |
 | [Visual Crossing Weather API](https://www.visualcrossing.com/weather-api) | API | Weather Forecast and Historical Weather Data via RESTful API | - | - | Visual Crossing Weather API | [docs](https://api.apis.guru/v2/specs/visualcrossing.com/weather/4.6/openapi.json) | APIs.guru | - |
 | [What3Words](https://what3words.com/vasca.amica.ribassi?redirect=true) | API | Three words as rememberable and unique coordinates worldwide | Free tier | API key | - | - | public-apis | - |
 | [World Time API](https://worldtimeapi.org) | API | A simple API to get the current time based on a request with a timezone | - | - | - | [docs](http://worldtimeapi.org/api) | APIs.guru | - |

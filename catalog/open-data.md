@@ -4,11 +4,14 @@ National and international open data catalogs and CKAN portals.
 
 | Name | Type | Description | Access | Auth | License | Docs | Source | Checked |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [10ML Fragrance Index](https://mcp.10ml.com/openapi.json) | API | Perfume and fragrance notes, accords and similar scents data | Free tier | None | - | - | public-apis | - |
 | [221](https://221.orvlabs.com/documentation) | API | Senegal reference data: public holidays, mobile operators, banks, communes, legal forms | Free tier | None | - | - | public-apis | - |
 | [49 Gallery Historical Data](https://api.181649.com/docs) | API | Normalized historical records and 25 daily-updated reference series | Free tier | None | - | - | public-apis | - |
 | [AcreLens](https://www.acrelens.com) | API | Land suitability scoring API for any US property: off-grid, rural, recreational, investment | Free tier | API key | - | - | public-apis | - |
 | [API Setu](https://www.apisetu.gov.in) | API | An Indian Government platform that provides a lot of APIS for KYC, business, education & employment | Free tier | None | - | - | public-apis | - |
 | [APIllow](https://apillow.co/docs.html) | API | Zillow property data: 50+ fields per listing by address, URL, ZPID or ZIP, with sold data and comps | Free tier | API key | - | - | public-apis | - |
+| [Archive.org](https://archive.readme.io/docs) | Portal | Internet Archive collections and services | Free tier | None | - | - | public-apis | - |
+| [Auregistre](https://auregistre.fr/api) | API | French company history from the official gazette since 2008 | Free tier | None | - | - | public-apis | - |
 | [Authorized Partner API Specification](https://www.digilocker.gov.in:443/) | API | To access files in user's DigiLocker account from your application, you must first obtain user's authorization | - | - | - | [docs](https://api.apis.guru/v2/specs/digitallocker.gov.in/authpartner/1.0.0/openapi.json) | APIs.guru | - |
 | [avoindata.fi](https://avoindata.suomi.fi/en) | Portal | Finnish open data service available for public use | Free | None | Unknown | [docs](https://avoindata.suomi.fi/en) | editorial | 2026-10-26 |
 | [Band Atlas](https://www.aiotrf.com/en/ai/band-atlas/developers) | API | Cellular IoT bands, 2G/3G sunsets and device compatibility for 46 countries | Free tier | None | - | - | public-apis | - |
@@ -40,7 +43,7 @@ National and international open data catalogs and CKAN portals.
 | [data.gov.in](https://data.gov.in/) | Portal | Indian government open data platform for public datasets | Free | None | Government Open Data ... | - | editorial | - |
 | [data.gov.ro](https://data.gov.ro/) | Portal | Romanian government open data portal available for public use | Free | None | Unknown | [docs](https://data.gov.ro/) | editorial | 2026-10-26 |
 | [data.gov.sg](https://data.gov.sg/) | Portal | Singapore government open data platform available for public use | Free | API key | Unknown | [docs](https://data.gov.sg/) | editorial | 2026-10-24 |
-| [data.gov.uk](https://data.gov.uk/) | Portal | UK government open data catalog and API platform available for public use | Free | None | Open Government Licence v3.0 | [docs](https://docs.publishing.service.gov.uk/) | editorial | 2026-10-24 |
+| [data.gov.uk](https://www.data.gov.uk/) | Portal | UK government open data catalog and API platform available for public use | Free | None | Open Government Licence v3.0 | [docs](https://docs.publishing.service.gov.uk/) | editorial | 2026-10-24 |
 | [dati.gov.it](https://dati.gov.it/) | Portal | Italian national open data portal for public administration datasets | Free | None | Unknown | [docs](https://dati.gov.it/) | editorial | 2026-10-24 |
 | [datos.gob.ar](https://datos.gob.ar/) | Portal | Argentine national open data portal available for public use | Free | None | Unknown | [docs](https://datos.gob.ar/) | editorial | 2026-10-24 |
 | [datos.gob.cl](https://datos.gob.cl/) | Portal | Chilean government open data portal available for public use | Free | None | Unknown | [docs](https://datos.gob.cl/) | editorial | 2026-10-26 |
@@ -51,7 +54,7 @@ National and international open data catalogs and CKAN portals.
 | [Edgepedia](https://www.edgechat.ai/developers) | API | Search and read Edgepedia, a free and growing encyclopedia with citations | Free tier | None | - | - | public-apis | - |
 | [Enigma Public](https://documentation.enigma.com/v1) | API | Business data API for entity resolution, firmographics, KYB verification, and US card transaction signals | Free tier | API key | - | - | public-apis | - |
 | [EOSL](https://eosl.ai/api) | API | Hardware end-of-sale and end-of-service-life dates by part number, source-linked | Free tier | None | - | - | public-apis | - |
-| [French Address Search](https://geo.api.gouv.fr/adresse) | API | French government geocoding API for forward and reverse address search with autocomplete and batch CSV | Free tier | None | - | - | public-apis | - |
+| [French Address Search](https://adresse.data.gouv.fr/outils/api-doc/adresse) | API | French government geocoding API for forward and reverse address search with autocomplete and batch CSV | Free tier | None | - | - | public-apis | - |
 | [GENESIS](https://www.destatis.de/EN/Service/OpenData/api-webservice.html) | API | REST/JSON API to the GENESIS-Online database of the German Federal Statistical Office (Destatis) | Free tier | OAuth | - | - | public-apis | - |
 | [govdata.de](https://www.govdata.de/) | Portal | German federal open data portal available for public use | Free | None | Unknown | [docs](https://www.govdata.de/) | editorial | 2026-10-26 |
 | [Groundwater Wells, Aquifers and Registry API](https://www2.gov.bc.ca/gov/content/home) | API | Groundwater wells, aquifers and registry data for British Columbia, including qualified well drillers and pump installers | - | - | Open Government License - ... | [docs](https://api.apis.guru/v2/specs/gov.bc.ca/gwells/v1/openapi.json) | APIs.guru | - |
@@ -70,6 +73,7 @@ National and international open data catalogs and CKAN portals.
 | [ModelPartFinder Error Codes](https://modelpartfinder.com/docs/api) | API | Lookup appliance and equipment error codes by brand and code, with recommended replacement parts | Free tier | None | - | - | public-apis | - |
 | [Monitly](https://monit.ly/api-docs) | API | Official statistics from Eurostat, World Bank, OECD, IMF and WHO for 150+ countries | Free tier | API key | - | - | public-apis | - |
 | [MostExpensiveWatches](https://mostexpensivewatches.net/api) | API | Documented luxury watch auction records, live listings, valuations and price indices | Free tier | None | - | - | public-apis | - |
+| [Namedesk](https://namedesk.app/docs/api/stats) | API | Domain registration statistics by TLD and registrar | Free tier | None | - | - | public-apis | - |
 | [Nobel Prize](https://www.nobelprize.org/about/developer-zone-2) | API | REST API returning Nobel Prizes and Laureates as JSON or CSV, searchable by year and category, no key | Free tier | None | - | - | public-apis | - |
 | [NSIDC Web Service Documentation Index](https://nsidc.org) | API | This API allows programmers to build National Snow and Ice Data Center data and metadata services into their applications | - | - | - | - | APIs.guru | - |
 | [Onyx Bazaar](https://onyx-actions.onrender.com/bazaar) | API | Free public leaderboard of x402 paid HTTP services indexed from Coinbase CDP discovery API | Free tier | None | - | - | public-apis | - |
@@ -89,6 +93,7 @@ National and international open data catalogs and CKAN portals.
 | [Recreation Information Database](https://ridb.recreation.gov) | API | Recreational areas, federal lands, historic sites, museums, and other attractions/resources(US) | Free tier | API key | - | - | public-apis | - |
 | [Registrum](https://api.registrum.co.uk/docs) | API | UK company data: profiles, directors, PSC, iXBRL-parsed financials, ECCTA status | Free tier | API key | - | - | public-apis | - |
 | [SchoolDigger API V1](https://www.schooldigger.com/) | API | Get detailed data on over 120,000 schools and 18,500 districts in the U.S | - | - | - | [docs](https://api.schooldigger.com/swagger/docs/v1) | APIs.guru | - |
+| [Scoop.it](http://www.scoop.it/dev) | API | Scoop.it content curation platform API for developers | Free tier | API key | - | - | public-apis | - |
 | [SlashYear](https://slashyear.com/api) | API | Dated historical events as JSON, each quoted from a cited Wikipedia revision | Free tier | None | - | - | public-apis | - |
 | [Socrata](https://dev.socrata.com) | API | Access to Open Data from Governments, Non-profits and NGOs around the world | Free tier | OAuth | - | - | public-apis | - |
 | [StackRates](https://stackrates.ai/ask) | API | VPS and cloud server prices from 46 providers, read daily from their own pricing pages and APIs | Free tier | None | - | - | public-apis | - |

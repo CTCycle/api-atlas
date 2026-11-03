@@ -16,10 +16,12 @@ Fake users, addresses, images and generators for testing.
 | [GeneradorDNI](https://api.generadordni.es) | API | Data generator API. Profiles, vehicles, banks and cards, etc | Free tier | API key | - | - | public-apis | - |
 | [JsonFabrica](https://jsonfabrica.com/docs/api-reference) | API | Generate realistic relational synthetic JSON test data from reusable templates | Free tier | API key | - | - | public-apis | - |
 | [loremfile](https://loremfile.dev/docs/manifest) | API | Hotlinkable CC0 sample files in 78 formats, each with a SHA-256 in a JSON manifest | Free tier | None | - | - | public-apis | - |
-| [Metaphorsum](http://metaphorpsum.com) | API | Generate demo paragraphs giving number of words and sentences | Free tier | None | - | - | public-apis | - |
+| [Mailsac](https://mailsac.com/docs/api) | API | Disposable email and test inbox API for QA testing | Free tier | API key | - | - | public-apis | - |
+| [Metaphorpsum](http://metaphorpsum.com) | API | Generate demo paragraphs giving number of words and sentences | Free tier | None | - | - | public-apis | - |
 | [Mockaroo](https://www.mockaroo.com/docs) | API | Generate fake data to JSON, CSV, TXT, SQL and XML | Free tier | API key | - | - | public-apis | - |
 | [NovaFortix Dev](https://public-dev-apis.surge.sh) | API | Zero-auth REST endpoints for mock user profiles, UUIDs and HTTP status codes | Free tier | None | - | - | public-apis | - |
 | [Random User Generator](https://randomuser.me) | API | Generate random user profiles with names, addresses, emails, photos and more in multiple locales and formats | Free | None | - | [docs](https://randomuser.me/documentation) | editorial | - |
+| [Randommer](https://randommer.io/randommer-api) | API | Randommer REST API for generating random data | Free tier | API key | - | - | public-apis | - |
 | [restful-api](https://restful-api.dev) | API | Fake REST API for testing and prototyping with CRUD endpoints | Free tier | None | - | - | public-apis | - |
 | [RoboHash](https://robohash.org) | API | Web service generating unique robot, alien, or monster images deterministically from any input text | Free tier | None | - | - | public-apis | - |
 | [Sampuli](https://sampuli.site/api) | API | Format-true synthetic test data for 90 countries: IDs, IBANs, cards, addresses | Free tier | None | - | - | public-apis | - |
@@ -27,5 +29,7 @@ Fake users, addresses, images and generators for testing.
 | [TestingAPIs](https://testingapis.com/docs) | API | Free fake REST API with products, posts, todos, any HTTP status code and request echo | Free tier | None | - | - | public-apis | - |
 | [This Person Does not Exist](https://thispersondoesnotexist.com) | API | Generates real-life faces of people who do not exist | Free tier | None | - | - | public-apis | - |
 | [TotalShiftLeft Sandbox](https://demo.totalshiftleft.ai/ui) | API | Free multi-protocol sandbox: REST, GraphQL & SOAP with OAuth2/JWT auth and OpenAPI 3.0 spec | Free tier | None | - | - | public-apis | - |
+| [UUID Generator](https://www.uuidtools.com/docs) | API | UUID generator API for v1-v8 UUIDs, JSON or plain text | Free tier | None | - | - | public-apis | - |
 | [Waldrand Avatar](https://avatar.waldrand.dev) | API | Deterministic SVG/PNG/WebP avatars from any string, four styles | Free tier | None | - | - | public-apis | - |
 | [What The Commit](https://whatthecommit.com/index.txt) | API | Simple endpoint returning a random, humorous commit message for use as placeholder commit text | Free tier | None | - | - | public-apis | - |
+| [Yes No](https://yesno.wtf/api) | API | yesno.wtf API returning random yes or no answers with images | Free tier | None | - | - | public-apis | - |

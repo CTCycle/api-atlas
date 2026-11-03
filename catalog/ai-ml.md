@@ -5,6 +5,8 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | Name | Type | Description | Access | Auth | License | Docs | Source | Checked |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [AI Economics Tools](https://piszczek.pl/tools/api) | API | Token cost, LLM energy, agent-hour and Proof-Adjusted Autonomy calculators by Michał Piszczek | Free tier | None | - | - | public-apis | - |
+| [AI For Thai](https://aiforthai.in.th/index.php) | API | Collection of Thai-language AI services exposed via API | Free tier | API key | - | - | public-apis | - |
+| [AI Stupid Level](https://aistupidlevel.info/api-docs) | API | Benchmark scores, rankings and drift data for major LLM APIs, re-measured on a fixed schedule | Free tier | API key | - | - | public-apis | - |
 | [Anthropic](https://www.anthropic.com) | API | Anthropic Claude API for language model inference | Paid | API key | - | [docs](https://claude.com/pricing) | editorial | 2026-10-24 |
 | [apilayer languagelayer](https://languagelayer.com) | API | Language Detection JSON API supporting 173 languages | Free tier | OAuth | - | - | public-apis | - |
 | [Audexum](https://audexum.com/docs) | API | Speech-to-text in 25 languages and text-to-speech with 43 voices in 32 languages | Free tier | API key | - | - | public-apis | - |
@@ -17,8 +19,10 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [Code Detection](https://codedetectionapi.runtime.dev) | API | Detect, label, format and enrich the code in your app or in your data pipeline | Free tier | OAuth | - | - | public-apis | - |
 | [Cohere](https://cohere.com) | API | NLP API for text generation, embeddings, classification and summarization with a free trial tier | Freemium | API key | - | - | editorial | 2026-10-24 |
 | [Common Crawl](https://commoncrawl.org/) | Dataset | Petabyte-scale web crawl corpus available for public use | Free | None | Unknown | [docs](https://commoncrawl.org/) | editorial | 2026-10-24 |
+| [ContextFetch](https://contextfetch.dev/docs) | API | Web search for AI agents, each result as Markdown pruned to the passages relevant to the query | Free tier | None | - | - | public-apis | - |
 | [DBpedia](https://databus.dbpedia.org/dbpedia/collections/latest-core) | Dataset | Latest core DBpedia dataset of factual triples extracted from English Wikipedia infoboxes and articles | - | - | - | - | awesome-datasets | - |
 | [DeepAI](https://deepai.org) | API | Provides AI-powered APIs for text generation, image processing, and more | Free tier | API key | - | - | public-apis | - |
+| [Deepcode](https://snyk.io/platform/deepcode-ai/) | API | AI-powered code review and security scanning for source code | Free tier | None | - | - | public-apis | - |
 | [DreamThreads](https://mydreamthreads.xyz/dream-interpretation-api) | API | Parse dreams into structured entities, emotions, agency, threat, and outcomes | Free tier | None | - | - | public-apis | - |
 | [eidosSpeech](https://eidosspeech.xyz) | API | Free text-to-speech API with 1,200+ neural voices in 75+ languages | Free tier | API key | - | - | public-apis | - |
 | [ELI](https://nlp.insightera.co.th/docs/v1.0) | API | Natural Language Processing Tools for Thai Language | Free tier | API key | - | - | public-apis | - |
@@ -30,9 +34,6 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [Google Gemini](https://ai.google.dev/gemini-api/docs) | API | Multimodal generative AI for text, vision, and code generation | Free tier | API key | - | - | public-apis | - |
 | [Google MC-AFP](https://github.com/google/mcafp) | Dataset | Generated based on the public available Gigaword dataset using Paragraph Vectors | - | - | - | - | awesome-datasets | - |
 | [Groq](https://groq.com) | API | Fast AI inference API with free tier, supports Llama, Mixtral, Gemma models | Freemium | API key | - | - | editorial | 2026-10-24 |
-| [Hirak FaceAPI](https://faceapi.hirak.site) | API | Face detection, face recognition with age estimation/gender estimation, accurate, no quota limits | Free tier | API key | - | - | public-apis | - |
-| [Hirak OCR](https://ocr.hirak.site) | API | Image to text -text recognition- from image more than 100 language, accurate, unlimited requests | Free tier | API key | - | - | public-apis | - |
-| [Hirak Translation](https://translate.hirak.site) | API | Translate between 21 of most used languages, accurate, unlimited requests | Free tier | API key | - | - | public-apis | - |
 | [Hugging Face](https://huggingface.co) | API | AI model hub with inference API for NLP, computer vision, and audio | Freemium | API key | Per dataset | - | editorial | 2026-10-24 |
 | [Hugging Face Datasets](https://huggingface.co/datasets) | Portal | Machine learning datasets hub and library available for public use | Free | None | Unknown | [docs](https://huggingface.co/docs/datasets/index) | editorial | 2026-10-24 |
 | [ImageNet](https://www.image-net.org/) | Dataset | Large-scale image classification dataset available for public use | Restricted | Registration | Custom (research use) | [docs](https://www.image-net.org/) | editorial | 2026-10-24 |
@@ -42,6 +43,7 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [Irisnet](https://api.irisnet.de/swagger-ui/index.html) | API | Realtime content moderation API that blocks or blurs unwanted images in real-time | Free tier | API key | - | - | public-apis | - |
 | [Jina AI](https://jina.ai) | API | Free AI API for embeddings, reranking, and text processing | Free tier | API key | - | - | public-apis | - |
 | [Kaggle Datasets](https://www.kaggle.com/datasets) | Portal | Community datasets and competitions platform available for public use | Freemium | Registration | Unknown | [docs](https://www.kaggle.com/docs/datasets) | editorial | 2026-10-24 |
+| [Keen IO](https://keen.io/) | API | Fully managed event streaming platform built on Apache Kafka | Free tier | API key | - | - | public-apis | - |
 | [Lacuna](https://lacuna.mergeinc.workers.dev/agents.md) | API | Public board where AI agents post problems as seeks and agents who solved them offer help | Free tier | None | - | - | public-apis | - |
 | [LAION-5B](https://laion.ai/blog/laion-5b/) | Dataset | Large-scale image-text dataset for training available for public use | Restricted | Registration | Unknown | [docs](https://laion.ai/blog/laion-5b/) | editorial | 2026-10-24 |
 | [Langbly](https://langbly.com/docs) | API | Context-aware text translation and language detection for 100+ languages | Free tier | API key | - | - | public-apis | - |
@@ -57,6 +59,7 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [Mistral AI](https://docs.mistral.ai/api) | API | High-performance LLM API by Mistral AI including Mistral and Mixtral models, with a free tier | Free tier | API key | - | - | public-apis | - |
 | [Modelfax](https://bytebrujo.github.io/modelfax) | API | LLM pricing, context windows and deprecation dates, schema-validated and updated daily | Free tier | None | - | - | public-apis | - |
 | [MotaWord API](https://www.motaword.com/) | API | Use MotaWord API to post and track your translation projects | - | - | - | [docs](https://api.motaword.com/) | APIs.guru | - |
+| [Neurotechnology Cloud](https://neurotechnologycloud.com/) | API | Face Detection, Face Recognition and Face Grouping | Free tier | API key | - | - | public-apis | - |
 | [NLP Cloud](https://nlpcloud.com/) | API | NLP API using spaCy and transformers for NER, sentiments, classification, summarization, and more | Free tier | API key | - | - | public-apis | - |
 | [Nonobench](https://www.nonobench.com/how-it-works) | API | Open-source benchmark of how well LLMs solve nonogram puzzles | Free tier | None | - | - | public-apis | - |
 | [Not Human Search](https://nothumansearch.ai/openapi.yaml) | API | AI tool discovery with agentic scoring for 8,600+ tools and MCP servers | Free tier | None | - | - | public-apis | - |
@@ -79,7 +82,6 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [SafeReel](https://safereel.ai/docs) | API | NSFW detection for images and full-length videos by URL, free tier | Free tier | API key | - | - | public-apis | - |
 | [SelectPdf HTML To PDF API](https://selectpdf.com/html-to-pdf-api) | API | SelectPdf HTML To PDF Online REST API is a professional solution that lets you create PDF from web pages and raw HTML code in your applications | - | - | - | [docs](https://api.apis.guru/v2/specs/selectpdf.com/1.0.0/swagger.json) | APIs.guru | - |
 | [Semantria](https://semantria-docs.lexalytics.com/docs/obtain-your-creds) | API | Text Analytics with sentiment analysis, categorization & named entity extraction | Free tier | OAuth | - | - | public-apis | - |
-| [SkyBiometry](https://neurotechnologycloud.com/) | API | Face Detection, Face Recognition and Face Grouping | Free tier | API key | - | - | public-apis | - |
 | [Speak AI](https://docs.speakai.co) | API | Transcribe and analyze audio and video in 100+ languages | Free tier | API key | - | - | public-apis | - |
 | [Statlyte](https://statlyte.com/api) | API | Live pricing, context windows and model ids for major LLM APIs | Free tier | None | - | - | public-apis | - |
 | [TAGGUN Receipt OCR Scanning API](https://www.taggun.io/) | API | Expects only running software, real reactions, and beautifully crafted APIs to serve your every desire to transcribe a piece of paper to digital form | - | - | - | [docs](https://api.apis.guru/v2/specs/taggun.io/1.10.9/swagger.json) | APIs.guru | - |

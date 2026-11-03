@@ -18,12 +18,19 @@ jobs:
           python-version: "3.12"
       - name: Validate tables, values, ordering and navigation
         run: python scripts/catalog.py validate
-      - name: Check the machine-readable copy is current
+      - name: Check the generated artifacts are current
         run: |
-          python scripts/catalog.py export --format jsonl --out /tmp/catalog.jsonl
-          if ! diff -q /tmp/catalog.jsonl data/catalog.jsonl >/dev/null; then
-            echo "data/catalog.jsonl is stale. Run: python scripts/catalog.py export --format jsonl"
-            diff /tmp/catalog.jsonl data/catalog.jsonl | head -40
+          python scripts/catalog.py export --format jsonl
+          python scripts/catalog.py export --format json
+          python scripts/catalog.py export --format csv
+          python scripts/catalog.py shortlist
+          if ! git diff --quiet -- data/ docs/no-auth.md; then
+            echo "Generated files are stale. Run:"
+            echo "  python scripts/catalog.py export --format jsonl"
+            echo "  python scripts/catalog.py export --format json"
+            echo "  python scripts/catalog.py export --format csv"
+            echo "  python scripts/catalog.py shortlist"
+            git diff --stat -- data/ docs/no-auth.md
             exit 1
           fi
 
@@ -35,7 +42,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Run catalog unit tests
-        run: python -m unittest tests.test_catalog -v
+        run: python -m unittest tests.test_catalog tests.test_probe -v
 
   linkcheck:
     # Manual only. Nothing is written back to the catalog; the report is an artifact.

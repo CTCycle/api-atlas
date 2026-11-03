@@ -12,6 +12,7 @@ Company data, CRMs, invoicing, product catalogs and marketplaces.
 | [BuyWhere](https://buywhere.ai) | API | Real-time product catalog API for AI agents across merchants in 7 countries (SG, MY, TH, VN, PH, ID, US) | Free tier | API key | - | - | public-apis | - |
 | [CartScout](https://rapidapi.com/veselinveselinov06/api/cartscout-api) | API | Price, stock, variants and GTIN from Shopify, WooCommerce, Walmart and eBay product pages | Free tier | API key | - | - | public-apis | - |
 | [ChannelShipper & Royal Mail Public API](https://royalmail.com) | API | Import your orders, retrieve your orders and generate labels | - | - | - | [docs](https://api.apis.guru/v2/specs/royalmail.com/click-and-drop/1.0.0/swagger.json) | APIs.guru | - |
+| [Charity Search](https://charityapi.com/) | API | Charity data API with 2.5M+ charities and vetting | Free tier | API key | - | - | public-apis | - |
 | [Clearbit Logo](https://app.clearbit.com/auth/login) | API | Search for company logos and embed them in your projects | Free tier | API key | - | - | public-apis | - |
 | [Compabase](https://compabase.com/docs) | API | Polish company data: 3M+ KRS and CEIDG entities with financial statements, people and rankings | Free tier | API key | - | - | public-apis | - |
 | [Crustdata](https://docs.crustdata.com/general/introduction) | API | People and company data covering profiles, headcount, funding and contacts | Free tier | API key | - | - | public-apis | - |
@@ -38,10 +39,12 @@ Company data, CRMs, invoicing, product catalogs and marketplaces.
 | [Katalis](https://meetkatalis.com/apis) | API | UK company checks: payment practices, contracts won, registers, filed accounts, change feed | Free tier | API key | - | - | public-apis | - |
 | [KontragentPro](https://kontragentpro.ru/api/v2/docs) | API | Russian company data from state registers by INN or OGRN: profile, finances, timeline | Free tier | None | - | - | public-apis | - |
 | [Lazada](https://open.lazada.com/doc/doc.htm) | API | Retrieve product ratings and seller performance metrics | Free tier | API key | - | - | public-apis | - |
+| [Leadgen Romania](https://leadgen.adrianhomelab.com/en/docs) | API | Romanian company registry, ANAF tax status and financial statements | Free tier | API key | - | - | public-apis | - |
 | [Legal Sandbox Georgia](https://legal.ge/api/openapi.json) | API | Find verified legal specialists in Georgia from natural-language queries | Free tier | None | - | - | public-apis | - |
 | [Magento B2B](https://magento.com) | API | Magento Commerce is the leading provider of open omnichannel innovation | - | - | - | [docs](https://api.apis.guru/v2/specs/magento.com/2.2.10/openapi.json) | APIs.guru | - |
 | [Mailchimp](https://mailchimp.com/developer) | API | Send marketing campaigns and transactional mails | Free tier | API key | - | - | public-apis | - |
 | [mailjet](https://www.mailjet.com) | API | Marketing email can be sent and mail templates made in MJML or HTML can be sent using API | Free tier | API key | - | - | public-apis | - |
+| [Marker API](https://markerapi.com) | API | US trademark search API over USPTO database | Free tier | None | - | - | public-apis | - |
 | [Marketplace Fee Data](https://www.sellerscalc.com/data) | API | Seller fee schedules for 21 e-commerce marketplaces and payment processors as JSON | Free tier | None | - | - | public-apis | - |
 | [Meirra](https://www.meirra.com/api) | API | SEO monitoring, email verification, lead generation, and marketing analytics | Free tier | API key | - | - | public-apis | - |
 | [Mercadolibre](https://developers.mercadolibre.cl/es_ar/api-docs-es) | API | Manage sales, ads, products, services and Shops | Free tier | API key | - | - | public-apis | - |
@@ -60,11 +63,13 @@ Company data, CRMs, invoicing, product catalogs and marketplaces.
 | [Rappi](https://dev-portal.rappi.com) | API | Rappi API for managing store orders, menus, item availability, and order status workflows | Free tier | OAuth | - | - | public-apis | - |
 | [Redash](https://redash.io/help/user-guide/integrations-and-api/api) | API | Access your queries and dashboards on Redash | Free tier | API key | - | - | public-apis | - |
 | [RegisterWire](https://www.registerwire.uk/docs/index.html) | API | Real-time alerts on UK company register changes | Free tier | API key | - | - | public-apis | - |
+| [RunDossier](https://rundossier.com/docs/api) | API | Pre-meeting briefing on a person from public professional and web sources, as JSON | Free tier | API key | - | - | public-apis | - |
 | [shipstation](https://www.shipstation.com/) | API | Polls is a simple API allowing consumers to view polls and vote in them | - | - | - | [docs](https://shipstation.docs.apiary.io/api-description-document) | APIs.guru | - |
 | [Shop](https://shop.app) | API | Search for millions of products from the world's greatest brands | - | - | - | [docs](https://api.apis.guru/v2/specs/shop.app/v1/openapi.json) | APIs.guru | - |
 | [Shopee](https://open.shopee.com/documents?version=1) | API | Shopee's official API for integration of various services from Shopee | Free tier | API key | - | - | public-apis | - |
 | [Shopify](https://www.shopify.com) | API | Shopify commerce platform API for stores and products | Paid | OAuth | - | - | editorial | 2026-10-24 |
 | [Smartsheet](https://smartsheet.redoc.ly) | API | Allows you to programmatically access and Smartsheet data and account information | Free tier | OAuth | - | - | public-apis | - |
+| [Softoteca](https://softoteca.com.br/v1) | API | Catalog of Brazilian software with the source of each data point and prices in BRL | Free tier | None | - | - | public-apis | - |
 | [SoldStack](https://soldstack.dev/docs) | API | Sold resale listings from Poshmark with median price, days to sell and net payout after fees | Free tier | API key | - | - | public-apis | - |
 | [Sparepilot](https://sparepilot.com/developers) | API | Spare parts catalog, OEM cross-references & price comparison for garden power equipment | Free tier | API key | - | - | public-apis | - |
 | [SpectroCoin Merchant](https://spectrocoin.com) | API | This is an API designed for merchants who are using SpectroCoin services and wishes to integrate them locally | - | - | - | - | APIs.guru | - |
@@ -75,11 +80,12 @@ Company data, CRMs, invoicing, product catalogs and marketplaces.
 | [Tenders in Romania](https://tenders.guru/ro/api) | API | Get data for procurements in Romania in JSON format | Free tier | None | - | - | public-apis | - |
 | [Tenders in Spain](https://tenders.guru/es/api) | API | Get data for procurements in Spain in JSON format | Free tier | None | - | - | public-apis | - |
 | [Tenders in Ukraine](https://tenders.guru/ua/api) | API | Get data for procurements in Ukraine in JSON format | Free tier | None | - | - | public-apis | - |
-| [Tokopedia](https://partner.tiktokshop.com/docv2/page/overview) | API | Tokopedia's Official API for integration of various services from Tokopedia | Free tier | OAuth | - | - | public-apis | - |
+| [TikTok Shop](https://partner.tiktokshop.com/docv2/page/overview) | API | Partner API for TikTok Shop sellers covering products orders logistics and fulfillment | Free tier | OAuth | - | - | public-apis | - |
 | [Tomba email finder](https://tomba.io/api) | API | Email Finder for B2B sales and email marketing and email verifier | Free tier | API key | - | - | public-apis | - |
 | [TradeDataHub](https://www.tradedatahub.net) | API | U.S. contractor datasets with a free discovery API for coverage, pricing and masked previews | Free tier | None | - | - | public-apis | - |
 | [UGC VZ](https://ugc-vz.de/developers) | API | Directory of DACH user-generated-content creators with topics, cities, rates and contact requests | Free tier | None | - | - | public-apis | - |
 | [Verif Entreprise FR](https://api-production-24833.up.railway.app) | API | French company checks by SIREN: status, insolvency (BODACC), VAT (VIES); free preview | Free tier | None | - | - | public-apis | - |
 | [Village](https://docs.village.ai/api-reference/introduction) | API | Person and company enrichment plus warm introduction paths through your network | Free tier | API key | - | - | public-apis | - |
+| [W System EU Business Data](https://api.wsystem.dev/docs) | API | EU VAT (VIES) and EORI validation, company registers, EU/UN/OFAC/UK sanctions screening | Free tier | None | - | - | public-apis | - |
 | [WooCommerce](https://woocommerce.github.io/woocommerce-rest-api-docs) | API | WooCommerce REST APIS to create, read, update, and delete data on wordpress website in JSON format | Free tier | API key | - | - | public-apis | - |
 | [Zalando Shop](https://zalando.com) | API | The shop API empowers developers to build amazing new apps or websites using Zalando shop data and services | - | - | - | [docs](https://api.apis.guru/v2/specs/zalando.com/v1.0/swagger.json) | APIs.guru | - |
