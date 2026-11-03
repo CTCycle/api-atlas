@@ -56,8 +56,15 @@ in the issue and it will be handled without argument.
 
 ## Suggesting without a pull request
 
-Use the [add a resource](../../issues/new?template=add-resource.yml) issue form. A
-maintainer will do the row formatting. Suggestions are not applied automatically.
+Use the [add a resource](https://github.com/CTCycle/api-atlas/issues/new?template=add-resource.yml)
+issue form. A maintainer will do the row formatting. Suggestions are not applied
+automatically.
+
+## Code of Conduct
+
+Participation in this project is covered by the [Code of Conduct](CODE_OF_CONDUCT.md).
+Reports are handled privately. Security problems follow [SECURITY.md](SECURITY.md)
+instead of the public issue tracker.
 
 ## Style
 

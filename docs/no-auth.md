@@ -1,6 +1,6 @@
 # No key needed
 
-1184 catalogued resources that need no credentials: `Auth` is `None`
+1182 catalogued resources that need no credentials: `Auth` is `None`
 and the cheapest usable tier is `Free` or `Free tier`. Nothing here requires an
 account, a key or an approval.
 
@@ -98,7 +98,7 @@ category tables, not this file.
 - [Screenshotlayer](https://screenshotlayer.com) - URL to screenshot API capturing website snapshots
 - [The Color API](https://www.thecolorapi.com) - Convert colors between formats, name colors, and generate color schemes from any input color
 
-## Blockchain & Cryptocurrency (41)
+## Blockchain & Cryptocurrency (40)
 
 - [0x](https://docs.0x.org/docs/introduction/welcome) - API for querying token and pool stats across various liquidity pools
 - [Alpha (Mossland)](https://alpha.moss.land/developers) - Korean crypto channel stance + RAG Q&A + canonical entity/topic/event store
@@ -114,7 +114,6 @@ category tables, not this file.
 - [Chainpoint](https://tierion.com/chainpoint) - Chainpoint is a global network for anchoring data to the Bitcoin blockchain
 - [ClearTrace](https://cleartracedata.com/docs) - Cross-frontend DEX attribution and execution quality data across Ethereum and L2s
 - [CoinCap](https://pro.coincap.io/api-docs) - Real time Cryptocurrency prices through a RESTful API
-- [CoinGecko](https://www.coingecko.com/en/api) - Cryptocurrency Price, Market, and Developer/Social Data
 - [CoinLobster](https://coinlobster.com/developers) - Live executed whale trades across 15 exchanges and on-chain DEX with an unusualness radar
 - [Coinlore](https://www.coinlore.com/cryptocurrency-data-api) - Free public crypto market data API with no key required, offering prices, volume, market cap, and OHLCV history
 - [Coinpaprika](https://docs.coinpaprika.com/) - Crypto price and market data REST API for thousands of coins and exchanges, with a free tier
@@ -907,7 +906,7 @@ category tables, not this file.
 - [UCSC Genome Browser](https://genome.ucsc.edu/) ([docs](https://genome.ucsc.edu/goldenPath/help/api.html)) - Genome browser data and REST API for sequences, tracks and assemblies
 - [UniProt](https://www.uniprot.org/) ([docs](https://www.uniprot.org/help/api)) - Protein sequence and functional information database
 
-## Transportation & Logistics (52)
+## Transportation & Logistics (51)
 
 - [AirportMiles](https://airportmiles.com/api) - Airport codes, distances, routes and passenger numbers as static JSON files
 - [airportsapi](https://airport-web.appspot.com/api/docs/) - Airport names and websites lookup API by ICAO code
@@ -930,7 +929,6 @@ category tables, not this file.
 - [NHTSA](https://vpic.nhtsa.dot.gov/api) - NHTSA Product Information Catalog and Vehicle Listing
 - [OpenFlights](https://openflights.org/) - Airport and airline route database available for public use
 - [OpenVan](https://openvan.camp/docs) - Fuel prices for 121 countries, food cost index & vanlife weather scores for RV travel
-- [OurAirports](https://ourairports.com/) - Global airport directory available for public use for developers
 - [PostalPinCode](http://www.postalpincode.in/Api-Details) - Free API returning Indian post office details by PIN code or branch name, including district, state, circle, and delivery status
 - [Postmon](https://postmon.com.br/) - An API to query Brazilian ZIP codes and orders easily, quickly and free
 - [ProblemsByVin](https://problemsbyvin.com/data) - Owner complaints, recalls and failure-mileage statistics by vehicle make, model and year

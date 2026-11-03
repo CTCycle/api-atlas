@@ -42,7 +42,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Run catalog unit tests
-        run: python -m unittest tests.test_catalog tests.test_probe -v
+        run: python -m unittest tests.test_catalog tests.test_probe tests.test_export -v
 
   linkcheck:
     # Manual only. Nothing is written back to the catalog; the report is an artifact.

@@ -38,7 +38,7 @@ Chain data, market prices, wallets, explorers and smart contract tooling.
 | [Coinbase Pro](https://docs.cdp.coinbase.com/exchange/introduction/welcome) | API | REST, FIX, and WebSocket APIs for trading and public market data on the Coinbase Exchange | Free tier | API key | - | - | public-apis | - |
 | [CoinCap](https://pro.coincap.io/api-docs) | API | Real time Cryptocurrency prices through a RESTful API | Free tier | None | - | - | public-apis | - |
 | [CoinDCX](https://docs.coindcx.com) | API | Spot and futures trading API for the CoinDCX exchange, with market data, orders, positions, and sockets | Free tier | API key | - | - | public-apis | - |
-| [CoinGecko](https://www.coingecko.com/en/api) | API | Cryptocurrency Price, Market, and Developer/Social Data | Free tier | None | - | - | public-apis | - |
+| [CoinGecko](https://www.coingecko.com/) | API | Cryptocurrency prices, market caps, volumes and onchain DEX data for 18,000+ coins | Free tier | API key | - | [docs](https://docs.coingecko.com/) | public-apis, editorial | 2026-11-03 |
 | [Coinigy](https://coinigy.docs.apiary.io) | API | Interacting with Coinigy Accounts and Exchange Directly | Free tier | API key | - | - | public-apis | - |
 | [Coinlayer](https://coinlayer.com) | API | Real-time cryptocurrency exchange rates API covering 385+ coins from 25+ exchanges, with historical data | Free tier | API key | - | - | public-apis | - |
 | [Coinlib](https://coinlib.io/) | API | Cryptocurrency prices and market data API | Free tier | API key | - | - | public-apis | - |

@@ -23,7 +23,6 @@ Banking, markets, payments data, forex and financial statements.
 | [BriefTape](https://brieftape.com) | API | Real-time AI-summarized SEC filings, Fed, FDA and BLS data, ticker-tagged | Free tier | API key | - | - | public-apis | - |
 | [CardBinCheck](https://cardbincheck.com/bin-lookup-api) | API | Card BIN/IIN lookup: network, issuer, country and card type for the first 6-8 digits | Free tier | None | - | [docs](https://cardbincheck.com/bin-lookup-api) | public-apis | - |
 | [Citi](https://partner.citi.com/home) | API | All Citigroup account and statement data APIs | Free tier | API key | - | - | public-apis | - |
-| [CoinGecko](https://www.coingecko.com/) | Portal | Cryptocurrency market data API available for public use | Freemium | API key | Unknown | [docs](https://www.coingecko.com/en/api) | editorial | 2026-10-24 |
 | [CongressInvests](https://congressinvests.com) | API | Real-time U.S. congressional stock trade disclosures from Senate EFD and House Clerk | Free tier | API key | - | - | public-apis | - |
 | [contix](https://contix.es/api) | API | Spain: IBAN validation with bank and BIC, EU VAT number check (VIES), Modelo 303 VAT sums | Free tier | None | - | - | public-apis | - |
 | [Currency-api](https://github.com/fawazahmed0/currency-api) | API | Free Currency Exchange Rates API with 150+ Currencies & No Rate Limits | Free tier | None | - | - | public-apis | - |

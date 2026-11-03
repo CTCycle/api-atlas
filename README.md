@@ -7,7 +7,7 @@
 A curated directory of APIs, public databases, open-data portals and MCP servers
 for developers, researchers and AI agents.
 
-**2,553 resources across 45 categories** (2,122 APIs, 287 portals, 77 datasets,
+**2,551 resources across 45 categories** (2,122 APIs, 286 portals, 76 datasets,
 67 MCP servers). 527 rows verified by a maintainer; the rest are pointers with
 working links.
 
@@ -128,8 +128,10 @@ python scripts/catalog.py export --format jsonl
 ```
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the row format and the review criteria,
-or open the [add a resource](.github/ISSUE_TEMPLATE/add-resource.yml) issue form if
-you would rather not edit files.
+or open the [add a resource](https://github.com/CTCycle/api-atlas/issues/new?template=add-resource.yml)
+issue form if you would rather not edit files. Participation is covered by the
+[Code of Conduct](CODE_OF_CONDUCT.md); security problems go through the
+[security policy](SECURITY.md), not a public issue.
 
 ## Maintenance
 

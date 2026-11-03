@@ -59,7 +59,6 @@ Transit, shipping, flights, routing and vehicle data.
 | [OpenSky Network](https://opensky-network.org/) | Portal | Open air traffic surveillance data available for public use | Free | Registration | Unknown | [docs](https://opensky-network.org/) | editorial | 2026-10-24 |
 | [OpenVan](https://openvan.camp/docs) | API | Fuel prices for 121 countries, food cost index & vanlife weather scores for RV travel | Free tier | None | - | - | public-apis | - |
 | [Orizn Visa](https://visa.orizn.app) | API | Visa requirements for 199 countries, 39K+ passport-destination pairs in 15 languages | Free tier | API key | - | - | public-apis | - |
-| [OurAirports](https://ourairports.com/) | Dataset | Global airport directory available for public use for developers | Free | None | Public Domain | [docs](https://ourairports.com/) | editorial | 2026-10-24 |
 | [Pixela](https://pixe.la) | API | API for recording and tracking habits or effort, routines | Free tier | API key | - | - | public-apis | - |
 | [PostalPinCode](http://www.postalpincode.in/Api-Details) | API | Free API returning Indian post office details by PIN code or branch name, including district, state, circle, and delivery status | Free tier | None | - | - | public-apis | - |
 | [Postmon](https://postmon.com.br/) | API | An API to query Brazilian ZIP codes and orders easily, quickly and free | Free tier | None | - | - | public-apis | - |

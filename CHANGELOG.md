@@ -78,7 +78,7 @@ loop. Four pages carried retirement wording.
   disambiguated by provider.
 - Carried rows keep `Source: public-apis` and `Checked: -`: they were link-checked
   and described from the live page, not read by a person.
-- Catalog: 2,553 rows (2,122 APIs, 287 portals, 77 datasets, 67 MCP servers).
+- Catalog: 2,551 rows (2,122 APIs, 286 portals, 76 datasets, 67 MCP servers).
 
 ### Expansion pass (2026-10-26)
 

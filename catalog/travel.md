@@ -16,7 +16,7 @@ Flights, hotels, places, transit and trip planning.
 | [Foursquare Places](https://foursquare.com/products/places-api/) | API | Points of interest, categories, hours and tips for places worldwide | Freemium | API key | Unknown | [docs](https://docs.foursquare.com/) | editorial | - |
 | [Hotelbeds](https://developer.hotelbeds.com/) | API | Hotel, activity and transfer booking APIs with global inventory | Freemium | API key | - | - | editorial | 2026-10-26 |
 | [OpenTripPlanner](https://www.opentripplanner.org/) | API | Open source journey planning server for transit, walking, biking and ride hailing | Free | None | LGPL-3.0 | [docs](https://docs.opentripplanner.org/) | editorial | - |
-| [OurAirports](https://ourairports.com/data/) | Dataset | Public domain airport, runway, navaid and country data as CSV downloads | Free | None | Public domain | [docs](https://ourairports.com/data/) | editorial | - |
+| [OurAirports](https://ourairports.com/data/) | Dataset | Public domain airport, runway, navaid and country data as CSV downloads | Free | None | Public domain | [docs](https://ourairports.com/data/) | editorial | 2026-11-03 |
 | [Rome2Rio](https://www.rome2rio.com/) | API | Multi-modal route and transport options between two places worldwide | Paid | API key | Unknown | - | editorial | - |
 | [Sabre](https://developer.sabre.com/) | API | GDS APIs for air shopping, booking, ticketing and travel agency workflows | Restricted | API key | - | - | editorial | 2026-10-26 |
 | [Tequila by Kiwi.com](https://tequila.kiwi.com/) | API | Flight search and booking API with virtual interlining across airlines | Restricted | API key | - | - | editorial | 2026-10-26 |
