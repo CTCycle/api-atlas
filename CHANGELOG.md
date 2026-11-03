@@ -26,6 +26,10 @@ the SQLite index, the importers and the scheduled refresh workflows were removed
   Aether-X port congestion oracle.
 - `tests/test_export.py` checks the committed JSON, JSONL and CSV against
   `data/catalog.schema.json` and requires unique ids; CI runs it.
+- `data/openapi-index.json` publishes every API row that answers with a parseable
+  OpenAPI or Swagger document: 535 of 2,107 probed. `scripts/probe.py --index-only`
+  rebuilds it from stored reports, and `tests/test_index.py` keeps it in sync with
+  the catalog.
 - Release surface added: `SECURITY.md`, `CODE_OF_CONDUCT.md`, and a release
   checklist split into before, at and after the visibility flip.
 - Catalog: 2,541 rows (2,112 APIs, 286 portals, 76 datasets, 67 MCP servers).

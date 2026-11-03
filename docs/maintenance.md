@@ -18,6 +18,8 @@ python scripts/catalog.py export        # data/catalog.jsonl, data/catalog.json 
 python scripts/probe.py                 # discover live OpenAPI/Swagger specs for API rows
 python scripts/probe.py --missing --index data/openapi-index.json
                                         # probe only rows with no known spec, refresh the index
+python scripts/probe.py --index data/openapi-index.json --index-only
+                                        # rebuild the index from existing reports, no requests
 ```
 
 The script never edits `catalog/`. It writes JSON and Markdown under `reports/`.

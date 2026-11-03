@@ -194,6 +194,42 @@ def probe(entry) -> dict:
     return record
 
 
+def write_index(path: str) -> int:
+    """Merge every probe report into one index, ignoring rows no longer catalogued."""
+    entries = catalog.load(catalog.Problems(), strict=False)
+    current = {(e.category, e.name) for e in entries}
+    merged: dict[tuple[str, str], dict] = {}
+    probed: set[tuple[str, str]] = set()
+    for report in sorted(REPORT_DIR.glob("probe-*.json")):
+        if report.name.startswith("probe-smoke"):
+            continue
+        for record in json.loads(report.read_text(encoding="utf-8"))["records"]:
+            key = (record["category"], record["name"])
+            if key not in current:
+                continue
+            probed.add(key)
+            if record.get("spec"):
+                merged[key] = {
+                    "name": record["name"],
+                    "category": record["category"],
+                    "type": record["type"],
+                    "website": record["website"],
+                    **record["spec"],
+                }
+    rows = sorted(merged.values(), key=lambda r: (r["category"], r["name"].casefold()))
+    Path(path).write_text(json.dumps({
+        "generated": dt.date.today().isoformat(),
+        "description": "Entries that publish a parseable OpenAPI or Swagger document, "
+                       "discovered by scripts/probe.py. Absence is not proof that an API "
+                       "has no spec: it may sit behind auth or on another host.",
+        "entries_probed": len(probed),
+        "specs": len(rows),
+        "entries": rows,
+    }, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"wrote {path} ({len(rows)} of {len(probed)} probed entries publish a spec)")
+    return len(rows)
+
+
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -210,7 +246,16 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--index", metavar="PATH",
                     help="also write an index of every discovered spec, merged from "
                          "all probe reports (e.g. data/openapi-index.json)")
+    ap.add_argument("--index-only", action="store_true",
+                    help="rebuild --index from the existing reports and exit, without "
+                         "probing anything")
     args = ap.parse_args(argv)
+
+    if args.index_only:
+        if not args.index:
+            ap.error("--index-only needs --index PATH")
+        write_index(args.index)
+        return 0
 
     entries = catalog.load(catalog.Problems(), strict=False)
     if args.type:
@@ -265,29 +310,7 @@ def main(argv: list[str] | None = None) -> int:
     }, indent=1), encoding="utf-8")
 
     if args.index:
-        merged = {}
-        for report in sorted(REPORT_DIR.glob("probe-*.json")):
-            if report.name.startswith("probe-smoke"):
-                continue
-            for record in json.loads(report.read_text(encoding="utf-8"))["records"]:
-                if record.get("spec"):
-                    merged[(record["category"], record["name"])] = {
-                        "name": record["name"],
-                        "category": record["category"],
-                        "type": record["type"],
-                        "website": record["website"],
-                        **record["spec"],
-                    }
-        rows = sorted(merged.values(), key=lambda r: (r["category"], r["name"].casefold()))
-        Path(args.index).write_text(json.dumps({
-            "generated": dt.date.today().isoformat(),
-            "description": "Entries that publish a parseable OpenAPI or Swagger document, "
-                           "discovered by scripts/probe.py. Absence is not proof that an API "
-                           "has no spec: it may sit behind auth or on another host.",
-            "specs": len(rows),
-            "entries": rows,
-        }, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
-        print(f"wrote {args.index} ({len(rows)} entries with a spec)")
+        write_index(args.index)
 
     print(f"\n{len(found)} of {len(records)} entries publish a valid OpenAPI/Swagger document")
     try:

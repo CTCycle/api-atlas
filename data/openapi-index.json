@@ -1,0 +1,5363 @@
+{
+ "generated": "2026-11-03",
+ "description": "Entries that publish a parseable OpenAPI or Swagger document, discovered by scripts/probe.py. Absence is not proof that an API has no spec: it may sit behind auth or on another host.",
+ "entries_probed": 2107,
+ "specs": 535,
+ "entries": [
+  {
+   "name": "ISRIC SoilGrids",
+   "category": "agriculture",
+   "type": "API",
+   "website": "https://soilgrids.org/",
+   "spec_url": "https://rest.isric.org/soilgrids/v2.0/openapi.json",
+   "spec_version": "3.0.2",
+   "spec_title": "Soilgrids REST API",
+   "path_count": 3
+  },
+  {
+   "name": "AI Economics Tools",
+   "category": "ai-ml",
+   "type": "API",
+   "website": "https://piszczek.pl/tools/api",
+   "spec_url": "https://piszczek.pl/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "AI Economics Tools API",
+   "path_count": 13
+  },
+  {
+   "name": "ContextFetch",
+   "category": "ai-ml",
+   "type": "API",
+   "website": "https://contextfetch.dev/docs",
+   "spec_url": "https://contextfetch.dev/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "ContextFetch",
+   "path_count": 21
+  },
+  {
+   "name": "Ex Libris APIs",
+   "category": "ai-ml",
+   "type": "API",
+   "website": "https://exlibrisgroup.com",
+   "spec_url": "https://api.apis.guru/v2/specs/exlibrisgroup.com/tasklists/1.0/openapi.json",
+   "spec_version": "3.0.1",
+   "spec_title": "Ex Libris APIs",
+   "path_count": 6
+  },
+  {
+   "name": "GEN",
+   "category": "ai-ml",
+   "type": "API",
+   "website": "https://gen.pro/docs",
+   "spec_url": "https://api.gen.pro/openapi.yaml",
+   "spec_version": "3.1.0",
+   "spec_title": "Auto Content Engine API",
+   "path_count": 139
+  },
+  {
+   "name": "Lacuna",
+   "category": "ai-ml",
+   "type": "API",
+   "website": "https://lacuna.mergeinc.workers.dev/agents.md",
+   "spec_url": "https://lacuna.mergeinc.workers.dev/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Lacuna",
+   "path_count": 16
+  },
+  {
+   "name": "Langbly",
+   "category": "ai-ml",
+   "type": "API",
+   "website": "https://langbly.com/docs",
+   "spec_url": "https://langbly.com/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Langbly Translation API",
+   "path_count": 3
+  },
+  {
+   "name": "Mistral AI",
+   "category": "ai-ml",
+   "type": "API",
+   "website": "https://docs.mistral.ai/api",
+   "spec_url": "https://docs.mistral.ai/openapi.yaml",
+   "spec_version": "3.1.0",
+   "spec_title": "Mistral AI API",
+   "path_count": 234,
+   "truncated": true
+  },
+  {
+   "name": "NLP Cloud",
+   "category": "ai-ml",
+   "type": "API",
+   "website": "https://nlpcloud.com/",
+   "spec_url": "https://nlpcloud.com/openapi.json",
+   "spec_version": "3.0.2",
+   "spec_title": "NLPCloud",
+   "path_count": 5
+  },
+  {
+   "name": "Nonobench",
+   "category": "ai-ml",
+   "type": "API",
+   "website": "https://www.nonobench.com/how-it-works",
+   "spec_url": "https://www.nonobench.com/api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Nonobench API",
+   "path_count": 12
+  },
+  {
+   "name": "Not Human Search",
+   "category": "ai-ml",
+   "type": "API",
+   "website": "https://nothumansearch.ai/openapi.yaml",
+   "spec_url": "https://nothumansearch.ai/openapi.yaml",
+   "spec_version": "3.0.3",
+   "spec_title": "Not Human Search API",
+   "path_count": 32
+  },
+  {
+   "name": "Pandorabots AIaaS",
+   "category": "ai-ml",
+   "type": "API",
+   "website": "https://pandorabots.com",
+   "spec_url": "https://api.apis.guru/v2/specs/pandorabots.com/1.0.0/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "Pandorabots AIaaS",
+   "path_count": 7
+  },
+  {
+   "name": "PDF Blocks API",
+   "category": "ai-ml",
+   "type": "API",
+   "website": "https://www.pdfblocks.com/support",
+   "spec_url": "https://api.apis.guru/v2/specs/pdfblocks.com/1.5.0/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "PDF Blocks API",
+   "path_count": 12
+  },
+  {
+   "name": "PdfBroker.io API",
+   "category": "ai-ml",
+   "type": "API",
+   "website": "https://www.pdfbroker.io/docs",
+   "spec_url": "https://api.apis.guru/v2/specs/pdfbroker.io/v1/openapi.json",
+   "spec_version": "3.0.1",
+   "spec_title": "PdfBroker.io API",
+   "path_count": 7
+  },
+  {
+   "name": "Random Lovecraft",
+   "category": "ai-ml",
+   "type": "API",
+   "website": "https://randomlovecraft.com",
+   "spec_url": "https://api.apis.guru/v2/specs/randomlovecraft.com/1.0/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "Random Lovecraft",
+   "path_count": 4
+  },
+  {
+   "name": "Requesty",
+   "category": "ai-ml",
+   "type": "API",
+   "website": "https://docs.requesty.ai/quickstart",
+   "spec_url": "https://docs.requesty.ai/api-reference/requesty_openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Requesty API",
+   "path_count": 20
+  },
+  {
+   "name": "SafeReel",
+   "category": "ai-ml",
+   "type": "API",
+   "website": "https://safereel.ai/docs",
+   "spec_url": "https://safereel.ai/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "SafeReel",
+   "path_count": 6
+  },
+  {
+   "name": "SelectPdf HTML To PDF API",
+   "category": "ai-ml",
+   "type": "API",
+   "website": "https://selectpdf.com/html-to-pdf-api",
+   "spec_url": "https://api.apis.guru/v2/specs/selectpdf.com/1.0.0/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "SelectPdf HTML To PDF API",
+   "path_count": 1
+  },
+  {
+   "name": "Statlyte",
+   "category": "ai-ml",
+   "type": "API",
+   "website": "https://statlyte.com/api",
+   "spec_url": "https://statlyte.com/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "statlyte",
+   "path_count": 5
+  },
+  {
+   "name": "TAGGUN Receipt OCR Scanning API",
+   "category": "ai-ml",
+   "type": "API",
+   "website": "https://www.taggun.io/",
+   "spec_url": "https://api.apis.guru/v2/specs/taggun.io/1.10.9/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "TAGGUN Receipt OCR Scanning API",
+   "path_count": 13
+  },
+  {
+   "name": "Tanvo",
+   "category": "ai-ml",
+   "type": "API",
+   "website": "https://tanvo.ai/developers/api",
+   "spec_url": "https://tanvo.ai/openapi.yaml",
+   "spec_version": "3.1.0",
+   "spec_title": "Tanvo public API",
+   "path_count": 6
+  },
+  {
+   "name": "TensorFeed",
+   "category": "ai-ml",
+   "type": "API",
+   "website": "https://tensorfeed.ai/developers",
+   "spec_url": "https://tensorfeed.ai/openapi.yaml",
+   "spec_version": "3.1.0",
+   "spec_title": "TensorFeed API",
+   "path_count": 47
+  },
+  {
+   "name": "Breed Health Score",
+   "category": "animals",
+   "type": "API",
+   "website": "https://breedhealthscore.com/developers",
+   "spec_url": "https://breedhealthscore.com/api/v1/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Breed Health Score API",
+   "path_count": 2
+  },
+  {
+   "name": "Cat Fact Ninja",
+   "category": "animals",
+   "type": "API",
+   "website": "https://catfact.ninja/",
+   "spec_url": "https://catfact.ninja/docs?api-docs.json",
+   "spec_version": "3.0.0",
+   "spec_title": "Cat Fact API",
+   "path_count": 4
+  },
+  {
+   "name": "3DTexel",
+   "category": "art-design",
+   "type": "API",
+   "website": "https://3dtexel.com/developers",
+   "spec_url": "https://3dtexel.com/wp-json/3dtexel-api/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "3D Texel API",
+   "path_count": 20
+  },
+  {
+   "name": "Art Institute of Chicago",
+   "category": "art-design",
+   "type": "API",
+   "website": "https://api.artic.edu/docs/",
+   "spec_url": "https://api.artic.edu/api/v1/openapi.json",
+   "spec_version": "3.1",
+   "spec_title": "Art Institution of Chicago API",
+   "path_count": 103
+  },
+  {
+   "name": "CompressGIF",
+   "category": "art-design",
+   "type": "API",
+   "website": "https://compressgif.net/docs",
+   "spec_url": "https://compressgif.net/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "CompressGIF API",
+   "path_count": 3
+  },
+  {
+   "name": "DynaPictures",
+   "category": "art-design",
+   "type": "API",
+   "website": "https://dynapictures.com/docs",
+   "spec_url": "https://dynapictures.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "DynaPictures API",
+   "path_count": 20
+  },
+  {
+   "name": "Face Shape Guide Lookup",
+   "category": "art-design",
+   "type": "API",
+   "website": "https://myfaceshapechart.com/openapi.json",
+   "spec_url": "https://myfaceshapechart.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "My Face Shape Chart public guide lookup",
+   "path_count": 2
+  },
+  {
+   "name": "Favicondl",
+   "category": "art-design",
+   "type": "API",
+   "website": "https://favicondl.com/documentation.html",
+   "spec_url": "https://favicondl.com/openapi.yaml",
+   "spec_version": "3.0.3",
+   "spec_title": "Mzu FaviconDL API",
+   "path_count": 1
+  },
+  {
+   "name": "Getty Images",
+   "category": "art-design",
+   "type": "API",
+   "website": "https://developer.gettyimages.com/en/",
+   "spec_url": "https://api.apis.guru/v2/specs/gettyimages.com/3/openapi.json",
+   "spec_version": "3.0.1",
+   "spec_title": "Getty Images",
+   "path_count": 46
+  },
+  {
+   "name": "Lightdrift",
+   "category": "art-design",
+   "type": "API",
+   "website": "https://docs.lightdrift.ai",
+   "spec_url": "https://docs.lightdrift.ai/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Lightdrift API",
+   "path_count": 6
+  },
+  {
+   "name": "localscreenshot",
+   "category": "art-design",
+   "type": "API",
+   "website": "https://localscreenshot.com",
+   "spec_url": "https://localscreenshot.com/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Screenshot API",
+   "path_count": 7
+  },
+  {
+   "name": "NexWall",
+   "category": "art-design",
+   "type": "API",
+   "website": "https://nexwall.kodnextech.com/wallpaper-api/docs",
+   "spec_url": "https://nexwall.kodnextech.com/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "NexWall Wallpaper REST API",
+   "path_count": 5
+  },
+  {
+   "name": "PickShade",
+   "category": "art-design",
+   "type": "API",
+   "website": "https://pickshade.com/api",
+   "spec_url": "https://pickshade.com/api/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "PickShade color API",
+   "path_count": 18
+  },
+  {
+   "name": "raFont",
+   "category": "art-design",
+   "type": "API",
+   "website": "https://rafont.com/api-docs",
+   "spec_url": "https://rafont.com/.well-known/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "raFont Fonts API",
+   "path_count": 9
+  },
+  {
+   "name": "Screenshot Studio",
+   "category": "art-design",
+   "type": "API",
+   "website": "https://www.screenshot-studio.com/docs",
+   "spec_url": "https://www.screenshot-studio.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Screenshot Studio API",
+   "path_count": 7
+  },
+  {
+   "name": "snapWONDERS",
+   "category": "art-design",
+   "type": "API",
+   "website": "https://snapwonders.com/developers",
+   "spec_url": "https://snapwonders.com/api/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "snapWONDERS API / MCP",
+   "path_count": 25
+  },
+  {
+   "name": "Text-till-Kladdesign",
+   "category": "art-design",
+   "type": "API",
+   "website": "https://text-till-klad-design.gracestack.se/api/v1/openapi.json",
+   "spec_url": "https://text-till-klad-design.gracestack.se/api/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Text-till-Kladdesign API",
+   "path_count": 5
+  },
+  {
+   "name": "Alchemy Ethereum",
+   "category": "blockchain-crypto",
+   "type": "API",
+   "website": "https://www.alchemy.com/docs",
+   "spec_url": "https://www.alchemy.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Alchemy website API",
+   "path_count": 15
+  },
+  {
+   "name": "BitcoinYield",
+   "category": "blockchain-crypto",
+   "type": "API",
+   "website": "https://bitcoinyield.co/docs",
+   "spec_url": "https://bitcoinyield.co/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "BitcoinYield API",
+   "path_count": 3
+  },
+  {
+   "name": "Bitculator",
+   "category": "blockchain-crypto",
+   "type": "API",
+   "website": "https://bitculator.com/en/documentation/crypto-api/v1",
+   "spec_url": "https://bitculator.com/api/v1/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Bitculator Data API",
+   "path_count": 82
+  },
+  {
+   "name": "BlazePhoenix",
+   "category": "blockchain-crypto",
+   "type": "API",
+   "website": "https://blazephoenix.xyz/api",
+   "spec_url": "https://blazephoenix.xyz/api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "BlazePhoenix Integration API (your RPC)",
+   "path_count": 12
+  },
+  {
+   "name": "Block Lottos",
+   "category": "blockchain-crypto",
+   "type": "API",
+   "website": "https://blocklottos.com/openapi.json",
+   "spec_url": "https://blocklottos.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Block Lottos API",
+   "path_count": 20
+  },
+  {
+   "name": "btcnode.uk",
+   "category": "blockchain-crypto",
+   "type": "API",
+   "website": "https://btcnode.uk",
+   "spec_url": "https://btcnode.uk/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "BTC Node API — Bitcoin node data over x402",
+   "path_count": 76
+  },
+  {
+   "name": "ClearTrace",
+   "category": "blockchain-crypto",
+   "type": "API",
+   "website": "https://cleartracedata.com/docs",
+   "spec_url": "https://cleartracedata.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "ClearTrace API",
+   "path_count": 12
+  },
+  {
+   "name": "CoinCap",
+   "category": "blockchain-crypto",
+   "type": "API",
+   "website": "https://pro.coincap.io/api-docs",
+   "spec_url": "https://rest.coincap.io/api-docs.json",
+   "spec_version": "3.0.0",
+   "spec_title": "CoinCap API",
+   "path_count": 40
+  },
+  {
+   "name": "Coinlib",
+   "category": "blockchain-crypto",
+   "type": "API",
+   "website": "https://coinlib.io/",
+   "spec_url": "https://coinlib.io/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Coinlib Content API",
+   "path_count": 5
+  },
+  {
+   "name": "CoinLobster",
+   "category": "blockchain-crypto",
+   "type": "API",
+   "website": "https://coinlobster.com/developers",
+   "spec_url": "https://coinlobster.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "CoinLobster Crypto Data API",
+   "path_count": 52
+  },
+  {
+   "name": "Coinmico",
+   "category": "blockchain-crypto",
+   "type": "API",
+   "website": "https://docs.coinmico.com",
+   "spec_url": "https://api.coinmico.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Coinmico API",
+   "path_count": 25
+  },
+  {
+   "name": "Crypto Vision",
+   "category": "blockchain-crypto",
+   "type": "API",
+   "website": "https://cryptocurrency.cv/developers",
+   "spec_url": "https://cryptocurrency.cv/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Crypto Vision News API",
+   "path_count": 393
+  },
+  {
+   "name": "Degenscan Intel",
+   "category": "blockchain-crypto",
+   "type": "API",
+   "website": "https://intel.degenscan.io/carry",
+   "spec_url": "https://intel.degenscan.io/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Degenscan Intel",
+   "path_count": 118
+  },
+  {
+   "name": "HostDeFi",
+   "category": "blockchain-crypto",
+   "type": "API",
+   "website": "https://hostdefi.com/docs/api",
+   "spec_url": "https://hostdefi.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "HostDeFi Token Risk API",
+   "path_count": 33
+  },
+  {
+   "name": "MadeOnSol",
+   "category": "blockchain-crypto",
+   "type": "API",
+   "website": "https://madeonsol.com/developer",
+   "spec_url": "https://madeonsol.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "MadeOnSol x402 API",
+   "path_count": 34
+  },
+  {
+   "name": "MarginPad",
+   "category": "blockchain-crypto",
+   "type": "API",
+   "website": "https://marginpad.io/free-crypto-api",
+   "spec_url": "https://marginpad.io/api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "MarginPad Free Crypto API",
+   "path_count": 59
+  },
+  {
+   "name": "monerometrics",
+   "category": "blockchain-crypto",
+   "type": "API",
+   "website": "https://monerometrics.net",
+   "spec_url": "https://api.monerometrics.net/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "monerometrics API",
+   "path_count": 29
+  },
+  {
+   "name": "ScriptMasterLabs MCP",
+   "category": "blockchain-crypto",
+   "type": "API",
+   "website": "https://mcp-x402.onrender.com",
+   "spec_url": "https://mcp-x402.onrender.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "SCRIPTMASTERLABS — x402 Gateway",
+   "path_count": 97
+  },
+  {
+   "name": "Technical Analysis",
+   "category": "blockchain-crypto",
+   "type": "API",
+   "website": "https://technical-analysis-api.com",
+   "spec_url": "https://technical-analysis-api.com/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "Technical analysis API",
+   "path_count": 5
+  },
+  {
+   "name": "TWZRD Agent Intel",
+   "category": "blockchain-crypto",
+   "type": "API",
+   "website": "https://intel.twzrd.xyz",
+   "spec_url": "https://intel.twzrd.xyz/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "TWZRD Agent Intel",
+   "path_count": 44
+  },
+  {
+   "name": "XRPL.to",
+   "category": "blockchain-crypto",
+   "type": "API",
+   "website": "https://xrpl.to/docs",
+   "spec_url": "https://api.xrpl.to/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "XRPL.to API",
+   "path_count": 355
+  },
+  {
+   "name": "ARC",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://www.arcreport.ai/developers",
+   "spec_url": "https://www.arcreport.ai/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "ARC public API",
+   "path_count": 29
+  },
+  {
+   "name": "Axesso Api",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://axesso.de",
+   "spec_url": "https://api.apis.guru/v2/specs/axesso.de/1.0.0/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "Axesso Api",
+   "path_count": 4
+  },
+  {
+   "name": "BirkinBagStock",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://birkinbagstock.com/.well-known/openapi.json",
+   "spec_url": "https://birkinbagstock.com/.well-known/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "BirkinBagStock API",
+   "path_count": 31
+  },
+  {
+   "name": "BuyWhere",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://buywhere.ai",
+   "spec_url": "https://api.buywhere.ai/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "BuyWhere Product Catalog API",
+   "path_count": 12
+  },
+  {
+   "name": "ChannelShipper & Royal Mail Public API",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://royalmail.com",
+   "spec_url": "https://api.apis.guru/v2/specs/royalmail.com/click-and-drop/1.0.0/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "ChannelShipper & Royal Mail Public API",
+   "path_count": 10
+  },
+  {
+   "name": "Compabase",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://compabase.com/docs",
+   "spec_url": "https://compabase.com/openapi/v1.yaml",
+   "spec_version": "3.1.0",
+   "spec_title": "Compabase API",
+   "path_count": 43
+  },
+  {
+   "name": "Descripio Amazon Reviews",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://docs.descripio.com/introduction",
+   "spec_url": "https://app.descripio.com/openapi.yaml",
+   "spec_version": "3.1.0",
+   "spec_title": "Descripio Reviews API",
+   "path_count": 3
+  },
+  {
+   "name": "Discovery API",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://developer.ticketmaster.com/support/contact-us/",
+   "spec_url": "https://api.apis.guru/v2/specs/ticketmaster.com/discovery/v2/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "Discovery API",
+   "path_count": 13
+  },
+  {
+   "name": "DropX",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://dropx.io",
+   "spec_url": "https://api.apis.guru/v2/specs/dropx.io/1.0.0/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "DropX",
+   "path_count": 7
+  },
+  {
+   "name": "Fulfillment API",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://ebay.com",
+   "spec_url": "https://api.apis.guru/v2/specs/ebay.com/sell-fulfillment/v1.19.19/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "Fulfillment API",
+   "path_count": 14
+  },
+  {
+   "name": "Funding Signals",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://fundingsignals.net/docs",
+   "spec_url": "https://fundingsignals.net/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Funding Signals — Lead Intelligence API",
+   "path_count": 36
+  },
+  {
+   "name": "GlobalEntity",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://www.globalentityapi.com/docs",
+   "spec_url": "https://www.globalentityapi.com/openapi.yaml",
+   "spec_version": "3.0.3",
+   "spec_title": "GlobalEntity API",
+   "path_count": 15
+  },
+  {
+   "name": "gstinapi",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://www.gstinapi.in/docs",
+   "spec_url": "https://www.gstinapi.in/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "gstinapi.in — GSTIN Verification API",
+   "path_count": 52
+  },
+  {
+   "name": "Invovate",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://invovate.com/api",
+   "spec_url": "https://invovate.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Invovate Invoice API",
+   "path_count": 5
+  },
+  {
+   "name": "Katalis",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://meetkatalis.com/apis",
+   "spec_url": "https://meetkatalis.com/openapi.yaml",
+   "spec_version": "3.0.3",
+   "spec_title": "Katalis UK Business Intelligence APIs",
+   "path_count": 46
+  },
+  {
+   "name": "Leadgen Romania",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://leadgen.adrianhomelab.com/en/docs",
+   "spec_url": "https://leadgen.adrianhomelab.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Leadgen API — Romanian business registry (ONRC)",
+   "path_count": 26
+  },
+  {
+   "name": "Legal Sandbox Georgia",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://legal.ge/api/openapi.json",
+   "spec_url": "https://legal.ge/api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "legal.ge Public API",
+   "path_count": 8
+  },
+  {
+   "name": "Meirra",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://www.meirra.com/api",
+   "spec_url": "https://www.meirra.com/openapi.yaml",
+   "spec_version": "3.0.0",
+   "spec_title": "Meirra API",
+   "path_count": 12
+  },
+  {
+   "name": "OneFindMe",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://onefindme.com/mcp",
+   "spec_url": "https://onefindme.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "OneFindMe — AliExpress search in any language",
+   "path_count": 1
+  },
+  {
+   "name": "OpenTiendas",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://opentiendas.dev/redocusaurus/plugin-redoc-0.yaml",
+   "spec_url": "https://opentiendas.dev/openapi.yaml",
+   "spec_version": "3.0.3",
+   "spec_title": "OpenTiendas API",
+   "path_count": 25
+  },
+  {
+   "name": "PeopleSearch",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://peoplesearch.im/developers",
+   "spec_url": "https://peoplesearch.im/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "PeopleSearch.im API",
+   "path_count": 6
+  },
+  {
+   "name": "Pick an Agency",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://www.pickanagency.com/developers",
+   "spec_url": "https://www.pickanagency.com/api/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Pick an Agency API",
+   "path_count": 3
+  },
+  {
+   "name": "Product Library API",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://www.zettle.com/it",
+   "spec_url": "https://api.apis.guru/v2/specs/izettle.com/products/1.0.0/openapi.json",
+   "spec_version": "3.0.1",
+   "spec_title": "Product Library API",
+   "path_count": 20
+  },
+  {
+   "name": "Shop",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://shop.app",
+   "spec_url": "https://api.apis.guru/v2/specs/shop.app/v1/openapi.json",
+   "spec_version": "3.0.1",
+   "spec_title": "Shop",
+   "path_count": 2
+  },
+  {
+   "name": "Smartsheet",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://smartsheet.redoc.ly",
+   "spec_url": "https://smartsheet.redoc.ly/openapi.yaml",
+   "spec_version": "3.0.3",
+   "spec_title": "(DEPRECATED site)",
+   "path_count": 1
+  },
+  {
+   "name": "Softoteca",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://softoteca.com.br/v1",
+   "spec_url": "https://softoteca.com.br/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "API pública da Softoteca",
+   "path_count": 9
+  },
+  {
+   "name": "SoldStack",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://soldstack.dev/docs",
+   "spec_url": "https://soldstack.dev/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "SoldStack",
+   "path_count": 3
+  },
+  {
+   "name": "Swanum Comps",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://swanum.com/comps/docs",
+   "spec_url": "https://swanum.com/comps/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Swanum Comps API",
+   "path_count": 8
+  },
+  {
+   "name": "Tomba email finder",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://tomba.io/api",
+   "spec_url": "https://tomba.io/openapi.yaml",
+   "spec_version": "3.0.1",
+   "spec_title": "Tomba",
+   "path_count": 7
+  },
+  {
+   "name": "TradeDataHub",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://www.tradedatahub.net",
+   "spec_url": "https://www.tradedatahub.net/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "TradeDataHub Public API",
+   "path_count": 13
+  },
+  {
+   "name": "UGC VZ",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://ugc-vz.de/developers",
+   "spec_url": "https://ugc-vz.de/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "UGC VZ Public API",
+   "path_count": 5
+  },
+  {
+   "name": "Verif Entreprise FR",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://api-production-24833.up.railway.app",
+   "spec_url": "https://api-production-24833.up.railway.app/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Vérif Entreprise FR",
+   "path_count": 19
+  },
+  {
+   "name": "W System EU Business Data",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://api.wsystem.dev/docs",
+   "spec_url": "https://api.wsystem.dev/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "W System",
+   "path_count": 28
+  },
+  {
+   "name": "Zalando Shop",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://zalando.com",
+   "spec_url": "https://api.apis.guru/v2/specs/zalando.com/v1.0/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "Zalando Shop",
+   "path_count": 20
+  },
+  {
+   "name": "Fly.io",
+   "category": "cloud-infrastructure",
+   "type": "API",
+   "website": "https://fly.io/",
+   "spec_url": "https://fly.io/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Machines API",
+   "path_count": 71
+  },
+  {
+   "name": "Railway",
+   "category": "cloud-infrastructure",
+   "type": "API",
+   "website": "https://railway.com/",
+   "spec_url": "https://railway.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Railway Public API",
+   "path_count": 8
+  },
+  {
+   "name": "Render",
+   "category": "cloud-infrastructure",
+   "type": "API",
+   "website": "https://render.com/",
+   "spec_url": "https://render.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Render AI Discovery API",
+   "path_count": 14
+  },
+  {
+   "name": "Revdoku",
+   "category": "cloud-infrastructure",
+   "type": "API",
+   "website": "https://revdoku.com/api.md",
+   "spec_url": "https://revdoku.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Revdoku API",
+   "path_count": 43
+  },
+  {
+   "name": "Supabase",
+   "category": "cloud-infrastructure",
+   "type": "API",
+   "website": "https://supabase.com/",
+   "spec_url": "https://supabase.com/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "Supabase API (v1)",
+   "path_count": 115
+  },
+  {
+   "name": "Turso",
+   "category": "cloud-infrastructure",
+   "type": "API",
+   "website": "https://turso.tech/",
+   "spec_url": "https://turso.tech/openapi.json",
+   "spec_version": "3.0.1",
+   "spec_title": "Turso Platform API",
+   "path_count": 40
+  },
+  {
+   "name": "Upstash",
+   "category": "cloud-infrastructure",
+   "type": "API",
+   "website": "https://upstash.com/",
+   "spec_url": "https://upstash.com/docs/devops/developer-api/openapi.yaml",
+   "spec_version": "3.0.4",
+   "spec_title": "Developer API - Upstash",
+   "path_count": 55
+  },
+  {
+   "name": "ContactLint",
+   "category": "communication",
+   "type": "API",
+   "website": "https://contactlint.com/",
+   "spec_url": "https://contactlint.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "ContactLint API",
+   "path_count": 8
+  },
+  {
+   "name": "Disban",
+   "category": "communication",
+   "type": "API",
+   "website": "https://disban.io/docs",
+   "spec_url": "https://disban.io/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Disban API",
+   "path_count": 14
+  },
+  {
+   "name": "Disify",
+   "category": "communication",
+   "type": "API",
+   "website": "https://disify.com/",
+   "spec_url": "https://disify.com/openapi.yaml",
+   "spec_version": "3.1.0",
+   "spec_title": "Disify API",
+   "path_count": 5
+  },
+  {
+   "name": "Email Spam Tester",
+   "category": "communication",
+   "type": "API",
+   "website": "https://email-spam-tester.com/api-docs",
+   "spec_url": "https://email-spam-tester.com/api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Email Spam Tester API",
+   "path_count": 33
+  },
+  {
+   "name": "Email Validator by LifeStep",
+   "category": "communication",
+   "type": "API",
+   "website": "https://email.lifestep.io",
+   "spec_url": "https://email.lifestep.io/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Email Validator API",
+   "path_count": 2
+  },
+  {
+   "name": "Extension API",
+   "category": "communication",
+   "type": "API",
+   "website": "https://businesssupport.vonage.com/contactus",
+   "spec_url": "https://api.apis.guru/v2/specs/vonage.com/extension/1.11.8/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "Extension API",
+   "path_count": 2
+  },
+  {
+   "name": "External Accounts API",
+   "category": "communication",
+   "type": "API",
+   "website": "https://developer.vonage.com/en/home",
+   "spec_url": "https://api.apis.guru/v2/specs/nexmo.com/external-accounts/0.1.5/openapi.json",
+   "spec_version": "3.0.1",
+   "spec_title": "External Accounts API",
+   "path_count": 7
+  },
+  {
+   "name": "Mailfornet",
+   "category": "communication",
+   "type": "API",
+   "website": "https://mailfornet.com/api",
+   "spec_url": "https://mailfornet.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Mailfornet API",
+   "path_count": 11
+  },
+  {
+   "name": "MailRambo",
+   "category": "communication",
+   "type": "API",
+   "website": "https://www.mailrambo.com/developers",
+   "spec_url": "https://www.mailrambo.com/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "MailRambo Verification API",
+   "path_count": 4
+  },
+  {
+   "name": "MailSenpai DNS Check",
+   "category": "communication",
+   "type": "API",
+   "website": "https://en.mailsenpai.com/dns-check-api",
+   "spec_url": "https://www.mailsenpai.com/wp-content/uploads/api/mailsenpai-dns-check-openapi-1.0.0.yaml",
+   "spec_version": "3.1.0",
+   "spec_title": "MailSenpai DNS check API",
+   "path_count": 1
+  },
+  {
+   "name": "Postmark Account-level API",
+   "category": "communication",
+   "type": "API",
+   "website": "https://postmarkapp.com",
+   "spec_url": "https://postmarkapp.com/swagger/server.yml",
+   "spec_version": "2.0",
+   "spec_title": "Postmark API",
+   "path_count": 38
+  },
+  {
+   "name": "PostStack",
+   "category": "communication",
+   "type": "API",
+   "website": "https://poststack.dev/docs",
+   "spec_url": "https://poststack.dev/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "PostStack API",
+   "path_count": 117
+  },
+  {
+   "name": "TempMailGrab",
+   "category": "communication",
+   "type": "API",
+   "website": "https://tempmailgrab.com/api-docs",
+   "spec_url": "https://tempmailgrab.com/api/openapi.json",
+   "spec_version": "3.1.2",
+   "spec_title": "TempMailGrab API",
+   "path_count": 12
+  },
+  {
+   "name": "The SMS Works API",
+   "category": "communication",
+   "type": "API",
+   "website": "https://thesmsworks.co.uk",
+   "spec_url": "https://api.apis.guru/v2/specs/thesmsworks.co.uk/1.8.0/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "The SMS Works API",
+   "path_count": 18
+  },
+  {
+   "name": "uchecker",
+   "category": "communication",
+   "type": "API",
+   "website": "https://api.uchecker.net/docs",
+   "spec_url": "https://api.uchecker.net/docs/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "UChecker API",
+   "path_count": 43
+  },
+  {
+   "name": "Vonage Integration Suite",
+   "category": "communication",
+   "type": "API",
+   "website": "https://integrate.vonage.com",
+   "spec_url": "https://api.apis.guru/v2/specs/vonage.com/vgis/1.0.1/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "Vonage Integration Suite",
+   "path_count": 15
+  },
+  {
+   "name": "Airbyte",
+   "category": "data-analytics",
+   "type": "API",
+   "website": "https://airbyte.com/",
+   "spec_url": "https://airbyte.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Airbyte marketing site",
+   "path_count": 3
+  },
+  {
+   "name": "Amplitude",
+   "category": "data-analytics",
+   "type": "API",
+   "website": "https://amplitude.com/",
+   "spec_url": "https://amplitude.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Amplitude Public APIs",
+   "path_count": 33
+  },
+  {
+   "name": "Fathom",
+   "category": "data-analytics",
+   "type": "API",
+   "website": "https://usefathom.com/",
+   "spec_url": "https://usefathom.com/api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Fathom Analytics API",
+   "path_count": 13
+  },
+  {
+   "name": "OOXML Automation",
+   "category": "data-analytics",
+   "type": "API",
+   "website": "https://presalytics.io",
+   "spec_url": "https://api.apis.guru/v2/specs/presalytics.io/ooxml/0.1.0/openapi.json",
+   "spec_version": "3.0.1",
+   "spec_title": "OOXML Automation",
+   "path_count": 135
+  },
+  {
+   "name": "Agent Nexus",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://agentnexus.app/llms.txt",
+   "spec_url": "https://agentnexus.app/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Agent Nexus (agentnexus.app)",
+   "path_count": 8
+  },
+  {
+   "name": "Allscreenshots",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://allscreenshots.com",
+   "spec_url": "https://allscreenshots.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Allscreenshots API",
+   "path_count": 2
+  },
+  {
+   "name": "Amazonscraperapi",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://amazonscraperapi.com",
+   "spec_url": "https://amazonscraperapi.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Amazon Scraper API",
+   "path_count": 3
+  },
+  {
+   "name": "AmberOne",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://scubamike124.github.io/amberone-api",
+   "spec_url": "https://hq.amberoneai.com/api/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "AmberOne API",
+   "path_count": 86
+  },
+  {
+   "name": "Anchore Engine API Server",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://anchore.com/",
+   "spec_url": "https://api.apis.guru/v2/specs/anchore.io/0.1.20/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "Anchore Engine API Server",
+   "path_count": 75
+  },
+  {
+   "name": "AnswerLine",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://answerline.dev",
+   "spec_url": "https://answerline.dev/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Answerline API",
+   "path_count": 17
+  },
+  {
+   "name": "API Endpoints",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://readme.com/",
+   "spec_url": "https://api.apis.guru/v2/specs/readme.io/2.0.0/openapi.json",
+   "spec_version": "3.0.2",
+   "spec_title": "API Endpoints",
+   "path_count": 17
+  },
+  {
+   "name": "API Tool Calls",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://apitoolcalls.com/api",
+   "spec_url": "https://apitoolcalls.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "API Tool Calls",
+   "path_count": 26
+  },
+  {
+   "name": "APIs.guru",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://apis.guru/api-doc",
+   "spec_url": "https://api.apis.guru/v2/specs/apis.guru/2.2.0/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "APIs.guru",
+   "path_count": 7
+  },
+  {
+   "name": "APIzone",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://apizone.io/api-docs",
+   "spec_url": "https://apizone.io/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "APIzone Status API",
+   "path_count": 3
+  },
+  {
+   "name": "Attestwire",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://api.attestwire.com/docs",
+   "spec_url": "https://api.attestwire.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Attestwire API",
+   "path_count": 19
+  },
+  {
+   "name": "Bitrise",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://api-docs.bitrise.io",
+   "spec_url": "https://api-docs.bitrise.io/docs/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "Bitrise API",
+   "path_count": 88
+  },
+  {
+   "name": "Blitapp",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://blitapp.com/api",
+   "spec_url": "https://blitapp.com/api/swagger.yaml",
+   "spec_version": "2.0",
+   "spec_title": "Blit",
+   "path_count": 18
+  },
+  {
+   "name": "BountyCheck",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://bountycheck.vercel.app",
+   "spec_url": "https://bountycheck.vercel.app/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "BountyCheck",
+   "path_count": 7
+  },
+  {
+   "name": "BrewPage",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://brewpage.app",
+   "spec_url": "https://brewpage.app/api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "BrewPage API",
+   "path_count": 47
+  },
+  {
+   "name": "Browshot",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://browshot.com/api/documentation",
+   "spec_url": "https://browshot.com/api/documentation/code/swagger/browshot_swagger.yaml",
+   "spec_version": "2.0",
+   "spec_title": "Browshot API",
+   "path_count": 17
+  },
+  {
+   "name": "CircleCI",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://circleci.com/docs/guides/toolkit/api-intro/",
+   "spec_url": "https://circleci.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "CircleCI Public API",
+   "path_count": 5
+  },
+  {
+   "name": "claudecookie",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://claudecookie.com/api",
+   "spec_url": "https://claudecookie.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "claudecookie public API",
+   "path_count": 4
+  },
+  {
+   "name": "ClickMeter",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://support.clickmeter.com/hc/en-us/categories/201474986",
+   "spec_url": "https://api.apis.guru/v2/specs/clickmeter.com/v2/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "ClickMeter API",
+   "path_count": 75
+  },
+  {
+   "name": "crawlbrulee",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://crawlbrulee.com/docs",
+   "spec_url": "https://crawlbrulee.com/docs/crawlbrulee-openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "crawlbrulee api",
+   "path_count": 7
+  },
+  {
+   "name": "CurlShot",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://curlshot.com/docs",
+   "spec_url": "https://curlshot.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "CurlShot API",
+   "path_count": 8
+  },
+  {
+   "name": "DigMyName",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://digmyname.com/api",
+   "spec_url": "https://api.digmyname.com/functions/v1/public-api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "DigMyName Public API",
+   "path_count": 5
+  },
+  {
+   "name": "Domain Info by LifeStep",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://dns.lifestep.io",
+   "spec_url": "https://dns.lifestep.io/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Domain Info API",
+   "path_count": 2
+  },
+  {
+   "name": "EndOfLife.date",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://endoflife.date/docs/api",
+   "spec_url": "https://endoflife.date/assets/openapi.yml",
+   "spec_version": "3.1.0",
+   "spec_title": "endoflife.date",
+   "path_count": 3
+  },
+  {
+   "name": "Etherpad API",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://etherpad.org",
+   "spec_url": "https://api.apis.guru/v2/specs/etherpad.local/1.2.15/openapi.json",
+   "spec_version": "3.0.2",
+   "spec_title": "Etherpad API",
+   "path_count": 48
+  },
+  {
+   "name": "ExtendsClass JSON Storage",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://extendsclass.com/json-storage.html",
+   "spec_url": "https://extendsclass.com/json-storage.openapi.json",
+   "spec_version": "3.0.1",
+   "spec_title": "JSON storage",
+   "path_count": 2
+  },
+  {
+   "name": "Fair Draw",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://bettip.co.za/fair-draw/api",
+   "spec_url": "https://bettip.co.za/fair-draw/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "BetTip Fair Draw API",
+   "path_count": 4
+  },
+  {
+   "name": "GithubTrends",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://githubtrends.app/api",
+   "spec_url": "https://githubtrends.app/api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "GithubTrends API",
+   "path_count": 5
+  },
+  {
+   "name": "Gitlab",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://docs.gitlab.com/api/",
+   "spec_url": "https://axil.gitlab.io/swaggerapi/static/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "API title",
+   "path_count": 251
+  },
+  {
+   "name": "HostDealRadar",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://hostdealradar.com/ai/",
+   "spec_url": "https://hostdealradar.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "HostDealRadar public record lookup",
+   "path_count": 1
+  },
+  {
+   "name": "Hunter",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://hunter.io/api",
+   "spec_url": "https://hunter.io/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Hunter API",
+   "path_count": 101
+  },
+  {
+   "name": "import.io",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://api.docs.import.io/",
+   "spec_url": "https://api.apis.guru/v2/specs/import.io/data/1.0/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "import.io",
+   "path_count": 2
+  },
+  {
+   "name": "Index Agentica",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://indexagentica.com/agents",
+   "spec_url": "https://indexagentica.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Index Agentica API",
+   "path_count": 16
+  },
+  {
+   "name": "Interzoid State Data Standardization API",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://www.interzoid.com",
+   "spec_url": "https://api.apis.guru/v2/specs/interzoid.com/getstateabbreviation/1.0.0/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "Interzoid State Data Standardization API",
+   "path_count": 1
+  },
+  {
+   "name": "invowerk",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://invowerk.dev/docs",
+   "spec_url": "https://invowerk.dev/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "invowerk",
+   "path_count": 7
+  },
+  {
+   "name": "Ironfang Render",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://ironfang.com/render/docs",
+   "spec_url": "https://api.ironfang.com/render/openapi.yaml",
+   "spec_version": "3.1.0",
+   "spec_title": "Ironfang Render API",
+   "path_count": 35
+  },
+  {
+   "name": "Labelixa",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://labelixa.com/docs/api",
+   "spec_url": "https://labelixa.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Labelixa API",
+   "path_count": 111
+  },
+  {
+   "name": "Litport Free Proxy",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://litport.net/docs/free-proxy-api",
+   "spec_url": "https://litport.net/docs/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Litport API",
+   "path_count": 20
+  },
+  {
+   "name": "Lix.li",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://lix.li/api",
+   "spec_url": "https://lix.li/docs/openapi/openapi.yaml",
+   "spec_version": "3.1.0",
+   "spec_title": "Lix.li API",
+   "path_count": 14
+  },
+  {
+   "name": "msgboard",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://msgboard.dev",
+   "spec_url": "https://msgboard.dev/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "Agent message board",
+   "path_count": 4
+  },
+  {
+   "name": "NameGender",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://namegender.com/docs",
+   "spec_url": "https://namegender.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "NameGender API",
+   "path_count": 16
+  },
+  {
+   "name": "Nerdulator",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://nerdulator.com/api",
+   "spec_url": "https://nerdulator.com/api/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Nerdulator API",
+   "path_count": 5
+  },
+  {
+   "name": "Neuronto ARD Registry",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://neuronto.com/api-docs",
+   "spec_url": "https://neuronto.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Neuronto ARD Registry: Agentic Resource Discovery (ARD) Index",
+   "path_count": 38
+  },
+  {
+   "name": "Open VSX",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://open-vsx.org",
+   "spec_url": "https://open-vsx.org/v3/api-docs",
+   "spec_version": "3.0.1",
+   "spec_title": null,
+   "path_count": 109
+  },
+  {
+   "name": "OpenQR",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://openqr.uk/api",
+   "spec_url": "https://openqr.uk/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "OpenQR API",
+   "path_count": 16
+  },
+  {
+   "name": "Orca Scan",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://orcascan.com/guides/free-barcode-image-api-0e4a4fa6",
+   "spec_url": "https://barcode.orcascan.com/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Orca Scan Barcode Image API",
+   "path_count": 1
+  },
+  {
+   "name": "oyyi",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://oyyi.xyz/docs",
+   "spec_url": "https://oyyi.xyz/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Oyyi API",
+   "path_count": 229
+  },
+  {
+   "name": "QR Code by LifeStep",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://qr.lifestep.io",
+   "spec_url": "https://qr.lifestep.io/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "QR Code API",
+   "path_count": 2
+  },
+  {
+   "name": "QR Code Crafter",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://qrcodecrafter.com/qr-code-api",
+   "spec_url": "https://qrcodecrafter.com/openapi.yaml",
+   "spec_version": "3.0.1",
+   "spec_title": "QRCodeCrafter API",
+   "path_count": 12
+  },
+  {
+   "name": "QR Codes",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://qr-api.62-238-102-93.sslip.io/docs",
+   "spec_url": "https://qr-api.62-238-102-93.sslip.io/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "qr-api",
+   "path_count": 10
+  },
+  {
+   "name": "QuickChart",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://quickchart.io",
+   "spec_url": "https://api.apis.guru/v2/specs/quickchart.io/1.0.0/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "QuickChart API",
+   "path_count": 2
+  },
+  {
+   "name": "ScrapeNinja",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://scrapeninja.net",
+   "spec_url": "https://scrapeninja.net/openapi.yaml",
+   "spec_version": "3.0.0",
+   "spec_title": "ScrapeNinja Web Scraping API",
+   "path_count": 3
+  },
+  {
+   "name": "SegmentLite",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://segmentlite-api-dfru.fly.dev",
+   "spec_url": "https://segmentlite-api-dfru.fly.dev/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "HooddShop // What's Under Your Hoodd? External Domain Teardown & Primitives API",
+   "path_count": 45
+  },
+  {
+   "name": "Shotkiln",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://shotkiln.com/docs",
+   "spec_url": "https://shotkiln.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Shotkiln API",
+   "path_count": 13
+  },
+  {
+   "name": "SiteIntel",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://siteintel.duckdns.org",
+   "spec_url": "https://siteintel.duckdns.org/openapi.yaml",
+   "spec_version": "3.0.3",
+   "spec_title": "SiteIntel — Website Intelligence & Screenshot API",
+   "path_count": 3
+  },
+  {
+   "name": "SnapRender",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://snap-render.com/docs",
+   "spec_url": "https://snap-render.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "SnapRender Screenshot API",
+   "path_count": 17
+  },
+  {
+   "name": "StackExchange",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://api.stackexchange.com",
+   "spec_url": "https://raw.githubusercontent.com/APIs-guru/unofficial_openapi_specs/master/stackexchange.com/2.0/openapi.yaml",
+   "spec_version": "3.0.0",
+   "spec_title": "StackExchange",
+   "path_count": 72,
+   "truncated": true
+  },
+  {
+   "name": "Temsor",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://api.temsor.com/docs",
+   "spec_url": "https://api.temsor.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "temsor API",
+   "path_count": 44
+  },
+  {
+   "name": "TheQRCode",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://theqrcode.io/qr-code-api",
+   "spec_url": "https://theqrcode.io/api/public/qr-codes/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "TheQRCode.io Public API",
+   "path_count": 2
+  },
+  {
+   "name": "Thunderbit",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://thunderbit.com/docs/introduction",
+   "spec_url": "https://thunderbit.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Thunderbit Open API",
+   "path_count": 6
+  },
+  {
+   "name": "TidyTools",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://tools.yukai.uk/llms.txt",
+   "spec_url": "https://tools.yukai.uk/openapi/web-to-markdown.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Web Page to Markdown & AI Summary API",
+   "path_count": 2
+  },
+  {
+   "name": "Timezone WorldTime",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://www.timezone.io/docs/worldtimeapi",
+   "spec_url": "https://worldtime.timezone.io/api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "WorldTimeAPI-compatible API by timezone.io",
+   "path_count": 12
+  },
+  {
+   "name": "ToolForte",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://toolforte.com/developers",
+   "spec_url": "https://toolforte.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "ToolForte API",
+   "path_count": 172
+  },
+  {
+   "name": "unfurlr",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://unfurlr.onrender.com/docs",
+   "spec_url": "https://unfurlr.onrender.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "unfurlr API",
+   "path_count": 24
+  },
+  {
+   "name": "Urlbox API",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://urlbox.com/",
+   "spec_url": "https://api.apis.guru/v2/specs/urlbox.io/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Urlbox API",
+   "path_count": 1
+  },
+  {
+   "name": "URLpipe",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://urlpipe.dev/docs",
+   "spec_url": "https://urlpipe.dev/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "URLpipe API",
+   "path_count": 15
+  },
+  {
+   "name": "Vornamencheck",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://vornamencheck.de",
+   "spec_url": "https://vornamencheck.de/api/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "vornamencheck.de API",
+   "path_count": 8
+  },
+  {
+   "name": "Webclaw",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://webclaw.io/docs/api",
+   "spec_url": "https://webclaw.io/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "webclaw API",
+   "path_count": 21
+  },
+  {
+   "name": "WebScraping.AI",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://webscraping.ai",
+   "spec_url": "https://webscraping.ai/openapi.yml",
+   "spec_version": "3.1.0",
+   "spec_title": "WebScraping.AI",
+   "path_count": 10
+  },
+  {
+   "name": "WeInc",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://my.we.inc/docs/api",
+   "spec_url": "https://my.we.inc/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "WeInc API",
+   "path_count": 11
+  },
+  {
+   "name": "XLSX Inspector",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://api.lifestep.io",
+   "spec_url": "https://api.lifestep.io/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "XLSX Inspector API",
+   "path_count": 2
+  },
+  {
+   "name": "ZenRows",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://www.zenrows.com",
+   "spec_url": "https://www.zenrows.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Zenrows API",
+   "path_count": 40
+  },
+  {
+   "name": "Africa Compliance Data",
+   "category": "documents-productivity",
+   "type": "API",
+   "website": "https://africacompliancedata.com/docs",
+   "spec_url": "https://africacompliancedata.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Africa Compliance Data API",
+   "path_count": 26
+  },
+  {
+   "name": "AgentPay Doc Tools",
+   "category": "documents-productivity",
+   "type": "API",
+   "website": "https://agentpay-tools.agentpay-apis.workers.dev",
+   "spec_url": "https://agentpay-tools.agentpay-apis.workers.dev/tools/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Doc Tools",
+   "path_count": 5
+  },
+  {
+   "name": "Convert Online",
+   "category": "documents-productivity",
+   "type": "API",
+   "website": "https://convert.online/api-docs",
+   "spec_url": "https://api.convert.online/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Convert.Online API",
+   "path_count": 9
+  },
+  {
+   "name": "DocCheap",
+   "category": "documents-productivity",
+   "type": "API",
+   "website": "https://doc.cheap/docs",
+   "spec_url": "https://doc.cheap/openapi.yaml",
+   "spec_version": "3.1.0",
+   "spec_title": "Document Recognition API",
+   "path_count": 4
+  },
+  {
+   "name": "Emboss",
+   "category": "documents-productivity",
+   "type": "API",
+   "website": "https://getemboss.ai/docs/quickstart",
+   "spec_url": "https://getemboss.ai/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Emboss",
+   "path_count": 7
+  },
+  {
+   "name": "flatmark",
+   "category": "documents-productivity",
+   "type": "API",
+   "website": "https://flatmark.dev/docs",
+   "spec_url": "https://flatmark.dev/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "flatmark",
+   "path_count": 9
+  },
+  {
+   "name": "Formfeed",
+   "category": "documents-productivity",
+   "type": "API",
+   "website": "https://docs.formfeed.dev/api/overview",
+   "spec_url": "https://api.formfeed.dev/v1/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Formfeed",
+   "path_count": 47
+  },
+  {
+   "name": "Hebrew Calendar",
+   "category": "documents-productivity",
+   "type": "API",
+   "website": "https://www.hebcal.com/home/developer-apis",
+   "spec_url": "https://www.hebcal.com/api-docs/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Hebcal REST APIs",
+   "path_count": 5
+  },
+  {
+   "name": "Intellibook",
+   "category": "documents-productivity",
+   "type": "API",
+   "website": "https://www.intellibookai.com/docs",
+   "spec_url": "https://www.intellibookai.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Intellibook AI — Complete API Reference & Developer Resources (v1)",
+   "path_count": 5
+  },
+  {
+   "name": "PDFMint",
+   "category": "documents-productivity",
+   "type": "API",
+   "website": "https://pdf.mintapis.com/docs",
+   "spec_url": "https://pdf.mintapis.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "PDFMint API",
+   "path_count": 12
+  },
+  {
+   "name": "pdfrender",
+   "category": "documents-productivity",
+   "type": "API",
+   "website": "https://pdfrender.dev/docs",
+   "spec_url": "https://pdfrender.dev/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "pdfrender",
+   "path_count": 2
+  },
+  {
+   "name": "PrintSocket",
+   "category": "documents-productivity",
+   "type": "API",
+   "website": "https://www.printsocket.com/docs",
+   "spec_url": "https://www.printsocket.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "PrintSocket API",
+   "path_count": 22
+  },
+  {
+   "name": "Rendex",
+   "category": "documents-productivity",
+   "type": "API",
+   "website": "https://rendex.dev",
+   "spec_url": "https://rendex.dev/openapi.yaml",
+   "spec_version": "3.1.0",
+   "spec_title": "Rendex Rendering API",
+   "path_count": 17
+  },
+  {
+   "name": "SayItVid",
+   "category": "documents-productivity",
+   "type": "API",
+   "website": "https://sayitvid.com",
+   "spec_url": "https://sayitvid.com/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "SayItVid Public API",
+   "path_count": 6
+  },
+  {
+   "name": "Shortcut",
+   "category": "documents-productivity",
+   "type": "API",
+   "website": "https://developer.shortcut.com/api/rest/v3",
+   "spec_url": "https://developer.shortcut.com/api/rest/v3/shortcut.swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "Shortcut API",
+   "path_count": 85
+  },
+  {
+   "name": "staffSign",
+   "category": "documents-productivity",
+   "type": "API",
+   "website": "https://staffsign.de/docs",
+   "spec_url": "https://staffsign.de/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "staffSign API",
+   "path_count": 13
+  },
+  {
+   "name": "TeamSort",
+   "category": "documents-productivity",
+   "type": "API",
+   "website": "https://teamsort.world/developers",
+   "spec_url": "https://teamsort.world/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "TeamSort API",
+   "path_count": 2
+  },
+  {
+   "name": "Thirds",
+   "category": "documents-productivity",
+   "type": "API",
+   "website": "https://thirds.ai/docs/api",
+   "spec_url": "https://thirds.ai/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "thirds.ai API",
+   "path_count": 61
+  },
+  {
+   "name": "Wordnik",
+   "category": "documents-productivity",
+   "type": "API",
+   "website": "https://developer.wordnik.com",
+   "spec_url": "https://api.apis.guru/v2/specs/wordnik.com/4.0/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "Wordnik",
+   "path_count": 16
+  },
+  {
+   "name": "WordSoHard",
+   "category": "documents-productivity",
+   "type": "API",
+   "website": "https://wordsohard.com/api",
+   "spec_url": "https://wordsohard.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "WordSoHard Word Game API",
+   "path_count": 3
+  },
+  {
+   "name": "Solcast",
+   "category": "energy",
+   "type": "API",
+   "website": "https://www.solcast.com/",
+   "spec_url": "https://api.solcast.com.au/openapi/v1/openapi.json",
+   "spec_version": "3.0.1",
+   "spec_title": "Solcast API",
+   "path_count": 35
+  },
+  {
+   "name": "Amanah Sunnah",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://sunnah.amanahagent.cloud/developers",
+   "spec_url": "https://sunnah.amanahagent.cloud/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Amanah Sunnah API",
+   "path_count": 20
+  },
+  {
+   "name": "Anycrap",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://anycrap.shop/developers",
+   "spec_url": "https://anycrap.shop/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Anycrap API",
+   "path_count": 5
+  },
+  {
+   "name": "Archive API",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://developer.nytimes.com/docs/archive-product/1/overview",
+   "spec_url": "https://api.apis.guru/v2/specs/nytimes.com/archive/1.0.0/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "Archive API",
+   "path_count": 1
+  },
+  {
+   "name": "Arcmira",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://arcmira.com/docs",
+   "spec_url": "https://api.arcmira.com/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Arcmira API",
+   "path_count": 31
+  },
+  {
+   "name": "Astro Agents",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://astro-agent.dev/llms.txt",
+   "spec_url": "https://astro-agent.dev/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Astro Agents",
+   "path_count": 25
+  },
+  {
+   "name": "Bhagavad Gita telugu",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://gita-api.vercel.app",
+   "spec_url": "https://gita-api.vercel.app/openapi.json",
+   "spec_version": "3.0.2",
+   "spec_title": "FastAPI",
+   "path_count": 3
+  },
+  {
+   "name": "BookRank",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://openbookrank.com/en/open-data",
+   "spec_url": "https://openbookrank.com/api/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "BookRank API",
+   "path_count": 10
+  },
+  {
+   "name": "Bucketlist Dream of the Day",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://bucketlist.nl/samenwerken?lang=en",
+   "spec_url": "https://bucketlist.nl/brand/droom-van-de-dag.openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Bucketlist.nl Dream of the Day API",
+   "path_count": 1
+  },
+  {
+   "name": "BulkTranscripts",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://bulktranscripts.co/docs",
+   "spec_url": "https://bulktranscripts.co/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "BulkTranscripts API",
+   "path_count": 10
+  },
+  {
+   "name": "CFB v3 Scores",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://sportsdata.io",
+   "spec_url": "https://api.apis.guru/v2/specs/sportsdata.io/cfb-v3-scores/1.0/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "CFB v3 Scores",
+   "path_count": 18
+  },
+  {
+   "name": "CosmyDay Astrology",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://cosmyday.com/api-docs",
+   "spec_url": "https://cosmyday.com/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "CosmyDay Astrology",
+   "path_count": 17
+  },
+  {
+   "name": "EVEMarketer Marketstat API",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://evemarketer.com",
+   "spec_url": "https://api.apis.guru/v2/specs/evemarketer.com/1.0.1/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "EVEMarketer Marketstat API",
+   "path_count": 2
+  },
+  {
+   "name": "FindLocal",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://findlocal.community/docs",
+   "spec_url": "https://findlocal.community/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "FindLocal Events API",
+   "path_count": 3
+  },
+  {
+   "name": "Greenlit Books",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://greenlitbooks.com/developers",
+   "spec_url": "https://greenlitbooks.com/api/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Greenlit Books API",
+   "path_count": 16
+  },
+  {
+   "name": "Image Moderation",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://moderatecontent.com",
+   "spec_url": "https://api.apis.guru/v2/specs/moderatecontent.com/1.0.0/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "Image Moderation",
+   "path_count": 1
+  },
+  {
+   "name": "JSON2Video",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://json2video.com",
+   "spec_url": "https://api.apis.guru/v2/specs/json2video.com/2.0.0/openapi.json",
+   "spec_version": "3.0.2",
+   "spec_title": "JSON2Video API",
+   "path_count": 1
+  },
+  {
+   "name": "KDP Intelligence",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://kdp-intelligence-api.vercel.app/docs",
+   "spec_url": "https://kdp-intelligence-api.vercel.app/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "KDP Intelligence API",
+   "path_count": 5
+  },
+  {
+   "name": "KinoPipe",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://kinopipe.com/docs",
+   "spec_url": "https://kinopipe.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "KinoPipe API",
+   "path_count": 4
+  },
+  {
+   "name": "KPainter",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://api.kpainter.ai/openapi/v1/docs",
+   "spec_url": "https://api.kpainter.ai/openapi/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "KPainter OpenAPI",
+   "path_count": 9
+  },
+  {
+   "name": "Listen API: Podcast Search, Directory, and Insights API",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://www.listennotes.com/api",
+   "spec_url": "https://listen-api.listennotes.com/api/v2/openapi.yaml",
+   "spec_version": "3.1.0",
+   "spec_title": "Listen API: Podcast Search, Directory, and Insights API",
+   "path_count": 27
+  },
+  {
+   "name": "MangaUpdates",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://api.mangaupdates.com",
+   "spec_url": "https://api.mangaupdates.com/openapi.yaml",
+   "spec_version": "3.0.0",
+   "spec_title": "MangaUpdates API",
+   "path_count": 183
+  },
+  {
+   "name": "NBA Stats API",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://nba.com",
+   "spec_url": "https://api.apis.guru/v2/specs/nba.com/version/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "NBA Stats API",
+   "path_count": 91
+  },
+  {
+   "name": "News Plugin",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://www.freetv-app.com:443/",
+   "spec_url": "https://api.apis.guru/v2/specs/freetv-app.com/v1/openapi.json",
+   "spec_version": "3.0.1",
+   "spec_title": "News Plugin",
+   "path_count": 1
+  },
+  {
+   "name": "OMDb",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "http://omdbapi.com",
+   "spec_url": "http://www.omdbapi.com/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "OMDb API",
+   "path_count": 3
+  },
+  {
+   "name": "Open Library",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://openlibrary.org/developers/api",
+   "spec_url": "https://openlibrary.org/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Open Library API",
+   "path_count": 49
+  },
+  {
+   "name": "PositiveQuotation",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://positivequotation.com/developers/public-domain-quotes-api",
+   "spec_url": "https://positivequotation.com/api/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "PositiveQuotation Public Domain Quotes API",
+   "path_count": 3
+  },
+  {
+   "name": "Radio & Music Services",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://www.bbc.co.uk/",
+   "spec_url": "https://api.apis.guru/v2/specs/bbc.co.uk/1.0.0/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "Radio & Music Services",
+   "path_count": 45
+  },
+  {
+   "name": "Songsterr",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://www.songsterr.com",
+   "spec_url": "https://www.songsterr.com/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Songsterr API",
+   "path_count": 1
+  },
+  {
+   "name": "StemConsole",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://stemconsole.ai/developers/",
+   "spec_url": "https://stemconsole.ai/api/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "StemConsole API",
+   "path_count": 10
+  },
+  {
+   "name": "Studio Ghibli",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://ghibliapi.vercel.app",
+   "spec_url": "https://ghibliapi.vercel.app/swagger.yaml",
+   "spec_version": "2.0",
+   "spec_title": "Studio Ghibli API",
+   "path_count": 10
+  },
+  {
+   "name": "Sunor",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://docs.sunor.cc/introduction",
+   "spec_url": "https://docs.sunor.cc/api-reference/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Sunor API",
+   "path_count": 4
+  },
+  {
+   "name": "Things To Do",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://thingstodoapi.com/docs/",
+   "spec_url": "https://api.thingstodoapi.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Things To Do API",
+   "path_count": 5
+  },
+  {
+   "name": "ThronesApi",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://thronesapi.com",
+   "spec_url": "https://thronesapi.com/swagger/v1/swagger.json",
+   "spec_version": "3.0.1",
+   "spec_title": "Game of Thrones API",
+   "path_count": 2
+  },
+  {
+   "name": "TranscriptYT",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://transcript-yt.com/docs",
+   "spec_url": "https://transcript-yt.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "TranscriptYT YouTube Transcript API",
+   "path_count": 7
+  },
+  {
+   "name": "TubeToTranscript",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://www.tubetotranscript.com/youtube-transcript-api",
+   "spec_url": "https://www.tubetotranscript.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "TubeToTranscript REST API",
+   "path_count": 17
+  },
+  {
+   "name": "UGCdrop",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://ugcdrop.com/api",
+   "spec_url": "https://ugcdrop.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "UGCdrop public catalog API",
+   "path_count": 5
+  },
+  {
+   "name": "Urantia Papers",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://urantia.dev",
+   "spec_url": "https://api.urantia.dev/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Urantia Papers API",
+   "path_count": 43
+  },
+  {
+   "name": "VidWords",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://vidwords.com/api-docs",
+   "spec_url": "https://vidwords.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "VidWords — YouTube Transcript API",
+   "path_count": 5
+  },
+  {
+   "name": "Watchmode",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://api.watchmode.com",
+   "spec_url": "https://api.watchmode.com/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Watchmode API",
+   "path_count": 40
+  },
+  {
+   "name": "Wizard World",
+   "category": "entertainment-media",
+   "type": "API",
+   "website": "https://wizard-world-api.herokuapp.com/swagger/index.html",
+   "spec_url": "https://wizard-world-api.herokuapp.com/swagger/v1/swagger.json",
+   "spec_version": "3.0.4",
+   "spec_title": "WizardWorldApi",
+   "path_count": 13
+  },
+  {
+   "name": "Afterbanks API",
+   "category": "finance",
+   "type": "API",
+   "website": "https://afterbanks.com",
+   "spec_url": "https://api.apis.guru/v2/specs/afterbanks.com/3.0.0/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "Afterbanks API",
+   "path_count": 3
+  },
+  {
+   "name": "Arkleon",
+   "category": "finance",
+   "type": "API",
+   "website": "https://arkleon.com",
+   "spec_url": "https://arkleon.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Arklēon Data API",
+   "path_count": 6
+  },
+  {
+   "name": "Brainy Prices",
+   "category": "finance",
+   "type": "API",
+   "website": "https://prices.brainy.ae/developers.html",
+   "spec_url": "https://prices.brainy.ae/api/v2/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Brainy Prices API v2 — Dubai cost of living (proposal)",
+   "path_count": 56
+  },
+  {
+   "name": "CardBinCheck",
+   "category": "finance",
+   "type": "API",
+   "website": "https://cardbincheck.com/bin-lookup-api",
+   "spec_url": "https://cardbincheck.com/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "CardBinCheck BIN Lookup API",
+   "path_count": 2
+  },
+  {
+   "name": "CongressInvests",
+   "category": "finance",
+   "type": "API",
+   "website": "https://congressinvests.com",
+   "spec_url": "https://congressinvests.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "CongressInvests API",
+   "path_count": 23
+  },
+  {
+   "name": "Daleelak",
+   "category": "finance",
+   "type": "API",
+   "website": "https://getdaleelak.com/en/api",
+   "spec_url": "https://getdaleelak.com/api/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Daleelak Public Feed API",
+   "path_count": 1
+  },
+  {
+   "name": "Degenscan Intel Macro",
+   "category": "finance",
+   "type": "API",
+   "website": "https://intel.degenscan.io/docs",
+   "spec_url": "https://intel.degenscan.io/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Degenscan Intel",
+   "path_count": 118
+  },
+  {
+   "name": "Drillr",
+   "category": "finance",
+   "type": "API",
+   "website": "https://drillr.ai/docs/api",
+   "spec_url": "https://gateway.drillr.ai/api/v2/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "drillr Public Data API",
+   "path_count": 29
+  },
+  {
+   "name": "EstimateTax",
+   "category": "finance",
+   "type": "API",
+   "website": "https://estimatetax.net/api",
+   "spec_url": "https://estimatetax.net/api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "estimatetax.net Tax Calculation API",
+   "path_count": 1
+  },
+  {
+   "name": "ExchangeRate-API",
+   "category": "finance",
+   "type": "API",
+   "website": "https://www.exchangerate-api.com",
+   "spec_url": "https://api.apis.guru/v2/specs/exchangerate-api.com/4/openapi.json",
+   "spec_version": "3.0.2",
+   "spec_title": "ExchangeRate-API",
+   "path_count": 1
+  },
+  {
+   "name": "Exchangerate.dev",
+   "category": "finance",
+   "type": "API",
+   "website": "https://exchangerate.dev/docs",
+   "spec_url": "https://api.exchangerate.dev/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "exchangerate.dev",
+   "path_count": 43
+  },
+  {
+   "name": "FinBridge",
+   "category": "finance",
+   "type": "API",
+   "website": "https://finbridge.gronox.kr/docs",
+   "spec_url": "https://mcp.gronox.kr/api/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "FinBridge REST API",
+   "path_count": 5
+  },
+  {
+   "name": "FloorGuard",
+   "category": "finance",
+   "type": "API",
+   "website": "https://floorguard-kappa.vercel.app/api",
+   "spec_url": "https://floorguard-kappa.vercel.app/api/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Prop Firm Rules API",
+   "path_count": 4
+  },
+  {
+   "name": "Frankfurter",
+   "category": "finance",
+   "type": "API",
+   "website": "https://frankfurter.dev/",
+   "spec_url": "https://api.frankfurter.dev/v2/openapi.json",
+   "spec_version": "3.1.2",
+   "spec_title": "Frankfurter API",
+   "path_count": 9
+  },
+  {
+   "name": "FXNewsBias",
+   "category": "finance",
+   "type": "API",
+   "website": "https://fxnewsbias.com/developers",
+   "spec_url": "https://fxnewsbias.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "FXNewsBias API",
+   "path_count": 9
+  },
+  {
+   "name": "FXpeek",
+   "category": "finance",
+   "type": "API",
+   "website": "https://fxpeek.com/en/api",
+   "spec_url": "https://fxpeek.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "FXpeek Historical Exchange Rate API",
+   "path_count": 4
+  },
+  {
+   "name": "Halal Terminal",
+   "category": "finance",
+   "type": "API",
+   "website": "https://api.halalterminal.com/docs",
+   "spec_url": "https://api.halalterminal.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Halal Terminal API",
+   "path_count": 88
+  },
+  {
+   "name": "Helious",
+   "category": "finance",
+   "type": "API",
+   "website": "https://helious.io/developers/",
+   "spec_url": "https://helious.io/.well-known/openapi-public.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Helious Public API",
+   "path_count": 58
+  },
+  {
+   "name": "IBANforge",
+   "category": "finance",
+   "type": "API",
+   "website": "https://api.ibanforge.com",
+   "spec_url": "https://api.ibanforge.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "IBANforge API",
+   "path_count": 40
+  },
+  {
+   "name": "LiquiLens",
+   "category": "finance",
+   "type": "API",
+   "website": "https://liquilens.in/developers",
+   "spec_url": "https://api.liquilens.in/api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "LiquiLens Public API",
+   "path_count": 13
+  },
+  {
+   "name": "Nigeria PAYE",
+   "category": "finance",
+   "type": "API",
+   "website": "https://www.orionsoftlimited.com/developers",
+   "spec_url": "https://www.orionsoftlimited.com/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Africa PAYE API (Nigeria, Kenya, Ghana)",
+   "path_count": 1
+  },
+  {
+   "name": "NORTH7 Agent",
+   "category": "finance",
+   "type": "API",
+   "website": "https://north7.ai/v1/docs",
+   "spec_url": "https://north7.ai/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "NORTH7 Agent API",
+   "path_count": 30
+  },
+  {
+   "name": "paralelo.bo",
+   "category": "finance",
+   "type": "API",
+   "website": "https://paralelo.bo/api",
+   "spec_url": "https://paralelo.bo/api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "paralelo.bo API",
+   "path_count": 8
+  },
+  {
+   "name": "Rate-API",
+   "category": "finance",
+   "type": "API",
+   "website": "https://rate-api.com/docs/api",
+   "spec_url": "https://rate-api.com/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Rate-API",
+   "path_count": 13
+  },
+  {
+   "name": "Razorpay IFSC",
+   "category": "finance",
+   "type": "API",
+   "website": "https://razorpay.com/docs/home",
+   "spec_url": "https://razorpay.com/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "Razorpay API",
+   "path_count": 93
+  },
+  {
+   "name": "Sales Tax Calculator",
+   "category": "finance",
+   "type": "API",
+   "website": "https://salestaxcalculatorapi.com",
+   "spec_url": "https://salestaxcalculatorapi.com/openapi.json",
+   "spec_version": "3.1.2",
+   "spec_title": "Sales Tax Calculator API",
+   "path_count": 9
+  },
+  {
+   "name": "Seiche",
+   "category": "finance",
+   "type": "API",
+   "website": "https://seiche.info/developers",
+   "spec_url": "https://api.seiche.info/api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Seiche Public API",
+   "path_count": 27
+  },
+  {
+   "name": "TaxID",
+   "category": "finance",
+   "type": "API",
+   "website": "https://www.taxid.dev/docs",
+   "spec_url": "https://www.taxid.dev/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "TaxID VAT Validation API",
+   "path_count": 6
+  },
+  {
+   "name": "TickerInside",
+   "category": "finance",
+   "type": "API",
+   "website": "https://tickerinside.com/api/",
+   "spec_url": "https://tickerinside.com/api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "TickerInside API",
+   "path_count": 32
+  },
+  {
+   "name": "TickerLayer",
+   "category": "finance",
+   "type": "API",
+   "website": "https://tickerlayer.com",
+   "spec_url": "https://tickerlayer.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "TickerLayer Market Data API",
+   "path_count": 65
+  },
+  {
+   "name": "Top 5 Stocks",
+   "category": "finance",
+   "type": "API",
+   "website": "https://top5stocks.netlify.app/developers",
+   "spec_url": "https://top5stocks.netlify.app/api/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Top 5 Stocks API",
+   "path_count": 11
+  },
+  {
+   "name": "Undertow",
+   "category": "finance",
+   "type": "API",
+   "website": "https://liquilens-undertow.com/developers",
+   "spec_url": "https://api.seiche.info/undertow/x402/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Undertow Attested Feed API",
+   "path_count": 10
+  },
+  {
+   "name": "US Mortgage Calculator",
+   "category": "finance",
+   "type": "API",
+   "website": "https://www.usmortgagecalc.com/developers/api",
+   "spec_url": "https://www.usmortgagecalc.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "US Mortgage Calculator API",
+   "path_count": 16
+  },
+  {
+   "name": "Xero Assets API",
+   "category": "finance",
+   "type": "API",
+   "website": "https://developer.xero.com",
+   "spec_url": "https://api.apis.guru/v2/specs/xero.com/xero_assets/2.9.4/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "Xero Assets API",
+   "path_count": 4
+  },
+  {
+   "name": "XFINLAB",
+   "category": "finance",
+   "type": "API",
+   "website": "https://www.xfinlab.com/intelligence-api.html",
+   "spec_url": "https://api.xfinlab.com/api/intelligence/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "XFINLAB Intelligence API",
+   "path_count": 33
+  },
+  {
+   "name": "XOOMAR",
+   "category": "finance",
+   "type": "API",
+   "website": "https://xoomar.com/markets/api",
+   "spec_url": "https://xoomar.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "XOOMAR market data API",
+   "path_count": 44
+  },
+  {
+   "name": "CalorieNinjas",
+   "category": "food-nutrition",
+   "type": "API",
+   "website": "https://calorieninjas.com/api",
+   "spec_url": "https://api.apis.guru/v2/specs/calorieninjas.com/1.0.0/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "CalorieNinjas",
+   "path_count": 1
+  },
+  {
+   "name": "DoughMatrix",
+   "category": "food-nutrition",
+   "type": "API",
+   "website": "https://www.doughmatrix.com/",
+   "spec_url": "https://www.doughmatrix.com/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "DoughMatrix API",
+   "path_count": 5
+  },
+  {
+   "name": "ExactCup",
+   "category": "food-nutrition",
+   "type": "API",
+   "website": "https://exactcup.github.io/api",
+   "spec_url": "https://exactcup.github.io/api/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "ExactCup Ingredient Density API",
+   "path_count": 5
+  },
+  {
+   "name": "Food Info",
+   "category": "food-nutrition",
+   "type": "API",
+   "website": "https://food-info.org/developer",
+   "spec_url": "https://api.food-info.org/api/v1/openapi.json",
+   "spec_version": "3.0.4",
+   "spec_title": "Food Info",
+   "path_count": 8
+  },
+  {
+   "name": "IndiaRestros",
+   "category": "food-nutrition",
+   "type": "API",
+   "website": "https://indiarestros.com/api/docs",
+   "spec_url": "https://indiarestros.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "IndiaRestros API",
+   "path_count": 8
+  },
+  {
+   "name": "Tiny Plates",
+   "category": "food-nutrition",
+   "type": "API",
+   "website": "https://www.tinyplates.dev/docs",
+   "spec_url": "https://api.tinyplates.dev/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Tiny Plates API",
+   "path_count": 12
+  },
+  {
+   "name": "Astroworld",
+   "category": "games",
+   "type": "API",
+   "website": "https://api.astroworldmc.com",
+   "spec_url": "https://api.astroworldmc.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Astroworld Public Minecraft Data API",
+   "path_count": 18
+  },
+  {
+   "name": "Battle.net",
+   "category": "games",
+   "type": "API",
+   "website": "https://community.developer.battle.net/documentation/guides/getting-started",
+   "spec_url": "https://community.developer.battle.net/v3/api-docs",
+   "spec_version": "3.0.1",
+   "spec_title": "OpenAPI definition",
+   "path_count": 1
+  },
+  {
+   "name": "Final Fantasy XIV",
+   "category": "games",
+   "type": "API",
+   "website": "https://v2.xivapi.com/",
+   "spec_url": "https://v2.xivapi.com/api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "boilmaster",
+   "path_count": 7
+  },
+  {
+   "name": "GZW Data",
+   "category": "games",
+   "type": "API",
+   "website": "https://gzw-data.dev/docs/",
+   "spec_url": "https://gzw-data.dev/api/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "GZW Data API",
+   "path_count": 432
+  },
+  {
+   "name": "L2 Calendar",
+   "category": "games",
+   "type": "API",
+   "website": "https://l2calendar.com/api/servers",
+   "spec_url": "https://l2calendar.com/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "L2 Calendar API",
+   "path_count": 2
+  },
+  {
+   "name": "Master Setter",
+   "category": "games",
+   "type": "API",
+   "website": "https://api.master-setter.com",
+   "spec_url": "https://api.master-setter.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Master Setter Pokémon TCG Catalog API",
+   "path_count": 4
+  },
+  {
+   "name": "Raider",
+   "category": "games",
+   "type": "API",
+   "website": "https://raider.io/api",
+   "spec_url": "https://raider.io/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "Raider.IO Developer API",
+   "path_count": 43
+  },
+  {
+   "name": "Social Casino Index",
+   "category": "games",
+   "type": "API",
+   "website": "https://socialcasinoindex.com/data",
+   "spec_url": "https://socialcasinoindex.com/api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Social Casino Index API",
+   "path_count": 1
+  },
+  {
+   "name": "SteamGPT",
+   "category": "games",
+   "type": "API",
+   "website": "https://steamgpt.net",
+   "spec_url": "https://steamgpt.net/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "SteamGPT API",
+   "path_count": 11
+  },
+  {
+   "name": "TickerMint",
+   "category": "games",
+   "type": "API",
+   "website": "https://tickermint.cards/developers",
+   "spec_url": "https://api.tickermint.cards/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "TickerMint API",
+   "path_count": 37
+  },
+  {
+   "name": "weBump",
+   "category": "games",
+   "type": "API",
+   "website": "https://developer.webump.app",
+   "spec_url": "https://developer.webump.app/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "weBump Platform API preview",
+   "path_count": 27
+  },
+  {
+   "name": "xkcd",
+   "category": "games",
+   "type": "API",
+   "website": "https://xkcd.com/json.html",
+   "spec_url": "https://api.apis.guru/v2/specs/xkcd.com/1.0.0/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "XKCD",
+   "path_count": 2
+  },
+  {
+   "name": "ApogeoAPI",
+   "category": "geospatial",
+   "type": "API",
+   "website": "https://apogeoapi.com",
+   "spec_url": "https://apogeoapi.com/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "ApogeoAPI",
+   "path_count": 44
+  },
+  {
+   "name": "AtlasFetch",
+   "category": "geospatial",
+   "type": "API",
+   "website": "https://atlasfetch.xyz/docs",
+   "spec_url": "https://atlasfetch.xyz/api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "AtlasFetch",
+   "path_count": 17
+  },
+  {
+   "name": "Country",
+   "category": "geospatial",
+   "type": "API",
+   "website": "https://country.is/",
+   "spec_url": "https://api.country.is/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Country",
+   "path_count": 3
+  },
+  {
+   "name": "HackMyIP",
+   "category": "geospatial",
+   "type": "API",
+   "website": "https://hackmyip.com/api",
+   "spec_url": "https://hackmyip.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "HackMyIP Privacy API",
+   "path_count": 10
+  },
+  {
+   "name": "IP Geolocation",
+   "category": "geospatial",
+   "type": "API",
+   "website": "https://www.abstractapi.com/api/ip-geolocation-api",
+   "spec_url": "https://api.apis.guru/v2/specs/abstractapi.com/geolocation/1.0.0/openapi.json",
+   "spec_version": "3.0.1",
+   "spec_title": "IP geolocation API",
+   "path_count": 1
+  },
+  {
+   "name": "IP-API.io",
+   "category": "geospatial",
+   "type": "API",
+   "website": "https://ip-api.io",
+   "spec_url": "https://ip-api.io/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "IP-API.io - IP Geolocation & Security API",
+   "path_count": 24
+  },
+  {
+   "name": "ip2geo.dev",
+   "category": "geospatial",
+   "type": "API",
+   "website": "https://ip2geo.dev",
+   "spec_url": "https://ip2geo.dev/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Ip2Geo API",
+   "path_count": 3
+  },
+  {
+   "name": "IP99",
+   "category": "geospatial",
+   "type": "API",
+   "website": "https://ip99.com/api",
+   "spec_url": "https://ip99.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "IP99 IP risk and geolocation API",
+   "path_count": 3
+  },
+  {
+   "name": "Kiprio UK Postcode",
+   "category": "geospatial",
+   "type": "API",
+   "website": "https://kiprio.com/v1/postcode",
+   "spec_url": "https://kiprio.com/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Kiprio API",
+   "path_count": 12
+  },
+  {
+   "name": "LatLng",
+   "category": "geospatial",
+   "type": "API",
+   "website": "https://www.latlng.work/docs",
+   "spec_url": "https://www.latlng.work/openapi.yaml",
+   "spec_version": "3.0.3",
+   "spec_title": "LatLng API",
+   "path_count": 9
+  },
+  {
+   "name": "LocationIQ",
+   "category": "geospatial",
+   "type": "API",
+   "website": "https://docs.locationiq.com/docs/introduction",
+   "spec_url": "https://docs.locationiq.com/openapi.yaml",
+   "spec_version": "3.0.0",
+   "spec_title": "LocationIQ - API reference",
+   "path_count": 14
+  },
+  {
+   "name": "Locio",
+   "category": "geospatial",
+   "type": "API",
+   "website": "https://locio.com.au/docs",
+   "spec_url": "https://api.locio.com.au/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Locio API",
+   "path_count": 9
+  },
+  {
+   "name": "Moradas",
+   "category": "geospatial",
+   "type": "API",
+   "website": "https://moradas.dev/docs",
+   "spec_url": "https://moradas.dev/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Moradas API",
+   "path_count": 7
+  },
+  {
+   "name": "Network Data Labs",
+   "category": "geospatial",
+   "type": "API",
+   "website": "https://www.networkdatalabs.com/docs",
+   "spec_url": "https://www.networkdatalabs.com/openapi.yaml",
+   "spec_version": "3.1.0",
+   "spec_title": "Network Data Labs API",
+   "path_count": 6
+  },
+  {
+   "name": "OpenCage",
+   "category": "geospatial",
+   "type": "API",
+   "website": "https://opencagedata.com",
+   "spec_url": "https://opencagedata.com/openapi.yaml",
+   "spec_version": "3.2.0",
+   "spec_title": "OpenCage Geocoding API",
+   "path_count": 4
+  },
+  {
+   "name": "ParcelGPS",
+   "category": "geospatial",
+   "type": "API",
+   "website": "https://www.parcelgps.com/en/developers",
+   "spec_url": "https://api.parcelgps.com/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Parcel GPS API",
+   "path_count": 25
+  },
+  {
+   "name": "PontoFato",
+   "category": "geospatial",
+   "type": "API",
+   "website": "https://pontofato.com/api",
+   "spec_url": "https://pontofato.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "PontoFato",
+   "path_count": 74
+  },
+  {
+   "name": "PostalCodeCheck",
+   "category": "geospatial",
+   "type": "API",
+   "website": "https://postalcodecheck.com/postal-code-api",
+   "spec_url": "https://postalcodecheck.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "PostalCodeCheck Postal Code API",
+   "path_count": 2
+  },
+  {
+   "name": "PostalCodes",
+   "category": "geospatial",
+   "type": "API",
+   "website": "https://postalcodes.info/api",
+   "spec_url": "https://postalcodes.info/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "PostalCodes.info Postal Code Reference API",
+   "path_count": 5
+  },
+  {
+   "name": "Postcodes.io",
+   "category": "geospatial",
+   "type": "API",
+   "website": "https://postcodes.io",
+   "spec_url": "https://postcodes.io/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "API Reference - Postcodes.io",
+   "path_count": 10
+  },
+  {
+   "name": "REST Countries",
+   "category": "geospatial",
+   "type": "API",
+   "website": "https://restcountries.com",
+   "spec_url": "https://restcountries.com/rest-countries/static/helpers/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "REST Countries",
+   "path_count": 12
+  },
+  {
+   "name": "Storm Glass Marine Weather",
+   "category": "geospatial",
+   "type": "API",
+   "website": "https://stormglass.io",
+   "spec_url": "https://api.apis.guru/v2/specs/stormglass.io/1.0.1/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "Storm Glass Marine Weather",
+   "path_count": 1
+  },
+  {
+   "name": "Visual Crossing Weather API",
+   "category": "geospatial",
+   "type": "API",
+   "website": "https://www.visualcrossing.com/weather-api",
+   "spec_url": "https://api.apis.guru/v2/specs/visualcrossing.com/weather/4.6/openapi.json",
+   "spec_version": "3.0.1",
+   "spec_title": "Visual Crossing Weather API",
+   "path_count": 5
+  },
+  {
+   "name": "ZipCodeAPI",
+   "category": "geospatial",
+   "type": "API",
+   "website": "https://www.zipcodeapi.com",
+   "spec_url": "https://www.zipcodeapi.com/openapi.yaml",
+   "spec_version": "3.0.3",
+   "spec_title": "ZipCodeAPI",
+   "path_count": 12
+  },
+  {
+   "name": "Zornade",
+   "category": "geospatial",
+   "type": "API",
+   "website": "https://app.zornade.com/api",
+   "spec_url": "https://api.zornade.com/api/v2/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Zornade API v2",
+   "path_count": 10
+  },
+  {
+   "name": "AI Law Tracker",
+   "category": "government",
+   "type": "API",
+   "website": "https://ai-law-tracker.com/developers",
+   "spec_url": "https://ai-law-tracker.com/api/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "AI Law Tracker — Public Laws API",
+   "path_count": 49
+  },
+  {
+   "name": "apipj",
+   "category": "government",
+   "type": "API",
+   "website": "https://apipj.com.br/docs",
+   "spec_url": "https://apipj.com.br/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "apipj",
+   "path_count": 34
+  },
+  {
+   "name": "Ayes and Noes",
+   "category": "government",
+   "type": "API",
+   "website": "https://ayesandnoes.co.uk/developers",
+   "spec_url": "https://ayesandnoes.co.uk/api/v1/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Ayes & Noes — UK Parliament API",
+   "path_count": 9
+  },
+  {
+   "name": "Conversor IAE CNAE",
+   "category": "government",
+   "type": "API",
+   "website": "https://www.conversoriaecnae.es/api/v1/docs",
+   "spec_url": "https://www.conversoriaecnae.es/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Conversor IAE/CNAE API",
+   "path_count": 23
+  },
+  {
+   "name": "CPFHub",
+   "category": "government",
+   "type": "API",
+   "website": "https://www.cpfhub.io/",
+   "spec_url": "https://www.cpfhub.io/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "CPFHub.io API",
+   "path_count": 5
+  },
+  {
+   "name": "Disclosed Capitol",
+   "category": "government",
+   "type": "API",
+   "website": "https://www.disclosedcapitol.com/data-files/api",
+   "spec_url": "https://api.disclosedcapitol.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "DisclosedCapitol API",
+   "path_count": 339
+  },
+  {
+   "name": "Edgrapi",
+   "category": "government",
+   "type": "API",
+   "website": "https://edgrapi.com/docs",
+   "spec_url": "https://edgrapi.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Edgrapi — US Government Data API",
+   "path_count": 32
+  },
+  {
+   "name": "EditalMD",
+   "category": "government",
+   "type": "API",
+   "website": "https://editalmd.com/api",
+   "spec_url": "https://api.pontofato.com/enderecos/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Endereços e CEPs",
+   "path_count": 21
+  },
+  {
+   "name": "FDA Import Alert Screening",
+   "category": "government",
+   "type": "API",
+   "website": "https://aerviklabs.com/apis/fda-import-alerts",
+   "spec_url": "https://aerviklabs.com/openapi/fda-import-alerts.json",
+   "spec_version": "3.1.0",
+   "spec_title": "FDA Import Alert Screening",
+   "path_count": 3
+  },
+  {
+   "name": "gankdat",
+   "category": "government",
+   "type": "API",
+   "website": "https://gankdat.com/docs",
+   "spec_url": "https://gankdat.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "gankdat",
+   "path_count": 36
+  },
+  {
+   "name": "India LGD Index",
+   "category": "government",
+   "type": "API",
+   "website": "https://india-lgd-index-api.vercel.app/docs",
+   "spec_url": "https://india-lgd-index-api.vercel.app/openapi.json",
+   "spec_version": "3.1.1",
+   "spec_title": "India LGD Index API",
+   "path_count": 5
+  },
+  {
+   "name": "Interpol Red Notices",
+   "category": "government",
+   "type": "API",
+   "website": "https://interpol.api.bund.dev",
+   "spec_url": "https://interpol.api.bund.dev/openapi.yaml",
+   "spec_version": "3.0.0",
+   "spec_title": "Interpol Notices API",
+   "path_count": 9
+  },
+  {
+   "name": "MORVS",
+   "category": "government",
+   "type": "API",
+   "website": "https://morvs.ai/api",
+   "spec_url": "https://api.morvs.ai/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "MORVS — regulatory and public-data hub",
+   "path_count": 225
+  },
+  {
+   "name": "Open Government, Luxembourg",
+   "category": "government",
+   "type": "API",
+   "website": "https://data.public.lu/fr/",
+   "spec_url": "https://data.public.lu/api/1/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "uData API",
+   "path_count": 139
+  },
+  {
+   "name": "Radar CNPJ",
+   "category": "government",
+   "type": "API",
+   "website": "https://radar-cnpj.com/api",
+   "spec_url": "https://radar-cnpj.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Radar CNPJ",
+   "path_count": 92
+  },
+  {
+   "name": "Spatial India",
+   "category": "government",
+   "type": "API",
+   "website": "https://api.spatialindia.com",
+   "spec_url": "https://api.spatialindia.com/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Spatial India Data API",
+   "path_count": 5
+  },
+  {
+   "name": "Tollmint",
+   "category": "government",
+   "type": "API",
+   "website": "https://api.tollmint.com",
+   "spec_url": "https://api.tollmint.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Tollmint",
+   "path_count": 22
+  },
+  {
+   "name": "Travel Risk",
+   "category": "government",
+   "type": "API",
+   "website": "https://travelriskapi.com/docs",
+   "spec_url": "https://api.travelriskapi.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Travel Risk API",
+   "path_count": 20
+  },
+  {
+   "name": "Cure Cancer With AI",
+   "category": "health-medical",
+   "type": "API",
+   "website": "https://www.curecancerwithai.com/developers",
+   "spec_url": "https://www.curecancerwithai.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Cure Cancer With AI — Public API",
+   "path_count": 14
+  },
+  {
+   "name": "DeepDNA",
+   "category": "health-medical",
+   "type": "API",
+   "website": "https://deepdna.ai/docs",
+   "spec_url": "https://deepdna.ai/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "DeepDNA API",
+   "path_count": 6
+  },
+  {
+   "name": "Infermedica",
+   "category": "health-medical",
+   "type": "API",
+   "website": "https://developer.infermedica.com/documentation/overview/",
+   "spec_url": "https://api.apis.guru/v2/specs/infermedica.com/v2/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "Infermedica API",
+   "path_count": 20
+  },
+  {
+   "name": "Longevity World Cup",
+   "category": "health-medical",
+   "type": "API",
+   "website": "https://longevityworldcup.com/api/data/athletes",
+   "spec_url": "https://longevityworldcup.com/swagger/v1/swagger.json",
+   "spec_version": "3.0.4",
+   "spec_title": "Longevity World Cup Public API",
+   "path_count": 7
+  },
+  {
+   "name": "Peptide Library",
+   "category": "health-medical",
+   "type": "API",
+   "website": "https://peptidelibrary.app/developers/docs",
+   "spec_url": "https://api.peptidelibrary.app/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Peptide Library API",
+   "path_count": 31
+  },
+  {
+   "name": "Stanza DSCSA Verifier",
+   "category": "health-medical",
+   "type": "API",
+   "website": "https://stanzaapi.com/tools/pharma-dscsa",
+   "spec_url": "https://stanzaapi.com/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "StanzaAPI Enterprise Developer Platform Unified API",
+   "path_count": 33
+  },
+  {
+   "name": "Stanza UDI Decoder",
+   "category": "health-medical",
+   "type": "API",
+   "website": "https://stanzaapi.com/tools/udi-decoder",
+   "spec_url": "https://stanzaapi.com/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "StanzaAPI Enterprise Developer Platform Unified API",
+   "path_count": 33
+  },
+  {
+   "name": "ATTOM Data",
+   "category": "housing-real-estate",
+   "type": "API",
+   "website": "https://www.attomdata.com/",
+   "spec_url": "https://api.developer.attomdata.com/swagger/spec/propertyapi_property.json",
+   "spec_version": "2.0",
+   "spec_title": null,
+   "path_count": 7
+  },
+  {
+   "name": "HouseCanary",
+   "category": "housing-real-estate",
+   "type": "API",
+   "website": "https://www.housecanary.com/",
+   "spec_url": "https://api-docs.housecanary.com/builds/1279/openapi.yaml",
+   "spec_version": "3.0.0",
+   "spec_title": "HouseCanary Analytics And Portfolio Monitoring APIs",
+   "path_count": 9,
+   "truncated": true
+  },
+  {
+   "name": "1Password Connect",
+   "category": "identity-security",
+   "type": "API",
+   "website": "https://support.1password.com",
+   "spec_url": "https://api.apis.guru/v2/specs/1password.local/connect/1.5.7/openapi.json",
+   "spec_version": "3.0.2",
+   "spec_title": "1Password Connect",
+   "path_count": 11
+  },
+  {
+   "name": "Agent Verifier",
+   "category": "identity-security",
+   "type": "API",
+   "website": "https://packet.guru/agents/reference",
+   "spec_url": "https://packet.guru/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "packet.guru Agent Verifier API",
+   "path_count": 1
+  },
+  {
+   "name": "CyCAT.org API",
+   "category": "identity-security",
+   "type": "API",
+   "website": "https://cycat.org",
+   "spec_url": "https://api.apis.guru/v2/specs/cycat.org/0.9/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "CyCAT.org API",
+   "path_count": 14
+  },
+  {
+   "name": "dead-drop",
+   "category": "identity-security",
+   "type": "API",
+   "website": "https://api.dead-drop.xyz/api/v1/docs",
+   "spec_url": "https://api.dead-drop.xyz/api/v1/docs/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "dead-drop API v1",
+   "path_count": 9
+  },
+  {
+   "name": "Domain Intelligence",
+   "category": "identity-security",
+   "type": "API",
+   "website": "https://oti-labs.com/domain-intelligence-api",
+   "spec_url": "https://oti-labs.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Domain Intelligence API",
+   "path_count": 27
+  },
+  {
+   "name": "HaveIBeenPwned",
+   "category": "identity-security",
+   "type": "API",
+   "website": "https://haveibeenpwned.com/API/v3",
+   "spec_url": "https://haveibeenpwned.com/openapi.json",
+   "spec_version": "3.1.2",
+   "spec_title": "Have I Been Pwned API v3",
+   "path_count": 18
+  },
+  {
+   "name": "IPGuardian",
+   "category": "identity-security",
+   "type": "API",
+   "website": "https://ipguardian.net/docs",
+   "spec_url": "https://ipguardian.net/openapi.yaml",
+   "spec_version": "3.0.3",
+   "spec_title": "IPGuardian",
+   "path_count": 3
+  },
+  {
+   "name": "IPLogs",
+   "category": "identity-security",
+   "type": "API",
+   "website": "https://iplogs.com/docs",
+   "spec_url": "https://iplogs.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "IPLogs VPN and proxy detection API",
+   "path_count": 6
+  },
+  {
+   "name": "IPScanner",
+   "category": "identity-security",
+   "type": "API",
+   "website": "https://ipscanner.io/api-documentation",
+   "spec_url": "https://ipscanner.io/openapi.yaml",
+   "spec_version": "3.0.3",
+   "spec_title": "IPScanner API",
+   "path_count": 15
+  },
+  {
+   "name": "IPWhois.net Blacklist",
+   "category": "identity-security",
+   "type": "API",
+   "website": "https://ipwhois.net/blacklist/docs",
+   "spec_url": "https://ipwhois.net/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "IPWhois.net API",
+   "path_count": 8
+  },
+  {
+   "name": "isMalicious",
+   "category": "identity-security",
+   "type": "API",
+   "website": "https://ismalicious.com/api-docs",
+   "spec_url": "https://api.ismalicious.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "isMalicious - Threat Intelligence API",
+   "path_count": 77
+  },
+  {
+   "name": "Maskbreak",
+   "category": "identity-security",
+   "type": "API",
+   "website": "https://maskbreak.com/api",
+   "spec_url": "https://maskbreak.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Maskbreak Fraud Detection API",
+   "path_count": 11
+  },
+  {
+   "name": "Neetix Liveliness",
+   "category": "identity-security",
+   "type": "API",
+   "website": "https://liveliness.neetix.in/api-reference",
+   "spec_url": "https://liveliness.neetix.in/openapi.yaml",
+   "spec_version": "3.1.0",
+   "spec_title": "Neetix Liveliness API",
+   "path_count": 63
+  },
+  {
+   "name": "OSV",
+   "category": "identity-security",
+   "type": "API",
+   "website": "https://google.github.io/osv.dev/api",
+   "spec_url": "https://osv.dev/docs/osv_service_v1.swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "OSV",
+   "path_count": 6
+  },
+  {
+   "name": "Presend",
+   "category": "identity-security",
+   "type": "API",
+   "website": "https://presend.pages.dev/api",
+   "spec_url": "https://presend.pages.dev/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Presend API",
+   "path_count": 48
+  },
+  {
+   "name": "RealBots",
+   "category": "identity-security",
+   "type": "API",
+   "website": "https://aibots.kaderagha.com/api-docs",
+   "spec_url": "https://aibots.kaderagha.com/data/v1/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "BotLedger – AI bot verification API",
+   "path_count": 3
+  },
+  {
+   "name": "ScanMalware",
+   "category": "identity-security",
+   "type": "API",
+   "website": "https://scanmalware.com",
+   "spec_url": "https://scanmalware.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "ScanMalware API",
+   "path_count": 234
+  },
+  {
+   "name": "Sealed Rose",
+   "category": "identity-security",
+   "type": "API",
+   "website": "https://sealedrose.com/verify-video",
+   "spec_url": "https://sealedrose.com/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Sealed Rose — AI Media Forensics & Deepfake Detection API",
+   "path_count": 5
+  },
+  {
+   "name": "Shodan",
+   "category": "identity-security",
+   "type": "API",
+   "website": "https://developer.shodan.io",
+   "spec_url": "https://developer.shodan.io/api/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "Shodan REST API Documentation",
+   "path_count": 37
+  },
+  {
+   "name": "ThreatCluster",
+   "category": "identity-security",
+   "type": "API",
+   "website": "https://threatcluster.io/api/public/v1/docs",
+   "spec_url": "https://threatcluster.io/api/public/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "ThreatCluster Public API",
+   "path_count": 62
+  },
+  {
+   "name": "VPNDetection",
+   "category": "identity-security",
+   "type": "API",
+   "website": "https://docs.vpndetection.io/api",
+   "spec_url": "https://s3.vpndetection.io/vpndetection-public/openapi/openapi.yaml",
+   "spec_version": "3.0.3",
+   "spec_title": "VPNDetection API",
+   "path_count": 22
+  },
+  {
+   "name": "ClearBlade API",
+   "category": "iot",
+   "type": "API",
+   "website": "https://www.clearblade.com/",
+   "spec_url": "https://api.apis.guru/v2/specs/clearblade.com/3.0/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "ClearBlade API",
+   "path_count": 133
+  },
+  {
+   "name": "AI Dev Jobs",
+   "category": "jobs-hr",
+   "type": "API",
+   "website": "https://aidevboard.com/openapi.yaml",
+   "spec_url": "https://aidevboard.com/openapi.yaml",
+   "spec_version": "3.0.3",
+   "spec_title": "AI Dev Jobs API",
+   "path_count": 25
+  },
+  {
+   "name": "AI Trainer Work",
+   "category": "jobs-hr",
+   "type": "API",
+   "website": "https://aitrainer.work/open-data#api",
+   "spec_url": "https://aitrainer.work/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "aitrainer.work Jobs API",
+   "path_count": 3
+  },
+  {
+   "name": "Arbeitsamt",
+   "category": "jobs-hr",
+   "type": "API",
+   "website": "https://jobsuche.api.bund.dev",
+   "spec_url": "https://jobsuche.api.bund.dev/openapi.yaml",
+   "spec_version": "3.0.0",
+   "spec_title": "Arbeitsagentur Jobsuche API",
+   "path_count": 5
+  },
+  {
+   "name": "Artificial Intelligence Jobs",
+   "category": "jobs-hr",
+   "type": "API",
+   "website": "https://artificialintelligencejobs.co/developers",
+   "spec_url": "https://artificialintelligencejobs.co/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "Artificial Intelligence Jobs API",
+   "path_count": 1
+  },
+  {
+   "name": "CuratorSearch",
+   "category": "jobs-hr",
+   "type": "API",
+   "website": "https://curatorsearch.com/developers",
+   "spec_url": "https://curatorsearch.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "CuratorSearch",
+   "path_count": 3
+  },
+  {
+   "name": "freehire",
+   "category": "jobs-hr",
+   "type": "API",
+   "website": "https://freehire.me/docs/api",
+   "spec_url": "https://freehire.me/openapi.yaml",
+   "spec_version": "3.0.3",
+   "spec_title": "freehire public API",
+   "path_count": 12
+  },
+  {
+   "name": "HireLayer",
+   "category": "jobs-hr",
+   "type": "API",
+   "website": "https://hirelayer.co/api-docs",
+   "spec_url": "https://hirelayer.co/openapi.yaml",
+   "spec_version": "3.1.0",
+   "spec_title": "HireLayer API",
+   "path_count": 21
+  },
+  {
+   "name": "Job Opportunities",
+   "category": "jobs-hr",
+   "type": "API",
+   "website": "https://jobopportunitiesapi.org/docs",
+   "spec_url": "https://jobopportunitiesapi.org/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Job Opportunities API",
+   "path_count": 20
+  },
+  {
+   "name": "Present of AI",
+   "category": "jobs-hr",
+   "type": "API",
+   "website": "https://presentofai.com/developers",
+   "spec_url": "https://presentofai.com/api/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Present of AI public API",
+   "path_count": 7
+  },
+  {
+   "name": "Techmap",
+   "category": "jobs-hr",
+   "type": "API",
+   "website": "https://api.techmap.io/jobs-api",
+   "spec_url": "https://api.techmap.io/techmap-jobs_v2_openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "Techmap's Job Postings API",
+   "path_count": 4
+  },
+  {
+   "name": "GovInfo",
+   "category": "legal",
+   "type": "API",
+   "website": "https://api.govinfo.gov/docs/",
+   "spec_url": "https://api.govinfo.gov/api-docs",
+   "spec_version": "3.0.1",
+   "spec_title": "GovInfo API",
+   "path_count": 11
+  },
+  {
+   "name": "AirportMiles",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://airportmiles.com/api",
+   "spec_url": "https://airportmiles.com/api/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "AirportMiles API",
+   "path_count": 6
+  },
+  {
+   "name": "airportsapi",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://airport-web.appspot.com/api/docs/",
+   "spec_url": "https://airport-web.appspot.com/api/docs/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "airportsapi",
+   "path_count": 1
+  },
+  {
+   "name": "Aviation Safety Data",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://himaxym.com/developers",
+   "spec_url": "https://himaxym.com/api/v1/data/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "FlightFinder Aviation Safety Data API",
+   "path_count": 17
+  },
+  {
+   "name": "Bike Reliability",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://bikereliability.co.uk/developers",
+   "spec_url": "https://bikereliability.co.uk/api/v1/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Bike Reliability | UK Motorcycle MOT Reliability API",
+   "path_count": 3
+  },
+  {
+   "name": "Can I enter",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://canienter.com",
+   "spec_url": "https://canienter.com/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Can I enter? API",
+   "path_count": 8
+  },
+  {
+   "name": "CarSpecs",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://carspecsapi.com/docs",
+   "spec_url": "https://carspecsapi.com/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "CarSpecsAPI",
+   "path_count": 7
+  },
+  {
+   "name": "ChargeAlong",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://chargealong.io/docs",
+   "spec_url": "https://api.chargealong.io/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "ChargeAlong API",
+   "path_count": 17
+  },
+  {
+   "name": "Cruise Itinerary",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://cruise-itinerary.com/docs",
+   "spec_url": "https://cruise-itinerary.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Cruise Itinerary Data API",
+   "path_count": 23
+  },
+  {
+   "name": "Dealer",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://mercedes-benz.com",
+   "spec_url": "https://api.apis.guru/v2/specs/mercedes-benz.com/dealer/1.0/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "Dealer",
+   "path_count": 3
+  },
+  {
+   "name": "Faretrotter Travel API",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://faretrotter.com",
+   "spec_url": "https://api.apis.guru/v2/specs/faretrotter.com/2.0/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "Faretrotter Travel API",
+   "path_count": 2
+  },
+  {
+   "name": "On va où ?",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://onvaou.app/developers/routing-api.html",
+   "spec_url": "https://onvaou.app/openapi/api-itineraires.yaml",
+   "spec_version": "3.1.0",
+   "spec_title": "On va où ? Routing API",
+   "path_count": 3
+  },
+  {
+   "name": "OpenVan",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://openvan.camp/docs",
+   "spec_url": "https://openvan.camp/.well-known/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "OpenVan.camp AI Public API",
+   "path_count": 51
+  },
+  {
+   "name": "Orizn Visa",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://visa.orizn.app",
+   "spec_url": "https://visa.orizn.app/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Orizn Visa API",
+   "path_count": 25
+  },
+  {
+   "name": "Railworks",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://railworks.paddez.com/docs",
+   "spec_url": "https://railworks.paddez.com/v1/openapi.yaml",
+   "spec_version": "3.1.0",
+   "spec_title": "railworks",
+   "path_count": 17
+  },
+  {
+   "name": "REFUGE Restrooms",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://www.refugerestrooms.org/api/docs",
+   "spec_url": "https://api.apis.guru/v2/specs/refugerestrooms.org/0.0.1/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "Refuge Restrooms API",
+   "path_count": 4
+  },
+  {
+   "name": "Road511",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://road511.com/docs.html",
+   "spec_url": "https://road511.com/openapi.yaml",
+   "spec_version": "3.1.0",
+   "spec_title": "Road511 Traffic API",
+   "path_count": 50
+  },
+  {
+   "name": "SMKlog",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://smklog.com/openapi.json",
+   "spec_url": "https://smklog.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "SMKlog Quote API",
+   "path_count": 4
+  },
+  {
+   "name": "Stadiq",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://stadiq.app/developers",
+   "spec_url": "https://stadiq.app/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Stadiq API",
+   "path_count": 5
+  },
+  {
+   "name": "Tankerkoenig",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://creativecommons.tankerkoenig.de/swagger",
+   "spec_url": "https://creativecommons.tankerkoenig.de/swagger/tankerkoenig.yaml",
+   "spec_version": "3.0.3",
+   "spec_title": "Tankerkönig API",
+   "path_count": 5
+  },
+  {
+   "name": "TransCAPI",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://www.transcapi.com/docs",
+   "spec_url": "https://api.transcapi.com/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "TransCAPI",
+   "path_count": 26
+  },
+  {
+   "name": "TransparentCars",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://transparent.pt/en/api",
+   "spec_url": "https://transparent.pt/openapi.yaml",
+   "spec_version": "3.1.0",
+   "spec_title": "TransparentCars Public API",
+   "path_count": 6
+  },
+  {
+   "name": "Transport for Hessen, Germany",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://www.rmv.de/s/de/rmv-open-data",
+   "spec_url": "https://www.rmv.de/v3/api-docs",
+   "spec_version": "3.1.0",
+   "spec_title": "OpenAPI definition",
+   "path_count": 2
+  },
+  {
+   "name": "Transport for Los Angeles, US",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://api.metro.net/",
+   "spec_url": "https://api.metro.net/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "FastAPI",
+   "path_count": 31
+  },
+  {
+   "name": "Travel Risk Aviation",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://api.travelriskapi.com/ext/reference",
+   "spec_url": "https://api.travelriskapi.com/ext/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Travel Risk API — Aviation",
+   "path_count": 38
+  },
+  {
+   "name": "Where to Credit API",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://wheretocredit.com/de",
+   "spec_url": "https://api.apis.guru/v2/specs/wheretocredit.com/1.0/openapi.json",
+   "spec_version": "3.0.1",
+   "spec_title": "Where to Credit API",
+   "path_count": 2
+  },
+  {
+   "name": "WhichTrim",
+   "category": "logistics-transportation",
+   "type": "API",
+   "website": "https://whichtrim.com/developers",
+   "spec_url": "https://whichtrim.com/openapi.yaml",
+   "spec_version": "3.0.3",
+   "spec_title": "WhichTrim Vehicle Data API",
+   "path_count": 16
+  },
+  {
+   "name": "FastSocial Instagram Data",
+   "category": "marketing-social",
+   "type": "API",
+   "website": "https://fastsocial.co/instagram-api/docs",
+   "spec_url": "https://fastsocial.co/instagram-api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "FastSocial Instagram Data API",
+   "path_count": 28
+  },
+  {
+   "name": "Native Ads Publisher API",
+   "category": "marketing-social",
+   "type": "API",
+   "website": "https://nativeads.com",
+   "spec_url": "https://api.apis.guru/v2/specs/nativeads.com/1.0.0/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "Native Ads Publisher API",
+   "path_count": 4
+  },
+  {
+   "name": "PostLake",
+   "category": "marketing-social",
+   "type": "API",
+   "website": "https://docs.postlake.dev/",
+   "spec_url": "https://docs.postlake.dev/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "PostLake API",
+   "path_count": 83
+  },
+  {
+   "name": "Publora",
+   "category": "marketing-social",
+   "type": "API",
+   "website": "https://docs.publora.com/getting-started",
+   "spec_url": "https://docs.publora.com/openapi.yaml",
+   "spec_version": "3.0.3",
+   "spec_title": "Publora API",
+   "path_count": 44
+  },
+  {
+   "name": "SwarmMemo",
+   "category": "marketing-social",
+   "type": "API",
+   "website": "https://swarmmemo.com/protocol.md",
+   "spec_url": "https://swarmmemo.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "SwarmMemo",
+   "path_count": 127
+  },
+  {
+   "name": "Trash Nothing",
+   "category": "marketing-social",
+   "type": "API",
+   "website": "https://trashnothing.com/developer",
+   "spec_url": "https://trashnothing.com/api/v1.4/trashnothing-openapi.yaml",
+   "spec_version": "2.0",
+   "spec_title": "Trash Nothing",
+   "path_count": 12
+  },
+  {
+   "name": "TrendsMCP",
+   "category": "marketing-social",
+   "type": "API",
+   "website": "https://www.trendsmcp.ai/docs",
+   "spec_url": "https://www.trendsmcp.ai/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "TrendsMCP API",
+   "path_count": 1
+  },
+  {
+   "name": "TwittrAPI",
+   "category": "marketing-social",
+   "type": "API",
+   "website": "https://www.twittrapi.com/docs",
+   "spec_url": "https://www.twittrapi.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "TwittrAPI API",
+   "path_count": 112
+  },
+  {
+   "name": "xfetch",
+   "category": "marketing-social",
+   "type": "API",
+   "website": "https://xfetch.io",
+   "spec_url": "https://xfetch.io/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "xfetch Public API",
+   "path_count": 45
+  },
+  {
+   "name": "zbMATH Open",
+   "category": "mathematics",
+   "type": "API",
+   "website": "https://api.zbmath.org/",
+   "spec_url": "https://api.zbmath.org/v1/openapi.json",
+   "spec_version": "3.0.2",
+   "spec_title": "REST API for zbMATH Open (v1)",
+   "path_count": 20
+  },
+  {
+   "name": "NewsData",
+   "category": "news-journalism",
+   "type": "API",
+   "website": "https://newsdata.io/documentation",
+   "spec_url": "https://newsdata.io/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "NewsData.io API",
+   "path_count": 12
+  },
+  {
+   "name": "Noozra",
+   "category": "news-journalism",
+   "type": "API",
+   "website": "https://noozra.com/api",
+   "spec_url": "https://noozra.com/api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Noozra API",
+   "path_count": 26
+  },
+  {
+   "name": "10ML Fragrance Index",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://mcp.10ml.com/openapi.json",
+   "spec_url": "https://mcp.10ml.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "10ML Fragrance Index API",
+   "path_count": 8
+  },
+  {
+   "name": "49 Gallery Historical Data",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://api.181649.com/docs",
+   "spec_url": "https://api.181649.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "49API",
+   "path_count": 4
+  },
+  {
+   "name": "APIllow",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://apillow.co/docs.html",
+   "spec_url": "https://apillow.co/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Zillow Property Data",
+   "path_count": 3
+  },
+  {
+   "name": "Auregistre",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://auregistre.fr/api",
+   "spec_url": "https://auregistre.fr/api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Auregistre API",
+   "path_count": 8
+  },
+  {
+   "name": "Authorized Partner API Specification",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://www.digilocker.gov.in:443/",
+   "spec_url": "https://api.apis.guru/v2/specs/digitallocker.gov.in/authpartner/1.0.0/openapi.json",
+   "spec_version": "3.0.2",
+   "spec_title": "Authorized Partner API Specification",
+   "path_count": 22
+  },
+  {
+   "name": "Band Atlas",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://www.aiotrf.com/en/ai/band-atlas/developers",
+   "spec_url": "https://www.aiotrf.com/ai/band-atlas/api/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Band Atlas API",
+   "path_count": 4
+  },
+  {
+   "name": "Black History Facts",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://www.blackhistoryapi.io/docs",
+   "spec_url": "https://www.blackhistoryapi.io/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "Black History API",
+   "path_count": 6
+  },
+  {
+   "name": "BTU Graph",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://btugraph.com/data",
+   "spec_url": "https://btugraph.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "BTU Graph public data",
+   "path_count": 5
+  },
+  {
+   "name": "City Context",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://citycontext.com",
+   "spec_url": "https://api.apis.guru/v2/specs/citycontext.com/1.0.0/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "City Context",
+   "path_count": 3
+  },
+  {
+   "name": "City of Surrey Open511 API",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://opendata-surrey.hub.arcgis.com/",
+   "spec_url": "https://api.apis.guru/v2/specs/surrey.ca/open511/0.1/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "City of Surrey Open511 API",
+   "path_count": 4
+  },
+  {
+   "name": "CityAlert",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://cityalert.live/developers",
+   "spec_url": "https://cityalert.live/api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "CityAlert.live API",
+   "path_count": 12
+  },
+  {
+   "name": "Co-WIN Certificate API",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://www.cowin.gov.in",
+   "spec_url": "https://api.apis.guru/v2/specs/cowin.gov.cin/cowincert/1.0.0/openapi.json",
+   "spec_version": "3.0.1",
+   "spec_title": "Co-WIN Certificate API",
+   "path_count": 1
+  },
+  {
+   "name": "CollegeCalcAI",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://collegecalcai.com/developers",
+   "spec_url": "https://collegecalcai.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "CollegeCalcAI College Admissions API",
+   "path_count": 5
+  },
+  {
+   "name": "CoworkingView",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://coworkingview.com/en/api",
+   "spec_url": "https://coworkingview.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "CoworkingView API",
+   "path_count": 13
+  },
+  {
+   "name": "Edgepedia",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://www.edgechat.ai/developers",
+   "spec_url": "https://www.edgechat.ai/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Edgepedia API",
+   "path_count": 52
+  },
+  {
+   "name": "EOSL",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://eosl.ai/api",
+   "spec_url": "https://eosl.ai/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "EOSL.ai Hardware Lifecycle API",
+   "path_count": 6
+  },
+  {
+   "name": "Groundwater Wells, Aquifers and Registry API",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://www2.gov.bc.ca/gov/content/home",
+   "spec_url": "https://api.apis.guru/v2/specs/gov.bc.ca/gwells/v1/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "Groundwater Wells, Aquifers and Registry API",
+   "path_count": 27
+  },
+  {
+   "name": "HousingFeed",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://housingfeed.com/docs",
+   "spec_url": "https://housingfeed.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "HousingFeed rental listings",
+   "path_count": 2
+  },
+  {
+   "name": "i6eal Open AI Data",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://i6eal.de/en/tools/data",
+   "spec_url": "https://i6eal.de/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "i6eal Open AI Data API",
+   "path_count": 83
+  },
+  {
+   "name": "InfraNode",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://infranode.dev",
+   "spec_url": "https://infranode.dev/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "InfraNode API",
+   "path_count": 122
+  },
+  {
+   "name": "Kvartiry-Phuket",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://kvartiry-phuket.com/otkrytye-dannye",
+   "spec_url": "https://kvartiry-phuket.com/api/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Kvartiry-Phuket open data API",
+   "path_count": 20
+  },
+  {
+   "name": "LinkPreview",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://www.linkpreview.net",
+   "spec_url": "https://www.linkpreview.net/openapi.yaml",
+   "spec_version": "3.0.0",
+   "spec_title": "LinkPreview API",
+   "path_count": 1
+  },
+  {
+   "name": "LottoLens PH",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://remo65588-boop.github.io/lottolens-ph-public-data/api",
+   "spec_url": "https://remo65588-boop.github.io/lottolens-ph-public-data/api/openapi.yaml",
+   "spec_version": "3.1.0",
+   "spec_title": "LottoLens PH Public PCSO Data API",
+   "path_count": 3
+  },
+  {
+   "name": "Medcorder Nearby Doctor API",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://medcorder.com",
+   "spec_url": "https://api.apis.guru/v2/specs/medcorder.com/1.0.0/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "Medcorder Nearby Doctor API",
+   "path_count": 1
+  },
+  {
+   "name": "Microlink.io",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://microlink.io",
+   "spec_url": "https://microlink.io/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Microlink API",
+   "path_count": 1
+  },
+  {
+   "name": "MostExpensiveWatches",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://mostexpensivewatches.net/api",
+   "spec_url": "https://mostexpensivewatches.net/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "MostExpensiveWatches Public API",
+   "path_count": 44
+  },
+  {
+   "name": "Namedesk",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://namedesk.app/docs/api/stats",
+   "spec_url": "https://namedesk.app/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Namedesk API",
+   "path_count": 38
+  },
+  {
+   "name": "Open Scholarships",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://scholarships.grudged.io",
+   "spec_url": "https://scholarships.grudged.io/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Open Scholarships API",
+   "path_count": 9
+  },
+  {
+   "name": "OpenSanctions",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://www.opensanctions.org/docs/api",
+   "spec_url": "https://api.opensanctions.org/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "OpenSanctions API",
+   "path_count": 12
+  },
+  {
+   "name": "Pan Africa Data",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://panafricadata.com",
+   "spec_url": "https://panafricadata.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Pan Africa Data API",
+   "path_count": 35
+  },
+  {
+   "name": "PayCrunch",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://paycrunch.co/api.html",
+   "spec_url": "https://paycrunch.co/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "PayCrunch Salary API",
+   "path_count": 6
+  },
+  {
+   "name": "PublicDataHub",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://publicdatahub.org/api",
+   "spec_url": "https://publicdatahub.org/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "PublicDataHub export API",
+   "path_count": 9
+  },
+  {
+   "name": "Registrum",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://api.registrum.co.uk/docs",
+   "spec_url": "https://api.registrum.co.uk/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Registrum API",
+   "path_count": 24
+  },
+  {
+   "name": "SlashYear",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://slashyear.com/api",
+   "spec_url": "https://slashyear.com/api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "slashyear",
+   "path_count": 29
+  },
+  {
+   "name": "Statistics of the World",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://statisticsoftheworld.com/api-docs",
+   "spec_url": "https://statisticsoftheworld.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Statistics of the World API",
+   "path_count": 6
+  },
+  {
+   "name": "StatOrigin",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://statorigin.org/docs/api",
+   "spec_url": "https://statorigin.org/api/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "StatOrigin API",
+   "path_count": 17
+  },
+  {
+   "name": "TerraScoutX",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://terrascoutx.com/developers",
+   "spec_url": "https://terrascoutx.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "TerraScoutX Property API",
+   "path_count": 7
+  },
+  {
+   "name": "Tickerz",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://tickerz.com/docs",
+   "spec_url": "https://tickerz.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Tickerz API",
+   "path_count": 24
+  },
+  {
+   "name": "Tilth",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://www.tilth.uk/data",
+   "spec_url": "https://intelligence.tilth.uk/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Diligo Intelligence Hub API",
+   "path_count": 7
+  },
+  {
+   "name": "UK Parliament Search Service",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://www.parliament.uk",
+   "spec_url": "https://api.apis.guru/v2/specs/parliament.uk/search/Live/openapi.json",
+   "spec_version": "3.0.1",
+   "spec_title": "UK Parliament Search Service",
+   "path_count": 3
+  },
+  {
+   "name": "Umeå Open Data",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://opendata.umea.se/api-console/explore/v2.1/",
+   "spec_url": "https://opendata.umea.se/api/explore/v2.1/swagger.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Explore API",
+   "path_count": 16
+  },
+  {
+   "name": "Vuntum",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://vuntum.com/en/api-mcp",
+   "spec_url": "https://vuntum.com/api/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Vuntum API",
+   "path_count": 18
+  },
+  {
+   "name": "w14n",
+   "category": "open-data",
+   "type": "API",
+   "website": "https://api.w14n.dev/v1",
+   "spec_url": "https://api.w14n.dev/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "w14n.dev Open Data API",
+   "path_count": 4
+  },
+  {
+   "name": "Adyen Test Cards API",
+   "category": "payments",
+   "type": "API",
+   "website": "https://docs.adyen.com/development-resources/testing",
+   "spec_url": "https://api.apis.guru/v2/specs/adyen.com/TestCardService/1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Adyen Test Cards API",
+   "path_count": 1
+  },
+  {
+   "name": "Calendrier Tempo",
+   "category": "science-research",
+   "type": "API",
+   "website": "https://www.calendrier-tempo.fr/api-tempo",
+   "spec_url": "https://www.calendrier-tempo.fr/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "API Tempo EDF - Calendrier Tempo",
+   "path_count": 6
+  },
+  {
+   "name": "CycleCalcs",
+   "category": "science-research",
+   "type": "API",
+   "website": "https://www.cyclecalcs.com/api.html",
+   "spec_url": "https://www.cyclecalcs.com/v2/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "CycleCalcs Astronomy API",
+   "path_count": 31
+  },
+  {
+   "name": "iNaturalist",
+   "category": "science-research",
+   "type": "API",
+   "website": "https://api.inaturalist.org/v1/docs",
+   "spec_url": "https://api.inaturalist.org/v1/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "iNaturalist API",
+   "path_count": 86
+  },
+  {
+   "name": "Oliver's mTOR Atlas",
+   "category": "science-research",
+   "type": "API",
+   "website": "https://mtor-atlas.org/api",
+   "spec_url": "https://mtor-atlas.org/api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Oliver's mTOR Atlas API",
+   "path_count": 11
+  },
+  {
+   "name": "OrbitalWiki",
+   "category": "science-research",
+   "type": "API",
+   "website": "https://www.orbitalwiki.com/developers",
+   "spec_url": "https://www.orbitalwiki.com/api/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "OrbitalWiki API",
+   "path_count": 15
+  },
+  {
+   "name": "RCSB PDB",
+   "category": "science-research",
+   "type": "API",
+   "website": "https://data.rcsb.org",
+   "spec_url": "https://data.rcsb.org/v3/api-docs",
+   "spec_version": "3.0.1",
+   "spec_title": "RCSB PDB Data API",
+   "path_count": 40
+  },
+  {
+   "name": "SoilPoint",
+   "category": "science-research",
+   "type": "API",
+   "website": "https://soilpoint.dev/docs",
+   "spec_url": "https://soilpoint.dev/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "SoilPoint API",
+   "path_count": 1
+  },
+  {
+   "name": "Tallytopia",
+   "category": "science-research",
+   "type": "API",
+   "website": "https://tallytopia.com/api-docs",
+   "spec_url": "https://tallytopia.com/api/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Tallytopia Calculator API",
+   "path_count": 75
+  },
+  {
+   "name": "Owler",
+   "category": "search",
+   "type": "API",
+   "website": "https://owler.com",
+   "spec_url": "https://api.apis.guru/v2/specs/owler.com/1.0.0/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "Owler",
+   "path_count": 13
+  },
+  {
+   "name": "Tavily",
+   "category": "search",
+   "type": "API",
+   "website": "https://www.tavily.com/",
+   "spec_url": "https://docs.tavily.com/documentation/api-reference/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Tavily Search and Extract API",
+   "path_count": 10
+  },
+  {
+   "name": "5DollarFootball",
+   "category": "sports-fitness",
+   "type": "API",
+   "website": "https://5dollarfootballapi.com",
+   "spec_url": "https://5dollarfootballapi.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "5DollarFootballAPI — Football Data API",
+   "path_count": 16
+  },
+  {
+   "name": "AcesAPI",
+   "category": "sports-fitness",
+   "type": "API",
+   "website": "https://acesapi.com/docs",
+   "spec_url": "https://mcp.acesapi.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "AcesAPI API",
+   "path_count": 13
+  },
+  {
+   "name": "Ball Ranks",
+   "category": "sports-fitness",
+   "type": "API",
+   "website": "https://ballranks.com/developers",
+   "spec_url": "https://ballranks.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Ball Ranks API",
+   "path_count": 4
+  },
+  {
+   "name": "balldontlie",
+   "category": "sports-fitness",
+   "type": "API",
+   "website": "https://www.balldontlie.io",
+   "spec_url": "https://www.balldontlie.io/openapi.yml",
+   "spec_version": "3.1.0",
+   "spec_title": "BALLDONTLIE",
+   "path_count": 634
+  },
+  {
+   "name": "Bet Better",
+   "category": "sports-fitness",
+   "type": "API",
+   "website": "https://betbetter.world/api",
+   "spec_url": "https://betbetter.world/api/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Bet Better Free Sports Betting Model API",
+   "path_count": 6
+  },
+  {
+   "name": "BirdieAPI",
+   "category": "sports-fitness",
+   "type": "API",
+   "website": "https://birdieapi.com/docs",
+   "spec_url": "https://mcp.birdieapi.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "BirdieAPI API",
+   "path_count": 14
+  },
+  {
+   "name": "Cito UFC API",
+   "category": "sports-fitness",
+   "type": "API",
+   "website": "https://citoapi.com/ufc-api",
+   "spec_url": "https://citoapi.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Cito UFC API",
+   "path_count": 27
+  },
+  {
+   "name": "Cloudbet",
+   "category": "sports-fitness",
+   "type": "API",
+   "website": "https://www.cloudbet.com/api",
+   "spec_url": "https://www.cloudbet.com/api/swagger.yaml",
+   "spec_version": "3.0.1",
+   "spec_title": "Cloudbet Feed API",
+   "path_count": 7
+  },
+  {
+   "name": "DiscGolf",
+   "category": "sports-fitness",
+   "type": "API",
+   "website": "https://discgolfapi.com/docs",
+   "spec_url": "https://discgolfapi.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "DiscGolfAPI",
+   "path_count": 6
+  },
+  {
+   "name": "DunkAPI",
+   "category": "sports-fitness",
+   "type": "API",
+   "website": "https://dunkapi.com/docs",
+   "spec_url": "https://mcp.dunkapi.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "DunkAPI API",
+   "path_count": 19
+  },
+  {
+   "name": "FastballAPI",
+   "category": "sports-fitness",
+   "type": "API",
+   "website": "https://fastballapi.com/docs",
+   "spec_url": "https://mcp.fastballapi.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "FastballAPI API",
+   "path_count": 21
+  },
+  {
+   "name": "Football Leagues",
+   "category": "sports-fitness",
+   "type": "API",
+   "website": "https://football-api.yuvron.online/reference",
+   "spec_url": "https://football-api.yuvron.online/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Football API",
+   "path_count": 30
+  },
+  {
+   "name": "HaterPicks",
+   "category": "sports-fitness",
+   "type": "API",
+   "website": "https://www.haterpicks.app/api",
+   "spec_url": "https://www.haterpicks.app/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "HaterPicks API",
+   "path_count": 8
+  },
+  {
+   "name": "Lumify",
+   "category": "sports-fitness",
+   "type": "API",
+   "website": "https://lumify.ai/docs",
+   "spec_url": "https://lumify.ai/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Lumify Sports Intelligence API",
+   "path_count": 183
+  },
+  {
+   "name": "MoviOdds",
+   "category": "sports-fitness",
+   "type": "API",
+   "website": "https://moviodds.com/doc",
+   "spec_url": "https://moviodds.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "MoviOdds bet365 Odds API",
+   "path_count": 19
+  },
+  {
+   "name": "OpenFoot API",
+   "category": "sports-fitness",
+   "type": "API",
+   "website": "https://openfootapi.com/docs",
+   "spec_url": "https://openfootapi.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "OpenFoot API",
+   "path_count": 18
+  },
+  {
+   "name": "Parlay",
+   "category": "sports-fitness",
+   "type": "API",
+   "website": "https://parlay-api.com/docs",
+   "spec_url": "https://parlay-api.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "ParlayAPI",
+   "path_count": 214
+  },
+  {
+   "name": "PlayerElo",
+   "category": "sports-fitness",
+   "type": "API",
+   "website": "https://playerelo.football/api-access",
+   "spec_url": "https://data-api.playerelo.football/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "PlayerElo Public API",
+   "path_count": 35
+  },
+  {
+   "name": "PropLine",
+   "category": "sports-fitness",
+   "type": "API",
+   "website": "https://prop-line.com",
+   "spec_url": "https://prop-line.com/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "PropLine — Player Props & Sports Betting Odds API",
+   "path_count": 47
+  },
+  {
+   "name": "RacingHub",
+   "category": "sports-fitness",
+   "type": "API",
+   "website": "https://racinghub.net/api/v1/docs",
+   "spec_url": "https://racinghub.net/api/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "RacingHub API - Formula 1 Historical Data & Statistics",
+   "path_count": 24
+  },
+  {
+   "name": "Realtime Sports",
+   "category": "sports-fitness",
+   "type": "API",
+   "website": "https://www.realtimesportsapi.com/docs",
+   "spec_url": "https://www.realtimesportsapi.com/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Realtime Sports API",
+   "path_count": 46
+  },
+  {
+   "name": "SportScore",
+   "category": "sports-fitness",
+   "type": "API",
+   "website": "https://sportscore.com/developers",
+   "spec_url": "https://sportscore.com/developers/openapi.yaml",
+   "spec_version": "3.0.3",
+   "spec_title": "SportScore Public API",
+   "path_count": 16
+  },
+  {
+   "name": "StrikerAPI",
+   "category": "sports-fitness",
+   "type": "API",
+   "website": "https://strikerapi.com/docs",
+   "spec_url": "https://mcp.strikerapi.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "StrikerAPI API",
+   "path_count": 21
+  },
+  {
+   "name": "Touchline Wire",
+   "category": "sports-fitness",
+   "type": "API",
+   "website": "https://touchlinewire.com/docs",
+   "spec_url": "https://touchlinewire.com/api/v1/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Touchline Wire Tactical Intelligence API",
+   "path_count": 19
+  },
+  {
+   "name": "TourneyRadar",
+   "category": "sports-fitness",
+   "type": "API",
+   "website": "https://tourneyradar-api.vercel.app",
+   "spec_url": "https://tourneyradar-api.vercel.app/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "TourneyRadar API",
+   "path_count": 6
+  },
+  {
+   "name": "Bird",
+   "category": "telecommunications",
+   "type": "API",
+   "website": "https://bird.com/",
+   "spec_url": "https://bird.com/openapi.yaml",
+   "spec_version": "3.1.0",
+   "spec_title": "Bird API",
+   "path_count": 136,
+   "truncated": true
+  },
+  {
+   "name": "ETSI GS MEC 010-2 - Part 2: Application lifecycle, rules and requirements management",
+   "category": "telecommunications",
+   "type": "API",
+   "website": "https://forge.etsi.org/rep/mec/gs010-2-app-pkg-lcm-api",
+   "spec_url": "https://api.apis.guru/v2/specs/etsi.local/MEC010-2_AppPkgMgmt/2.1.1/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "ETSI GS MEC 010-2 - Part 2: Application lifecycle, rules and requirements management",
+   "path_count": 9
+  },
+  {
+   "name": "PlaceCall",
+   "category": "telecommunications",
+   "type": "API",
+   "website": "https://api.voygr.tech/docs",
+   "spec_url": "https://api.voygr.tech/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Voygr POI API",
+   "path_count": 20
+  },
+  {
+   "name": "Telnyx API",
+   "category": "telecommunications",
+   "type": "API",
+   "website": "https://telnyx.com",
+   "spec_url": "https://raw.githubusercontent.com/team-telnyx/openapi/master/openapi/spec3.yml",
+   "spec_version": "3.1.0",
+   "spec_title": "Telnyx API",
+   "path_count": 171,
+   "truncated": true
+  },
+  {
+   "name": "VeriRoute Intel",
+   "category": "telecommunications",
+   "type": "API",
+   "website": "https://verirouteintel.com",
+   "spec_url": "https://verirouteintel.com/static/openapi.yaml",
+   "spec_version": "3.0.3",
+   "spec_title": "VeriRoute Intel API",
+   "path_count": 40
+  },
+  {
+   "name": "AddressMock",
+   "category": "test-data",
+   "type": "API",
+   "website": "https://addressmock.com/api",
+   "spec_url": "https://addressmock.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "AddressMock Address API",
+   "path_count": 1
+  },
+  {
+   "name": "DummyJSON",
+   "category": "test-data",
+   "type": "API",
+   "website": "https://dummyjson.com",
+   "spec_url": "https://dummyjson.com/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "DummyJSON API",
+   "path_count": 68
+  },
+  {
+   "name": "flaky",
+   "category": "test-data",
+   "type": "API",
+   "website": "https://flakyapi.dev",
+   "spec_url": "https://flakyapi.dev/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "flaky",
+   "path_count": 30
+  },
+  {
+   "name": "JsonFabrica",
+   "category": "test-data",
+   "type": "API",
+   "website": "https://jsonfabrica.com/docs/api-reference",
+   "spec_url": "https://jsonfabrica.com/openapi.yaml",
+   "spec_version": "3.0.3",
+   "spec_title": "JsonFabrica Platform — External API (via Gateway)",
+   "path_count": 19
+  },
+  {
+   "name": "Mailsac",
+   "category": "test-data",
+   "type": "API",
+   "website": "https://mailsac.com/docs/api",
+   "spec_url": "https://mailsac.com/openapi-with-examples.json",
+   "spec_version": "3.0.0",
+   "spec_title": "mailsac API Specification",
+   "path_count": 42
+  },
+  {
+   "name": "TestingAPIs",
+   "category": "test-data",
+   "type": "API",
+   "website": "https://testingapis.com/docs",
+   "spec_url": "https://testingapis.com/openapi.json",
+   "spec_version": "3.0.4",
+   "spec_title": "TestingAPIs",
+   "path_count": 290
+  },
+  {
+   "name": "TotalShiftLeft Sandbox",
+   "category": "test-data",
+   "type": "API",
+   "website": "https://demo.totalshiftleft.ai/ui",
+   "spec_url": "https://demo.totalshiftleft.ai/openapi/rest.json",
+   "spec_version": "3.0.3",
+   "spec_title": "API Learning Sandbox",
+   "path_count": 14
+  },
+  {
+   "name": "What The Commit",
+   "category": "test-data",
+   "type": "API",
+   "website": "https://whatthecommit.com/index.txt",
+   "spec_url": "https://whatthecommit.com/.well-known/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "What The Commit",
+   "path_count": 1
+  },
+  {
+   "name": "Foreca",
+   "category": "weather-climate",
+   "type": "API",
+   "website": "https://developer.foreca.com",
+   "spec_url": "https://developer.foreca.com/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Foreca Weather API",
+   "path_count": 37
+  },
+  {
+   "name": "GridHub",
+   "category": "weather-climate",
+   "type": "API",
+   "website": "https://grid-hub.app/developers",
+   "spec_url": "https://api.grid-hub.app/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "GridHub Electricity Data API",
+   "path_count": 14
+  },
+  {
+   "name": "Hail History",
+   "category": "weather-climate",
+   "type": "API",
+   "website": "https://whathitmyhouse.com/api-docs.html",
+   "spec_url": "https://whathitmyhouse.com/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "Hail History API",
+   "path_count": 2
+  },
+  {
+   "name": "SustainMetrics",
+   "category": "weather-climate",
+   "type": "API",
+   "website": "https://www.sustainmetrics.net/api",
+   "spec_url": "https://www.sustainmetrics.net/openapi.json",
+   "spec_version": "3.0.3",
+   "spec_title": "SustainMetrics Emission Factor API",
+   "path_count": 1
+  },
+  {
+   "name": "Sähkön hinta nyt",
+   "category": "weather-climate",
+   "type": "API",
+   "website": "https://xn--shknhintanyt-gcb8w.org/integraatiot",
+   "spec_url": "https://xn--shknhintanyt-gcb8w.org/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Sähkön hinta nyt API",
+   "path_count": 12
+  },
+  {
+   "name": "Terrace Weather",
+   "category": "weather-climate",
+   "type": "API",
+   "website": "https://terrace.javiermateo.dev/swagger-ui/index.html",
+   "spec_url": "https://terrace.javiermateo.dev/v3/api-docs",
+   "spec_version": "3.1.0",
+   "spec_title": "Terrace Weather API",
+   "path_count": 5
+  },
+  {
+   "name": "US Weather",
+   "category": "weather-climate",
+   "type": "API",
+   "website": "https://www.weather.gov/documentation/services-web-api",
+   "spec_url": "https://api.weather.gov/openapi.json",
+   "spec_version": "3.1.2",
+   "spec_title": "weather.gov API",
+   "path_count": 69
+  },
+  {
+   "name": "Veabird",
+   "category": "weather-climate",
+   "type": "API",
+   "website": "https://veabird.com/api/v1",
+   "spec_url": "https://veabird.com/api/v1/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "Veabird ski & beach trip API",
+   "path_count": 19
+  },
+  {
+   "name": "WattFigure",
+   "category": "weather-climate",
+   "type": "API",
+   "website": "https://api.wattfigure.com",
+   "spec_url": "https://api.wattfigure.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "WattFigure API",
+   "path_count": 10
+  },
+  {
+   "name": "WeatherAPI",
+   "category": "weather-climate",
+   "type": "API",
+   "website": "https://www.weatherapi.com",
+   "spec_url": "https://www.weatherapi.com/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "WeatherAPI.com",
+   "path_count": 14
+  },
+  {
+   "name": "Weatherbit",
+   "category": "weather-climate",
+   "type": "API",
+   "website": "https://www.weatherbit.io/api",
+   "spec_url": "https://www.weatherbit.io/static/swagger.json",
+   "spec_version": "2.0",
+   "spec_title": "Weatherbit - Interactive Swagger UI Documentation",
+   "path_count": 21
+  },
+  {
+   "name": "WeatherTotals",
+   "category": "weather-climate",
+   "type": "API",
+   "website": "https://weathertotals.com/api",
+   "spec_url": "https://weathertotals.com/api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "WeatherTotals JSON API",
+   "path_count": 11
+  }
+ ]
+}
