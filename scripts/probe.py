@@ -48,45 +48,69 @@ CONVENTIONAL = (
     "/.well-known/openapi.json",
 )
 MAX_SPEC_BYTES = 512 * 1024
+MAX_REDIRECTS = 5
+REDIRECT_STATUSES = {301, 302, 303, 307, 308}
+SPEC_SUFFIXES = (".json", ".yaml", ".yml")
 
 
-def candidate_spec_urls(entry) -> list[str]:
-    """Spec links found on the website and docs pages, then conventional paths."""
-    found: list[str] = []
-    for page in (entry.url, entry.docs):
-        if not page:
+def _fetch_following(url: str, timeout: float = 20.0,
+                     read_body: int = MAX_SPEC_BYTES) -> tuple[int | None, bytes, str, str | None]:
+    """GET a URL, following redirects. Returns (status, body, final_url, error).
+
+    catalog._fetch deliberately refuses redirects so the link check can report the
+    hop. Here the destination is what matters, so follow it (bounded) and resolve
+    relative Location headers against the URL that answered.
+    """
+    current = url
+    status: int | None = None
+    body = b""
+    error: str | None = None
+    for _ in range(MAX_REDIRECTS + 1):
+        status, headers, body, error = catalog._fetch(current, "GET", timeout,
+                                                      read_body=read_body)
+        if status is None or error:
+            return status, body, current, error
+        location = (headers or {}).get("location")
+        if status in REDIRECT_STATUSES and location:
+            current = urljoin(current, location)
             continue
-        status, headers, body, _ = catalog._fetch(page, "GET", 20, read_body=MAX_SPEC_BYTES)
-        if not body:
-            continue
-        text = body.decode("utf-8", "replace")
-        for match in SPEC_HREF.findall(text):
-            found.append(urljoin(page, match))
-    origin = "{0.scheme}://{0.netloc}".format(urlsplit(entry.url))
-    found.extend(origin + path for path in CONVENTIONAL)
-    seen: set[str] = set()
-    unique = []
-    for url in found:
-        key = url.rstrip("/")
-        if key not in seen:
-            seen.add(key)
-            unique.append(url)
-    return unique[:10]
+        return status, body, current, None
+    return status, body, current, f"too many redirects (>{MAX_REDIRECTS})"
 
 
-def validate_spec(url: str) -> dict | None:
-    """Return spec metadata if the URL serves a parseable OpenAPI/Swagger document."""
-    status, headers, body, error = catalog._fetch(url, "GET", 25, read_body=MAX_SPEC_BYTES)
-    if not body or status is None or not 200 <= status < 300:
+def parse_document(body: bytes) -> dict | None:
+    """Parse a JSON or YAML body into a mapping, or return None.
+
+    YAML support is optional: PyYAML when importable, otherwise YAML candidates
+    are skipped rather than misread (the probe stays stdlib-only by default).
+    """
+    if not body:
         return None
-    text = body.decode("utf-8", "replace").lstrip()
-    if not text.startswith("{"):
+    text = body.decode("utf-8", "replace").lstrip("\ufeff \t\r\n")
+    if not text:
+        return None
+    if text[0] in "{[":
+        try:
+            doc = json.loads(text)
+        except ValueError:
+            doc = None
+        if isinstance(doc, dict):
+            return doc
+    try:
+        import yaml  # optional dependency
+    except ImportError:
         return None
     try:
-        doc = json.loads(text)
-    except ValueError:
+        doc = yaml.safe_load(text)
+    except Exception:  # noqa: BLE001 - malformed YAML is a non-result, not a crash
         return None
-    if not isinstance(doc, dict):
+    return doc if isinstance(doc, dict) else None
+
+
+def spec_metadata(url: str, body: bytes) -> dict | None:
+    """Return spec metadata if the body is an OpenAPI/Swagger document with paths."""
+    doc = parse_document(body)
+    if not doc:
         return None
     if "openapi" not in doc and "swagger" not in doc:
         return None
@@ -100,6 +124,53 @@ def validate_spec(url: str) -> dict | None:
         "spec_title": (info.get("title") or "")[:120] or None,
         "path_count": len(paths),
     }
+
+
+def _looks_like_spec(url: str) -> bool:
+    """A docs URL that already is a specification file, not a page describing one."""
+    path = urlsplit(url).path.casefold()
+    name = path.rsplit("/", 1)[-1]
+    return name.endswith(SPEC_SUFFIXES) and any(
+        token in name for token in ("openapi", "swagger", "api-docs", "apispec"))
+
+
+def candidate_spec_urls(entry) -> list[str]:
+    """Spec links found on the website and docs pages, then conventional paths.
+
+    A docs URL that is itself a specification document is a candidate too: 83 rows
+    point straight at /openapi.json or /swagger.json and would otherwise be probed
+    only at guessed paths.
+    """
+    found: list[str] = []
+    for page in (entry.url, entry.docs):
+        if not page:
+            continue
+        status, body, final_url, _ = _fetch_following(page)
+        if _looks_like_spec(final_url) or _looks_like_spec(page):
+            found.append(final_url)
+        if not body:
+            continue
+        text = body.decode("utf-8", "replace")
+        for match in SPEC_HREF.findall(text):
+            found.append(urljoin(final_url, match))
+    origin = "{0.scheme}://{0.netloc}".format(urlsplit(entry.url))
+    found.extend(origin + path for path in CONVENTIONAL)
+    seen: set[str] = set()
+    unique = []
+    for url in found:
+        key = url.rstrip("/")
+        if key not in seen:
+            seen.add(key)
+            unique.append(url)
+    return unique[:12]
+
+
+def validate_spec(url: str) -> dict | None:
+    """Return spec metadata if the URL serves a parseable OpenAPI/Swagger document."""
+    status, body, final_url, error = _fetch_following(url, timeout=25)
+    if error or not body or status is None or not 200 <= status < 300:
+        return None
+    return spec_metadata(final_url, body)
 
 
 def probe(entry) -> dict:

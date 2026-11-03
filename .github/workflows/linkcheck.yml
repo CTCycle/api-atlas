@@ -26,7 +26,9 @@ jobs:
       - name: Group the findings by the decision each row needs
         run: python scripts/catalog.py triage
       - name: Look for live OpenAPI and Swagger documents
-        run: python scripts/probe.py --workers 6 --index reports/openapi-index.json
+        run: |
+          python -m pip install --quiet pyyaml   # optional: adds YAML specs to the probe
+          python scripts/probe.py --workers 6 --index reports/openapi-index.json
       - name: Build the maintenance report
         run: python scripts/catalog.py report
       - uses: actions/upload-artifact@v4

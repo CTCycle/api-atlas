@@ -95,7 +95,9 @@ Two rules override everything else:
   work queue, not a verdict.
 - `probe` proves that a provider publishes an OpenAPI or Swagger document that
   parses and has paths. That is the strongest evidence available without a key; it
-  does not prove every endpoint responds.
+  does not prove every endpoint responds. It follows redirects to the document's
+  real URL, accepts a docs URL that already points at a specification file, and
+  parses YAML as well as JSON when PyYAML is installed (JSON only otherwise).
 - `duplicates` proves that two rows share a URL or a name on a domain. It does not
   prove they describe the same real service.
 - `stale` proves that nobody has confirmed a row recently. It does not prove the

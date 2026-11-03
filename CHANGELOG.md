@@ -40,7 +40,10 @@ loop. Four pages carried retirement wording.
   row that failed once (a single automated failure never removes a row).
 - `scripts/probe.py` added: it discovers OpenAPI and Swagger documents on the
   website, in the docs page and at conventional paths, and only records a hit when
-  the document parses and has a non-empty `paths` object.
+  the document parses and has a non-empty `paths` object. It follows redirects to
+  the document's final URL, treats a docs URL that is itself a specification file as
+  a candidate (83 rows point straight at `/openapi.json` or `/swagger.json`), and
+  parses YAML when PyYAML is installed.
 
 ### Agent-facing additions (2026-10-29)
 
