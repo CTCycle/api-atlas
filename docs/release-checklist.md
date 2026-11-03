@@ -46,7 +46,8 @@ Last reviewed 2026-11-03, after the release-readiness pull request.
 - [x] Issues enabled; blank issues disabled so the two forms are used.
 - [x] `suggestion` and `correction` labels exist, so the issue forms apply them.
 - [x] Wiki and projects disabled unless they are maintained.
-- [ ] Stale branches deleted (`develop` and `catalog-v2` are fully merged).
+- [x] Stale branches deleted. `develop` and `catalog-v2` were fully merged and
+      removed on 2026-11-03; only `main` remains.
 - [ ] Social preview image set (optional).
 
 ## Security and hygiene
