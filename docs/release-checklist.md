@@ -1,9 +1,9 @@
 # Public release checklist
 
-The repository is private and this list is the gate. Content and community items can
-be done at any time; the settings GitHub only exposes on public repositories (branch
-protection, private vulnerability reporting) and the version tag happen at or after
-the flip, in the order given.
+The repository is private until the flip described below, so this list is the gate.
+Content and community items can be done at any time; the settings GitHub only
+exposes on public repositories (branch protection, private vulnerability reporting)
+and the version tag happen at or after the flip, in the order given.
 
 ## Content
 
