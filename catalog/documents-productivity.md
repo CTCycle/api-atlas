@@ -25,7 +25,6 @@ Document conversion, file storage, notes, tasks and office automation.
 | [CountdownsHQ](https://countdownshq.com/developers) | API | Dates and timezone-correct countdowns for 150+ holidays and observances in 18 countries | Free tier | None | - | - | public-apis | - |
 | [CraftMyPDF](https://craftmypdf.com) | API | Generate PDF documents from templates with a drop-and-drop editor and a simple API | Free tier | API key | - | - | public-apis | - |
 | [DocCheap](https://doc.cheap/docs) | API | Read passports, ID cards and driver's licences into JSON, $0.01 per recognised document | Free tier | API key | - | - | public-apis | - |
-| [DocStruct](https://docstruct.pages.dev) | API | AI extraction of invoices, receipts, bank statements & contracts into structured JSON/CSV | Free tier | None | - | [docs](https://docstruct.pages.dev) | public-apis | - |
 | [Emboss](https://getemboss.ai/docs/quickstart) | API | Make PDF forms fillable, fill them from JSON or documents, and read filled forms back | Free tier | API key | - | - | public-apis | - |
 | [FaturaPDF](https://rapidapi.com/leosanchees2014/api/brazilian-invoice-receipt-pdf-api-cpf-cnpj) | API | Generate Brazilian invoice/receipt PDFs with checksum-validated CPF/CNPJ and PIX QR | Free tier | API key | - | - | public-apis | - |
 | [flatmark](https://flatmark.dev/docs) | API | Convert PDF, Word, PowerPoint, Excel and HTML documents to Markdown for RAG and agents | Free tier | API key | - | - | public-apis | - |

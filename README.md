@@ -7,8 +7,8 @@
 A curated directory of APIs, public databases, open-data portals and MCP servers
 for developers, researchers and AI agents.
 
-**2,553 resources across 45 categories** (2,122 APIs, 287 portals, 77 datasets,
-67 MCP servers). 527 rows verified by a maintainer; the rest are pointers with
+**2,541 resources across 45 categories** (2,112 APIs, 286 portals, 76 datasets,
+67 MCP servers). 532 rows verified by a maintainer; the rest are pointers with
 working links.
 
 The catalog is Markdown. Every resource is one row in one category file. Browse it
@@ -98,6 +98,12 @@ without parsing dates. The same rows are published as `data/catalog.json` (array
 [`data/catalog.schema.json`](data/catalog.schema.json) (JSON Schema 2020-12). All of
 them are generated from the Markdown; if they disagree, the Markdown is correct.
 
+Every API row was also probed for a machine-readable contract. 535 of 2,107 publish
+an OpenAPI or Swagger document that parses and has a non-empty `paths` object; the
+specification URL, version and path count for each are in
+[`data/openapi-index.json`](data/openapi-index.json). Absence is not proof that an API
+has no spec: it may sit behind auth or on another host.
+
 ```python
 import json
 rows = [json.loads(l) for l in open("data/catalog.jsonl", encoding="utf-8")]
@@ -128,8 +134,10 @@ python scripts/catalog.py export --format jsonl
 ```
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the row format and the review criteria,
-or open the [add a resource](.github/ISSUE_TEMPLATE/add-resource.yml) issue form if
-you would rather not edit files.
+or open the [add a resource](https://github.com/CTCycle/api-atlas/issues/new?template=add-resource.yml)
+issue form if you would rather not edit files. Participation is covered by the
+[Code of Conduct](CODE_OF_CONDUCT.md); security problems go through the
+[security policy](SECURITY.md), not a public issue.
 
 ## Maintenance
 

@@ -1,6 +1,6 @@
 # No key needed
 
-1184 catalogued resources that need no credentials: `Auth` is `None`
+1177 catalogued resources that need no credentials: `Auth` is `None`
 and the cheapest usable tier is `Free` or `Free tier`. Nothing here requires an
 account, a key or an approval.
 
@@ -98,7 +98,7 @@ category tables, not this file.
 - [Screenshotlayer](https://screenshotlayer.com) - URL to screenshot API capturing website snapshots
 - [The Color API](https://www.thecolorapi.com) - Convert colors between formats, name colors, and generate color schemes from any input color
 
-## Blockchain & Cryptocurrency (41)
+## Blockchain & Cryptocurrency (40)
 
 - [0x](https://docs.0x.org/docs/introduction/welcome) - API for querying token and pool stats across various liquidity pools
 - [Alpha (Mossland)](https://alpha.moss.land/developers) - Korean crypto channel stance + RAG Q&A + canonical entity/topic/event store
@@ -114,7 +114,6 @@ category tables, not this file.
 - [Chainpoint](https://tierion.com/chainpoint) - Chainpoint is a global network for anchoring data to the Bitcoin blockchain
 - [ClearTrace](https://cleartracedata.com/docs) - Cross-frontend DEX attribution and execution quality data across Ethereum and L2s
 - [CoinCap](https://pro.coincap.io/api-docs) - Real time Cryptocurrency prices through a RESTful API
-- [CoinGecko](https://www.coingecko.com/en/api) - Cryptocurrency Price, Market, and Developer/Social Data
 - [CoinLobster](https://coinlobster.com/developers) - Live executed whale trades across 15 exchanges and on-chain DEX with an unusualness radar
 - [Coinlore](https://www.coinlore.com/cryptocurrency-data-api) - Free public crypto market data API with no key required, offering prices, volume, market cap, and OHLCV history
 - [Coinpaprika](https://docs.coinpaprika.com/) - Crypto price and market data REST API for thousands of coins and exchanges, with a free tier
@@ -187,7 +186,7 @@ category tables, not this file.
 - [MailCheck.ai](https://www.usercheck.com/?ref=mailcheck) - Prevent users to sign up with temporary email addresses
 - [MailSenpai DNS Check](https://en.mailsenpai.com/dns-check-api) - Check a domain's SPF, DKIM, DMARC and MX records and get what to fix, with the values to publish
 
-## Developer Tools (104)
+## Developer Tools (103)
 
 - [24 Pull Requests](https://24pullrequests.com/api) - Project to promote open source collaboration during December
 - [Agent Nexus](https://agentnexus.app/llms.txt) - Continuously probed registry of APIs, MCP servers and CLIs callable by agents
@@ -202,7 +201,6 @@ category tables, not this file.
 - [BountyCheck](https://bountycheck.vercel.app) - Claimability verdicts for GitHub bounty issues; free stats and sample, checks paid per call via x402
 - [BrewPage](https://brewpage.app) - Free hosting for HTML, JSON, key-value, files, multi-file sites with short URLs and TTL retention
 - [CDNJS](https://api.cdnjs.com/libraries/jquery) - Library metadata and version API for CDNJS
-- [Changelogs.md](https://changelogs.md) - Structured changelog metadata from open source projects
 - [ChartBytes](https://chartbytes.meridian-digital.pro) - Chart image API: turn a URL into a PNG or SVG chart (bar, line, area, scatter, pie, donut, stacked)
 - [Ciprand](https://github.com/polarspetroll/ciprand) - Generate cryptographically secure random strings and numbers through a simple HTTP API
 - [claudecookie](https://claudecookie.com/api) - Convert cookie formats, check Claude sessions and generate Claude Code credentials
@@ -294,7 +292,7 @@ category tables, not this file.
 - [W3C Validator](https://validator.w3.org/docs/api.html) - W3C Markup Validation Service API for checking HTML and XHTML markup and reporting errors
 - [XLSX Inspector](https://api.lifestep.io) - Inspect XLSX/XLSM structure: sheets, formulas, macros and external links
 
-## Documents & Productivity (23)
+## Documents & Productivity (22)
 
 - [AgentPay Doc Tools](https://agentpay-tools.agentpay-apis.workers.dev) - PDF to text, RSS/Atom/JSON feeds to JSON and sitemaps to URL lists, paid per call via x402
 - [caldays](https://caldays.com/api) - Free JSON API for public holidays, long-weekend planning, and world clock across 206 countries
@@ -302,7 +300,6 @@ category tables, not this file.
 - [Chinese Text Project](https://ctext.org/tools/api) - Online open-access digital library for pre-modern Chinese texts
 - [Church Calendar](http://calapi.inadiutorium.cz/) - Catholic liturgical calendar JSON API service
 - [CountdownsHQ](https://countdownshq.com/developers) - Dates and timezone-correct countdowns for 150+ holidays and observances in 18 countries
-- [DocStruct](https://docstruct.pages.dev) - AI extraction of invoices, receipts, bank statements & contracts into structured JSON/CSV
 - [Free Dictionary](https://dictionaryapi.dev) - Definitions, phonetics, pronunciations, parts of speech, examples, synonyms
 - [Hebrew Calendar](https://www.hebcal.com/home/developer-apis) - Convert between Gregorian and Hebrew, fetch Shabbat and Holiday times, etc
 - [India Public Holidays](https://calendar-api-web.vercel.app/docs) - Official Indian public holidays for the Central government and 36 states/UTs
@@ -452,7 +449,7 @@ category tables, not this file.
 - [Yes or No Oracle](https://yesnooracle.app/api) - Random yes/no/maybe answers in 7 themed oracle voices (Magic 8 Ball, Tarot, and more)
 - [Zen Quotes](https://zenquotes.io) - Large collection of Zen quotes for inspiration
 
-## Finance (51)
+## Finance (50)
 
 - [Bank of Russia](https://www.cbr.ru/development/SXML) - Central Bank of Russia XML service for daily exchange rates and currency history
 - [Banking Access Index](https://www.globalsolo.global/data/banking-access-index) - Which US business banking providers accept founders by country of residence, with sources
@@ -500,7 +497,6 @@ category tables, not this file.
 - [Top 5 Stocks](https://top5stocks.netlify.app/developers) - Daily AI-ranked stock and crypto watchlists
 - [Undertow](https://liquilens-undertow.com/developers) - Public market-depth and sized exit estimates, not executable quotes
 - [US Mortgage Calculator](https://www.usmortgagecalc.com/developers/api) - Mortgage payment, amortization, affordability and 50-state property tax data
-- [VoxOdds](https://voxodds.com/api) - Polymarket and Kalshi odds, all-in executable quotes, EV checks and audited forecast scores
 - [WallstreetBets](https://tradestie.com/apps/reddit/api/) - WallstreetBets Stock Comments Sentiment Analysis
 - [XOOMAR](https://xoomar.com/markets/api) - US market data from SEC, FINRA, CFTC and the Fed: filings, insiders, earnings dates, short interest
 - [Yahoo Finance](https://finance.yahoo.com/) - Market quotes and financial data portal available for public use
@@ -654,7 +650,7 @@ category tables, not this file.
 - [Zippopotam.us](http://www.zippopotam.us) - Get information about place such as country, city, state, etc
 - [Ziptastic](https://ziptasticapi.com) - Get the country, state, and city of any US zip-code
 
-## Government & Public Sector (92)
+## Government & Public Sector (91)
 
 - [Ayes and Noes](https://ayesandnoes.co.uk/developers) - UK House of Commons MPs, parties and recorded votes
 - [Bank Negara Malaysia Open Data](https://apikijangportal.bnm.gov.my) - Bank Negara Malaysia Open API portal for extracting financial, exchange rate, and statistical datasets
@@ -741,7 +737,6 @@ category tables, not this file.
 - [UK Legislation Changes](https://uk-legal-changes.pages.dev/docs) - Point-in-time amendment history for UK law
 - [UK ONS](https://www.ons.gov.uk) - UK Office for National Statistics data portal
 - [UK Parliament APIs](https://developer.parliament.uk/) - UK parliamentary data APIs available for public use
-- [UK Public Tenders by Trade](https://tools.gptshopltd.com/api/uk-tenders) - Live open UK public sector tenders by trade from Find a Tender and Contracts Finder (OGL v3.0)
 - [UNdata](https://data.un.org/) - United Nations statistical databases and country profiles
 - [USASpending](https://www.usaspending.gov/) ([docs](https://api.usaspending.gov/)) - US federal spending and awards data available for public use
 - [Veridion](https://www.veridionmarkets.com/data-api/docs) - US congressional stock-trade disclosures and the President's OGE reports, linked to each filing
@@ -749,7 +744,7 @@ category tables, not this file.
 - [VotePredictor](https://votepredictor.com/developers) - US election forecasts, congressional voting records and forecaster accuracy ratings
 - [YiminShuju Visa Bulletin](https://yiminshuju.com/cite/) - US Department of State Visa Bulletin cutoff dates (EB/F charts) as open JSON (/paiqi.json)
 
-## Health & Medical (46)
+## Health & Medical (45)
 
 - [CDC](https://www.cdc.gov) - US Centers for Disease Control and Prevention data and statistics
 - [ClinGen](https://clinicalgenome.org/) ([docs](https://clinicalgenome.org/tools/)) - Clinical relevance of genes and variants with curation activities and expert panels
@@ -758,7 +753,6 @@ category tables, not this file.
 - [Coronavirus](https://pipedream.com/@pravin/http-api-for-latest-wuhan-coronavirus-data-2019-ncov-p_G6CLVM/readme) - HTTP API returning latest COVID-19 case, recovery, and death counts globally and by region from JHU CSSE data
 - [Coronavirus in the UK](https://ukhsa-dashboard.data.gov.uk/) - UK Government coronavirus data, including deaths and cases by region
 - [Covid Tracking Project](https://covidtracking.com/data/api/version-2) - The COVID Tracking Project collects and publishes the most
-- [Covid-19 Datenhub](https://npgeo-corona-npgeo-de.hub.arcgis.com) - Maps, datasets, applications and more in the context of COVID-19
 - [Covid-19 Government Response](https://www.bsg.ox.ac.uk/research/covid-19-government-response-tracker) - Government measures tracker to fight against the Covid-19 pandemic
 - [Covid-19 India](https://data.covid19india.org) - Covid 19 statistics state and district wise about cases, vaccinations, recovery within India
 - [Covid-19 JHU CSSE](https://nuttaphat.com/covid19-api) - Open-source API for exploring Covid19 cases based on JHU CSSE
@@ -907,7 +901,7 @@ category tables, not this file.
 - [UCSC Genome Browser](https://genome.ucsc.edu/) ([docs](https://genome.ucsc.edu/goldenPath/help/api.html)) - Genome browser data and REST API for sequences, tracks and assemblies
 - [UniProt](https://www.uniprot.org/) ([docs](https://www.uniprot.org/help/api)) - Protein sequence and functional information database
 
-## Transportation & Logistics (52)
+## Transportation & Logistics (51)
 
 - [AirportMiles](https://airportmiles.com/api) - Airport codes, distances, routes and passenger numbers as static JSON files
 - [airportsapi](https://airport-web.appspot.com/api/docs/) - Airport names and websites lookup API by ICAO code
@@ -930,7 +924,6 @@ category tables, not this file.
 - [NHTSA](https://vpic.nhtsa.dot.gov/api) - NHTSA Product Information Catalog and Vehicle Listing
 - [OpenFlights](https://openflights.org/) - Airport and airline route database available for public use
 - [OpenVan](https://openvan.camp/docs) - Fuel prices for 121 countries, food cost index & vanlife weather scores for RV travel
-- [OurAirports](https://ourairports.com/) - Global airport directory available for public use for developers
 - [PostalPinCode](http://www.postalpincode.in/Api-Details) - Free API returning Indian post office details by PIN code or branch name, including district, state, circle, and delivery status
 - [Postmon](https://postmon.com.br/) - An API to query Brazilian ZIP codes and orders easily, quickly and free
 - [ProblemsByVin](https://problemsbyvin.com/data) - Owner complaints, recalls and failure-mileage statistics by vehicle make, model and year

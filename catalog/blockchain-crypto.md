@@ -25,6 +25,7 @@ Chain data, market prices, wallets, explorers and smart contract tooling.
 | [Blockchain](https://www.blockchain.com/explorer/docs) | API | Bitcoin Payment, Wallet & Transaction Data | Free tier | API key | - | - | public-apis | - |
 | [blockfrost Cardano](https://blockfrost.io) | API | Interaction with the Cardano mainnet and several testnets | Free tier | API key | - | - | public-apis | - |
 | [Blockscout](https://dev.blockscout.com) | API | Multichain block explorer REST API (with Etherscan-compatible JSON-RPC) | Free tier | API key | - | - | public-apis | - |
+| [Blockworks API](https://app.blockworks.com) | API | Institutional crypto data API with market, onchain, monitoring and unlock endpoints | Freemium | API key | - | [docs](https://docs.blockworks.com) | public-apis, editorial | 2026-11-03 |
 | [Brave NewCoin](https://bravenewcoin.com/contact) | API | Real-time and historic crypto data from more than 200+ exchanges | Free tier | API key | - | - | public-apis | - |
 | [BTCGlobe](https://btcglobe.live/join) | API | Bitcoin height, fees, mempool and peer data served live from two self-hosted nodes | Free tier | None | - | - | public-apis | - |
 | [btcnode.uk](https://btcnode.uk) | API | Bitcoin blockchain data, fees, mempool, SEC insider trades, Reddit sentiment. x402 micropayments for paid endpoints | Free tier | None | - | - | public-apis | - |
@@ -38,7 +39,7 @@ Chain data, market prices, wallets, explorers and smart contract tooling.
 | [Coinbase Pro](https://docs.cdp.coinbase.com/exchange/introduction/welcome) | API | REST, FIX, and WebSocket APIs for trading and public market data on the Coinbase Exchange | Free tier | API key | - | - | public-apis | - |
 | [CoinCap](https://pro.coincap.io/api-docs) | API | Real time Cryptocurrency prices through a RESTful API | Free tier | None | - | - | public-apis | - |
 | [CoinDCX](https://docs.coindcx.com) | API | Spot and futures trading API for the CoinDCX exchange, with market data, orders, positions, and sockets | Free tier | API key | - | - | public-apis | - |
-| [CoinGecko](https://www.coingecko.com/en/api) | API | Cryptocurrency Price, Market, and Developer/Social Data | Free tier | None | - | - | public-apis | - |
+| [CoinGecko](https://www.coingecko.com/) | API | Cryptocurrency prices, market caps, volumes and onchain DEX data for 18,000+ coins | Free tier | API key | - | [docs](https://docs.coingecko.com/) | public-apis, editorial | 2026-11-03 |
 | [Coinigy](https://coinigy.docs.apiary.io) | API | Interacting with Coinigy Accounts and Exchange Directly | Free tier | API key | - | - | public-apis | - |
 | [Coinlayer](https://coinlayer.com) | API | Real-time cryptocurrency exchange rates API covering 385+ coins from 25+ exchanges, with historical data | Free tier | API key | - | - | public-apis | - |
 | [Coinlib](https://coinlib.io/) | API | Cryptocurrency prices and market data API | Free tier | API key | - | - | public-apis | - |
@@ -78,7 +79,6 @@ Chain data, market prices, wallets, explorers and smart contract tooling.
 | [MarginPad](https://marginpad.io/free-crypto-api) | API | Crypto futures prices, candles, funding, open interest, long/short and liquidations, 9 exchanges | Free tier | None | - | - | public-apis | - |
 | [MELEK](https://witness.melek.salon/dev/melek) | API | Graphene social blockchain (Steem family) with a keyless condenser_api JSON-RPC | Free tier | None | - | - | public-apis | - |
 | [Mempool](https://mempool.space/docs/api) | API | Bitcoin API Service focusing on the transaction fee | Free tier | None | - | - | public-apis | - |
-| [Messari](https://messari.io/api) | API | Provides API endpoints for thousands of crypto assets | Free tier | API key | - | - | public-apis | - |
 | [Mexc](https://www.mexc.com/api-docs) | API | Spot and futures exchange API for market data, account queries, and signed order placement | Free tier | API key | - | - | public-apis | - |
 | [monerometrics](https://monerometrics.net) | API | Reorg-aware Monero (XMR) network metrics, mining-pool centralization and chain reorganizations | Free tier | None | - | - | public-apis | - |
 | [MyCryptoSignal](https://mycryptosignal.com/api/) | API | Crypto market data: daily direction signals, prices, on-chain and news snapshots | Free tier | API key | - | - | public-apis | - |

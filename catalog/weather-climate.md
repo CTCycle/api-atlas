@@ -8,7 +8,6 @@ Forecasts, observations, reanalysis and climate projections.
 | [AccuWeather](https://developer.accuweather.com/apis) | API | AccuWeather developer API for weather and forecast data | Free tier | API key | - | - | public-apis | - |
 | [Aemet](https://opendata.aemet.es/centrodedescargas/inicio) | API | AEMET OpenData: Spanish meteorological agency's API for weather forecasts, observations, and climate data | Free tier | API key | - | - | public-apis | - |
 | [AirNow](https://docs.airnowapi.org) | API | US EPA AirNow API for real-time and forecast air quality (AQI) data across the US, Canada, and Mexico | Free tier | API key | - | - | public-apis | - |
-| [APIXU](https://www.apixu.com/doc/request.aspx) | API | Weatherstack weather API with real-time and historical data | Free tier | API key | - | - | public-apis | - |
 | [AQICN](https://aqicn.org/api) | API | Air Quality Index Data for over 1000 cities | Free tier | API key | - | - | public-apis | - |
 | [Australian Weather](https://reg.bom.gov.au/climate/data-services) | Dataset | Updated webpage for Australian Weather data | - | - | - | - | awesome-datasets | - |
 | [AviationWeather](https://aviationweather.gov/dataserver/) | API | NOAA aviation weather forecasts and observations | Free tier | None | - | - | public-apis | - |

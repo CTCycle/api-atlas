@@ -27,11 +27,11 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [eidosSpeech](https://eidosspeech.xyz) | API | Free text-to-speech API with 1,200+ neural voices in 75+ languages | Free tier | API key | - | - | public-apis | - |
 | [ELI](https://nlp.insightera.co.th/docs/v1.0) | API | Natural Language Processing Tools for Thai Language | Free tier | API key | - | - | public-apis | - |
 | [Ex Libris APIs](https://exlibrisgroup.com) | API | For more information on how to use these APIs, including how to create an API key required for authentication, see Alma REST APIs | - | - | - | [docs](https://api.apis.guru/v2/specs/exlibrisgroup.com/tasklists/1.0/openapi.json) | APIs.guru | - |
+| [Gemini API](https://aistudio.google.com) | API | Multimodal Gemini models for text, images, video, audio and tool use | Free tier | API key | - | [docs](https://aistudio.google.com/docs) | public-apis, editorial | 2026-11-03 |
 | [GEN](https://gen.pro/docs) | API | Creative AI video engineer for ads, AI UGC and microdramas; free editor and social publishing | Free tier | API key | - | - | public-apis | - |
 | [GeoScore](https://geoscoreapi.com) | API | Score content for AI search citation readiness with a 0-100 GEO score and 8 structural metrics | Free tier | API key | - | - | public-apis | - |
 | [Google AI](https://ai.google.dev) | API | Google AI Gemini API for multimodal model inference | Freemium | API key | - | - | editorial | 2026-10-24 |
 | [Google Cloud Natural](https://docs.cloud.google.com/natural-language/docs) | API | Natural language understanding technology, including sentiment, entity and syntax analysis | Free tier | API key | - | - | public-apis | - |
-| [Google Gemini](https://ai.google.dev/gemini-api/docs) | API | Multimodal generative AI for text, vision, and code generation | Free tier | API key | - | - | public-apis | - |
 | [Google MC-AFP](https://github.com/google/mcafp) | Dataset | Generated based on the public available Gigaword dataset using Paragraph Vectors | - | - | - | - | awesome-datasets | - |
 | [Groq](https://groq.com) | API | Fast AI inference API with free tier, supports Llama, Mixtral, Gemma models | Freemium | API key | - | - | editorial | 2026-10-24 |
 | [Hugging Face](https://huggingface.co) | API | AI model hub with inference API for NLP, computer vision, and audio | Freemium | API key | Per dataset | - | editorial | 2026-10-24 |

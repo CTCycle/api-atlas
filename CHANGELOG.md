@@ -6,6 +6,34 @@ The registry became a catalog. The machine-readable registry of 5,227 records wa
 replaced by a curated Markdown directory, and the Python package, the JSON Schema,
 the SQLite index, the importers and the scheduled refresh workflows were removed.
 
+### Release readiness (2026-11-03)
+
+- Full re-verification: 2,887 URLs, 2,640 reachable, 58 moved, 95 gated, 34
+  timeouts, 26 server errors, 15 TLS errors, 7 unreachable, 4 broken, 4 with an
+  incomplete certificate chain, 2 DNS failures, 2 redirect loops.
+- 9 rows removed with evidence: `Changelogs.md` (domain now a hosting coupon site),
+  `Tradeworks` (product gone, domain redirects to a MetaTrader listing), `FakeJSON`
+  (redirect chain to an unrelated spam host), `ProxyKingdom` and `DocStruct` (hosts
+  no longer resolve), `VoxOdds` (service archived and switched off), `UK Public
+  Tenders by Trade` (API answers 410), `Allowly Hiring Evidence` (documentation path
+  404) and `APIXU` (duplicate of the existing Weatherstack row).
+- 8 rows renamed or repointed after a verified move: Messari to Blockworks API,
+  Google Gemini to Gemini API, Twitter to X API, Cisco Spark to Webex API, Slack
+  documentation to `docs.slack.dev`, Magento to Adobe Commerce, Octopus Energy to
+  the Kraken developer portal, and Covid-19 Datenhub to its credential-gated host
+  with `Restricted` and `Account`.
+- 3 duplicate rows merged, each listed once now: CoinGecko, OurAirports and the
+  Aether-X port congestion oracle.
+- `tests/test_export.py` checks the committed JSON, JSONL and CSV against
+  `data/catalog.schema.json` and requires unique ids; CI runs it.
+- `data/openapi-index.json` publishes every API row that answers with a parseable
+  OpenAPI or Swagger document: 535 of 2,107 probed. `scripts/probe.py --index-only`
+  rebuilds it from stored reports, and `tests/test_index.py` keeps it in sync with
+  the catalog.
+- Release surface added: `SECURITY.md`, `CODE_OF_CONDUCT.md`, and a release
+  checklist split into before, at and after the visibility flip.
+- Catalog: 2,541 rows (2,112 APIs, 286 portals, 76 datasets, 67 MCP servers).
+
 ### Verification pass (2026-10-29)
 
 Full re-verification of every row, 2,496 URLs, with redirects followed to the real

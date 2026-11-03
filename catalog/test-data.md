@@ -9,7 +9,6 @@ Fake users, addresses, images and generators for testing.
 | [Dicebear Avatars](https://www.dicebear.com/) | API | Open-source avatar library and HTTP API generating deterministic profile pictures from a seed across 61 styles | Free tier | None | - | - | public-apis | - |
 | [DummyJSON](https://dummyjson.com) | API | Fake REST API with products, users, posts, comments, todos and more | Free tier | None | - | - | public-apis | - |
 | [English Random Words](https://random-words-api.vercel.app/word) | API | Generate English Random Words with Pronunciation | Free tier | None | - | - | public-apis | - |
-| [FakeJSON](https://fakejson.com) | API | Hosted mock backend API generating synthetic JSON test data from a schema, with 100+ field types and configurable responses | Free tier | API key | - | - | public-apis | - |
 | [FakerAPI](https://fakerapi.it/en) | API | Free mock data generator API returning JSON records (persons, companies, addresses, products) in 50+ locales without auth | Free tier | None | - | - | public-apis | - |
 | [FakeStoreAPI](https://fakestoreapi.com) | API | Fake store rest API for your e-commerce or shopping website prototype | Free tier | None | - | - | public-apis | - |
 | [flaky](https://flakyapi.dev) | API | Fake REST API with chaos controls: force any status code, add latency, or a failure rate | Free tier | None | - | - | public-apis | - |

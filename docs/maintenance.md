@@ -18,6 +18,8 @@ python scripts/catalog.py export        # data/catalog.jsonl, data/catalog.json 
 python scripts/probe.py                 # discover live OpenAPI/Swagger specs for API rows
 python scripts/probe.py --missing --index data/openapi-index.json
                                         # probe only rows with no known spec, refresh the index
+python scripts/probe.py --index data/openapi-index.json --index-only
+                                        # rebuild the index from existing reports, no requests
 ```
 
 The script never edits `catalog/`. It writes JSON and Markdown under `reports/`.
@@ -107,21 +109,25 @@ Pricing, rate limits and licence terms are only ever confirmed by reading the
 provider's page. That is why the Checked column exists and why it is set by a
 person, not by the script.
 
-## Optional scheduling with Hermes
+## Optional scheduling
 
-Hermes can run the same commands on a schedule and deliver the report. Nothing is
+Any scheduler works: cron on a server, the workflow in `.github/workflows/linkcheck.yml`,
+or an assistant that runs shell commands. The commands are the same and nothing is
 merged or deleted automatically. The proposal below is not active; enable it only
 after reviewing the commands and the destination.
 
 ```text
 name:     api-atlas monthly link check
 schedule: 1st of the month, 06:00 local
-command:  cd <repo> && python scripts/catalog.py linkcheck && python scripts/catalog.py report
+command:  cd <repo> && python scripts/catalog.py verify \
+            && python scripts/catalog.py triage \
+            && python scripts/probe.py --missing --index data/openapi-index.json \
+            && python scripts/catalog.py report
 output:   reports/maintenance-<date>.md delivered as a message summary
 review:   open the report, apply the diff blocks by hand
 ```
 
-A weekly bounded sample (`linkcheck --limit 150`) is enough between full sweeps if
+A weekly bounded sample (`verify --limit 150`) is enough between full sweeps if
 the catalog grows past roughly 5,000 rows.
 
 ## Adding a resource

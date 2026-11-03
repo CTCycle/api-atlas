@@ -44,3 +44,12 @@ below. Rows marked `editorial` were written or rewritten by maintainers.
 If you operate a listed resource and a row misstates your terms, pricing or
 access model, open an issue with the correction and it will be applied. Removal
 requests from operators are honoured without argument.
+
+## Upstream MIT notices
+
+The MIT permission text in [LICENSE](LICENSE) also covers the portions derived from
+the two MIT-licensed upstream lists, whose copyright lines are reproduced here:
+
+- public-apis/public-apis: Copyright (c) 2022 public-apis
+- awesomedata/awesome-public-datasets: Copyright (c) 2014-2015 Xiaming Chen and
+  other contributors to this list
