@@ -108,6 +108,26 @@ class ProbeCases(unittest.TestCase):
         self.assertIsNotNone(spec)
         self.assertEqual(spec["spec_version"], "3.0.0")
 
+    def test_error_pages_are_not_harvested_for_links(self):
+        """A 503 page that mentions openapi.json must not seed candidates."""
+        stub = StubFetch({
+            "https://example.com": (503, {},
+                                    b'<html><a href="/openapi.json">docs</a></html>'),
+        })
+        catalog._fetch = stub
+        urls = probe.candidate_spec_urls(entry("https://example.com"))
+        # nothing harvested from the page, so only the conventional guesses remain
+        self.assertEqual(urls, ["https://example.com" + p for p in probe.CONVENTIONAL])
+
+    def test_capped_read_is_flagged_as_truncated(self):
+        """A document cut at the byte cap is real, but its path count is a floor."""
+        padded = JSON_SPEC + b" " * (probe.MAX_SPEC_BYTES - len(JSON_SPEC))
+        stub = StubFetch({"https://example.com/openapi.json": (200, {}, padded)})
+        catalog._fetch = stub
+        spec = probe.validate_spec("https://example.com/openapi.json")
+        self.assertIsNotNone(spec)
+        self.assertTrue(spec.get("truncated"))
+
     def test_html_and_empty_paths_are_rejected(self):
         stub = StubFetch({
             "https://example.com/docs": (200, {}, HTML_DOCS),

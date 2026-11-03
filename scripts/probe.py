@@ -118,12 +118,16 @@ def spec_metadata(url: str, body: bytes) -> dict | None:
     if not isinstance(paths, dict) or not paths:
         return None
     info = doc.get("info") if isinstance(doc.get("info"), dict) else {}
-    return {
+    meta = {
         "spec_url": url,
         "spec_version": doc.get("openapi") or doc.get("swagger"),
         "spec_title": (info.get("title") or "")[:120] or None,
         "path_count": len(paths),
     }
+    if len(body) >= MAX_SPEC_BYTES:
+        # the read is capped: the document is real, its path count is a floor
+        meta["truncated"] = True
+    return meta
 
 
 def _looks_like_spec(url: str) -> bool:
@@ -148,7 +152,8 @@ def candidate_spec_urls(entry) -> list[str]:
         status, body, final_url, _ = _fetch_following(page)
         if _looks_like_spec(final_url) or _looks_like_spec(page):
             found.append(final_url)
-        if not body:
+        if not body or status is None or not 200 <= status < 300:
+            # an error page's links are about the error, not the API
             continue
         text = body.decode("utf-8", "replace")
         for match in SPEC_HREF.findall(text):
