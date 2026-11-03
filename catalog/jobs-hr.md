@@ -7,7 +7,6 @@ Job boards, salary data, recruiting and workforce datasets.
 | [Adzuna](https://developer.adzuna.com/overview) | API | Job board aggregator API for job listings | Free tier | API key | - | - | public-apis | - |
 | [AI Dev Jobs](https://aidevboard.com/openapi.yaml) | API | AI/ML engineering job aggregator with REST, RSS, and MCP endpoints | Free tier | None | - | - | public-apis | - |
 | [AI Trainer Work](https://aitrainer.work/open-data#api) | API | Open AI training and data annotation jobs from 20+ platforms with pay data | Free tier | None | - | - | public-apis | - |
-| [Allowly Hiring Evidence](https://allowly.ai/docs/solutions/hiring/api) | API | Deterministic hiring policy decisions and signed evidence records | Free tier | API key | - | - | public-apis | - |
 | [Arbeitnow](https://documenter.getpostman.com/view/18545278/UVJbJdKh) | API | API for Job board aggregator in Europe / Remote | Free tier | None | - | - | public-apis | - |
 | [Arbeitsamt](https://jobsuche.api.bund.dev) | API | API for the "Arbeitsamt", which is a german Job board aggregator | Free tier | OAuth | - | - | public-apis | - |
 | [Artificial Intelligence Jobs](https://artificialintelligencejobs.co/developers) | API | Live AI/ML job listings from 260+ companies' own career pages, with salary, location, remote and seniority filters | Free tier | None | - | - | public-apis | - |

@@ -124,7 +124,6 @@ Legislation, procurement, civic records and public sector APIs.
 | [UK Legislation Changes](https://uk-legal-changes.pages.dev/docs) | API | Point-in-time amendment history for UK law | Free tier | None | - | - | public-apis | - |
 | [UK ONS](https://www.ons.gov.uk) | Portal | UK Office for National Statistics data portal | Free | None | OGL-UK-3.0 | - | editorial | 2026-10-24 |
 | [UK Parliament APIs](https://developer.parliament.uk/) | Portal | UK parliamentary data APIs available for public use | Free | None | Open Parliament Licence | [docs](https://developer.parliament.uk/) | editorial | 2026-10-24 |
-| [UK Public Tenders by Trade](https://tools.gptshopltd.com/api/uk-tenders) | API | Live open UK public sector tenders by trade from Find a Tender and Contracts Finder (OGL v3.0) | Free tier | None | - | - | public-apis | - |
 | [UNdata](https://data.un.org/) | Portal | United Nations statistical databases and country profiles | Free | None | Unknown | [docs](https://data.un.org/) | editorial | 2026-10-24 |
 | [US Census](https://www.census.gov) | API | US Census Bureau data API for population and economic statistics | Free | API key | PD-USGov | [docs](https://www.census.gov/data/developers.html) | editorial | 2026-10-24 |
 | [USASpending](https://www.usaspending.gov/) | Portal | US federal spending and awards data available for public use | Free | None | Public Domain | [docs](https://api.usaspending.gov/) | editorial | 2026-10-24 |

@@ -12,7 +12,7 @@ Clinical trials, medical literature, health statistics and terminology.
 | [Coronavirus](https://pipedream.com/@pravin/http-api-for-latest-wuhan-coronavirus-data-2019-ncov-p_G6CLVM/readme) | API | HTTP API returning latest COVID-19 case, recovery, and death counts globally and by region from JHU CSSE data | Free tier | None | - | - | public-apis | - |
 | [Coronavirus in the UK](https://ukhsa-dashboard.data.gov.uk/) | API | UK Government coronavirus data, including deaths and cases by region | Free tier | None | OGL-UK-3.0 | - | public-apis | - |
 | [Covid Tracking Project](https://covidtracking.com/data/api/version-2) | API | The COVID Tracking Project collects and publishes the most | Free tier | None | - | - | public-apis, awesome-datasets | - |
-| [Covid-19 Datenhub](https://npgeo-corona-npgeo-de.hub.arcgis.com) | API | Maps, datasets, applications and more in the context of COVID-19 | Free tier | None | - | - | public-apis | - |
+| [Covid-19 Datenhub](https://npgeo-corona-npgeo-de.hub.arcgis.com/) | API | Maps, datasets and applications in the context of COVID-19 | Restricted | Account | - | - | public-apis, editorial | - |
 | [Covid-19 Government Response](https://www.bsg.ox.ac.uk/research/covid-19-government-response-tracker) | API | Government measures tracker to fight against the Covid-19 pandemic | Free tier | None | - | - | public-apis | - |
 | [Covid-19 India](https://data.covid19india.org) | API | Covid 19 statistics state and district wise about cases, vaccinations, recovery within India | Free tier | None | - | - | public-apis | - |
 | [Covid-19 JHU CSSE](https://nuttaphat.com/covid19-api) | API | Open-source API for exploring Covid19 cases based on JHU CSSE | Free tier | None | - | - | public-apis | - |

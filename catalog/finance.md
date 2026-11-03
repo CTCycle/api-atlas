@@ -109,13 +109,11 @@ Banking, markets, payments data, forex and financial statements.
 | [TickerInside](https://tickerinside.com/api/) | API | Holdings of every US ETF, which ETFs hold a stock, and overlap between funds, each dated | Free tier | None | - | - | public-apis | - |
 | [TickerLayer](https://tickerlayer.com) | API | Real-time and historical market data for stocks, forex, crypto and more | Free tier | API key | - | - | public-apis | - |
 | [Top 5 Stocks](https://top5stocks.netlify.app/developers) | API | Daily AI-ranked stock and crypto watchlists | Free tier | None | - | - | public-apis | - |
-| [Tradeworks](https://magick.nu) | API | Authentication is required to access all methods of the API. Enter username and password. Credentials are automatically set as you type | - | - | - | - | APIs.guru | - |
 | [Tradier](https://developer.tradier.com) | API | US equity/option market data (delayed, intraday, historical) | Free tier | OAuth | - | - | public-apis | - |
 | [Twelve Data](https://twelvedata.com/) | API | Stock market data (real-time & historical) | Free tier | API key | - | - | public-apis | - |
 | [Undertow](https://liquilens-undertow.com/developers) | API | Public market-depth and sized exit estimates, not executable quotes | Free tier | None | - | - | public-apis | - |
 | [US Mortgage Calculator](https://www.usmortgagecalc.com/developers/api) | API | Mortgage payment, amortization, affordability and 50-state property tax data | Free tier | None | - | - | public-apis | - |
 | [USTariffRates](https://api.ustariffrates.com/openapi.json) | API | US HTS lookup and origin-specific tariff breakdowns with source context | Free tier | API key | - | - | public-apis | - |
-| [VoxOdds](https://voxodds.com/api) | API | Polymarket and Kalshi odds, all-in executable quotes, EV checks and audited forecast scores | Free tier | None | - | - | public-apis | - |
 | [WallstreetBets](https://tradestie.com/apps/reddit/api/) | API | WallstreetBets Stock Comments Sentiment Analysis | Free tier | None | - | - | public-apis | - |
 | [Xero Assets API](https://developer.xero.com) | API | The Assets API exposes fixed asset related functions of the Xero Accounting application and can be used for a variety of purposes such as creating assets, retrieving asset valuations etc | - | - | MIT | [docs](https://api.apis.guru/v2/specs/xero.com/xero_assets/2.9.4/openapi.json) | APIs.guru | - |
 | [XFINLAB](https://www.xfinlab.com/intelligence-api.html) | API | Market events, sentiment, technical analysis and macro data for stocks | Free tier | API key | - | - | public-apis | - |

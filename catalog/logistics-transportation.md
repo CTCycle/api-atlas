@@ -5,8 +5,7 @@ Transit, shipping, flights, routing and vehicle data.
 | Name | Type | Description | Access | Auth | License | Docs | Source | Checked |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [ADS-B Exchange](https://www.adsbexchange.com/) | Portal | ADS-B flight tracking data available for public use | Paid | API key | Unknown | [docs](https://www.adsbexchange.com/) | editorial | 2026-10-24 |
-| [Aether-X Port Congestion](https://aether-x-oracle-production.up.railway.app/docs) | API | Real-time port congestion risk scores, ETA delays and waiting vessels for 15 global ports | Free tier | API key | - | - | public-apis | - |
-| [Aether-X Port Congestion Oracle](https://rapidapi.com/belegante/api/aether-x-port-congestion-oracle) | API | Predictive port congestion, ETA delay and freight volatility signals for 16 global ports | Free tier | API key | - | - | public-apis | - |
+| [Aether-X Port Congestion Oracle](https://github.com/belegante-byte/aetherx-oracle-engine) | API | Port congestion, ETA delay and freight risk signals for global ports | Free tier | API key | - | [docs](https://rapidapi.com/belegante/api/aether-x-port-congestion-oracle) | public-apis | - |
 | [Aftership](https://www.aftership.com/docs/tracking/quickstart/api-quick-start) | API | API to update, manage and track shipment efficiently | Free tier | API key | - | - | public-apis | - |
 | [AirportMiles](https://airportmiles.com/api) | API | Airport codes, distances, routes and passenger numbers as static JSON files | Free tier | None | - | - | public-apis | - |
 | [airportsapi](https://airport-web.appspot.com/api/docs/) | API | Airport names and websites lookup API by ICAO code | Free tier | None | - | - | public-apis | - |

@@ -4,6 +4,7 @@ Company data, CRMs, invoicing, product catalogs and marketplaces.
 
 | Name | Type | Description | Access | Auth | License | Docs | Source | Checked |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [Adobe Commerce](https://business.adobe.com/products/magento/magento-commerce.html) | API | Enterprise ecommerce platform and APIs, formerly Magento Commerce | Paid | Account | - | [docs](https://experienceleague.adobe.com/en/docs/commerce) | APIs.guru, editorial | - |
 | [Apache Superset](https://superset.apache.org/docs/api) | API | API to manage your BI dashboards and data sources on Superset | Free tier | API key | - | - | public-apis | - |
 | [ARC](https://www.arcreport.ai/developers) | API | Open data on whether AI shopping agents can reach checkout at specific online stores | Free tier | None | - | - | public-apis | - |
 | [Axesso Api](https://axesso.de) | API | Use this api to fetch information to Amazon products and more | - | - | Apache 2.0 | [docs](https://api.apis.guru/v2/specs/axesso.de/1.0.0/openapi.json) | APIs.guru | - |
@@ -41,7 +42,6 @@ Company data, CRMs, invoicing, product catalogs and marketplaces.
 | [Lazada](https://open.lazada.com/doc/doc.htm) | API | Retrieve product ratings and seller performance metrics | Free tier | API key | - | - | public-apis | - |
 | [Leadgen Romania](https://leadgen.adrianhomelab.com/en/docs) | API | Romanian company registry, ANAF tax status and financial statements | Free tier | API key | - | - | public-apis | - |
 | [Legal Sandbox Georgia](https://legal.ge/api/openapi.json) | API | Find verified legal specialists in Georgia from natural-language queries | Free tier | None | - | - | public-apis | - |
-| [Magento B2B](https://magento.com) | API | Magento Commerce is the leading provider of open omnichannel innovation | - | - | - | [docs](https://api.apis.guru/v2/specs/magento.com/2.2.10/openapi.json) | APIs.guru | - |
 | [Mailchimp](https://mailchimp.com/developer) | API | Send marketing campaigns and transactional mails | Free tier | API key | - | - | public-apis | - |
 | [mailjet](https://www.mailjet.com) | API | Marketing email can be sent and mail templates made in MJML or HTML can be sent using API | Free tier | API key | - | - | public-apis | - |
 | [Marker API](https://markerapi.com) | API | US trademark search API over USPTO database | Free tier | None | - | - | public-apis | - |

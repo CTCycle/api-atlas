@@ -9,7 +9,6 @@ Social platforms, advertising, audience and influencer data.
 | [Ayrshare](https://www.ayrshare.com) | API | Social media APIs to post, get analytics, and manage multiple users social media accounts | Free tier | API key | - | - | public-apis | - |
 | [Blogger](https://developers.google.com/blogger) | API | The Blogger APIs allows client applications to view and update Blogger content | Free tier | OAuth | - | - | public-apis | - |
 | [Bluesky](https://bsky.network/) | API | Decentralized social networking via the AT protocol | Free tier | None | - | - | public-apis | - |
-| [Cisco Spark](https://developer.ciscospark.com) | API | Team collaboration and messaging API (Webex) | Free tier | OAuth | - | - | public-apis | - |
 | [Discord](https://discord.com/developers/docs/intro) | API | Discord developer platform for bots and integrations | Free tier | OAuth | - | - | public-apis | - |
 | [Disqus](https://disqus.com/api/docs/auth/) | API | Disqus global comment system API for site discussions | Free tier | OAuth | - | - | public-apis | - |
 | [Facebook](https://developers.facebook.com) | API | Facebook Login, Share on FB, Social Plugins, Analytics and more | Free tier | OAuth | - | - | public-apis | - |
@@ -36,7 +35,7 @@ Social platforms, advertising, audience and influencer data.
 | [Publora](https://docs.publora.com/getting-started) | API | Publish and schedule posts to ten social networks from one endpoint | Free tier | API key | - | - | public-apis | - |
 | [Reddit](https://www.reddit.com/dev/api) | API | Reddit API for accessing posts, users and subreddits | Free tier | OAuth | - | - | public-apis | - |
 | [RedditAPIs](https://www.redditapis.com) | API | Reddit data API: subreddit listings, post/comment/community/user search, comment trees, top posts | Free tier | API key | - | - | public-apis | - |
-| [Slack](https://api.slack.com/) | API | Slack developer docs for messaging and workspace APIs | Free tier | OAuth | - | - | public-apis | - |
+| [Slack](https://docs.slack.dev) | API | Slack platform APIs for apps, workflows, messaging and automation | Free tier | OAuth | - | [docs](https://docs.slack.dev) | public-apis, editorial | 2026-11-03 |
 | [SocialCrawl](https://www.socialcrawl.dev/docs) | API | Social and commerce data from 50+ platforms in one JSON schema | Free tier | API key | - | - | public-apis | - |
 | [Stoat](https://developers.stoat.chat/) | API | Stoat (formerly Revolt) REST and WebSocket API for chat, servers, channels, messages, users, and bots | Free tier | API key | - | - | public-apis | - |
 | [SwarmMemo](https://swarmmemo.com/protocol.md) | API | Public bulletin board where AI agents and humans read, post and reply, no account or key needed | Free tier | None | - | - | public-apis | - |
@@ -49,10 +48,11 @@ Social platforms, advertising, audience and influencer data.
 | [Tumblr](https://www.tumblr.com/docs/en/api/v2) | API | Tumblr API for reading and writing blog data | Free tier | OAuth | - | - | public-apis | - |
 | [TweetAPI](https://tweetapi.com/docs/getting-started/overview) | API | Public Twitter data for posts, profiles, followers, search, lists and communities | Free tier | API key | - | - | public-apis | - |
 | [Twitch](https://dev.twitch.tv/docs) | API | Twitch API for streaming, channels and developer docs | Free tier | OAuth | - | - | public-apis | - |
-| [Twitter](https://developer.twitter.com/en/docs) | API | X (Twitter) API for posts, users and trends | Free tier | OAuth | - | - | public-apis | - |
 | [TwitterAPIs](https://www.twitterapis.com) | API | Twitter / X data API: search, profiles, timelines, followers, DMs, write actions | Free tier | API key | - | - | public-apis | - |
 | [TwittrAPI](https://www.twittrapi.com/docs) | API | Public Twitter/X data: profiles, tweets, replies, search, followers, lists, communities, trends | Free tier | API key | - | - | public-apis | - |
 | [vk](https://vk.com/dev/sites) | API | VKontakte platform API documentation (login required) | Free tier | OAuth | - | - | public-apis | - |
+| [Webex API](https://developer.webex.com) | API | REST APIs for Webex messaging, meetings, calling and collaboration | Free tier | OAuth | - | [docs](https://developer.webex.com/docs/getting-started) | public-apis, editorial | 2026-11-03 |
 | [Weir](https://docs.weirapp.io) | API | Public Reddit and X (Twitter) search and profile data | Free tier | API key | - | - | public-apis | - |
+| [X API](https://developer.x.com) | API | Pay-per-use API for posts, users, trends and real-time X data | Paid | API key | - | [docs](https://docs.x.com/overview) | public-apis, editorial | 2026-11-03 |
 | [xfetch](https://xfetch.io) | API | Read API for X/Twitter search, profiles, tweets, and social graph | Free tier | API key | - | - | public-apis | - |
 | [XFlux](https://www.xfluxapi.com/docs/api) | API | Read X/Twitter profiles, search, timelines; account monitors with signed webhooks | Free tier | API key | - | - | public-apis | - |

@@ -35,7 +35,6 @@ Version control, CI, code quality, package registries and build tooling.
 | [Browshot](https://browshot.com/api/documentation) | API | Easily make screenshots of web pages in any screen size, as any device | Free tier | API key | - | [docs](https://api.apis.guru/v2/specs/browshot.com/1.17.0/swagger.json) | public-apis, APIs.guru | - |
 | [Buddy](https://buddy.works/docs/api/getting-started/overview) | API | The fastest continuous integration and continuous delivery platform | Free tier | OAuth | - | - | public-apis | - |
 | [CDNJS](https://api.cdnjs.com/libraries/jquery) | API | Library metadata and version API for CDNJS | Free tier | None | - | - | public-apis | - |
-| [Changelogs.md](https://changelogs.md) | API | Structured changelog metadata from open source projects | Free tier | None | - | - | public-apis | - |
 | [ChartBytes](https://chartbytes.meridian-digital.pro) | API | Chart image API: turn a URL into a PNG or SVG chart (bar, line, area, scatter, pie, donut, stacked) | Free tier | None | - | - | public-apis | - |
 | [Ciprand](https://github.com/polarspetroll/ciprand) | API | Generate cryptographically secure random strings and numbers through a simple HTTP API | Free tier | None | - | - | public-apis | - |
 | [CircleCI](https://circleci.com/docs/guides/toolkit/api-intro/) | API | Automate the software development process using continuous integration and continuous delivery | Free tier | API key | - | - | public-apis | - |
@@ -167,7 +166,6 @@ Version control, CI, code quality, package registries and build tooling.
 | [Postman Echo](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation) | API | Test api server to receive and return value from HTTP method | Free tier | None | - | [docs](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation) | public-apis | - |
 | [ProxyCrawl](https://crawlbase.com/) | API | Web scraping API that bypasses anti-bot protections and renders JavaScript pages | Free tier | API key | - | - | public-apis | - |
 | [ProxyForge](https://proxyforge.dev) | API | Free auto-updating list of live-tested proxies (HTTP/HTTPS/SOCKS4/SOCKS5), refreshed every 6 h | Free tier | None | - | - | public-apis | - |
-| [ProxyKingdom](https://proxykingdom.com) | API | Rotating Proxy API that produces a working proxy on every request | Free tier | API key | - | [docs](https://api.apis.guru/v2/specs/proxykingdom.com/v1/openapi.json) | public-apis, APIs.guru | - |
 | [PurgoMalum](http://www.purgomalum.com) | API | Content validator against profanity & obscenity | Free tier | None | - | - | public-apis | - |
 | [Pusher Beams](https://pusher.com/beams) | API | Cross-platform push notification API for delivering messages to Android, iOS, and web | Free tier | API key | - | - | public-apis | - |
 | [QR code](https://goqr.me/api/) | API | Generate and decode / read QR code graphics | Free tier | None | - | - | public-apis | - |
