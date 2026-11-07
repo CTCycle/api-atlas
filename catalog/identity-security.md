@@ -15,7 +15,7 @@ Authentication, breach data, vulnerability feeds and threat intelligence.
 | [Bugcrowd](https://docs.bugcrowd.com/api/getting-started) | API | Bugcrowd API for interacting and tracking the reported issues programmatically | Free tier | API key | - | - | public-apis | - |
 | [CAPEsandbox](https://capev2.readthedocs.io/en/latest/usage/api.html) | API | Malware analysis sandbox REST API for submitting files/URLs and fetching analysis reports, tasks, and machine status | Free tier | API key | - | - | public-apis | - |
 | [Censys](https://search.censys.io/api) | API | Search engine for Internet connected host and devices | Free tier | API key | - | - | public-apis | - |
-| [CISA Known Exploited Vulnerabilities](https://rapidapi.com/crisp-point-studio-crisp-point-studio-default/api/live-cisa-cybersecurity-vulnerabilities-kev) | API | CISA KEV catalog of actively exploited CVEs as JSON, filterable by vendor, with CWE and due dates | Free tier | API key | - | - | public-apis | - |
+| [CISA Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) | API | CISA KEV catalog of actively exploited CVEs as JSON, filterable by vendor, with CWE and due dates | Free | None | - | - | public-apis | - |
 | [Complete Criminal Checks](https://completecriminalchecks.com/Developers) | API | Provides data of offenders from all U.S. States and Pureto Rico | Free tier | API key | - | - | public-apis | - |
 | [CompliAPI](https://docs.compliapi.com/introduction) | API | Screen crypto addresses, emails, websites, IDs and countries against OFAC, EU, UK sanctions lists | Free tier | API key | - | - | public-apis | - |
 | [CSR.plus](https://csr.plus/docs/api) | API | Generate certificate signing requests and private keys without OpenSSL | Free tier | None | - | - | public-apis | - |
@@ -53,7 +53,7 @@ Authentication, breach data, vulnerability feeds and threat intelligence.
 | [Mozilla tls scanner](https://github.com/mozilla/tls-observatory) | API | Mozilla TLS Observatory API for scanning TLS configurations, X.509 certificates, and trust chains | Free tier | None | - | - | public-apis | - |
 | [National Vulnerability Database](https://nvd.nist.gov/vuln/data-feeds/json-feed-changelog) | API | NIST National Vulnerability Database API for CVE records, CPE, and CVSS scores via JSON data feeds | Free tier | None | - | - | public-apis | - |
 | [Neetix Liveliness](https://liveliness.neetix.in/api-reference) | API | Face liveness, presentation-attack detection and 1:1 face match for identity verification | Free tier | API key | - | - | public-apis | - |
-| [NoPhishy](https://rapidapi.com/Amiichu/api/exerra-phishing-check) | API | Check links to see if they're known phishing attempts | Free tier | API key | - | - | public-apis | - |
+| [NoPhishy](https://docs.exerra.xyz/docs/api/v3/exerra-api-v-3) | API | Check links to see if they're known phishing attempts | Free | None | - | [docs](https://docs.exerra.xyz/docs/api/v3/scan-phishing) | public-apis | - |
 | [OSV](https://google.github.io/osv.dev/api) | API | Open source vulnerability database and distributed triage infrastructure | Free tier | None | - | - | public-apis | - |
 | [Passwordinator](https://github.com/fawazsullia/password-generator) | API | Generate random passwords of varying complexities | Free tier | None | - | - | public-apis | - |
 | [PhishStats](https://phishstats.info/) | API | Phishing URL, IP and domain database with real-time threat feed | Free tier | None | - | - | public-apis | - |
@@ -66,15 +66,14 @@ Authentication, breach data, vulnerability feeds and threat intelligence.
 | [Sealed Rose](https://sealedrose.com/verify-video) | API | AI media forensics and synthetic content verification for video, audio, image, and text | Free tier | API key | - | - | public-apis | - |
 | [SecurityTrails](https://securitytrails.com/) | API | Domain and IP related information such as current and historical WHOIS and DNS records | Free tier | API key | - | - | public-apis | - |
 | [Shodan](https://developer.shodan.io) | API | Search engine for Internet connected devices | Free tier | API key | - | - | public-apis | - |
-| [Spyse](https://spyse-dev.readme.io/reference/quick-start) | API | Access data on all Internet assets and build powerful attack surface management applications | Free tier | API key | - | - | public-apis | - |
-| [SSL Domain Health Check](https://rapidapi.com/goktugbk/api/ssl-domain-health-check) | API | SSL certificate validity, domain WHOIS status, and DNS record checks for any domain | Free tier | API key | - | - | public-apis | - |
+| [Spyse](https://spyse-dev.readme.io/reference/quick-start) | API | Internet asset data for attack surface mapping | Free tier | API key | - | - | public-apis | - |
 | [SSL Labs](https://github.com/ssllabs/ssllabs-scan/blob/master/ssllabs-api-docs-v3.md) | API | Deep SSL/TLS server analysis with A+ to F grading | Free tier | None | - | - | public-apis | - |
 | [Stytch](https://stytch.com) | API | User infrastructure for modern applications | Free tier | API key | - | - | public-apis | - |
 | [Tanod](https://tanod.dev) | API | Pay-per-call scans of smart contracts, addresses and MCP/skill packages; small free daily tier | Free tier | None | - | - | public-apis | - |
 | [ThreatCluster](https://threatcluster.io/api/public/v1/docs) | API | Threat intelligence: incident clusters, validated IOCs, CVEs, ransomware leak-site victims | Free tier | API key | - | - | public-apis | - |
 | [UK Police](https://data.police.uk/docs/) | API | UK police data API with crime statistics and incidents | Free tier | None | - | - | public-apis | - |
 | [URLhaus](https://urlhaus-api.abuse.ch) | API | abuse.ch URLhaus API for querying malware URLs, payloads, hosts, tags, and recent additions | Free tier | None | - | - | public-apis | - |
-| [URLScan.io](https://urlscan.io/about-api/) | API | Scan and analyse URLs for malicious content and phishing | Free tier | API key | - | - | public-apis | - |
+| [URLScan.io](https://docs.urlscan.io/pages/api-intro) | API | Scan and analyse URLs for malicious content and phishing | Free tier | API key | - | - | public-apis | - |
 | [VirusTotal](https://docs.virustotal.com/reference/overview) | API | File and URL analysis for malware and threats | Free tier | API key | - | - | public-apis | - |
 | [VPNDetection](https://docs.vpndetection.io/api) | API | Check whether an IPv4 or IPv6 address belongs to VPN infrastructure, no key needed | Free tier | None | - | - | public-apis | - |
 | [VulDB](https://vuldb.com) | API | VulDB API allows to initiate queries for one or more items along with transactional bots | Free tier | API key | - | - | public-apis | - |

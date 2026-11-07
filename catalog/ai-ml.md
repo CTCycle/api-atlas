@@ -23,6 +23,7 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [DBpedia](https://databus.dbpedia.org/dbpedia/collections/latest-core) | Dataset | Latest core DBpedia dataset of factual triples extracted from English Wikipedia infoboxes and articles | - | - | - | - | awesome-datasets | - |
 | [DeepAI](https://deepai.org) | API | Provides AI-powered APIs for text generation, image processing, and more | Free tier | API key | - | - | public-apis | - |
 | [Deepcode](https://snyk.io/platform/deepcode-ai/) | API | AI-powered code review and security scanning for source code | Free tier | None | - | - | public-apis | - |
+| [Detect Language](https://detectlanguage.com/) | API | Language identification for short text across more than 170 languages | Free tier | API key | - | [docs](https://detectlanguage.com/documentation) | public-apis | - |
 | [DreamThreads](https://mydreamthreads.xyz/dream-interpretation-api) | API | Parse dreams into structured entities, emotions, agency, threat, and outcomes | Free tier | None | - | - | public-apis | - |
 | [eidosSpeech](https://eidosspeech.xyz) | API | Free text-to-speech API with 1,200+ neural voices in 75+ languages | Free tier | API key | - | - | public-apis | - |
 | [ELI](https://nlp.insightera.co.th/docs/v1.0) | API | Natural Language Processing Tools for Thai Language | Free tier | API key | - | - | public-apis | - |
@@ -38,7 +39,7 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [Hugging Face Datasets](https://huggingface.co/datasets) | Portal | Machine learning datasets hub and library available for public use | Free | None | Unknown | [docs](https://huggingface.co/docs/datasets/index) | editorial | 2026-10-24 |
 | [ImageNet](https://www.image-net.org/) | Dataset | Large-scale image classification dataset available for public use | Restricted | Registration | Custom (research use) | [docs](https://www.image-net.org/) | editorial | 2026-10-24 |
 | [Imagga](https://imagga.com) | API | Image Recognition Solutions like Tagging, Visual Search, NSFW moderation | Free tier | API key | - | - | public-apis | - |
-| [Inferdo](https://rapidapi.com/user/inferdo) | API | Computer Vision services like Facial detection, Image labeling, NSFW classification | Free tier | API key | - | - | public-apis | - |
+| [Inferdo](https://inferdo.com/) | API | Computer Vision services like Facial detection, Image labeling, NSFW classification | Free tier | API key | - | - | public-apis | - |
 | [Iranis](https://alitourani.github.io/Iranis-dataset) | Dataset | A Large-scale Dataset of Farsi/Arabic License Plate Characters | - | - | - | - | awesome-datasets | - |
 | [Irisnet](https://api.irisnet.de/swagger-ui/index.html) | API | Realtime content moderation API that blocks or blurs unwanted images in real-time | Free tier | API key | - | - | public-apis | - |
 | [Jina AI](https://jina.ai) | API | Free AI API for embeddings, reranking, and text processing | Free tier | API key | - | - | public-apis | - |
@@ -48,22 +49,21 @@ Model inference, embeddings, speech, vision, training data and ML platforms.
 | [LAION-5B](https://laion.ai/blog/laion-5b/) | Dataset | Large-scale image-text dataset for training available for public use | Restricted | Registration | Unknown | [docs](https://laion.ai/blog/laion-5b/) | editorial | 2026-10-24 |
 | [Langbly](https://langbly.com/docs) | API | Context-aware text translation and language detection for 100+ languages | Free tier | API key | - | - | public-apis | - |
 | [Laya Decision Gateway](https://laya.harshad.eu.org) | API | Sub-35ms AI gateway for prompt injection defense, support ticket triage & content moderation | Free tier | API key | - | - | public-apis | - |
-| [Lecto Translation](https://rapidapi.com/lecto-lecto-default/api/lecto-translation) | API | Translation API with free tier and reasonable prices | Free tier | API key | - | - | public-apis | - |
+| [Lecto Translation](https://lecto.ai/) | API | Translation API with free tier and reasonable prices | Free tier | API key | - | - | public-apis | - |
 | [LibreTranslate](https://libretranslate.com/docs) | API | Translation tool with 17 available languages | Free tier | None | - | - | public-apis | - |
 | [Machinetutors](https://machinetutors.com/api) | API | AI Solutions: Video/Image Classification & Tagging, NSFW, Icon/Image/Audio Search, NLP | Free tier | API key | - | - | public-apis | - |
 | [Making Sense of Microposts 2013](https://web.archive.org/web/20170325004450/https://oak.dcs.shef.ac.uk/msm2013/challenge.html) | Dataset | 4,341 manually annotated microposts for concept extraction of persons, locations, organizations, and misc | - | - | - | - | awesome-datasets | - |
 | [Making Sense of Microposts 2016](https://microposts2016.engineering.upenn.edu/challenge.html) | Dataset | Tweet dataset for named entity recognition and linking to DBpedia 2014 resources with NIL identifiers | - | - | - | - | awesome-datasets | - |
 | [MediaCraft AI](https://mediacraft-x402-api.onrender.com) | API | Chinese content compliance review (17 platforms), EN↔CN translation, and SEO optimization. Pay-per-call via x402 (Solana USDC) | Free tier | API key | - | - | public-apis | - |
 | [MessengerX.io](https://messengerx.readthedocs.io/en/latest/) | API | A FREE API for developers to build and monetize personalized ML based chat apps | Free tier | API key | - | - | public-apis | - |
-| [Mistral](https://mistral.ai) | API | Mistral AI API for frontier and specialist language models, embeddings, and code generation | Freemium | API key | - | - | editorial | 2026-10-24 |
-| [Mistral AI](https://docs.mistral.ai/api) | API | High-performance LLM API by Mistral AI including Mistral and Mixtral models, with a free tier | Free tier | API key | - | - | public-apis | - |
+| [Mistral AI](https://mistral.ai) | API | Mistral AI API for frontier and specialist language models, embeddings, and code generation | Freemium | API key | - | [docs](https://docs.mistral.ai/api) | editorial | 2026-10-24 |
 | [Modelfax](https://bytebrujo.github.io/modelfax) | API | LLM pricing, context windows and deprecation dates, schema-validated and updated daily | Free tier | None | - | - | public-apis | - |
 | [MotaWord API](https://www.motaword.com/) | API | Use MotaWord API to post and track your translation projects | - | - | - | [docs](https://api.motaword.com/) | APIs.guru | - |
 | [Neurotechnology Cloud](https://neurotechnologycloud.com/) | API | Face Detection, Face Recognition and Face Grouping | Free tier | API key | - | - | public-apis | - |
 | [NLP Cloud](https://nlpcloud.com/) | API | NLP API using spaCy and transformers for NER, sentiments, classification, summarization, and more | Free tier | API key | - | - | public-apis | - |
 | [Nonobench](https://www.nonobench.com/how-it-works) | API | Open-source benchmark of how well LLMs solve nonogram puzzles | Free tier | None | - | - | public-apis | - |
 | [Not Human Search](https://nothumansearch.ai/openapi.yaml) | API | AI tool discovery with agentic scoring for 8,600+ tools and MCP servers | Free tier | None | - | - | public-apis | - |
-| [ocrapi](https://cloudmersive.com) | API | The powerful Optical Character Recognition (OCR) APIs let you convert scanned images of pages into recognized text | - | - | - | [docs](https://api.cloudmersive.com/ocr/docs/v1/swagger) | APIs.guru | - |
+| [ocrapi](https://cloudmersive.com) | API | Optical character recognition for scanned pages and images | - | - | - | [docs](https://api.cloudmersive.com/ocr/docs/v1/swagger) | APIs.guru | - |
 | [onomeo](https://onomeo.com/integrations#docs) | API | OpenAI-compatible, about 30 free LLMs, 30 calls per 5 hours, optional pay-as-you-go, public beta | Free tier | API key | - | - | public-apis | - |
 | [OpenAI](https://developers.openai.com/api/docs) | API | APIs for sampling from and fine-tuning language models | Paid | API key | - | [docs](https://developers.openai.com/api/docs/pricing) | editorial | 2026-10-24 |
 | [OpenML](https://www.openml.org/) | Portal | Open machine learning datasets and experiments available for public use | Free | API key | Unknown | [docs](https://www.openml.org/) | editorial | 2026-10-24 |

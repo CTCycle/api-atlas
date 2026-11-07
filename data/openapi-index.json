@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-03",
+ "generated": "2026-11-07",
  "description": "Entries that publish a parseable OpenAPI or Swagger document, discovered by scripts/probe.py. Absence is not proof that an API has no spec: it may sit behind auth or on another host.",
- "entries_probed": 2107,
- "specs": 535,
+ "entries_probed": 2092,
+ "specs": 528,
  "entries": [
   {
    "name": "ISRIC SoilGrids",
@@ -536,6 +536,16 @@
    "path_count": 33
   },
   {
+   "name": "Kraken REST API",
+   "category": "blockchain-crypto",
+   "type": "API",
+   "website": "https://www.kraken.com/",
+   "spec_url": "https://www.kraken.com/openapi.json",
+   "spec_version": "3.0.0",
+   "spec_title": "REST API",
+   "path_count": 78
+  },
+  {
    "name": "MadeOnSol",
    "category": "blockchain-crypto",
    "type": "API",
@@ -676,16 +686,6 @@
    "path_count": 3
   },
   {
-   "name": "Discovery API",
-   "category": "business-commerce",
-   "type": "API",
-   "website": "https://developer.ticketmaster.com/support/contact-us/",
-   "spec_url": "https://api.apis.guru/v2/specs/ticketmaster.com/discovery/v2/openapi.json",
-   "spec_version": "3.0.0",
-   "spec_title": "Discovery API",
-   "path_count": 13
-  },
-  {
    "name": "DropX",
    "category": "business-commerce",
    "type": "API",
@@ -694,16 +694,6 @@
    "spec_version": "2.0",
    "spec_title": "DropX",
    "path_count": 7
-  },
-  {
-   "name": "Fulfillment API",
-   "category": "business-commerce",
-   "type": "API",
-   "website": "https://ebay.com",
-   "spec_url": "https://api.apis.guru/v2/specs/ebay.com/sell-fulfillment/v1.19.19/openapi.json",
-   "spec_version": "3.0.0",
-   "spec_title": "Fulfillment API",
-   "path_count": 14
   },
   {
    "name": "Funding Signals",
@@ -826,16 +816,6 @@
    "path_count": 3
   },
   {
-   "name": "Product Library API",
-   "category": "business-commerce",
-   "type": "API",
-   "website": "https://www.zettle.com/it",
-   "spec_url": "https://api.apis.guru/v2/specs/izettle.com/products/1.0.0/openapi.json",
-   "spec_version": "3.0.1",
-   "spec_title": "Product Library API",
-   "path_count": 20
-  },
-  {
    "name": "Shop",
    "category": "business-commerce",
    "type": "API",
@@ -904,6 +884,16 @@
    "spec_version": "3.1.0",
    "spec_title": "TradeDataHub Public API",
    "path_count": 13
+  },
+  {
+   "name": "Trello REST API",
+   "category": "business-commerce",
+   "type": "API",
+   "website": "https://trello.com/",
+   "spec_url": "https://developer.atlassian.com/cloud/trello/swagger.v3.json",
+   "spec_version": "3.0.0",
+   "spec_title": "Trello REST API",
+   "path_count": 191
   },
   {
    "name": "UGC VZ",
@@ -1064,26 +1054,6 @@
    "spec_version": "3.1.0",
    "spec_title": "Email Validator API",
    "path_count": 2
-  },
-  {
-   "name": "Extension API",
-   "category": "communication",
-   "type": "API",
-   "website": "https://businesssupport.vonage.com/contactus",
-   "spec_url": "https://api.apis.guru/v2/specs/vonage.com/extension/1.11.8/openapi.json",
-   "spec_version": "3.0.0",
-   "spec_title": "Extension API",
-   "path_count": 2
-  },
-  {
-   "name": "External Accounts API",
-   "category": "communication",
-   "type": "API",
-   "website": "https://developer.vonage.com/en/home",
-   "spec_url": "https://api.apis.guru/v2/specs/nexmo.com/external-accounts/0.1.5/openapi.json",
-   "spec_version": "3.0.1",
-   "spec_title": "External Accounts API",
-   "path_count": 7
   },
   {
    "name": "Mailfornet",
@@ -1276,16 +1246,6 @@
    "path_count": 17
   },
   {
-   "name": "API Endpoints",
-   "category": "developer-tools",
-   "type": "API",
-   "website": "https://readme.com/",
-   "spec_url": "https://api.apis.guru/v2/specs/readme.io/2.0.0/openapi.json",
-   "spec_version": "3.0.2",
-   "spec_title": "API Endpoints",
-   "path_count": 17
-  },
-  {
    "name": "API Tool Calls",
    "category": "developer-tools",
    "type": "API",
@@ -1404,6 +1364,16 @@
    "spec_version": "3.0.0",
    "spec_title": "ClickMeter API",
    "path_count": 75
+  },
+  {
+   "name": "crates.io API",
+   "category": "developer-tools",
+   "type": "API",
+   "website": "https://crates.io/",
+   "spec_url": "https://crates.io/api/openapi.json",
+   "spec_version": "3.1.0",
+   "spec_title": "crates.io",
+   "path_count": 40
   },
   {
    "name": "crawlbrulee",
@@ -2357,16 +2327,6 @@
    "path_count": 183
   },
   {
-   "name": "NBA Stats API",
-   "category": "entertainment-media",
-   "type": "API",
-   "website": "https://nba.com",
-   "spec_url": "https://api.apis.guru/v2/specs/nba.com/version/swagger.json",
-   "spec_version": "2.0",
-   "spec_title": "NBA Stats API",
-   "path_count": 91
-  },
-  {
    "name": "News Plugin",
    "category": "entertainment-media",
    "type": "API",
@@ -2405,16 +2365,6 @@
    "spec_version": "3.1.0",
    "spec_title": "PositiveQuotation Public Domain Quotes API",
    "path_count": 3
-  },
-  {
-   "name": "Radio & Music Services",
-   "category": "entertainment-media",
-   "type": "API",
-   "website": "https://www.bbc.co.uk/",
-   "spec_url": "https://api.apis.guru/v2/specs/bbc.co.uk/1.0.0/swagger.json",
-   "spec_version": "2.0",
-   "spec_title": "Radio & Music Services",
-   "path_count": 45
   },
   {
    "name": "Songsterr",
@@ -4018,16 +3968,6 @@
    "path_count": 23
   },
   {
-   "name": "Dealer",
-   "category": "logistics-transportation",
-   "type": "API",
-   "website": "https://mercedes-benz.com",
-   "spec_url": "https://api.apis.guru/v2/specs/mercedes-benz.com/dealer/1.0/swagger.json",
-   "spec_version": "2.0",
-   "spec_title": "Dealer",
-   "path_count": 3
-  },
-  {
    "name": "Faretrotter Travel API",
    "category": "logistics-transportation",
    "type": "API",
@@ -4326,16 +4266,6 @@
    "spec_version": "3.1.0",
    "spec_title": "10ML Fragrance Index API",
    "path_count": 8
-  },
-  {
-   "name": "49 Gallery Historical Data",
-   "category": "open-data",
-   "type": "API",
-   "website": "https://api.181649.com/docs",
-   "spec_url": "https://api.181649.com/openapi.json",
-   "spec_version": "3.1.0",
-   "spec_title": "49API",
-   "path_count": 4
   },
   {
    "name": "APIllow",

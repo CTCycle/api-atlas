@@ -18,7 +18,6 @@ News archives, headlines, fact checking and media monitoring.
 | [NewsData](https://newsdata.io/documentation) | API | News data API for live-breaking news and headlines from reputed news sources | Free tier | API key | - | - | public-apis | - |
 | [Newsflash](https://newsflash.sh/docs) | API | Deduplicated news events from 260+ sources with corroboration/confidence scores for AI agents | Free tier | API key | - | - | public-apis | - |
 | [NewsMesh](https://newsmesh.co/docs) | API | Premium news data from thousands of sources | Free tier | API key | - | - | public-apis | - |
-| [NewsX](https://rapidapi.com/machaao-inc-machaao-inc-default/api/newsx) | API | Get or Search Latest Breaking News with ML Powered Summaries 🤖 | Free tier | API key | - | - | public-apis | - |
 | [Noozra](https://noozra.com/api) | API | Free news headlines from 200+ curated RSS sources | Free tier | None | - | - | public-apis | - |
 | [Scoopkit](https://scoopkit.dev) | API | AI-industry news deduplicated into structured events with a versioned category taxonomy | Free tier | API key | - | - | public-apis | - |
 | [The Guardian](https://open-platform.theguardian.com/) | API | Access all the content the Guardian creates, categorised by tags and section | Free tier | API key | - | - | public-apis | - |

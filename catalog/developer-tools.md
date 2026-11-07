@@ -12,12 +12,11 @@ Version control, CI, code quality, package registries and build tooling.
 | [AmberOne](https://scubamike124.github.io/amberone-api) | API | Turn any website into a build-ready Android, iOS, PWA or Electron app project | Free tier | API key | - | - | public-apis | - |
 | [Anchore Engine API Server](https://anchore.com/) | API | This is the Anchore Engine API. Provides the primary external API for users of the service | - | - | Apache 2.0 | [docs](https://api.apis.guru/v2/specs/anchore.io/0.1.20/openapi.json) | APIs.guru | - |
 | [AnswerLine](https://answerline.dev) | API | Answers, citations and sources from AI assistants and Google surfaces through one API | Free tier | API key | - | - | public-apis | - |
-| [API Endpoints](https://readme.com/) | API | Create beautiful product and API documentation with our developer friendly platform | - | - | - | [docs](https://api.apis.guru/v2/specs/readme.io/2.0.0/openapi.json) | APIs.guru | - |
 | [API Grátis](https://apigratis.com.br) | API | Brazilian gateway offering 170+ REST APIs for CPF, CNPJ, vehicles, WhatsApp, SMS, CEP, and more | Free tier | API key | - | - | public-apis | - |
 | [API Tool Calls](https://apitoolcalls.com/api) | API | API Tool Calls: Home cost planners, page to Markdown, SEO checks and recalls | Free tier | None | - | - | public-apis | - |
 | [ApicAgent](https://www.apicagent.com) | API | Extract device details from user-agent string | Free tier | None | - | - | public-apis | - |
 | [ApiFlash](https://apiflash.com) | API | Chrome based screenshot API for developers | Free tier | API key | - | - | public-apis | - |
-| [APIs.guru](https://apis.guru/api-doc) | API | Wikipedia for Web APIs. Repository of API definitions in OpenAPI format. Warning: If you want to be notified about changes in advance please join our Slack channel. Client sample: | Free tier | None | CC0 1.0 | [docs](https://api.apis.guru/v2/specs/apis.guru/2.2.0/openapi.json) | public-apis, APIs.guru | - |
+| [APIs.guru](https://apis.guru/) | API | Wikipedia for Web APIs. Repository of API definitions in OpenAPI format. Warning: If you want to be notified about changes in advance please join our Slack channel. Client sample: | Free | None | CC0 1.0 | [docs](https://apis.guru/api-doc) | public-apis, APIs.guru | - |
 | [APIzone](https://apizone.io/api-docs) | API | Independent uptime & status monitoring for 200+ popular APIs | Free tier | None | - | - | public-apis | - |
 | [Aquanode](https://docs.aquanode.io/docs/api/marketplace) | API | Live GPU rental prices and availability across nine cloud providers | Free tier | None | - | - | public-apis | - |
 | [Attestwire](https://api.attestwire.com/docs) | API | Validate EN 16931 e-invoices: XRechnung, ZUGFeRD, Factur-X, Peppol BIS | Free tier | API key | - | - | public-apis | - |
@@ -50,6 +49,7 @@ Version control, CI, code quality, package registries and build tooling.
 | [Commit messages](https://github.com/src-d/datasets/tree/master/CommitMessages) | Dataset | 1.3 billion GitHub commit messages till March 2019 | - | - | - | - | awesome-datasets | - |
 | [Contentful Images](https://www.contentful.com/developers/docs/references/images-api) | API | Used to retrieve and apply transformations to images | Free tier | API key | - | - | public-apis | - |
 | [CORS Proxy](https://github.com/burhanuday/cors-proxy) | API | Get around the dreaded CORS error by using this proxy as a middle man | Free tier | None | - | - | public-apis | - |
+| [crates.io API](https://crates.io/) | API | Rust crate metadata, versions and downloads, plus the sparse registry index | Free | None | - | [docs](https://crates.io/data-access) | public-apis | 2026-11-07 |
 | [Crawl Readiness](https://www.crawlreadiness.com/) | API | Check if AI crawlers (ChatGPT, Claude, Perplexity, 30+ others) can access any website | Free tier | API key | - | - | public-apis | - |
 | [crawlbrulee](https://crawlbrulee.com/docs) | API | EU-native web scraping for AI agents & developers: turn any page into markdown, screenshots and more | Free tier | API key | - | - | public-apis | - |
 | [CurlShot](https://curlshot.com/docs) | API | Screenshots, PDFs and scrolling videos of any URL, HTML or Markdown; free tier | Free tier | API key | - | - | public-apis | - |
@@ -65,7 +65,7 @@ Version control, CI, code quality, package registries and build tooling.
 | [DomainDb Info](https://api.domainsdb.info) | API | Domain name search to find all domains containing particular words/phrases/etc | Free tier | None | - | - | public-apis | - |
 | [dotsweep](https://dotsweep.com/docs) | API | Domain availability across 1200+ TLDs with registration and renewal prices | Free tier | None | - | - | public-apis | - |
 | [DownStatus](https://isitdownstatus.com) | API | Real-time status for GitHub, AWS, Discord and 90+ services | Free tier | None | - | - | public-apis | - |
-| [Drupal.org](https://www.drupal.org/drupalorg/docs/api) | API | Drupal.org REST API for content and site management | Free tier | None | - | - | public-apis | - |
+| [Drupal.org](https://www.drupal.org/drupalorg/docs/apis/rest-and-other-apis) | API | Drupal.org REST API for content and site management | Free tier | None | - | - | public-apis | - |
 | [EndOfLife.date](https://endoflife.date/docs/api) | API | Software end-of-life dates and support lifecycles | Free tier | None | - | - | public-apis | - |
 | [Enterno](https://enterno.io/en/api-docs) | API | HTTP headers, DNS, SSL, WHOIS and redirect checks as plain text, JSON or CSV | Free tier | None | - | - | public-apis | - |
 | [Etherpad API](https://etherpad.org) | API | Etherpad is a real-time collaborative editor scalable to thousands of simultaneous real time users. It provides full data export capabilities, and runs on your server, under your control | - | - | Apache 2.0 | [docs](https://api.apis.guru/v2/specs/etherpad.local/1.2.15/openapi.json) | APIs.guru | - |
@@ -73,7 +73,7 @@ Version control, CI, code quality, package registries and build tooling.
 | [ExtendsClass JSON Storage](https://extendsclass.com/json-storage.html) | API | Free JSON storage over HTTP API for developers | Free tier | None | - | - | public-apis | - |
 | [Fair Draw](https://bettip.co.za/fair-draw/api) | API | Verifiable random draws bound to the drand public randomness beacon | Free tier | None | - | - | public-apis | - |
 | [Framejet](https://framejet.dev/docs) | API | Website screenshot API with cookie banners and chat widgets removed; free tier | Free tier | API key | - | - | public-apis | - |
-| [Free Url Shortener](https://ulvis.net/developer.html) | API | Free URL Shortener offers a powerful API to interact with other sites | Free tier | None | - | - | public-apis | - |
+| [Free Url Shortener](https://ulvis.net/developer.html) | API | URL shortening with click statistics | Free tier | None | - | - | public-apis | - |
 | [GcrawlAI](https://gcrawlai.com) | API | Web scraping, SERP API, screenshots, URL to Markdown and prebuilt extractors | Free tier | API key | - | - | public-apis | - |
 | [GeekFlare](https://geekflare.com/) | API | Provide numerous capabilities for important testing and monitoring methods for websites | Free tier | API key | - | - | public-apis | - |
 | [Genderize.io](https://genderize.io) | API | Predicts the likely gender of a first name with optional country localization | Free tier | None | - | - | public-apis | - |
@@ -189,7 +189,6 @@ Version control, CI, code quality, package registries and build tooling.
 | [ScrapingBot](https://scrapingbot.io) | API | Web scraping, AI extraction, and public TikTok, Instagram, Google and Amazon data as JSON | Free tier | API key | - | - | public-apis | - |
 | [ScrapingDog](https://www.scrapingdog.com/) | API | Web scraping proxy API for data extraction | Free tier | API key | - | [docs](https://www.scrapingdog.com/) | public-apis | - |
 | [Scrappa](https://scrappa.co/docs) | API | Google Search, Maps, Jobs, YouTube and review site results as structured JSON | Free tier | API key | - | - | public-apis | - |
-| [Scrax](https://rapidapi.com/mtaahoperators/api/scrax) | API | Web scraping API that only bills for successful scrapes | Free tier | API key | - | - | public-apis | - |
 | [Screenshot](https://www.abstractapi.com/api/website-screenshot-api) | API | Take programmatic screenshots of web pages from any website | Free tier | API key | - | - | public-apis | - |
 | [Screenshot Happy](https://screenshot-api-production-ffd7.up.railway.app/docs) | API | Website screenshot API (PNG/JPEG/PDF) with full-page capture and visual-diff monitors | Free tier | API key | - | - | public-apis | - |
 | [ScreenshotAPI.net](https://www.screenshotapi.net/) | API | Captures website screenshots and converts pages to images or PDFs via REST API | Free tier | API key | - | - | public-apis | - |
@@ -234,7 +233,7 @@ Version control, CI, code quality, package registries and build tooling.
 | [VerifNow](https://docs.verifnow.io) | API | Validates email, phone, IBAN, EU VAT against VIES, and Canadian, Spanish and US national IDs | Free tier | API key | - | [docs](https://docs.verifnow.io) | public-apis | - |
 | [Vornamencheck](https://vornamencheck.de) | API | Gender probability for a first name, optionally per country; documentation in German | Free tier | None | - | - | public-apis | - |
 | [W3C Validator](https://validator.w3.org/docs/api.html) | API | W3C Markup Validation Service API for checking HTML and XHTML markup and reporting errors | Free tier | None | - | - | public-apis | - |
-| [Web Metadata & Contact Extractor](https://rapidapi.com/josejuanjocoding/api/web-metadata-and-contact-extractor) | API | Extract SEO metadata, contact emails, social links, and tech stack (<200ms) | Free tier | API key | - | - | public-apis | - |
+| [Web Metadata & Contact Extractor](https://webmetadataextractor.com/) | API | Extract SEO metadata, contact emails, social links, and tech stack (<200ms) | Free tier | API key | - | [docs](https://webmetadataextractor.com/docs) | public-apis | - |
 | [Webclaw](https://webclaw.io/docs/api) | API | Web content extraction for LLMs with scrape, crawl, search, and summarize | Free tier | API key | - | - | public-apis | - |
 | [WebScraping.AI](https://webscraping.ai) | API | A client for https://webscraping.ai API. It provides a web scaping automation API with Chrome JS rendering, rotating proxies and builtin HTML parsing | Free tier | API key | - | [docs](https://api.apis.guru/v2/specs/webscraping.ai/2.0.7/openapi.json) | public-apis, APIs.guru | - |
 | [WeInc](https://my.we.inc/docs/api) | API | AI website builder: manage clients, website projects, templates and webhooks | Free tier | API key | - | [docs](https://my.we.inc/docs/api) | public-apis | - |

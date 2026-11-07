@@ -14,7 +14,7 @@ Museums, image collections, design assets, colour and typography data.
 | [Compresso](https://compresso.space/developers) | API | Visually lossless image compression for PNG, JPEG and WebP | Free tier | API key | - | - | public-apis | - |
 | [Cooper Hewitt](https://www.si.edu/collections/cooper-hewitt) | API | Smithsonian Design Museum collection data API | Free tier | API key | - | - | public-apis | - |
 | [Dagpi](https://dagpi.xyz) | API | Dagpi API for image manipulation, data collections, roasts, jokes, and game data | Free tier | API key | - | - | public-apis | - |
-| [Dribbble](https://developer.dribbble.com) | API | Discover the world's top designers & creatives | Free tier | OAuth | - | - | public-apis | - |
+| [Dribbble](https://developer.dribbble.com) | API | Designer profiles, shots, likes and collections | Free tier | OAuth | - | - | public-apis | - |
 | [DummyImage](https://dummyimage.com) | API | Generate placeholder images with custom size, colors and text | Free tier | None | - | - | public-apis | - |
 | [DynaPictures](https://dynapictures.com/docs) | API | Generate Hundreds of Personalized Images in Minutes | Free tier | API key | - | - | public-apis | - |
 | [EmojiHub](https://github.com/cheatsnake/emojihub) | API | Free HTTP API returning emojis by category or group with HTML codes and unicode values | Free tier | None | - | - | public-apis | - |
@@ -22,7 +22,7 @@ Museums, image collections, design assets, colour and typography data.
 | [Face Shape Guide Lookup](https://myfaceshapechart.com/openapi.json) | API | Read-only lookup for published face-shape guide records | Free tier | None | - | - | public-apis | - |
 | [Favicondl](https://favicondl.com/documentation.html) | API | Get any website's favicon by URL (SVG/PNG/ICO), with JSON metadata and fallbacks | Free tier | None | - | - | public-apis | - |
 | [Flickr](https://www.flickr.com/services/api/) | API | Photo hosting and sharing API for images and metadata | Free tier | OAuth | - | - | public-apis | - |
-| [Getty Images](https://developer.gettyimages.com/en/) | API | Build applications using the world's most powerful imagery | Free tier | OAuth | - | [docs](https://api.apis.guru/v2/specs/gettyimages.com/3/openapi.json) | public-apis, APIs.guru | - |
+| [Getty Images](https://developer.gettyimages.com/en/) | API | Licensed editorial and creative images, video and metadata | Free tier | OAuth | - | [docs](https://api.apis.guru/v2/specs/gettyimages.com/3/openapi.json) | public-apis, APIs.guru | - |
 | [Giphy](https://developers.giphy.com/docs/) | API | GIF search and delivery API for apps and projects | Free tier | API key | - | - | public-apis | - |
 | [Google Photos](https://developers.google.com/photos) | API | Integrate Google Photos with your apps or devices | Free tier | OAuth | - | - | public-apis | - |
 | [Icon Horse](https://icon.horse) | API | Favicon service returning the best available icon for any domain with sensible fallbacks | Free tier | None | - | - | public-apis | - |

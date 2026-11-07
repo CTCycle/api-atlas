@@ -12,7 +12,7 @@ Publications, citations, physics, chemistry and earth observation.
 | [Center for Systemic Peace Datasets](https://www.systemicpeace.org/) | Dataset | Conflict Trends, Polities, State Fragility, etc | - | - | - | - | awesome-datasets | - |
 | [Chempirical](https://chempirical.com/api) | API | Chemical compounds with physical data, reactions and substructure search | Free tier | None | - | - | public-apis | - |
 | [CodeCogs](https://fxeditor.codecogs.com/docs/1-fxtexserver_api.php) | API | Render LaTeX equations in PNG, GIF, SVG, EMF, PDF, JSON, or download formats with styling options | Free tier | None | - | - | public-apis | - |
-| [CORE](https://core.ac.uk/services) | API | Access the world's Open Access research papers | Free tier | API key | - | - | public-apis | - |
+| [CORE](https://core.ac.uk/services) | API | Open access research papers and metadata | Free tier | API key | - | - | public-apis | - |
 | [Crossref](https://www.crossref.org/) | Portal | Scholarly metadata and DOI registration agency available for public use | Free | None | CC0 1.0 | [docs](https://www.crossref.org/documentation/) | editorial | 2026-10-24 |
 | [CycleCalcs](https://www.cyclecalcs.com/api.html) | API | Interpreted astronomy: sun and moon times, moon phases, planets, eclipses, seasons | Free tier | None | - | - | public-apis | - |
 | [Danish data service Energi](https://www.energidataservice.dk/) | API | Open energy data from Energinet with API access | Free tier | None | - | - | public-apis | - |

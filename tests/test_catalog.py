@@ -207,5 +207,53 @@ class LinkCheckSemantics(unittest.TestCase):
         self.assertIsNone(hint)
 
 
+class TriageHelpers(unittest.TestCase):
+    def test_bot_wall_detection(self):
+        self.assertTrue(catalog._bot_wall("Just a moment..."))
+        self.assertTrue(catalog._bot_wall("Vercel Security Checkpoint"))
+        self.assertFalse(catalog._bot_wall("Open-Meteo API"))
+        self.assertFalse(catalog._bot_wall(None))
+
+    def test_auth_gated_401_is_not_a_bot_wall(self):
+        self.assertFalse(catalog._bot_wall("REST API"))
+
+
+class ReportSelection(unittest.TestCase):
+    def test_newest_report_uses_generated_stamp_not_filename(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            d = Path(tmp)
+            (d / "verify-2026-11-07-final.json").write_text(
+                '{"generated": "2026-11-07T10:00:00"}', encoding="utf-8")
+            (d / "verify-2026-11-07.json").write_text(
+                '{"generated": "2026-11-07T18:00:00"}', encoding="utf-8")
+            report = catalog._newest_report("verify-*.json", d)
+        self.assertEqual(report["generated"], "2026-11-07T18:00:00")
+
+    def test_no_reports_returns_none(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self.assertIsNone(catalog._newest_report("verify-*.json", Path(tmp)))
+
+
+class NearDuplicates(unittest.TestCase):
+    def _entry(self, name, url, category="open-data"):
+        return catalog.Entry(name=name, url=url, type="Portal", description="-",
+                             access="Free", auth="None", license="-", docs="-",
+                             source="editorial", checked="-", category=category)
+
+    def test_single_token_names_on_different_sites_are_not_paired(self):
+        rows = [self._entry("data.gov.au", "https://data.gov.au/"),
+                self._entry("data.gov.gr", "https://data.gov.gr/"),
+                self._entry("mail.gw", "https://docs.mail.gw"),
+                self._entry("mail.tm", "https://docs.mail.tm")]
+        self.assertEqual(catalog.near_duplicate_pairs(rows), [])
+
+    def test_renamed_product_on_one_site_is_paired(self):
+        rows = [self._entry("Mistral", "https://mistral.ai"),
+                self._entry("Mistral AI", "https://docs.mistral.ai/api")]
+        pairs = catalog.near_duplicate_pairs(rows)
+        self.assertEqual(len(pairs), 1)
+        self.assertEqual(pairs[0][0], "open-data")
+
+
 if __name__ == "__main__":
     unittest.main()

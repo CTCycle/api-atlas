@@ -45,7 +45,6 @@ Game databases, player stats, assets and community APIs.
 | [GW2Spidy](https://github.com/rubensayshi/gw2spidy/wiki) | API | GW2Spidy API, Items data on the Guild Wars 2 Trade Market | Free tier | None | - | - | public-apis | - |
 | [GZW Data](https://gzw-data.dev/docs/) | API | Gray Zone Warfare weapons, missions, loot, armor and game data | Free tier | None | - | - | public-apis | - |
 | [Halo](https://developer.haloapi.com) | API | Halo Public API (beta) for Halo 5 and Halo Wars 2 stats, matches, players, and metadata (API key) | Free tier | API key | - | - | public-apis | - |
-| [Humble Bundle](https://rapidapi.com/Ziggoto/api/humble-bundle) | API | Third-party RapidAPI wrapper exposing current Humble Bundle bundles via a single GET /get-bundles endpoint | Free tier | API key | - | - | public-apis | - |
 | [Humor](https://humorapi.com) | API | Jokes, puns, gifs and memes API with over 50000 jokes | Free tier | API key | - | - | public-apis | - |
 | [Hypixel](https://api.hypixel.net/) | API | Hypixel public API for player stats and game data | Free tier | API key | - | - | public-apis | - |
 | [Hyrule Compendium](https://github.com/gadhagod/Hyrule-Compendium-API) | API | Data on all interactive items from The Legend of Zelda: BOTW | Free tier | None | - | - | public-apis | - |
@@ -94,7 +93,7 @@ Game databases, player stats, assets and community APIs.
 | [Tebex](https://docs.tebex.io/plugin) | API | Tebex API for information about game purchases | Free tier | API key | - | - | public-apis | - |
 | [TETR.IO](https://tetr.io/about/api/) | API | TETR.IO API endpoints for user activity and game data | Free tier | None | - | - | public-apis | - |
 | [TickerMint](https://tickermint.cards/developers) | API | Daily market prices and price history for Pokémon, One Piece, Lorcana and Yu-Gi-Oh cards | Free tier | None | - | - | public-apis | - |
-| [Tronald Dump](https://www.tronalddump.io) | API | The dumbest things Donald Trump has ever said | Free tier | None | - | - | public-apis | - |
+| [Tronald Dump](https://www.tronalddump.io) | API | Quotes attributed to Donald Trump, searchable by keyword | Free tier | None | - | - | public-apis | - |
 | [Universalis](https://docs.universalis.app/) | API | REST API for Final Fantasy XIV market board listings, sale history, aggregated prices, and upload stats | Free tier | None | - | - | public-apis | - |
 | [Valorant (non-official)](https://valorant-api.com) | API | An extensive API containing data of most Valorant in-game items, assets and more | Free tier | None | - | - | public-apis | - |
 | [Wargaming.net](https://developers.wargaming.net/) | API | Wargaming developer API for game stats and clan data | Free tier | API key | - | - | public-apis | - |

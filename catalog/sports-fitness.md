@@ -22,7 +22,6 @@ Scores, statistics, fitness tracking and sports data.
 | [FanLine Wire](https://fanlinewire.com/docs) | API | Real-time FanDuel Sportsbook odds - live & in-play and pre-match, with a keyless public snapshot | Free tier | None | - | - | public-apis | - |
 | [FastballAPI](https://fastballapi.com/docs) | API | MLB since 2015 plus college baseball: pitches, plate appearances, box scores and sportsbook odds | Free tier | API key | - | - | public-apis | - |
 | [Fitbit](https://dev.fitbit.com/) | API | Fitbit SDK for building apps and clock faces with device data | Free tier | OAuth | - | - | public-apis | - |
-| [Football](https://rapidapi.com/GiulianoCrescimbeni/api/football98) | API | A simple Open Source Football API to get squads' stats, best scorers and more | Free tier | API key | - | - | public-apis | - |
 | [Football (Soccer) Videos](https://www.scorebat.com/video-api) | API | Embed codes for goals and highlights from Premier League, Bundesliga, Serie A and many more | Free tier | None | - | - | public-apis | - |
 | [Football Charts](https://www.football-charts.com/developers) | API | Tables, results, model probabilities and Monte Carlo season projections for 93 leagues | Free tier | API key | - | - | public-apis | - |
 | [Football Leagues](https://football-api.yuvron.online/reference) | API | Standings, fixtures, live scores, lineups and player stats for 11 European football competitions | Free tier | API key | - | - | public-apis | - |
@@ -33,7 +32,7 @@ Scores, statistics, fitness tracking and sports data.
 | [Lumify](https://lumify.ai/docs) | API | Real-time sports intelligence: scores, odds, betting splits & AI bet analysis across 8 sports | Free tier | API key | - | - | public-apis | - |
 | [MLB Records and Stats](https://appac.github.io/mlb-data-api-docs) | API | Unofficial MLB data API returning player, team, game, and season statistics from MLB Advanced Media's lookup service | Free tier | None | - | - | public-apis | - |
 | [MoviOdds](https://moviodds.com/doc) | API | Real-time bet365 soccer odds, every market, pre-match and in-play, over REST and WebSocket | Free tier | None | - | - | public-apis | - |
-| [NBA Data](https://rapidapi.com/api-sports/api/api-nba) | API | All NBA Stats DATA, Games, Livescore, Standings, Statistics | Free tier | API key | - | - | public-apis | - |
+| [NBA Data](https://api-sports.io/) | API | NBA games, live scores, standings and player statistics | Free tier | API key | - | [docs](https://api-sports.io/sports/nba) | public-apis | - |
 | [NHL Records and Stats](https://gitlab.com/dword4/nhlapi) | API | Community documentation and endpoints for the NHL's stats API, covering players, teams, games, and historical records | Free tier | None | - | - | public-apis | - |
 | [NoPunt](https://www.nopunt.com/api/picks.json) | API | Weekly NFL game picks with model win probability, confidence tier and spread | Free tier | None | - | - | public-apis | - |
 | [Odds-API](https://docs.odds-api.io) | API | Real-time sports betting odds from 365+ bookmakers across 34 sports via REST and WebSocket | Free tier | API key | - | - | public-apis | - |
@@ -46,7 +45,6 @@ Scores, statistics, fitness tracking and sports data.
 | [Parlay](https://parlay-api.com/docs) | API | Real-time sports odds and player props from 45+ sportsbooks and sources across 90+ sports | Free tier | API key | - | - | public-apis | - |
 | [PinnWire](https://pinnwire.com/) | API | Live and prematch Betradar odds with raw no-vig probabilities, REST and SSE | Free tier | API key | - | - | public-apis | - |
 | [PlayerElo](https://playerelo.football/api-access) | API | Player-level Elo ratings, predictions and history for 176 football leagues | Free tier | API key | - | - | public-apis | - |
-| [Premier League Standings](https://rapidapi.com/heisenbug/api/premier-league-live-scores) | API | All Current Premier League Standings and Statistics | Free tier | API key | - | - | public-apis | - |
 | [PropLine](https://prop-line.com) | API | Real-time player-props betting odds with graded prop resolution across 13 books | Free tier | API key | - | - | public-apis | - |
 | [QiuXiaoCe Football](https://www.qiuxiaoce.com/data-docs/) | API | Football teams, leagues, standings and match data | Free tier | None | - | - | public-apis | - |
 | [RacingHub](https://racinghub.net/api/v1/docs) | API | Open-source REST API for Formula 1 historical data: drivers, constructors, race results, standings, and season calendars since 1950 | Free tier | None | - | - | public-apis | - |

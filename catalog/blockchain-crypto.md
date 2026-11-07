@@ -25,7 +25,7 @@ Chain data, market prices, wallets, explorers and smart contract tooling.
 | [Blockchain](https://www.blockchain.com/explorer/docs) | API | Bitcoin Payment, Wallet & Transaction Data | Free tier | API key | - | - | public-apis | - |
 | [blockfrost Cardano](https://blockfrost.io) | API | Interaction with the Cardano mainnet and several testnets | Free tier | API key | - | - | public-apis | - |
 | [Blockscout](https://dev.blockscout.com) | API | Multichain block explorer REST API (with Etherscan-compatible JSON-RPC) | Free tier | API key | - | - | public-apis | - |
-| [Blockworks API](https://app.blockworks.com) | API | Institutional crypto data API with market, onchain, monitoring and unlock endpoints | Freemium | API key | - | [docs](https://docs.blockworks.com) | public-apis, editorial | 2026-11-03 |
+| [Blockworks API](https://app.blockworks.com) | API | Institutional crypto data API with market, onchain, monitoring and unlock endpoints | Freemium | API key | - | [docs](https://docs.blockworks.com/introduction) | public-apis, editorial | 2026-11-03 |
 | [Brave NewCoin](https://bravenewcoin.com/contact) | API | Real-time and historic crypto data from more than 200+ exchanges | Free tier | API key | - | - | public-apis | - |
 | [BTCGlobe](https://btcglobe.live/join) | API | Bitcoin height, fees, mempool and peer data served live from two self-hosted nodes | Free tier | None | - | - | public-apis | - |
 | [btcnode.uk](https://btcnode.uk) | API | Bitcoin blockchain data, fees, mempool, SEC insider trades, Reddit sentiment. x402 micropayments for paid endpoints | Free tier | None | - | - | public-apis | - |
@@ -54,7 +54,7 @@ Chain data, market prices, wallets, explorers and smart contract tooling.
 | [Covalent](https://www.covalenthq.com/docs/introduction) | API | Unified multichain blockchain data API for balances, transactions, NFTs, and DEX activity across 100+ chains | Free tier | API key | - | - | public-apis | - |
 | [CryptAPI](https://docs.cryptapi.io) | API | Cryptocurrency payment processor API that generates payment addresses and forwards funds without accounts or keys | Free tier | None | - | - | public-apis | - |
 | [Crypto Vision](https://cryptocurrency.cv/developers) | API | Free crypto news aggregator with market context, JSON REST and RSS | Free tier | None | - | - | public-apis | - |
-| [CryptoCompare](https://min-api.cryptocompare.com) | API | Cryptocurrency price comparison and market data API | Free tier | None | - | - | public-apis | - |
+| [CryptoCompare](https://min-api.cryptocompare.com) | API | Cryptocurrency price comparison and market data API | Free tier | API key | - | - | public-apis | - |
 | [Deep Blue Alpha](https://deepbluealpha.io/whale-api) | API | Real-time Ethereum whale wallet tracking, DEX trades, net flow, and conviction scoring | Free tier | API key | - | - | public-apis | - |
 | [DefiLlama](https://api-docs.defillama.com/) | API | Open and transparent DeFi data, TVL, coin prices, volumes, and yields | Free tier | None | - | - | public-apis | - |
 | [Degenscan Intel](https://intel.degenscan.io/carry) | API | Hyperliquid funding on every dex (HIP-3 incl.), cross-dex spreads, event feed; free trial key | Free tier | API key | - | - | public-apis | - |
@@ -71,9 +71,10 @@ Chain data, market prices, wallets, explorers and smart contract tooling.
 | [Helium](https://docs.helium.com/network-data/legacy-blockchain-data/) | API | Helium is a global, distributed network of Hotspots that create public, long-range wireless coverage | Free tier | None | - | - | public-apis | - |
 | [HostDeFi](https://hostdefi.com/docs/api) | API | Free A+-F token-safety grades across Solana and EVM chains | Free tier | None | - | - | public-apis | - |
 | [Huobi](https://huobiapi.github.io/docs/spot/v1/en) | API | Spot and derivatives exchange API (HTX) for market data, trading, accounts, and WebSocket streams | Free tier | API key | - | - | public-apis | - |
-| [Hyperliquid Market Data](https://rapidapi.com/theliminalguy/api/hyperliquid-market-data-oi-funding-open-interest) | API | Hyperliquid open interest, funding and cross-venue predicted rates per coin | Free tier | API key | - | - | public-apis | - |
+| [Hyperliquid Market Data](https://hyperliquid.xyz/) | API | Hyperliquid open interest, funding and cross-venue predicted rates per coin | Free | None | - | [docs](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api) | public-apis | - |
 | [Indodax](https://github.com/btcid/indodax-official-api-docs) | API | Trade your Bitcoin and other assets with rupiah | Free tier | API key | - | - | public-apis | - |
 | [INFURA Ethereum](https://www.infura.io/product/ethereum) | API | Interaction with the Ethereum mainnet and several testnets | Free tier | API key | - | - | public-apis | - |
+| [Kraken REST API](https://www.kraken.com/) | API | Spot and derivatives trading, market data, funding and account endpoints | Free tier | API key | - | [docs](https://docs.kraken.com/api/) | public-apis | 2026-11-07 |
 | [KuCoin](https://www.kucoin.com/docs-new?lang=en_US&) | API | Spot, margin, and futures trading API with market data, orders, and WebSocket push for KuCoin exchange | Free tier | API key | - | - | public-apis | - |
 | [MadeOnSol](https://madeonsol.com/developer) | API | Real-time Solana & Robinhood Chain KOL trades, deployer reputation, and DEX activity | Free tier | API key | - | - | public-apis | - |
 | [MarginPad](https://marginpad.io/free-crypto-api) | API | Crypto futures prices, candles, funding, open interest, long/short and liquidations, 9 exchanges | Free tier | None | - | - | public-apis | - |

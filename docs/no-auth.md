@@ -1,6 +1,6 @@
 # No key needed
 
-1177 catalogued resources that need no credentials: `Auth` is `None`
+1176 catalogued resources that need no credentials: `Auth` is `None`
 and the cheapest usable tier is `Free` or `Free tier`. Nothing here requires an
 account, a key or an approval.
 
@@ -120,7 +120,6 @@ category tables, not this file.
 - [CorpStacking](https://www.corpstacking.com/feed.json) - Corporate, government and ETF Bitcoin, Ethereum and Solana treasury disclosures
 - [CryptAPI](https://docs.cryptapi.io) - Cryptocurrency payment processor API that generates payment addresses and forwards funds without accounts or keys
 - [Crypto Vision](https://cryptocurrency.cv/developers) - Free crypto news aggregator with market context, JSON REST and RSS
-- [CryptoCompare](https://min-api.cryptocompare.com) - Cryptocurrency price comparison and market data API
 - [DefiLlama](https://api-docs.defillama.com/) - Open and transparent DeFi data, TVL, coin prices, volumes, and yields
 - [Dudelytics](https://dudelytics.com/en/dpmi/data) - Productive crypto indices, daily benchmarks, sector indices and market-stress data
 - [FraudCoins](https://fraudcoins.com/data) - On-chain top-10 holder concentration and contract permissions for crypto tokens
@@ -128,6 +127,7 @@ category tables, not this file.
 - [Get Started with Web3](https://github.com/beihaili/Get-Started-with-Web3/blob/main/docs/api.md) - Bilingual Web3 lessons, glossary search and role-based learning paths
 - [Helium](https://docs.helium.com/network-data/legacy-blockchain-data/) - Helium is a global, distributed network of Hotspots that create public, long-range wireless coverage
 - [HostDeFi](https://hostdefi.com/docs/api) - Free A+-F token-safety grades across Solana and EVM chains
+- [Hyperliquid Market Data](https://hyperliquid.xyz/) ([docs](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api)) - Hyperliquid open interest, funding and cross-venue predicted rates per coin
 - [MarginPad](https://marginpad.io/free-crypto-api) - Crypto futures prices, candles, funding, open interest, long/short and liquidations, 9 exchanges
 - [MELEK](https://witness.melek.salon/dev/melek) - Graphene social blockchain (Steem family) with a keyless condenser_api JSON-RPC
 - [Mempool](https://mempool.space/docs/api) - Bitcoin API Service focusing on the transaction fee
@@ -186,14 +186,14 @@ category tables, not this file.
 - [MailCheck.ai](https://www.usercheck.com/?ref=mailcheck) - Prevent users to sign up with temporary email addresses
 - [MailSenpai DNS Check](https://en.mailsenpai.com/dns-check-api) - Check a domain's SPF, DKIM, DMARC and MX records and get what to fix, with the values to publish
 
-## Developer Tools (103)
+## Developer Tools (104)
 
 - [24 Pull Requests](https://24pullrequests.com/api) - Project to promote open source collaboration during December
 - [Agent Nexus](https://agentnexus.app/llms.txt) - Continuously probed registry of APIs, MCP servers and CLIs callable by agents
 - [Agify.io](https://agify.io) - Predicts the likely age of a person from a first name, with optional country scoping
 - [API Tool Calls](https://apitoolcalls.com/api) - API Tool Calls: Home cost planners, page to Markdown, SEO checks and recalls
 - [ApicAgent](https://www.apicagent.com) - Extract device details from user-agent string
-- [APIs.guru](https://apis.guru/api-doc) ([docs](https://api.apis.guru/v2/specs/apis.guru/2.2.0/openapi.json)) - Wikipedia for Web APIs. Repository of API definitions in OpenAPI format. Warning: If you want to be notified about changes in advance please join our Slack channel. Client sample:
+- [APIs.guru](https://apis.guru/) ([docs](https://apis.guru/api-doc)) - Wikipedia for Web APIs. Repository of API definitions in OpenAPI format. Warning: If you want to be notified about changes in advance please join our Slack channel. Client sample:
 - [APIzone](https://apizone.io/api-docs) - Independent uptime & status monitoring for 200+ popular APIs
 - [Aquanode](https://docs.aquanode.io/docs/api/marketplace) - Live GPU rental prices and availability across nine cloud providers
 - [Beeceptor](https://beeceptor.com) - Create mock REST, SOAP, GraphQL, and gRPC endpoints with realistic data for testing
@@ -208,6 +208,7 @@ category tables, not this file.
 - [Codeberg](https://codeberg.org/api/swagger) - Git hosting, repos and issues via Gitea API
 - [Codex](https://github.com/Jaagrav/CodeX) - Compile and run code in multiple programming languages through a REST API
 - [CORS Proxy](https://github.com/burhanuday/cors-proxy) - Get around the dreaded CORS error by using this proxy as a middle man
+- [crates.io API](https://crates.io/) ([docs](https://crates.io/data-access)) - Rust crate metadata, versions and downloads, plus the sparse registry index
 - [Datamuse](https://www.datamuse.com/api/) - Word-finding query engine API for developers
 - [DigitalOcean Status](https://status.digitalocean.com/api) - Reports current and historical status of all DigitalOcean cloud services and regions
 - [DigMyName](https://digmyname.com/api) - Domain availability and registrar pricing across 52 TLDs
@@ -216,13 +217,13 @@ category tables, not this file.
 - [DomainDb Info](https://api.domainsdb.info) - Domain name search to find all domains containing particular words/phrases/etc
 - [dotsweep](https://dotsweep.com/docs) - Domain availability across 1200+ TLDs with registration and renewal prices
 - [DownStatus](https://isitdownstatus.com) - Real-time status for GitHub, AWS, Discord and 90+ services
-- [Drupal.org](https://www.drupal.org/drupalorg/docs/api) - Drupal.org REST API for content and site management
+- [Drupal.org](https://www.drupal.org/drupalorg/docs/apis/rest-and-other-apis) - Drupal.org REST API for content and site management
 - [EndOfLife.date](https://endoflife.date/docs/api) - Software end-of-life dates and support lifecycles
 - [Enterno](https://enterno.io/en/api-docs) - HTTP headers, DNS, SSL, WHOIS and redirect checks as plain text, JSON or CSV
 - [Evil Insult Generator](https://evilinsult.com/api/) - Insult generation API with language options
 - [ExtendsClass JSON Storage](https://extendsclass.com/json-storage.html) - Free JSON storage over HTTP API for developers
 - [Fair Draw](https://bettip.co.za/fair-draw/api) - Verifiable random draws bound to the drand public randomness beacon
-- [Free Url Shortener](https://ulvis.net/developer.html) - Free URL Shortener offers a powerful API to interact with other sites
+- [Free Url Shortener](https://ulvis.net/developer.html) - URL shortening with click statistics
 - [Genderize.io](https://genderize.io) - Predicts the likely gender of a first name with optional country localization
 - [GeraCode](https://www.geracodigo.com.br/api-codigo-de-barras) - Barcode (EAN-13, UPC-A, Code 128, ITF-14) and QR code images, PNG or SVG. Docs in Portuguese
 - [Git.io](https://github.blog/news-insights/the-library/git-io-github-url-shortener/) - GitHub URL shortener for repository links
@@ -581,14 +582,14 @@ category tables, not this file.
 - [TCGdex](https://tcgdex.dev) - Multilingual Pokemon TCG REST and GraphQL API for cards, sets, series, and images across 10+ languages
 - [TETR.IO](https://tetr.io/about/api/) - TETR.IO API endpoints for user activity and game data
 - [TickerMint](https://tickermint.cards/developers) - Daily market prices and price history for Pokémon, One Piece, Lorcana and Yu-Gi-Oh cards
-- [Tronald Dump](https://www.tronalddump.io) - The dumbest things Donald Trump has ever said
+- [Tronald Dump](https://www.tronalddump.io) - Quotes attributed to Donald Trump, searchable by keyword
 - [Universalis](https://docs.universalis.app/) - REST API for Final Fantasy XIV market board listings, sale history, aggregated prices, and upload stats
 - [Valorant (non-official)](https://valorant-api.com) - An extensive API containing data of most Valorant in-game items, assets and more
 - [Worth the Rip](https://worththerip.com/api) - Sealed trading-card product prices and expected value across 10 TCGs, refreshed every 2 hours
 - [xkcd](https://xkcd.com/json.html) ([docs](https://api.apis.guru/v2/specs/xkcd.com/1.0.0/openapi.json)) - Webcomic of romance, sarcasm, math, and language
 - [Yu-Gi-Oh!](https://ygoprodeck.com/api-guide/) - Yu-Gi-Oh card database API with card images and data
 
-## Geospatial (59)
+## Geospatial (57)
 
 - [administrative-divisons-db](https://github.com/kamikazechaser/administrative-divisions-db) - Get all administrative divisions of a country
 - [adresse.data.gouv.fr](https://adresse.data.gouv.fr) - Address database of France, geocoding and reverse
@@ -596,7 +597,6 @@ category tables, not this file.
 - [BdAPIs](https://bdapis.com) - Get divisions, districts, and upazzilas of Bangladesh
 - [bng2latlong](https://www.getthedata.com/bng2latlong) ([docs](https://www.getthedata.com/bng2latlong/openapi)) - Convert British OSGB36 easting and northing (British National Grid) to WGS84 latitude and longitude
 - [Cartes.io](https://github.com/M-Media-Group/Cartes.io/wiki/API) - REST API to create and manage interactive maps and markers, with GeoJSON support and public map search
-- [Cep.la](https://cep.la/) - Brazil RESTful API to find information about streets, zip codes, neighborhoods, cities and states
 - [CitySDK](https://www.citysdk.eu/) - Development kit harmonizing APIs for smart cities and developers
 - [Country](https://country.is/) - Free IP-to-country geolocation API returning country, city, continent, subdivision, postal, and ASN data
 - [Ducks Unlimited](https://gis.ducks.org/datasets/du-university-chapters/api) - API explorer that gives a query URL with a JSON response of locations and cities
@@ -615,12 +615,12 @@ category tables, not this file.
 - [HydroATLAS](https://www.hydrosheds.org/hydroatlas) - Global hydro-environmental sub-basin attributes available for public use
 - [IBGE](https://servicodados.ibge.gov.br/api/docs) - Aggregate services of IBGE (Brazilian Institute of Geography and Statistics)
 - [IP 2 Country](https://ip2country.info) - IP geolocation API mapping addresses to country codes
-- [IP Address Details](https://ipinfo.io) - IPinfo API for IP geolocation, ASN, carrier, and privacy detection data with daily refreshes
 - [ip-api](https://ip-api.com/docs) - IP geolocation API returning location, ISP, and timezone data in JSON, XML, CSV, and batch formats
 - [IP99](https://ip99.com/api) - IP geolocation with proxy, VPN and datacenter risk and the age of the evidence
 - [ipapi.co](https://ipapi.co/api) - IP geolocation API returning city, region, country, timezone, currency, ASN, and organization for any address
 - [IPGEO](https://api.techniknews.net/ipgeo/81.56.105.148) - Unlimited free IP Address API with useful information
 - [ipgeolocationapi](https://ipgeolocationapi.io/docs) - IP geolocation with ASN, timezone, currency and threat data, 5,000 keyless calls a day
+- [IPinfo](https://ipinfo.io/) ([docs](https://ipinfo.io/developers)) - IPinfo API for IP geolocation, ASN, carrier, and privacy detection data with daily refreshes
 - [IPKit](https://ipkit.dev/docs) - IP lookup with location, ASN/ISP and VPN/proxy/Tor signals
 - [ipwhois](https://ipwhois.io/documentation) - IP geolocation with country, city, coordinates, ISP, timezone and flag data
 - [LatLng](https://www.latlng.work/docs) - Geocoding, reverse geocoding, places, and static maps
@@ -642,7 +642,6 @@ category tables, not this file.
 - [Postcodes.io](https://postcodes.io) - Free UK postcode lookup and geocoding API with validation, autocomplete, and bulk reverse geocoding
 - [Queimadas INPE](https://terrabrasilis.dpi.inpe.br/queimadas/portal) - Access to heat focus data (probable wildfire)
 - [REST Countries](https://restcountries.com) - Get information about countries via a RESTful API
-- [Rwanda Locations](https://rapidapi.com/victorkarangwa4/api/rwanda) - Rwanda Provences, Districts, Cities, Capital City, Sector, cells, villages and streets
 - [SearchPinCode](https://searchpincode.in/api) - Indian postal PIN code lookup, post office locator and district data
 - [SLF](https://github.com/slftool/slftool.github.io/blob/master/API.md) - Static JSON dataset mapping each letter to German cities, countries, rivers, names, professions, animals, and brands
 - [Unblock Master IP](https://www.unblockmaster.com/free-ip-api) - IP geolocation plus datacenter and VPN detection for any IPv4 or IPv6 address
@@ -650,13 +649,13 @@ category tables, not this file.
 - [Zippopotam.us](http://www.zippopotam.us) - Get information about place such as country, city, state, etc
 - [Ziptastic](https://ziptasticapi.com) - Get the country, state, and city of any US zip-code
 
-## Government & Public Sector (91)
+## Government & Public Sector (90)
 
 - [Ayes and Noes](https://ayesandnoes.co.uk/developers) - UK House of Commons MPs, parties and recorded votes
-- [Bank Negara Malaysia Open Data](https://apikijangportal.bnm.gov.my) - Bank Negara Malaysia Open API portal for extracting financial, exchange rate, and statistical datasets
+- [Bank Negara Malaysia Open Data](https://apikijangportal.bnm.gov.my/) ([docs](https://apikijangportal.bnm.gov.my/openapi)) - Bank Negara Malaysia Open API portal for extracting financial, exchange rate, and statistical datasets
 - [BCLaws](https://www.bclaws.gov.bc.ca/civix/template/complete/api/index.html) - CiviX REST API providing free public access to British Columbia legislation, bylaws, and search in XML or HTML
 - [Bidledger](https://jaydemks.github.io/bidledger/api.html) - Every open public tender in the European Union, rebuilt daily from the official TED data
-- [Boletín Oficial del Estado (BOE)](https://www.boe.es/datosabiertos) - Official Spanish State Gazette open data: laws, summaries and XML/JSON APIs
+- [Boletín Oficial del Estado (BOE)](https://www.boe.es/datosabiertos/api/api.php) - Official Spanish State Gazette open data: laws, summaries and XML/JSON APIs
 - [Brazil](https://brasilapi.com.br) - Community driven API for Brazil Public Data
 - [Brazil Central Bank Open Data](https://dadosabertos.bcb.gov.br/) - Portal of open data from the Central Bank of Brazil
 - [Brazil Receita WS](https://www.receitaws.com.br) - Consult companies by CNPJ for Brazilian companies
@@ -688,7 +687,6 @@ category tables, not this file.
 - [EU VAT Rates by Commodity Code](https://github.com/humora2504/eu-vat-by-commodity-code) - EU VAT rates mapped to CN and CPA commodity codes, all 27 member states
 - [Eurostat](https://ec.europa.eu/eurostat) ([docs](https://ec.europa.eu/eurostat/web/user-guides/data-browser/api-data-access)) - Official statistics for the EU, its member states and regions
 - [FBI Wanted](https://www.fbi.gov/wanted/api) - Access information on the FBI Wanted program
-- [Federal Register](https://www.federalregister.gov/reader-aids/developer-resources/rest-api) - The Daily Journal of the United States Government
 - [Federal Register API](https://www.federalregister.gov/) ([docs](https://www.federalregister.gov/developers/documentation/api/v1)) - US federal regulations and notices API available for public use
 - [India LGD Index](https://india-lgd-index-api.vercel.app/docs) - Free, keyless Indian states, districts, sub-districts and development blocks with LGD codes
 - [Indian Mandi Prices](https://mandi-api.vercel.app/docs) - Free, keyless daily wholesale mandi prices for 5 Indian states, sourced from data.gov.in
@@ -772,7 +770,7 @@ category tables, not this file.
 - [Healthcare.gov](https://www.healthcare.gov/developers) - Educational content about the US Health Insurance Marketplace
 - [HealthData.gov](https://healthdata.gov/) - US health and medical datasets available for public use
 - [Human Phenotype Ontology](https://hpo.jax.org/) - Standardized vocabulary of phenotypic abnormalities in human disease
-- [LAPIS](https://cov-spectrum.ethz.ch/public) - SARS-CoV-2 genomic sequences from public sources
+- [LAPIS](https://cov-spectrum.org/public) - SARS-CoV-2 genomic sequences from public sources
 - [Longevity World Cup](https://longevityworldcup.com/api/data/athletes) - Public biological age competition data with biomarkers and rankings
 - [Makeup](http://makeup-api.herokuapp.com/) - Makeup product information API with brand and price data
 - [MedlinePlus Genetics](https://medlineplus.gov/about/developers/geneticsdatafilesapi) - Genetic conditions, genes, chromosomes and mtDNA data
@@ -782,7 +780,7 @@ category tables, not this file.
 - [Open Data NHS Scotland](https://www.opendata.nhs.scot) - Medical reference data and statistics by Public Health Scotland
 - [Open Disease](https://disease.sh) - API for Current cases and more stuff about COVID-19 and Influenza
 - [Open Targets](https://platform-docs.opentargets.org) - Comprehensive API for therapeutic drug-target identification, with scored target-disease associations and annotations
-- [Orphanet](https://www.orpha.net/) ([docs](https://www.orphadata.com/)) - Rare disease knowledge base with ORPHA codes, genes and expert centers
+- [Orphanet](https://www.orpha.net/en/) ([docs](https://www.orphadata.com/)) - Rare disease knowledge base with ORPHA codes, genes and expert centers
 - [Peptide Library](https://peptidelibrary.app/developers/docs) - Peptide research profiles, cited studies and regulatory status; vendor prices with a free key
 - [PubMed](https://pubmed.ncbi.nlm.nih.gov) - PubMed biomedical literature search and retrieval
 - [PubMed baseline](https://www.nlm.nih.gov/databases/download/pubmed_medline.html) - PubMed biomedical literature baseline files available for public use
@@ -816,9 +814,10 @@ category tables, not this file.
 - [UCDP](https://ucdp.uu.se/) ([docs](https://ucdp.uu.se/apidocs/)) - Conflict event and fatality data from the Uppsala Conflict Data Program
 - [V-Dem](https://www.v-dem.net/) ([docs](https://www.v-dem.net/data/)) - Multidimensional democracy indicators and datasets covering countries worldwide
 
-## Identity & Security (24)
+## Identity & Security (26)
 
 - [Agent Verifier](https://packet.guru/agents/reference) - Self-check for AI agents: verifies Web Bot Auth signatures and shows how a request looks
+- [CISA Known Exploited Vulnerabilities](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) - CISA KEV catalog of actively exploited CVEs as JSON, filterable by vendor, with CWE and due dates
 - [CSR.plus](https://csr.plus/docs/api) - Generate certificate signing requests and private keys without OpenSSL
 - [dead-drop](https://api.dead-drop.xyz/api/v1/docs) - Ephemeral zero-knowledge encrypted data sharing
 - [EmailRep](https://emailrep.io/) ([docs](https://docs.sublime.security/reference/emailrep-introduction)) - Email reputation API predicting risk of an email address using social profiles, breaches, spam lists, and domain data
@@ -832,6 +831,7 @@ category tables, not this file.
 - [Mozilla http scanner](https://github.com/mozilla/http-observatory/blob/main/httpobs/docs/api.md) - Mozilla HTTP Observatory API for scanning websites' HTTP security headers and generating graded reports
 - [Mozilla tls scanner](https://github.com/mozilla/tls-observatory) - Mozilla TLS Observatory API for scanning TLS configurations, X.509 certificates, and trust chains
 - [National Vulnerability Database](https://nvd.nist.gov/vuln/data-feeds/json-feed-changelog) - NIST National Vulnerability Database API for CVE records, CPE, and CVSS scores via JSON data feeds
+- [NoPhishy](https://docs.exerra.xyz/docs/api/v3/exerra-api-v-3) ([docs](https://docs.exerra.xyz/docs/api/v3/scan-phishing)) - Check links to see if they're known phishing attempts
 - [OSV](https://google.github.io/osv.dev/api) - Open source vulnerability database and distributed triage infrastructure
 - [Passwordinator](https://github.com/fawazsullia/password-generator) - Generate random passwords of varying complexities
 - [PhishStats](https://phishstats.info/) - Phishing URL, IP and domain database with real-time threat feed
@@ -919,7 +919,7 @@ category tables, not this file.
 - [Icelandic APIs](http://docs.apis.is) - Open APIs that deliver services in or regarding Iceland
 - [India EV Charging Stations](https://ev-charging-stations-api.vercel.app/docs) - Directory of public EV charging stations across India
 - [LiveTrafficCam](https://bzsasson.github.io/traffic-camera-sources/api.html) - Live US state DOT traffic cameras with verified live status and measured uptime
-- [Metro Lisboa](http://app.metrolisboa.pt/status/getLinhas.php) - Lisbon metro line status API with real-time delay info
+- [Metro Lisboa](https://app.metrolisboa.pt/status/getLinhas.php) - Lisbon metro line status API with real-time delay info
 - [MobilityData GTFS](https://mobilitydatabase.org/) - Global GTFS and GTFS-Realtime feed catalog available for public use
 - [NHTSA](https://vpic.nhtsa.dot.gov/api) - NHTSA Product Information Catalog and Vehicle Listing
 - [OpenFlights](https://openflights.org/) - Airport and airline route database available for public use
@@ -934,7 +934,7 @@ category tables, not this file.
 - [Strait of Hormuz Ship Monitor](https://hormuz.data-tracking.net/llms.txt) - Live AIS vessel traffic, crossings and oil flow through the Strait of Hormuz
 - [TransitRadar](https://transitradar.co.uk/scalar/) - Live GB train and bus departures, positions and journey planning
 - [TransparentCars](https://transparent.pt/en/api) - Fair-price valuation and yearly road tax (IUC) for used cars in Portugal
-- [Transport for Atlanta, US](http://www.itsmarta.com/app-developer-resources.aspx) - MARTA Atlanta public transport data and API
+- [Transport for Atlanta, US](https://itsmarta.com/app-developer-resources.aspx) - MARTA Atlanta public transport data and API
 - [Transport for Auckland, New Zealand](https://dev-portal.at.govt.nz/) - Auckland Transport developer portal with transport APIs
 - [Transport for Belgium](https://docs.irail.be) - The iRail API is a third-party API for Belgian public transport by train
 - [Transport for Budapest, Hungary](https://bkkfutar.docs.apiary.io) - BKK FUTAR Budapest public transport API (Apiary)
@@ -943,7 +943,7 @@ category tables, not this file.
 - [Transport for Hessen, Germany](https://www.rmv.de/s/de/rmv-open-data) - RMV open data API providing journey planning and infrastructure data for public transport across Hessen, Germany
 - [Transport for Los Angeles, US](https://api.metro.net/) - Data about positions of Metro vehicles in real time and travel their routes
 - [Transport for Norway](https://developer.entur.org) - Entur open APIs for Norway's public transport: journey planning, real-time vehicle positions, stops, geocoding, and mobility data
-- [Transport for Paris, France](http://data.ratp.fr/api/v1/console/datasets/1.0/search/) - RATP Paris open data API for public transport
+- [Transport for Paris, France](https://data.ratp.fr/api-console/explore/v2.1/) - RATP Paris open data API for public transport
 - [Transport for Philadelphia, US](http://www3.septa.org/hackathon/) - SEPTA Philadelphia regional transit data API
 - [Transport for Spain](https://data.renfe.com/api/1/util/snippet/api_info.html?resource_id=a2368cff-1562-4dde-8466-9635ea3a572a) - Spanish train data API via CKAN datastore (Renfe)
 - [Transport for The Netherlands](https://github.com/koch-t/KV78Turbo-OVAPI/wiki) - OVAPI REST API for nationwide Dutch public transport: stop timings, lines, journeys, and real-time departure data
@@ -975,7 +975,7 @@ category tables, not this file.
 - [HackerNews](https://github.com/HackerNews/API) - Firebase-based Hacker News API exposing stories, comments, users, polls, and live updates in near real time
 - [Hashnode](https://hashnode.com) - Hashnode blogging platform with GraphQL API for posts, publications, and content management on custom domains
 - [Lanyard](https://github.com/Phineas/lanyard) - Retrieve your presence on Discord through an HTTP REST API or WebSocket
-- [Open Collective](https://docs.opencollective.com/help/developers/api) - Open Collective API documentation (legacy docs site)
+- [Open Collective](https://docs.opencollective.com/help/contributing/development/api) - Open Collective API documentation (legacy docs site)
 - [SwarmMemo](https://swarmmemo.com/protocol.md) - Public bulletin board where AI agents and humans read, post and reply, no account or key needed
 
 ## Mathematics (13)
@@ -1009,7 +1009,7 @@ category tables, not this file.
 - [Paper Search MCP Server](https://github.com/openags/paper-search-mcp) - MCP server searching academic papers across arXiv and PubMed
 - [Playwright MCP Server](https://github.com/microsoft/playwright-mcp) ([docs](https://playwright.dev/docs/getting-started-mcp)) - Browser automation MCP server using Playwright accessibility snapshots
 - [Refnusa](https://refnusa.dev/) - Indonesian reference data: holidays, wages, regions, tax
-- [RegSentry](https://regsentry.com/mcp-guide) - Inspect site tracking signals and consent evidence
+- [RegSentry](https://regsentry.com/agents) - Inspect site tracking signals and consent evidence
 - [Sequential Thinking MCP Server](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) - Dynamic and reflective problem-solving through thought sequences
 - [Silicon Floor](https://siliconfloor.com/docs/mcp) - AI and chip stock ownership and insider data from SEC filings
 - [SQLite MCP Server](https://github.com/jparkerweb/mcp-sqlite) - Community MCP server for SQLite database interaction and CRUD
@@ -1028,9 +1028,8 @@ category tables, not this file.
 
 - [10ML Fragrance Index](https://mcp.10ml.com/openapi.json) - Perfume and fragrance notes, accords and similar scents data
 - [221](https://221.orvlabs.com/documentation) - Senegal reference data: public holidays, mobile operators, banks, communes, legal forms
-- [49 Gallery Historical Data](https://api.181649.com/docs) - Normalized historical records and 25 daily-updated reference series
 - [API Setu](https://www.apisetu.gov.in) - An Indian Government platform that provides a lot of APIS for KYC, business, education & employment
-- [Archive.org](https://archive.readme.io/docs) - Internet Archive collections and services
+- [Archive.org](https://archive.readme.io/reference/getting-started) - Internet Archive collections and services
 - [Auregistre](https://auregistre.fr/api) - French company history from the official gazette since 2008
 - [avoindata.fi](https://avoindata.suomi.fi/en) - Finnish open data service available for public use
 - [Band Atlas](https://www.aiotrf.com/en/ai/band-atlas/developers) - Cellular IoT bands, 2G/3G sunsets and device compatibility for 46 countries
@@ -1099,6 +1098,7 @@ category tables, not this file.
 - [Voidly](https://voidly.ai/api-docs) - Internet censorship measurements, incidents, and ISP-level blocking data across 126 countries
 - [Vuntum](https://vuntum.com/en/api-mcp) - Sourced, dated facts on consumer robots and physical AI, licensed CC BY 4.0
 - [w14n](https://api.w14n.dev/v1) - Brazilian company profiles by CNPJ, CNAE establishment counts and municipality coordinates
+- [Wikipedia API](https://www.wikipedia.org/) ([docs](https://www.mediawiki.org/wiki/API:Action_API)) - Read Wikipedia articles, revisions, categories and page metadata over HTTP
 
 ## Patents & IP (8)
 
@@ -1108,7 +1108,7 @@ category tables, not this file.
 - [J-PlatPat](https://www.j-platpat.inpit.go.jp/) - J-PlatPat free search for Japanese patents, utility models, designs and trademarks
 - [OpenFDA Orange Book](https://open.fda.gov/apis/drug/orangebook/) - openFDA Orange Book API for drug product, patent and exclusivity data
 - [PatentsView](https://data.uspto.gov/support/transition-guide/patentsview) - API is intended to explore and visualize trends/patterns across the US innovation landscape
-- [USPTO](https://www.uspto.gov/learning-and-resources/open-data-and-mobility) - US patent and trademark open data services
+- [USPTO](https://www.uspto.gov/learning-and-resources/data-and-statistics) - US patent and trademark open data services
 - [WIPO PATENTSCOPE](https://patentscope.wipo.int/) - WIPO PATENTSCOPE search for published PCT international patent applications and national collections
 
 ## Science & Research (59)
@@ -1230,7 +1230,7 @@ category tables, not this file.
 - [Phone Specification](https://github.com/azharimm/phone-specs-api) - REST API for mobile phone specifications sourced from GSMArena, with brand/phone lookup, search, and latest/top lists
 - [RIPEstat](https://stat.ripe.net/) ([docs](https://stat.ripe.net/docs/)) - RIPE NCC data service for IP routing and network statistics
 
-## Test Data (23)
+## Test Data (22)
 
 - [AddressMock](https://addressmock.com/api) - Random US, Hong Kong and Cape Verde addresses with matched city, state and ZIP
 - [Bacon Ipsum](https://baconipsum.com/json-api) - Lorem ipsum generator API returning meat-themed placeholder text paragraphs in JSON, text, or HTML
@@ -1242,7 +1242,6 @@ category tables, not this file.
 - [flaky](https://flakyapi.dev) - Fake REST API with chaos controls: force any status code, add latency, or a failure rate
 - [loremfile](https://loremfile.dev/docs/manifest) - Hotlinkable CC0 sample files in 78 formats, each with a SHA-256 in a JSON manifest
 - [Metaphorpsum](http://metaphorpsum.com) - Generate demo paragraphs giving number of words and sentences
-- [NovaFortix Dev](https://public-dev-apis.surge.sh) - Zero-auth REST endpoints for mock user profiles, UUIDs and HTTP status codes
 - [Random User Generator](https://randomuser.me) ([docs](https://randomuser.me/documentation)) - Generate random user profiles with names, addresses, emails, photos and more in multiple locales and formats
 - [restful-api](https://restful-api.dev) - Fake REST API for testing and prototyping with CRUD endpoints
 - [RoboHash](https://robohash.org) - Web service generating unique robot, alien, or monster images deterministically from any input text
@@ -1298,7 +1297,7 @@ category tables, not this file.
 - [Sähkön hinta nyt](https://xn--shknhintanyt-gcb8w.org/integraatiot) - Finnish and Nordic day-ahead electricity spot prices (15-minute), cheapest hours
 - [Terrace Weather](https://terrace.javiermateo.dev/swagger-ui/index.html) - Terrace open/closed verdict for restaurants, from the weather forecast
 - [UK Carbon Intensity](https://carbon-intensity.github.io/api-definitions) - The Official Carbon Intensity API for Great Britain developed by National Grid
-- [UNEP data](https://data.unep.org/) - UN environment data and indicators available for public use
+- [UNEP data](https://wesr.unep.org/) ([docs](https://data.unep.org/)) - UN environment data and indicators available for public use
 - [US Weather](https://www.weather.gov/documentation/services-web-api) - US National Weather Service API with forecasts
 - [Veabird](https://veabird.com/api/v1) - Beach (sargassum, waves, hurricanes) and ski snow forecasts for 1,900+ resorts, no key
 - [WattFigure](https://api.wattfigure.com) - US electricity rates by state, with appliance and EV charging running costs

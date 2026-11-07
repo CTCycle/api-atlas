@@ -7,10 +7,10 @@ Legislation, procurement, civic records and public sector APIs.
 | [AI Law Tracker](https://ai-law-tracker.com/developers) | API | AI regulation laws by jurisdiction (US, EU, global) as read-only JSON; free tier | Free tier | API key | - | - | public-apis | - |
 | [apipj](https://apipj.com.br/docs) | API | Brazilian company data by CNPJ from Receita Federal open data, incl. alphanumeric CNPJ; free tier | Free tier | API key | - | - | public-apis | - |
 | [Ayes and Noes](https://ayesandnoes.co.uk/developers) | API | UK House of Commons MPs, parties and recorded votes | Free tier | None | - | - | public-apis | - |
-| [Bank Negara Malaysia Open Data](https://apikijangportal.bnm.gov.my) | API | Bank Negara Malaysia Open API portal for extracting financial, exchange rate, and statistical datasets | Free tier | None | - | - | public-apis | - |
+| [Bank Negara Malaysia Open Data](https://apikijangportal.bnm.gov.my/) | API | Bank Negara Malaysia Open API portal for extracting financial, exchange rate, and statistical datasets | Free tier | None | - | [docs](https://apikijangportal.bnm.gov.my/openapi) | public-apis | - |
 | [BCLaws](https://www.bclaws.gov.bc.ca/civix/template/complete/api/index.html) | API | CiviX REST API providing free public access to British Columbia legislation, bylaws, and search in XML or HTML | Free tier | None | - | - | public-apis | - |
 | [Bidledger](https://jaydemks.github.io/bidledger/api.html) | API | Every open public tender in the European Union, rebuilt daily from the official TED data | Free tier | None | - | - | public-apis | - |
-| [Boletín Oficial del Estado (BOE)](https://www.boe.es/datosabiertos) | API | Official Spanish State Gazette open data: laws, summaries and XML/JSON APIs | Free tier | None | - | - | public-apis | - |
+| [Boletín Oficial del Estado (BOE)](https://www.boe.es/datosabiertos/api/api.php) | API | Official Spanish State Gazette open data: laws, summaries and XML/JSON APIs | Free tier | None | - | - | public-apis | - |
 | [Brazil](https://brasilapi.com.br) | API | Community driven API for Brazil Public Data | Free tier | None | - | - | public-apis | - |
 | [Brazil Central Bank Open Data](https://dadosabertos.bcb.gov.br/) | API | Portal of open data from the Central Bank of Brazil | Free tier | None | - | - | public-apis | - |
 | [Brazil Receita WS](https://www.receitaws.com.br) | API | Consult companies by CNPJ for Brazilian companies | Free tier | None | - | - | public-apis | - |
@@ -57,7 +57,6 @@ Legislation, procurement, civic records and public sector APIs.
 | [FBI Wanted](https://www.fbi.gov/wanted/api) | API | Access information on the FBI Wanted program | Free tier | None | - | - | public-apis | - |
 | [FDA Import Alert Screening](https://aerviklabs.com/apis/fda-import-alerts) | API | Screen firm names against FDA Import Alert Red, Yellow and Green Lists | Free tier | API key | - | - | public-apis | - |
 | [FEC OpenFEC](https://www.fec.gov/data/) | Portal | US campaign finance filings API available for public use | Free | API key | Unknown | [docs](https://api.open.fec.gov/developers/) | editorial | 2026-10-24 |
-| [Federal Register](https://www.federalregister.gov/reader-aids/developer-resources/rest-api) | API | The Daily Journal of the United States Government | Free tier | None | - | - | public-apis | - |
 | [Federal Register API](https://www.federalregister.gov/) | Portal | US federal regulations and notices API available for public use | Free | None | Public Domain | [docs](https://www.federalregister.gov/developers/documentation/api/v1) | editorial | 2026-10-24 |
 | [gankdat](https://gankdat.com/docs) | API | UK & EU tenders, UK planning, UK sanctions, US exclusions, UK insolvency and incorporations as JSON | Free tier | API key | - | - | public-apis | - |
 | [Gazette Data, UK](https://www.thegazette.co.uk/data) | API | UK official public record open data API from The Gazette | Free tier | OAuth | - | - | public-apis | - |
@@ -104,7 +103,7 @@ Legislation, procurement, civic records and public sector APIs.
 | [Open Government, Sweden](https://www.dataportal.se/dataservice/91_29789) | Portal | Sweden government open data portal with datasets | Free tier | None | - | - | public-apis | - |
 | [Open Government, Switzerland](https://handbook.opendata.swiss/de/content/nutzen/api-nutzen.html) | API | Swiss open data portal (opendata.swiss) with government datasets and a REST API | Free tier | None | - | - | public-apis | - |
 | [Open Government, Taiwan](https://data.gov.tw/) | Portal | Taiwan government open data platform with datasets | Free tier | None | - | - | public-apis | - |
-| [Open Government, Thailand](https://data.go.th/) | Portal | Thailand government open data portal with datasets | Free tier | API key | - | - | public-apis | - |
+| [Open Government, Thailand](https://opend.data.go.th/) | Portal | Thailand government open data portal with datasets | Free tier | API key | - | - | public-apis | - |
 | [Open Government, Victoria State Government](https://www.data.vic.gov.au) | API | Victoria State Government open data portal (data.vic.gov.au) with datasets and APIs | Free tier | None | - | - | public-apis | - |
 | [Open Government, West Australia](https://data.wa.gov.au/) | Portal | Western Australia public sector data catalog (Data WA) | Free tier | None | - | - | public-apis | - |
 | [opendata.dc.gov](https://opendata.dc.gov/) | Portal | Washington DC open data portal available for public use | Free | None | Unknown | [docs](https://opendata.dc.gov/) | editorial | 2026-10-26 |
@@ -120,7 +119,6 @@ Legislation, procurement, civic records and public sector APIs.
 | [SukuuData](https://sukuudata.com/quickstart) | API | Ghana's schools, 2026 SHS placement register and CSSPS choice validation | Free tier | API key | - | - | public-apis | - |
 | [Tollmint](https://api.tollmint.com) | API | Advertising, subscription, AI-disclosure and accessibility rules across the US, EU and UK | Free tier | None | - | - | public-apis | - |
 | [Travel Risk](https://travelriskapi.com/docs) | API | Government travel advisories, disaster and conflict alerts and country risk scores | Free tier | API key | - | - | public-apis | - |
-| [UK Companies House](https://developer.company-information.service.gov.uk) | API | UK Companies House Data from the UK government | Free tier | OAuth | - | - | public-apis | - |
 | [UK Legislation Changes](https://uk-legal-changes.pages.dev/docs) | API | Point-in-time amendment history for UK law | Free tier | None | - | - | public-apis | - |
 | [UK ONS](https://www.ons.gov.uk) | Portal | UK Office for National Statistics data portal | Free | None | OGL-UK-3.0 | - | editorial | 2026-10-24 |
 | [UK Parliament APIs](https://developer.parliament.uk/) | Portal | UK parliamentary data APIs available for public use | Free | None | Open Parliament Licence | [docs](https://developer.parliament.uk/) | editorial | 2026-10-24 |

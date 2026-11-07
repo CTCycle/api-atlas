@@ -13,9 +13,14 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: linkcheck
+  cancel-in-progress: true
+
 jobs:
   linkcheck:
     runs-on: ubuntu-latest
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -32,6 +37,8 @@ jobs:
       - name: Build the maintenance report
         run: python scripts/catalog.py report
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: maintenance-report
           path: reports/
+          if-no-files-found: warn

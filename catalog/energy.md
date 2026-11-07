@@ -9,8 +9,7 @@ Electricity grids, fuel prices, renewables and emissions data.
 | [CarbonPlan](https://carbonplan.org/) | Portal | Open data and tools for carbon removal and climate solutions | Free | None | - | - | editorial | 2026-10-26 |
 | [DBFC](https://github.com/ECSIM/dbfc-dataset) | Dataset | Direct Borohydride Fuel Cell (DBFC) Dataset | - | - | - | - | awesome-datasets | - |
 | [DEL](https://www.datafirst.uct.ac.za/dataportal/index.php/catalog/DELS) | Dataset | Domestic Electrical Load study datsets for South Africa (1994 - 2014) | - | - | - | - | awesome-datasets | - |
-| [EIA](https://www.eia.gov) | API | US energy statistics: electricity, petroleum, gas | Free | API key | - | - | editorial | 2026-10-24 |
-| [EIA API](https://www.eia.gov/opendata/) | Portal | US energy statistics and prices API available for public use | Free | API key | Public Domain | [docs](https://www.eia.gov/opendata/) | editorial | 2026-10-24 |
+| [EIA API](https://www.eia.gov/opendata/) | API | US energy statistics, prices and generation data from the EIA Open Data API | Free | API key | Public Domain | [docs](https://www.eia.gov/opendata/) | editorial | 2026-10-24 |
 | [Electricity Maps](https://www.electricitymaps.com) | API | Electricity Maps carbon intensity and electricity mix API | Freemium | API key | - | - | editorial | 2026-10-24 |
 | [Ember](https://ember-energy.org/) | Portal | Global electricity and emissions data available for public use | Free | None | CC BY 4.0 | [docs](https://ember-energy.org/data/) | editorial | 2026-10-24 |
 | [Energy-Charts](https://energy-charts.info/) | Portal | Interactive European electricity production, price and emissions charts and data | Free | None | - | - | editorial | 2026-10-26 |

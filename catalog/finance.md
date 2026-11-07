@@ -46,7 +46,7 @@ Banking, markets, payments data, forex and financial statements.
 | [FactSet](https://www.factset.com) | API | FactSet financial data and analytics platform | Paid | Account | - | - | editorial | - |
 | [FarmDash](https://www.farmdash.one/agents) | API | DeFi intelligence, protocol risk, yield simulation plus 84 MCP agent tools, free Scout tier | Free tier | API key | - | - | public-apis | - |
 | [Fed Treasury](https://fiscaldata.treasury.gov/api-documentation/) | API | US Treasury fiscal data API for developers | Free tier | None | - | [docs](https://fiscaldata.treasury.gov/api-documentation/) | public-apis | - |
-| [Filingrail](https://rapidapi.com/hudson-enterprises-llc-hudson-enterprises-llc-default/api/filingrail) | API | SEC EDGAR filings, XBRL financials, Form 4 insider trades, 8-K events and 13F holdings | Free tier | API key | - | - | public-apis | - |
+| [Filingrail](https://filingrail.hudsonenterprisesllc.com/) | API | SEC EDGAR filings, XBRL financials, Form 4 insider trades, 8-K events and 13F holdings | Free tier | API key | - | [docs](https://filingrail.hudsonenterprisesllc.com/get-started) | public-apis | - |
 | [Finage](https://finage.co.uk) | API | Finage is a stock, currency, cryptocurrency, indices, and ETFs real-time & historical data provider | Free tier | API key | - | - | public-apis | - |
 | [Finance Clearly Tax Rates](https://financeclearly.com/tax-rates-api) | API | Current UK and US tax rates, allowances and thresholds | Free tier | None | - | - | public-apis | - |
 | [Financial Modeling Prep](https://site.financialmodelingprep.com/developer/docs) | API | Real-time and historical stock market data API | Free tier | API key | - | [docs](https://site.financialmodelingprep.com/developer/docs) | public-apis | - |
@@ -75,7 +75,6 @@ Banking, markets, payments data, forex and financial statements.
 | [Klarna](https://docs.klarna.com/acquirer/klarna/) | API | Klarna payments API for merchants to create payment sessions, orders, captures, refunds, and settlements | Free tier | API key | - | - | public-apis | - |
 | [KmalServico Gold Price Dataset](https://www.kmalservico.com/data) | API | Current gold price per gram at 6 purities for 188 countries, JSON, no auth | Free tier | None | - | - | public-apis | - |
 | [LiquiLens](https://liquilens.in/developers) | API | Public-record bank and lender failure-risk evidence | Free tier | None | - | - | public-apis | - |
-| [Live SEC Form 4 Insider Trades](https://rapidapi.com/crisp-point-studio-crisp-point-studio-default/api/live-sec-form-4-insider-trades) | API | Latest SEC Form 4 insider trading filings from EDGAR, by ticker or market-wide | Free tier | API key | - | - | public-apis | - |
 | [LSEG Data & Analytics](https://www.lseg.com/en/data-analytics) | API | LSEG market data and analytics platform formerly Refinitiv | Paid | Account | - | - | editorial | - |
 | [Marketstack](https://marketstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | API | Real-Time, Intraday & Historical Market Data API | Free tier | API key | - | [docs](https://marketstack.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo-Best-sellers) | public-apis | - |
 | [Massive](https://massive.com/) | API | Market data API for stocks, options, forex and crypto | Freemium | API key | - | [docs](https://massive.com/docs) | editorial | 2026-10-24 |
@@ -89,6 +88,7 @@ Banking, markets, payments data, forex and financial statements.
 | [Nerkhsanj](https://nerkh.jahankhahan.shop/developers/en) | API | Iran free-market USD, EUR, CNY, gold and coin rates in toman, live and daily archive since 2010 | Free tier | None | - | - | public-apis | - |
 | [Nigeria PAYE](https://www.orionsoftlimited.com/developers) | API | Nigerian income tax (PAYE) and take-home pay under the Nigeria Tax Act 2025 | Free tier | None | - | - | public-apis | - |
 | [NORTH7 Agent](https://north7.ai/v1/docs) | API | Trading signals, market analysis and geopolitical intelligence | Free tier | API key | - | - | public-apis | - |
+| [Open Exchange Rates](https://openexchangerates.org/) | API | Exchange rates for 200+ currencies, with history back to 1999 | Free tier | API key | - | [docs](https://docs.openexchangerates.org/reference/api-introduction) | public-apis | 2026-11-07 |
 | [OpenFIGI](https://www.openfigi.com/api/overview) | API | Equity, index, futures, options symbology from Bloomberg LP | Free tier | API key | - | - | public-apis | - |
 | [paralelo.bo](https://paralelo.bo/api) | API | Bolivia parallel-market USD/BOB exchange rate, aggregated from P2P sources every 60s | Free tier | None | - | - | public-apis | - |
 | [Pink Agentic AI Payments](https://pinkwallet.com/agentic/developers/) | API | Approval layer for AI agent payments: per-agent budgets, rules, single-use credentials, sandbox | Free tier | API key | - | - | public-apis | - |

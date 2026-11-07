@@ -7,8 +7,8 @@
 A curated directory of APIs, public databases, open-data portals and MCP servers
 for developers, researchers and AI agents.
 
-**2,541 resources across 45 categories** (2,112 APIs, 286 portals, 76 datasets,
-67 MCP servers). 532 rows verified by a maintainer; the rest are pointers with
+**2,520 resources across 45 categories** (2,092 APIs, 285 portals, 76 datasets,
+67 MCP servers). 541 rows verified by a maintainer; the rest are pointers with
 working links.
 
 The catalog is Markdown. Every resource is one row in one category file. Browse it
@@ -98,7 +98,7 @@ without parsing dates. The same rows are published as `data/catalog.json` (array
 [`data/catalog.schema.json`](data/catalog.schema.json) (JSON Schema 2020-12). All of
 them are generated from the Markdown; if they disagree, the Markdown is correct.
 
-Every API row was also probed for a machine-readable contract. 535 of 2,107 publish
+Every API row was also probed for a machine-readable contract. 528 of 2,092 publish
 an OpenAPI or Swagger document that parses and has a non-empty `paths` object; the
 specification URL, version and path count for each are in
 [`data/openapi-index.json`](data/openapi-index.json). Absence is not proof that an API
