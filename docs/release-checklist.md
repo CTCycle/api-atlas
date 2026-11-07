@@ -15,12 +15,16 @@ Last reviewed 2026-11-07, in the pre-release audit.
       freshness check passes.
 - [x] Full verification completed within the last 30 days:
       `python scripts/catalog.py verify`, then `python scripts/catalog.py triage`.
-      2,830 URLs checked on 2026-11-07, after the last row edit.
+      2,873 URLs checked on 2026-11-07, after the last row edit: 2,640
+      answered, 43 moved, 100 gated, 42 timeouts, 22 transport errors, 16 TLS
+      errors, 5 unreachable, 1 DNS failure and 1 broken link.
 - [x] Every row in the `remove-or-replace`, `retired` and `confirm-new-domain`
-      buckets is fixed or accepted with a note in the pull request. Two DNS
-      failures were confirmed live through a third-party reader and kept; Cep.la
-      was removed; LAPIS was repointed to cov-spectrum.org; the deprecated
-      Tripadvisor Content API row was replaced by Terra.
+      buckets is fixed or accepted with a note in the pull request. AgentPay Doc
+      Tools and Covid-19 Datenhub answered a browser GET and a third-party reader,
+      so the local 404/DNS result was not treated as death; Cep.la was removed;
+      LAPIS was repointed to cov-spectrum.org; the deprecated Tripadvisor Content
+      API row was replaced by Terra. The single `auth-mismatch` row (UNIDO) sits
+      behind a Cloudflare challenge, not an API key.
 - [x] `python scripts/probe.py --missing --index data/openapi-index.json` run, so
       the published spec index matches the catalog: 528 of 2,092 API rows.
 - [x] No category file is a placeholder. Empty categories either have content or do
