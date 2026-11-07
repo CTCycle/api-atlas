@@ -424,6 +424,50 @@ def cmd_shortlist(args: argparse.Namespace) -> int:
     return 0
 
 
+def near_duplicate_pairs(entries: list[Entry]) -> list[tuple[str, Entry, Entry, float]]:
+    """Pairs of rows in one category whose names look like the same resource.
+
+    Single-token names overlap perfectly without describing the same thing
+    (``data.gov.au`` and ``data.gov.gr`` both reduce to ``gov``), so they only
+    count when one name contains the other and both rows point at one site.
+    """
+    stop = {"api", "the", "and", "for", "data", "server", "mcp", "service", "services", "public"}
+
+    def tokens(name: str) -> set[str]:
+        return {t for t in re.split(r"[^a-z0-9]+", name.casefold())
+                if t and t not in stop and len(t) > 2}
+
+    by_cat: dict[str, list[Entry]] = defaultdict(list)
+    for e in entries:
+        by_cat[e.category].append(e)
+
+    fuzzy = []
+    for cat, items in by_cat.items():
+        for i, a in enumerate(items):
+            for b in items[i + 1:]:
+                ta, tb = tokens(a.name), tokens(b.name)
+                if not ta or not tb:
+                    continue
+                if min(len(ta), len(tb)) < 2:
+                    if not (ta <= tb or tb <= ta):
+                        continue
+                    if _registrable(a.url) != _registrable(b.url):
+                        continue
+                overlap = len(ta & tb) / len(ta | tb)
+                if overlap < 0.8:
+                    continue
+                if ta == tb:
+                    # Same words, different spelling only if one name contains
+                    # the other; datos.gob.ar and datos.gob.cl share every token
+                    # but are different national portals.
+                    na = re.sub(r"[^a-z0-9]", "", a.name.casefold())
+                    nb = re.sub(r"[^a-z0-9]", "", b.name.casefold())
+                    if na not in nb and nb not in na:
+                        continue
+                fuzzy.append((cat, a, b, overlap))
+    return fuzzy
+
+
 def cmd_duplicates(args: argparse.Namespace) -> int:
     entries = load(Problems(), strict=False)
     exact = defaultdict(list)
@@ -437,26 +481,7 @@ def cmd_duplicates(args: argparse.Namespace) -> int:
     groups = [g for g in exact.values() if len(g) > 1]
     groups += [g for g in domain_name.values() if len(g) > 1 and g not in groups]
 
-    # near-duplicate names inside one category (token overlap, not exact)
-    stop = {"api", "the", "and", "for", "data", "server", "mcp", "service", "services", "public"}
-
-    def tokens(name: str) -> set[str]:
-        return {t for t in re.split(r"[^a-z0-9]+", name.casefold())
-                if t and t not in stop and len(t) > 2}
-
-    by_cat: dict[str, list[Entry]] = defaultdict(list)
-    for e in entries:
-        by_cat[e.category].append(e)
-    fuzzy = []
-    for cat, items in by_cat.items():
-        for i, a in enumerate(items):
-            for b in items[i + 1:]:
-                ta, tb = tokens(a.name), tokens(b.name)
-                if not ta or not tb:
-                    continue
-                overlap = len(ta & tb) / len(ta | tb)
-                if overlap >= 0.8:
-                    fuzzy.append((cat, a, b, overlap))
+    fuzzy = near_duplicate_pairs(entries)
 
     print(f"{len(groups)} same-URL or same-name group(s), "
           f"{len(fuzzy)} near-duplicate name pair(s)\n")
@@ -559,7 +584,8 @@ def _fetch(url: str, method: str = "GET", timeout: float = 15.0,
            insecure: bool = False) -> tuple[int | None, dict, bytes, str | None]:
     """One request, redirects NOT followed. Returns (status, headers, body, error)."""
     host = urlsplit(url).netloc
-    headers = {"User-Agent": USER_AGENT, "Accept": "*/*",
+    headers = {"User-Agent": USER_AGENT,
+               "Accept": "text/html,application/xhtml+xml,*/*;q=0.8",
                "Accept-Language": "en-US,en;q=0.8"}
     limit = read_body if isinstance(read_body, int) and not isinstance(read_body, bool) else 8192
     req = urllib.request.Request(url, method=method, headers=headers)
@@ -887,13 +913,40 @@ def _title_matches(name: str, title: str | None, url: str) -> bool | None:
     return any(t in haystack for t in tokens)
 
 
+BOT_WALL_MARKERS = (
+    "just a moment", "access denied", "attention required", "request rate threshold",
+    "verify you are human", "are you a robot", "ddos protection", "cloudflare",
+    "checking your browser", "enable javascript and cookies", "security checkpoint",
+    "403 forbidden", "request blocked", "bot protection",
+    "доступ заблоковано", "request could not be satisfied", "service unavailable",
+)
+
+
+def _bot_wall(title: str | None) -> bool:
+    """True when a 403/429 page is a bot challenge rather than an auth gate."""
+    text = (title or "").casefold()
+    return any(marker in text for marker in BOT_WALL_MARKERS)
+
+
+def _newest_report(pattern: str, directory: Path = REPORT_DIR) -> dict | None:
+    """Load the report with the latest ``generated`` stamp, not the latest name.
+
+    ``verify-2026-11-07-final.json`` sorts before ``verify-2026-11-07.json``, so a
+    filename sort silently summarizes the older run.
+    """
+    reports = list(directory.glob(pattern))
+    if not reports:
+        return None
+    return max((json.loads(p.read_text(encoding="utf-8")) for p in reports),
+               key=lambda d: d.get("generated", ""))
+
+
 def cmd_triage(args: argparse.Namespace) -> int:
     """Turn the newest verify report into a decision queue grouped by action."""
-    reports = sorted(REPORT_DIR.glob("verify-*.json"))
-    if not reports:
+    report = _newest_report("verify-*.json")
+    if report is None:
         print("no verify report found, run: python scripts/catalog.py verify")
         return 2
-    report = json.loads(reports[-1].read_text(encoding="utf-8"))
     entries = {(e.category, e.name): e for e in load(Problems(), strict=False)}
 
     buckets: dict[str, list[dict]] = defaultdict(list)
@@ -912,7 +965,10 @@ def cmd_triage(args: argparse.Namespace) -> int:
         elif kind == "moved":
             action = "update-url"
         elif kind == "gated" and entry.auth == "None":
-            action = "auth-mismatch"
+            if r.get("status") in (403, 429) and _bot_wall(r.get("title")):
+                action = "bot-gated"
+            else:
+                action = "auth-mismatch"
         elif r.get("hint") == "deprecated":
             action = "retired"
         elif kind in {"timeout", "tls-error", "error", "unreachable", "redirect"}:
@@ -931,7 +987,7 @@ def cmd_triage(args: argparse.Namespace) -> int:
             })
 
     order = ["remove-or-replace", "retired", "confirm-new-domain", "auth-mismatch",
-             "title-mismatch", "update-url", "recheck"]
+             "bot-gated", "title-mismatch", "update-url", "recheck"]
     stamp = dt.date.today().isoformat()
     out_json = REPORT_DIR / f"triage-{stamp}.json"
     out_json.write_text(json.dumps({"generated": report["generated"],
