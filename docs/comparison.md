@@ -37,9 +37,9 @@ number of rows their list actually contains, not estimates.
    real destination, records the page title, and detects parked domains, retirement
    notices and rows whose page no longer matches their name. `triage` turns that
    into a decision queue, including rows that answer 401/403 while claiming no auth.
-   The 2026-11-07 pass covered 2,878 URLs, with redirects followed: 2,635
-   answered, 57 moved, 92 gated, 43 timeouts, 23 transport errors, 16 TLS
-   errors, 5 unreachable, 3 DNS failures, 1 broken link and 4 pages with
+   The 2026-11-07 pass covered 2,873 URLs, with redirects followed: 2,640
+   answered, 43 moved, 100 gated, 42 timeouts, 22 transport errors, 16 TLS
+   errors, 5 unreachable, 1 DNS failure, 1 broken link and 3 pages with
    retirement wording. Five duplicate rows were merged, 26 unreliable rows were
    deleted after the marketplace audit, and the dead domain Cep.la was removed.
 5. **Machine-readable contracts, discovered not assumed.** `scripts/probe.py` looks

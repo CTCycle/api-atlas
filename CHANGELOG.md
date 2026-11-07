@@ -10,7 +10,7 @@ the SQLite index, the importers and the scheduled refresh workflows were removed
 
 - Full re-verification of 2,873 URLs: 2,640 answered, 43 moved, 100 gated, 42
   timeouts, 22 transport errors, 16 TLS errors, 5 unreachable, 1 DNS failure,
-  1 broken link, 1 redirect loop, 2 incomplete certificate chains. Four pages
+  1 broken link, 1 redirect loop, 2 incomplete certificate chains. Three pages
   carried retirement wording and were reviewed individually.
 - Cross-checked the catalog against public-apis/public-apis (2,343 rows),
   awesome-public-datasets (1,153), the APIs.guru directory (2,529) and
