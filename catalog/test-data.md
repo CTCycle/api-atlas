@@ -18,7 +18,6 @@ Fake users, addresses, images and generators for testing.
 | [Mailsac](https://mailsac.com/docs/api) | API | Disposable email and test inbox API for QA testing | Free tier | API key | - | - | public-apis | - |
 | [Metaphorpsum](http://metaphorpsum.com) | API | Generate demo paragraphs giving number of words and sentences | Free tier | None | - | - | public-apis | - |
 | [Mockaroo](https://www.mockaroo.com/docs) | API | Generate fake data to JSON, CSV, TXT, SQL and XML | Free tier | API key | - | - | public-apis | - |
-| [NovaFortix Dev](https://public-dev-apis.surge.sh) | API | Zero-auth REST endpoints for mock user profiles, UUIDs and HTTP status codes | Free tier | None | - | - | public-apis | - |
 | [Random User Generator](https://randomuser.me) | API | Generate random user profiles with names, addresses, emails, photos and more in multiple locales and formats | Free | None | - | [docs](https://randomuser.me/documentation) | editorial | - |
 | [Randommer](https://randommer.io/randommer-api) | API | Randommer REST API for generating random data | Free tier | API key | - | - | public-apis | - |
 | [restful-api](https://restful-api.dev) | API | Fake REST API for testing and prototyping with CRUD endpoints | Free tier | None | - | - | public-apis | - |

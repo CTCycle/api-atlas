@@ -21,7 +21,6 @@ Film, television, music, books, podcasts and media metadata.
 | [AstroWay](https://api.astroway.info/docs) | API | Astrology, natal charts, Human Design, Vedic and horoscopes on the Swiss Ephemeris | Free tier | API key | - | - | public-apis | - |
 | [Audiomack](https://audiomack.com/data-api/docs) | API | Audiomack music API for songs, artists, playlists, charts, and user data via OAuth 1.0a | Free tier | OAuth | - | - | public-apis | - |
 | [Bandcamp](https://bandcamp.com/developer) | API | Bandcamp music store catalog API for developers | Free tier | OAuth | - | [docs](https://bandcamp.com/developer) | public-apis | - |
-| [BBC Nitro API](https://developer.bbc.com/login-required) | API | BBC Nitro is the BBC's application programming interface (API) for BBC Programmes Metadata | - | - | Nitro Public | - | APIs.guru | - |
 | [Bhagavad Gita telugu](https://gita-api.vercel.app) | API | Bhagavad Gita API in telugu and odia languages | Free tier | None | - | - | public-apis | - |
 | [Bible-api](https://bible-api.com) | API | Free JSON API for Bible verses and passages across multiple translations and languages | Free tier | None | - | - | public-apis | - |
 | [Biriyani As A Service](https://biriyani.anoram.com/) | API | Biriyani placeholder images for developers | Free tier | None | - | - | public-apis | - |
@@ -58,7 +57,7 @@ Film, television, music, books, podcasts and media metadata.
 | [Gutendex](https://gutendex.com) | API | Web-API for fetching data from Project Gutenberg Books Library | Free tier | None | - | - | public-apis | - |
 | [Hyperserve](https://hyperserve.io) | API | Video backend API: upload any format, transcode to MP4, deliver via CDN | Free tier | API key | - | - | public-apis | - |
 | [icanhazdadjoke](https://icanhazdadjoke.com/api) | API | The largest selection of dad jokes on the internet | Free tier | None | - | - | public-apis | - |
-| [Image Moderation](https://moderatecontent.com) | API | Our FREE API blocks images with nudity. Build from the ground up, accurate models, best in class support, great price | - | - | - | [docs](https://api.apis.guru/v2/specs/moderatecontent.com/1.0.0/swagger.json) | APIs.guru | - |
+| [Image Moderation](https://moderatecontent.com) | API | Image moderation for nudity and unsafe content | - | - | - | [docs](https://api.apis.guru/v2/specs/moderatecontent.com/1.0.0/swagger.json) | APIs.guru | - |
 | [IMDbOT](https://github.com/TelegramPlayground/Free-Movie-Series-DB-API) | API | Unofficial IMDb Movie / Series Information | Free tier | None | - | - | public-apis | - |
 | [Imgflip](https://imgflip.com/api) | API | Meme generator API for listing templates and captioning images or GIFs, with free and premium tiers | Free tier | None | - | - | public-apis | - |
 | [Jamendo](https://developer.jamendo.com/v3.0/docs) | API | Royalty-free music catalog API for developers | Free tier | OAuth | - | [docs](https://developer.jamendo.com/v3.0/docs) | public-apis | - |
@@ -76,7 +75,6 @@ Film, television, music, books, podcasts and media metadata.
 | [Listen API: Podcast Search, Directory, and Insights API](https://www.listennotes.com/api) | API | Simple & no-nonsense podcast search & directory API. Search all podcasts and episodes by people, places, or topics | - | - | - | [docs](https://api.apis.guru/v2/specs/listennotes.com/2.0/openapi.json) | APIs.guru | - |
 | [Lyrics.ovh](https://lyricsovh.docs.apiary.io) | API | Simple API to retrieve the lyrics of a song | Free tier | None | - | - | public-apis | - |
 | [MangaDex](https://api.mangadex.org/docs/) | API | Manga database and community API for developers | Free tier | API key | - | [docs](https://api.mangadex.org/docs/) | public-apis | - |
-| [Mangapi](https://rapidapi.com/pierre.carcellermeunier/api/mangapi3) | API | Translate manga pages from one language to another | Free tier | API key | - | - | public-apis | - |
 | [MangaUpdates](https://api.mangaupdates.com) | API | Manga database: series, releases, groups and reading lists | Free tier | None | - | - | public-apis | - |
 | [MCU Countdown](https://github.com/DiljotSG/MCU-Countdown) | API | Self-hostable API returning a countdown to the next MCU film or TV release, sourced from TMDB | Free tier | None | - | - | public-apis | - |
 | [Medium](https://github.com/Medium/medium-api-docs) | API | Community of readers and writers offering unique perspectives on ideas | Free tier | OAuth | - | - | public-apis | - |
@@ -87,7 +85,6 @@ Film, television, music, books, podcasts and media metadata.
 | [MusicBrainz](https://musicbrainz.org/doc/MusicBrainz_API) | API | Open music encyclopedia metadata API for developers | Free tier | None | - | [docs](https://musicbrainz.org/doc/MusicBrainz_API) | public-apis | - |
 | [Musixmatch](https://developer.musixmatch.com/login) | API | Lyrics and music metadata API for developers | Free tier | API key | - | [docs](https://developer.musixmatch.com/login) | public-apis | - |
 | [MyAnimeList](https://myanimelist.net/clubs.php?cid=13727) | API | Official MyAnimeList v2 API for anime and manga data, user lists, forums, and OAuth2 access | Free tier | OAuth | - | - | public-apis | - |
-| [NBA Stats API](https://nba.com) | API | The destination for current and historic NBA statistics | - | - | - | [docs](https://api.apis.guru/v2/specs/nba.com/version/swagger.json) | APIs.guru | - |
 | [NekosBest](https://docs.nekos.best) | API | Free REST API serving 63+ SFW anime images and roleplay GIFs with artist credits and CORS | Free tier | None | - | - | public-apis | - |
 | [News Plugin](https://www.freetv-app.com:443/) | API | A plugin that allows the user to obtain and summary latest news using ChatGPT. If you do not know the user's username, ask them first before making queries to the plugin | - | - | - | [docs](https://api.apis.guru/v2/specs/freetv-app.com/v1/openapi.json) | APIs.guru | - |
 | [OMDb](http://omdbapi.com) | API | The Open Movie Database. The OMDb API is a free web service to obtain movie information, all content and images on the site are contributed and maintained by our users | - | - | CC BY-NC 4.0 | [docs](https://api.apis.guru/v2/specs/omdbapi.com/1/swagger.json) | APIs.guru | - |
@@ -107,7 +104,6 @@ Film, television, music, books, podcasts and media metadata.
 | [Quran](https://api-docs.quran.com/) | API | RESTful Quran API exposing Quran text and translations in multiple languages | Free tier | None | - | - | public-apis | - |
 | [Quran Cloud](https://alquran.cloud/api) | API | A RESTful Quran API to retrieve an Ayah, Surah, Juz or the entire Holy Quran | Free tier | None | - | - | public-apis | - |
 | [Quran-api](https://github.com/fawazahmed0/quran-api) | API | Free Quran API Service with 90+ different languages and 400+ translations | Free tier | None | - | - | public-apis | - |
-| [Radio & Music Services](https://www.bbc.co.uk/) | API | We encapsulate Radio & Music business logic for iPlayer Radio and BBC Music products on all platforms. We add value by reliably providing the right blend of metadata needed by clients | - | - | - | [docs](https://api.apis.guru/v2/specs/bbc.co.uk/1.0.0/swagger.json) | APIs.guru | - |
 | [Radio Browser](https://api.radio-browser.info) | API | Free open API listing internet radio stations with search, metadata, and server discovery | Free tier | None | - | - | public-apis | - |
 | [Random Useless Facts](https://uselessfacts.jsph.pl/) | API | Random useless but true facts API for developers | Free tier | None | - | - | public-apis | - |
 | [RankFabrik Captions](https://rankfabrik.com/produits/transcription) | API | Extract transcripts and captions from YouTube videos | Free tier | API key | - | - | public-apis | - |
@@ -118,8 +114,8 @@ Film, television, music, books, podcasts and media metadata.
 | [Shikimori](https://shikimori.io/api/doc) | API | Anime and manga discovery and tracking API with GraphQL and REST endpoints (OAuth2) | Free tier | OAuth | - | - | public-apis | - |
 | [Shotstack](https://shotstack.io/) | API | Cloud video editing API to create and render videos programmatically | Free tier | API key | - | - | public-apis | - |
 | [Shutterstock API Explorer](https://shutterstock.com) | API | The Shutterstock API provides access to Shutterstock's library of media, as well as information about customers' accounts and the contributors that provide the media | - | - | - | [docs](https://api.apis.guru/v2/specs/shutterstock.com/1.1.32/openapi.json) | APIs.guru | - |
+| [Simkl API](https://simkl.com/) | API | Anime, movie and TV tracking, watchlists, scrobbling and sync | Free tier | OAuth | - | [docs](https://api.simkl.org/) | public-apis | 2026-11-07 |
 | [Songkick](https://www.songkick.com/developer/) | API | Concert and festival event listings API service | Free tier | API key | - | [docs](https://www.songkick.com/developer/) | public-apis | - |
-| [Songlink / Odesli](https://app.notion.com/p/API-d0ebe08a5e304a55928405eb682f6741?__dm_a=1) | API | Get all the services on which a song is available | Free tier | API key | - | - | public-apis | - |
 | [Songsterr](https://www.songsterr.com) | API | Provides guitar, bass and drums tabs and chords | Free tier | None | - | - | public-apis | - |
 | [SoundCloud](https://developers.soundcloud.com/docs/api/guide) | API | With SoundCloud API you can build applications that will give more power to control your content | Free tier | OAuth | - | - | public-apis | - |
 | [Spotify](https://developer.spotify.com/documentation/web-api) | API | View Spotify music catalog, manage users' libraries, get recommendations and more | Free tier | OAuth | - | - | public-apis | - |
@@ -143,16 +139,17 @@ Film, television, music, books, podcasts and media metadata.
 | [Thirukkural](https://api-thirukkural.web.app) | API | 1330 Thirukkural poems and explanation in Tamil and English | Free tier | None | - | - | public-apis | - |
 | [ThronesApi](https://thronesapi.com) | API | Game Of Thrones Characters Data with imagery | Free tier | None | - | - | public-apis | - |
 | [Ticketmaster](https://developer.ticketmaster.com/products-and-docs/apis/getting-started/) | API | Discovery API for global events, attractions, venues, and classifications (API key) | Free tier | API key | - | - | public-apis | - |
-| [TMDb](https://www.themoviedb.org/documentation/api) | API | Community-based movie and TV data API service | Free tier | API key | - | [docs](https://www.themoviedb.org/documentation/api) | public-apis | - |
+| [TMDb](https://developer.themoviedb.org/docs/getting-started) | API | Community-based movie and TV data API service | Free tier | API key | - | [docs](https://www.themoviedb.org/documentation/api) | public-apis | - |
 | [Trace Moe](https://soruly.github.io/trace.moe-api) | API | A useful tool to get the exact scene of an anime from a screenshot | Free tier | None | - | - | public-apis | - |
 | [Traitify](https://app.traitify.com/developer) | API | Personality assessment API using image-based quizzes to derive traits and personality types | Free tier | None | - | - | public-apis | - |
+| [Trakt API](https://trakt.tv/) | API | Movies, shows, watchlists, scrobbling and user lists for Trakt | Free tier | OAuth | - | [docs](https://trakt.docs.apiary.io/) | public-apis | 2026-11-07 |
 | [TranscriptYT](https://transcript-yt.com/docs) | API | YouTube transcripts as JSON, text, SRT or VTT in 150+ languages, with AI fallback | Free tier | API key | - | - | public-apis | - |
 | [TubeToTranscript](https://www.tubetotranscript.com/youtube-transcript-api) | API | Extract clean YouTube video transcripts via REST API | Free tier | API key | - | - | public-apis | - |
 | [TVDB](https://thetvdb.com/api-information) | API | Television series and movie data API service | Free tier | API key | - | [docs](https://thetvdb.com/api-information) | public-apis | - |
 | [TVMaze](https://www.tvmaze.com/api) | API | TV show and episode data API for developers | Free tier | None | - | [docs](https://www.tvmaze.com/api) | public-apis | - |
 | [Udemy Instructor](https://www.udemy.com/developers/instructor/) | API | Udemy instructor API for course management | Free tier | API key | - | [docs](https://www.udemy.com/developers/instructor/) | public-apis | - |
 | [UGCdrop](https://ugcdrop.com/api) | API | Search real UGC video clips (reactions, hooks, b-roll) by emotion, niche, age and setting | Free tier | None | - | - | public-apis | - |
-| [uNoGS](https://rapidapi.com/unogs/api/unogsng) | API | Unofficial Netflix Online Global Search, Search all netflix regions in one place | Free tier | API key | - | - | public-apis | - |
+| [uNoGS](https://unogs.com/) | API | Unofficial Netflix Online Global Search, Search all netflix regions in one place | Free tier | API key | - | - | public-apis | - |
 | [Urantia Papers](https://urantia.dev) | API | Full-text + semantic search across the Urantia Papers, with audio narration, entities, translations | Free tier | None | - | - | public-apis | - |
 | [Vagalume](https://api.vagalume.com.br/docs) | API | Brazilian music portal API for lyrics, artists, albums, rankings, and related content (API key) | Free tier | API key | - | - | public-apis | - |
 | [Verome](https://github.com/Kirazul/Verome-API) | API | Music API for searching, streaming and exploring music data from YouTube Music, YouTube, and Last.fm | Free tier | None | - | - | public-apis | - |

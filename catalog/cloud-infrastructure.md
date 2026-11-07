@@ -33,6 +33,6 @@ Hosting, storage, container and deployment platforms.
 | [The Null Pointer](https://0x0.st) | API | No-bullshit file hosting and URL shortening service | Free tier | None | - | - | public-apis | - |
 | [Turso](https://turso.tech/) | API | Edge SQLite database platform with an API for databases and replicas | Free tier | API key | - | [docs](https://docs.turso.tech/introduction) | editorial | 2026-10-26 |
 | [Upstash](https://upstash.com/) | API | Serverless data platform with Redis, Kafka and vector APIs | Free tier | API key | - | [docs](https://upstash.com/docs/introduction) | editorial | 2026-10-26 |
-| [Vercel API](https://vercel.com/help) | API | Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work | - | - | - | [docs](https://openapi.vercel.sh) | APIs.guru | - |
+| [Vercel API](https://vercel.com/help) | API | Deployments, projects, domains and environment configuration | - | - | - | [docs](https://openapi.vercel.sh) | APIs.guru | - |
 | [Wasabi](https://wasabi.com/) | API | Hot cloud object storage with S3-compatible API and no egress fees | Paid | API key | - | [docs](https://docs.wasabi.com/) | editorial | 2026-10-26 |
 | [Web3 Storage](https://www.fil.one/) | API | File Sharing and Storage for Free with 1TB Space | Free tier | API key | - | - | public-apis | - |

@@ -9,7 +9,7 @@ Social platforms, advertising, audience and influencer data.
 | [Ayrshare](https://www.ayrshare.com) | API | Social media APIs to post, get analytics, and manage multiple users social media accounts | Free tier | API key | - | - | public-apis | - |
 | [Blogger](https://developers.google.com/blogger) | API | The Blogger APIs allows client applications to view and update Blogger content | Free tier | OAuth | - | - | public-apis | - |
 | [Bluesky](https://bsky.network/) | API | Decentralized social networking via the AT protocol | Free tier | None | - | - | public-apis | - |
-| [Discord](https://discord.com/developers/docs/intro) | API | Discord developer platform for bots and integrations | Free tier | OAuth | - | - | public-apis | - |
+| [Discord](https://docs.discord.com/developers/intro) | API | Discord developer platform for bots and integrations | Free tier | OAuth | - | - | public-apis | - |
 | [Disqus](https://disqus.com/api/docs/auth/) | API | Disqus global comment system API for site discussions | Free tier | OAuth | - | - | public-apis | - |
 | [Facebook](https://developers.facebook.com) | API | Facebook Login, Share on FB, Social Plugins, Analytics and more | Free tier | OAuth | - | - | public-apis | - |
 | [FastSocial Instagram Data](https://fastsocial.co/instagram-api/docs) | API | Public Instagram data: profiles, posts, reels, stories, comments and a daily top-accounts ranking | Free tier | API key | - | - | public-apis | - |
@@ -27,7 +27,7 @@ Social platforms, advertising, audience and influencer data.
 | [Microsoft Graph](https://learn.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0) | API | Access the data and intelligence in Microsoft 365, Windows 10, and Enterprise Mobility | Free tier | OAuth | - | - | public-apis | - |
 | [Native Ads Publisher API](https://nativeads.com) | API | This is a Native Ads Publisher API it provides same functionality as Native Ads Publisher Account GUI | - | - | - | [docs](https://api.apis.guru/v2/specs/nativeads.com/1.0.0/swagger.json) | APIs.guru | - |
 | [NAVER](https://developers.naver.com/main) | API | NAVER Login, Share on NAVER, Social Plugins and more | Free tier | OAuth | - | - | public-apis | - |
-| [Open Collective](https://docs.opencollective.com/help/developers/api) | API | Open Collective API documentation (legacy docs site) | Free tier | None | - | - | public-apis | - |
+| [Open Collective](https://docs.opencollective.com/help/contributing/development/api) | API | Open Collective API documentation (legacy docs site) | Free tier | None | - | - | public-apis | - |
 | [Pinterest](https://developers.pinterest.com/) | API | Pinterest developer API for content and boards | Free tier | OAuth | - | - | public-apis | - |
 | [PostLake](https://docs.postlake.dev/) | API | One API to publish, schedule, and read analytics across every major social network | Free tier | API key | - | - | public-apis | - |
 | [Postproxy](https://postproxy.dev/getting-started/quickstart) | API | Unified social media publishing API with scheduling, retries, comments, DMs, and multi-platform posting support | Free tier | API key | - | - | public-apis | - |
@@ -42,7 +42,7 @@ Social platforms, advertising, audience and influencer data.
 | [TamTam](https://dev.tamtam.chat) | API | TamTam Bot API for messaging bots: send messages, manage chats, webhooks, long polling, and user interactions | Free tier | API key | - | - | public-apis | - |
 | [Telegram Bot](https://core.telegram.org/bots/api) | API | Simplified HTTP version of the MTProto API for bots | Free tier | API key | - | - | public-apis | - |
 | [Telegraph](https://telegra.ph/api) | API | Telegraph API for creating, editing, and retrieving minimalist web pages and accounts with view statistics | Free tier | API key | - | - | public-apis | - |
-| [TikTok](https://developers.tiktok.com/doc/login-kit-web) | API | TikTok developer platform for web authentication and APIs | Free tier | OAuth | - | - | public-apis | - |
+| [TikTok](https://developers.tiktok.com/docs/en/login-kit-web) | API | TikTok developer platform for web authentication and APIs | Free tier | OAuth | - | - | public-apis | - |
 | [Trash Nothing](https://trashnothing.com/developer) | API | This is the REST API for trashnothing.com. To learn more about the API or to register your app for use with the API visit the trash nothing Developer page | Free tier | OAuth | - | [docs](https://api.apis.guru/v2/specs/trashnothing.com/1.3/openapi.json) | public-apis, APIs.guru | - |
 | [TrendsMCP](https://www.trendsmcp.ai/docs) | API | Live keyword trend data from Google, TikTok, YouTube, Amazon and Reddit | Free tier | API key | - | - | public-apis | - |
 | [Tumblr](https://www.tumblr.com/docs/en/api/v2) | API | Tumblr API for reading and writing blog data | Free tier | OAuth | - | - | public-apis | - |
@@ -51,7 +51,7 @@ Social platforms, advertising, audience and influencer data.
 | [TwitterAPIs](https://www.twitterapis.com) | API | Twitter / X data API: search, profiles, timelines, followers, DMs, write actions | Free tier | API key | - | - | public-apis | - |
 | [TwittrAPI](https://www.twittrapi.com/docs) | API | Public Twitter/X data: profiles, tweets, replies, search, followers, lists, communities, trends | Free tier | API key | - | - | public-apis | - |
 | [vk](https://vk.com/dev/sites) | API | VKontakte platform API documentation (login required) | Free tier | OAuth | - | - | public-apis | - |
-| [Webex API](https://developer.webex.com) | API | REST APIs for Webex messaging, meetings, calling and collaboration | Free tier | OAuth | - | [docs](https://developer.webex.com/docs/getting-started) | public-apis, editorial | 2026-11-03 |
+| [Webex API](https://developer.webex.com) | API | REST APIs for Webex messaging, meetings, calling and collaboration | Free tier | OAuth | - | [docs](https://developer.webex.com/admin/docs/getting-started) | public-apis, editorial | 2026-11-03 |
 | [Weir](https://docs.weirapp.io) | API | Public Reddit and X (Twitter) search and profile data | Free tier | API key | - | - | public-apis | - |
 | [X API](https://developer.x.com) | API | Pay-per-use API for posts, users, trends and real-time X data | Paid | API key | - | [docs](https://docs.x.com/overview) | public-apis, editorial | 2026-11-03 |
 | [xfetch](https://xfetch.io) | API | Read API for X/Twitter search, profiles, tweets, and social graph | Free tier | API key | - | - | public-apis | - |

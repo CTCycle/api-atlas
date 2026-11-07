@@ -6,11 +6,10 @@ National and international open data catalogs and CKAN portals.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | [10ML Fragrance Index](https://mcp.10ml.com/openapi.json) | API | Perfume and fragrance notes, accords and similar scents data | Free tier | None | - | - | public-apis | - |
 | [221](https://221.orvlabs.com/documentation) | API | Senegal reference data: public holidays, mobile operators, banks, communes, legal forms | Free tier | None | - | - | public-apis | - |
-| [49 Gallery Historical Data](https://api.181649.com/docs) | API | Normalized historical records and 25 daily-updated reference series | Free tier | None | - | - | public-apis | - |
 | [AcreLens](https://www.acrelens.com) | API | Land suitability scoring API for any US property: off-grid, rural, recreational, investment | Free tier | API key | - | - | public-apis | - |
 | [API Setu](https://www.apisetu.gov.in) | API | An Indian Government platform that provides a lot of APIS for KYC, business, education & employment | Free tier | None | - | - | public-apis | - |
 | [APIllow](https://apillow.co/docs.html) | API | Zillow property data: 50+ fields per listing by address, URL, ZPID or ZIP, with sold data and comps | Free tier | API key | - | - | public-apis | - |
-| [Archive.org](https://archive.readme.io/docs) | Portal | Internet Archive collections and services | Free tier | None | - | - | public-apis | - |
+| [Archive.org](https://archive.readme.io/reference/getting-started) | Portal | Internet Archive collections and services | Free tier | None | - | - | public-apis | - |
 | [Auregistre](https://auregistre.fr/api) | API | French company history from the official gazette since 2008 | Free tier | None | - | - | public-apis | - |
 | [Authorized Partner API Specification](https://www.digilocker.gov.in:443/) | API | To access files in user's DigiLocker account from your application, you must first obtain user's authorization | - | - | - | [docs](https://api.apis.guru/v2/specs/digitallocker.gov.in/authpartner/1.0.0/openapi.json) | APIs.guru | - |
 | [avoindata.fi](https://avoindata.suomi.fi/en) | Portal | Finnish open data service available for public use | Free | None | Unknown | [docs](https://avoindata.suomi.fi/en) | editorial | 2026-10-26 |
@@ -87,7 +86,7 @@ National and international open data catalogs and CKAN portals.
 | [OpenSanctions](https://www.opensanctions.org/docs/api) | API | Data on international sanctions, crime and politically exposed persons | Free tier | None | - | - | public-apis, awesome-datasets | - |
 | [Pan Africa Data](https://panafricadata.com) | API | Macroeconomic and subnational income distribution data for all 54 African countries | Free tier | API key | - | - | public-apis | - |
 | [PayCrunch](https://paycrunch.co/api.html) | API | US wages for 1,008 occupations and by state, from BLS OEWS May 2025, static JSON, CC BY 4.0 | Free tier | None | - | - | public-apis | - |
-| [PeakMetrics](https://rapidapi.com/peakmetrics-peakmetrics-default/api/peakmetrics-news) | API | News API exposing millions of articles for integration into apps and websites via RapidAPI | Free tier | API key | - | - | public-apis | - |
+| [PeakMetrics](https://www.peakmetrics.com/) | API | News API exposing millions of articles for integration into apps and websites via RapidAPI | Paid | OAuth | - | [docs](https://docs.peakmetrics.com/) | public-apis | - |
 | [ProductGuru](https://myproduct.guru/lookup) | API | Consumer product-safety recall notices from 11 government registers, looked up by barcode (EAN/GTIN) | Free tier | None | - | - | public-apis | - |
 | [PublicDataHub](https://publicdatahub.org/api) | API | US public schools, hospitals and federal agency budgets as JSON/CSV, with provenance | Free tier | None | - | - | public-apis | - |
 | [Recreation Information Database](https://ridb.recreation.gov) | API | Recreational areas, federal lands, historic sites, museums, and other attractions/resources(US) | Free tier | API key | - | - | public-apis | - |
@@ -113,3 +112,4 @@ National and international open data catalogs and CKAN portals.
 | [Vuntum](https://vuntum.com/en/api-mcp) | API | Sourced, dated facts on consumer robots and physical AI, licensed CC BY 4.0 | Free tier | None | - | - | public-apis | - |
 | [w14n](https://api.w14n.dev/v1) | API | Brazilian company profiles by CNPJ, CNAE establishment counts and municipality coordinates | Free tier | None | - | - | public-apis | - |
 | [Wikidata](https://www.wikidata.org/w/api.php?action=help) | API | Collaboratively edited knowledge base operated by the Wikimedia Foundation | Free tier | OAuth | - | - | public-apis, awesome-datasets | - |
+| [Wikipedia API](https://www.wikipedia.org/) | API | Read Wikipedia articles, revisions, categories and page metadata over HTTP | Free | None | - | [docs](https://www.mediawiki.org/wiki/API:Action_API) | public-apis | 2026-11-07 |

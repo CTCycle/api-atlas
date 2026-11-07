@@ -26,7 +26,6 @@ Food composition, recipes, restaurants and product nutrition data.
 | [RecipeAPI](https://recipeapi.io) | API | Recipes, ingredients, nutrition data and cooking instructions | Free tier | API key | - | - | public-apis | - |
 | [Spoonacular](https://spoonacular.com/food-api) | API | Recipes, Food Products, and Meal Planning | Free tier | API key | - | - | public-apis | - |
 | [TacoFancy](https://github.com/evz/tacofancy-api) | API | API serving random taco recipes assembled from community-contributed base layers, mixins, condiments, seasonings, and shells | Free tier | None | - | - | public-apis | - |
-| [Tasty](https://rapidapi.com/apidojo/api/tasty) | API | API to query data about recipe, plan, ingredients | Free tier | API key | - | - | public-apis | - |
 | [TheCocktailDB](https://www.thecocktaildb.com/api.php) | API | Free cocktail recipe database and JSON API with search by ingredient or name | Free tier | API key | - | - | public-apis | - |
 | [TheMealDB](https://www.themealdb.com/api.php) | API | Free recipe database and JSON API covering meals, ingredients and categories | Free tier | API key | - | - | public-apis | - |
 | [Tiny Plates](https://www.tinyplates.dev/docs) | API | Structured recipes, semantic search, serving adjustments and shopping lists | Free tier | API key | - | - | public-apis | - |

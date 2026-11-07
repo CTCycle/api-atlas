@@ -50,7 +50,7 @@ Model Context Protocol servers that expose tools and data to AI agents.
 | [Qdrant MCP Server](https://github.com/qdrant/mcp-server-qdrant) | MCP | MCP server for storing and retrieving memories in Qdrant | Freemium | API key | Apache-2.0 | - | editorial | 2026-10-24 |
 | [Redis MCP Server](https://github.com/redis/mcp-redis) | MCP | MCP server for managing and searching data in Redis | Free | API key | MIT | [docs](https://redis.io/docs/latest/integrate/redis-mcp/) | editorial | 2026-10-24 |
 | [Refnusa](https://refnusa.dev/) | MCP | Indonesian reference data: holidays, wages, regions, tax | Free tier | None | - | - | public-apis | - |
-| [RegSentry](https://regsentry.com/mcp-guide) | MCP | Inspect site tracking signals and consent evidence | Free tier | None | - | - | public-apis | - |
+| [RegSentry](https://regsentry.com/agents) | MCP | Inspect site tracking signals and consent evidence | Free tier | None | - | - | public-apis | - |
 | [Salesforce MCP Server](https://github.com/salesforcecli/mcp) | MCP | Salesforce DX MCP server for orgs, metadata, and data | Freemium | OAuth | Apache-2.0 | - | editorial | 2026-10-24 |
 | [Sentry MCP Server](https://github.com/getsentry/toolkit) | MCP | Sentry's remote MCP server for errors, issues, and performance data | Freemium | OAuth | FSL-1.1-Apache-2.0 | [docs](https://mcp.sentry.dev) | editorial | 2026-10-24 |
 | [Sequential Thinking MCP Server](https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking) | MCP | Dynamic and reflective problem-solving through thought sequences | Free | None | Apache-2.0 | - | editorial | 2026-10-24 |

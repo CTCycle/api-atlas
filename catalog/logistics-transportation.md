@@ -25,13 +25,11 @@ Transit, shipping, flights, routing and vehicle data.
 | [CarSpecs](https://carspecsapi.com/docs) | API | Car specifications for 70000+ trims since 1945 plus VIN decoder | Free tier | API key | - | - | public-apis | - |
 | [CarVector](https://carvector.io/docs) | API | Vehicle specs, images, recalls, and DTC codes across 1925-2029 | Free tier | API key | - | - | public-apis | - |
 | [ChargeAlong](https://chargealong.io/docs) | API | EV charging sites in AU, NZ, US, UK and Canada, with nearby search and trip planning | Free tier | None | - | - | public-apis | - |
-| [Compare Flight Prices](https://rapidapi.com/obryan-software-obryan-software-default/api/compare-flight-prices) | API | API for comparing flight prices across platforms | Free tier | API key | - | - | public-apis | - |
 | [ConnectMeGuru](https://www.connectmeguru.com/api/mcp) | API | Search and purchase prepaid travel eSIM data plans across 190+ countries | Free tier | None | - | - | public-apis | - |
 | [Correios](https://auth.correios.com.br/login?service=https%3A%2F%2Fcws.correios.com.br%2Flogin%2Fcas) | API | Integration to provide information and prepare shipments using Correio's services | Free tier | API key | - | - | public-apis | - |
 | [Cruise Itinerary](https://cruise-itinerary.com/docs) | API | Cruise sailings, day-by-day itineraries, weekly fare history, port traffic and a cruise price index | Free tier | API key | - | - | public-apis | - |
 | [CruiseFeed](https://cruisefeed.io) | API | Normalized cruise line inventory: ships, sailings, itineraries, ports and lead-in fares | Free tier | API key | - | - | public-apis | - |
 | [CTS](https://api.cts-strasbourg.eu/) | API | Real-time public transport data for Strasbourg | Free tier | API key | - | - | public-apis | - |
-| [Dealer](https://mercedes-benz.com) | API | The Dealer API provides Dealer search functions | - | - | - | [docs](https://api.apis.guru/v2/specs/mercedes-benz.com/dealer/1.0/swagger.json) | APIs.guru | - |
 | [Faretrotter Travel API](https://faretrotter.com) | API | Multimodal travel API to return modes of transportation between cities and points of interest | - | - | - | [docs](https://api.apis.guru/v2/specs/faretrotter.com/2.0/swagger.json) | APIs.guru | - |
 | [FaSta - Station Facilities Status](https://www.deutschebahn.com/de) | API | A RESTful webservice to retrieve data about the operational state of public elevators and escalators in german railway stations | - | - | CC-BY 4.0 | [docs](https://developers.deutschebahn.com/db-api-marketplace/apis/) | APIs.guru | - |
 | [FlightAware](https://www.flightaware.com) | API | FlightAware aviation data and flight tracking API | Paid | Account | - | [docs](https://www.flightaware.com/commercial) | editorial | 2026-10-24 |
@@ -47,11 +45,10 @@ Transit, shipping, flights, routing and vehicle data.
 | [LiveTrafficCam](https://bzsasson.github.io/traffic-camera-sources/api.html) | API | Live US state DOT traffic cameras with verified live status and measured uptime | Free tier | None | - | - | public-apis | - |
 | [MarineTraffic](https://www.kpler.com/product/maritime/data-services) | Portal | Ship tracking and maritime data available for public use | Paid | API key | Unknown | [docs](https://www.marinetraffic.com/) | editorial | 2026-10-24 |
 | [Mercedes-Benz](https://developer.mercedes-benz.com/products) | API | Telematics data, remotely access vehicle functions, car configurator, locate service dealers | Free tier | API key | - | - | public-apis | - |
-| [Metro Lisboa](http://app.metrolisboa.pt/status/getLinhas.php) | API | Lisbon metro line status API with real-time delay info | Free tier | None | - | - | public-apis | - |
+| [Metro Lisboa](https://app.metrolisboa.pt/status/getLinhas.php) | API | Lisbon metro line status API with real-time delay info | Free tier | None | - | - | public-apis | - |
 | [MobilityData GTFS](https://mobilitydatabase.org/) | Portal | Global GTFS and GTFS-Realtime feed catalog available for public use | Free | None | Unknown | [docs](https://mobilitydatabase.org/) | editorial | 2026-10-24 |
 | [Navitia](https://doc.navitia.io) | API | The open API for building cool stuff with transport data | Free tier | API key | - | - | public-apis | - |
 | [NHTSA](https://vpic.nhtsa.dot.gov/api) | API | NHTSA Product Information Catalog and Vehicle Listing | Free tier | None | - | - | public-apis | - |
-| [NHTSA Vehicle Recalls](https://rapidapi.com/crisp-point-studio-crisp-point-studio-default/api/live-nhtsa-vehicle-recalls) | API | NHTSA safety recalls by model year, make and model with component, consequence and remedy | Free tier | API key | - | - | public-apis | - |
 | [On va où ?](https://onvaou.app/developers/routing-api.html) | API | Bike, scooter, motorcycle, wheelchair and walking routes across Europe, with safety indicators | Free tier | API key | - | - | public-apis | - |
 | [Open Charge Map](https://openchargemap.org/loginprovider/beginlogin) | API | Global public registry of electric vehicle charging locations | Free tier | API key | - | - | public-apis | - |
 | [OpenFlights](https://openflights.org/) | Dataset | Airport and airline route database available for public use | Free | None | Unknown | [docs](https://openflights.org/) | editorial | 2026-10-24 |
@@ -79,7 +76,7 @@ Transit, shipping, flights, routing and vehicle data.
 | [TransCAPI](https://www.transcapi.com/docs) | API | Live bus and rail departures, vehicles, disruptions and journey planning for Great Britain | Free tier | API key | - | - | public-apis | - |
 | [TransitRadar](https://transitradar.co.uk/scalar/) | API | Live GB train and bus departures, positions and journey planning | Free tier | None | - | - | public-apis | - |
 | [TransparentCars](https://transparent.pt/en/api) | API | Fair-price valuation and yearly road tax (IUC) for used cars in Portugal | Free tier | None | - | - | public-apis | - |
-| [Transport for Atlanta, US](http://www.itsmarta.com/app-developer-resources.aspx) | API | MARTA Atlanta public transport data and API | Free tier | None | - | - | public-apis | - |
+| [Transport for Atlanta, US](https://itsmarta.com/app-developer-resources.aspx) | API | MARTA Atlanta public transport data and API | Free tier | None | - | - | public-apis | - |
 | [Transport for Auckland, New Zealand](https://dev-portal.at.govt.nz/) | API | Auckland Transport developer portal with transport APIs | Free tier | None | - | - | public-apis | - |
 | [Transport for Belgium](https://docs.irail.be) | API | The iRail API is a third-party API for Belgian public transport by train | Free tier | None | - | - | public-apis | - |
 | [Transport for Bordeaux, France](https://opendata.bordeaux-metropole.fr/explore) | API | Bordeaux Métropole public transport and more (France) | Free tier | API key | - | - | public-apis | - |
@@ -92,12 +89,12 @@ Transit, shipping, flights, routing and vehicle data.
 | [Transport for Lisbon, Portugal](https://emel.city-platform.com/opendata) | API | Data about buses routes, parking and traffic | Free tier | API key | - | - | public-apis | - |
 | [Transport for London, England](https://api.tfl.gov.uk) | API | Transport for London unified API for transit data | Free tier | API key | - | - | public-apis | - |
 | [Transport for Los Angeles, US](https://api.metro.net/) | API | Data about positions of Metro vehicles in real time and travel their routes | Free tier | None | - | - | public-apis | - |
-| [Transport for Manchester, England](https://developer.tfgm.com/) | API | Transport for Greater Manchester network data | Free tier | API key | - | - | public-apis | - |
+| [Transport for Manchester, England](https://tfgm.com/data-analytics-and-insight/open-data-portal) | API | Transport for Greater Manchester network data | Free tier | API key | - | - | public-apis | - |
 | [Transport for Norway](https://developer.entur.org) | API | Entur open APIs for Norway's public transport: journey planning, real-time vehicle positions, stops, geocoding, and mobility data | Free tier | None | - | - | public-apis | - |
 | [Transport for Ottawa, Canada](https://www.octranspo.com/en/plan-your-trip/travel-tools/developers) | API | OC Transpo Ottawa public transit data API | Free tier | API key | - | - | public-apis | - |
-| [Transport for Paris, France](http://data.ratp.fr/api/v1/console/datasets/1.0/search/) | API | RATP Paris open data API for public transport | Free tier | None | - | - | public-apis | - |
+| [Transport for Paris, France](https://data.ratp.fr/api-console/explore/v2.1/) | API | RATP Paris open data API for public transport | Free tier | None | - | - | public-apis | - |
 | [Transport for Philadelphia, US](http://www3.septa.org/hackathon/) | API | SEPTA Philadelphia regional transit data API | Free tier | None | - | - | public-apis | - |
-| [Transport for Sao Paulo, Brazil](http://www.sptrans.com.br/desenvolvedores/api-do-olho-vivo-guia-de-referencia/documentacao-api/) | API | SPTrans Sao Paulo bus transport data API | Free tier | OAuth | - | - | public-apis | - |
+| [Transport for Sao Paulo, Brazil](https://www.sptrans.com.br/desenvolvedores/api-do-olho-vivo-guia-de-referencia/documentacao-api/) | API | SPTrans Sao Paulo bus transport data API | Free tier | OAuth | - | - | public-apis | - |
 | [Transport for Spain](https://data.renfe.com/api/1/util/snippet/api_info.html?resource_id=a2368cff-1562-4dde-8466-9635ea3a572a) | API | Spanish train data API via CKAN datastore (Renfe) | Free tier | None | - | - | public-apis | - |
 | [Transport for Sweden](https://www.trafiklab.se/api) | API | Trafiklab Swedish public transport consumer APIs | Free tier | OAuth | - | - | public-apis | - |
 | [Transport for Switzerland](https://opentransportdata.swiss/en) | API | Swiss open transport data platform providing timetables, real-time data, and GTFS feeds via managed APIs | Free tier | API key | - | - | public-apis | - |
@@ -105,7 +102,7 @@ Transit, shipping, flights, routing and vehicle data.
 | [Transport for Toronto, Canada](https://myttc.ca/developers) | API | Toronto Transit Commission data API (MyTTC) | Free tier | None | - | - | public-apis | - |
 | [Transport for UK](https://developer.transportapi.com) | API | TransportAPI managed service for UK bus and rail information, journey planning, departure boards, places, and performance data | Free tier | API key | - | - | public-apis | - |
 | [Transport for United States](https://retro.umoiq.com/xmlFeedDocs/NextBusXMLFeed.pdf) | API | NextBus real-time transit predictions XML feed | Free tier | None | - | - | public-apis | - |
-| [Transport for Vancouver, Canada](https://developer.translink.ca/) | API | TransLink Vancouver transit and road network API | Free tier | OAuth | - | - | public-apis | - |
+| [Transport for Vancouver, Canada](https://www.translink.ca/about-us/doing-business-with-translink/app-developer-resources) | API | TransLink Vancouver transit and road network API | Free tier | OAuth | - | - | public-apis | - |
 | [Transport for Washington, US](https://developer.wmata.com) | API | WMATA API for Washington Metro: train and bus arrivals, schedules, station data, GTFS feeds, and service alerts | Free tier | OAuth | - | - | public-apis | - |
 | [transport.rest](https://transport.rest) | API | Community maintained, developer-friendly public transport API | Free tier | None | - | - | public-apis | - |
 | [Travel Risk Aviation](https://api.travelriskapi.com/ext/reference) | API | Flight status, airports, airlines, airline safety and in-flight Wi-Fi data | Free tier | API key | - | - | public-apis | - |

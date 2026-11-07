@@ -30,7 +30,6 @@ Clinical trials, medical literature, health statistics and terminology.
 | [ERstat](https://erstat.ca/developers) | API | Live Canadian emergency room closures and service disruptions, by province | Free tier | API key | - | - | public-apis | - |
 | [EU Clinical Trials Register](https://www.clinicaltrialsregister.eu/) | Portal | European Union Clinical Trials Register with study protocols and results | Free | None | - | - | editorial | 2026-10-26 |
 | [European Health Information Gateway](https://gateway.euro.who.int/en/) | Portal | European health indicators and data available for public use | Free | None | Unknown | - | editorial | 2026-10-24 |
-| [FDA Recalls](https://rapidapi.com/crisp-point-studio-crisp-point-studio-default/api/live-fda-product-food-recalls) | API | Latest FDA food, drug and product recall notices as JSON with keyword search | Free tier | API key | - | - | public-apis | - |
 | [FindSaunaPlunge](https://findsaunaplunge.com/api) | API | US cold plunge and sauna venues with dated, source-quoted temperatures and prices | Free tier | None | - | - | public-apis | - |
 | [FoodData Central](https://fdc.nal.usda.gov) | API | National Nutrient Database for Standard Reference | Free tier | API key | - | - | public-apis | - |
 | [GARD](https://rarediseases.info.nih.gov/) | Portal | Information center for thousands of rare and genetic diseases | Free | None | - | [docs](https://rarediseases.info.nih.gov/about) | editorial | 2026-10-26 |
@@ -42,7 +41,7 @@ Clinical trials, medical literature, health statistics and terminology.
 | [Human Phenotype Ontology](https://hpo.jax.org/) | Portal | Standardized vocabulary of phenotypic abnormalities in human disease | Free | None | - | - | editorial | 2026-10-26 |
 | [ICD API](https://icd.who.int/icdapi) | API | REST API for ICD-11 classification versions, coding tools and diagnostic health information | Free | OAuth | [ICD-11 license](https://icd.who.int/en/docs/ICD11-license.pdf) | [docs](https://icd.who.int/icdapi) | editorial | 2026-10-26 |
 | [Infermedica](https://developer.infermedica.com/documentation/overview/) | API | NLP based symptom checker and patient triage API for health diagnosis from text | Free tier | API key | - | [docs](https://api.apis.guru/v2/specs/infermedica.com/v2/swagger.json) | public-apis, APIs.guru | - |
-| [LAPIS](https://cov-spectrum.ethz.ch/public) | API | SARS-CoV-2 genomic sequences from public sources | Free tier | None | - | - | public-apis | - |
+| [LAPIS](https://cov-spectrum.org/public) | API | SARS-CoV-2 genomic sequences from public sources | Free tier | None | - | - | public-apis | - |
 | [Lexigram](https://docs.lexigram.io) | API | NLP that extracts mentions of clinical concepts from text, gives access to clinical ontology | Free tier | API key | - | - | public-apis | - |
 | [LOINC](https://loinc.org/) | Portal | Standard codes for laboratory and clinical observations with search and download APIs | Free | Registration | - | [docs](https://loinc.org/kb/api/search-api) | editorial | 2026-10-26 |
 | [Longevity World Cup](https://longevityworldcup.com/api/data/athletes) | API | Public biological age competition data with biomarkers and rankings | Free tier | None | - | - | public-apis | - |
@@ -60,7 +59,7 @@ Clinical trials, medical literature, health statistics and terminology.
 | [Open Targets](https://platform-docs.opentargets.org) | API | Comprehensive API for therapeutic drug-target identification, with scored target-disease associations and annotations | Free tier | None | - | - | public-apis | - |
 | [openFDA](https://open.fda.gov/) | Portal | FDA drug, device, and food data API available for public use | Free | API key | Public Domain | [docs](https://open.fda.gov/) | editorial | 2026-10-24 |
 | [Orion Health](https://developer.orionhealth.io) | API | Medical platform which allows the development of applications for different healthcare scenarios | Free tier | OAuth | - | - | public-apis | - |
-| [Orphanet](https://www.orpha.net/) | Portal | Rare disease knowledge base with ORPHA codes, genes and expert centers | Free | None | - | [docs](https://www.orphadata.com/) | editorial | 2026-10-26 |
+| [Orphanet](https://www.orpha.net/en/) | Portal | Rare disease knowledge base with ORPHA codes, genes and expert centers | Free | None | - | [docs](https://www.orphadata.com/) | editorial | 2026-10-26 |
 | [Peptide Library](https://peptidelibrary.app/developers/docs) | API | Peptide research profiles, cited studies and regulatory status; vendor prices with a free key | Free tier | None | - | - | public-apis | - |
 | [PhysioBank Databases](https://www.physionet.org/data/) | Dataset | A large and growing archive of physiological data | - | - | - | - | awesome-datasets | - |
 | [PhysioNet](https://physionet.org/) | Portal | Physiological signal databases and research tools available for public use | Free | Registration | Unknown | [docs](https://physionet.org/) | editorial | 2026-10-24 |

@@ -66,10 +66,9 @@ Forecasts, observations, reanalysis and climate projections.
 | [SustainMetrics](https://www.sustainmetrics.net/api) | API | 18,000+ GHG emission factors from DEFRA, EPA, ADEME, Ember | Free tier | API key | - | - | public-apis | - |
 | [Sähkön hinta nyt](https://xn--shknhintanyt-gcb8w.org/integraatiot) | API | Finnish and Nordic day-ahead electricity spot prices (15-minute), cheapest hours | Free tier | None | - | - | public-apis | - |
 | [Terrace Weather](https://terrace.javiermateo.dev/swagger-ui/index.html) | API | Terrace open/closed verdict for restaurants, from the weather forecast | Free tier | None | - | - | public-apis | - |
-| [Tomorrow](https://docs.tomorrow.io/reference/welcome) | API | Weather API Powered by Proprietary Technology | Free tier | API key | - | - | public-apis | - |
 | [Tomorrow.io](https://www.tomorrow.io) | API | Weather intelligence API with forecast, nowcast and historical data | Freemium | API key | - | [docs](https://docs.tomorrow.io/reference/welcome) | editorial | 2026-10-24 |
 | [UK Carbon Intensity](https://carbon-intensity.github.io/api-definitions) | API | The Official Carbon Intensity API for Great Britain developed by National Grid | Free tier | None | - | - | public-apis | - |
-| [UNEP data](https://data.unep.org/) | Portal | UN environment data and indicators available for public use | Free | None | Unknown | [docs](https://data.unep.org/) | editorial | 2026-10-24 |
+| [UNEP data](https://wesr.unep.org/) | Portal | UN environment data and indicators available for public use | Free | None | Unknown | [docs](https://data.unep.org/) | editorial | 2026-10-24 |
 | [US Weather](https://www.weather.gov/documentation/services-web-api) | API | US National Weather Service API with forecasts | Free tier | None | - | - | public-apis | - |
 | [Veabird](https://veabird.com/api/v1) | API | Beach (sargassum, waves, hurricanes) and ski snow forecasts for 1,900+ resorts, no key | Free tier | None | - | - | public-apis | - |
 | [Visual Crossing](https://www.visualcrossing.com) | API | Weather API for historical data, current conditions and forecasts | Freemium | API key | Visual Crossing Weather API | [docs](https://www.visualcrossing.com/weather-api) | editorial | 2026-10-24 |
