@@ -79,20 +79,20 @@ Last reviewed 2026-11-07, in the pre-release audit.
 
 ## At the flip
 
-- [ ] Flip visibility to public.
-- [ ] Enable private vulnerability reporting (Security settings), then confirm the
-      links in `SECURITY.md` and `CODE_OF_CONDUCT.md` resolve. On a private
-      repository on the free plan this feature is unavailable, which is why the
-      check sits after the flip.
-- [ ] Protect `main`: require the `validate` and `tests` checks, no force pushes,
-      linear history optional. Branch protection also needs a public repository on
-      the free plan.
+- [x] Flip visibility to public. Done on 2026-11-07 from the merge commit of the
+      release pull request.
+- [x] Enable private vulnerability reporting (Security settings), then confirm the
+      links in `SECURITY.md` and `CODE_OF_CONDUCT.md` resolve.
+- [x] Protect `main`: the `validate` and `tests` checks are required, force pushes
+      and branch deletion are blocked.
 
 ## After the flip
 
-- [ ] Create the `v2.0.0` release from the merge commit, with the CHANGELOG section
-      as the notes.
-- [ ] Check the README badges and relative links render on the public repository.
+- [x] Create the `v2.0.0` release from the merge commit, with the CHANGELOG section
+      as the notes. Published 2026-11-07.
+- [x] Check the README badges and relative links render on the public repository.
+      Verified 2026-11-07: the validate badge, the CC BY badge and the raw
+      `catalog.jsonl` all answer 200.
 - [ ] Watch issues for the first week, especially correction reports.
 - [ ] Re-run the maintenance report monthly.
 - [ ] Decide on the optional schedule only after the first two manual runs behaved

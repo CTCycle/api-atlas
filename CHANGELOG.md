@@ -8,8 +8,8 @@ the SQLite index, the importers and the scheduled refresh workflows were removed
 
 ### Release readiness (2026-11-07)
 
-- Full re-verification of 2,878 URLs: 2,635 reachable, 57 moved, 92 gated, 43
-  timeouts, 23 transport errors, 16 TLS errors, 5 unreachable, 3 DNS failures,
+- Full re-verification of 2,873 URLs: 2,640 answered, 43 moved, 100 gated, 42
+  timeouts, 22 transport errors, 16 TLS errors, 5 unreachable, 1 DNS failure,
   1 broken link, 1 redirect loop, 2 incomplete certificate chains. Four pages
   carried retirement wording and were reviewed individually.
 - Cross-checked the catalog against public-apis/public-apis (2,343 rows),
@@ -39,8 +39,8 @@ the SQLite index, the importers and the scheduled refresh workflows were removed
   The report used to list 63 pairs, most of them `data.gov.*` false positives;
   after the merges and the rule change it returns 0 groups and 0 pairs. Covered
   by two new unit tests.
-- Two rows that failed local DNS (`AgentPay Doc Tools`, `UK Legislation
-  Changes`) were confirmed live through a third-party reader and kept. A local
+- Rows that failed the local sweep (`AgentPay Doc Tools`, `Covid-19 Datenhub`)
+  answered a browser GET and a third-party reader and were kept. A local
   resolver failure is not a dead domain.
 - Catalog: 2,520 rows (2,092 APIs, 285 portals, 76 datasets, 67 MCP servers).
 - OpenAPI index refreshed: 528 of 2,092 API rows publish a parseable OpenAPI or
