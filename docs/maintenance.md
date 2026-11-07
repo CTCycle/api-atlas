@@ -67,7 +67,9 @@ per host limit. Expect 15 to 30 minutes.
 | Moved, same domain | New canonical path | Update the link to `final_url`, then re-check |
 | Moved, different domain | Rebrand, acquisition or hijack | Open it in a browser, confirm the service is the same, then update or remove |
 | Parked or expired | Domain for sale or lapsed | Remove |
-| 401, 402, 403, 429, 451 | Gated or rate limited | Keep the row. Record the auth requirement if it changed |
+| 401, 402 | Authentication required | Read the docs and fix the `Auth` value |
+| 403, 429 with a challenge page ("Just a moment", "Access Denied", a CDN error) | Bot protection or a rate limit, not an access model | Keep the row. Re-check in a browser; never change `Auth` from this signal |
+| 403, 429, 451 on the API documentation | Gated, rate limited or legally restricted | Keep the row. Record the access or auth value if the docs say it changed |
 | 404, 410 | Gone | Confirm in a browser, then fix the link or remove the row |
 | DNS failure | Domain retired | Confirm, then remove |
 | TLS error | Often bot protection | Re-check in a browser before acting |
@@ -94,7 +96,9 @@ Two rules override everything else:
   parking wording. It still cannot read pricing out of a page that renders with
   JavaScript.
 - `triage` groups the newest verify report by the decision each row needs. It is a
-  work queue, not a verdict.
+  work queue, not a verdict. A 403 that carries a bot-challenge title goes to
+  `bot-gated`, not to `auth-mismatch`: a Cloudflare or CDN block says nothing about
+  how the API authenticates.
 - `probe` proves that a provider publishes an OpenAPI or Swagger document that
   parses and has paths. That is the strongest evidence available without a key; it
   does not prove every endpoint responds. It follows redirects to the document's

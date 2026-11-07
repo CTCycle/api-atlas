@@ -6,6 +6,46 @@ The registry became a catalog. The machine-readable registry of 5,227 records wa
 replaced by a curated Markdown directory, and the Python package, the JSON Schema,
 the SQLite index, the importers and the scheduled refresh workflows were removed.
 
+### Release readiness (2026-11-07)
+
+- Full re-verification of 2,878 URLs: 2,635 reachable, 57 moved, 92 gated, 43
+  timeouts, 23 transport errors, 16 TLS errors, 5 unreachable, 3 DNS failures,
+  1 broken link, 1 redirect loop, 2 incomplete certificate chains. Four pages
+  carried retirement wording and were reviewed individually.
+- Cross-checked the catalog against public-apis/public-apis (2,343 rows),
+  awesome-public-datasets (1,153), the APIs.guru directory (2,529) and
+  awesome-mcp-servers (4,638). Numbers and the reason for the remaining gap are
+  published in `docs/comparison.md`.
+- 10 rows added from the public-apis cross-reference after fetching and reading
+  each page: Trello REST API, Airtable Web API, Notion API, crates.io API,
+  Kraken REST API, Open Exchange Rates, Simkl API, Trakt API, Wikipedia API and
+  Detect Language.
+- 22 rows repointed to the provider's own site or documentation, including
+  `Inferdo`, `Lecto Translation`, `Hyperliquid Market Data`, `CartScout`,
+  `APIs.guru`, `Checkiday`, `FaturaPDF`, `uNoGS`, `Filingrail`, `CISA KEV`,
+  `NoPhishy`, `PeakMetrics`, `NBA Data`, `Zettle Product Library API`, two
+  Vonage rows, `IPinfo`, `OLX Poland`, `Orphanet`, `Bank Negara Malaysia Open
+  Data` and `Open Government, Thailand`.
+- 31 rows left the catalog: 26 deleted and 5 merged into the surviving row.
+  Deleted with evidence: `Cep.la` (dead domain) and 25 marketplace-only,
+  duplicated or undocumented rows from the audit, among them `Tasty`,
+  `Mangapi`, `Telize`, `Live SEC Form 4 Insider Trades`, `FDA Recalls`,
+  `NHTSA Vehicle Recalls`, `Discovery API`, `Fulfillment API`, `BBC Nitro API`,
+  `Songlink / Odesli`, `Dealer`, `NovaFortix Dev` and `API Endpoints`. Merged:
+  `Mistral AI` into Mistral, `EIA` into EIA API, `UK Companies House` into
+  Companies House, `Federal Register` into Federal Register API and `Tomorrow`
+  into Tomorrow.io.
+- `duplicates` no longer pairs single-token names that sit on different sites.
+  The report used to list 63 pairs, most of them `data.gov.*` false positives;
+  after the merges and the rule change it returns 0 groups and 0 pairs. Covered
+  by two new unit tests.
+- Two rows that failed local DNS (`AgentPay Doc Tools`, `UK Legislation
+  Changes`) were confirmed live through a third-party reader and kept. A local
+  resolver failure is not a dead domain.
+- Catalog: 2,520 rows (2,092 APIs, 285 portals, 76 datasets, 67 MCP servers).
+- OpenAPI index refreshed: 528 of 2,092 API rows publish a parseable OpenAPI or
+  Swagger document. Three of the ten added rows added a spec.
+
 ### Release readiness (2026-11-03)
 
 - Full re-verification: 2,887 URLs, 2,640 reachable, 58 moved, 95 gated, 34

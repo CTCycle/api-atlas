@@ -5,7 +5,7 @@ Content and community items can be done at any time; the settings GitHub only
 exposes on public repositories (branch protection, private vulnerability reporting)
 and the version tag happen at or after the flip, in the order given.
 
-Last reviewed 2026-11-03, after the release-readiness pull request.
+Last reviewed 2026-11-07, in the pre-release audit.
 
 ## Content
 
@@ -15,15 +15,30 @@ Last reviewed 2026-11-03, after the release-readiness pull request.
       freshness check passes.
 - [x] Full verification completed within the last 30 days:
       `python scripts/catalog.py verify`, then `python scripts/catalog.py triage`.
+      2,830 URLs checked on 2026-11-07, after the last row edit.
 - [x] Every row in the `remove-or-replace`, `retired` and `confirm-new-domain`
-      buckets is fixed or accepted with a note in the pull request.
+      buckets is fixed or accepted with a note in the pull request. Two DNS
+      failures were confirmed live through a third-party reader and kept; Cep.la
+      was removed; LAPIS was repointed to cov-spectrum.org; the deprecated
+      Tripadvisor Content API row was replaced by Terra.
 - [x] `python scripts/probe.py --missing --index data/openapi-index.json` run, so
-      the published spec index matches the catalog.
+      the published spec index matches the catalog: 528 of 2,092 API rows.
 - [x] No category file is a placeholder. Empty categories either have content or do
       not exist in `CATEGORIES`.
-- [x] Counts quoted in README and CHANGELOG match `stats` output.
+- [x] Counts quoted in README and CHANGELOG match `stats` output: 2,520 rows.
 - [x] No duplicate rows: `python scripts/catalog.py duplicates` reports no shared
       URL or name group, and every exported `id` is unique.
+
+## Cross-reference against upstream collections
+
+- [x] public-apis/public-apis, awesomedata/awesome-public-datasets,
+      APIs-guru/openapi-directory and punkpeye/awesome-mcp-servers fetched on
+      2026-11-07 and compared by URL, path and provider host.
+- [x] Every candidate that passed the scope filters was probed before it was
+      added; 10 rows were accepted and the rest recorded as dead, parked, gated or
+      out of scope.
+- [x] The coverage numbers and the reason for the remaining gap are published in
+      `docs/comparison.md`.
 
 ## Legal and attribution
 
